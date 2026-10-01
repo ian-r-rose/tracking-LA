@@ -8,5 +8,24 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81191",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-05-2026/PS_1464_1A.pdf"
-  ]
+  ],
+  "summary": "Appeal of Advisory Agency's approval of a Private Street to provide legal frontage and street access for parcels at 5000 South Beethoven Street, including construction of a private access bridge over Centinela Creek.",
+  "topics": [
+    "land_use",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "5000 South Beethoven Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "PS-1464-1A"
+    ],
+    "council_district": 11,
+    "plan_area": "Palms – Mar Vista – Playa Del Rey",
+    "applicant": "Ilan Israely, 5000 Beethoven LLC",
+    "action": "Appeal of Private Street approval"
+  }
 }

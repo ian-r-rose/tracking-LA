@@ -8,5 +8,17 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81431",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/09-17-2026/AA_2024_7142_PM_HCA_1A.pdf"
-  ]
+  ],
+  "summary": "Appeal of Deputy Advisory Agency's approval for subdivision of one parcel into four parcels at 21126 and 21128 West Chatsworth Street.",
+  "topics": ["land_use", "housing"],
+  "locations": [
+    {"text": "21126 West Chatsworth Street, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["AA-2024-7142-PM-HCA-1A", "ENV-2024-7143-CE"],
+    "council_district": 12,
+    "plan_area": "Chatsworth – Porter Ranch",
+    "applicant": "Raz and Keren Ben-Aharon",
+    "action": "appeal of parcel map approval for subdivision into four lots"
+  }
 }

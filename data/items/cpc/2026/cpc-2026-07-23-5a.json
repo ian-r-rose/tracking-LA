@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81121",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/07-23-2026/CPC_2024_3112.pdf"
-  ]
+  ],
+  "summary": "Construction of a six-story, 70-unit mixed-use multifamily development at 2800 West Jefferson Boulevard with 2,000 square feet of ground floor commercial space and nine units reserved for very low-income households.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2800 West Jefferson Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2024-3112-DB-VHCA"
+    ],
+    "council_district": 10,
+    "plan_area": "West Adams – Baldwin Hills – Leimert",
+    "action": "Density Bonus for 70-unit multifamily development with 9 very low-income units"
+  }
 }

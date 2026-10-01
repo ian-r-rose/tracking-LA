@@ -8,5 +8,17 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81052",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/07-08-2026/ZA_2025_2856_CU1_SPPC_HCA_1A_Commision_Packet.pdf"
-  ]
+  ],
+  "summary": "Appeal of Zoning Administrator's approval to construct two new single-family dwellings on a hillside lot at 1236 North Cliff Drive under Senate Bill 9.",
+  "topics": ["land_use", "housing"],
+  "locations": [
+    {"text": "1236 North Cliff Drive, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["ZA-2025-2856-CU1-SPPC-HCA-1A", "ENV-2025-2857-CE", "ADM-2024-7883-PMUL"],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "applicant": "Hallie Black, As The Crow, LLC",
+    "action": "appeal of conditional use permits for construction of two single-family dwellings"
+  }
 }

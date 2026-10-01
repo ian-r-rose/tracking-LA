@@ -1,0 +1,29 @@
+# What makes an agenda item interesting. Read by the routine (ROUTINE.md) and lacomm.
+
+topics:
+  - parks
+  - transportation
+  - land_use
+
+# Neighborhood names as they appear in geo/neighborhoods.geojson
+# (LA Times "Mapping L.A." boundaries via LA GeoHub, CC BY 4.0).
+neighborhoods:
+  - Silver Lake
+  - East Hollywood
+  - Los Feliz
+  - Echo Park
+  - Downtown
+  - Chinatown
+  - Historic Filipinotown  # not in the LA Times dataset; covered by Echo Park/Westlake + nearby_km
+  - Hollywood
+  - Koreatown
+  - Westlake
+  - Atwater Village
+  - Glassell Park
+  - Mount Washington
+  - Cypress Park
+  - Highland Park
+  - Pico-Union
+
+# Items within this distance of a listed neighborhood also count as nearby.
+nearby_km: 1.0

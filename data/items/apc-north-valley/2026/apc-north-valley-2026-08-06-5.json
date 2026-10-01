@@ -8,5 +8,17 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81190",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-06-2026/APCNV_2024_7726_continuance.pdf"
-  ]
+  ],
+  "summary": "Proposed demolition of single-family residence for construction of four duplex buildings with eight dwelling units at 9236 North Burnet Avenue.",
+  "topics": ["land_use", "housing"],
+  "locations": [
+    {"text": "9236 North Burnet Avenue, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["APCNV-2024-7726-VZC-ADJ-HCA", "ENV-2024-7727-SE"],
+    "council_district": 7,
+    "plan_area": "Mission Hills – Panorama City – North Hills",
+    "applicant": "Henry Wang, Vibehen Property, LLC",
+    "action": "requested vesting zone change and adjustment for construction of four duplexes"
+  }
 }

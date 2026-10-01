@@ -8,5 +8,18 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81296",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-25-2026/ZA_2024_6488_CU2_1A_Commission_Packet__2_.pdf"
-  ]
+  ],
+  "summary": "Appeal of Zoning Administrator's approval to legalize conversion of a duplex and accessory building into a house of worship at 200 and 202 South Orange Drive.",
+  "topics": ["land_use"],
+  "locations": [
+    {"text": "200 South Orange Drive, Los Angeles, CA"},
+    {"text": "5566 West 2nd Street, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["ZA-2024-6488-CU2-1A", "ENV-2024-6489-CE"],
+    "council_district": 5,
+    "plan_area": "Wilshire",
+    "applicant": "Yekusiel Kalmenson",
+    "action": "appeal of conditional use permit approval for house of worship conversion"
+  }
 }

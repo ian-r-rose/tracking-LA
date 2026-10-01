@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81214",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-06-2026/CPC_2023_7894.pdf"
-  ]
+  ],
+  "summary": "Mixed-use commercial and residential development at 7528 Bellaire Avenue with 217,827 square feet of commercial floor area and eight dwelling units, including storage use.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "7528 Bellaire Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2023-7894-GPA-ZC-CU-SPR-HCA"
+    ],
+    "council_district": 2,
+    "plan_area": "Sun Valley – La Tuna Canyon",
+    "action": "General Plan Amendment and Zone Change for mixed-use development with storage"
+  }
 }

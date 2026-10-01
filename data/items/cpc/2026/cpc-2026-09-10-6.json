@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81373",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/09-10-2026/CPC_2026_3542.pdf"
-  ]
+  ],
+  "summary": "Construction of a new two-story Los Angeles Fire Department Fire Station No. 31 at 16300 Foothill Boulevard in Sylmar.",
+  "topics": [
+    "public_safety",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "16300 Foothill Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2026-3542-GPA-ZC"
+    ],
+    "council_district": 7,
+    "plan_area": "Sylmar",
+    "action": "General Plan Amendment and Zone Change for fire station construction"
+  }
 }

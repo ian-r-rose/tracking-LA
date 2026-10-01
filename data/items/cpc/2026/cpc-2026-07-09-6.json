@@ -8,5 +8,22 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81051",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/06-30-2026/CPC_2025_5194.pdf"
-  ]
+  ],
+  "summary": "Demolition of a warehouse building and construction of a seven-story self-storage facility at 4802 West San Vicente Boulevard with office, lobby, and community room spaces.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "4802 West San Vicente Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-5194-HD-CU2-PR-ZC"
+    ],
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "action": "Zone Change and Conditional Use Permit for self-storage facility"
+  }
 }

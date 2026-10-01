@@ -8,5 +8,17 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81161",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/07-28-2026/ZA_2025_2662_CUB_CUX_1A_Commission_Packet.pdf"
-  ]
+  ],
+  "summary": "Appeal of Zoning Administrator's approval to allow a banquet hall with alcohol service and extended operating hours at 261 South Kenmore Avenue.",
+  "topics": ["land_use"],
+  "locations": [
+    {"text": "261 South Kenmore Avenue, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["ZA-2025-2662-CUB-CUX-1A", "ENV-2025-2663-CE"],
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "applicant": "Jonathan Lavi",
+    "action": "appeal of Zoning Administrator's approval of conditional use permits"
+  }
 }

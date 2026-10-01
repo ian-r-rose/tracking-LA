@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81041",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/07-07-2026/ZA_2008_2049_CUB_PA2_1A_Commission_Packet.pdf"
-  ]
+  ],
+  "summary": "Appeal of a Zoning Administrator's decision denying modifications to alcohol sales conditions at 2115 West Jefferson Boulevard, requesting extended closing time from 11 p.m. to 2 a.m. and elimination of security guard requirement.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2115 West Jefferson Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2008-2049-CUB-PA2-1A"
+    ],
+    "council_district": 10,
+    "plan_area": "West Adams – Baldwin Hills – Leimert",
+    "applicant": "Hyon Chin Yoon",
+    "action": "Appeal of Zoning Administrator's determination to deny modification of alcohol sales conditions"
+  }
 }

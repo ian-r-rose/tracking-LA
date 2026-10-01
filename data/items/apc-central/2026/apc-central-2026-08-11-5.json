@@ -8,5 +8,17 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81213",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-11-2026/APCC_2021_7874.pdf"
-  ]
+  ],
+  "summary": "Proposed construction of a three-story single-family dwelling on a hillside lot in Hollywood requiring multiple zoning adjustments and specific plan exceptions.",
+  "topics": ["land_use", "housing"],
+  "locations": [
+    {"text": "6023 West Rodgerton Drive, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["APCC-2021-7874-SPE-ZAA-ZAD-SPP-DRB", "ENV-2021-7875-CE"],
+    "council_district": 4,
+    "plan_area": "Hollywood",
+    "applicant": "Sarkis Mkhitarian",
+    "action": "requested approval for new single-family dwelling with multiple zoning adjustments"
+  }
 }

@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81511",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-08-2026/CPC_2025_5724.pdf"
-  ]
+  ],
+  "summary": "Demolition of chlorine detention pond and construction of new wastewater treatment tanks, equipment, and Advanced Water Purification Demonstration Facility at 4590 West Colorado Boulevard as part of LA-Glendale Water Reclamation Plan campus.",
+  "topics": [
+    "environment",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "4590 West Colorado Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-5724-CU3"
+    ],
+    "council_district": 13,
+    "plan_area": "Northeast Los Angeles",
+    "action": "Class 3 Conditional Use Permit for sewage treatment facility"
+  }
 }

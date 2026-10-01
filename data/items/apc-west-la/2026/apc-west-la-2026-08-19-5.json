@@ -8,5 +8,24 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81259",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-19-2026/ZA_2022_3147_CU1_HCA_1A_Compiled_Agenda_Packet.pdf"
-  ]
+  ],
+  "summary": "Appeal of Zoning Administrator's approval of demolition and construction of new 2,658 square-foot three-story single-family dwelling with Accessory Dwelling Unit at 9832 West Wanda Park Drive.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "9832 West Wanda Park Drive, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2022-3147-CU1-HCA-1A"
+    ],
+    "council_district": 5,
+    "plan_area": "Bel Air – Beverly Crest",
+    "applicant": "Ed Mashover",
+    "action": "Appeal of Conditional Use Permit for single-family residence and ADU"
+  }
 }

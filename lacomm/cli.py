@@ -1,9 +1,11 @@
 import argparse
+import sys
 from collections import Counter
 from datetime import date, timedelta
 
 import httpx
 
+from lacomm.check import check_all
 from lacomm.sources import planning
 from lacomm.store import upsert_item
 
@@ -33,6 +35,11 @@ def main() -> None:
     sub = parser.add_subparsers(dest="command", required=True)
     p = sub.add_parser("fetch", help="Fetch agendas for meetings since N days ago (and all upcoming)")
     p.add_argument("--since", type=int, default=30, metavar="DAYS")
+    sub.add_parser("check", help="Validate item files (run after extraction)")
     args = parser.parse_args()
     if args.command == "fetch":
         fetch(args.since)
+    elif args.command == "check":
+        bad = check_all()
+        print(f"{bad} item file(s) with problems" if bad else "all items OK")
+        sys.exit(1 if bad else 0)

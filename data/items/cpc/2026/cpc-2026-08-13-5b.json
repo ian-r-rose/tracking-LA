@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81214",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-06-2026/CPC_2025_4639.pdf"
-  ]
+  ],
+  "summary": "Construction of an eight-story, 379-unit residential development at 3190 South La Cienega Boulevard with 42 units reserved for extremely low-income households and 322 parking spaces.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3190 South La Cienega Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-4639-CU3-TOIA-VHCA"
+    ],
+    "council_district": 10,
+    "plan_area": "West Adams – Baldwin Hills – Leimert",
+    "action": "Class 3 Conditional Use Permit and Density Bonus for 379-unit residential development"
+  }
 }

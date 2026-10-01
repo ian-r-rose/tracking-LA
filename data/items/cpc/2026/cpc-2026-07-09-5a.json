@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81051",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/06-30-2026/CPC_2023_3247.pdf"
-  ]
+  ],
+  "summary": "Construction of a new three-story, seven-unit apartment building with two affordable units at the rear of an existing historic duplex at 217 North Avenue 55 in the Highland Park Historic Preservation Overlay Zone.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "217 North Avenue 55, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2023-3247-DB-COA-HCA"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "action": "Density Bonus for seven-unit apartment with affordable units"
+  }
 }

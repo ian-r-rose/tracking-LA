@@ -7,5 +7,21 @@
   "text": "MONUMENT: BENEFICIAL PLAZA AND LIBERTY PARK, HISTORIC-CULTURAL MONUMENT\n  #1157\n\n  Plan Area: Wilshire  Council District: 10 – Hutt\n\n  PROPERTY ADDRESS:  3700 – 3732 Wilshire Boulevard; 651 – 673 South Serrano Avenue;\n  658 – 674 South Oxford Avenue\n\n  Informational presentation on the proposed rehabilitation of the Monument from office to residential.\n  Commission review and comment.\n\n  Owner/Applicant:  Wilshire Park Place LLC\n\n  Presenters:  John LoCascio, Historic Resources Group; Rocky Rockefeller, Rockefeller\n  Partners\n\n  6.  MONUMENT: MAY COMPANY GARAGE, HISTORIC-CULTURAL MONUMENT #1001\n\n  Plan Area: Downtown  Council District: 14 – Jurado\n\n  PROPERTY ADDRESS:  900 – 914 South Hill Street; 216 – 224 West 9th Street\n\n  Informational presentation on the proposed rehabilitation project for reuse of the building for self-service\n  storage. Commission review and comment.\n\n  Owner/Applicant:  900 S Hill LLC\n\n  Presenters:  Darren Mehdizadeh, Markwood Enterprises; Taek Kim, Ware Malcomb; and\n  Robert Chattel, Heritage Consulting Group",
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81082"
-  ]
+  ],
+  "summary": "Informational presentation and commission review of proposed rehabilitation of Beneficial Plaza and Liberty Park Historic-Cultural Monument from office to residential use.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "3700 Wilshire Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "applicant": "Wilshire Park Place LLC",
+    "action": "Commission review of proposed rehabilitation from office to residential"
+  }
 }

@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81212",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-13-2026/APCSV_2025_6834.pdf"
-  ]
+  ],
+  "summary": "Zone change from (Q)C4-1VL to (T)C4-1VL to allow medical clinic, office or service facility uses for 11,911 square feet at 17317 West Ventura Boulevard and 5025 North Louise Avenue.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "17317 West Ventura Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCSV-2025-6834-ZC-SPPC"
+    ],
+    "council_district": 4,
+    "plan_area": "Encino – Tarzana",
+    "applicant": "17323 Ventura Prop., LLC",
+    "action": "Zone change to allow medical clinic, office or service facility uses"
+  }
 }

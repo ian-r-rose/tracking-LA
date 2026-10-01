@@ -8,5 +8,17 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81511",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-08-2026/CPC_2008_3470_CAMP.pdf"
-  ]
+  ],
+  "summary": "Warner Center Cultural Amenities Master Plan (CAMP) pursuant to section 9.6 of the Warner Center 2035 Specific Plan in the Canoga Park – Winnetka – Woodland Hills – West Hills area.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "CPC-2008-3470-SP-GPA-ZC-SUD-BL"
+    ],
+    "plan_area": "Canoga Park – Winnetka – Woodland Hills – West Hills",
+    "action": "approval of Cultural Amenities Master Plan"
+  }
 }

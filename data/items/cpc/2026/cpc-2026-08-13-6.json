@@ -8,5 +8,23 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81214",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-06-2026/CPC_2025_3079__2_.pdf"
-  ]
+  ],
+  "summary": "Construction of a six-story, 39-unit residential apartment building at 10535 Missouri Avenue with three very low-income and three moderate-income units, replacing an existing duplex and single-family dwelling.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "10535 Missouri Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-3079-DB-VHCA"
+    ],
+    "council_district": 5,
+    "plan_area": "West Los Angeles",
+    "action": "Density Bonus for 39-unit residential development"
+  }
 }

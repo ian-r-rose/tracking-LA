@@ -8,5 +8,22 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81214",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-06-2026/CPC_2026_1116.pdf"
-  ]
+  ],
+  "summary": "Tenant improvement in existing office building at 900 South Hilgard Avenue for Chippingford School, a K-6 private school serving up to 50 students, with a rooftop play area.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "900 South Hilgard Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2026-1116-CU3-WDI"
+    ],
+    "council_district": 5,
+    "plan_area": "Westwood",
+    "action": "Class 3 Conditional Use Permit for K-6 private school"
+  }
 }

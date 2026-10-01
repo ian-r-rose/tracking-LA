@@ -8,5 +8,22 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81298",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-27-2026/CPC_2022_6472.pdf"
-  ]
+  ],
+  "summary": "Construction of a three-story, 46-foot-high Residential Care Facility for Elderly at 5353 North Del Moreno Drive with 71 rooms, including eight units reserved for very low-income seniors, plus café and physiotherapy services.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "5353 North Del Moreno Drive, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2022-6472-DB-CU-SPP-HCA"
+    ],
+    "council_district": 3,
+    "plan_area": "Canoga Park – Winnetka – Woodland Hills – West Hills",
+    "action": "Density Bonus Compliance Review and Conditional Use Permit for Residential Care Facility for Elderly"
+  }
 }
