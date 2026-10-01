@@ -4,7 +4,9 @@ import ssl
 import httpx
 
 # Set LACOMM_CONTACT (an email or URL) so site operators can reach us about our traffic.
-USER_AGENT = "la-commissions/0.1" + (f" ({c})" if (c := os.environ.get("LACOMM_CONTACT")) else "")
+# The "Mozilla/5.0 (compatible; ...)" prefix is the usual crawler convention; some City sites
+# (e.g. Rec & Parks) reject User-Agents without it.
+USER_AGENT = "Mozilla/5.0 (compatible; la-commissions/0.1" + (f"; +{c}" if (c := os.environ.get("LACOMM_CONTACT")) else "") + ")"
 
 
 def http_client(**kwargs) -> httpx.Client:
