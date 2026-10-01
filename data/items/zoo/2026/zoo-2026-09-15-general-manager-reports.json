@@ -9,5 +9,22 @@
     "https://lazoo.org/about/zoo-commission/#2026-09-15",
     "https://lazoo.org/wp-content/uploads/2026/09/3-Zoo-Commission-Animal-Transaction-Report-9.18.2026.pdf",
     "https://lazoo.org/wp-content/uploads/2026/09/4-Zoo-Commission-Data-9.18.2026.pdf"
-  ]
+  ],
+  "summary": "Commission receives General Manager reports on animal transactions and operations at the Los Angeles Zoo.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Zoo, 5333 Zoo Drive, Los Angeles, CA",
+      "lat": 34.148581,
+      "lon": -118.287138,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {},
+  "flag": {
+    "reason": "Zoo attendance running about 28% under budget."
+  },
+  "digest": "2026-09-30"
 }

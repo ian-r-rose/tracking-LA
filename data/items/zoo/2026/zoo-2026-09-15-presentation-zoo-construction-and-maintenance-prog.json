@@ -7,5 +7,24 @@
   "text": "[Los Angeles Zoo, 5333 Zoo Drive, in Griffith Park]\nPRESENTATION – ZOO CONSTRUCTION AND MAINTENANCE PROGRAM",
   "urls": [
     "https://lazoo.org/about/zoo-commission/#2026-09-15"
-  ]
+  ],
+  "summary": "Presentation on the Los Angeles Zoo's construction and maintenance program.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Zoo, 5333 Zoo Drive, Los Angeles, CA",
+      "lat": 34.148581,
+      "lon": -118.287138,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "presentation"
+  },
+  "flag": {
+    "reason": "Zoo construction and maintenance program in Griffith Park."
+  },
+  "digest": "2026-09-30"
 }

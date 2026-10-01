@@ -60,3 +60,4 @@ def test_plausible_rejects_matches_on_the_wrong_street():
 
 def test_zoo_alias():
     assert Places().lookup("LA Zoo") == Places().lookup("Los Angeles Zoo")
+    assert Places().lookup("Los Angeles Zoo, 5333 Zoo Drive, Los Angeles, CA") == Places().lookup("Los Angeles Zoo")

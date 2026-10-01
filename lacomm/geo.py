@@ -155,6 +155,10 @@ class Places:
     ALIASES = {"la zoo": "los angeles zoo", "the zoo": "los angeles zoo"}
 
     def lookup(self, text: str) -> tuple[float, float] | None:
-        name = _normalize_name(clean_query(text))
-        point = self.points.get(self.ALIASES.get(name, name))
-        return tuple(point) if point else None
+        # Try the whole text, then just the part before the first comma, so
+        # "Los Angeles Zoo, 5333 Zoo Drive" matches the name.
+        for candidate in (clean_query(text), text.split(",")[0]):
+            name = _normalize_name(candidate)
+            if point := self.points.get(self.ALIASES.get(name, name)):
+                return tuple(point)
+        return None
