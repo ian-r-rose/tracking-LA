@@ -48,7 +48,9 @@ RECREATION_AND_PARKS = Format(
     ignore_line=re.compile(r"^\s+\d{1,2}\s*$"),
 )
 
-FORMATS = [TRANSPORTATION, RECREATION_AND_PARKS]
+# Rec & Parks agendas are fetched from Rec & Parks' own site (lacomm.sources.rap), which
+# also has minutes and extra documents; RECREATION_AND_PARKS is still the agenda format.
+FORMATS = [TRANSPORTATION]
 
 
 def meeting_date(title: str, href: str) -> date | None:

@@ -1,0 +1,117 @@
+"""Board of Recreation and Park Commissioners, from Rec & Parks' own site.
+
+https://recreation.parks.lacity.gov/commissioners/agendas-minutes-reports/<year> lists
+each meeting with its agenda, minutes, numbered board reports (26-213.pdf), and other
+documents such as commissioner motions and presentations, which aren't agenda items
+in the PDF but can matter (e.g. a motion opposing use of park land for a project).
+"""
+
+import re
+from datetime import date, datetime
+from urllib.parse import urljoin
+
+import httpx
+from bs4 import BeautifulSoup
+
+from lacomm import http_client
+from lacomm.pdf import normalize_space, pdf_text
+from lacomm.sources.ens import RECREATION_AND_PARKS, split_agenda
+
+SITE = "https://recreation.parks.lacity.gov"
+YEAR_PAGE = SITE + "/commissioners/agendas-minutes-reports/{year}"
+REPORT_NUMBER = re.compile(r"^\d{2}-\d{3}$")
+
+# Bundles of public comment letters from residents: not Board actions, and they name private people.
+SKIP_DOCUMENT = re.compile(r"documents?[ -]received|constituent", re.IGNORECASE)
+
+# Extra documents get the start of their own text as item text; enough for extraction.
+EXTRA_TEXT_CHARS = 4000
+
+
+def parse_year_page(html: str) -> list[dict]:
+    soup = BeautifulSoup(html, "html.parser")
+    meetings = []
+    for row in soup.select("tr.agenda-minutes"):
+        when = row.find("time")
+        cells = row.find_all("td")
+        agenda = cells[1].find("a") if len(cells) > 1 else None
+        if not when or not agenda or "cancel" in agenda.get_text().lower():
+            continue
+        minutes = cells[2].find("a") if len(cells) > 2 else None
+        documents = []
+        details = row.find_next_sibling("tr")
+        if details and not details.has_attr("class"):
+            for a in details.select("div.reports a[href]"):
+                documents.append({"title": a.get_text(" ", strip=True), "url": urljoin(SITE, a["href"])})
+        meetings.append(
+            {
+                "commission": "rap",
+                "date": datetime.fromisoformat(when["datetime"].replace("Z", "+00:00")).date(),
+                "agenda_url": urljoin(SITE, agenda["href"]),
+                "minutes_url": urljoin(SITE, minutes["href"]) if minutes else None,
+                "documents": documents,
+            }
+        )
+    return meetings
+
+
+def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
+    meetings = []
+    for year in range(start.year, end.year + 1):
+        resp = client.get(YEAR_PAGE.format(year=year))
+        resp.raise_for_status()
+        meetings += [m for m in parse_year_page(resp.text) if start <= m["date"] <= end]
+    return meetings
+
+
+def _slug(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")[:60]
+
+
+def items_from_meeting(meeting: dict, agenda_text: str, extra_texts: dict[str, str]) -> list[dict]:
+    """Board reports from the agenda, plus one item per extra document (keyed by URL in extra_texts)."""
+    day = meeting["date"].isoformat()
+    shared_urls = [meeting["agenda_url"]] + ([meeting["minutes_url"]] if meeting.get("minutes_url") else [])
+    reports = {d["title"]: d["url"] for d in meeting["documents"] if REPORT_NUMBER.match(d["title"])}
+    items = []
+    for number, text, _section in split_agenda(RECREATION_AND_PARKS, agenda_text):
+        items.append(
+            {
+                "id": f"rap-{day}-{number}",
+                "commission": "rap",
+                "meeting_date": day,
+                "item_number": number,
+                "title": text.splitlines()[0],
+                "text": text,
+                "urls": shared_urls + ([reports[number]] if number in reports else []),
+            }
+        )
+    for doc in meeting["documents"]:
+        if REPORT_NUMBER.match(doc["title"]) or SKIP_DOCUMENT.search(doc["title"]) or doc["url"] not in extra_texts:
+            continue
+        slug = _slug(doc["title"])
+        items.append(
+            {
+                "id": f"rap-{day}-{slug}",
+                "commission": "rap",
+                "meeting_date": day,
+                "item_number": slug,
+                "title": doc["title"],
+                "text": f"[{doc['title']}]\n{extra_texts[doc['url']]}",
+                "urls": shared_urls + [doc["url"]],
+            }
+        )
+    return items
+
+
+def meeting_items(meeting: dict, agenda_pdf: bytes) -> list[dict]:
+    extra_texts = {}
+    with http_client(timeout=60) as client:
+        for doc in meeting["documents"]:
+            if REPORT_NUMBER.match(doc["title"]) or SKIP_DOCUMENT.search(doc["title"]):
+                continue
+            resp = client.get(doc["url"])
+            resp.raise_for_status()
+            if resp.content.startswith(b"%PDF"):  # some PDFs are linked without a .pdf extension
+                extra_texts[doc["url"]] = normalize_space(pdf_text(resp.content))[:EXTRA_TEXT_CHARS]
+    return items_from_meeting(meeting, pdf_text(agenda_pdf), extra_texts)

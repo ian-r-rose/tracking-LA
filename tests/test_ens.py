@@ -22,21 +22,6 @@ def test_transportation_skips_admin_items_and_keeps_sections():
     assert "EXECUTIVE SESSION" not in items[3][1]
 
 
-def test_rap_board_reports_and_report_links():
-    links = [
-        "www.laparks.org/sites/default/files/pdf/commissioner/2026/sep17/26-213.pdf",
-        "www.laparks.org/sites/default/files/pdf/commissioner/2026/sep17/26-214.pdf",
-    ]
-    items = ens.items_from_text(ens.RECREATION_AND_PARKS, MEETING, agenda("rap-2026-09-17"), links)
-    assert [i["item_number"] for i in items] == [f"26-{n}" for n in range(207, 218)]
-    sycamore = next(i for i in items if i["item_number"] == "26-213")
-    assert sycamore["id"] == "rap-2026-09-17-26-213"
-    assert sycamore["title"].startswith("Sycamore Grove Park Master Plan")
-    assert sycamore["urls"] == ["https://example/agenda", "https://" + links[0]]
-    # The last report stops at the next numbered agenda section.
-    assert "COMMISSION TASK FORCE" not in items[-1]["text"]
-
-
 def test_meeting_date_prefers_link_text_over_filename():
     assert ens.meeting_date("Board of Transportation Commissioners Meeting Agenda June 11, 2026", "x_06052026.pdf") == date(2026, 6, 11)
     assert ens.meeting_date("Agenda", "x_09102026.pdf") == date(2026, 9, 10)
