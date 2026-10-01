@@ -26,6 +26,7 @@ neighborhoods:
   - Cypress Park
   - Highland Park
   - Pico-Union
+  - Griffith Park  # includes the LA Zoo
 
 # Points for location: inside a listed neighborhood, or within nearby_km of one.
 in_neighborhood: 4

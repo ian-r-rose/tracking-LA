@@ -56,3 +56,7 @@ def test_plausible_rejects_matches_on_the_wrong_street():
     assert plausible("2718 North Hyperion Avenue", "2718 N HYPERION AVE, 90027")
     assert not plausible("2718 North Hyperion Avenue", "2718 N HOBART BLVD, 90027")
     assert plausible("4849 North Mount Royal Drive", "4849 N MT ROYAL DR, 90041")
+
+
+def test_zoo_alias():
+    assert Places().lookup("LA Zoo") == Places().lookup("Los Angeles Zoo")

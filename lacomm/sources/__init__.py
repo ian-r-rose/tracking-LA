@@ -5,7 +5,7 @@ from dataclasses import dataclass
 from functools import partial
 from typing import Callable
 
-from lacomm.sources import elpueblo, ens, planning, primegov, rap
+from lacomm.sources import elpueblo, ens, planning, primegov, rap, zoo
 
 
 @dataclass
@@ -20,6 +20,7 @@ SOURCES = [
     Source("public works", primegov.list_meetings, primegov.meeting_items),
     Source("rec and parks", rap.list_meetings, rap.meeting_items),
     Source("el pueblo", elpueblo.list_meetings, elpueblo.meeting_items),
+    Source("zoo", zoo.list_meetings, zoo.meeting_items),
     *(
         Source(fmt.commission, partial(ens.list_meetings, fmt), partial(ens.meeting_items, fmt))
         for fmt in ens.FORMATS

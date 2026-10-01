@@ -151,6 +151,10 @@ class Places:
     def __init__(self, path: Path = PLACES):
         self.points = json.loads(path.read_text()) if path.exists() else {}
 
+    # Common names for sites the Rec & Parks data names differently.
+    ALIASES = {"la zoo": "los angeles zoo", "the zoo": "los angeles zoo"}
+
     def lookup(self, text: str) -> tuple[float, float] | None:
-        point = self.points.get(_normalize_name(clean_query(text)))
+        name = _normalize_name(clean_query(text))
+        point = self.points.get(self.ALIASES.get(name, name))
         return tuple(point) if point else None
