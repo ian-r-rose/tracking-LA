@@ -19,7 +19,7 @@ def test_list_meetings_skips_canceled_and_maps_commissions():
     payload = json.loads((FIXTURES / "commissions-2026.json").read_text())
     transport = httpx.MockTransport(lambda request: httpx.Response(200, json=payload))
     with httpx.Client(transport=transport) as client:
-        meetings = planning.list_meetings(2026, client)
+        meetings = planning.list_meetings(date(2026, 1, 1), date(2026, 12, 31), client)
     assert [m["commission"] for m in meetings] == ["cpc", "apc-west-la", "apc-east-la", "chc"]
     assert meetings[0]["date"] == date(2026, 10, 8)
 

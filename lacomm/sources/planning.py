@@ -53,21 +53,17 @@ def commission_slug(entry: dict) -> str | None:
     return None  # e.g. hearing officer meetings listed under CPC
 
 
-def list_meetings(year: int, client: httpx.Client) -> list[dict]:
-    resp = client.get(API.format(year=year))
-    resp.raise_for_status()
+def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     meetings = []
-    for entry in resp.json()["Entries"]:
-        slug = commission_slug(entry)
-        if not slug or not entry["AgendaLink"] or "cancel" in entry["Note"].lower():
-            continue
-        meetings.append(
-            {
-                "commission": slug,
-                "date": datetime.strptime(entry["Date"], "%m/%d/%Y").date(),
-                "agenda_url": entry["AgendaLink"],
-            }
-        )
+    for year in range(start.year, end.year + 1):
+        resp = client.get(API.format(year=year))
+        resp.raise_for_status()
+        for entry in resp.json()["Entries"]:
+            slug = commission_slug(entry)
+            when = datetime.strptime(entry["Date"], "%m/%d/%Y").date()
+            if not slug or not entry["AgendaLink"] or "cancel" in entry["Note"].lower() or not start <= when <= end:
+                continue
+            meetings.append({"commission": slug, "date": when, "agenda_url": entry["AgendaLink"]})
     return meetings
 
 

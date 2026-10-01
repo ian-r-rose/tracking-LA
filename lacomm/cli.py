@@ -12,7 +12,7 @@ from lacomm import USER_AGENT
 from lacomm.check import check_all
 from lacomm.geo import Geocoder, Neighborhoods
 from lacomm.score import candidates
-from lacomm.sources import planning
+from lacomm.sources import SOURCES
 from lacomm.store import DATA, upsert_item
 
 # The Planning server takes ~9s per request regardless of size, so download a few at a time.
@@ -21,29 +21,34 @@ CONCURRENT_DOWNLOADS = 4
 # Agenda URLs already processed, so past meetings aren't downloaded again.
 AGENDAS = DATA / "agendas.json"
 
+# How far ahead to look for posted agendas.
+LOOKAHEAD = timedelta(days=60)
+
 
 def fetch(since_days: int, refetch: bool = False) -> None:
     today = date.today()
-    start = today - timedelta(days=since_days)
+    start, end = today - timedelta(days=since_days), today + LOOKAHEAD
     seen: dict = json.loads(AGENDAS.read_text()) if AGENDAS.exists() and not refetch else {}
     counts = Counter()
     with httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=60, follow_redirects=True) as client:
-        # Next year's schedule only appears late in the year.
-        last_year = today.year + 1 if today.month == 12 else today.year
-        meetings = [m for year in range(start.year, last_year + 1) for m in planning.list_meetings(year, client)]
-        # Upcoming agendas can still be revised, so always re-fetch those.
-        todo = [m for m in meetings if m["date"] >= start and (m["date"] >= today or m["agenda_url"] not in seen)]
-        counts["skipped"] = sum(1 for m in meetings if m["date"] >= start) - len(todo)
+        todo = []
+        for source in SOURCES:
+            meetings = source.list_meetings(start, end, client)
+            # Upcoming agendas can still be revised, so always re-fetch those.
+            new = [m for m in meetings if m["date"] >= today or m["agenda_url"] not in seen]
+            counts["skipped"] += len(meetings) - len(new)
+            todo += [(source, m) for m in new]
 
-        def download(meeting):
+        def download(job):
+            source, meeting = job
             resp = client.get(meeting["agenda_url"])
             resp.raise_for_status()
-            return meeting, resp.content
+            return source, meeting, resp.content
 
         try:
             with ThreadPoolExecutor(CONCURRENT_DOWNLOADS) as pool:
-                for meeting, pdf in pool.map(download, todo):
-                    for item in planning.meeting_items(meeting, pdf):
+                for source, meeting, content in pool.map(download, todo):
+                    for item in source.meeting_items(meeting, content):
                         counts[upsert_item(item)] += 1
                     seen[meeting["agenda_url"]] = meeting["date"].isoformat()
                     counts["fetched"] += 1
