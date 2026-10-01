@@ -25,3 +25,15 @@ def test_transportation_skips_admin_items_and_keeps_sections():
 def test_meeting_date_prefers_link_text_over_filename():
     assert ens.meeting_date("Board of Transportation Commissioners Meeting Agenda June 11, 2026", "x_06052026.pdf") == date(2026, 6, 11)
     assert ens.meeting_date("Agenda", "x_09102026.pdf") == date(2026, 9, 10)
+
+
+def test_dwp_numbers_items_by_section_and_titles_skip_recommended_by():
+    items = ens.items_from_text(ens.WATER_AND_POWER, MEETING, agenda("dwp-2026-09-22"), [])
+    assert [i["item_number"] for i in items] == ["K1"] + [f"N{n}" for n in range(1, 10)]
+    ge = next(i for i in items if i["item_number"] == "N3")
+    assert ge["id"] == "dwp-2026-09-17-N3"
+    assert ge["title"].startswith("Approval of Agreement No. 47044")
+    assert ge["text"].startswith("[N. Items for Approval]\nRecommended by Power System")
+    assert "$250,000,000" in ge["text"]
+    # Page numbers and the next section don't leak into the last item.
+    assert "Adjournment" not in items[-1]["text"]
