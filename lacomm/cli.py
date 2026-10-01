@@ -8,7 +8,7 @@ from datetime import date, timedelta
 import httpx
 import yaml
 
-from lacomm import USER_AGENT
+from lacomm import http_client
 from lacomm.check import check_all
 from lacomm.geo import Geocoder, Neighborhoods
 from lacomm.score import candidates
@@ -30,10 +30,15 @@ def fetch(since_days: int, refetch: bool = False) -> None:
     start, end = today - timedelta(days=since_days), today + LOOKAHEAD
     seen: dict = json.loads(AGENDAS.read_text()) if AGENDAS.exists() and not refetch else {}
     counts = Counter()
-    with httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=60, follow_redirects=True) as client:
+    failed = []
+    with http_client(timeout=60) as client:
         todo = []
         for source in SOURCES:
-            meetings = source.list_meetings(start, end, client)
+            try:
+                meetings = source.list_meetings(start, end, client)
+            except httpx.HTTPError as e:
+                failed.append(f"{source.name}: {e}")
+                continue
             # Upcoming agendas can still be revised, so always re-fetch those.
             new = [m for m in meetings if m["date"] >= today or m["agenda_url"] not in seen]
             counts["skipped"] += len(meetings) - len(new)
@@ -41,13 +46,19 @@ def fetch(since_days: int, refetch: bool = False) -> None:
 
         def download(job):
             source, meeting = job
-            resp = client.get(meeting["agenda_url"])
-            resp.raise_for_status()
-            return source, meeting, resp.content
+            try:
+                resp = client.get(meeting["agenda_url"])
+                resp.raise_for_status()
+                return source, meeting, resp.content
+            except httpx.HTTPError as e:
+                failed.append(f"{meeting['agenda_url']}: {e}")
+                return source, meeting, None
 
         try:
             with ThreadPoolExecutor(CONCURRENT_DOWNLOADS) as pool:
                 for source, meeting, content in pool.map(download, todo):
+                    if content is None:
+                        continue
                     for item in source.meeting_items(meeting, content):
                         counts[upsert_item(item)] += 1
                     seen[meeting["agenda_url"]] = meeting["date"].isoformat()
@@ -55,6 +66,10 @@ def fetch(since_days: int, refetch: bool = False) -> None:
         finally:
             AGENDAS.write_text(json.dumps(seen, indent=1, sort_keys=True) + "\n")
     print(", ".join(f"{k}: {v}" for k, v in counts.items() if v) or "nothing found")
+    for failure in failed:
+        print(f"  failed: {failure}")
+    if failed:
+        sys.exit(1)
 
 
 def locate() -> None:
@@ -62,7 +77,7 @@ def locate() -> None:
     hoods = Neighborhoods()
     counts = Counter()
     near_me = []
-    with httpx.Client(timeout=30) as client:
+    with http_client(timeout=30) as client:
         geocoder = Geocoder(client)
         try:
             for path in sorted((DATA / "items").rglob("*.json")):
