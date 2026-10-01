@@ -1,9 +1,11 @@
 # What makes an agenda item interesting. Read by the routine (ROUTINE.md) and lacomm.
 
+# Points an item gets for each matching topic. land_use is on nearly every
+# planning item, so it counts for little on its own.
 topics:
-  - parks
-  - transportation
-  - land_use
+  parks: 3
+  transportation: 3
+  land_use: 1
 
 # Neighborhood names as they appear in geo/neighborhoods.geojson
 # (LA Times "Mapping L.A." boundaries via LA GeoHub, CC BY 4.0).
@@ -25,5 +27,7 @@ neighborhoods:
   - Highland Park
   - Pico-Union
 
-# Items within this distance of a listed neighborhood also count as nearby.
+# Points for location: inside a listed neighborhood, or within nearby_km of one.
+in_neighborhood: 4
+nearby: 2
 nearby_km: 1.0

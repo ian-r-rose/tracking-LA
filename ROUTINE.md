@@ -19,7 +19,7 @@ Find item files under `data/items/` that have no `summary` field. Split them int
 > For each item JSON file listed, read the `text` field and add these fields to the file. Leave every existing field unchanged and keep the file valid JSON (2-space indent).
 >
 > - `summary`: one or two plain sentences on what is being decided, for a resident skimming a digest. Name the place and the action, e.g. "Zone change to allow eight small-lot homes replacing a single-family house at 9247 N Wakefield Ave in North Hills." No case numbers or code citations.
-> - `topics`: one or more of `parks`, `transportation`, `land_use`, `housing`, `environment`, `budget`, `public_safety`, `other`. Use `land_use` for zoning, entitlements, permits and historic designations. Add `housing` when the item creates or removes housing units. Add `parks` whenever a park, plaza, trail or other public open space is involved, even if the item is mainly about zoning or historic status. Add `transportation` for streets, sidewalks, bike lanes, transit, parking requirements and driveways onto public streets.
+> - `topics`: one or more of `parks`, `transportation`, `land_use`, `housing`, `environment`, `budget`, `public_safety`, `other`. Use `land_use` for zoning, entitlements, permits and historic designations. Add `housing` when the item creates or removes housing units. Add `parks` whenever a *public* park, plaza, trail or other public open space is involved, even if the item is mainly about zoning or historic status. A project's own private open space (courtyards, roof decks, "open space" required by code) doesn't count. Add `transportation` only when the item changes public streets, sidewalks, bike lanes or transit (e.g. street vacations, new private streets, transit facilities), or when transportation is central to the item. A project's own parking or bicycle-parking counts, including parking reductions, don't count.
 > - `locations`: a list of `{"text": ...}` objects, one per distinct site in the item: street addresses (one entry per site, choosing a single representative address for a range such as "4127 – 4129 E Supreme Ct"), intersections, or named places like parks. Write addresses as they would be geocoded: "16300 Foothill Blvd, Los Angeles, CA". Leave the list empty for citywide items.
 > - `details`: an object with whatever of these the item states: `case_numbers` (list), `council_district` (integer), `plan_area` (string), `applicant` (string), `action` (short phrase, e.g. "appeal of Zoning Administrator approval"). Leave out anything not stated.
 >
@@ -34,3 +34,42 @@ uv run lacomm locate
 ```
 
 Geocodes new locations with the City's locator (cached in `geo/geocode-cache.json`), sets each location's `neighborhood`, and lists items in or near the neighborhoods in `config/interests.yaml`.
+
+## 4. Digest (main model)
+
+```
+uv run lacomm score --limit 30
+```
+
+This lists items not yet covered by a digest, highest score first, with the reasons for each score. Read the top items' JSON files, and for anything that might matter, the staff reports linked in `urls`. Then decide what is worth Ian's attention. Use the score as a guide, not a cutoff: a high score can be routine (a single-family hillside home), and a low score can matter (a citywide parks policy).
+
+For each item you include, add a `flag` field to its JSON file: `{"reason": "<one sentence on why it matters to Ian>"}`.
+
+Write `data/digests/YYYY-MM-DD.md` (today's date):
+
+```markdown
+# Commissions digest — <Month D, YYYY>
+
+<One or two sentences: what stood out this time.>
+
+## Near you
+- **<Commission>, <meeting date>** · <neighborhood> — <summary, rewritten if needed>. <Why it matters.> [Agenda](<url>) · [Staff report](<url>)
+
+## Elsewhere
+- (same format; parks, transportation or citywide items outside Ian's neighborhoods)
+
+<N> items reviewed from <commissions>. Everything else was routine.
+```
+
+Leave out a section with no entries. Keep the whole digest skimmable in two minutes. Note upcoming meetings ("hearing Oct 8") so Ian has time to comment.
+
+Then mark everything you reviewed as covered and check the files:
+
+```
+uv run lacomm mark-digested YYYY-MM-DD
+uv run lacomm check
+```
+
+## 5. Commit
+
+Commit `data/` and `geo/geocode-cache.json` with the message `Digest YYYY-MM-DD`, then push.

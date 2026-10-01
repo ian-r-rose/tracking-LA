@@ -7,13 +7,14 @@ and only new queries hit the network.
 
 import json
 import math
-import os
 import re
 from pathlib import Path
 
 import httpx
 from shapely.geometry import Point, shape
 from shapely.ops import transform
+
+from lacomm import USER_AGENT
 
 GEO = Path(__file__).resolve().parent.parent / "geo"
 CACHE = GEO / "geocode-cache.json"
@@ -22,9 +23,6 @@ LOCATOR = (
     "centerlineLocatorArcPro/GeocodeServer/findAddressCandidates"
 )
 MIN_SCORE = 85
-
-# Set LACOMM_CONTACT (an email or URL) so the City can reach us about our traffic.
-USER_AGENT = "la-commissions/0.1" + (f" ({c})" if (c := os.environ.get("LACOMM_CONTACT")) else "")
 
 
 def clean_query(text: str) -> str:
