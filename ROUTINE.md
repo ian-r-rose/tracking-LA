@@ -40,6 +40,14 @@ uv run lacomm locate
 
 Geocodes new locations with the City's locator (cached in `geo/geocode-cache.json`), sets each location's `neighborhood`, and lists items in or near the neighborhoods in `config/interests.yaml`.
 
+## 3b. Outcomes
+
+```
+uv run lacomm outcomes --since 60
+```
+
+Reads the journals and minutes of past meetings (Public Works and Rec & Parks so far) and records each item's `outcome`: status, the commission's wording, vote, and source.
+
 ## 4. Digest (main model)
 
 ```
@@ -64,6 +72,16 @@ Agenda items from meetings <Month D> – <Month D, YYYY>. <N> items reviewed; <M
 - **<Mon D>** · upcoming · <neighborhood> — <summary, rewritten if needed>. <Why it matters.> [Agenda](<url>) · [Staff report](<url>)
 - **<Mon D>** · <neighborhood> — ...
 ```
+
+Then, if `uv run lacomm decisions` lists anything, add this section after the intro line:
+
+```markdown
+## Decisions recorded
+
+- **<Commission>, <Mon D>** · <neighborhood> — <item, in a few words>: **<approved 5–0 / continued / withdrawn / ...>**. [Journal or minutes](<outcome source>)
+```
+
+List every outcome for an item flagged in an earlier digest (marked `*`). For other items, list only withdrawals, denials, continuances and split votes. Leave out unanimous approvals of routine items. If a decision changes what an earlier digest said (e.g. an item it described was withdrawn), say so plainly.
 
 Rules:
 - One section per commission that has listed items, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, then any others. Within a section, list items by meeting date, oldest first.
