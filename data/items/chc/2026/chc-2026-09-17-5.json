@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "1851 North Ivar Avenue, Los Angeles, CA"
+      "text": "1851 North Ivar Avenue, Los Angeles, CA",
+      "lat": 34.104535,
+      "lon": -118.328244,
+      "neighborhood": "Hollywood"
     }
   ],
   "details": {

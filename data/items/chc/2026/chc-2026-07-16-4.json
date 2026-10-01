@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "2351 Wilshire Boulevard, Los Angeles, CA"
+      "text": "2351 Wilshire Boulevard, Los Angeles, CA",
+      "lat": 34.059632,
+      "lon": -118.278798,
+      "neighborhood": "Westlake"
     }
   ],
   "details": {

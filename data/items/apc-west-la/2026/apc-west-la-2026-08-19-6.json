@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "9830 West Wanda Park Drive, Los Angeles, CA"
+      "text": "9830 West Wanda Park Drive, Los Angeles, CA",
+      "lat": 34.115652,
+      "lon": -118.432584,
+      "neighborhood": "Beverly Crest"
     }
   ],
   "details": {

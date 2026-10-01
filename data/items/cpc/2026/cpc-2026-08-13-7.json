@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "7528 Bellaire Avenue, Los Angeles, CA"
+      "text": "7528 Bellaire Avenue, Los Angeles, CA",
+      "lat": 34.207547,
+      "lon": -118.409793,
+      "neighborhood": "Sun Valley"
     }
   ],
   "details": {

@@ -10,12 +10,23 @@
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/09-17-2026/ZA_2022_8791__ZA_Commission_Packet.pdf"
   ],
   "summary": "Appeal of Zoning Administrator's approval to construct a new single-family dwelling on a substandard hillside street at 7921 West Denivelle Road.",
-  "topics": ["land_use", "housing"],
+  "topics": [
+    "land_use",
+    "housing"
+  ],
   "locations": [
-    {"text": "7921 West Denivelle Road, Los Angeles, CA"}
+    {
+      "text": "7921 West Denivelle Road, Los Angeles, CA",
+      "lat": 34.272562,
+      "lon": -118.306149,
+      "neighborhood": "Sunland"
+    }
   ],
   "details": {
-    "case_numbers": ["ZA-2022-8791-ZAD-SPP-1A", "ENV-2022-8792-CE"],
+    "case_numbers": [
+      "ZA-2022-8791-ZAD-SPP-1A",
+      "ENV-2022-8792-CE"
+    ],
     "council_district": 7,
     "plan_area": "Sunland – Tujunga – Lake View Terrace – Shadow Hills – East La Tuna Canyon",
     "applicant": "Gegam Burnazyan & Ara Amyan",

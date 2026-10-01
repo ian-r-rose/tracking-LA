@@ -10,12 +10,23 @@
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/09-23-2026/ZA_Commission_Packet_ZA_2024_1560_CU1_1A.pdf"
   ],
   "summary": "Appeal of Zoning Administrator's approval to construct a new single-family dwelling with reduced setbacks and increased height on a substandard hillside street at 4849 North Mount Royal Drive.",
-  "topics": ["land_use", "housing"],
+  "topics": [
+    "land_use",
+    "housing"
+  ],
   "locations": [
-    {"text": "4849 North Mount Royal Drive, Los Angeles, CA"}
+    {
+      "text": "4849 North Mount Royal Drive, Los Angeles, CA",
+      "lat": 34.13442,
+      "lon": -118.204091,
+      "neighborhood": "Eagle Rock"
+    }
   ],
   "details": {
-    "case_numbers": ["ZA-2024-1560-CU1-1A", "ENV-2024-1561-CE"],
+    "case_numbers": [
+      "ZA-2024-1560-CU1-1A",
+      "ENV-2024-1561-CE"
+    ],
     "council_district": 14,
     "plan_area": "Northeast Los Angeles",
     "applicant": "Amir Kazerani and Jaqueline Lopez",

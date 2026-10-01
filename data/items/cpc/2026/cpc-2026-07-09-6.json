@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "4802 West San Vicente Boulevard, Los Angeles, CA"
+      "text": "4802 West San Vicente Boulevard, Los Angeles, CA",
+      "lat": 34.048819,
+      "lon": -118.340847,
+      "neighborhood": "Mid-Wilshire"
     }
   ],
   "details": {

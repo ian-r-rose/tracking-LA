@@ -2,6 +2,10 @@
 
 Instructions for the scheduled Claude Code routine that keeps `data/` up to date.
 
+## Setup
+
+The fetch step needs poppler's `pdftotext` (`apt-get install -y poppler-utils`).
+
 ## 1. Fetch
 
 ```
@@ -22,3 +26,11 @@ Find item files under `data/items/` that have no `summary` field. Split them int
 > Don't make up information. Use only what the item text says.
 
 Then run `uv run lacomm check`. It must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent).
+
+## 3. Locate
+
+```
+uv run lacomm locate
+```
+
+Geocodes new locations with the City's locator (cached in `geo/geocode-cache.json`), sets each location's `neighborhood`, and lists items in or near the neighborhoods in `config/interests.yaml`.

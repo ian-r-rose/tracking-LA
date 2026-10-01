@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "4127 East Supreme Court, Los Angeles, CA"
+      "text": "4127 East Supreme Court, Los Angeles, CA",
+      "lat": 34.077407,
+      "lon": -118.194731,
+      "neighborhood": "Lincoln Heights"
     }
   ],
   "details": {

@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "3190 South La Cienega Boulevard, Los Angeles, CA"
+      "text": "3190 South La Cienega Boulevard, Los Angeles, CA",
+      "lat": 34.028707,
+      "lon": -118.371922,
+      "neighborhood": "West Adams"
     }
   ],
   "details": {

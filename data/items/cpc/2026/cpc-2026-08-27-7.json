@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "8100 West McGroarty Street, Los Angeles, CA"
+      "text": "8100 West McGroarty Street, Los Angeles, CA",
+      "lat": 34.252351,
+      "lon": -118.309421,
+      "neighborhood": "Sunland"
     }
   ],
   "details": {

@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "10535 Missouri Avenue, Los Angeles, CA"
+      "text": "10535 Missouri Avenue, Los Angeles, CA",
+      "lat": 34.053489,
+      "lon": -118.426699,
+      "neighborhood": "West Los Angeles"
     }
   ],
   "details": {

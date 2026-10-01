@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "5353 North Del Moreno Drive, Los Angeles, CA"
+      "text": "5353 North Del Moreno Drive, Los Angeles, CA",
+      "lat": 34.168185,
+      "lon": -118.5759,
+      "neighborhood": "Woodland Hills"
     }
   ],
   "details": {

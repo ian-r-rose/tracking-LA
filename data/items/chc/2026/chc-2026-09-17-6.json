@@ -14,10 +14,16 @@
   ],
   "locations": [
     {
-      "text": "14401 West Ventura Boulevard, Los Angeles, CA"
+      "text": "14401 West Ventura Boulevard, Los Angeles, CA",
+      "lat": 34.150534,
+      "lon": -118.445942,
+      "neighborhood": "Sherman Oaks"
     },
     {
-      "text": "14330 W. Moorpark Street, Los Angeles, CA"
+      "text": "14330 W. Moorpark Street, Los Angeles, CA",
+      "lat": 34.15139,
+      "lon": -118.445507,
+      "neighborhood": "Sherman Oaks"
     }
   ],
   "details": {

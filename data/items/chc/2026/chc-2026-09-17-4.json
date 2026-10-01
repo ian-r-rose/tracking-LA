@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "2718 North Hyperion Avenue, Los Angeles, CA"
+      "text": "2718 North Hyperion Avenue, Los Angeles, CA",
+      "lat": 34.106981,
+      "lon": -118.272187,
+      "neighborhood": "Silver Lake"
     }
   ],
   "details": {

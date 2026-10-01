@@ -10,12 +10,24 @@
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/08-06-2026/APCNV_2023_8204_continuance.pdf"
   ],
   "summary": "Proposed subdivision of a lot into eight parcels and construction of eight single-family dwellings at 9247 North Wakefield Avenue.",
-  "topics": ["land_use", "housing"],
+  "topics": [
+    "land_use",
+    "housing"
+  ],
   "locations": [
-    {"text": "9247 North Wakefield Avenue, Los Angeles, CA"}
+    {
+      "text": "9247 North Wakefield Avenue, Los Angeles, CA",
+      "lat": 34.238202,
+      "lon": -118.448132,
+      "neighborhood": "Panorama City"
+    }
   ],
   "details": {
-    "case_numbers": ["APCNV-2023-8204-ZC-HCA", "ENV-2023-8205-MND", "VTT-84182-SL-HCA"],
+    "case_numbers": [
+      "APCNV-2023-8204-ZC-HCA",
+      "ENV-2023-8205-MND",
+      "VTT-84182-SL-HCA"
+    ],
     "council_district": 6,
     "plan_area": "Mission Hills – Panorama City – North Hills",
     "applicant": "Nousheen Bai Memon, Trustee of The Family Values Irrevocable Trust",

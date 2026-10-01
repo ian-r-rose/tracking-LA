@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "2115 West Jefferson Boulevard, Los Angeles, CA"
+      "text": "2115 West Jefferson Boulevard, Los Angeles, CA",
+      "lat": 34.02562,
+      "lon": -118.31812,
+      "neighborhood": "Jefferson Park"
     }
   ],
   "details": {

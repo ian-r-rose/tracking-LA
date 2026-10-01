@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "2800 West Jefferson Boulevard, Los Angeles, CA"
+      "text": "2800 West Jefferson Boulevard, Los Angeles, CA",
+      "lat": 34.025538,
+      "lon": -118.326043,
+      "neighborhood": "Jefferson Park"
     }
   ],
   "details": {

@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "5741 West Jefferson Boulevard, Los Angeles, CA"
+      "text": "5741 West Jefferson Boulevard, Los Angeles, CA",
+      "lat": 34.026711,
+      "lon": -118.37346,
+      "neighborhood": "West Adams"
     }
   ],
   "details": {

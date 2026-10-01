@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "873 South Figueroa Street, Los Angeles, CA"
+      "text": "873 South Figueroa Street, Los Angeles, CA",
+      "lat": 34.046575,
+      "lon": -118.262562,
+      "neighborhood": "Downtown"
     }
   ],
   "details": {

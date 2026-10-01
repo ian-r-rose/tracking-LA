@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "217 North Avenue 55, Los Angeles, CA"
+      "text": "217 North Avenue 55, Los Angeles, CA",
+      "lat": 34.109655,
+      "lon": -118.196454,
+      "neighborhood": "Highland Park"
     }
   ],
   "details": {

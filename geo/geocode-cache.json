@@ -1,0 +1,267 @@
+{
+ "10535 Missouri Avenue": {
+  "address": "10535 W MISSOURI AVE, 90025",
+  "lat": 34.053489,
+  "lon": -118.426699,
+  "score": 99.06
+ },
+ "1236 North Cliff Drive": {
+  "address": "1236 W CLIFF DR, 90065",
+  "lat": 34.098303,
+  "lon": -118.224035,
+  "score": 92.78
+ },
+ "14330 W. Moorpark Street": {
+  "address": "14330 W MOORPARK ST, 91423",
+  "lat": 34.15139,
+  "lon": -118.445507,
+  "score": 100
+ },
+ "14401 West Ventura Boulevard": {
+  "address": "14401 W VENTURA BLVD, 91423",
+  "lat": 34.150534,
+  "lon": -118.445942,
+  "score": 100
+ },
+ "16300 Foothill Boulevard": {
+  "address": "16300 W FOOTHILL BLVD, 91342",
+  "lat": 34.319245,
+  "lon": -118.485975,
+  "score": 99.06
+ },
+ "17317 West Ventura Boulevard": {
+  "address": "17317 W VENTURA BLVD, 91316",
+  "lat": 34.160984,
+  "lon": -118.510139,
+  "score": 100
+ },
+ "18009 West Sherman Way": {
+  "address": "18009 W SHERMAN WAY, 91335",
+  "lat": 34.20132,
+  "lon": -118.52549,
+  "score": 100
+ },
+ "1851 North Ivar Avenue": {
+  "address": "1851 N IVAR AVE, 90028",
+  "lat": 34.104535,
+  "lon": -118.328244,
+  "score": 100
+ },
+ "200 South Orange Drive": {
+  "address": "200 S ORANGE DR, 90036",
+  "lat": 34.071,
+  "lon": -118.341816,
+  "score": 100
+ },
+ "2069 North Argyle Avenue": {
+  "address": "2069 N ARGYLE AVE, 90068",
+  "lat": 34.108297,
+  "lon": -118.325297,
+  "score": 100
+ },
+ "21126 West Chatsworth Street": {
+  "address": "21126 W CHATSWORTH ST, 91311",
+  "lat": 34.264434,
+  "lon": -118.59337,
+  "score": 100
+ },
+ "2115 West Jefferson Boulevard": {
+  "address": "2115 W JEFFERSON BLVD, 90018",
+  "lat": 34.02562,
+  "lon": -118.31812,
+  "score": 100
+ },
+ "217 North Avenue 55": {
+  "address": "217 W AVENUE 55, 90042",
+  "lat": 34.109655,
+  "lon": -118.196454,
+  "score": 97.56
+ },
+ "2351 Wilshire Boulevard": {
+  "address": "2351 W WILSHIRE BLVD, 90057",
+  "lat": 34.059632,
+  "lon": -118.278798,
+  "score": 99.06
+ },
+ "261 South Kenmore Avenue": {
+  "address": "261 S KENMORE AVE, 90004",
+  "lat": 34.0699,
+  "lon": -118.296726,
+  "score": 100
+ },
+ "2718 North Hyperion Avenue": {
+  "address": "2718 N HYPERION AVE, 90027",
+  "lat": 34.106981,
+  "lon": -118.272187,
+  "score": 100
+ },
+ "2800 West Jefferson Boulevard": {
+  "address": "2800 W JEFFERSON BLVD, 90018",
+  "lat": 34.025538,
+  "lon": -118.326043,
+  "score": 100
+ },
+ "305 East Rose Avenue": {
+  "address": "305 E ROSE AVE, 90291",
+  "lat": 33.996686,
+  "lon": -118.476828,
+  "score": 100
+ },
+ "3190 South La Cienega Boulevard": {
+  "address": "3190 S LA CIENEGA BLVD, 90016",
+  "lat": 34.028707,
+  "lon": -118.371922,
+  "score": 100
+ },
+ "3278 West Wilshire Boulevard": {
+  "address": "3278 W WILSHIRE BLVD, 90010",
+  "lat": 34.061718,
+  "lon": -118.293622,
+  "score": 100
+ },
+ "3700 Wilshire Boulevard": {
+  "address": "3700 W WILSHIRE BLVD, 90010",
+  "lat": 34.061645,
+  "lon": -118.306671,
+  "score": 99.06
+ },
+ "3911 West Adams Boulevard": {
+  "address": "3911 W ADAMS BLVD, 90018",
+  "lat": 34.032678,
+  "lon": -118.327366,
+  "score": 100
+ },
+ "4127 East Supreme Court": {
+  "address": "4127 N SUPREME CT, 90032",
+  "lat": 34.077407,
+  "lon": -118.194731,
+  "score": 92.78
+ },
+ "4590 West Colorado Boulevard": {
+  "address": "4590 W COLORADO BLVD, 90039",
+  "lat": 34.141217,
+  "lon": -118.272784,
+  "score": 100
+ },
+ "4802 West San Vicente Boulevard": {
+  "address": "4802 W SAN VICENTE BLVD, 90019",
+  "lat": 34.048819,
+  "lon": -118.340847,
+  "score": 100
+ },
+ "4849 North Mount Royal Drive": {
+  "address": "4849 N MT ROYAL DR, 90041",
+  "lat": 34.13442,
+  "lon": -118.204091,
+  "score": 100
+ },
+ "5000 South Beethoven Street": null,
+ "5353 North Del Moreno Drive": {
+  "address": "5353 N DEL MORENO DR, 91364",
+  "lat": 34.168185,
+  "lon": -118.5759,
+  "score": 100
+ },
+ "5566 West 2nd Street": {
+  "address": "5566 W 2ND ST, 90036",
+  "lat": 34.070988,
+  "lon": -118.34117,
+  "score": 100
+ },
+ "5741 West Jefferson Boulevard": {
+  "address": "5741 W JEFFERSON BLVD, 90016",
+  "lat": 34.026711,
+  "lon": -118.37346,
+  "score": 100
+ },
+ "6023 West Rodgerton Drive": {
+  "address": "6023 W RODGERTON DR, 90068",
+  "lat": 34.125701,
+  "lon": -118.318128,
+  "score": 100
+ },
+ "6155 West Rodgerton Drive": {
+  "address": "6155 W RODGERTON DR, 90068",
+  "lat": 34.125276,
+  "lon": -118.320546,
+  "score": 100
+ },
+ "7220 North Hesperia Avenue": {
+  "address": "7220 N HESPERIA AVE, 91335",
+  "lat": 34.201634,
+  "lon": -118.526181,
+  "score": 100
+ },
+ "7528 Bellaire Avenue": {
+  "address": "7528 N BELLAIRE AVE, 91605",
+  "lat": 34.207547,
+  "lon": -118.409793,
+  "score": 99.06
+ },
+ "7921 West Denivelle Road": {
+  "address": "7921 W DENIVELLE ROAD, 91040",
+  "lat": 34.272562,
+  "lon": -118.306149,
+  "score": 100
+ },
+ "808 North Oneonta Drive": {
+  "address": "808 W ONEONTA DR, 90065",
+  "lat": 34.111362,
+  "lon": -118.218585,
+  "score": 92.78
+ },
+ "8100 West McGroarty Street": {
+  "address": "8100 W MCGROARTY ST, 91040",
+  "lat": 34.252351,
+  "lon": -118.309421,
+  "score": 100
+ },
+ "822 North Oneonta Drive": {
+  "address": "822 W ONEONTA DR, 90065",
+  "lat": 34.111335,
+  "lon": -118.218044,
+  "score": 92.78
+ },
+ "828 North Oneonta Drive": {
+  "address": "828 W ONEONTA DR, 90065",
+  "lat": 34.111299,
+  "lon": -118.217821,
+  "score": 92.78
+ },
+ "873 South Figueroa Street": {
+  "address": "873 S FIGUEROA ST, 90017",
+  "lat": 34.046575,
+  "lon": -118.262562,
+  "score": 100
+ },
+ "900 South Hilgard Avenue": {
+  "address": "900 S HILGARD AVE, 90024",
+  "lat": 34.063943,
+  "lon": -118.441047,
+  "score": 100
+ },
+ "9236 North Burnet Avenue": {
+  "address": "9236 N BURNET AVE, 91343",
+  "lat": 34.238228,
+  "lon": -118.463152,
+  "score": 100
+ },
+ "9247 North Wakefield Avenue": {
+  "address": "9247 N WAKEFIELD AVE, 91402",
+  "lat": 34.238202,
+  "lon": -118.448132,
+  "score": 100
+ },
+ "9830 West Wanda Park Drive": {
+  "address": "9830 W WANDA PARK DR, 90210",
+  "lat": 34.115652,
+  "lon": -118.432584,
+  "score": 100
+ },
+ "9832 West Wanda Park Drive": {
+  "address": "9832 W WANDA PARK DR, 90210",
+  "lat": 34.115707,
+  "lon": -118.432642,
+  "score": 100
+ }
+}

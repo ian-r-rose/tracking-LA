@@ -10,12 +10,23 @@
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/09-23-2026/Staff_Report_DIR_2024_5729_SPPC_HCA_1A.pdf"
   ],
   "summary": "Appeal of Director's approval for construction of a new single-family dwelling with attached garage at 808 North Oneonta Drive.",
-  "topics": ["land_use", "housing"],
+  "topics": [
+    "land_use",
+    "housing"
+  ],
   "locations": [
-    {"text": "808 North Oneonta Drive, Los Angeles, CA"}
+    {
+      "text": "808 North Oneonta Drive, Los Angeles, CA",
+      "lat": 34.111362,
+      "lon": -118.218585,
+      "neighborhood": "Mount Washington"
+    }
   ],
   "details": {
-    "case_numbers": ["DIR-2024-5729-SPPC-HCA-1A", "ENV-2024-5730-CE"],
+    "case_numbers": [
+      "DIR-2024-5729-SPPC-HCA-1A",
+      "ENV-2024-5730-CE"
+    ],
     "council_district": 1,
     "plan_area": "Northeast Los Angeles",
     "applicant": "Jimi Chae, CHAE Development, Inc.",

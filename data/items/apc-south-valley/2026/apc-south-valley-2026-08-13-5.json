@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "17317 West Ventura Boulevard, Los Angeles, CA"
+      "text": "17317 West Ventura Boulevard, Los Angeles, CA",
+      "lat": 34.160984,
+      "lon": -118.510139,
+      "neighborhood": "Encino"
     }
   ],
   "details": {

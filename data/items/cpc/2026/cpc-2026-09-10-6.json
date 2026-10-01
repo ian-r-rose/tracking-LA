@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "16300 Foothill Boulevard, Los Angeles, CA"
+      "text": "16300 Foothill Boulevard, Los Angeles, CA",
+      "lat": 34.319245,
+      "lon": -118.485975,
+      "neighborhood": "Sylmar"
     }
   ],
   "details": {

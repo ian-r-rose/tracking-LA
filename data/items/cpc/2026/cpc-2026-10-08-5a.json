@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "4590 West Colorado Boulevard, Los Angeles, CA"
+      "text": "4590 West Colorado Boulevard, Los Angeles, CA",
+      "lat": 34.141217,
+      "lon": -118.272784,
+      "neighborhood": "Atwater Village"
     }
   ],
   "details": {

@@ -10,12 +10,23 @@
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/09-08-2026/APCC_2020_1011.pdf"
   ],
   "summary": "Proposed construction of a five-story single-family dwelling on a hillside lot in Hollywood with multiple setback, height, and retaining wall adjustments.",
-  "topics": ["land_use", "housing"],
+  "topics": [
+    "land_use",
+    "housing"
+  ],
   "locations": [
-    {"text": "6155 West Rodgerton Drive, Los Angeles, CA"}
+    {
+      "text": "6155 West Rodgerton Drive, Los Angeles, CA",
+      "lat": 34.125276,
+      "lon": -118.320546,
+      "neighborhood": "Hollywood Hills"
+    }
   ],
   "details": {
-    "case_numbers": ["APCC-2020-1011-ZAA-ZAD-DRB-SPP-SPE-SPPA", "ENV-2020-1012-CE"],
+    "case_numbers": [
+      "APCC-2020-1011-ZAA-ZAD-DRB-SPP-SPE-SPPA",
+      "ENV-2020-1012-CE"
+    ],
     "council_district": 4,
     "plan_area": "Hollywood",
     "applicant": "Michele Ghersi",

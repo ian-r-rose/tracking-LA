@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "3278 West Wilshire Boulevard, Los Angeles, CA"
+      "text": "3278 West Wilshire Boulevard, Los Angeles, CA",
+      "lat": 34.061718,
+      "lon": -118.293622,
+      "neighborhood": "Koreatown"
     }
   ],
   "details": {

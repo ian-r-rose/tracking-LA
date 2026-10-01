@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "900 South Hilgard Avenue, Los Angeles, CA"
+      "text": "900 South Hilgard Avenue, Los Angeles, CA",
+      "lat": 34.063943,
+      "lon": -118.441047,
+      "neighborhood": "Westwood"
     }
   ],
   "details": {

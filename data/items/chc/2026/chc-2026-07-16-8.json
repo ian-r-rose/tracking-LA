@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "3911 West Adams Boulevard, Los Angeles, CA"
+      "text": "3911 West Adams Boulevard, Los Angeles, CA",
+      "lat": 34.032678,
+      "lon": -118.327366,
+      "neighborhood": "Jefferson Park"
     }
   ],
   "details": {

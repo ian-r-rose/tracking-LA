@@ -14,10 +14,16 @@
   ],
   "locations": [
     {
-      "text": "18009 West Sherman Way, Los Angeles, CA"
+      "text": "18009 West Sherman Way, Los Angeles, CA",
+      "lat": 34.20132,
+      "lon": -118.52549,
+      "neighborhood": "Reseda"
     },
     {
-      "text": "7220 North Hesperia Avenue, Los Angeles, CA"
+      "text": "7220 North Hesperia Avenue, Los Angeles, CA",
+      "lat": 34.201634,
+      "lon": -118.526181,
+      "neighborhood": "Reseda"
     }
   ],
   "details": {

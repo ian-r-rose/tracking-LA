@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "305 East Rose Avenue, Los Angeles, CA"
+      "text": "305 East Rose Avenue, Los Angeles, CA",
+      "lat": 33.996686,
+      "lon": -118.476828,
+      "neighborhood": "Venice"
     }
   ],
   "details": {
