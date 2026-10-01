@@ -22,10 +22,10 @@ CONCURRENT_DOWNLOADS = 4
 AGENDAS = DATA / "agendas.json"
 
 
-def fetch(since_days: int) -> None:
+def fetch(since_days: int, refetch: bool = False) -> None:
     today = date.today()
     start = today - timedelta(days=since_days)
-    seen: dict = json.loads(AGENDAS.read_text()) if AGENDAS.exists() else {}
+    seen: dict = json.loads(AGENDAS.read_text()) if AGENDAS.exists() and not refetch else {}
     counts = Counter()
     with httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=60, follow_redirects=True) as client:
         # Next year's schedule only appears late in the year.
@@ -100,6 +100,7 @@ def main() -> None:
     sub = parser.add_subparsers(dest="command", required=True)
     p = sub.add_parser("fetch", help="Fetch agendas for meetings since N days ago (and all upcoming)")
     p.add_argument("--since", type=int, default=30, metavar="DAYS")
+    p.add_argument("--refetch", action="store_true", help="Re-download past agendas too (e.g. after a parser fix)")
     sub.add_parser("check", help="Validate item files (run after extraction)")
     sub.add_parser("locate", help="Geocode item locations and assign neighborhoods")
     p = sub.add_parser("score", help="Rank items not yet in a digest")
@@ -108,7 +109,7 @@ def main() -> None:
     p.add_argument("date", help="Digest date, YYYY-MM-DD")
     args = parser.parse_args()
     if args.command == "fetch":
-        fetch(args.since)
+        fetch(args.since, args.refetch)
     elif args.command == "locate":
         locate()
     elif args.command == "score":

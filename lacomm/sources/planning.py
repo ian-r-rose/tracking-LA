@@ -30,9 +30,10 @@ BOILERPLATE = re.compile(
     re.IGNORECASE,
 )
 
-# An item header starts at the left margin: "6.     CPC-2026-3542-GPA-ZC   Council District: 7".
-# Requested actions inside an item ("1.  Pursuant to ...") are indented, so they don't match.
-ITEM_START = re.compile(r"^(\d{1,2}[a-z]?)\.\s{2,}(\S.*)$")
+# An item header: "6.     CPC-2026-3542-GPA-ZC   Council District: 7". Usually at the left
+# margin, but some agendas indent a few. Requested actions inside an item are indented too,
+# but have a single space after the number ("1. Pursuant to ..."), so they don't match.
+ITEM_START = re.compile(r"^ {0,5}(\d{1,2}[a-z]?)\. {2,}(\S.*)$")
 
 # Text after the last item: next-meeting notice and legal boilerplate.
 AGENDA_END = re.compile(r"^\s*(The next regular meeting of|Notice to Paid Representatives|ADJOURNMENT)")

@@ -69,3 +69,11 @@ def test_upsert_is_idempotent_and_preserves_enrichment(tmp_path):
     path.write_text(json.dumps(enriched))
     assert upsert_item(item | {"text": item["text"] + " (revised)"}, tmp_path) == "updated"
     assert json.loads(path.read_text())["summary"] == "A 13-unit building"
+
+
+def test_indented_item_headers_are_found_but_requested_actions_are_not():
+    items = planning.split_agenda(agenda(81082))
+    assert [number for number, _ in items] == ["4", "5", "6", "7", "8", "9", "10"]
+    assert planning.item_title(items[2][1]).startswith("MONUMENT: MAY COMPANY GARAGE")
+    # Item 5 ends where indented item 6 begins.
+    assert "MAY COMPANY" not in items[1][1]
