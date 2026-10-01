@@ -32,5 +32,12 @@
   "flag": {
     "reason": "Routine: emergency sewer repair on Fletcher Dr in Atwater Village."
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24986",
+    "vote": "5-0",
+    "recorded": "2026-10-01"
+  }
 }

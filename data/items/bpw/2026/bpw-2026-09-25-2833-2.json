@@ -18,5 +18,12 @@
   "details": {
     "action": "five-year contract authorization"
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25014",
+    "vote": "5-0",
+    "recorded": "2026-10-01"
+  }
 }

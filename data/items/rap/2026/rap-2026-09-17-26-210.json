@@ -29,5 +29,11 @@
   "details": {
     "action": "grant of right"
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "withdrawn",
+    "text": "WITHDRAWN",
+    "source": "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep17/091726-min-telephonic-regular.pdf",
+    "recorded": "2026-10-01"
+  }
 }

@@ -13,6 +13,7 @@ def test_normalize_status():
     assert normalize_status("CONTINUED DATE TO BE DETERMINED.") == "continued"
     assert normalize_status("WITHDRAWN") == "withdrawn"
     assert normalize_status("RECEIVED AND FILED") == "filed"
+    assert normalize_status("BIDS RECEIVED, OPENED AND DECLARED, FORTHWITH") == "filed"
     assert normalize_status("DENIED") == "denied"
     assert normalize_status("TAKEN UNDER SUBMISSION") == "other"
 

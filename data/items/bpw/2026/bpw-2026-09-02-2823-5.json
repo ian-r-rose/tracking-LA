@@ -20,5 +20,11 @@
     "amount": "$100.00",
     "action": "appeal hearing"
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "continued",
+    "text": "CONTINUED DATE TO BE DETERMINED",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24796",
+    "recorded": "2026-10-01"
+  }
 }

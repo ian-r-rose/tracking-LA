@@ -31,5 +31,12 @@
   "flag": {
     "reason": "Vision Zero safety project on Avalon Blvd in South LA."
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "approved",
+    "text": "ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25083",
+    "vote": "5-0",
+    "recorded": "2026-10-01"
+  }
 }

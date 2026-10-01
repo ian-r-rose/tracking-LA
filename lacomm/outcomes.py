@@ -24,7 +24,7 @@ def normalize_status(text: str) -> str:
         (r"CONTINUED|POSTPONED|DEFERRED|HELD", "continued"),
         (r"WITHDRAWN|PULLED", "withdrawn"),
         (r"DENIED|DISAPPROVED|REJECTED|FAILED", "denied"),
-        (r"RECEIVED AND FILED|NOTED AND FILED|\bFILED\b", "filed"),
+        (r"RECEIVED|NOTED AND FILED|\bFILED\b", "filed"),
         (r"ADOPTED|APPROVED|AWARDED|GRANTED", "approved"),
     ]:
         if re.search(pattern, t):

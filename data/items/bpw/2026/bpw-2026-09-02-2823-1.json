@@ -20,5 +20,12 @@
     "amount": "$682,000",
     "action": "authorize specifications for street light replacement"
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "approved",
+    "text": "ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24796",
+    "vote": "4-0",
+    "recorded": "2026-10-01"
+  }
 }

@@ -22,5 +22,12 @@
   "details": {
     "action": "bid withdrawal approval"
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "approved",
+    "text": "ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25014",
+    "vote": "5-0",
+    "recorded": "2026-10-01"
+  }
 }

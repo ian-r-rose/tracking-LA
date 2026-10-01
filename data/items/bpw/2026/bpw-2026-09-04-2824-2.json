@@ -17,5 +17,12 @@
   "details": {
     "action": "issue request for qualifications"
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24804",
+    "vote": "4-0",
+    "recorded": "2026-10-01"
+  }
 }

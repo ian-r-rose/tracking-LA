@@ -109,7 +109,7 @@ def journal_outcomes(meeting: dict, journal_html: bytes) -> dict[str, dict]:
             continue
         ayes = re.search(r"AYES:\s*([^;\n]*)", text)
         nays = re.search(r"NAYS:\s*([^;\n]*)", text)
-        count = lambda m: 0 if not m or m.group(1).strip().upper().startswith("NONE") else len(m.group(1).split(","))
+        count = lambda m: 0 if not m else len([n for n in m.group(1).split(",") if n.strip() and n.strip().upper() != "NONE"])
         disposition_text = re.sub(r"\s+", " ", disposition.group(1)).strip()
         outcome = {"text": disposition_text, "source": meeting["journal_url"]}
         if ayes:

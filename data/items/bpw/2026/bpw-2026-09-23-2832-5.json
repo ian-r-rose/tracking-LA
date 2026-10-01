@@ -27,5 +27,11 @@
     "amount": "$60,770,820",
     "action": "bid opening"
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "continued",
+    "text": "CONTINUED TO WEDNESDAY, SEPTEMBER 30, 2026",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24986",
+    "recorded": "2026-10-01"
+  }
 }

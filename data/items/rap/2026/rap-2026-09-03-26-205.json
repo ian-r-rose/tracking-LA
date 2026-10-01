@@ -24,5 +24,11 @@
   "details": {
     "action": "beach maintenance agreement approval"
   },
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "withdrawn",
+    "text": "WITHDRAWN",
+    "source": "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep03/090326mintelephonicregular_0.pdf",
+    "recorded": "2026-10-01"
+  }
 }

@@ -26,5 +26,12 @@
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep17/091726mintelephonicregular.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep17/26-216.pdf"
   ],
-  "digest": "2026-09-30"
+  "digest": "2026-09-30",
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED",
+    "source": "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep17/091726-min-telephonic-regular.pdf",
+    "vote": "5-0",
+    "recorded": "2026-10-01"
+  }
 }
