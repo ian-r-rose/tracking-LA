@@ -9,10 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
   ],
   "summary": "Approve professional services agreements for Eastern Sierra water management program for a five-year term with a cumulative amount of $8,600,000.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "amount": "$8,600,000",
     "action": "contract approval"
-  }
+  },
+  "digest": "2026-09-30"
 }

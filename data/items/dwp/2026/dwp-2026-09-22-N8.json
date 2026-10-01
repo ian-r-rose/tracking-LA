@@ -9,10 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
   ],
   "summary": "Approve first amendment to legal services agreement with Kaplan Kirsch increasing contract by $7,000,000 to $8,600,000 and extending the term by two years to April 20, 2029.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "amount": "$7,000,000",
     "action": "contract amendment"
-  }
+  },
+  "digest": "2026-09-30"
 }

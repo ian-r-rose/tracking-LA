@@ -9,7 +9,15 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Resolution approving Energy Cost Adjustment Expenditures for 12-month period commencing October 1, 2026.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
-  "details": {"action": "approval of resolution"}
+  "details": {
+    "action": "approval of resolution"
+  },
+  "flag": {
+    "reason": "Electric rate pass-through adjustment starting Oct 1."
+  },
+  "digest": "2026-09-30"
 }

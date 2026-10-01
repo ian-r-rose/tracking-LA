@@ -9,10 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
   ],
   "summary": "Approve five-year professional, technical, and repair services agreement with GE Vernova International for power system operations with a budgeted amount of $250,000,000.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "amount": "$250,000,000",
     "action": "contract approval"
-  }
+  },
+  "digest": "2026-09-30"
 }

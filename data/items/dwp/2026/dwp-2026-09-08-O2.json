@@ -9,7 +9,14 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Closed session conference with legal counsel regarding existing litigation in case Lippman, Jack et al. v. USA et al., No. 2:25-CV-04360-SB-MAR.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
-  "details": {"case_numbers": ["2:25-CV-04360-SB-MAR"]}
+  "details": {
+    "case_numbers": [
+      "2:25-CV-04360-SB-MAR"
+    ]
+  },
+  "digest": "2026-09-30"
 }

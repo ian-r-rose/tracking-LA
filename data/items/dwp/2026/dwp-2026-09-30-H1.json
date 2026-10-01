@@ -9,9 +9,12 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200364_09302026.pdf"
   ],
   "summary": "Approve amendment to Rule No. 15, Part 15-E governing water and electric service for underground line extensions on public property.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
   "details": {
     "action": "rule amendment"
-  }
+  },
+  "digest": "2026-09-30"
 }

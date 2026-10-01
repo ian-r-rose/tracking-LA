@@ -11,6 +11,12 @@
   "lon": -118.224035,
   "score": 92.78
  },
+ "125 Paseo de la Plaza": {
+  "address": "125 E PASEO DE LA PLAZA, 90012",
+  "lat": 34.057043,
+  "lon": -118.238693,
+  "score": 99.02
+ },
  "12952 West Ratner Street": {
   "address": "12952 W RATNER ST, 91605",
   "lat": 34.21677,
@@ -401,6 +407,7 @@
   "lon": -118.446665,
   "score": 98.18
  },
+ "Olvera Street": null,
  "Outer Cabrillo Beach": null,
  "Palisades Recreation Park": null,
  "Palisades Tennis Center": null,
@@ -409,6 +416,13 @@
  "Poinsettia Park": null,
  "Rancho Park Golf Course": null,
  "SYLMAR FIRE STATION No. 31": null,
+ "Sepulveda House": null,
+ "Spring Street & Alameda Street": {
+  "address": "N NORTH SPRING ST & N ALAMEDA ST, 90012",
+  "lat": 34.063065,
+  "lon": -118.236362,
+  "score": 76.02
+ },
  "Sunset Boulevard & Coronado Terrace": {
   "address": "W SUNSET BLVD & N CORONADO TER, 90026",
   "lat": 34.078833,

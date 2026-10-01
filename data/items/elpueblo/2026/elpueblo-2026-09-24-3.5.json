@@ -13,9 +13,17 @@
   "topics": [
     "other"
   ],
-  "locations": [],
+  "locations": [
+    {
+      "text": "125 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057043,
+      "lon": -118.238693,
+      "neighborhood": "Downtown"
+    }
+  ],
   "details": {
     "action": "lease approval",
     "applicant": "Dorkas Ramirez"
-  }
+  },
+  "digest": "2026-09-30"
 }

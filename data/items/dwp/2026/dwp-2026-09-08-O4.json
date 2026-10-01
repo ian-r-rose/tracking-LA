@@ -9,7 +9,14 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Closed session conference with legal counsel regarding existing litigation in case Lizy Charles v. City of Los Angeles, et al., LA Superior Court No. 25SMCV02910.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
-  "details": {"case_numbers": ["25SMCV02910"]}
+  "details": {
+    "case_numbers": [
+      "25SMCV02910"
+    ]
+  },
+  "digest": "2026-09-30"
 }

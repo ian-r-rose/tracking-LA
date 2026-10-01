@@ -9,7 +9,15 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Resolution authorizing expenditures for Estimated Water Supply Cost, Water Quality Improvement, and Owens Valley Regulatory Adjustments for 2027.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
-  "details": {"action": "approval of resolution"}
+  "details": {
+    "action": "approval of resolution"
+  },
+  "flag": {
+    "reason": "Water rate pass-through adjustments for 2027."
+  },
+  "digest": "2026-09-30"
 }

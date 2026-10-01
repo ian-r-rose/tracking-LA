@@ -20,5 +20,9 @@
   ],
   "details": {
     "action": "gate installation approval"
-  }
+  },
+  "flag": {
+    "reason": "Permanent gates to close Olvera Street after hours."
+  },
+  "digest": "2026-09-30"
 }

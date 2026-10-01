@@ -9,7 +9,10 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Monthly activities report for Financial Services Organization for June 2026.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "digest": "2026-09-30"
 }

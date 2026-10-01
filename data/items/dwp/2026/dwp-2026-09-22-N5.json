@@ -9,9 +9,12 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
   ],
   "summary": "Authorize travel for Board Commissioner Rudy J. Ortega, Jr. to Sacramento from October 19-22, 2026 to represent the Department and Board of Water and Power Commissioners.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
   "details": {
     "action": "travel authorization"
-  }
+  },
+  "digest": "2026-09-30"
 }

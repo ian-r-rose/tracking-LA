@@ -9,7 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Contract No. 8095 for Castaic Power Plant Outlet Tower Gates with Henry Pratt Company, LLC, not to exceed $6,681,336.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
-  "details": {"action": "contract approval", "amount": "$6,681,336"}
+  "details": {
+    "action": "contract approval",
+    "amount": "$6,681,336"
+  },
+  "digest": "2026-09-30"
 }

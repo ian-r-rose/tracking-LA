@@ -9,10 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
   ],
   "summary": "Increase contract amount for Barren Ridge Renewable Transmission Project habitat restoration and revegetation services from $15,550,000 to $20,550,000.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [],
   "details": {
     "amount": "$5,000,000",
     "action": "contract amendment"
-  }
+  },
+  "digest": "2026-09-30"
 }

@@ -9,7 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Lease No. 1309 approval with Big Pine Community Service District, generating estimated rental revenue of $4,025 over five years.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
-  "details": {"action": "lease approval", "amount": "$4,025"}
+  "details": {
+    "action": "lease approval",
+    "amount": "$4,025"
+  },
+  "digest": "2026-09-30"
 }

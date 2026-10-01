@@ -9,7 +9,10 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Semi-annual report on LADWP rates metrics reviewed.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "digest": "2026-09-30"
 }

@@ -9,7 +9,10 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Closed session conference with legal counsel regarding pending litigation with discussion on significant litigation exposure.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "digest": "2026-09-30"
 }

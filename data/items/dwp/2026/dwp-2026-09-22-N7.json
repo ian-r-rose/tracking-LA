@@ -9,10 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
   ],
   "summary": "Approve third amendment to legal services agreement with Meyers Nave increasing contract amount by $830,000 to an aggregate budget of $3,780,000.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "amount": "$830,000",
     "action": "contract amendment"
-  }
+  },
+  "digest": "2026-09-30"
 }

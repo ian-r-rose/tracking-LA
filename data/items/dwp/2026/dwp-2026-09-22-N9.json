@@ -9,10 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
   ],
   "summary": "Approve amendments to Commercial Direct Install Program Management and Services agreement with Willdan Group, maintaining a five-year term and $330 Million not-to-exceed amount.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "amount": "$330,000,000",
     "action": "contract amendment"
-  }
+  },
+  "digest": "2026-09-30"
 }

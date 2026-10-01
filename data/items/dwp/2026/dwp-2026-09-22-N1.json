@@ -9,7 +9,13 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
   ],
   "summary": "Approval of Agreement No. 47027 for Cloud Based Energy Management Tool with Abjayon, Inc., five-year term not to exceed $500,000.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
-  "details": {"action": "contract approval", "amount": "$500,000"}
+  "details": {
+    "action": "contract approval",
+    "amount": "$500,000"
+  },
+  "digest": "2026-09-30"
 }

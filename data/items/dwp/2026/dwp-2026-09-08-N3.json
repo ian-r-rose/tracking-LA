@@ -9,7 +9,16 @@
     "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf"
   ],
   "summary": "Approval to issue up to $1.081 billion in Power System Revenue Bonds under Resolution Nos. 5095 and 5096.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
-  "details": {"action": "authorization to issue bonds", "amount": "$1.081 Billion"}
+  "details": {
+    "action": "authorization to issue bonds",
+    "amount": "$1.081 Billion"
+  },
+  "flag": {
+    "reason": "$1.081B in Power System revenue bonds."
+  },
+  "digest": "2026-09-30"
 }

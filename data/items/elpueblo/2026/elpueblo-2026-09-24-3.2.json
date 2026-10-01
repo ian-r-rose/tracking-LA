@@ -22,5 +22,9 @@
   "details": {
     "action": "lease approval",
     "applicant": "Universidad Nacional Autónoma de México, USA (UNAM USA)"
-  }
+  },
+  "flag": {
+    "reason": "University lease at the historic Sepulveda House."
+  },
+  "digest": "2026-09-30"
 }
