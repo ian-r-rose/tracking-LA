@@ -8,5 +8,15 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80699"
-  ]
+  ],
+  "summary": "Approval of the First Amendment to Contract DA-5852 with Meyers Nave: To add $30,000 in funding, for new total not to exceed $330,000.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$30,000",
+    "applicant": "Contract DA-5852 with Meyers Nave",
+    "action": "First Amendment to contract"
+  }
 }

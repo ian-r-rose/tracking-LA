@@ -8,5 +8,17 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80679"
-  ]
+  ],
+  "summary": "Extension of childcare center operations contract with La Petite Academy at Los Angeles International Airport through February 2028.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "contract amendment extension"
+  }
 }

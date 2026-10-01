@@ -10,5 +10,18 @@
     "https://kentico.portoflosangeles.org/getmedia/18aa2034-6d1d-4b4d-add1-8aa6efbdb329/02_CM_Pamco_BR",
     "https://kentico.portoflosangeles.org/getmedia/0ae648bf-79ef-450c-9338-f61bee7fbbda/02_CM_Pamco_Trans-1",
     "https://kentico.portoflosangeles.org/getmedia/80e2686a-9f84-4f3a-af89-522b1d8c8722/02_CM_Pamco_Trans-2"
-  ]
+  ],
+  "summary": "Award of contract to Pamco Machine Works for inspection and resealing of gear boxes at Badger Avenue Bridge at Port of Los Angeles for $970,456.88.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Badger Avenue Bridge, Port of Los Angeles"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$970,456.88"
+  }
 }

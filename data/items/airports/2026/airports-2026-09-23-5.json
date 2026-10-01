@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80677"
-  ]
+  ],
+  "summary": "Extension and increase of guest satisfaction survey contract with GRM Research at Los Angeles International Airport, with additional $198,000 funding for total of $642,520.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "contract amendment extension and increase",
+    "amount": "$198,000"
+  }
 }

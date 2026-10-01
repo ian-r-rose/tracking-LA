@@ -8,5 +8,23 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80689"
-  ]
+  ],
+  "summary": "Approval of the Award of a five (5)-year Contract to WDA Fire Protection LLC: Covering fire extinguisher inspections and Regulation 4 fire door.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "amount": "$1,350,000",
+    "applicant": "WDA Fire Protection",
+    "action": "Contract Award"
+  }
 }

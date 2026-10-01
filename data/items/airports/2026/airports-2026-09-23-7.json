@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80681"
-  ]
+  ],
+  "summary": "Five-year contract approval with OHD LLLP for safety equipment and services at Los Angeles World Airports for $50,000.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$50,000"
+  }
 }

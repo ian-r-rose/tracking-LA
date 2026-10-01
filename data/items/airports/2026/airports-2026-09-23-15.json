@@ -8,5 +8,15 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80697"
-  ]
+  ],
+  "summary": "Approval of individual three (3)-year Contracts with [i] Anderson & Kreiger LLP, [ii] Burke Williams & Sorensen LLP, [iii] Remy Moose Manley LLP.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$300,000,",
+    "action": "Board approval"
+  }
 }

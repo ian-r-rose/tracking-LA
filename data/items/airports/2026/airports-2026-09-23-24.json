@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80716"
-  ]
+  ],
+  "summary": "Approval of the Fourth Amendment to Terminal Facilities Lease and License Agreement LAA-8965 with Air Canada.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "applicant": "Terminal Facilities Lease and License Agreement LAA-8965 with Air Canada",
+    "action": "Board approval"
+  }
 }

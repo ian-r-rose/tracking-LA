@@ -8,5 +8,22 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80693"
-  ]
+  ],
+  "summary": "Approval of the Award of a three (3)-year Contract to Standard Signs Inc. dba Lumacurve Airfield Signs.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "amount": "$3,000,000",
+    "applicant": "Standard Signs",
+    "action": "Contract Award"
+  }
 }

@@ -8,5 +8,15 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80701"
-  ]
+  ],
+  "summary": "Approval of the Second Amendment to Contract DA-5850 with Demetriou Del Guercio Springer & Francis LLP.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$400,000",
+    "applicant": "Contract DA-5850 with Demetriou Del Guercio Springer & Francis",
+    "action": "Second Amendment to contract"
+  }
 }

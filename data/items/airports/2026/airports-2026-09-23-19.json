@@ -9,5 +9,22 @@
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80706",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80820"
-  ]
+  ],
+  "summary": "Approval of the Award of a Lease to VNY Development LLC, a Delaware limited liability company wholly owned by Sky Harbour Group Corporation.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Van Nuys Airport"
+    },
+    {
+      "text": "7701 Woodley Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "amount": "$83",
+    "applicant": "VNY Development",
+    "action": "Award of Lease"
+  }
 }

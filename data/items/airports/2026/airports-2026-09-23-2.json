@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80671"
-  ]
+  ],
+  "summary": "Approval of both the Seventh Amendment to Concession Agreement LAA-8562 and the Ninth Amendment to Ground Lease LAA-8562-1 with Authorized Taxicab.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "applicant": "Concession Agreement LAA-8562 and the Ninth Amendment to Ground Lease LAA-8562-1 with Authorized Taxicab Supervision",
+    "action": "Seventh Amendment to contract"
+  }
 }

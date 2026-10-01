@@ -11,5 +11,18 @@
     "https://kentico.portoflosangeles.org/getmedia/13fbc835-97da-409e-8cd7-76f5aaea6a6c/07_P-S_PMP-Amendment-30-(JSG)_Transmittal-1_PMP-Planning-Area-2-Map",
     "https://kentico.portoflosangeles.org/getmedia/71821304-cb5f-4ac4-a9e5-280ccf7478df/07_P-S_PMP-Amendment-30-(JSG)_Transmittal-2_Proposed-PMP-Amendment",
     "https://kentico.portoflosangeles.org/getmedia/9cae797e-981e-4fce-9b26-619a0947c828/07_P-S_PMP-Amendment-30-(JSG)_Transmittal-3_Public-Notice-of-Completion"
-  ]
+  ],
+  "summary": "Adoption of Port Master Plan Amendment No. 30 to redesignate 16.2 acres of John S. Gibson hillside from Open Space to Maritime Support for truck and chassis parking lot project in Wilmington.",
+  "topics": [
+    "land_use",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "John S. Gibson Boulevard, Wilmington, CA"
+    }
+  ],
+  "details": {
+    "action": "port master plan amendment"
+  }
 }

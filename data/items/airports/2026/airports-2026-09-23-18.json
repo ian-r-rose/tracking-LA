@@ -8,5 +8,15 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80703"
-  ]
+  ],
+  "summary": "Approval of the Second Amendment to Service Agreement 4700002425 with Larson LLP: To add $385,000 in funding.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$385,000",
+    "applicant": "Service Agreement 4700002425 with Larson",
+    "action": "Second Amendment to contract"
+  }
 }

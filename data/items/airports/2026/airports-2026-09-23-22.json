@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80712"
-  ]
+  ],
+  "summary": "Approval of the Award of a ten (10)-year Lease to Joby Aero Inc.: Covering use and development of aviation land and building space located at Van.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "amount": "$1,750,000",
+    "applicant": "Joby Aero",
+    "action": "Contract Award"
+  }
 }

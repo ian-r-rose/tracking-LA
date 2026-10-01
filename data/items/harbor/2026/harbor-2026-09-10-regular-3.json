@@ -10,5 +10,17 @@
     "https://kentico.portoflosangeles.org/getmedia/a20f8fcd-2723-40f0-8387-7f14d00b8bbb/03_Waterfront-Real-Estate_So-Cal-Gas-and-PBF-Energy-Utility-Orders_Board-Report_1",
     "https://kentico.portoflosangeles.org/getmedia/47a44957-84f9-4c21-9b85-e83d38649670/03_Waterfront-Real-Estate_So-Cal-Gas-and-PBF-Energy-Utility-Orders_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/b3dbc9c3-b2c2-453b-ac35-477ee9e744a1/03_Waterfront-Real-Estate_So-Cal-Gas-and-PBF-Energy-Utility-Orders_Transmittal-2"
-  ]
+  ],
+  "summary": "Orders directing Southern California Gas Company and PBF Energy to relocate abandoned pipelines interfering with the 22nd Street Parking Lot Project and Harbor Boulevard and 22nd Street Roadway Project at Port of Los Angeles.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "22nd Street & Harbor Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "orders for utility relocation"
+  }
 }

@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80714"
-  ]
+  ],
+  "summary": "Approval of the Award of a ten (10)-year Lease to The Condor Squadron Officer’s and Airmen’s Association Inc..",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "amount": "$307,000",
+    "applicant": "The Condor Squadron Officer’s and Airmen’s Association",
+    "action": "Contract Award"
+  }
 }

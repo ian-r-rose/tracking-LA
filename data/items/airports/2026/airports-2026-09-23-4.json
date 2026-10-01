@@ -8,5 +8,17 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80675"
-  ]
+  ],
+  "summary": "Extension of real estate consulting and right-of-way services contract with Monument ROW for Los Angeles World Airports through February 2029.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "contract amendment extension"
+  }
 }

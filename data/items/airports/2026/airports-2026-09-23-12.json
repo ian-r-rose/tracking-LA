@@ -8,5 +8,22 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80691"
-  ]
+  ],
+  "summary": "Approval of the Award of a five (5)-year Contract to ITS Group Inc. dba Industrial Technical Services.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "amount": "$750,000",
+    "applicant": "ITS Group",
+    "action": "Contract Award"
+  }
 }

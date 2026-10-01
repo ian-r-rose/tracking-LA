@@ -11,5 +11,18 @@
     "https://kentico.portoflosangeles.org/getmedia/9cd86e60-fe66-4409-adac-2920a7a3a45e/06_Cargo-Real-Estate_WWL-P900-First-Amendment-and-Comp-Reset_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/f3e01dec-30e1-4bb8-807a-6df72997361c/06_Cargo-Real-Estate_WWL-P900-First-Amendment-and-Comp-Reset_Transmittal-2",
     "https://kentico.portoflosangeles.org/getmedia/5271e212-676f-4d04-8f0e-b9a70d912a27/06_Cargo-Real-Estate_WWL-P900-First-Amendment-and-Comp-Reset_Transmittal-3"
-  ]
+  ],
+  "summary": "Approval of first amendment to Permit No. 900 with WWL Vehicle Services extending vehicle import/export terminal operations at Berths 195-200A through December 2031 with minimum annual guarantee of $20,846,592.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Berths 195-200A, Port of Los Angeles"
+    }
+  ],
+  "details": {
+    "action": "permit amendment extension",
+    "amount": "$20,846,592"
+  }
 }

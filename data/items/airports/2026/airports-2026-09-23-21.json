@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80710"
-  ]
+  ],
+  "summary": "Approval of the Award of a ten (10)-year Lease to Paramount Global Corporate Aviation LLC.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "amount": "$8,313,168",
+    "applicant": "Paramount Global",
+    "action": "Contract Award"
+  }
 }

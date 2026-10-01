@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1280&meta_id=80683"
-  ]
+  ],
+  "summary": "Contract approval with ServiceWear Apparel Inc. for employee uniforms at Los Angeles International Airport and Van Nuys Airport through March 2027 for $65,000.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$65,000"
+  }
 }
