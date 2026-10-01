@@ -4,14 +4,18 @@
   "meeting_date": "2026-09-24",
   "item_number": "3.1",
   "title": "Dept. of Transportation LADOT Holiday Moratorium Exemption Request:",
-  "text": "Dept. of Transportation LADOT Holiday Moratorium Exemption Request:\n  Spring/Alameda Safety and Mobility Project",
+  "text": "[El Pueblo de Los Angeles Historical Monument (Olvera Street), 125 Paseo de la Plaza]\nDept. of Transportation LADOT Holiday Moratorium Exemption Request:\n  Spring/Alameda Safety and Mobility Project",
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/El%20Pueblo%20Commission%20Agenda%209-24-26.pdf"
   ],
   "summary": "Request exemption from holiday moratorium for Spring/Alameda Safety and Mobility Project.",
-  "topics": ["transportation"],
+  "topics": [
+    "transportation"
+  ],
   "locations": [
-    {"text": "Spring Street & Alameda Street, Los Angeles, CA"}
+    {
+      "text": "Spring Street & Alameda Street, Los Angeles, CA"
+    }
   ],
   "details": {
     "action": "holiday moratorium exemption"

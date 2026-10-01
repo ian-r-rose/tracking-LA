@@ -4,13 +4,15 @@
   "meeting_date": "2026-09-24",
   "item_number": "3.6",
   "title": "Approval of lease of E-15, Rafael Cortez-Flores, Mercado Raices",
-  "text": "Approval of lease of E-15, Rafael Cortez-Flores, Mercado Raices",
+  "text": "[El Pueblo de Los Angeles Historical Monument (Olvera Street), 125 Paseo de la Plaza]\nApproval of lease of E-15, Rafael Cortez-Flores, Mercado Raices",
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/El%20Pueblo%20Commission%20Agenda%209-24-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/E-15%20Mercado%20Raices%20-%20Key%20Terms.pdf"
   ],
   "summary": "Approve lease of space E-15 to Rafael Cortez-Flores for Mercado Raices business.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
   "details": {
     "action": "lease approval",
