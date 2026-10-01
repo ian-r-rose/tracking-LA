@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24762",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6e22290-db17-42f8-8085-d9ecb9bce2e8"
-  ]
+  ],
+  "summary": "Acknowledge and file updated funding table for Sidewalk Repair Program Package No. 72.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "work_order": "E1909085, C",
+    "amount": "$473,398.00",
+    "action": "sidewalk repair program"
+  }
 }

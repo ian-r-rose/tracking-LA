@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24778",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=901a83e5-6517-4495-9ae3-237569581a87"
-  ]
+  ],
+  "summary": "CONSTRUCTION BUDGET AND AWARD – VENICE PUMPING PLANT (VPP) 646 VALVE REPLACEMENT PROJECT.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 11,
+    "work_order": "SZC14473, C",
+    "amount": "$4,972,558.50",
+    "action": "authorize construction budget and award"
+  }
 }

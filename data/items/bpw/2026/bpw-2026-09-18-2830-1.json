@@ -8,5 +8,21 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24851",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=63574749-400f-4088-bc4f-b0b3104e1a85"
-  ]
+  ],
+  "summary": "Stop Notice for furnish and install of structural steel for Los Angeles Convention Center Expansion & Modernization Project.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Convention Center, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "C-202903"
+    ],
+    "amount": "$47,520,280.41",
+    "action": "Stop Notice"
+  }
 }

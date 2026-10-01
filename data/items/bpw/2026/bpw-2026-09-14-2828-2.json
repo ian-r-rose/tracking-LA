@@ -8,5 +8,23 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24818",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f6d1e6a2-808b-4cd8-8edd-e05f469ee3ef"
-  ]
+  ],
+  "summary": "Authorization to issue task for Environmental Impact Report for Hollenbeck Park Lake Rehabilitation and Sewer Replacement Project.",
+  "topics": [
+    "parks",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Hollenbeck Park, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "C-139063"
+    ],
+    "council_district": 14,
+    "amount": "$1,376,000,",
+    "bureau": "Engineering"
+  }
 }

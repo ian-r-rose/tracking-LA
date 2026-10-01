@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24738",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fe074f7-bdc2-493a-b2b5-278d8ec15548"
-  ]
+  ],
+  "summary": "Native garden with irrigation improvements at intersections of Aiglon Street, Almar Avenue, and Tahquitz Place in Pacific Palisades.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Aiglon Street & Almar Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "action": "grant revocable permission for median garden"
+  }
 }

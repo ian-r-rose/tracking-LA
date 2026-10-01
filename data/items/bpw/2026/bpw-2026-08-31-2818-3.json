@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24738",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ad60087-a51b-4ff1-8327-ade37b11429c"
-  ]
+  ],
+  "summary": "Increase budget authority for project management and programming services for BuildLA Project from $28,651,629 to $36,046,629.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "work_order": "E1908030, C",
+    "amount": "$28,651,629",
+    "action": "authorize task order"
+  }
 }

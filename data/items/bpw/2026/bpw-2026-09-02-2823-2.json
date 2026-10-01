@@ -8,5 +8,20 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24762",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c0641667-cc91-4179-ab3f-f86ea983c763"
-  ]
+  ],
+  "summary": "Accept bids for MacArthur Lake Stormwater Capture Project, estimated at $26,690,660.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "MacArthur Lake"
+    }
+  ],
+  "details": {
+    "council_district": 1,
+    "work_order": "S33WMLRP, S043MSWC, S343MSWC",
+    "amount": "$26,690,660",
+    "action": "accept bids for public works project"
+  }
 }

@@ -9,5 +9,18 @@
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24837",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=48c89ece-1833-4216-a23a-8740614c1db7",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=88fb3bf1-98c5-4522-96c8-8afc5e127f6a"
-  ]
+  ],
+  "summary": "Authorization to issue revision of task for BuildLA Project, increasing budget authority from $28,651,629 to $36,046,629 for project management and programming services.",
+  "topics": [
+    "budget"
+  ],
+  "details": {
+    "case_numbers": [
+      "C-134269"
+    ],
+    "amount": "$28,651,629",
+    "bureau": "Engineering",
+    "action": "Project Management Services"
+  },
+  "locations": []
 }

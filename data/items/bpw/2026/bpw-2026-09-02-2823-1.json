@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24762",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=667b71d0-8331-45e1-998b-09c75ab3448b"
-  ]
+  ],
+  "summary": "Authorize specifications and advertise for bids for Pacific Palisades Street Light Pole Replacement Project Phase 1, estimated at $682,000.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 11,
+    "work_order": "L2699525",
+    "amount": "$682,000",
+    "action": "authorize specifications for street light replacement"
+  }
 }

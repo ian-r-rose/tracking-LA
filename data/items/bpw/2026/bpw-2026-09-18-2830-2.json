@@ -8,5 +8,22 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24851",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4acb3c62-785a-4cea-9547-2b6dc7e004df"
-  ]
+  ],
+  "summary": "Authorization to issue task for professional design and construction services for sylmar fire station No. 31.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "SYLMAR FIRE STATION No. 31, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "C-202130"
+    ],
+    "council_district": 7,
+    "amount": "$1,762,552,",
+    "bureau": "Engineering"
+  }
 }

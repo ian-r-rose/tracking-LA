@@ -8,5 +8,15 @@
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311200079_09172026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep17/26-207.pdf"
-  ]
+  ],
+  "summary": "Review of bids and award of contract for Senior Center and Child Care Center renovations at Las Palmas Senior Center.",
+  "topics": ["parks", "budget"],
+  "locations": [
+    {
+      "text": "Las Palmas Senior Center"
+    }
+  ],
+  "details": {
+    "action": "contract award"
+  }
 }

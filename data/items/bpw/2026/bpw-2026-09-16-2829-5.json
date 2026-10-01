@@ -8,5 +8,20 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24837",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=49e56296-0d17-4bd7-9ee5-ac6cc132a03c"
-  ]
+  ],
+  "summary": "Contract acceptance for Class 3 Remedial Slop Mitigation at Sunset Boulevard Coronado Terrace to Waterloo Street Phase II.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Sunset Boulevard & Coronado Terrace, Los Angeles, CA"
+    },
+    {
+      "text": "Sunset Boulevard & Waterloo Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 13
+  }
 }

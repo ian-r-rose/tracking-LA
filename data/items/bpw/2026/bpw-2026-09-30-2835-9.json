@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24982",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c84513b0-c03b-40cf-9b91-d9ee6060f223"
-  ]
+  ],
+  "summary": "Advisory on Los Angeles Convention Center Expansion from Bureau of Engineering.",
+  "topics": ["other"],
+  "locations": [
+    {
+      "text": "Los Angeles Convention Center"
+    }
+  ],
+  "details": {
+    "action": "advisory"
+  }
 }

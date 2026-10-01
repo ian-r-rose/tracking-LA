@@ -8,5 +8,14 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=73a5ae49-b548-4aa0-968b-cf7687316901"
-  ]
+  ],
+  "summary": "Adopt revisions to street tree removal permit notification and reporting policies.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "action": "sidewalk repair program"
+  }
 }

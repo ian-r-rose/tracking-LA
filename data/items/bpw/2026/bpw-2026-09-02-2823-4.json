@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24762",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=739ae66c-97d1-44e5-8116-c4f9af3f68b0"
-  ]
+  ],
+  "summary": "Accept bids for Sidewalk Repair Program Package No. 86 in multiple council districts, estimated at $3,680,863.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 2,
+    "work_order": "E1909515",
+    "amount": "$3,680,863",
+    "action": "accept bids for public works project"
+  }
 }

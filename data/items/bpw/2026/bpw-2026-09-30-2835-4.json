@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24982",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=78c51e43-0198-4f10-9d2c-51689f5cb187"
-  ]
+  ],
+  "summary": "Contract acceptance for Hyperion Water Reclamation Plant Primary Battery C Influent Channel concrete and liner repairs in Council District 11.",
+  "topics": ["budget", "environment"],
+  "locations": [
+    {
+      "text": "Hyperion Water Reclamation Plant"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "action": "contract acceptance"
+  }
 }

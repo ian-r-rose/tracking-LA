@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24778",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ccf6805-c4c9-475a-85de-d1af9dc0b648"
-  ]
+  ],
+  "summary": "Authorize cooperative agreement with State of California regarding temporary closure of Vincent Thomas Bridge.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "action": "authorize specifications for street light replacement"
+  }
 }

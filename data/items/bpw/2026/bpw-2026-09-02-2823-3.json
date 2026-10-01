@@ -8,5 +8,21 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24762",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=28db01c6-bd9c-4ef0-ad56-77508c7354cf"
-  ]
+  ],
+  "summary": "Accept bids for Central Business District Sewer Rehabilitation Unit 12 from Alameda Street to 18th Street (Re-bid), estimated at $19,693,140.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Alameda Street & 18th Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "work_order": "SZC13940",
+    "amount": "$19,693,140",
+    "action": "accept bids for public works project"
+  }
 }

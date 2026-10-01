@@ -8,5 +8,14 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6daf6268-5b06-45da-8d30-858500033950"
-  ]
+  ],
+  "summary": "Request authority to execute revised Personal Services Contracts with waste disposal service providers.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "work_order": "M0010011",
+    "action": "authorize personal services contracts"
+  }
 }

@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24906",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a01de118-fc1b-4da9-8cc2-a09a13630bf2"
-  ]
+  ],
+  "summary": "Revision of task order for environmental support services for the Ziegler Estate Project in Council District 1, increasing budget to $58,921.91.",
+  "topics": ["budget"],
+  "locations": [
+    {
+      "text": "Ziegler Estate"
+    }
+  ],
+  "details": {
+    "council_district": 1,
+    "amount": "$58,921.91",
+    "action": "task order revision",
+    "case_numbers": ["C-139062"]
+  }
 }

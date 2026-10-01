@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24778",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=df72b3d6-bd6d-4083-b7e7-d74451629aee"
-  ]
+  ],
+  "summary": "Issue request for qualifications for geotechnical and environmental engineering consultants for various public works projects.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "issue request for qualifications"
+  }
 }

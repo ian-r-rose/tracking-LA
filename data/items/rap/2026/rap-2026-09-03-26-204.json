@@ -8,5 +8,16 @@
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311199735_09032026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep03/26-204.pdf"
-  ]
+  ],
+  "summary": "Categorical exemption from CEQA for roadway and fence improvements at Angels Gate Park by Marine Exchange of Southern California.",
+  "topics": ["parks"],
+  "locations": [
+    {
+      "text": "Angels Gate Park"
+    }
+  ],
+  "details": {
+    "action": "CEQA categorical exemption",
+    "applicant": "Marine Exchange of Southern California"
+  }
 }

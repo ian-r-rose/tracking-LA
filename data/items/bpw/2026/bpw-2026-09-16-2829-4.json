@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24837",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f003b812-5110-4dc6-a64e-dc6feead208b"
-  ]
+  ],
+  "summary": "Contract acceptance for Main Street Lighting Improvement Unit 1 CIP/STP Street Lighting Project.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Main Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 9
+  }
 }

@@ -8,5 +8,11 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25021",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0cb33a7d-816c-4df5-b3e7-c3acd055addb"
-  ]
+  ],
+  "summary": "Approval of clerical correction to Official Journal of June 26, 2026 regarding Board decision on responsive bidders.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "action": "clerical correction"
+  }
 }

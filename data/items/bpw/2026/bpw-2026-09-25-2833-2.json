@@ -8,5 +8,11 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24951",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=59875df6-76bc-45ad-bb9d-1e352accf44f"
-  ]
+  ],
+  "summary": "Five-year contract authorization with Sterndahl Enterprises, LLC and Statewide Traffic Safety and Signs, Inc. for freeway off-ramp closure services.",
+  "topics": ["transportation", "budget"],
+  "locations": [],
+  "details": {
+    "action": "five-year contract authorization"
+  }
 }

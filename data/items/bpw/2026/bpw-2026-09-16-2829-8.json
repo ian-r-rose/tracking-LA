@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24837",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8c9bb6fb-4204-4e35-8de5-af5a525fe3f8"
-  ]
+  ],
+  "summary": "Report on Sidewalk & Transit Amenities Program.",
+  "topics": [
+    "transportation"
+  ],
+  "details": {
+    "bureau": "Street Services"
+  },
+  "locations": []
 }

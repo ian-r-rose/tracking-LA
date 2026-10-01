@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24982",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a03b854e-9c4b-4b8b-8ab7-84bd570bd1d0"
-  ]
+  ],
+  "summary": "Bid opening (continued) for Broadway-Manchester Active Transportation Equity Project in Council District 8 with estimated cost of $54,513,550.",
+  "topics": ["transportation", "budget"],
+  "locations": [
+    {
+      "text": "Broadway & Manchester, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "amount": "$54,513,550",
+    "action": "bid opening"
+  }
 }

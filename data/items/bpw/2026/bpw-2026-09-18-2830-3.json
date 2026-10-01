@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24851",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e4d08520-bf36-4a29-836e-289de6198452"
-  ]
+  ],
+  "summary": "Approval and forwarding of sole source contract with e2020 Technology, Inc. for bureau-wide program management and document control system services.",
+  "topics": [
+    "budget"
+  ],
+  "details": {
+    "amount": "$4,156,000,"
+  },
+  "locations": []
 }

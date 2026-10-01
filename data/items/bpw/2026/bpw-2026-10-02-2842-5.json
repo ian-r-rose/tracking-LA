@@ -8,5 +8,11 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25021",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d351d90b-9aac-455a-84e4-8bd322ce96c6"
-  ]
+  ],
+  "summary": "Update from Bureau of Sanitation and Bureau of Engineering on bureau activities.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "action": "bureau update"
+  }
 }

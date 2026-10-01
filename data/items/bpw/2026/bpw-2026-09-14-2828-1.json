@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24818",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=61470696-b274-446f-b2dd-b224b117f4d9"
-  ]
+  ],
+  "summary": "Release of Stop Notice for clearing and grubbing in connection with Argo Drain Sub-Basin Facility Project.",
+  "topics": [
+    "environment"
+  ],
+  "details": {
+    "case_numbers": [
+      "C-131878"
+    ],
+    "amount": "$3,165,"
+  },
+  "locations": []
 }

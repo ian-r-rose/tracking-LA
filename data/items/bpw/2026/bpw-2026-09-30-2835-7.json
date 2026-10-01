@@ -8,5 +8,11 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24982",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=de1a8470-045a-43c1-bec3-93b2cb2a2bb9"
-  ]
+  ],
+  "summary": "Advisory on the Sidewalk and Transit Amenities Program from Bureau of Street Services.",
+  "topics": ["transportation"],
+  "locations": [],
+  "details": {
+    "action": "advisory"
+  }
 }

@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24969",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6fe8166f-7e64-4c40-9bf4-9ba03f3a8578"
-  ]
+  ],
+  "summary": "Contract award to Spiniello Infrastructure West, Inc. for North Outfall Sewer Rehabilitation Unit 33 at Magnolia Boulevard and Woodman Avenue in Council District 4 for $31,314,495.",
+  "topics": ["budget"],
+  "locations": [
+    {
+      "text": "Magnolia Boulevard & Woodman Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 4,
+    "amount": "$31,314,495",
+    "action": "contract award"
+  }
 }

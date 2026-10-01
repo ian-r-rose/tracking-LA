@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24875",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dca34bae-1389-449c-b32d-ba5a042b4059"
-  ]
+  ],
+  "summary": "Delegation of signature authority to City Engineer to execute Memorandum of Understanding for Statewide Electronic Courier Universal Recording Environment.",
+  "topics": [
+    "budget"
+  ],
+  "details": {
+    "bureau": "Engineering"
+  },
+  "locations": []
 }

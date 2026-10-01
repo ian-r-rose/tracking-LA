@@ -8,5 +8,14 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=29747259-c2c8-421d-b70d-a2f1cef5ecf9"
-  ]
+  ],
+  "summary": "Approval of 2025 Public Notice of Significant Noncompliant Industrial Users for publication by Bureau of Sanitation.",
+  "topics": [
+    "other"
+  ],
+  "details": {
+    "bureau": "Sanitation",
+    "action": "Publication Approval"
+  },
+  "locations": []
 }

@@ -8,5 +8,21 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24738",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f0ad2c3-5ffb-4903-a6b6-d0d0f2e94a05"
-  ]
+  ],
+  "summary": "Increase budget authority for geotechnical and environmental engineering services for Pio Pico Library Pocket Park Project from $218,410 to $260,635.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Pio Pico Library"
+    }
+  ],
+  "details": {
+    "council_district": 10,
+    "work_order": "E1908188, C",
+    "amount": "$218,410",
+    "action": "authorize task order"
+  }
 }

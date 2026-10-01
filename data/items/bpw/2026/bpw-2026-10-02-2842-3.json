@@ -8,5 +8,31 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25021",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=aa0af671-48ea-4e89-a4c2-30cbae190a73"
-  ]
+  ],
+  "summary": "Approval of sidewalk repair project including tree removal at six addresses in Council District 8.",
+  "topics": ["environment"],
+  "locations": [
+    {
+      "text": "2912 South Hobart Boulevard, Los Angeles, CA"
+    },
+    {
+      "text": "2923 South Hobart Boulevard, Los Angeles, CA"
+    },
+    {
+      "text": "3007 South La Salle Avenue, Los Angeles, CA"
+    },
+    {
+      "text": "2658 South Harvard Boulevard, Los Angeles, CA"
+    },
+    {
+      "text": "3000 South Dalton Avenue, Los Angeles, CA"
+    },
+    {
+      "text": "1620 West 30th Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "action": "tree removal and sidewalk repair"
+  }
 }

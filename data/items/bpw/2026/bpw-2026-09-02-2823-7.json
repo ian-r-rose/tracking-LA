@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24762",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d24c0c51-2eaf-4805-b116-a7aeb4aa394c"
-  ]
+  ],
+  "summary": "Community level contracting update from all bureaus.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "community level contracting update"
+  }
 }

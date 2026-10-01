@@ -8,5 +8,19 @@
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311199735_09032026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep03/26-206.pdf"
-  ]
+  ],
+  "summary": "Approval of Lifeguarding Services Agreements with Consolidated Fire Protection District for Venice Beach and Outer Cabrillo Beach.",
+  "topics": ["parks", "public_safety"],
+  "locations": [
+    {
+      "text": "Venice Beach"
+    },
+    {
+      "text": "Outer Cabrillo Beach"
+    }
+  ],
+  "details": {
+    "action": "lifeguarding services agreement approval",
+    "applicant": "Consolidated Fire Protection District of Los Angeles County"
+  }
 }

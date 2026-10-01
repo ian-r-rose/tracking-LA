@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24762",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=af4e4a32-f7d3-4394-a393-c4330faf7163"
-  ]
+  ],
+  "summary": "Appeal hearing decision for MLADEN BUNTICH CONSTRUCTION COMPANY regarding compensation claims.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 4,
+    "work_order": "SZC13456",
+    "amount": "$100.00",
+    "action": "appeal hearing"
+  }
 }

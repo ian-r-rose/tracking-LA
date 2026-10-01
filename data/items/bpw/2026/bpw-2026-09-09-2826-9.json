@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dde512ae-d08d-4dec-9a5c-69eaffbb2e06"
-  ]
+  ],
+  "summary": "Approval to remove protected trees at 3880 EAST SAN RAFAEL AVENUE, Los Angeles, CA.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "3880 EAST SAN RAFAEL AVENUE, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "bureau": "Street Services"
+  }
 }

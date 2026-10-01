@@ -8,5 +8,22 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24818",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=21de5ad6-177d-43d2-944a-0721fd130bee"
-  ]
+  ],
+  "summary": "Approval of revised construction budget and authorization for change orders for the Warner Grand Theatre Project.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Warner Grand Theatre, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "C-146776"
+    ],
+    "council_district": 15,
+    "amount": "$700,000",
+    "bureau": "Engineering"
+  }
 }

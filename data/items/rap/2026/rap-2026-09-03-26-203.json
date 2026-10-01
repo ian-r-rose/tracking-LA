@@ -8,5 +8,15 @@
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311199735_09032026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep03/26-203.pdf"
-  ]
+  ],
+  "summary": "Categorical exemption from CEQA for replacement of fencing at Griffith Park Golf Complex.",
+  "topics": ["parks"],
+  "locations": [
+    {
+      "text": "Griffith Park Golf Complex"
+    }
+  ],
+  "details": {
+    "action": "CEQA categorical exemption"
+  }
 }

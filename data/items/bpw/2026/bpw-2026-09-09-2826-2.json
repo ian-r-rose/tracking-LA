@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c3e4e9b6-aec8-4ecc-bd1a-1e60f6502380"
-  ]
+  ],
+  "summary": "Execute relinquishment of rights for future street at 4533 North Laurel Canyon Boulevard.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "4533 North Laurel Canyon Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 2
+  }
 }

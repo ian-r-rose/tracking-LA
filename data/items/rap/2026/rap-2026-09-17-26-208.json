@@ -8,5 +8,15 @@
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311200079_09172026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep17/26-208.pdf"
-  ]
+  ],
+  "summary": "Approval of final plans and specifications for Alpine Recreation Center expansion with categorical exemption from CEQA.",
+  "topics": ["parks"],
+  "locations": [
+    {
+      "text": "Alpine Recreation Center"
+    }
+  ],
+  "details": {
+    "action": "CEQA categorical exemption"
+  }
 }

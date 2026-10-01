@@ -8,5 +8,19 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24837",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c894e95c-1579-4358-a69e-2f9f056d99d1"
-  ]
+  ],
+  "summary": "Authorization for Request for Qualifications for Hyperion Water Reclamation Plant Battery B Digester Demolition Project.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Hyperion Water Reclamation Plant, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "bureau": "Engineering"
+  }
 }

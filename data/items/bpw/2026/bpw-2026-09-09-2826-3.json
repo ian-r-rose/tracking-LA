@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d9ceed7-d386-4f60-8b43-dceeddc155c8"
-  ]
+  ],
+  "summary": "Execute relinquishment of rights for future alley at 12952 West Ratner Street.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "12952 West Ratner Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 12
+  }
 }

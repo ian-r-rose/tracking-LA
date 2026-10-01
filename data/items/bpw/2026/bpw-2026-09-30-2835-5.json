@@ -8,5 +8,12 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24982",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d641be10-26d9-4b37-a427-792d7e6b778f"
-  ]
+  ],
+  "summary": "Contract acceptance for Crescent Drive bulkhead reconstruction.",
+  "topics": ["transportation"],
+  "locations": [],
+  "details": {
+    "council_district": 4,
+    "action": "contract acceptance"
+  }
 }

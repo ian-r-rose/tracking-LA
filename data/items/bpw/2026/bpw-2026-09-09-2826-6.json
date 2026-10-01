@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f435cfd5-c473-44b8-a58d-6afb7b3a1ec0"
-  ]
+  ],
+  "summary": "Authorize specifications and advertise for bids for Sidewalk Repair Program Package No. 89, estimated at $2,351,162.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 1,
+    "work_order": "E1909538",
+    "amount": "$2,351,162",
+    "action": "sidewalk repair program"
+  }
 }

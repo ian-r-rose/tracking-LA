@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24875",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2804702e-43a3-4725-ae25-8f338c136510"
-  ]
+  ],
+  "summary": "Extension of bid date and revision of City Engineer's estimate for Broadway-Manchester Active Transportation Equity Project.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Broadway & Manchester, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "amount": "$60,770,820"
+  }
 }

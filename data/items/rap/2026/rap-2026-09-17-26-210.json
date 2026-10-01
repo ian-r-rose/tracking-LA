@@ -8,5 +8,18 @@
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311200079_09172026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep17/26-210.pdf"
-  ]
+  ],
+  "summary": "Grant of right to Department of Public Works for portion of Ohio Avenue and Sepulveda Boulevard at Westwood Park for right of way purposes.",
+  "topics": ["parks", "transportation"],
+  "locations": [
+    {
+      "text": "Westwood Park"
+    },
+    {
+      "text": "Ohio Avenue & Sepulveda Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "grant of right"
+  }
 }

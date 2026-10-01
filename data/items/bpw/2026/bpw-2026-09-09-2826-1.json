@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6fc9a563-ebf9-4a07-ba4f-f62bb5f353ff"
-  ]
+  ],
+  "summary": "Execute relinquishment of rights for future alley at 1817 South Orange Grove Avenue.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1817 South Orange Grove Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 10
+  }
 }

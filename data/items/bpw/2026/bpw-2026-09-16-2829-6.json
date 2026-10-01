@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24837",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8655715c-f1ea-41ab-9599-64ec9518dc35"
-  ]
+  ],
+  "summary": "Contract acceptance for Erosion Control for Hillside Damage (FY 23/24).",
+  "topics": [
+    "environment"
+  ],
+  "details": {
+    "council_district": 1
+  },
+  "locations": []
 }

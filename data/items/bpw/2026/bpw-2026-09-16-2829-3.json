@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24837",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a3bc83d2-82cf-4170-8e1c-757d82f505d3"
-  ]
+  ],
+  "summary": "Pre-qualification of vendors and authorization for negotiations for solid resources fleet telematics and service confirmation platform.",
+  "topics": [
+    "budget"
+  ],
+  "details": {
+    "bureau": "Sanitation"
+  },
+  "locations": []
 }

@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24906",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ffb906dc-3f65-4b7b-9006-d60fed64656a"
-  ]
+  ],
+  "summary": "Award of construction contract for emergency sewer repair on Fletcher Drive in Council District 13 for $1,759,998.90.",
+  "topics": ["budget"],
+  "locations": [
+    {
+      "text": "2600 Fletcher Drive, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "amount": "$1,759,998.90",
+    "action": "construction contract award",
+    "case_numbers": ["C-141939"]
+  }
 }

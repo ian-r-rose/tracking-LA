@@ -5,6 +5,10 @@
   "item_number": "10",
   "title": "AUTHORITY TO ADJUST HOURS OF OPERATION AND IMPLEMENT A",
   "text": "[CONSENT ITEMS]\nAUTHORITY TO ADJUST HOURS OF OPERATION AND IMPLEMENT A\n  PARKING PERMIT PROGRAM FOR MUNICIPAL PARKING LOT NO. 625 IN\n  LEIMERT PARK",
+  "summary": "Authority to adjust hours of operation and implement a parking permit program for municipal parking lot no. 625 in Leimert Park.",
+  "topics": ["transportation", "parks"],
+  "locations": [{"text": "Leimert Park"}],
+  "details": {"action": "adjust hours of operation and implement parking permit program"},
   "urls": [
     "https://ens.lacity.org/ladot/transagenda/ladottransagenda256199849_09102026.pdf"
   ]

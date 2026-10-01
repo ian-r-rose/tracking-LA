@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24799",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=57a7d6ad-43cd-4564-a9a8-bae146fa7246"
-  ]
+  ],
+  "summary": "Execute relinquishment of rights for future alley at 15430 Septo Street.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "15430 Septo Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 7
+  }
 }

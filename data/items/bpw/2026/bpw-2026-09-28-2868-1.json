@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25005",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f49764af-2ba4-4a75-a588-37b1403a2fa6"
-  ]
+  ],
+  "summary": "Contract award to Environmental Construction, Inc. for Los Angeles Riverway West San Fernando Valley Completion Project from Vanalden Avenue to Balboa Boulevard for $83,992,694.",
+  "topics": ["budget", "environment"],
+  "locations": [
+    {
+      "text": "Vanalden Avenue & Balboa Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "amount": "$83,992,694",
+    "action": "contract award"
+  }
 }

@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24837",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d2f46c62-b9fd-4968-bb22-7aa017df1cc7"
-  ]
+  ],
+  "summary": "Specification submitted for authorization to advertise for bids for Venoco Pipeline Abandonment Project.",
+  "topics": [
+    "other"
+  ],
+  "details": {
+    "council_district": 5,
+    "amount": "$145,000",
+    "action": "Pipeline Abandonment"
+  },
+  "locations": []
 }

@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24778",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=04ad056e-b536-4228-9707-d8bb35429a15"
-  ]
+  ],
+  "summary": "Construction services contract update from Bureau of Engineering.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "construction services contract update"
+  }
 }

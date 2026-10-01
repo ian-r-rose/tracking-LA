@@ -8,5 +8,12 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25021",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=953375b8-9a87-44e6-b0ad-c18a02a095a4"
-  ]
+  ],
+  "summary": "Authorization for Board of Public Works to execute Personal Services Contract with NS Corporation for repair and maintenance of automated vehicle wash facilities.",
+  "topics": ["budget"],
+  "locations": [],
+  "details": {
+    "action": "contract authorization",
+    "applicant": "NS Corporation"
+  }
 }

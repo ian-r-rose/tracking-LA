@@ -8,5 +8,9 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24951",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b1f5af8e-c363-465b-b628-391cd328f17d"
-  ]
+  ],
+  "summary": "Status update on major street improvement and resurfacing projects by Bureau of Street Services.",
+  "topics": ["transportation"],
+  "locations": [],
+  "details": {}
 }

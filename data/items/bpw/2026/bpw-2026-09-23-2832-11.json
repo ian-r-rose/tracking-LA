@@ -8,5 +8,9 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24906",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e106c05b-4dab-45c4-8fc8-1388ef7401fd"
-  ]
+  ],
+  "summary": "Status update on transportation projects by Metro and Department of Transportation.",
+  "topics": ["transportation"],
+  "locations": [],
+  "details": {}
 }

@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24951",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=06dab1b8-1857-444a-b8f8-e1040ff83ce9"
-  ]
+  ],
+  "summary": "Approval of bid withdrawal requests from Mehta Mechanical Company, Inc. and Environmental Construction, Inc. for the MacArthur Lake Stormwater Capture Project.",
+  "topics": ["budget", "environment"],
+  "locations": [
+    {
+      "text": "MacArthur Lake"
+    }
+  ],
+  "details": {
+    "action": "bid withdrawal approval"
+  }
 }
