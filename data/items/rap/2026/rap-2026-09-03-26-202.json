@@ -10,10 +10,16 @@
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep03/26-202.pdf"
   ],
   "summary": "Consideration of environmental review for proposed Los Angeles River Bike Path Phase IV Extension in Griffith Park.",
-  "topics": ["parks", "transportation"],
+  "topics": [
+    "parks",
+    "transportation"
+  ],
   "locations": [
     {
-      "text": "Griffith Park"
+      "text": "Griffith Park",
+      "lat": 34.13199,
+      "lon": -118.296791,
+      "neighborhood": "Griffith Park"
     }
   ],
   "details": {

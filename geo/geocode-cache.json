@@ -11,6 +11,12 @@
   "lon": -118.224035,
   "score": 92.78
  },
+ "12952 West Ratner Street": {
+  "address": "12952 W RATNER ST, 91605",
+  "lat": 34.21677,
+  "lon": -118.415967,
+  "score": 100
+ },
  "14330 W. Moorpark Street": {
   "address": "14330 W MOORPARK ST, 91423",
   "lat": 34.15139,
@@ -21,6 +27,18 @@
   "address": "14401 W VENTURA BLVD, 91423",
   "lat": 34.150534,
   "lon": -118.445942,
+  "score": 100
+ },
+ "15430 Septo Street": {
+  "address": "15430 W SEPTO ST, 91345",
+  "lat": 34.250909,
+  "lon": -118.468976,
+  "score": 99.06
+ },
+ "1620 West 30th Street": {
+  "address": "1620 W 30TH ST, 90018",
+  "lat": 34.027244,
+  "lon": -118.300767,
   "score": 100
  },
  "16300 Foothill Boulevard": {
@@ -39,6 +57,12 @@
   "address": "18009 W SHERMAN WAY, 91335",
   "lat": 34.20132,
   "lon": -118.52549,
+  "score": 100
+ },
+ "1817 South Orange Grove Avenue": {
+  "address": "1817 S ORANGE GROVE AVE, 90019",
+  "lat": 34.042725,
+  "lon": -118.368298,
   "score": 100
  },
  "1851 North Ivar Avenue": {
@@ -83,10 +107,22 @@
   "lon": -118.278798,
   "score": 99.06
  },
+ "2600 Fletcher Drive": {
+  "address": "2600 N FLETCHER DR, 90039",
+  "lat": 34.10909,
+  "lon": -118.252795,
+  "score": 99.06
+ },
  "261 South Kenmore Avenue": {
   "address": "261 S KENMORE AVE, 90004",
   "lat": 34.0699,
   "lon": -118.296726,
+  "score": 100
+ },
+ "2658 South Harvard Boulevard": {
+  "address": "2658 S HARVARD BLVD, 90018",
+  "lat": 34.031632,
+  "lon": -118.306622,
   "score": 100
  },
  "2718 North Hyperion Avenue": {
@@ -101,10 +137,34 @@
   "lon": -118.326043,
   "score": 100
  },
+ "2912 South Hobart Boulevard": {
+  "address": "2912 S HOBART BLVD, 90018",
+  "lat": 34.028833,
+  "lon": -118.307758,
+  "score": 100
+ },
  "2921 South Budlong Avenue": {
   "address": "2921 S BUDLONG AVE, 90007",
   "lat": 34.028513,
   "lon": -118.295967,
+  "score": 100
+ },
+ "2923 South Hobart Boulevard": {
+  "address": "2923 S HOBART BLVD, 90018",
+  "lat": 34.028659,
+  "lon": -118.307872,
+  "score": 100
+ },
+ "3000 South Dalton Avenue": {
+  "address": "3000 S DALTON AVE, 90018",
+  "lat": 34.027242,
+  "lon": -118.304002,
+  "score": 100
+ },
+ "3007 South La Salle Avenue": {
+  "address": "3007 S LA SALLE AVE, 90018",
+  "lat": 34.027191,
+  "lon": -118.305412,
   "score": 100
  },
  "305 East Rose Avenue": {
@@ -131,6 +191,12 @@
   "lon": -118.306671,
   "score": 99.06
  },
+ "3880 EAST SAN RAFAEL AVENUE": {
+  "address": "3880 N SAN RAFAEL AVE, 90065",
+  "lat": 34.102563,
+  "lon": -118.217095,
+  "score": 92.78
+ },
  "3911 West Adams Boulevard": {
   "address": "3911 W ADAMS BLVD, 90018",
   "lat": 34.032678,
@@ -142,6 +208,12 @@
   "lat": 34.077407,
   "lon": -118.194731,
   "score": 92.78
+ },
+ "4533 North Laurel Canyon Boulevard": {
+  "address": "4533 N LAUREL CANYON BLVD, 91607",
+  "lat": 34.153245,
+  "lon": -118.396544,
+  "score": 100
  },
  "4590 West Colorado Boulevard": {
   "address": "4590 W COLORADO BLVD, 90039",
@@ -275,5 +347,79 @@
   "lat": 34.115707,
   "lon": -118.432642,
   "score": 100
- }
+ },
+ "Aiglon Street & Almar Avenue": {
+  "address": "W AIGLON ST & N ALMAR AVE, 90272",
+  "lat": 34.043877,
+  "lon": -118.536872,
+  "score": 98.18
+ },
+ "Alameda Street & 18th Street": null,
+ "Angels Gate Park": null,
+ "Avalon Boulevard & 56th Street": {
+  "address": "S AVALON BLVD & E 56TH ST, 90011",
+  "lat": 33.991569,
+  "lon": -118.265202,
+  "score": 98.18
+ },
+ "Broadway & Manchester": {
+  "address": "S BROADWAY & W MANCHESTER AVE, 90003",
+  "lat": 33.960132,
+  "lon": -118.278293,
+  "score": 96.74
+ },
+ "Griffith Park": null,
+ "Griffith Park Golf Complex": null,
+ "Hollenbeck Park": null,
+ "Hyperion Water Reclamation Plant": null,
+ "James M. Wood Boulevard & 11th Street": null,
+ "Kinney Street": null,
+ "Las Palmas Senior Center": null,
+ "Leimert Park": null,
+ "Los Angeles Convention Center": null,
+ "MacArthur Lake": null,
+ "MacArthur Park": null,
+ "Magnolia Boulevard & Woodman Avenue": {
+  "address": "W MAGNOLIA BLVD & N WOODMAN AVE, 91423",
+  "lat": 34.164873,
+  "lon": -118.431248,
+  "score": 98.18
+ },
+ "Main Street": null,
+ "Northridge Recreation Center": null,
+ "Ohio Avenue & Sepulveda Boulevard": {
+  "address": "W OHIO AVE & S SEPULVEDA BLVD, 90025",
+  "lat": 34.050393,
+  "lon": -118.446665,
+  "score": 98.18
+ },
+ "Outer Cabrillo Beach": null,
+ "Pio Pico Library": null,
+ "Rancho Park Golf Course": null,
+ "SYLMAR FIRE STATION No. 31": null,
+ "Sunset Boulevard & Coronado Terrace": {
+  "address": "W SUNSET BLVD & N CORONADO TER, 90026",
+  "lat": 34.078833,
+  "lon": -118.268109,
+  "score": 98.18
+ },
+ "Sunset Boulevard & Waterloo Street": {
+  "address": "W SUNSET BLVD & N WATERLOO ST, 90026",
+  "lat": 34.0785,
+  "lon": -118.266966,
+  "score": 98.18
+ },
+ "Van Nuys Sherman Oaks War Memorial Park": null,
+ "Vanalden Avenue & Balboa Boulevard": null,
+ "Venice Beach": null,
+ "Venice Beach Recreation Center": null,
+ "Warner Grand Theatre": null,
+ "Westwood Park": null,
+ "Wilshire Boulevard & Hoover Street": {
+  "address": "W WILSHIRE BLVD & S HOOVER ST, 90057",
+  "lat": 34.061778,
+  "lon": -118.284228,
+  "score": 98.18
+ },
+ "Ziegler Estate": null
 }

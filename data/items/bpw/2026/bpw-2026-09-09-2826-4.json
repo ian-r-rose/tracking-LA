@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "15430 Septo Street, Los Angeles, CA"
+      "text": "15430 Septo Street, Los Angeles, CA",
+      "lat": 34.250909,
+      "lon": -118.468976,
+      "neighborhood": "Mission Hills"
     }
   ],
   "details": {

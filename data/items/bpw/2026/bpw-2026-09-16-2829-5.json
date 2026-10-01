@@ -15,10 +15,16 @@
   ],
   "locations": [
     {
-      "text": "Sunset Boulevard & Coronado Terrace, Los Angeles, CA"
+      "text": "Sunset Boulevard & Coronado Terrace, Los Angeles, CA",
+      "lat": 34.078833,
+      "lon": -118.268109,
+      "neighborhood": "Echo Park"
     },
     {
-      "text": "Sunset Boulevard & Waterloo Street, Los Angeles, CA"
+      "text": "Sunset Boulevard & Waterloo Street, Los Angeles, CA",
+      "lat": 34.0785,
+      "lon": -118.266966,
+      "neighborhood": "Echo Park"
     }
   ],
   "details": {

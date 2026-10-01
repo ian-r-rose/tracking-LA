@@ -10,7 +10,9 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee503cc4-97bc-4fa1-8f34-fbe7c8980f7d"
   ],
   "summary": "Stop Notice of $234,102.76 from Zefiro Corporation for drilling equipment and labor for pile shafts for Kinney Street Improvements.",
-  "topics": ["transportation"],
+  "topics": [
+    "transportation"
+  ],
   "locations": [
     {
       "text": "Kinney Street, Los Angeles, CA"

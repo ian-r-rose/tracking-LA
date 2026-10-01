@@ -10,7 +10,9 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=58e30797-3101-482f-b03c-232c0ca796e0"
   ],
   "summary": "Stop Notice of $47,520,280.41 from SME Steel Contractors for work on the Los Angeles Convention Center Expansion & Modernization Project.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [
     {
       "text": "Los Angeles Convention Center"
@@ -19,6 +21,8 @@
   "details": {
     "amount": "$47,520,280.41",
     "action": "Stop Notice",
-    "case_numbers": ["C-202903"]
+    "case_numbers": [
+      "C-202903"
+    ]
   }
 }

@@ -10,7 +10,10 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4702a8df-afef-4503-9ac6-a24e747bbd01"
   ],
   "summary": "Final closeout change order for Hyperion Water Reclamation Plant capital improvement projects in Council District 15 to resolve outstanding issues and claims.",
-  "topics": ["budget", "environment"],
+  "topics": [
+    "budget",
+    "environment"
+  ],
   "locations": [
     {
       "text": "Hyperion Water Reclamation Plant"
@@ -19,6 +22,8 @@
   "details": {
     "council_district": 15,
     "action": "final closeout change order",
-    "case_numbers": ["C-133245"]
+    "case_numbers": [
+      "C-133245"
+    ]
   }
 }

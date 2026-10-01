@@ -10,10 +10,15 @@
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep17/26-208.pdf"
   ],
   "summary": "Approval of final plans and specifications for Alpine Recreation Center expansion with categorical exemption from CEQA.",
-  "topics": ["parks"],
+  "topics": [
+    "parks"
+  ],
   "locations": [
     {
-      "text": "Alpine Recreation Center"
+      "text": "Alpine Recreation Center",
+      "lat": 34.064015738883604,
+      "lon": -118.24105952602919,
+      "neighborhood": "Chinatown"
     }
   ],
   "details": {

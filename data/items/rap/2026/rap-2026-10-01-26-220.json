@@ -6,9 +6,21 @@
   "title": "Studio City Recreation Center – New Gymnasium (Re-Bid) (PRJ20404) (W.O.",
   "text": "Studio City Recreation Center – New Gymnasium (Re-Bid) (PRJ20404) (W.O.\n  #E170267B) Project – Request Authority to  Increase Construction\n  Contingency – Adjust the Funding for Construction Contract No. 4069 –\n  Exemption from the Provisions of the California Environmental Quality Act\n  (CEQA) Pursuant to Article 5, Section 15061(b)(3) [where it can be seen with\n  Certainty that there is No Possibility that the Activity in Question may have a\n  Significant Effect on the Environment, the Activity is Not Subject to CEQA] of\n  California CEQA Guidelines and Article II, Section 2(I) of City CEQA Guidelines",
   "summary": "Request for authority to increase construction contingency and adjust funding for new gymnasium at Studio City Recreation Center.",
-  "topics": ["parks", "budget"],
-  "locations": [{"text": "Studio City Recreation Center"}],
-  "details": {"action": "request authority to increase construction contingency"},
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Studio City Recreation Center",
+      "lat": 34.15161858008184,
+      "lon": -118.40840057616624,
+      "neighborhood": "Studio City"
+    }
+  ],
+  "details": {
+    "action": "request authority to increase construction contingency"
+  },
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311200386_10012026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/oct01/26-220.pdf"

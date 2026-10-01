@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "Broadway & Manchester, Los Angeles, CA"
+      "text": "Broadway & Manchester, Los Angeles, CA",
+      "lat": 33.960132,
+      "lon": -118.278293,
+      "neighborhood": "Florence"
     }
   ],
   "details": {

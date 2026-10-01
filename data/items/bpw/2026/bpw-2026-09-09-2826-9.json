@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "3880 EAST SAN RAFAEL AVENUE, Los Angeles, CA"
+      "text": "3880 EAST SAN RAFAEL AVENUE, Los Angeles, CA",
+      "lat": 34.102563,
+      "lon": -118.217095,
+      "neighborhood": "Mount Washington"
     }
   ],
   "details": {

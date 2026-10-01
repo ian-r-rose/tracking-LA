@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "Hollenbeck Park, Los Angeles, CA"
+      "text": "Hollenbeck Park, Los Angeles, CA",
+      "lat": 34.040937,
+      "lon": -118.217265,
+      "neighborhood": "Boyle Heights"
     }
   ],
   "details": {

@@ -10,10 +10,15 @@
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep03/26-205.pdf"
   ],
   "summary": "Approval of Beach Maintenance Agreement with County of Los Angeles for Venice Beach.",
-  "topics": ["parks"],
+  "topics": [
+    "parks"
+  ],
   "locations": [
     {
-      "text": "Venice Beach"
+      "text": "Venice Beach",
+      "lat": 33.979788,
+      "lon": -118.468215,
+      "neighborhood": "Venice"
     }
   ],
   "details": {

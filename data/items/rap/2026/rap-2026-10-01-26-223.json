@@ -6,9 +6,21 @@
   "title": "Northridge Recreation Center – Tennis Court Improvements (PRJ21959) Project",
   "text": "Northridge Recreation Center – Tennis Court Improvements (PRJ21959) Project\n  – Allocation of Quimby Fees – Categorical Exemption from the Provisions of the\n  California Environmental Quality Act (CEQA) Pursuant to Article 19, Section\n  15301(d) [Restoration or Rehabilitation of Deteriorated or Damaged Structures,\n  Facilities or Mechanical Equipment and Systems to Meet Current Standards of\n  Public Health and Safety, Unless It Was Determined that the Damage was\n  Substantial and Resulted from an Environmental Hazard] and Section 15302\n  [Replacement or Reconstruction of Existing Structures and Facilities where the\n  New Structure will be Located on the Same Site as the Structure Replaced and\n  have Substantially the Same Purpose and Capacity] of California CEQA\n  Guidelines and Article III, Section 1, Class 1(4) and Class 2 of City CEQA\n  Guidelines",
   "summary": "Allocation of Quimby fees for tennis court improvements at Northridge Recreation Center.",
-  "topics": ["parks", "budget"],
-  "locations": [{"text": "Northridge Recreation Center"}],
-  "details": {"action": "allocation of Quimby fees"},
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Northridge Recreation Center",
+      "lat": 34.253415,
+      "lon": -118.533987,
+      "neighborhood": "Northridge"
+    }
+  ],
+  "details": {
+    "action": "allocation of Quimby fees"
+  },
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311200386_10012026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/oct01/26-223.pdf"

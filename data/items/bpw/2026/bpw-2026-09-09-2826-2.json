@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "4533 North Laurel Canyon Boulevard, Los Angeles, CA"
+      "text": "4533 North Laurel Canyon Boulevard, Los Angeles, CA",
+      "lat": 34.153245,
+      "lon": -118.396544,
+      "neighborhood": "Studio City"
     }
   ],
   "details": {

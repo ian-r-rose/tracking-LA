@@ -10,10 +10,17 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8edf00d-8e5a-4825-bd41-e54b7f3f877d"
   ],
   "summary": "Authorization to advertise for bids on Avalon Boulevard Improvements from Martin Luther King Jr. Boulevard to 56th Street (Vision Zero Program) in Council District 8 with estimated cost of $6,844,197.",
-  "topics": ["transportation", "public_safety", "budget"],
+  "topics": [
+    "transportation",
+    "public_safety",
+    "budget"
+  ],
   "locations": [
     {
-      "text": "Avalon Boulevard & 56th Street, Los Angeles, CA"
+      "text": "Avalon Boulevard & 56th Street, Los Angeles, CA",
+      "lat": 33.991569,
+      "lon": -118.265202,
+      "neighborhood": "South Park"
     }
   ],
   "details": {

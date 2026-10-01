@@ -6,9 +6,21 @@
   "title": "Griffith Observatory – Contract with Carl Zeiss Jena GMBH for the Regular",
   "text": "Griffith Observatory – Contract with Carl Zeiss Jena GMBH for the Regular\n  Maintenance and Special Repair of the Universarium Mix Model 555 Star\n  Projector at the Samuel Oschin Planetarium",
   "summary": "Contract with Carl Zeiss Jena GMBH for regular maintenance and special repair of the Universarium Mix Model 555 star projector at Griffith Observatory.",
-  "topics": ["parks"],
-  "locations": [{"text": "Griffith Observatory"}],
-  "details": {"applicant": "Carl Zeiss Jena GMBH", "action": "contract for maintenance and repair of star projector"},
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Griffith Observatory",
+      "lat": 34.11853998356145,
+      "lon": -118.30045713937724,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "applicant": "Carl Zeiss Jena GMBH",
+    "action": "contract for maintenance and repair of star projector"
+  },
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311200386_10012026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/oct01/26-218.pdf"

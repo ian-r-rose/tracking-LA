@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "1817 South Orange Grove Avenue, Los Angeles, CA"
+      "text": "1817 South Orange Grove Avenue, Los Angeles, CA",
+      "lat": 34.042725,
+      "lon": -118.368298,
+      "neighborhood": "Mid-City"
     }
   ],
   "details": {

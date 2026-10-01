@@ -10,25 +10,45 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=aa0af671-48ea-4e89-a4c2-30cbae190a73"
   ],
   "summary": "Approval of sidewalk repair project including tree removal at six addresses in Council District 8.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [
     {
-      "text": "2912 South Hobart Boulevard, Los Angeles, CA"
+      "text": "2912 South Hobart Boulevard, Los Angeles, CA",
+      "lat": 34.028833,
+      "lon": -118.307758,
+      "neighborhood": "Adams-Normandie"
     },
     {
-      "text": "2923 South Hobart Boulevard, Los Angeles, CA"
+      "text": "2923 South Hobart Boulevard, Los Angeles, CA",
+      "lat": 34.028659,
+      "lon": -118.307872,
+      "neighborhood": "Adams-Normandie"
     },
     {
-      "text": "3007 South La Salle Avenue, Los Angeles, CA"
+      "text": "3007 South La Salle Avenue, Los Angeles, CA",
+      "lat": 34.027191,
+      "lon": -118.305412,
+      "neighborhood": "Adams-Normandie"
     },
     {
-      "text": "2658 South Harvard Boulevard, Los Angeles, CA"
+      "text": "2658 South Harvard Boulevard, Los Angeles, CA",
+      "lat": 34.031632,
+      "lon": -118.306622,
+      "neighborhood": "Adams-Normandie"
     },
     {
-      "text": "3000 South Dalton Avenue, Los Angeles, CA"
+      "text": "3000 South Dalton Avenue, Los Angeles, CA",
+      "lat": 34.027242,
+      "lon": -118.304002,
+      "neighborhood": "Adams-Normandie"
     },
     {
-      "text": "1620 West 30th Street, Los Angeles, CA"
+      "text": "1620 West 30th Street, Los Angeles, CA",
+      "lat": 34.027244,
+      "lon": -118.300767,
+      "neighborhood": "Adams-Normandie"
     }
   ],
   "details": {

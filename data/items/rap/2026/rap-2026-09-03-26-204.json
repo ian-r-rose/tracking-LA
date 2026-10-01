@@ -10,10 +10,15 @@
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep03/26-204.pdf"
   ],
   "summary": "Categorical exemption from CEQA for roadway and fence improvements at Angels Gate Park by Marine Exchange of Southern California.",
-  "topics": ["parks"],
+  "topics": [
+    "parks"
+  ],
   "locations": [
     {
-      "text": "Angels Gate Park"
+      "text": "Angels Gate Park",
+      "lat": 33.71166,
+      "lon": -118.295434,
+      "neighborhood": "San Pedro"
     }
   ],
   "details": {

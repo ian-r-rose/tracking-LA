@@ -10,15 +10,22 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b08985f4-ff10-45f0-a90b-013a2632d6fb"
   ],
   "summary": "Release of Stop Notice of $14,590.97 from Karish Industries, Inc. for wire and cable work on Wilshire Boulevard storm project.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [
     {
-      "text": "Wilshire Boulevard & Hoover Street, Los Angeles, CA"
+      "text": "Wilshire Boulevard & Hoover Street, Los Angeles, CA",
+      "lat": 34.061778,
+      "lon": -118.284228,
+      "neighborhood": "Westlake"
     }
   ],
   "details": {
     "amount": "$14,590.97",
     "action": "Release of Stop Notice",
-    "case_numbers": ["C-200591"]
+    "case_numbers": [
+      "C-200591"
+    ]
   }
 }

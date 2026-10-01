@@ -10,10 +10,16 @@
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep03/26-201.pdf"
   ],
   "summary": "Approval of Right of Entry for North Outfall Sewer Rehabilitation project from Colorado Blvd to Rigali Ave in Griffith Park.",
-  "topics": ["parks", "environment"],
+  "topics": [
+    "parks",
+    "environment"
+  ],
   "locations": [
     {
-      "text": "Griffith Park"
+      "text": "Griffith Park",
+      "lat": 34.13199,
+      "lon": -118.296791,
+      "neighborhood": "Griffith Park"
     }
   ],
   "details": {

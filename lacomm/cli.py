@@ -10,7 +10,7 @@ import yaml
 
 from lacomm import http_client
 from lacomm.check import check_all
-from lacomm.geo import Geocoder, Neighborhoods, Places
+from lacomm.geo import Geocoder, Neighborhoods, Places, build_places
 from lacomm.score import candidates
 from lacomm.sources import SOURCES
 from lacomm.store import DATA, upsert_item
@@ -128,6 +128,7 @@ def main() -> None:
     p.add_argument("--refetch", action="store_true", help="Re-download past agendas too (e.g. after a parser fix)")
     sub.add_parser("check", help="Validate item files (run after extraction)")
     sub.add_parser("locate", help="Geocode item locations and assign neighborhoods")
+    sub.add_parser("build-places", help="Refresh geo/places.json from Rec & Parks data on LA GeoHub")
     p = sub.add_parser("score", help="Rank items not yet in a digest")
     p.add_argument("--limit", type=int, default=30)
     p = sub.add_parser("mark-digested", help="Record that all undigested items were covered by a digest")
@@ -137,6 +138,9 @@ def main() -> None:
         fetch(args.since, args.refetch)
     elif args.command == "locate":
         locate()
+    elif args.command == "build-places":
+        with http_client(timeout=120) as client:
+            print(f"{build_places(client)} places")
     elif args.command == "score":
         score(args.limit)
     elif args.command == "mark-digested":

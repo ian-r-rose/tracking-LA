@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "Aiglon Street & Almar Avenue, Los Angeles, CA"
+      "text": "Aiglon Street & Almar Avenue, Los Angeles, CA",
+      "lat": 34.043877,
+      "lon": -118.536872,
+      "neighborhood": "Pacific Palisades"
     }
   ],
   "details": {

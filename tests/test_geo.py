@@ -1,6 +1,6 @@
 import httpx
 
-from lacomm.geo import Geocoder, Neighborhoods, Places, clean_query
+from lacomm.geo import Geocoder, Neighborhoods, Places, clean_query, plausible
 
 
 def test_clean_query_strips_city_and_state():
@@ -15,7 +15,8 @@ def test_geocoder_caches_and_rejects_low_scores(tmp_path):
     def handler(request):
         requests.append(request)
         score = 99 if "Figueroa" in request.url.params["SingleLine"] else 60
-        candidate = {"address": "X", "score": score, "location": {"x": -118.26, "y": 34.05}}
+        address = request.url.params["SingleLine"].upper()
+        candidate = {"address": address, "score": score, "location": {"x": -118.26, "y": 34.05}}
         return httpx.Response(200, json={"candidates": [candidate]})
 
     with httpx.Client(transport=httpx.MockTransport(handler)) as client:
@@ -42,6 +43,16 @@ def test_neighborhood_containment_and_nearby():
 def test_places_match_park_names():
     places = Places()
     lat, lon = places.lookup("Sycamore Grove Park")
+    assert places.lookup("Griffith Park")
     assert Neighborhoods().containing(lat, lon) == "Highland Park"
     assert places.lookup("sycamore grove park, Los Angeles, CA") == (lat, lon)
     assert places.lookup("123 Main St") is None
+
+
+def test_plausible_rejects_matches_on_the_wrong_street():
+    assert plausible("Alameda St & E 18th St", "N ALAMEDA ST & E 18TH ST, 90021")
+    assert not plausible("Alameda St & E 18th St", "N ALAMEDA ST & E E ST, 90744")
+    assert plausible("217 North Avenue 55", "217 W AVENUE 55, 90042")
+    assert plausible("2718 North Hyperion Avenue", "2718 N HYPERION AVE, 90027")
+    assert not plausible("2718 North Hyperion Avenue", "2718 N HOBART BLVD, 90027")
+    assert plausible("4849 North Mount Royal Drive", "4849 N MT ROYAL DR, 90041")

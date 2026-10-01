@@ -10,7 +10,9 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6aa366df-67ee-4324-95ec-7e892b54d3b6"
   ],
   "summary": "Bid opening for Central Business District Sewer Rehabilitation Unit 15 from James M. Wood Boulevard to 11th Street in Council District 1 with estimated cost of $4,928,840.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [
     {
       "text": "James M. Wood Boulevard & 11th Street, Los Angeles, CA"

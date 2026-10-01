@@ -10,7 +10,10 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=16ae3ffb-49b8-474e-a850-debf27826231"
   ],
   "summary": "Sole source procurement authorization for Xylem Water Solutions USA, Inc. to supply equipment and services for Hyperion Water Reclamation Plant in Council District 11 for $21,230,000.",
-  "topics": ["budget", "environment"],
+  "topics": [
+    "budget",
+    "environment"
+  ],
   "locations": [
     {
       "text": "Hyperion Water Reclamation Plant"

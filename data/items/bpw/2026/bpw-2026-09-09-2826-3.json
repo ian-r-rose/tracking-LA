@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "12952 West Ratner Street, Los Angeles, CA"
+      "text": "12952 West Ratner Street, Los Angeles, CA",
+      "lat": 34.21677,
+      "lon": -118.415967,
+      "neighborhood": "Sun Valley"
     }
   ],
   "details": {
