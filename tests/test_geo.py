@@ -1,6 +1,6 @@
 import httpx
 
-from lacomm.geo import Geocoder, Neighborhoods, clean_query
+from lacomm.geo import Geocoder, Neighborhoods, Places, clean_query
 
 
 def test_clean_query_strips_city_and_state():
@@ -37,3 +37,11 @@ def test_neighborhood_containment_and_nearby():
     assert hoods.containing(*original_pantry) == "Downtown"
     # The Original Pantry is near Westlake but nowhere near Highland Park.
     assert hoods.nearby(*original_pantry, ["Westlake", "Highland Park"], km=1.0) == ["Westlake"]
+
+
+def test_places_match_park_names():
+    places = Places()
+    lat, lon = places.lookup("Sycamore Grove Park")
+    assert Neighborhoods().containing(lat, lon) == "Highland Park"
+    assert places.lookup("sycamore grove park, Los Angeles, CA") == (lat, lon)
+    assert places.lookup("123 Main St") is None

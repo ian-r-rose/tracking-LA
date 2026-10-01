@@ -10,7 +10,7 @@ import yaml
 
 from lacomm import http_client
 from lacomm.check import check_all
-from lacomm.geo import Geocoder, Neighborhoods
+from lacomm.geo import Geocoder, Neighborhoods, Places
 from lacomm.score import candidates
 from lacomm.sources import SOURCES
 from lacomm.store import DATA, upsert_item
@@ -75,6 +75,7 @@ def fetch(since_days: int, refetch: bool = False) -> None:
 def locate() -> None:
     interests = yaml.safe_load((DATA.parent / "config" / "interests.yaml").read_text())
     hoods = Neighborhoods()
+    places = Places()
     counts = Counter()
     near_me = []
     with http_client(timeout=30) as client:
@@ -84,8 +85,12 @@ def locate() -> None:
                 item = json.loads(path.read_text())
                 for loc in item.get("locations", []):
                     counts["locations"] += 1
-                    if "lat" not in loc and (hit := geocoder.geocode(loc["text"])):
-                        loc.update(lat=hit["lat"], lon=hit["lon"], neighborhood=hoods.containing(hit["lat"], hit["lon"]))
+                    if "lat" not in loc:
+                        point = places.lookup(loc["text"])
+                        if not point and (hit := geocoder.geocode(loc["text"])):
+                            point = hit["lat"], hit["lon"]
+                        if point:
+                            loc.update(lat=point[0], lon=point[1], neighborhood=hoods.containing(*point))
                         path.write_text(json.dumps(item, indent=2, ensure_ascii=False) + "\n")
                     counts["located" if "lat" in loc else "unresolved"] += 1
                     if "lat" in loc and (hits := hoods.nearby(loc["lat"], loc["lon"], interests["neighborhoods"], interests["nearby_km"])):

@@ -84,3 +84,24 @@ class Neighborhoods:
         """Which of `names` the point is in or within `km` of."""
         point = Point(_to_km(lon, lat))
         return [n for n in names if n in self.shapes and self.shapes[n].distance(point) <= km]
+
+
+def _normalize_name(name: str) -> str:
+    return re.sub(r"[^a-z0-9 ]", "", re.sub(r"\s+", " ", name.lower())).strip()
+
+
+class Places:
+    """Named City facilities (Rec & Parks sites), for locations given as a name, not an address.
+
+    Source: "Los Angeles City Recreation and Parks Facility Boundaries" on LA GeoHub.
+    """
+
+    def __init__(self, path: Path = GEO / "parks.geojson"):
+        self.points: dict[str, tuple[float, float]] = {}
+        for feature in json.loads(path.read_text())["features"]:
+            if feature["geometry"]:
+                centroid = shape(feature["geometry"]).centroid
+                self.points.setdefault(_normalize_name(feature["properties"]["Name"]), (centroid.y, centroid.x))
+
+    def lookup(self, text: str) -> tuple[float, float] | None:
+        return self.points.get(_normalize_name(clean_query(text)))
