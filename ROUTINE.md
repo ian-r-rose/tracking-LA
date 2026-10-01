@@ -55,18 +55,22 @@ Write `data/digests/YYYY-MM-DD.md` (today's date):
 ```markdown
 # Commissions digest — <Month D, YYYY>
 
-<One or two sentences: what stood out this time.>
+Agenda items from meetings <Month D> – <Month D, YYYY>. <N> items reviewed; <M> listed below.
 
-## Near you
-- **<Commission>, <meeting date>** · <neighborhood> — <summary, rewritten if needed>. <Why it matters.> [Agenda](<url>) · [Staff report](<url>)
+## <Commission full name>
 
-## Elsewhere
-- (same format; parks, transportation or citywide items outside Ian's neighborhoods)
+<One sentence on what this commission decides.>
 
-<N> items reviewed from <commissions>. Everything else was routine.
+- **<Mon D>** · upcoming · <neighborhood> — <summary, rewritten if needed>. <Why it matters.> [Agenda](<url>) · [Staff report](<url>)
+- **<Mon D>** · <neighborhood> — ...
 ```
 
-Leave out a section with no entries. Keep the whole digest skimmable in two minutes. Note upcoming meetings ("hearing Oct 8") so Ian has time to comment.
+Rules:
+- One section per commission that has listed items, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, then any others. Within a section, list items by meeting date, oldest first.
+- Mark meetings on or after today's date as `upcoming`. Don't describe outcomes of past meetings unless an item says what was decided.
+- Don't refer to earlier or later digests ("first", "this time", "since last time"). Each digest should read the same way whenever it's generated.
+- Routine items in Ian's neighborhoods (single houses, cell sites) get a short bullet with no "why it matters".
+- Keep the whole digest skimmable in two minutes.
 
 Then mark everything you reviewed as covered and check the files:
 
