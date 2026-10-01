@@ -63,7 +63,9 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
             when = datetime.strptime(entry["Date"], "%m/%d/%Y").date()
             if not slug or not entry["AgendaLink"] or "cancel" in entry["Note"].lower() or not start <= when <= end:
                 continue
-            meetings.append({"commission": slug, "date": when, "agenda_url": entry["AgendaLink"]})
+            meetings.append(
+                {"commission": slug, "date": when, "agenda_url": entry["AgendaLink"], "minutes_url": entry["MinutesLink"] or None}
+            )
     return meetings
 
 
@@ -120,3 +122,53 @@ def items_from_text(meeting: dict, agenda_text: str, links: list[str]) -> list[d
             }
         )
     return items
+
+
+MINUTES_ITEM = re.compile(r"^\s*ITEM NO\.\s*(\d{1,2}[a-z]?)\s*$")
+# Procedural first actions (CEQA findings, conditions) say little about the decision itself.
+PROCEDURAL = re.compile(r"^(Determine|Find|Adopt|Recommend that the City Council adopt the)", re.IGNORECASE)
+
+
+def minutes_outcomes(meeting: dict, minutes_text: str) -> dict[str, dict]:
+    """Outcomes by item id from meeting minutes. Each "ITEM NO. 5a" block has the motion,
+    its numbered actions, a "Vote: 8–0" line and "MOTION PASSED" or "MOTION FAILED"."""
+    blocks: dict[str, list[str]] = {}
+    current = None
+    for line in minutes_text.splitlines():
+        if m := MINUTES_ITEM.match(line):
+            current = m.group(1)
+            blocks[current] = []
+        elif current:
+            blocks[current].append(line.strip())
+    outcomes = {}
+    for number, lines in blocks.items():
+        text = "\n".join(lines)
+        result = re.search(r"MOTION (PASSED|FAILED)", text)
+        if not result:
+            continue  # standing items with no motion
+        # Numbered actions, each joined with its continuation lines.
+        actions: list[str] = []
+        for l in lines:
+            if re.match(r"^\d+\.\s+\S", l):
+                actions.append(re.sub(r"^\d+\.\s*", "", l))
+            elif actions and l and not re.match(r"^([a-z]\.|Moved:|Second|Ayes|Nays|Absent|Vote|MOTION|Commissioner)", l):
+                actions[-1] += " " + l
+            elif actions and not l:
+                continue
+        actions = [re.sub(r"\s+", " ", a) for a in actions]
+        action = next((a for a in actions if not PROCEDURAL.match(a)), actions[0] if actions else "")
+        if not actions and (moved := re.search(r"moved to ([^.]+)\.", text)):
+            action = moved.group(1)  # e.g. "continue the item to August 13, 2026"
+        if result.group(1) == "FAILED":
+            status = "other"  # a failed motion can lead to a later vote, denial or continuance
+        elif re.match(r"(continue|postpone)", action, re.IGNORECASE):
+            status = "continued"
+        elif re.match(r"(deny|disapprove)", action, re.IGNORECASE):
+            status = "denied"  # for appeals, denying the appeal upholds the project
+        else:
+            status = "approved"
+        outcome = {"status": status, "text": f"MOTION {result.group(1)}: {action[:240]}", "source": meeting["minutes_url"]}
+        if vote := re.search(r"Vote:\s*(\d+)\s*[–-]\s*(\d+)", text):
+            outcome["vote"] = f"{vote.group(1)}-{vote.group(2)}"
+        outcomes[f"{meeting['commission']}-{meeting['date'].isoformat()}-{number}"] = outcome
+    return outcomes

@@ -20,7 +20,11 @@ class Source:
 
 
 SOURCES = [
-    Source("planning", planning.list_meetings, planning.meeting_items),
+    Source(
+        "planning", planning.list_meetings, planning.meeting_items,
+        outcome_url=lambda m: m.get("minutes_url"),
+        meeting_outcomes=lambda m, pdf: planning.minutes_outcomes(m, pdf_text(pdf)),
+    ),
     Source(
         "public works", primegov.list_meetings, primegov.meeting_items,
         outcome_url=lambda m: m.get("journal_url"),

@@ -77,3 +77,14 @@ def test_indented_item_headers_are_found_but_requested_actions_are_not():
     assert planning.item_title(items[2][1]).startswith("MONUMENT: MAY COMPANY GARAGE")
     # Item 5 ends where indented item 6 begins.
     assert "MAY COMPANY" not in items[1][1]
+
+
+def test_minutes_outcomes_and_truncated_minutes():
+    meeting = {"commission": "cpc", "date": date(2026, 7, 9), "minutes_url": "M"}
+    outcomes = planning.minutes_outcomes(meeting, (FIXTURES / "minutes-cpc-2026-07-09.txt").read_text())
+    assert outcomes["cpc-2026-07-09-5a"]["status"] == "approved"
+    assert outcomes["cpc-2026-07-09-5a"]["vote"] == "8-0"
+    assert outcomes["cpc-2026-07-09-5a"]["text"].startswith("MOTION PASSED: Approve, pursuant to Chapter 1 Section 12.22 A.25")
+    assert "Density Bonus" in outcomes["cpc-2026-07-09-5a"]["text"]  # continuation lines joined
+    # The posted minutes stop mid-way through item 6, before its vote: record nothing rather than guess.
+    assert "cpc-2026-07-09-6" not in outcomes

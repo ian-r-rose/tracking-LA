@@ -96,7 +96,7 @@ def outcomes(since_days: int) -> None:
                     path = DATA / "items" / meeting["commission"] / item_id.split("-")[1] / f"{item_id}.json"
                     if not path.exists():
                         counts["no matching item"] += 1
-                    elif record(path, {"status": normalize_status(outcome["text"]), **outcome}):
+                    elif record(path, {"status": normalize_status(outcome["text"]), **outcome}):  # a parser's own status wins
                         counts["recorded"] += 1
                     else:
                         counts["unchanged"] += 1
