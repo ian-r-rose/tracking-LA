@@ -46,7 +46,7 @@ Geocodes new locations with the City's locator (cached in `geo/geocode-cache.jso
 uv run lacomm outcomes --since 60
 ```
 
-Reads the journals and minutes of past meetings (Public Works and Rec & Parks so far) and records each item's `outcome`: status, the commission's wording, vote, and source.
+Reads the journals and minutes of past meetings (Planning, Public Works and Rec & Parks so far) and records each item's `outcome`: status, the commission's wording, vote, and source.
 
 ## 4. Digest (main model)
 
