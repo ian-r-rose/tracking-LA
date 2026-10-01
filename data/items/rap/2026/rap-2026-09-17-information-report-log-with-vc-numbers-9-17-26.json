@@ -9,5 +9,47 @@
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep17/rap-meeting-agenda-9-17-2026-revised.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep17/091726mintelephonicregular.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep17/information-report-log-vc-numbers-9-17-26.pdf"
-  ]
+  ],
+  "summary": "Report on public communications received by the Recreation and Parks Board regarding various parks, projects, and facilities including the Los Angeles River Bike Path, Arroyo Seco Water Reuse Project, and park maintenance concerns.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Knapp Ranch Park",
+      "lat": 34.188409,
+      "lon": -118.662499,
+      "neighborhood": "West Hills"
+    },
+    {
+      "text": "Palisades Tennis Center"
+    },
+    {
+      "text": "Los Angeles River Bike Path"
+    },
+    {
+      "text": "Griffith Observatory",
+      "lat": 34.118578,
+      "lon": -118.300565,
+      "neighborhood": "Griffith Park"
+    },
+    {
+      "text": "Arroyo Seco"
+    },
+    {
+      "text": "Pershing Square",
+      "lat": 34.048413,
+      "lon": -118.252989,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "Mount Carmel Park"
+    },
+    {
+      "text": "Westchester Park"
+    }
+  ],
+  "details": {},
+  "digest": "2026-09-30"
 }

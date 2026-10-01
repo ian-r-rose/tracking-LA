@@ -9,5 +9,55 @@
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep03/rap-meeting-agenda-9-3-2026-1.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep03/090326mintelephonicregular_0.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep03/information-report-log-vc-numbers-9-03-26.pdf"
-  ]
+  ],
+  "summary": "Report on public communications received by the Recreation and Parks Board regarding various parks and facilities, including safety concerns at basketball courts, staff at recreation centers, and park issues.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Knapp Ranch Park",
+      "lat": 34.188409,
+      "lon": -118.662499,
+      "neighborhood": "West Hills"
+    },
+    {
+      "text": "Carlin G. Smith City Park"
+    },
+    {
+      "text": "Sepulveda Recreation Center",
+      "lat": 34.229983,
+      "lon": -118.458118,
+      "neighborhood": "Panorama City"
+    },
+    {
+      "text": "Hansen Dam Horse Park"
+    },
+    {
+      "text": "Westwood Recreation Center",
+      "lat": 34.053597,
+      "lon": -118.446536,
+      "neighborhood": "Westwood"
+    },
+    {
+      "text": "Balboa Sports Complex"
+    },
+    {
+      "text": "Holleigh Bernson Park"
+    },
+    {
+      "text": "Palisades Tennis Courts"
+    },
+    {
+      "text": "Sylmar Recreation Center",
+      "lat": 34.30811,
+      "lon": -118.445663,
+      "neighborhood": "Sylmar"
+    },
+    {
+      "text": "Poinsettia Park"
+    }
+  ],
+  "details": {},
+  "digest": "2026-09-30"
 }

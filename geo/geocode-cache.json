@@ -356,27 +356,34 @@
  },
  "Alameda Street & 18th Street": null,
  "Angels Gate Park": null,
+ "Arroyo Seco": null,
  "Avalon Boulevard & 56th Street": {
   "address": "S AVALON BLVD & E 56TH ST, 90011",
   "lat": 33.991569,
   "lon": -118.265202,
   "score": 98.18
  },
+ "Balboa Sports Complex": null,
  "Broadway & Manchester": {
   "address": "S BROADWAY & W MANCHESTER AVE, 90003",
   "lat": 33.960132,
   "lon": -118.278293,
   "score": 96.74
  },
+ "Carlin G. Smith City Park": null,
  "Griffith Park": null,
  "Griffith Park Golf Complex": null,
+ "Hansen Dam Horse Park": null,
+ "Holleigh Bernson Park": null,
  "Hollenbeck Park": null,
  "Hyperion Water Reclamation Plant": null,
  "James M. Wood Boulevard & 11th Street": null,
+ "Jane and Bert Boeckmann Park": null,
  "Kinney Street": null,
  "Las Palmas Senior Center": null,
  "Leimert Park": null,
  "Los Angeles Convention Center": null,
+ "Los Angeles River Bike Path": null,
  "MacArthur Lake": null,
  "MacArthur Park": null,
  "Magnolia Boulevard & Woodman Avenue": {
@@ -386,6 +393,7 @@
   "score": 98.18
  },
  "Main Street": null,
+ "Mount Carmel Park": null,
  "Northridge Recreation Center": null,
  "Ohio Avenue & Sepulveda Boulevard": {
   "address": "W OHIO AVE & S SEPULVEDA BLVD, 90025",
@@ -394,7 +402,11 @@
   "score": 98.18
  },
  "Outer Cabrillo Beach": null,
+ "Palisades Recreation Park": null,
+ "Palisades Tennis Center": null,
+ "Palisades Tennis Courts": null,
  "Pio Pico Library": null,
+ "Poinsettia Park": null,
  "Rancho Park Golf Course": null,
  "SYLMAR FIRE STATION No. 31": null,
  "Sunset Boulevard & Coronado Terrace": {
@@ -414,6 +426,7 @@
  "Venice Beach": null,
  "Venice Beach Recreation Center": null,
  "Warner Grand Theatre": null,
+ "Westchester Park": null,
  "Westwood Park": null,
  "Wilshire Boulevard & Hoover Street": {
   "address": "W WILSHIRE BLVD & S HOOVER ST, 90057",
@@ -421,5 +434,6 @@
   "lon": -118.284228,
   "score": 98.18
  },
+ "Winward Plaza": null,
  "Ziegler Estate": null
 }

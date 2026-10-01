@@ -8,5 +8,23 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/rap-meeting-agenda-10-1-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/arroyo-seco-water-reuse-project-motion.pdf"
-  ]
+  ],
+  "summary": "Motion instructing staff to present a resolution opposing the use of park land owned by the Department of Recreation and Parks in connection with the Arroyo Seco Water Reuse Project being pursued by the Cities of Pasadena and South Pasadena.",
+  "topics": [
+    "parks",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Arroyo Seco"
+    }
+  ],
+  "details": {
+    "action": "Motion to oppose use of park land in water reuse project",
+    "applicant": "Luis Sanchez, President"
+  },
+  "flag": {
+    "reason": "Rec & Parks Board president moves to oppose use of park land for the Arroyo Seco Water Reuse Project, next to Highland Park."
+  },
+  "digest": "2026-09-30"
 }

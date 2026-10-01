@@ -8,5 +8,26 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/rap-meeting-agenda-10-1-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/macarthur-park-perimeter-fencing-project-presentation-rap-board-10-1-26revised-ppt.pdf"
-  ]
+  ],
+  "summary": "Presentation about the MacArthur Park Perimeter Fencing Project, which involves installation of a green metal fence around the park to support long-term maintenance and repairs, improve cleanliness, and enhance park operations.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "MacArthur Park, Los Angeles, CA",
+      "lat": 34.058083,
+      "lon": -118.278103,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "council_district": 1,
+    "action": "Perimeter fencing installation project with planned phases",
+    "plan_area": "MacArthur Park Neighborhood Council"
+  },
+  "flag": {
+    "reason": "Presentation for the MacArthur Park fencing project (see 26-221)."
+  },
+  "digest": "2026-09-30"
 }

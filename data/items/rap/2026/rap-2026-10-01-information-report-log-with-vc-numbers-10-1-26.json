@@ -8,5 +8,32 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/rap-meeting-agenda-10-1-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/information-report-log-vc-numbers-10-1-26.pdf"
-  ]
+  ],
+  "summary": "Report on public communications received by the Recreation and Parks Board regarding various parks and projects including artificial turf at Palisades Recreation Park Field, the Ohio Safety & Mobility Project, and the Arroyo Seco Water Reuse Project.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Palisades Recreation Park"
+    },
+    {
+      "text": "Holleigh Bernson Memorial Park",
+      "lat": 34.29158,
+      "lon": -118.571199,
+      "neighborhood": "Porter Ranch"
+    },
+    {
+      "text": "Jane and Bert Boeckmann Park"
+    },
+    {
+      "text": "Winward Plaza"
+    },
+    {
+      "text": "Arroyo Seco"
+    }
+  ],
+  "details": {},
+  "digest": "2026-09-30"
 }
