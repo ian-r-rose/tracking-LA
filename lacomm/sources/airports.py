@@ -62,7 +62,7 @@ def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
                     "commission": "airports",
                     "meeting_date": day,
                     "item_number": number,
-                    "title": re.sub(r"^RESOLUTION NO\.?\s*-\s*", "", text)[:200],
+                    "title": re.sub(r"^(RESOLUTION NO\.?\s*-\s*)?(Adoption of the staff report; and\s*)?", "", text)[:200],
                     "text": f"[{section}]\n{text}" if section else text,
                     "urls": [meeting["agenda_url"]],
                 }

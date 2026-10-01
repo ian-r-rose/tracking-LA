@@ -23,5 +23,6 @@ def test_agenda_items_with_reports_and_no_closed_session():
     first = items[0]
     assert first["id"] == "airports-2026-09-23-1"
     assert "Taxiway A West" in first["text"]
+    assert first["title"].startswith("Approval of a five (5)-year Reimbursable Agreement")
     assert first["text"].startswith("[CONSENT ITEMS FOR BOARD ACTION")
     assert "MetaViewer" in first["urls"][1]
