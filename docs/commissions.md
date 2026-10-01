@@ -20,7 +20,7 @@ The board is the head of its department and has final authority over its operati
 | Board of Recreation and Park Commissioners | All City parks, rec centers, golf, concessions | [recreation.parks.lacity.gov](https://recreation.parks.lacity.gov/commissioners/agendas-minutes-reports/2026) |
 | Board of Harbor Commissioners | Port of LA, port lands | [portoflosangeles.org](https://www.portoflosangeles.org/idx_commission.asp) |
 | Board of Airport Commissioners | LAX, Van Nuys, airport lands | [lawa.granicus.com](https://lawa.granicus.com/) |
-| Board of Water and Power Commissioners | DWP: utilities, rates, DWP-owned land | [ladwp.granicus.com](https://ladwp.granicus.com/ViewPublisher.php?view_id=2) |
+| Board of Water and Power Commissioners | DWP: utilities, rates, DWP-owned land | [ens.lacity.org/dwp](https://ens.lacity.org/dwp/ens_dwp_agenda.htm) (PDF) |
 | El Pueblo de Los Angeles Historical Monument Authority | El Pueblo historic district (Olvera St.) | [elpueblo.lacity.gov](https://elpueblo.lacity.gov/commission) |
 | Board of Police Commissioners | LAPD | [lapdonline.org](https://www.lapdonline.org/police-commission/) |
 | Board of Fire Commissioners | LAFD | [lafd.org](https://lafd.org/about-fire-commission) |

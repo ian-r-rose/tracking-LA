@@ -8,5 +8,13 @@
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/El%20Pueblo%20Commission%20Agenda%209-24-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/Olvera%20Street%20Gates%20Recomendation%209-24-26.pdf"
-  ]
+  ],
+  "summary": "Approve design and installation of wrought iron entrance security gates at Olvera Street.",
+  "topics": ["other"],
+  "locations": [
+    {"text": "Olvera Street, Los Angeles, CA"}
+  ],
+  "details": {
+    "action": "gate installation approval"
+  }
 }

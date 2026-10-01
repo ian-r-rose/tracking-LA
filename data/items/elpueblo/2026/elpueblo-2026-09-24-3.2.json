@@ -9,5 +9,14 @@
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/El%20Pueblo%20Commission%20Agenda%209-24-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/UNAM%20-%20Recomendation%209-24-26_FINAL.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/UNAM%20USA%20-%20Community%20Benefits%20%26%20Proposed%20Programming%20at%20El%20Pueblo-19mar26_final%20%281%29.docx"
-  ]
+  ],
+  "summary": "Approve key terms and authorize execution of lease agreement with Universidad Nacional Autónoma de México, USA for the second floor of the Sepulveda House.",
+  "topics": ["other"],
+  "locations": [
+    {"text": "Sepulveda House"}
+  ],
+  "details": {
+    "action": "lease approval",
+    "applicant": "Universidad Nacional Autónoma de México, USA (UNAM USA)"
+  }
 }

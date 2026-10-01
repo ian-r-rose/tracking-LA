@@ -8,5 +8,12 @@
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/El%20Pueblo%20Commission%20Agenda%209-24-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/C-10%20Ramirez%20Toys%20-%20Key%20Terms.pdf"
-  ]
+  ],
+  "summary": "Approve lease of space C-10 to Dorkas Ramirez for Ramirez Toys business.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "action": "lease approval",
+    "applicant": "Dorkas Ramirez"
+  }
 }

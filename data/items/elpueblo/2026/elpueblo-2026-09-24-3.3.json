@@ -9,5 +9,13 @@
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/El%20Pueblo%20Commission%20Agenda%209-24-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/Recommendation%20-%20OSMAF%20Rep%20Access.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/Temporary%20Access%20Permit_OSMAF.pdf"
-  ]
+  ],
+  "summary": "Authorize temporary right of entry for Olvera Street Merchants Association Foundation representative.",
+  "topics": ["other"],
+  "locations": [
+    {"text": "Olvera Street, Los Angeles, CA"}
+  ],
+  "details": {
+    "action": "temporary access authorization"
+  }
 }

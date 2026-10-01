@@ -7,5 +7,12 @@
   "text": "[N. Items for Approval]\nRecommended by Office of the City Attorney\n  Approval of Third Amendment to Agreement No. 47758 between the City of\n  Los Angeles, acting by and through the Los Angeles Department of\n  Water and Power and Meyers Nave. The Amendment adds $830,000 for an\n  aggregate budget of $3,780,000. The scope of legal services and the term of\n  the Agreement, commencing on January 11, 2023, and terminating\n  January 10, 2028, shall not change.\n  Determine item is exempt pursuant to CEQA Guidelines Section 15061(b)(3).",
   "urls": [
     "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf"
-  ]
+  ],
+  "summary": "Approve third amendment to legal services agreement with Meyers Nave increasing contract amount by $830,000 to an aggregate budget of $3,780,000.",
+  "topics": ["budget"],
+  "locations": [],
+  "details": {
+    "amount": "$830,000",
+    "action": "contract amendment"
+  }
 }
