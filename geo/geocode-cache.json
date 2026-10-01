@@ -53,6 +53,12 @@
   "lon": -118.485975,
   "score": 99.06
  },
+ "16425 Hart Street": {
+  "address": "16425 W HART ST, 91406",
+  "lat": 34.197603,
+  "lon": -118.49138,
+  "score": 99.06
+ },
  "17317 West Ventura Boulevard": {
   "address": "17317 W VENTURA BLVD, 91316",
   "lat": 34.160984,
@@ -106,6 +112,12 @@
   "lat": 34.109655,
   "lon": -118.196454,
   "score": 97.56
+ },
+ "22nd Street & Harbor Boulevard": {
+  "address": "E 22ND ST & S HARBOR BLVD, 90731",
+  "lat": 33.727023,
+  "lon": -118.274859,
+  "score": 98.18
  },
  "2351 Wilshire Boulevard": {
   "address": "2351 W WILSHIRE BLVD, 90057",
@@ -282,6 +294,12 @@
   "lon": -118.409793,
   "score": 99.06
  },
+ "7701 Woodley Avenue": {
+  "address": "7701 N WOODLEY AVE, 91406",
+  "lat": 34.210247,
+  "lon": -118.483739,
+  "score": 99.06
+ },
  "7921 West Denivelle Road": {
   "address": "7921 W DENIVELLE ROAD, 91040",
   "lat": 34.272562,
@@ -369,7 +387,9 @@
   "lon": -118.265202,
   "score": 98.18
  },
+ "Badger Avenue Bridge, Port of Los Angeles": null,
  "Balboa Sports Complex": null,
+ "Berths 195-200A, Port of Los Angeles": null,
  "Broadway & Manchester": {
   "address": "S BROADWAY & W MANCHESTER AVE, 90003",
   "lat": 33.960132,
@@ -377,6 +397,7 @@
   "score": 96.74
  },
  "Carlin G. Smith City Park": null,
+ "Carson": null,
  "Griffith Park": null,
  "Griffith Park Golf Complex": null,
  "Hansen Dam Horse Park": null,
@@ -385,10 +406,12 @@
  "Hyperion Water Reclamation Plant": null,
  "James M. Wood Boulevard & 11th Street": null,
  "Jane and Bert Boeckmann Park": null,
+ "John S. Gibson Boulevard, Wilmington": null,
  "Kinney Street": null,
  "Las Palmas Senior Center": null,
  "Leimert Park": null,
  "Los Angeles Convention Center": null,
+ "Los Angeles International Airport": null,
  "Los Angeles River Bike Path": null,
  "Los Angeles Zoo, 5333 Zoo Drive": null,
  "MacArthur Lake": null,
@@ -415,6 +438,7 @@
  "Palisades Tennis Courts": null,
  "Pio Pico Library": null,
  "Poinsettia Park": null,
+ "Port of Los Angeles": null,
  "Rancho Park Golf Course": null,
  "SYLMAR FIRE STATION No. 31": null,
  "Sepulveda House": null,
@@ -436,6 +460,7 @@
   "lon": -118.266966,
   "score": 98.18
  },
+ "Van Nuys Airport": null,
  "Van Nuys Sherman Oaks War Memorial Park": null,
  "Vanalden Avenue & Balboa Boulevard": null,
  "Venice Beach": null,

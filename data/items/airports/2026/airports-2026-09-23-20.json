@@ -18,12 +18,19 @@
       "text": "Van Nuys Airport"
     },
     {
-      "text": "16425 Hart Street, Los Angeles, CA"
+      "text": "16425 Hart Street, Los Angeles, CA",
+      "lat": 34.197603,
+      "lon": -118.49138,
+      "neighborhood": "Van Nuys"
     }
   ],
   "details": {
     "amount": "$29.24 million",
     "applicant": "VNY Development II",
     "action": "Award of Lease"
-  }
+  },
+  "flag": {
+    "reason": "Long-term Sky Harbour lease at Van Nuys Airport."
+  },
+  "digest": "2026-09-30"
 }

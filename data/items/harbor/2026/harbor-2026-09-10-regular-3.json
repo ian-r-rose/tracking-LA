@@ -17,10 +17,17 @@
   ],
   "locations": [
     {
-      "text": "22nd Street & Harbor Boulevard, Los Angeles, CA"
+      "text": "22nd Street & Harbor Boulevard, Los Angeles, CA",
+      "lat": 33.727023,
+      "lon": -118.274859,
+      "neighborhood": "San Pedro"
     }
   ],
   "details": {
     "action": "orders for utility relocation"
-  }
+  },
+  "flag": {
+    "reason": "Pipeline removal for 22nd St parking lot and Harbor Blvd roadway projects in San Pedro."
+  },
+  "digest": "2026-09-30"
 }

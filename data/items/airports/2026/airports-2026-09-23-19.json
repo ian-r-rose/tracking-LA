@@ -19,12 +19,19 @@
       "text": "Van Nuys Airport"
     },
     {
-      "text": "7701 Woodley Avenue, Los Angeles, CA"
+      "text": "7701 Woodley Avenue, Los Angeles, CA",
+      "lat": 34.210247,
+      "lon": -118.483739,
+      "neighborhood": "Van Nuys"
     }
   ],
   "details": {
     "amount": "$83",
     "applicant": "VNY Development",
     "action": "Award of Lease"
-  }
+  },
+  "flag": {
+    "reason": "Long-term Sky Harbour lease at Van Nuys Airport."
+  },
+  "digest": "2026-09-30"
 }
