@@ -27,5 +27,9 @@
     "council_district": 8,
     "amount": "$6,844,197",
     "action": "specification and bid advertisement authorization"
-  }
+  },
+  "flag": {
+    "reason": "Vision Zero safety project on Avalon Blvd in South LA."
+  },
+  "digest": "2026-09-30"
 }

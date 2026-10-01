@@ -10,9 +10,12 @@
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep03/26-200.pdf"
   ],
   "summary": "Transfer of appropriation between funds in Department of Recreation and Parks and Information Technology Agency for Communication Services.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "action": "transfer of appropriation"
-  }
+  },
+  "digest": "2026-09-30"
 }

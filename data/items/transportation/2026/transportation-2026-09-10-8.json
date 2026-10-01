@@ -6,10 +6,16 @@
   "title": "RECOMMEND APPROVAL OF THE APPLICATION OF TOWER WAV LLC DBA",
   "text": "[CONSENT ITEMS]\nRECOMMEND APPROVAL OF THE APPLICATION OF TOWER WAV LLC DBA\n  TOWER MOBILITY FOR THREE UNRESTRICTED NON-AMBULATORY\n  PASSENGER VEHICLE PERMITS",
   "summary": "Approval of application for three unrestricted non-ambulatory passenger vehicle permits for Tower Wav LLC dba Tower Mobility.",
-  "topics": ["transportation"],
+  "topics": [
+    "transportation"
+  ],
   "locations": [],
-  "details": {"applicant": "Tower Wav LLC dba Tower Mobility", "action": "approval of vehicle permit applications"},
+  "details": {
+    "applicant": "Tower Wav LLC dba Tower Mobility",
+    "action": "approval of vehicle permit applications"
+  },
   "urls": [
     "https://ens.lacity.org/ladot/transagenda/ladottransagenda256199849_09102026.pdf"
-  ]
+  ],
+  "digest": "2026-09-30"
 }

@@ -10,10 +10,13 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6841b33-953b-4d00-bc03-875820c52fc7"
   ],
   "summary": "Authority for Expenditure of $34,401 for renewal subscription to ASTM International on-site license and online services.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "amount": "$34,401",
     "action": "Authority for Expenditure approval"
-  }
+  },
+  "digest": "2026-09-30"
 }

@@ -6,11 +6,20 @@
   "title": "Proposed Acquisition of Various Private and City-Owned Properties within",
   "text": "Proposed Acquisition of Various Private and City-Owned Properties within\n  Council District 10 for Park Purposes",
   "summary": "Acquisition of various private and city-owned properties within Council District 10 for park purposes.",
-  "topics": ["parks", "land_use"],
+  "topics": [
+    "parks",
+    "land_use"
+  ],
   "locations": [],
-  "details": {"council_district": 10},
+  "details": {
+    "council_district": 10
+  },
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311200079_09172026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep17/26-211.pdf"
-  ]
+  ],
+  "flag": {
+    "reason": "Land acquisition for new park space in Council District 10."
+  },
+  "digest": "2026-09-30"
 }

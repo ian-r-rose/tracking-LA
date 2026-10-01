@@ -22,5 +22,6 @@
     "action": "stop notice",
     "amount": "$234,102.76",
     "applicant": "Zefiro Corporation"
-  }
+  },
+  "digest": "2026-09-30"
 }

@@ -6,11 +6,17 @@
   "title": "Pico Maintenance Yard – Building Improvements (PRJ21946) Project –",
   "text": "Pico Maintenance Yard – Building Improvements (PRJ21946) Project –\n  Conceptual Approval of Preliminary Scope of Work – Commitment of Park Fees",
   "summary": "Conceptual approval of preliminary scope of work for building improvements at Pico Maintenance Yard with commitment of park fees.",
-  "topics": ["parks", "budget"],
+  "topics": [
+    "parks",
+    "budget"
+  ],
   "locations": [],
-  "details": {"action": "conceptual approval of preliminary scope of work"},
+  "details": {
+    "action": "conceptual approval of preliminary scope of work"
+  },
   "urls": [
     "https://ens.lacity.org/rap/agenda/rapagenda311200079_09172026.pdf",
     "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/sep17/26-212.pdf"
-  ]
+  ],
+  "digest": "2026-09-30"
 }

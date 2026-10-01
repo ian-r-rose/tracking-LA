@@ -10,7 +10,10 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e106c05b-4dab-45c4-8fc8-1388ef7401fd"
   ],
   "summary": "Status update on transportation projects by Metro and Department of Transportation.",
-  "topics": ["transportation"],
+  "topics": [
+    "transportation"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "digest": "2026-09-30"
 }

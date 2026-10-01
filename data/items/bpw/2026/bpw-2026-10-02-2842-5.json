@@ -10,9 +10,12 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d351d90b-9aac-455a-84e4-8bd322ce96c6"
   ],
   "summary": "Update from Bureau of Sanitation and Bureau of Engineering on bureau activities.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
   "details": {
     "action": "bureau update"
-  }
+  },
+  "digest": "2026-09-30"
 }

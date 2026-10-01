@@ -26,5 +26,9 @@
     "council_district": 8,
     "amount": "$54,513,550",
     "action": "bid opening"
-  }
+  },
+  "flag": {
+    "reason": "$54.5M active transportation project on Broadway and Manchester in South LA."
+  },
+  "digest": "2026-09-30"
 }

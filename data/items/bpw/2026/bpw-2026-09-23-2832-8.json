@@ -11,11 +11,16 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d8437675-6ba2-4b80-b1ff-f1b6caa6834a"
   ],
   "summary": "Revision of task order for BuildLA Project project management and programming services, increasing budget to $36,046,629.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "amount": "$36,046,629",
     "action": "task order revision",
-    "case_numbers": ["C-134269"]
-  }
+    "case_numbers": [
+      "C-134269"
+    ]
+  },
+  "digest": "2026-09-30"
 }

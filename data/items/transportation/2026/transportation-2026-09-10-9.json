@@ -6,10 +6,19 @@
   "title": "ESTABLISHMENT OF PREFERENTIAL PARKING DISTRICT NO. 338 IN THE",
   "text": "[CONSENT ITEMS]\nESTABLISHMENT OF PREFERENTIAL PARKING DISTRICT NO. 338 IN THE\n  MID-CITY HEIGHTS NEIGHBORHOOD IN COUNCIL DISTRICT 10\n  (CF 24-0472)",
   "summary": "Establishment of Preferential Parking District No. 338 in the Mid-City Heights neighborhood in Council District 10.",
-  "topics": ["transportation"],
+  "topics": [
+    "transportation"
+  ],
   "locations": [],
-  "details": {"council_district": 10, "case_numbers": ["CF 24-0472"], "action": "establishment of preferential parking district"},
+  "details": {
+    "council_district": 10,
+    "case_numbers": [
+      "CF 24-0472"
+    ],
+    "action": "establishment of preferential parking district"
+  },
   "urls": [
     "https://ens.lacity.org/ladot/transagenda/ladottransagenda256199849_09102026.pdf"
-  ]
+  ],
+  "digest": "2026-09-30"
 }

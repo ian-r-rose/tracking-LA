@@ -10,10 +10,13 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ce023fb-311f-4064-a06a-f93331877fb7"
   ],
   "summary": "Authority for Expenditure of $250,000 for annual State Water Resources Control Board permit fees and associated costs.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "amount": "$250,000",
     "action": "Authority for Expenditure approval"
-  }
+  },
+  "digest": "2026-09-30"
 }

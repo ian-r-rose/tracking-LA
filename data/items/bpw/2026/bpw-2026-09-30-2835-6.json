@@ -10,9 +10,12 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5764f7c2-20c9-4eb7-a21b-422aebbd6845"
   ],
   "summary": "Contract acceptance for erosion control projects addressing hillside damage throughout the city.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [],
   "details": {
     "action": "contract acceptance"
-  }
+  },
+  "digest": "2026-09-30"
 }

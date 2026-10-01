@@ -20,5 +20,9 @@
   },
   "urls": [
     "https://ens.lacity.org/ladot/transagenda/ladottransagenda256199849_09102026.pdf"
-  ]
+  ],
+  "flag": {
+    "reason": "Parking permit program at the Leimert Park municipal lot."
+  },
+  "digest": "2026-09-30"
 }

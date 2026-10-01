@@ -10,9 +10,12 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0601df35-76b6-484b-af84-638ccde66a45"
   ],
   "summary": "Advisory on Community Level Contracting Update from Bureau of Engineering.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "action": "advisory"
-  }
+  },
+  "digest": "2026-09-30"
 }

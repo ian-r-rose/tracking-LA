@@ -10,9 +10,15 @@
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=de1a8470-045a-43c1-bec3-93b2cb2a2bb9"
   ],
   "summary": "Advisory on the Sidewalk and Transit Amenities Program from Bureau of Street Services.",
-  "topics": ["transportation"],
+  "topics": [
+    "transportation"
+  ],
   "locations": [],
   "details": {
     "action": "advisory"
-  }
+  },
+  "flag": {
+    "reason": "Report on the citywide Sidewalk & Transit Amenities Program."
+  },
+  "digest": "2026-09-30"
 }
