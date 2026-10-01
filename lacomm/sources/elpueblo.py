@@ -16,6 +16,10 @@ from lacomm.pdf import normalize_space, pdf_text
 
 PAGE = "https://elpueblo.lacity.gov/commission"
 
+# Agenda items rarely name a place because the whole commission is about one; say where it is
+# so extraction can locate every item.
+CONTEXT = "[El Pueblo de Los Angeles Historical Monument (Olvera Street), 125 Paseo de la Plaza]"
+
 # Action items are numbered within a section: "3.8 Recommendation to Approve ..."
 ITEM_START = re.compile(r"^\s{0,8}(\d\.\d{1,2})\s+(\S.*)$")
 ITEM_END = re.compile(r"^\s*(COMMISSION BUSINESS|ADJOURNMENT|\d\.\s{2,}[A-Z])")
@@ -90,7 +94,7 @@ def items_from_text(meeting: dict, agenda_text: str) -> list[dict]:
                 "meeting_date": day,
                 "item_number": number,
                 "title": text.splitlines()[0],
-                "text": text,
+                "text": f"{CONTEXT}\n{text}",
                 "urls": [meeting["agenda_url"]],
             }
         )

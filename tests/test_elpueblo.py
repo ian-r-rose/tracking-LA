@@ -23,6 +23,7 @@ def test_action_items_and_matched_documents():
     by_number = {i["item_number"]: i for i in found}
     assert by_number["3.1"]["title"].startswith("Dept. of Transportation LADOT Holiday Moratorium")
     assert "Spring/Alameda Safety and Mobility Project" in by_number["3.1"]["text"]
+    assert by_number["3.1"]["text"].startswith(elpueblo.CONTEXT)
     assert any("Olvera%20Street%20Gates" in u for u in by_number["3.8"]["urls"])
     # Acronyms match their spelled-out form: OSMAF = Olvera Street Merchants Association Foundation.
     assert any("OSMAF" in u for u in by_number["3.3"]["urls"])
