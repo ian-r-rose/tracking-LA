@@ -10,6 +10,7 @@ import yaml
 
 from lacomm import http_client
 from lacomm.check import check_all
+from lacomm.outcomes import PROCESSED, normalize_status, record
 from lacomm.geo import Geocoder, Neighborhoods, Places, build_places
 from lacomm.score import candidates
 from lacomm.sources import SOURCES
@@ -72,6 +73,53 @@ def fetch(since_days: int, refetch: bool = False) -> None:
         sys.exit(1)
 
 
+# Journals and minutes can be revised shortly after a meeting; re-read them for this long.
+OUTCOME_RECHECK = timedelta(days=14)
+
+
+def outcomes(since_days: int) -> None:
+    today = date.today()
+    start = today - timedelta(days=since_days)
+    processed: dict = json.loads(PROCESSED.read_text()) if PROCESSED.exists() else {}
+    counts = Counter()
+    with http_client(timeout=60) as client:
+        for source in SOURCES:
+            if not source.meeting_outcomes:
+                continue
+            for meeting in source.list_meetings(start, today - timedelta(days=1), client):
+                url = source.outcome_url(meeting)
+                if not url or (url in processed and meeting["date"] < today - OUTCOME_RECHECK):
+                    continue
+                resp = client.get(url)
+                resp.raise_for_status()
+                for item_id, outcome in source.meeting_outcomes(meeting, resp.content).items():
+                    path = DATA / "items" / meeting["commission"] / item_id.split("-")[1] / f"{item_id}.json"
+                    if not path.exists():
+                        counts["no matching item"] += 1
+                    elif record(path, {"status": normalize_status(outcome["text"]), **outcome}):
+                        counts["recorded"] += 1
+                    else:
+                        counts["unchanged"] += 1
+                processed[url] = meeting["date"].isoformat()
+                counts["records read"] += 1
+    PROCESSED.write_text(json.dumps(processed, indent=1, sort_keys=True) + "\n")
+    print(", ".join(f"{k}: {v}" for k, v in counts.items()) or "no new journals or minutes")
+
+
+def decisions() -> None:
+    """Outcomes not yet reported in a digest; items flagged in an earlier digest first."""
+    found = []
+    for path in sorted((DATA / "items").rglob("*.json")):
+        item = json.loads(path.read_text())
+        if (o := item.get("outcome")) and "digest" not in o:
+            found.append((not item.get("flag"), item["meeting_date"], path, item, o))
+    for _, _, path, item, o in sorted(found, key=lambda f: (f[0], f[1])):
+        flagged = "*" if item.get("flag") else " "
+        print(f"{flagged} {o['status']:10} {o.get('vote', ''):5} {path.relative_to(DATA.parent)}")
+        print(f"     {item['meeting_date']}  {item.get('summary', item['title'])[:120]}  [{o['text']}]")
+    print(f"{len(found)} unreported outcome(s); * = flagged in a digest")
+
+
 def locate() -> None:
     interests = yaml.safe_load((DATA.parent / "config" / "interests.yaml").read_text())
     hoods = Neighborhoods()
@@ -111,13 +159,20 @@ def score(limit: int) -> None:
 
 
 def mark_digested(digest_date: str) -> None:
-    ranked = candidates()
-    for c in ranked:
-        path = DATA.parent / c["path"]
+    items = outcomes_marked = 0
+    for path in sorted((DATA / "items").rglob("*.json")):
         item = json.loads(path.read_text())
-        item["digest"] = digest_date
-        path.write_text(json.dumps(item, indent=2, ensure_ascii=False) + "\n")
-    print(f"marked {len(ranked)} item(s) as covered by the {digest_date} digest")
+        new_item = "summary" in item and "digest" not in item
+        new_outcome = bool(item.get("outcome")) and "digest" not in item["outcome"]
+        if new_item:
+            item["digest"] = digest_date
+            items += 1
+        if new_outcome:
+            item["outcome"]["digest"] = digest_date
+            outcomes_marked += 1
+        if new_item or new_outcome:
+            path.write_text(json.dumps(item, indent=2, ensure_ascii=False) + "\n")
+    print(f"marked {items} item(s) and {outcomes_marked} outcome(s) as covered by the {digest_date} digest")
 
 
 def main() -> None:
@@ -126,6 +181,9 @@ def main() -> None:
     p = sub.add_parser("fetch", help="Fetch agendas for meetings since N days ago (and all upcoming)")
     p.add_argument("--since", type=int, default=30, metavar="DAYS")
     p.add_argument("--refetch", action="store_true", help="Re-download past agendas too (e.g. after a parser fix)")
+    p = sub.add_parser("outcomes", help="Record decisions from journals and minutes of past meetings")
+    p.add_argument("--since", type=int, default=60, metavar="DAYS")
+    sub.add_parser("decisions", help="List recorded outcomes not yet reported in a digest")
     sub.add_parser("check", help="Validate item files (run after extraction)")
     sub.add_parser("locate", help="Geocode item locations and assign neighborhoods")
     sub.add_parser("build-places", help="Refresh geo/places.json from Rec & Parks data on LA GeoHub")
@@ -145,7 +203,15 @@ def main() -> None:
         score(args.limit)
     elif args.command == "mark-digested":
         mark_digested(args.date)
+    elif args.command == "outcomes":
+        outcomes(args.since)
+    elif args.command == "decisions":
+        decisions()
     elif args.command == "check":
         bad = check_all()
         print(f"{bad} item file(s) with problems" if bad else "all items OK")
         sys.exit(1 if bad else 0)
+
+
+if __name__ == "__main__":
+    main()

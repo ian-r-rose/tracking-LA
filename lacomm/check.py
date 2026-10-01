@@ -11,6 +11,7 @@ from pathlib import Path
 
 from lacomm.store import DATA, SOURCE_FIELDS
 
+OUTCOME_STATUSES = {"approved", "denied", "continued", "withdrawn", "filed", "other"}
 TOPICS = {"parks", "transportation", "land_use", "housing", "environment", "budget", "public_safety", "other"}
 
 
@@ -40,6 +41,10 @@ def check_item(path: Path) -> list[str]:
             problems.append("locations must be a list of objects with a 'text' field")
         if not isinstance(item.get("details", {}), dict):
             problems.append("details must be an object")
+
+    if (outcome := item.get("outcome")) is not None:
+        if outcome.get("status") not in OUTCOME_STATUSES or not outcome.get("text") or not outcome.get("source"):
+            problems.append(f"outcome needs status in {sorted(OUTCOME_STATUSES)}, text and source: {outcome!r}")
 
     if committed := committed_version(path):
         changed = [k for k in SOURCE_FIELDS if item.get(k) != committed.get(k)]

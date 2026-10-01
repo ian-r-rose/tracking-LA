@@ -115,3 +115,23 @@ def meeting_items(meeting: dict, agenda_pdf: bytes) -> list[dict]:
             if resp.content.startswith(b"%PDF"):  # some PDFs are linked without a .pdf extension
                 extra_texts[doc["url"]] = normalize_space(pdf_text(resp.content))[:EXTRA_TEXT_CHARS]
     return items_from_meeting(meeting, pdf_text(agenda_pdf), extra_texts)
+
+
+def minutes_outcomes(meeting: dict, minutes_text: str) -> dict[str, dict]:
+    """Outcomes by item id from meeting minutes: each board report is followed by a
+    "DISPOSITION:" line, and votes are recorded in motion paragraphs that list report numbers."""
+    day = meeting["date"].isoformat()
+    outcomes: dict[str, dict] = {}
+    current = None
+    for line in minutes_text.splitlines():
+        if m := re.match(r"^\s{0,3}(\d{2}-\d{3})\s{2,}\S", line):
+            current = m.group(1)
+        elif current and (m := re.match(r"^\s*DISPOSITION:\s*(.+)$", line)):
+            outcomes[f"rap-{day}-{current}"] = {"text": m.group(1).strip(), "source": meeting["minutes_url"]}
+            current = None
+    for paragraph in re.split(r"\n\s*\n", minutes_text):
+        if vote := re.search(r"vote of (\d+-\d+)", paragraph):
+            for number in re.findall(r"\b\d{2}-\d{3}\b", paragraph):
+                if (item_id := f"rap-{day}-{number}") in outcomes:
+                    outcomes[item_id]["vote"] = vote.group(1)
+    return outcomes

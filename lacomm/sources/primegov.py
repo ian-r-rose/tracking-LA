@@ -37,6 +37,7 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     for m in raw:
         slug = commission_slug(m["title"])
         doc = next((d for d in m["documentList"] if d["templateName"] == "HTML Agenda"), None)
+        journal = next((d for d in m["documentList"] if d["templateName"] == "HTML Journal"), None)
         meeting_date = datetime.fromisoformat(m["dateTime"]).date()
         if not slug or not doc or m["id"] in seen or not start <= meeting_date <= end:
             continue
@@ -49,6 +50,7 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
                 # PrimeGov meeting id to keep item ids unique.
                 "meeting_id": m["id"],
                 "agenda_url": f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={doc['id']}",
+                "journal_url": f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={journal['id']}" if journal else None,
             }
         )
     return meetings
@@ -91,3 +93,26 @@ def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
             }
         )
     return items
+
+
+def journal_outcomes(meeting: dict, journal_html: bytes) -> dict[str, dict]:
+    """Outcomes by item id from a meeting's HTML Journal, which repeats each agenda item
+    with its DISPOSITION and roll call."""
+    soup = BeautifulSoup(journal_html, "html.parser")
+    outcomes = {}
+    for block in soup.select("div.meeting-item"):
+        number_cell = block.select_one("td")
+        number = re.search(r"\((\w+)\)", number_cell.get_text()) if number_cell else None
+        text = block.get_text("\n")
+        disposition = re.search(r"DISPOSITION:\s*(.+?)(?=\n\s*(?:MOVED|SECONDED|AYES|[A-Z]{2,5}-\d{4}-\d)|\Z)", text, re.S)
+        if not number or not disposition:
+            continue
+        ayes = re.search(r"AYES:\s*([^;\n]*)", text)
+        nays = re.search(r"NAYS:\s*([^;\n]*)", text)
+        count = lambda m: 0 if not m or m.group(1).strip().upper().startswith("NONE") else len(m.group(1).split(","))
+        disposition_text = re.sub(r"\s+", " ", disposition.group(1)).strip()
+        outcome = {"text": disposition_text, "source": meeting["journal_url"]}
+        if ayes:
+            outcome["vote"] = f"{count(ayes)}-{count(nays)}"
+        outcomes[f"{meeting['commission']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number.group(1)}"] = outcome
+    return outcomes
