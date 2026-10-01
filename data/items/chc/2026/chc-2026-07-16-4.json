@@ -26,5 +26,9 @@
     "plan_area": "Westlake",
     "applicant": "City of Los Angeles Department of Recreation and Parks",
     "action": "Commission review and comment on proposed perimeter fencing"
-  }
+  },
+  "flag": {
+    "reason": "Perimeter fencing would change access to MacArthur Park, a major public park in Westlake."
+  },
+  "digest": "2026-09-30"
 }

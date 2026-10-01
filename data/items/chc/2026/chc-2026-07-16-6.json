@@ -1,0 +1,33 @@
+{
+  "id": "chc-2026-07-16-6",
+  "commission": "chc",
+  "meeting_date": "2026-07-16",
+  "item_number": "6",
+  "title": "MONUMENT: MAY COMPANY GARAGE, HISTORIC-CULTURAL MONUMENT #1001",
+  "text": "MONUMENT: MAY COMPANY GARAGE, HISTORIC-CULTURAL MONUMENT #1001\n\n  Plan Area: Downtown  Council District: 14 – Jurado\n\n  PROPERTY ADDRESS:  900 – 914 South Hill Street; 216 – 224 West 9th Street\n\n  Informational presentation on the proposed rehabilitation project for reuse of the building for self-service\n  storage. Commission review and comment.\n\n  Owner/Applicant:  900 S Hill LLC\n\n  Presenters:  Darren Mehdizadeh, Markwood Enterprises; Taek Kim, Ware Malcomb; and\n  Robert Chattel, Heritage Consulting Group",
+  "urls": [
+    "https://planning.lacity.gov/dcpapi2/meetings/document/81082"
+  ],
+  "summary": "Informational presentation on the proposed rehabilitation of the May Company Garage (Historic-Cultural Monument #1001) at 900-914 South Hill Street in Downtown for reuse as self-service storage.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "900 South Hill Street, Los Angeles, CA",
+      "lat": 34.042943,
+      "lon": -118.257135,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "plan_area": "Downtown",
+    "council_district": 14,
+    "applicant": "900 S Hill LLC",
+    "action": "Rehabilitation for self-service storage reuse"
+  },
+  "flag": {
+    "reason": "May Company Garage downtown proposed for self-storage."
+  },
+  "digest": "2026-09-30"
+}

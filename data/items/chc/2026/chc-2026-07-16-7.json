@@ -25,5 +25,9 @@
     "plan_area": "Downtown",
     "applicant": "Pope and Pantry LLC c/o Leo Pustilnikov",
     "action": "Commission review of proposed installation of digital rooftop displays"
-  }
+  },
+  "flag": {
+    "reason": "Digital rooftop displays proposed on the Original Pantry downtown."
+  },
+  "digest": "2026-09-30"
 }

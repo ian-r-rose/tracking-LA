@@ -10,7 +10,10 @@ The fetch step needs poppler's `pdftotext` (`apt-get install -y poppler-utils`).
 
 ```
 uv run lacomm fetch --since 30
+git add data && git commit -m "Fetch YYYY-MM-DD"
 ```
+
+Commit before any subagent runs. `lacomm check` compares scraper-owned fields against the last commit, and the commit protects fetched data if an agent runs a git command.
 
 ## 2. Extract (Haiku subagents)
 
@@ -24,6 +27,8 @@ Find item files under `data/items/` that have no `summary` field. Split them int
 > - `details`: an object with whatever of these the item states: `case_numbers` (list), `council_district` (integer), `plan_area` (string), `applicant` (string), `action` (short phrase, e.g. "appeal of Zoning Administrator approval"). Leave out anything not stated.
 >
 > Don't make up information. Use only what the item text says.
+>
+> Don't run any git commands, and don't edit any file other than the item files listed.
 
 Then run `uv run lacomm check`. It must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent).
 

@@ -29,5 +29,9 @@
     "council_district": 1,
     "plan_area": "Northeast Los Angeles",
     "action": "Density Bonus for seven-unit apartment with affordable units"
-  }
+  },
+  "flag": {
+    "reason": "Seven-unit density-bonus building in the Highland Park–Garvanza HPOZ, a test of infill in a historic district."
+  },
+  "digest": "2026-09-30"
 }

@@ -101,6 +101,12 @@
   "lon": -118.326043,
   "score": 100
  },
+ "2921 South Budlong Avenue": {
+  "address": "2921 S BUDLONG AVE, 90007",
+  "lat": 34.028513,
+  "lon": -118.295967,
+  "score": 100
+ },
  "305 East Rose Avenue": {
   "address": "305 E ROSE AVE, 90291",
   "lat": 33.996686,
@@ -238,6 +244,12 @@
   "address": "900 S HILGARD AVE, 90024",
   "lat": 34.063943,
   "lon": -118.441047,
+  "score": 100
+ },
+ "900 South Hill Street": {
+  "address": "900 S HILL ST, 90015",
+  "lat": 34.042943,
+  "lon": -118.257135,
   "score": 100
  },
  "9236 North Burnet Avenue": {
