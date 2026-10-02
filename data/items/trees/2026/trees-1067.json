@@ -7,5 +7,22 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1067\nAddress or Location: 6000-9600 N Van Nuys Bl and 13200-14500 W van Nuys Bl\nPosting Date: 08/14/2026\nRemoval Reason: Other: East San Fernando Valley Transit Corridor\nNo. of Trees: 381\nTree Species: Various species",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1067"
-  ]
+  ],
+  "summary": "Removal of 381 street trees along Van Nuys Boulevard for the East San Fernando Valley Transit Corridor project.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "6000-9600 North Van Nuys Boulevard, Los Angeles, CA"
+    },
+    {
+      "text": "13200-14500 West Van Nuys Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "trees": 381,
+    "action": "East San Fernando Valley Transit Corridor"
+  }
 }

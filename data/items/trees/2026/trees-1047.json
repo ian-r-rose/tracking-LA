@@ -7,5 +7,19 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1047\nAddress or Location: 8611 Kester Ave\nPosting Date: 04/01/2026\nRemoval Reason: Other: Safe Routes to schools Panorama City Elementary\nNo. of Trees: 8\nTree Species: 3 Orange, Crape Myrtle, 4 Mexican fan, 1 Aleppo.",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1047"
-  ]
+  ],
+  "summary": "Removal of 8 street trees at 8611 Kester Avenue for the Safe Routes to Schools project at Panorama City Elementary.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "8611 Kester Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "trees": 8,
+    "action": "Safe Routes to Schools project"
+  }
 }

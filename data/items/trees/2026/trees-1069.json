@@ -7,5 +7,16 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1069\nAddress or Location: Various Loc. CD-8 BOE-79\nPosting Date: 09/16/2026\nRemoval Reason: Sidewalk Repair\nNo. of Trees: 6\nTree Species: Jacaranda, Camphor, Chinese Elm\nHearing Date: 10/02/2026\nHearing Time: 10:00 AM",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1069"
-  ]
+  ],
+  "summary": "Removal of 6 street trees in Council District 8 for sidewalk repair.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "trees": 6,
+    "action": "Sidewalk Repair",
+    "council_district": 8
+  }
 }

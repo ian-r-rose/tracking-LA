@@ -7,5 +7,18 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1064\nAddress or Location: 7556 N Woodlake Ave, Los Angeles, CA 91304\nPosting Date: 06/10/2026\nRemoval Reason: Other: Fire Lane Driveway Installation\nNo. of Trees: 7\nTree Species: Red gum Eucluptus",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1064"
-  ]
+  ],
+  "summary": "Removal of 7 street trees at 7556 North Woodlake Avenue for fire lane driveway installation.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "7556 North Woodlake Avenue, Los Angeles, CA 91304"
+    }
+  ],
+  "details": {
+    "trees": 7,
+    "action": "Fire lane driveway installation"
+  }
 }

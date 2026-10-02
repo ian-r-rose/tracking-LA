@@ -7,5 +7,19 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1019\nAddress or Location: 6933 Santa Monica Blvd\nPosting Date: 01/20/2023\nRemoval Reason: Street Widening\nNo. of Trees: 4\nTree Species: Purple Orchid (Bauhinia variegata)",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1019"
-  ]
+  ],
+  "summary": "Removal of 4 street trees at 6933 Santa Monica Boulevard for street widening.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "6933 Santa Monica Boulevard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "trees": 4,
+    "action": "Street Widening"
+  }
 }

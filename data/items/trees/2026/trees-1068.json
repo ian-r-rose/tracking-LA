@@ -7,5 +7,19 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1068\nAddress or Location: 19910 Lorne St - 20000 Lorne St / BOE-72\nPosting Date: 07/31/2026\nRemoval Reason: Sidewalk Repair\nNo. of Trees: 15\nTree Species: Tulip Trees",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1068"
-  ]
+  ],
+  "summary": "Removal of 15 street trees on Lorne Street (19910-20000 blocks) for sidewalk repair.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "19910-20000 Lorne Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "trees": 15,
+    "action": "Sidewalk Repair"
+  }
 }

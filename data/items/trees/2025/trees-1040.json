@@ -7,5 +7,18 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1040\nAddress or Location: 6560 Romaine St, Los Angeles, CA 90038\nPosting Date: 08/04/2025\nRemoval Reason: General Improvement\nNo. of Trees: 3\nTree Species: Various",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1040"
-  ]
+  ],
+  "summary": "Removal of 3 street trees at 6560 Romaine Street for general improvement.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "6560 Romaine Street, Los Angeles, CA 90038"
+    }
+  ],
+  "details": {
+    "trees": 3,
+    "action": "General Improvement"
+  }
 }

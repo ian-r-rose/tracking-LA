@@ -7,5 +7,18 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1034\nAddress or Location: 2361 Fox hills dr\nPosting Date: 05/22/2024\nRemoval Reason: General Improvement\nNo. of Trees: 3\nTree Species: Various",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1034"
-  ]
+  ],
+  "summary": "Removal of 3 street trees at 2361 Fox Hills Drive for general improvement.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "2361 Fox Hills Drive, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "trees": 3,
+    "action": "General Improvement"
+  }
 }
