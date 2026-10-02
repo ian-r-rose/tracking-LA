@@ -4,9 +4,9 @@ Instructions for the scheduled Claude Code routine that keeps `data/` up to date
 
 ## 1. Fetched data
 
-The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`, an hour before this routine runs. It runs there because this routine's sandbox can't reach some commission sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
+The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily, including an hour before this routine. It runs there because this routine's sandbox can't reach some commission sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
 
-Check `git log -3`. If its message lists failed sources, name them in the digest's intro. If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary.
+Check the Fetch commits since the last `Digest` commit (`git log --format='%h %s%n%b' <last digest commit>..HEAD`). If any lists failed sources, name them in the digest's intro (a source that failed once and then succeeded doesn't need a mention). If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary.
 
 ## 2. Extract (Haiku subagents)
 

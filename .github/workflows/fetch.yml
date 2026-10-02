@@ -1,12 +1,13 @@
 name: Fetch
 
-# Fetches agendas and records outcomes, then commits the data, an hour before the
-# Claude routine runs (Mon/Thu 14:00 UTC). This runs here rather than in the routine
-# because the routine's sandbox proxy can't reach ens.lacity.org (LADOT, DWP).
+# Fetches agendas and records outcomes, then commits the data. Daily, so the commit
+# that adds an item records when its agenda was first seen; on Mon/Thu it runs an
+# hour before the Claude routine (14:00 UTC). This runs here rather than in the
+# routine because the routine's sandbox proxy can't reach ens.lacity.org (LADOT, DWP).
 
 on:
   schedule:
-    - cron: "0 13 * * 1,4"
+    - cron: "0 13 * * *"
   workflow_dispatch:
 
 concurrency:
