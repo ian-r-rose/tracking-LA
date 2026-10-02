@@ -14,11 +14,15 @@
   ],
   "locations": [
     {
-      "text": "2027 South Colby Avenue, Los Angeles, CA"
+      "text": "2027 South Colby Avenue, Los Angeles, CA",
+      "lat": 34.038323,
+      "lon": -118.447113,
+      "neighborhood": "Sawtelle"
     }
   ],
   "details": {
     "trees": 5,
     "action": "General Improvement"
-  }
+  },
+  "digest": "2026-10-01"
 }

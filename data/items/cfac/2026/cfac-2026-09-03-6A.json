@@ -9,7 +9,13 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "City Forest Office provides an update on the Urban Forest Master Plan.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "flag": {
+    "reason": "Urban Forest Management Plan review coming."
+  },
+  "digest": "2026-10-01"
 }

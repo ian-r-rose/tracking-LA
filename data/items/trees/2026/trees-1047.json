@@ -15,11 +15,15 @@
   ],
   "locations": [
     {
-      "text": "8611 Kester Avenue, Los Angeles, CA"
+      "text": "8611 Kester Avenue, Los Angeles, CA",
+      "lat": 34.226919,
+      "lon": -118.45754,
+      "neighborhood": "Panorama City"
     }
   ],
   "details": {
     "trees": 8,
     "action": "Safe Routes to Schools project"
-  }
+  },
+  "digest": "2026-10-01"
 }

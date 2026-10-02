@@ -9,7 +9,18 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "Discussion and possible motion to send a letter in opposition to the Sunland McGroarty Corridor Development project as currently proposed.",
-  "topics": ["land_use", "environment"],
-  "locations": [{"text": "Sunland, Los Angeles, CA"}],
-  "details": {}
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Sunland, Los Angeles, CA"
+    }
+  ],
+  "details": {},
+  "flag": {
+    "reason": "Possible opposition to the Sunland McGroarty subdivision."
+  },
+  "digest": "2026-10-01"
 }

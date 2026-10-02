@@ -15,11 +15,18 @@
   ],
   "locations": [
     {
-      "text": "1000 South Vermont, Los Angeles, CA"
+      "text": "1000 South Vermont, Los Angeles, CA",
+      "lat": 34.052488,
+      "lon": -118.291567,
+      "neighborhood": "Pico-Union"
     }
   ],
   "details": {
     "trees": 14,
     "action": "Street Widening"
-  }
+  },
+  "flag": {
+    "reason": "Long-pending removal of 14 trees at 1000 S Vermont."
+  },
+  "digest": "2026-10-01"
 }

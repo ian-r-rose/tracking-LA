@@ -9,7 +9,11 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "Discussion and possible motion to reconsider and revise the CFAC's previous comment letter on City Plants, focusing on sustainable funding and program recommendations.",
-  "topics": ["parks", "budget"],
+  "topics": [
+    "parks",
+    "budget"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "digest": "2026-10-01"
 }

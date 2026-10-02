@@ -14,35 +14,66 @@
   ],
   "locations": [
     {
-      "text": "200 South Vermont, Los Angeles, CA"
+      "text": "200 South Vermont, Los Angeles, CA",
+      "lat": 34.070334,
+      "lon": -118.291623,
+      "neighborhood": "Koreatown"
     },
     {
-      "text": "600 South Vermont, Los Angeles, CA"
+      "text": "600 South Vermont, Los Angeles, CA",
+      "lat": 34.063629,
+      "lon": -118.2916,
+      "neighborhood": "Koreatown"
     },
     {
-      "text": "2500 South Vermont, Los Angeles, CA"
+      "text": "2500 South Vermont, Los Angeles, CA",
+      "lat": 34.033524,
+      "lon": -118.291496,
+      "neighborhood": "University Park"
     },
     {
-      "text": "7100 South Vermont, Los Angeles, CA"
+      "text": "7100 South Vermont, Los Angeles, CA",
+      "lat": 33.975447,
+      "lon": -118.291389,
+      "neighborhood": "Vermont-Slauson"
     },
     {
-      "text": "8500 South Vermont, Los Angeles, CA"
+      "text": "8500 South Vermont, Los Angeles, CA",
+      "lat": 33.961173,
+      "lon": -118.291407,
+      "neighborhood": "Vermont Knolls"
     },
     {
-      "text": "1025 North Vermont, Los Angeles, CA"
+      "text": "1025 North Vermont, Los Angeles, CA",
+      "lat": 34.089968,
+      "lon": -118.2918,
+      "neighborhood": "East Hollywood"
     },
     {
-      "text": "1100 North Vermont, Los Angeles, CA"
+      "text": "1100 North Vermont, Los Angeles, CA",
+      "lat": 34.090933,
+      "lon": -118.29169,
+      "neighborhood": "East Hollywood"
     },
     {
-      "text": "1425 North Vermont, Los Angeles, CA"
+      "text": "1425 North Vermont, Los Angeles, CA",
+      "lat": 34.097315,
+      "lon": -118.291824,
+      "neighborhood": "East Hollywood"
     },
     {
-      "text": "1500 North Vermont, Los Angeles, CA"
+      "text": "1500 North Vermont, Los Angeles, CA",
+      "lat": 34.098214,
+      "lon": -118.291713,
+      "neighborhood": "East Hollywood"
     }
   ],
   "details": {
     "trees": 14,
     "action": "General Improvement"
-  }
+  },
+  "flag": {
+    "reason": "14 street trees on Vermont in East Hollywood and Koreatown."
+  },
+  "digest": "2026-10-01"
 }

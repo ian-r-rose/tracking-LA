@@ -9,7 +9,13 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "Discussion of tree spacing guidelines and a report on a meeting regarding urban forestry standards.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "flag": {
+    "reason": "Citywide street tree spacing guidelines."
+  },
+  "digest": "2026-10-01"
 }

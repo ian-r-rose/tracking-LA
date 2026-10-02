@@ -14,11 +14,15 @@
   ],
   "locations": [
     {
-      "text": "3352 North Barham Boulevard, Los Angeles, CA"
+      "text": "3352 North Barham Boulevard, Los Angeles, CA",
+      "lat": 34.132085,
+      "lon": -118.34436,
+      "neighborhood": "Hollywood Hills"
     }
   ],
   "details": {
     "trees": 3,
     "action": "Emergency sewer line repair"
-  }
+  },
+  "digest": "2026-10-01"
 }

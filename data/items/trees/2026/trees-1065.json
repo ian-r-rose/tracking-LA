@@ -15,11 +15,15 @@
   ],
   "locations": [
     {
-      "text": "19910-20000 West Lorne Street, Los Angeles, CA"
+      "text": "19910-20000 West Lorne Street, Los Angeles, CA",
+      "lat": 34.21713,
+      "lon": -118.568938,
+      "neighborhood": "Winnetka"
     }
   ],
   "details": {
     "trees": 15,
     "action": "Sidewalk Repair"
-  }
+  },
+  "digest": "2026-10-01"
 }

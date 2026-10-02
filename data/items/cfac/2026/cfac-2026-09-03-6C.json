@@ -9,7 +9,10 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "Urban Forestry Division provides a status update on the CFAC Tree Guarantee letter.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "digest": "2026-10-01"
 }

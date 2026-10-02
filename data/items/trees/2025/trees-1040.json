@@ -14,11 +14,18 @@
   ],
   "locations": [
     {
-      "text": "6560 Romaine Street, Los Angeles, CA 90038"
+      "text": "6560 Romaine Street, Los Angeles, CA 90038",
+      "lat": 34.088853,
+      "lon": -118.332356,
+      "neighborhood": "Hollywood"
     }
   ],
   "details": {
     "trees": 3,
     "action": "General Improvement"
-  }
+  },
+  "flag": {
+    "reason": "Pending removal on Romaine St in Hollywood."
+  },
+  "digest": "2026-10-01"
 }

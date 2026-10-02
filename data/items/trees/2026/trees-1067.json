@@ -18,11 +18,18 @@
       "text": "6000-9600 North Van Nuys Boulevard, Los Angeles, CA"
     },
     {
-      "text": "13200-14500 West Van Nuys Boulevard, Los Angeles, CA"
+      "text": "13200-14500 West Van Nuys Boulevard, Los Angeles, CA",
+      "lat": 34.246989,
+      "lon": -118.44819,
+      "neighborhood": "Panorama City"
     }
   ],
   "details": {
     "trees": 381,
     "action": "East San Fernando Valley Transit Corridor"
-  }
+  },
+  "flag": {
+    "reason": "381 street trees for the East San Fernando Valley light rail."
+  },
+  "digest": "2026-10-01"
 }

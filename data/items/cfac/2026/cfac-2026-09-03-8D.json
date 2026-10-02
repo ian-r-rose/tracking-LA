@@ -9,7 +9,12 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "Presentation of proposed changes to the Preservation of Trees Ordinance with a motion to approve the changes in concept.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [],
-  "details": {"action": "Motion to approve proposed changes in concept"}
+  "details": {
+    "action": "Motion to approve proposed changes in concept"
+  },
+  "digest": "2026-10-01"
 }

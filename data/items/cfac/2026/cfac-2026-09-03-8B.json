@@ -9,7 +9,10 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "Update from the Fire Code Modernization CFAC Ad Hoc Committee regarding impacts to urban forest management.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [],
-  "details": {}
+  "details": {},
+  "digest": "2026-10-01"
 }

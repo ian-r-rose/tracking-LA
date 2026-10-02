@@ -14,11 +14,15 @@
   ],
   "locations": [
     {
-      "text": "2361 Fox Hills Drive, Los Angeles, CA"
+      "text": "2361 Fox Hills Drive, Los Angeles, CA",
+      "lat": 34.049289,
+      "lon": -118.413777,
+      "neighborhood": "Century City"
     }
   ],
   "details": {
     "trees": 3,
     "action": "General Improvement"
-  }
+  },
+  "digest": "2026-10-01"
 }

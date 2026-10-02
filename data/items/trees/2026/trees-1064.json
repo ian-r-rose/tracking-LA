@@ -14,11 +14,15 @@
   ],
   "locations": [
     {
-      "text": "7556 North Woodlake Avenue, Los Angeles, CA 91304"
+      "text": "7556 North Woodlake Avenue, Los Angeles, CA 91304",
+      "lat": 34.207234,
+      "lon": -118.63211,
+      "neighborhood": "West Hills"
     }
   ],
   "details": {
     "trees": 7,
     "action": "Fire lane driveway installation"
-  }
+  },
+  "digest": "2026-10-01"
 }

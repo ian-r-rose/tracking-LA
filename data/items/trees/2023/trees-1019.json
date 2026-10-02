@@ -15,11 +15,18 @@
   ],
   "locations": [
     {
-      "text": "6933 Santa Monica Boulevard, Los Angeles, CA"
+      "text": "6933 Santa Monica Boulevard, Los Angeles, CA",
+      "lat": 34.090779,
+      "lon": -118.340853,
+      "neighborhood": "Hollywood"
     }
   ],
   "details": {
     "trees": 4,
     "action": "Street Widening"
-  }
+  },
+  "flag": {
+    "reason": "Long-pending removal on Santa Monica Blvd in Hollywood."
+  },
+  "digest": "2026-10-01"
 }

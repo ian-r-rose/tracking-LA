@@ -9,7 +9,12 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "Discussion of budget recommendations regarding full recovery costs for tree maintenance and grant funding opportunities for urban forestry programs.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
-  "details": {"action": "Budget Recommendations R75 and R73"}
+  "details": {
+    "action": "Budget Recommendations R75 and R73"
+  },
+  "digest": "2026-10-01"
 }

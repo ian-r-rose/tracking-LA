@@ -9,7 +9,21 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13654&compileOutputType=1"
   ],
   "summary": "Discussion of a formal complaint regarding contract performance and urban forestry impacts by Mariposa Landscaping at the Northeast LA Forest School Children's Garden at Elysian Park.",
-  "topics": ["parks", "environment"],
-  "locations": [{"text": "Elysian Park, Los Angeles, CA"}],
-  "details": {}
+  "topics": [
+    "parks",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Elysian Park, Los Angeles, CA",
+      "lat": 34.081524,
+      "lon": -118.236215,
+      "neighborhood": "Elysian Park"
+    }
+  ],
+  "details": {},
+  "flag": {
+    "reason": "Complaint about landscaping contractor's effect on trees in Elysian Park."
+  },
+  "digest": "2026-10-01"
 }
