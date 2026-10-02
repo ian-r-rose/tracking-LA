@@ -1,0 +1,85 @@
+name: Publish
+
+# On every push to main: run the tests, open (or update) a GitHub issue for each
+# digest added or changed in the push, and deploy the static site to Pages.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      digest:
+        description: "Digest date (YYYY-MM-DD) to post as an issue; blank for none"
+        required: false
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: sudo apt-get install -y poppler-utils
+      - run: uv run pytest -q
+
+  issues:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Post digests
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BEFORE: ${{ github.event.before }}
+          INPUT_DIGEST: ${{ inputs.digest }}
+          SITE: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: |
+          set -euo pipefail
+          if [ -n "${INPUT_DIGEST:-}" ]; then
+            files="data/digests/$INPUT_DIGEST.md"
+          elif [ -z "${BEFORE:-}" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            files=""
+          else
+            files=$(git diff --name-only --diff-filter=AM "$BEFORE" "$GITHUB_SHA" -- 'data/digests/*.md')
+          fi
+          gh label create digest --color 1d5c8f --description "Commissions digest" 2>/dev/null || true
+          for f in $files; do
+            day=$(basename "$f" .md)
+            title="Digest $day"
+            body=$(mktemp)
+            # GitHub caps issue bodies at 65,536 characters.
+            { head -c 60000 "$f"; printf '\n\n---\n[Read on the site](%s/digests/%s.html)\n' "$SITE" "$day"; } > "$body"
+            number=$(gh issue list --state all --label digest --search "\"$title\" in:title" --json number,title \
+              --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+            if [ -n "$number" ]; then
+              gh issue edit "$number" --body-file "$body"
+              echo "updated #$number for $day"
+            else
+              gh issue create --title "$title" --label digest --body-file "$body"
+            fi
+          done
+
+  site:
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run lacomm site --out _site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deploy
+        uses: actions/deploy-pages@v4

@@ -102,3 +102,5 @@ uv run lacomm check
 ## 5. Commit
 
 Commit `data/` and `geo/geocode-cache.json` with the message `Digest YYYY-MM-DD`, adding a line for each correction made during review, then push.
+
+The push triggers `.github/workflows/publish.yml`, which opens a GitHub issue for the new digest (or updates it, if the digest was edited) and redeploys the site.

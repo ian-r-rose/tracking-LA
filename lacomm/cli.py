@@ -4,6 +4,7 @@ import sys
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, timedelta
+from pathlib import Path
 
 import httpx
 import yaml
@@ -13,6 +14,7 @@ from lacomm.check import check_all
 from lacomm.outcomes import PROCESSED, normalize_status, record
 from lacomm.geo import Geocoder, Neighborhoods, Places, build_places
 from lacomm.score import candidates
+from lacomm.site import build as build_site
 from lacomm.sources import SOURCES
 from lacomm.store import DATA, upsert_item
 
@@ -194,6 +196,8 @@ def main() -> None:
     p.add_argument("--limit", type=int, default=30)
     p = sub.add_parser("mark-digested", help="Record that all undigested items were covered by a digest")
     p.add_argument("date", help="Digest date, YYYY-MM-DD")
+    p = sub.add_parser("site", help="Build the static site")
+    p.add_argument("--out", default="_site")
     args = parser.parse_args()
     if args.command == "fetch":
         fetch(args.since, args.refetch, args.source)
@@ -210,6 +214,8 @@ def main() -> None:
         outcomes(args.since)
     elif args.command == "decisions":
         decisions()
+    elif args.command == "site":
+        print(f"built {args.out}/ with {build_site(Path(args.out))} digest(s)")
     elif args.command == "check":
         bad = check_all()
         print(f"{bad} item file(s) with problems" if bad else "all items OK")

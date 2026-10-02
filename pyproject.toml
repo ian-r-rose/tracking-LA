@@ -5,6 +5,7 @@ requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.15.0",
     "httpx>=0.28.1",
+    "markdown>=3.11",
     "pypdf>=6.19.0",
     "pyyaml>=6.0.3",
     "shapely>=2.1.2",
