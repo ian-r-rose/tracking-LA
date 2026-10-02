@@ -1,0 +1,586 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Written by: Essam Amarragy *** SGED *** 213-847-8961 *** eamarrag@eng.ci.la.ca.us -->
+
+	<head>
+
+		<title>Tree Removal Notification System</title>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+		<link rel="stylesheet" type="text/css" href="../common/notify.css">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<style>
+			/* CJ20140318 table-specific styles */
+			table {
+				font-size: 16px;
+			}
+
+			table thead tr {
+				border-top: 2px solid green;
+				border-bottom: 2px solid green;
+			}
+
+			table thead tr th {
+				padding: 5px 5px;
+			}
+
+			table tbody tr {
+				border-bottom: 1px dotted green;
+			}
+
+			table tbody tr:hover {
+				background-color: #EEFFEE;
+				cursor: pointer;
+			}
+
+			table tbody tr td {
+				padding: 5px 5px;
+			}
+
+			table tbody tr td a {
+				color: green;
+			}
+		</style>
+
+		<script>
+			$(document).ready(function () {
+				$('tbody tr').click( function() {
+					window.location = $(this).find('a').attr('href');
+				});
+			});
+		</script>
+
+		
+<!-- ------------------------------------------------------------------------------------------- -->
+
+
+
+	
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="H236N-5TKQP-3H2LX-R7E8J-VF3PC",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"H236N-5TKQP-3H2LX-R7E8J-VF3PC";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="jsxc2gaxy7ufo2v7atvq-f-70d2645cd-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"1999860","ak.ai":parseInt("1344290",10),"ak.ol":"0","ak.cr":14,"ak.ipv":4,"ak.proto":"h2","ak.rid":"2cec60bc","ak.r":42737,"ak.a2":n,"ak.m":"dscb","ak.n":"essl","ak.cport":37538,"ak.gh":"173.222.247.23","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1790903531","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==+KXpjzKtsAfFgTELgiA3I1P/Q5/a1HyVF8HdqpUYvK0LIAhfnMxB3+yJwvlcXGw4ZhBEXMtYfTAfeFiPVxLfdGj4g7bEJ1QhtnjceKkv+ZQqgu2xh6OQwghaWV0QhetF6utoB2ATXQB2UiNH4mXkJVIs4CMaG4OBrlqaCTVaRBy5rMyiXR2i9fwsUHG6l6rhBirHQK2FGRq6Sq6+Shh4EXss9U4QhdNq2mwqjL3IlieT+YyavKmydaig7J95l7Eggq3/4BWOfiltUhzG3oWXhpAEnYpJRyibg6lErR5lmiymDQrOvMYWlDBdnGUILdSpcQ1Ik6uFr33/A2KeMdVA5lerjUV9hddOMdoIWhpKiEwtvqQSzeNizqUMqrDi16Z8g94SVUIdlOsVhMiVBv1p9AJuLC6zy1gZ/ULRSnn/5So=","ak.pv":"2","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body>
+
+		<div id="container">
+
+			<header class="center">
+				<div id="wrapper">
+					<div id="title">
+						<h1><a class="no-underline" href="../index.htm">Tree Removal Notification System</a></h1>
+					</div>
+				</div>
+			</header>
+
+			<div id="content">
+
+				
+
+				
+
+				<p>To be notified of the hearing date, please select the Posting ID number.</p>
+
+
+				<table class="center">
+					
+					<thead>
+						<tr>
+							<th>Posting ID</th>
+							<th>Address or Location</th>
+							<th>Posting Date</th>
+							<th>Removal Reason</th>
+							<th>No. of Trees</th>
+							<th>Tree Species</th>
+							<th>Hearing Date</th>
+							<th>Hearing Time</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1015&amp;session.addtoken">1015</a>
+								</td>
+								<td align="center">
+									1000 S Vermont&nbsp;
+								</td>
+								<td align="center">
+									06/06/2022&nbsp;
+								</td>
+								<td align="left">
+									
+										Street Widening
+									
+								</td>
+								<td align="center">
+									14&nbsp;
+								</td>
+								<td align="center">
+									Indian Laurel Fig/Mexican Fan Palm/Brisbane box&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1019&amp;session.addtoken">1019</a>
+								</td>
+								<td align="center">
+									6933 Santa Monica Blvd&nbsp;
+								</td>
+								<td align="center">
+									01/20/2023&nbsp;
+								</td>
+								<td align="left">
+									
+										Street Widening
+									
+								</td>
+								<td align="center">
+									4&nbsp;
+								</td>
+								<td align="center">
+									Purple Orchid (Bauhinia variegata)&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1020&amp;session.addtoken">1020</a>
+								</td>
+								<td align="center">
+									3352 N Barham Blvd&nbsp;
+								</td>
+								<td align="center">
+									02/22/2023&nbsp;
+								</td>
+								<td align="left">
+									
+										Other: 
+										emergency sewer line repair 
+								</td>
+								<td align="center">
+									3&nbsp;
+								</td>
+								<td align="center">
+									Queen palm (Sayagrus romanzoffiana)&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1034&amp;session.addtoken">1034</a>
+								</td>
+								<td align="center">
+									2361 Fox hills dr&nbsp;
+								</td>
+								<td align="center">
+									05/22/2024&nbsp;
+								</td>
+								<td align="left">
+									
+										General Improvement
+									
+								</td>
+								<td align="center">
+									3&nbsp;
+								</td>
+								<td align="center">
+									Various&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1040&amp;session.addtoken">1040</a>
+								</td>
+								<td align="center">
+									6560 Romaine St, Los Angeles, CA 90038&nbsp;
+								</td>
+								<td align="center">
+									08/04/2025&nbsp;
+								</td>
+								<td align="left">
+									
+										General Improvement
+									
+								</td>
+								<td align="center">
+									3&nbsp;
+								</td>
+								<td align="center">
+									Various&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1047&amp;session.addtoken">1047</a>
+								</td>
+								<td align="center">
+									8611 Kester Ave&nbsp;
+								</td>
+								<td align="center">
+									04/01/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										Other: 
+										Safe Routes to schools Panorama City Elementary 
+								</td>
+								<td align="center">
+									8&nbsp;
+								</td>
+								<td align="center">
+									3 Orange, Crape Myrtle, 4 Mexican fan, 1 Aleppo. &nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1060&amp;session.addtoken">1060</a>
+								</td>
+								<td align="center">
+									23200 W Mulholland Dr, Woodland Hills, CA 91364&nbsp;
+								</td>
+								<td align="center">
+									04/15/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										Other: 
+										Planning Case No. CPC-2001-5976-CU-ZV-ZAD-SPR 
+								</td>
+								<td align="center">
+									19&nbsp;
+								</td>
+								<td align="center">
+									7 Pink Trumpet trees & 12 native species&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1064&amp;session.addtoken">1064</a>
+								</td>
+								<td align="center">
+									7556 N Woodlake Ave, Los Angeles, CA 91304&nbsp;
+								</td>
+								<td align="center">
+									06/10/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										Other: 
+										Fire Lane Driveway Installation 
+								</td>
+								<td align="center">
+									7&nbsp;
+								</td>
+								<td align="center">
+									Red gum Eucluptus&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1065&amp;session.addtoken">1065</a>
+								</td>
+								<td align="center">
+									19910 through 20000 block West Lorne St&nbsp;
+								</td>
+								<td align="center">
+									07/31/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										Sidewalk Repair
+									
+								</td>
+								<td align="center">
+									15&nbsp;
+								</td>
+								<td align="center">
+									Tulip trees&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1066&amp;session.addtoken">1066</a>
+								</td>
+								<td align="center">
+									2027 S COLBY AVE&nbsp;
+								</td>
+								<td align="center">
+									07/24/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										General Improvement
+									
+								</td>
+								<td align="center">
+									5&nbsp;
+								</td>
+								<td align="center">
+									African Fern Pine (Afrocarpus falcatus)&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1067&amp;session.addtoken">1067</a>
+								</td>
+								<td align="center">
+									6000-9600 N Van Nuys Bl and 13200-14500 W van Nuys Bl&nbsp;
+								</td>
+								<td align="center">
+									08/14/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										Other: 
+										East San Fernando Valley Transit Corridor 
+								</td>
+								<td align="center">
+									381&nbsp;
+								</td>
+								<td align="center">
+									Various species&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1068&amp;session.addtoken">1068</a>
+								</td>
+								<td align="center">
+									19910 Lorne St - 20000 Lorne St / BOE-72&nbsp;
+								</td>
+								<td align="center">
+									07/31/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										Sidewalk Repair
+									
+								</td>
+								<td align="center">
+									15&nbsp;
+								</td>
+								<td align="center">
+									Tulip Trees&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1069&amp;session.addtoken">1069</a>
+								</td>
+								<td align="center">
+									Various Loc. CD-8 BOE-79&nbsp;
+								</td>
+								<td align="center">
+									09/16/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										Sidewalk Repair
+									
+								</td>
+								<td align="center">
+									6&nbsp;
+								</td>
+								<td align="center">
+									Jacaranda, Camphor, Chinese Elm&nbsp;
+								</td>
+								<td align="center">
+									10/02/2026&nbsp;
+								</td>
+								<td align="right">
+									10:00 AM&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+							
+							<tr>
+								
+								
+								<td align="center">
+									<a href="posting.cfm?posting_id=1070&amp;session.addtoken">1070</a>
+								</td>
+								<td align="center">
+									200,600,2500,7100,8500 blk S & 1025,1100,1425,1500 blk N Vermont &nbsp;
+								</td>
+								<td align="center">
+									10/02/2026&nbsp;
+								</td>
+								<td align="left">
+									
+										General Improvement
+									
+								</td>
+								<td align="center">
+									14&nbsp;
+								</td>
+								<td align="center">
+									Various&nbsp;
+								</td>
+								<td align="center">
+									&nbsp;
+								</td>
+								<td align="right">
+									&nbsp;
+								</td>
+							
+							</tr>
+							
+						
+					</tbody>
+
+				</table>
+			
+			</div> 
+
+		</div> 
+
+	</body>
+
+</html>

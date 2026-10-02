@@ -3,7 +3,7 @@
 Public Works runs its own portal (separate from City Council's). Board of Public
 Works agendas are published as HTML with one block per item, which is much easier
 to split than a PDF. The Community Forest Advisory Committee is on the same portal
-but only posts PDF agendas, so it isn't covered yet.
+but only posts PDF agendas; those are split by their lettered sub-items.
 """
 
 import re
@@ -12,12 +12,16 @@ from datetime import date, datetime
 import httpx
 from bs4 import BeautifulSoup
 
+from lacomm.pdf import normalize_space, pdf_text
+
 PORTAL = "https://dpwlacity.primegov.com"
 
 
 def commission_slug(title: str) -> str | None:
     if "cancel" in title.lower() or "official notice" in title.lower():
         return None
+    if "CFAC" in title or "Community Forest" in title:
+        return "cfac"
     if title.startswith("BPW"):
         return "bpw"
     return None  # e.g. council district town halls hosted on the portal
@@ -38,8 +42,13 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
         slug = commission_slug(m["title"])
         doc = next((d for d in m["documentList"] if d["templateName"] == "HTML Agenda"), None)
         journal = next((d for d in m["documentList"] if d["templateName"] == "HTML Journal"), None)
+        pdf = next((d for d in m["documentList"] if d["compileOutputType"] == 1 and "agenda" in d["templateName"].lower()), None)
         meeting_date = datetime.fromisoformat(m["dateTime"]).date()
-        if not slug or not doc or m["id"] in seen or not start <= meeting_date <= end:
+        if slug == "cfac" and pdf and not doc:
+            doc = None  # CFAC: PDF only
+        elif not doc:
+            continue
+        if not slug or m["id"] in seen or not start <= meeting_date <= end:
             continue
         seen.add(m["id"])
         meetings.append(
@@ -49,7 +58,10 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
                 # Several BPW meetings can share a date (regular + management), so keep the
                 # PrimeGov meeting id to keep item ids unique.
                 "meeting_id": m["id"],
-                "agenda_url": f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={doc['id']}",
+                "agenda_url": (
+                    f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={doc['id']}" if doc
+                    else f"{PORTAL}/Public/CompiledDocument?meetingTemplateId={pdf['templateId']}&compileOutputType=1"
+                ),
                 "journal_url": f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={journal['id']}" if journal else None,
             }
         )
@@ -62,7 +74,40 @@ def _text(element) -> str:
     return re.sub(r"\n{2,}", "\n", "\n".join(line for line in lines if line)).strip()
 
 
+# CFAC sections whose lettered sub-items are substantive (the rest are roll call, minutes, etc.).
+CFAC_SECTIONS = re.compile(r"DEPARTMENT|NEW BUSINESS|OLD BUSINESS|REPORT", re.IGNORECASE)
+
+
+def cfac_items(meeting: dict, agenda_text: str) -> list[dict]:
+    day = meeting["date"].isoformat()
+    items: list[dict] = []
+    section_number = section = None
+    current = None
+    for line in agenda_text.splitlines():
+        if m := re.match(r"^(\d{1,2})\.\s+(\S.*)$", line):
+            section_number, section, current = m.group(1), m.group(2), None
+        elif section and CFAC_SECTIONS.search(section) and (m := re.match(r"^\s+([A-H])\.\u200b?\s+(\S.*)$", line)):
+            number = f"{section_number}{m.group(1)}"
+            current = {
+                "id": f"cfac-{day}-{number}",
+                "commission": "cfac",
+                "meeting_date": day,
+                "item_number": number,
+                "title": m.group(2).strip()[:200],
+                "text": f"[{section.strip()}]\n{m.group(2).strip()}",
+                "urls": [meeting["agenda_url"]],
+            }
+            items.append(current)
+        elif current is not None and line.strip():
+            current["text"] += "\n" + line.strip()
+    for item in items:
+        item["text"] = normalize_space(item["text"])
+    return [i for i in items if not re.fullmatch(r"(Other|Recreation & Parks -?)", i["title"].strip())]
+
+
 def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
+    if meeting["commission"] == "cfac":
+        return cfac_items(meeting, pdf_text(agenda_html))
     soup = BeautifulSoup(agenda_html, "html.parser")
     items = []
     for block in soup.select("div.meeting-item"):
