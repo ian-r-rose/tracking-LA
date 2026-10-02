@@ -1,0 +1,54 @@
+name: Fetch
+
+# Fetches agendas and records outcomes, then commits the data, an hour before the
+# Claude routine runs (Mon/Thu 14:00 UTC). This runs here rather than in the routine
+# because the routine's sandbox proxy can't reach ens.lacity.org (LADOT, DWP).
+
+on:
+  schedule:
+    - cron: "0 13 * * 1,4"
+  workflow_dispatch:
+
+concurrency:
+  group: fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+      - run: sudo apt-get install -y poppler-utils
+      # A failing source makes these exit 1 after the other sources finish. Commit
+      # what succeeded, then fail the job so the failure is visible.
+      - id: fetch
+        shell: bash  # with pipefail, so the exit status isn't tee's
+        run: uv run lacomm fetch --since 30 2>&1 | tee fetch.log
+        continue-on-error: true
+      - id: outcomes
+        shell: bash
+        run: uv run lacomm outcomes --since 60 2>&1 | tee outcomes.log
+        continue-on-error: true
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            {
+              echo "Fetch $(TZ=America/Los_Angeles date +%F)"
+              echo
+              grep -h "failed:" fetch.log outcomes.log || true
+            } > msg.txt
+            git commit -q -F msg.txt
+            git push
+          fi
+      - if: steps.fetch.outcome == 'failure' || steps.outcomes.outcome == 'failure'
+        run: |
+          grep -h "failed:" fetch.log outcomes.log || true
+          exit 1

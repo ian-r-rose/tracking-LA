@@ -86,28 +86,36 @@ def outcomes(since_days: int) -> None:
     start = today - timedelta(days=since_days)
     processed: dict = json.loads(PROCESSED.read_text()) if PROCESSED.exists() else {}
     counts = Counter()
+    failed = []
     with http_client(timeout=60) as client:
         for source in SOURCES:
             if not source.meeting_outcomes:
                 continue
-            for meeting in source.list_meetings(start, today - timedelta(days=1), client):
-                url = source.outcome_url(meeting)
-                if not url or (url in processed and meeting["date"] < today - OUTCOME_RECHECK):
-                    continue
-                resp = client.get(url)
-                resp.raise_for_status()
-                for item_id, outcome in source.meeting_outcomes(meeting, resp.content).items():
-                    path = DATA / "items" / meeting["commission"] / item_id.split("-")[1] / f"{item_id}.json"
-                    if not path.exists():
-                        counts["no matching item"] += 1
-                    elif record(path, {"status": normalize_status(outcome["text"]), **outcome}):  # a parser's own status wins
-                        counts["recorded"] += 1
-                    else:
-                        counts["unchanged"] += 1
-                processed[url] = meeting["date"].isoformat()
-                counts["records read"] += 1
+            try:  # one unreachable site shouldn't stop the others
+                for meeting in source.list_meetings(start, today - timedelta(days=1), client):
+                    url = source.outcome_url(meeting)
+                    if not url or (url in processed and meeting["date"] < today - OUTCOME_RECHECK):
+                        continue
+                    resp = client.get(url)
+                    resp.raise_for_status()
+                    for item_id, outcome in source.meeting_outcomes(meeting, resp.content).items():
+                        path = DATA / "items" / meeting["commission"] / item_id.split("-")[1] / f"{item_id}.json"
+                        if not path.exists():
+                            counts["no matching item"] += 1
+                        elif record(path, {"status": normalize_status(outcome["text"]), **outcome}):  # a parser's own status wins
+                            counts["recorded"] += 1
+                        else:
+                            counts["unchanged"] += 1
+                    processed[url] = meeting["date"].isoformat()
+                    counts["records read"] += 1
+            except httpx.HTTPError as e:
+                failed.append(f"{source.name}: {e}")
     PROCESSED.write_text(json.dumps(processed, indent=1, sort_keys=True) + "\n")
     print(", ".join(f"{k}: {v}" for k, v in counts.items()) or "no new journals or minutes")
+    for failure in failed:
+        print(f"  failed: {failure}")
+    if failed:
+        sys.exit(1)
 
 
 def decisions() -> None:

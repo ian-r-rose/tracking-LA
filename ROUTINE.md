@@ -2,18 +2,11 @@
 
 Instructions for the scheduled Claude Code routine that keeps `data/` up to date.
 
-## Setup
+## 1. Fetched data
 
-The fetch step needs poppler's `pdftotext` (`apt-get install -y poppler-utils`).
+The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`, an hour before this routine runs. It runs there because this routine's sandbox can't reach some commission sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
 
-## 1. Fetch
-
-```
-uv run lacomm fetch --since 30
-git add data && git commit -m "Fetch YYYY-MM-DD"
-```
-
-Commit before any subagent runs. `lacomm check` compares scraper-owned fields against the last commit, and the commit protects fetched data if an agent runs a git command.
+Check `git log -3`. If its message lists failed sources, name them in the digest's intro. If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary.
 
 ## 2. Extract (Haiku subagents)
 
@@ -40,21 +33,13 @@ uv run lacomm locate
 
 Geocodes new locations with the City's locator (cached in `geo/geocode-cache.json`), sets each location's `neighborhood`, and lists items in or near the neighborhoods in `config/interests.yaml`.
 
-## 3b. Outcomes
-
-```
-uv run lacomm outcomes --since 60
-```
-
-Reads the journals and minutes of past meetings (Planning, Public Works and Rec & Parks so far) and records each item's `outcome`: status, the commission's wording, vote, and source.
-
 ## 4. Digest (main model)
 
 ```
 uv run lacomm score --limit 30
 ```
 
-This lists items not yet covered by a digest, highest score first, with the reasons for each score. Read the top items' JSON files, and for anything that might matter, the staff reports linked in `urls`. Then decide what is worth Ian's attention. Use the score as a guide, not a cutoff: a high score can be routine (a single-family hillside home), and a low score can matter (a citywide parks policy).
+This lists items not yet covered by a digest, highest score first, with the reasons for each score. Read the top items' JSON files, and for anything that might matter, the staff reports linked in `urls`. Some sites (ens.lacity.org) can't be reached from this sandbox; work from the item text when a link fails. Then decide what is worth Ian's attention. Use the score as a guide, not a cutoff: a high score can be routine (a single-family hillside home), and a low score can matter (a citywide parks policy).
 
 For each item you include, add a `flag` field to its JSON file: `{"reason": "<one sentence on why it matters to Ian>"}`.
 
