@@ -7,7 +7,7 @@ from functools import partial
 from typing import Callable
 
 from lacomm.pdf import pdf_text
-from lacomm.sources import airports, elpueblo, ens, harbor, planning, primegov, rap, trees, zoo
+from lacomm.sources import airports, cultural, elpueblo, ens, harbor, planning, primegov, rap, trees, zoo
 
 
 @dataclass
@@ -36,6 +36,7 @@ SOURCES = [
         meeting_outcomes=lambda m, pdf: rap.minutes_outcomes(m, pdf_text(pdf)),
     ),
     Source("tree postings", trees.list_meetings, trees.meeting_items),
+    Source("cultural affairs", cultural.list_meetings, cultural.meeting_items),
     Source("el pueblo", elpueblo.list_meetings, elpueblo.meeting_items),
     Source("zoo", zoo.list_meetings, zoo.meeting_items),
     Source("harbor", harbor.list_meetings, harbor.meeting_items),
