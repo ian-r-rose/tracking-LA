@@ -26,7 +26,7 @@ AGENDAS = DATA / "agendas.json"
 LOOKAHEAD = timedelta(days=60)
 
 
-def fetch(since_days: int, refetch: bool = False) -> None:
+def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> None:
     today = date.today()
     start, end = today - timedelta(days=since_days), today + LOOKAHEAD
     seen: dict = json.loads(AGENDAS.read_text()) if AGENDAS.exists() and not refetch else {}
@@ -35,6 +35,8 @@ def fetch(since_days: int, refetch: bool = False) -> None:
     with http_client(timeout=60) as client:
         todo = []
         for source in SOURCES:
+            if only and source.name != only:
+                continue
             try:
                 meetings = source.list_meetings(start, end, client)
             except httpx.HTTPError as e:
@@ -181,6 +183,7 @@ def main() -> None:
     p = sub.add_parser("fetch", help="Fetch agendas for meetings since N days ago (and all upcoming)")
     p.add_argument("--since", type=int, default=30, metavar="DAYS")
     p.add_argument("--refetch", action="store_true", help="Re-download past agendas too (e.g. after a parser fix)")
+    p.add_argument("--source", choices=[s.name for s in SOURCES], help="Fetch only this source")
     p = sub.add_parser("outcomes", help="Record decisions from journals and minutes of past meetings")
     p.add_argument("--since", type=int, default=60, metavar="DAYS")
     sub.add_parser("decisions", help="List recorded outcomes not yet reported in a digest")
@@ -193,7 +196,7 @@ def main() -> None:
     p.add_argument("date", help="Digest date, YYYY-MM-DD")
     args = parser.parse_args()
     if args.command == "fetch":
-        fetch(args.since, args.refetch)
+        fetch(args.since, args.refetch, args.source)
     elif args.command == "locate":
         locate()
     elif args.command == "build-places":
