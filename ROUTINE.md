@@ -58,6 +58,8 @@ This lists items not yet covered by a digest, highest score first, with the reas
 
 For each item you include, add a `flag` field to its JSON file: `{"reason": "<one sentence on why it matters to Ian>"}`.
 
+If reviewing shows an extraction field is wrong (a misspelled street that won't geocode, a missing `parks` tag that a staff report makes obvious, a misleading summary), correct it in the item file, then rerun `uv run lacomm locate` if you changed `locations`. Say what you corrected and why in the commit message; git history is the record. Don't change scraper-owned fields (`lacomm check` rejects that).
+
 Write `data/digests/YYYY-MM-DD.md` (today's date):
 
 ```markdown
@@ -99,4 +101,4 @@ uv run lacomm check
 
 ## 5. Commit
 
-Commit `data/` and `geo/geocode-cache.json` with the message `Digest YYYY-MM-DD`, then push.
+Commit `data/` and `geo/geocode-cache.json` with the message `Digest YYYY-MM-DD`, adding a line for each correction made during review, then push.
