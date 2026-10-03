@@ -61,3 +61,11 @@ def test_plausible_rejects_matches_on_the_wrong_street():
 def test_zoo_alias():
     assert Places().lookup("LA Zoo") == Places().lookup("Los Angeles Zoo")
     assert Places().lookup("Los Angeles Zoo, 5333 Zoo Drive, Los Angeles, CA") == Places().lookup("Los Angeles Zoo")
+
+
+def test_plausible_ignores_units_and_apostrophes():
+    from lacomm.geo import plausible
+
+    assert plausible("14703 W RINALDI ST A-C", "14703 W RINALDI ST, 91340")
+    assert plausible("2304 S STRONGS DR", "2304 S STRONG'S DR, 90291")
+    assert not plausible("Alameda St & E 18th St", "Alameda St & E E St, 90744")

@@ -40,20 +40,23 @@ _ABBREVIATIONS = {"mount": "mt", "fort": "ft", "saint": "st", "junior": "jr"}
 
 
 def _words(text: str) -> list[str]:
-    return [_ABBREVIATIONS.get(w, w) for w in re.findall(r"[a-z0-9]+", text.lower())]
+    text = re.sub(r"['’]", "", text.lower())  # STRONGS DR = STRONG'S DR
+    return [_ABBREVIATIONS.get(w, w) for w in re.findall(r"[a-z0-9]+", text)]
 
 
 def plausible(query: str, matched: str) -> bool:
     """The locator sometimes returns a confident match on the wrong street (asked for
     "Alameda St & E 18th St", it answered "Alameda St & E E St" in Wilmington). Require every
     street-name word in the query, other than house numbers, directions and suffixes, to
-    appear in the matched address."""
+    appear in the matched address. Bare numbers and single letters are skipped too: they're
+    units and ranges ("14703 W RINALDI ST A-C", "1-10") the locator drops."""
     matched_words = set(_words(matched))
     for part in query.split("&"):
         words = _words(part)
         if words and part is query.split("&")[0] and words[0].isdigit() and "&" not in query:
             words = words[1:]  # house number
-        if not all(w in matched_words for w in words if not _STREET_WORDS.match(w)):
+        names = [w for w in words if not _STREET_WORDS.match(w) and not w.isdigit() and len(w) > 1]
+        if not all(w in matched_words for w in names):
             return False
     return True
 

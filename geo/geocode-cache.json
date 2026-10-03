@@ -5,11 +5,35 @@
   "lon": -118.291567,
   "score": 97.59
  },
+ "10000 W FOOTHILL BLVD": {
+  "address": "10000 W FOOTHILL BLVD, 91342",
+  "lat": 34.272761,
+  "lon": -118.346817,
+  "score": 100
+ },
+ "10010 GRAPE ST": {
+  "address": "10010 S GRAPE ST, 90002",
+  "lat": 33.945578,
+  "lon": -118.236701,
+  "score": 99.06
+ },
+ "10144 N SUNLAND BLVD": {
+  "address": "10144 N SUNLAND BLVD, 91040",
+  "lat": 34.259939,
+  "lon": -118.340087,
+  "score": 100
+ },
  "1025 North Vermont": {
   "address": "1025 N VERMONT AVE, 90029",
   "lat": 34.089968,
   "lon": -118.2918,
   "score": 97.59
+ },
+ "10440 W QUITO LANE": {
+  "address": "10440 W QUITO LANE, 90077",
+  "lat": 34.106075,
+  "lon": -118.447345,
+  "score": 100
  },
  "10535 Missouri Avenue": {
   "address": "10535 W MISSOURI AVE, 90025",
@@ -17,11 +41,42 @@
   "lon": -118.426699,
   "score": 99.06
  },
+ "10827 W HUSTON ST": {
+  "address": "10827 W HUSTON ST, 91601",
+  "lat": 34.159854,
+  "lon": -118.367468,
+  "score": 100
+ },
  "1100 North Vermont": {
   "address": "1100 N VERMONT AVE, 90029",
   "lat": 34.090933,
   "lon": -118.29169,
   "score": 97.59
+ },
+ "11100 W CHALON ROAD": null,
+ "1150 W SUNSET BLVD": {
+  "address": "1150 W SUNSET BLVD, 90012",
+  "lat": 34.066794,
+  "lon": -118.249812,
+  "score": 100
+ },
+ "1160 N LAS PALMAS AVE": {
+  "address": "1160 N LAS PALMAS AVE, 90038",
+  "lat": 34.09185,
+  "lon": -118.336248,
+  "score": 100
+ },
+ "11677 W SAN VICENTE BLVD": {
+  "address": "11677 W SAN VICENTE BLVD, 90049",
+  "lat": 34.053993,
+  "lon": -118.464738,
+  "score": 100
+ },
+ "1223 S CABRILLO AVE": {
+  "address": "1223 S CABRILLO AVE, 90731",
+  "lat": 33.733106,
+  "lon": -118.294628,
+  "score": 100
  },
  "1236 North Cliff Drive": {
   "address": "1236 W CLIFF DR, 90065",
@@ -34,6 +89,12 @@
   "lat": 34.057043,
   "lon": -118.238693,
   "score": 99.02
+ },
+ "12755 W BURBANK BLVD": {
+  "address": "12755 W BURBANK BLVD, 91607",
+  "lat": 34.172205,
+  "lon": -118.410524,
+  "score": 100
  },
  "12952 West Ratner Street": {
   "address": "12952 W RATNER ST, 91605",
@@ -53,7 +114,25 @@
   "lon": -118.424408,
   "score": 89.66
  },
+ "13456 W VAN NUYS BLVD": {
+  "address": "13456 W VAN NUYS BLVD, 91331",
+  "lat": 34.263005,
+  "lon": -118.426242,
+  "score": 100
+ },
+ "13750 N FENTON AVE": {
+  "address": "13750 N FENTON AVE, 91342",
+  "lat": 34.3218,
+  "lon": -118.435927,
+  "score": 100
+ },
  "1400 San Bernardino Avenue, Fontana": null,
+ "14117 W HUBBARD ST": {
+  "address": "14117 W HUBBARD ST, 91342",
+  "lat": 34.298448,
+  "lon": -118.440493,
+  "score": 100
+ },
  "1425 North Vermont": {
   "address": "1425 N VERMONT AVE, 90027",
   "lat": 34.097315,
@@ -71,6 +150,12 @@
   "lat": 34.150534,
   "lon": -118.445942,
   "score": 100
+ },
+ "14703 W RINALDI ST A-C": {
+  "address": "14703 W RINALDI ST, 91340",
+  "lat": 34.280806,
+  "lon": -118.453366,
+  "score": 92.94
  },
  "1500 North Vermont": {
   "address": "1500 N VERMONT AVE, 90027",
@@ -126,10 +211,34 @@
   "lon": -118.368298,
   "score": 100
  },
+ "1838 S THAYER AVE": {
+  "address": "1838 S THAYER AVE, 90025",
+  "lat": 34.054476,
+  "lon": -118.425799,
+  "score": 100
+ },
+ "18477 W VENTURA BLVD": {
+  "address": "18477 W VENTURA BLVD, 91356",
+  "lat": 34.168697,
+  "lon": -118.535634,
+  "score": 100
+ },
  "1851 North Ivar Avenue": {
   "address": "1851 N IVAR AVE, 90028",
   "lat": 34.104535,
   "lon": -118.328244,
+  "score": 100
+ },
+ "18818 W VENTURA BLVD": {
+  "address": "18818 W VENTURA BLVD, 91356",
+  "lat": 34.17161,
+  "lon": -118.543228,
+  "score": 100
+ },
+ "1941 S CARMONA AVE": {
+  "address": "1941 S CARMONA AVE, 90016",
+  "lat": 34.039569,
+  "lon": -118.361477,
   "score": 100
  },
  "19910-20000 Lorne Street": {
@@ -163,6 +272,18 @@
   "lon": -118.447113,
   "score": 100
  },
+ "2029 E 101ST ST": {
+  "address": "2029 E 101ST ST, 90002",
+  "lat": 33.944979,
+  "lon": -118.236192,
+  "score": 100
+ },
+ "2069 N ARGYLE AVE": {
+  "address": "2069 N ARGYLE AVE, 90068",
+  "lat": 34.108297,
+  "lon": -118.325297,
+  "score": 100
+ },
  "2069 North Argyle Avenue": {
   "address": "2069 N ARGYLE AVE, 90068",
   "lat": 34.108297,
@@ -181,6 +302,18 @@
   "lon": -118.31812,
   "score": 100
  },
+ "212 N SAN PASCUAL AVE": {
+  "address": "212 W SAN PASCUAL AVE, 90042",
+  "lat": 34.114447,
+  "lon": -118.177677,
+  "score": 92.78
+ },
+ "2141 S GLYNDON AVE": {
+  "address": "2141 S GLYNDON AVE, 90291",
+  "lat": 33.999171,
+  "lon": -118.451834,
+  "score": 100
+ },
  "217 North Avenue 55": {
   "address": "217 W AVENUE 55, 90042",
   "lat": 34.109655,
@@ -192,6 +325,12 @@
   "lat": 33.727023,
   "lon": -118.274859,
   "score": 98.18
+ },
+ "2304 S STRONGS DR": {
+  "address": "2304 S STRONG'S DR, 90291",
+  "lat": 33.984168,
+  "lon": -118.468774,
+  "score": 100
  },
  "23200 West Mulholland Drive, Woodland Hills": {
   "address": "23200 W MULHOLLAND DR, 91364",
@@ -217,6 +356,12 @@
   "lon": -118.413777,
   "score": 99.06
  },
+ "2404 S CLEMENT AVE": {
+  "address": "2404 S CLEMENT AVE, 90291",
+  "lat": 33.98619,
+  "lon": -118.461044,
+  "score": 100
+ },
  "2500 South Vermont": {
   "address": "2500 S VERMONT AVE, 90007",
   "lat": 34.033524,
@@ -239,6 +384,12 @@
   "address": "2658 S HARVARD BLVD, 90018",
   "lat": 34.031632,
   "lon": -118.306622,
+  "score": 100
+ },
+ "2700 W WILSHIRE BLVD": {
+  "address": "2700 W WILSHIRE BLVD, 90057",
+  "lat": 34.060881,
+  "lon": -118.282417,
   "score": 100
  },
  "2718 North Hyperion Avenue": {
@@ -271,6 +422,12 @@
   "lon": -118.307872,
   "score": 100
  },
+ "2927 S SEPULVEDA BLVD": {
+  "address": "2927 N SEPULVEDA BLVD, 90049",
+  "lat": 34.126712,
+  "lon": -118.479882,
+  "score": 94.24
+ },
  "3000 South Dalton Avenue": {
   "address": "3000 S DALTON AVE, 90018",
   "lat": 34.027242,
@@ -295,10 +452,22 @@
   "lon": -118.476828,
   "score": 100
  },
+ "3063 N PASSMORE DR": {
+  "address": "3063 N PASSMORE DR, 90068",
+  "lat": 34.126552,
+  "lon": -118.352608,
+  "score": 100
+ },
  "3190 South La Cienega Boulevard": {
   "address": "3190 S LA CIENEGA BLVD, 90016",
   "lat": 34.028707,
   "lon": -118.371922,
+  "score": 100
+ },
+ "3230 N GLENDALE BLVD": {
+  "address": "3230 N GLENDALE BLVD, 90039",
+  "lat": 34.117898,
+  "lon": -118.26069,
   "score": 100
  },
  "3278 West Wilshire Boulevard": {
@@ -311,6 +480,24 @@
   "address": "3352 N BARHAM BLVD, 90068",
   "lat": 34.132085,
   "lon": -118.34436,
+  "score": 100
+ },
+ "3375 N BLAIR DR": {
+  "address": "3375 N BLAIR DR, 90068",
+  "lat": 34.133436,
+  "lon": -118.346992,
+  "score": 100
+ },
+ "3424 W WILSHIRE BLVD": {
+  "address": "3424 W WILSHIRE BLVD, 90010",
+  "lat": 34.061691,
+  "lon": -118.298417,
+  "score": 100
+ },
+ "3621 N DOVER ST": {
+  "address": "3621 N DOVER ST, 90039",
+  "lat": 34.122645,
+  "lon": -118.264655,
   "score": 100
  },
  "3700 Wilshire Boulevard": {
@@ -337,6 +524,12 @@
   "lon": -118.36509,
   "score": 100
  },
+ "401 S WESTERN AVE": {
+  "address": "401 S WESTERN AVE, 90732",
+  "lat": 33.74042,
+  "lon": -118.310963,
+  "score": 100
+ },
  "4127 East Supreme Court": {
   "address": "4127 N SUPREME CT, 90032",
   "lat": 34.077407,
@@ -347,6 +540,12 @@
   "address": "4200 W 28TH ST, 90018",
   "lat": 34.031178,
   "lon": -118.331679,
+  "score": 100
+ },
+ "4529 W DON RICARDO DR": {
+  "address": "4529 W DON RICARDO DR, 90008",
+  "lat": 34.011107,
+  "lon": -118.352037,
   "score": 100
  },
  "4533 North Laurel Canyon Boulevard": {
@@ -367,13 +566,49 @@
   "lon": -118.340847,
   "score": 100
  },
+ "481 N QUAIL DR": {
+  "address": "481 W QUAIL DR, 90065",
+  "lat": 34.102963,
+  "lon": -118.209734,
+  "score": 92.78
+ },
  "4849 North Mount Royal Drive": {
   "address": "4849 N MT ROYAL DR, 90041",
   "lat": 34.13442,
   "lon": -118.204091,
   "score": 100
  },
+ "4900 E VALLEY BLVD": {
+  "address": "4900 N VALLEY BLVD, 90032",
+  "lat": 34.067856,
+  "lon": -118.177934,
+  "score": 92.78
+ },
  "5000 South Beethoven Street": null,
+ "5020 W MELROSE AVE": {
+  "address": "5020 W MELROSE AVE, 90038",
+  "lat": 34.083444,
+  "lon": -118.309645,
+  "score": 100
+ },
+ "5158 W HOLLYWOOD BLVD": {
+  "address": "5158 W HOLLYWOOD BLVD, 90027",
+  "lat": 34.101687,
+  "lon": -118.302415,
+  "score": 100
+ },
+ "521 S BIXEL ST": {
+  "address": "521 S BIXEL ST, 90017",
+  "lat": 34.054727,
+  "lon": -118.261625,
+  "score": 100
+ },
+ "5353 N DEL MORENO DR": {
+  "address": "5353 N DEL MORENO DR, 91364",
+  "lat": 34.168185,
+  "lon": -118.5759,
+  "score": 100
+ },
  "5353 North Del Moreno Drive": {
   "address": "5353 N DEL MORENO DR, 91364",
   "lat": 34.168185,
@@ -386,10 +621,22 @@
   "lon": -118.34117,
   "score": 100
  },
+ "5601 N SEPULVEDA BLVD": {
+  "address": "5601 N SEPULVEDA BLVD, 91411",
+  "lat": 34.172166,
+  "lon": -118.466238,
+  "score": 100
+ },
  "5741 West Jefferson Boulevard": {
   "address": "5741 W JEFFERSON BLVD, 90016",
   "lat": 34.026711,
   "lon": -118.37346,
+  "score": 100
+ },
+ "5779 W WILSHIRE BLVD": {
+  "address": "5779 W WILSHIRE BLVD, 90036",
+  "lat": 34.062558,
+  "lon": -118.354154,
   "score": 100
  },
  "600 South Vermont": {
@@ -404,6 +651,12 @@
   "lon": -118.448664,
   "score": 91.72
  },
+ "6023 W RODGERTON DR": {
+  "address": "6023 W RODGERTON DR, 90068",
+  "lat": 34.125701,
+  "lon": -118.318128,
+  "score": 100
+ },
  "6023 West Rodgerton Drive": {
   "address": "6023 W RODGERTON DR, 90068",
   "lat": 34.125701,
@@ -414,6 +667,12 @@
   "address": "6155 W RODGERTON DR, 90068",
   "lat": 34.125276,
   "lon": -118.320546,
+  "score": 100
+ },
+ "6513 S VISTA DEL MAR": {
+  "address": "6513 S VISTA DEL MAR, 90293",
+  "lat": 33.961645,
+  "lon": -118.450051,
   "score": 100
  },
  "6560 Romaine Street": {
@@ -434,6 +693,12 @@
   "lon": -118.291389,
   "score": 97.59
  },
+ "720 N VIRGIL AVE": {
+  "address": "720 N VIRGIL AVE, 90029",
+  "lat": 34.084032,
+  "lon": -118.286789,
+  "score": 100
+ },
  "7220 North Hesperia Avenue": {
   "address": "7220 N HESPERIA AVE, 91335",
   "lat": 34.201634,
@@ -452,6 +717,12 @@
   "lon": -118.63211,
   "score": 100
  },
+ "7685 W WILLOW GLEN ROAD": {
+  "address": "7685 W WILLOW GLEN ROAD, 90046",
+  "lat": 34.11868,
+  "lon": -118.368503,
+  "score": 100
+ },
  "7701 Woodley Avenue": {
   "address": "7701 N WOODLEY AVE, 91406",
   "lat": 34.210247,
@@ -462,6 +733,12 @@
   "address": "7921 W DENIVELLE ROAD, 91040",
   "lat": 34.272562,
   "lon": -118.306149,
+  "score": 100
+ },
+ "7939 N CASABA AVE": {
+  "address": "7939 N CASABA AVE, 91306",
+  "lat": 34.214878,
+  "lon": -118.576862,
   "score": 100
  },
  "808 N Oneonta Dr": {
@@ -481,6 +758,12 @@
   "address": "8100 W MCGROARTY ST, 91040",
   "lat": 34.252351,
   "lon": -118.309421,
+  "score": 100
+ },
+ "815 E WASHINGTON BLVD": {
+  "address": "815 E WASHINGTON BLVD, 90021",
+  "lat": 34.026368,
+  "lon": -118.254221,
   "score": 100
  },
  "818 West 7th Street": {
@@ -506,6 +789,12 @@
   "lat": 34.111299,
   "lon": -118.217821,
   "score": 92.78
+ },
+ "846 E SUPERBA AVE": {
+  "address": "846 E SUPERBA AVE, 90291",
+  "lat": 33.993882,
+  "lon": -118.459301,
+  "score": 100
  },
  "8500 South Vermont": {
   "address": "8500 S VERMONT AVE, 90044",
@@ -547,6 +836,12 @@
   "address": "9247 N WAKEFIELD AVE, 91402",
   "lat": 34.238202,
   "lon": -118.448132,
+  "score": 100
+ },
+ "970 S GAYLEY AVE": {
+  "address": "970 S GAYLEY AVE, 90024",
+  "lat": 34.062373,
+  "lon": -118.448087,
   "score": 100
  },
  "9830 West Wanda Park Drive": {
@@ -624,6 +919,7 @@
  },
  "Main Street": null,
  "Mount Carmel Park": null,
+ "NO ADDRESSES WERE FOUND": null,
  "Northeast Community Police Station": null,
  "Northridge Recreation Center": null,
  "Ohio Avenue & Sepulveda Boulevard": {

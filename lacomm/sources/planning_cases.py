@@ -6,6 +6,10 @@ without one. Planning's "recent case filings" page reads a JSON feed covering ab
 two weeks. A project often files several cases at once (an environmental ENV case
 alongside a ZA or DIR case), so cases with the same address and description become
 one item, keyed by its main case number.
+
+Unlike agendas, filings arrive citywide at a steady clip and are all site-specific,
+so only projects in or near the watched neighborhoods are kept. A project whose
+address doesn't geocode is kept too.
 """
 
 import json
@@ -13,6 +17,10 @@ import re
 from datetime import date, datetime
 
 import httpx
+
+from lacomm import http_client
+from lacomm.geo import Geocoder, Neighborhoods
+from lacomm.score import load_interests
 
 FEED = "https://planning.lacity.gov/dcpapi/general/newcases"
 
@@ -31,7 +39,8 @@ def _short(text: str, limit: int = 160) -> str:
     return text if len(text) <= limit else text[: limit - 3].rsplit(" ", 1)[0] + "…"
 
 
-def meeting_items(meeting: dict, feed_json: bytes) -> list[dict]:
+def project_items(feed_json: bytes) -> list[tuple[str, dict]]:
+    """(address, item) for each project in the feed."""
     projects: dict[tuple, list[dict]] = {}
     for case in json.loads(feed_json):
         key = (re.sub(r"\s+", " ", case["address"] or "").strip().upper(), (case["desc"] or "").strip())
@@ -49,15 +58,30 @@ def meeting_items(meeting: dict, feed_json: bytes) -> list[dict]:
             f"Community plan area: {main['cpa']}" if main.get("cpa") else "",
             f"Description: {desc}" if desc else "",
         ]
-        items.append(
-            {
-                "id": f"plncase-{main['caseNum']}",
-                "commission": "planning-cases",
-                "meeting_date": filed.isoformat(),
-                "item_number": main["caseNum"],
-                "title": _short(f"{address}: {desc}" if desc else f"{address} ({main['caseNum']})"),
-                "text": "[New City Planning case filing (application, not yet decided)]\n" + "\n".join(l for l in lines if l),
-                "urls": [c["url"] for c in sorted(cases, key=lambda c: c["caseNum"] != main["caseNum"])],
-            }
-        )
+        item = {
+            "id": f"plncase-{main['caseNum']}",
+            "commission": "planning-cases",
+            "meeting_date": filed.isoformat(),
+            "item_number": main["caseNum"],
+            "title": _short(f"{address}: {desc}" if desc else f"{address} ({main['caseNum']})"),
+            "text": "[New City Planning case filing (application, not yet decided)]\n" + "\n".join(l for l in lines if l),
+            "urls": [c["url"] for c in sorted(cases, key=lambda c: c["caseNum"] != main["caseNum"])],
+        }
+        items.append((address, item))
     return items
+
+
+def is_local(address: str, geocoder: Geocoder, hoods: Neighborhoods, interests: dict) -> bool:
+    if not (hit := geocoder.geocode(f"{address}, Los Angeles, CA")):
+        return True
+    return bool(hoods.nearby(hit["lat"], hit["lon"], interests["neighborhoods"], interests["nearby_km"]))
+
+
+def meeting_items(meeting: dict, feed_json: bytes) -> list[dict]:
+    interests, hoods = load_interests(), Neighborhoods()
+    with http_client(timeout=30) as client:
+        geocoder = Geocoder(client)
+        try:
+            return [item for address, item in project_items(feed_json) if is_local(address, geocoder, hoods, interests)]
+        finally:
+            geocoder.save()
