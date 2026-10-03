@@ -41,14 +41,15 @@ def score_item(item: dict, interests: dict, hoods: Neighborhoods) -> tuple[int, 
     return points, reasons
 
 
-def candidates(root: Path = DATA, interests: dict | None = None) -> list[dict]:
-    """Extracted items not yet in a digest, highest score first."""
+def candidates(root: Path = DATA, interests: dict | None = None, digest_date: str | None = None) -> list[dict]:
+    """Extracted items for a digest, highest score first: those not yet in any digest, plus
+    those already in the `digest_date` one (so a digest can be rewritten)."""
     interests = interests or load_interests()
     hoods = Neighborhoods()
     ranked = []
     for path in sorted((root / "items").rglob("*.json")):
         item = json.loads(path.read_text())
-        if "summary" not in item or "digest" in item:
+        if "summary" not in item or item.get("digest", digest_date) != digest_date:
             continue
         points, reasons = score_item(item, interests, hoods)
         ranked.append({"score": points, "reasons": reasons, "path": str(path.relative_to(root.parent)), **item})

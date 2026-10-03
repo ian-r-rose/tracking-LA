@@ -25,3 +25,17 @@ def test_nearby_scores_less_than_inside():
 def test_citywide_item_ranks_on_topic_alone():
     item = {"topics": ["transportation"], "locations": []}
     assert score_item(item, INTERESTS, HOODS) == (3, ["transportation"])
+
+
+def test_candidates_include_items_already_in_the_digest_being_rewritten(tmp_path):
+    import json
+    from lacomm.score import candidates
+
+    folder = tmp_path / "items" / "x" / "2026"
+    folder.mkdir(parents=True)
+    for name, extra in [("new", {}), ("same", {"digest": "2026-10-05"}), ("older", {"digest": "2026-10-01"})]:
+        item = {"id": name, "meeting_date": "2026-10-01", "summary": name, "topics": ["other"], "locations": [], **extra}
+        (folder / f"{name}.json").write_text(json.dumps(item))
+    interests = {"topics": {}, "neighborhoods": [], "in_neighborhood": 4, "nearby": 2, "nearby_km": 1}
+    assert {c["id"] for c in candidates(tmp_path, interests)} == {"new"}
+    assert {c["id"] for c in candidates(tmp_path, interests, "2026-10-05")} == {"new", "same"}

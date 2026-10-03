@@ -3,7 +3,8 @@ import json
 import sys
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 import httpx
@@ -118,12 +119,13 @@ def outcomes(since_days: int) -> None:
         sys.exit(1)
 
 
-def decisions() -> None:
-    """Outcomes not yet reported in a digest; items flagged in an earlier digest first."""
+def decisions(digest_date: str) -> None:
+    """Outcomes not yet reported in a digest (or reported in the `digest_date` one, so a
+    digest can be rewritten); items flagged in an earlier digest first."""
     found = []
     for path in sorted((DATA / "items").rglob("*.json")):
         item = json.loads(path.read_text())
-        if (o := item.get("outcome")) and "digest" not in o:
+        if (o := item.get("outcome")) and o.get("digest", digest_date) == digest_date:
             found.append((not item.get("flag"), item["meeting_date"], path, item, o))
     for _, _, path, item, o in sorted(found, key=lambda f: (f[0], f[1])):
         flagged = "*" if item.get("flag") else " "
@@ -162,13 +164,18 @@ def locate() -> None:
         print(f"  near {', '.join(hits)}: {item_id}  {text}  [{hood}]")
 
 
-def score(limit: int | None) -> None:
-    """One line per undigested item, so the digest step can review all of them cheaply."""
-    ranked = candidates()
+def la_today() -> str:
+    """Digests are dated in LA time; the routine's machine runs on UTC."""
+    return datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()
+
+
+def score(limit: int | None, digest_date: str) -> None:
+    """One line per item for the digest, so the digest step can review all of them cheaply."""
+    ranked = candidates(digest_date=digest_date)
     for c in ranked[:limit]:
         reasons = f" [{'; '.join(c['reasons'])}]" if c["reasons"] else ""
         print(f"{c['score']:2} {c['meeting_date']} {c['path']}{reasons} {c['summary']}")
-    print(f"{len(ranked)} undigested item(s)")
+    print(f"{len(ranked)} item(s) for the {digest_date} digest (not yet in a digest, or already in this one)")
 
 
 def mark_digested(digest_date: str) -> None:
@@ -197,12 +204,14 @@ def main() -> None:
     p.add_argument("--source", choices=[s.name for s in SOURCES], help="Fetch only this source")
     p = sub.add_parser("outcomes", help="Record decisions from journals and minutes of past meetings")
     p.add_argument("--since", type=int, default=60, metavar="DAYS")
-    sub.add_parser("decisions", help="List recorded outcomes not yet reported in a digest")
+    p = sub.add_parser("decisions", help="List recorded outcomes not yet reported in a digest")
+    p.add_argument("--date", default=la_today(), help="Digest date; outcomes already in it are listed too (default: today in LA)")
     sub.add_parser("check", help="Validate item files (run after extraction)")
     sub.add_parser("locate", help="Geocode item locations and assign neighborhoods")
     sub.add_parser("build-places", help="Refresh geo/places.json from Rec & Parks data on LA GeoHub")
     p = sub.add_parser("score", help="Rank items not yet in a digest")
     p.add_argument("--limit", type=int, help="Show only the top N (default: all)")
+    p.add_argument("--date", default=la_today(), help="Digest date; items already in it are listed too (default: today in LA)")
     p = sub.add_parser("mark-digested", help="Record that all undigested items were covered by a digest")
     p.add_argument("date", help="Digest date, YYYY-MM-DD")
     p = sub.add_parser("site", help="Build the static site")
@@ -216,13 +225,13 @@ def main() -> None:
         with http_client(timeout=120) as client:
             print(f"{build_places(client)} places")
     elif args.command == "score":
-        score(args.limit)
+        score(args.limit, args.date)
     elif args.command == "mark-digested":
         mark_digested(args.date)
     elif args.command == "outcomes":
         outcomes(args.since)
     elif args.command == "decisions":
-        decisions()
+        decisions(args.date)
     elif args.command == "site":
         print(f"built {args.out}/ with {build_site(Path(args.out))} digest(s)")
     elif args.command == "check":
