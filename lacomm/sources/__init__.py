@@ -7,7 +7,7 @@ from functools import partial
 from typing import Callable
 
 from lacomm.pdf import pdf_text
-from lacomm.sources import airports, cultural, elpueblo, ens, harbor, metro, planning, primegov, rap, trees, zoo
+from lacomm.sources import airports, cultural, elpueblo, ens, harbor, lacers, library, metro, planning, primegov, rap, trees, zoo
 
 
 @dataclass
@@ -41,6 +41,8 @@ SOURCES = [
     Source("zoo", zoo.list_meetings, zoo.meeting_items),
     Source("harbor", harbor.list_meetings, harbor.meeting_items),
     Source("airports", airports.list_meetings, airports.meeting_items),
+    Source("library", library.list_meetings, library.meeting_items),
+    Source("lacers", lacers.list_meetings, lacers.meeting_items),
     Source(
         "metro", metro.list_meetings, metro.meeting_items,
         outcome_url=lambda m: m["agenda_url"],

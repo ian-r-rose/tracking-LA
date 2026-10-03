@@ -102,6 +102,32 @@ ANIMAL_SERVICES = Format(
     number_with_section=True,
 )
 
+ETHICS = Format(
+    commission="ethics",
+    listing_url="https://ens.lacity.org/eth/ens_ethics_agenda.htm",
+    item_start=re.compile(r"^(\d{1,2})\.\s+(\S.*)$"),
+    skip_item=re.compile(
+        r"^(Call to order|Multiple agenda item comment|Minutes for|Possible discussion with authorized neighborhood"
+        r"|Commissioner announcements|President.s|Executive director.s report|Adjournment)",
+        re.I,
+    ),
+    section=re.compile(r"^((Opening|Action|Information|Closing) Items)\s*$"),
+    ignore_line=re.compile(r"^\s+\d+ of \d+\s*$|^\s{20,}Ethics Commission Agenda"),
+    end_agenda=re.compile(r"^\d{1,2}\.\s+Adjournment", re.I),
+)
+
+FIRE_AND_POLICE_PENSIONS = Format(
+    commission="lafpp",
+    listing_url="https://ens.lacity.org/fppen/ens_pen_agenda.htm",
+    listing_title=re.compile(r"^Board of Fire and Police Pension Commissioners(?!.*Committee)", re.I),
+    item_start=re.compile(r"^\s{2,4}(\d{1,2})\.\s+(\S.*)$"),
+    skip_item=re.compile(r"^(Roll Call|Consideration of Notices of Remote|Approval of Minutes|Benefits Actions approved|Other business)", re.I),
+    section=re.compile(r"^([A-Z]\.\s+\S.*?)\s*$"),
+    ignore_line=re.compile(r"^\w+ \d{1,2}, \d{4}\s{10,}\d+\s*$"),  # page footers
+    end_agenda=re.compile(r"^[A-Z]\.\s+CLOSED SESSION"),
+    number_with_section=True,
+)
+
 RECREATION_AND_PARKS = Format(
     commission="rap",
     listing_url="https://ens.lacity.org/rap/ens_rap_agenda.htm",
@@ -113,7 +139,10 @@ RECREATION_AND_PARKS = Format(
 
 # Rec & Parks agendas are fetched from Rec & Parks' own site (lacomm.sources.rap), which
 # also has minutes and extra documents; RECREATION_AND_PARKS is still the agenda format.
-FORMATS = [TRANSPORTATION, WATER_AND_POWER, BUILDING_AND_SAFETY, POLICE, FIRE, ANIMAL_SERVICES]
+FORMATS = [
+    TRANSPORTATION, WATER_AND_POWER, BUILDING_AND_SAFETY, POLICE, FIRE, ANIMAL_SERVICES, ETHICS,
+    FIRE_AND_POLICE_PENSIONS,
+]
 
 
 def meeting_date(title: str, href: str) -> date | None:
@@ -137,13 +166,14 @@ def list_meetings(fmt: Format, start: date, end: date, client: httpx.Client) -> 
         if not when or not start <= when <= end:
             continue
         # A cancellation notice can sit beside the agenda it cancels; drop both. A
-        # "Cancellations & Additions" notice (Building and Safety) amends an agenda instead.
+        # "Cancellations & Additions" notice (Building and Safety) amends an agenda instead,
+        # and a special meeting can replace a cancelled regular one on the same day (Ethics).
         if "cancel" in title.lower():
             if "addition" not in title.lower():
                 cancelled.add(when)
             continue
-        listed.append({"commission": fmt.commission, "date": when, "agenda_url": urljoin(fmt.listing_url, href)})
-    return [m for m in listed if m["date"] not in cancelled]
+        listed.append(({"commission": fmt.commission, "date": when, "agenda_url": urljoin(fmt.listing_url, href)}, title))
+    return [m for m, title in listed if m["date"] not in cancelled or "special" in title.lower()]
 
 
 def split_agenda(fmt: Format, text: str) -> list[tuple[str, str, str | None]]:

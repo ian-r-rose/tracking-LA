@@ -5,9 +5,11 @@ import subprocess
 import pypdf
 
 
-def pdf_text(data: bytes) -> str:
-    """Layout-preserving text via poppler's pdftotext; pypdf garbles spacing on some agendas."""
-    result = subprocess.run(["pdftotext", "-layout", "-", "-"], input=data, capture_output=True, check=True)
+def pdf_text(data: bytes, last_page: int | None = None) -> str:
+    """Layout-preserving text via poppler's pdftotext; pypdf garbles spacing on some agendas.
+    `last_page` stops early, for agendas bound together with their staff reports."""
+    pages = ["-l", str(last_page)] if last_page else []
+    result = subprocess.run(["pdftotext", "-layout", *pages, "-", "-"], input=data, capture_output=True, check=True)
     return result.stdout.decode("utf-8")
 
 

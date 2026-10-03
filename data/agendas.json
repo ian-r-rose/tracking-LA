@@ -27,6 +27,8 @@
  "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf": "2026-09-08",
  "https://ens.lacity.org/dwp/agendas/dwpagendas202200216_09222026.pdf": "2026-09-22",
  "https://ens.lacity.org/dwp/agendas/dwpagendas202200364_09302026.pdf": "2026-09-30",
+ "https://ens.lacity.org/fppen/fppenagenda/fppenfppenagenda229200066_09172026.pdf": "2026-09-17",
+ "https://ens.lacity.org/fppen/fppenagenda/fppenfppenagenda229200380_10012026.pdf": "2026-10-01",
  "https://ens.lacity.org/ladbs/commagendas/ladbscommagendas253200178_09222026.pdf": "2026-09-22",
  "https://ens.lacity.org/ladot/transagenda/ladottransagenda256199849_09102026.pdf": "2026-09-10",
  "https://ens.lacity.org/ladot/transagenda/ladottransagenda256200548_10082026.pdf": "2026-10-08",
@@ -58,5 +60,8 @@
  "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep03/rap-meeting-agenda-9-3-2026-1.pdf": "2026-09-03",
  "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep17/rap-meeting-agenda-9-17-2026-revised.pdf": "2026-09-17",
  "https://webapi.legistar.com/v1/metro/events/3545/eventitems?AgendaNote=1&MinutesNote=1&Attachments=1": "2026-09-24",
- "https://webapi.legistar.com/v1/metro/events/3580/eventitems?AgendaNote=1&MinutesNote=1&Attachments=1": "2026-09-16"
+ "https://webapi.legistar.com/v1/metro/events/3580/eventitems?AgendaNote=1&MinutesNote=1&Attachments=1": "2026-09-16",
+ "https://www.lacers.org/sites/main/files/file-attachments/board_agenda_20260922_combined.pdf": "2026-09-22",
+ "https://www.lacers.org/sites/main/files/file-attachments/board_agenda_combined_20260809.pdf": "2026-09-08",
+ "https://www.lapl.org/sites/default/files/media/document/2026-09/agenda.pdf": "2026-09-10"
 }

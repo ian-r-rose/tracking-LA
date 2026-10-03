@@ -67,6 +67,7 @@ def test_cancellation_notice_drops_the_agenda_beside_it():
         <a href="a/x_09222026.pdf">Board Meeting - September 22, 2026</a>
         <a href="a/y_09222026.pdf">Cancellation Notice - Board Meeting - September 22, 2026</a>
         <a href="a/z_09082026.pdf">Board Meeting - September 8, 2026</a>
+        <a href="a/s_09222026.pdf">Special Board Meeting - September 22, 2026</a>
         <a href="a/w_05052026.pdf">Meeting Agenda - Cancellations &amp; Additions</a>
         <a href="a/v_05052026.pdf">Meeting Agenda</a>
         """
@@ -76,4 +77,12 @@ def test_cancellation_notice_drops_the_agenda_beside_it():
         def get(self, url): return Listing()
 
     meetings = ens.list_meetings(ens.ANIMAL_SERVICES, date(2026, 1, 1), date(2026, 12, 31), Client())
-    assert [m["date"] for m in meetings] == [date(2026, 9, 8), date(2026, 5, 5)]
+    assert [m["agenda_url"][-14:] for m in meetings] == ["z_09082026.pdf", "s_09222026.pdf", "v_05052026.pdf"]
+
+
+def test_ethics_and_fire_police_pensions():
+    ethics = ens.split_agenda(ens.ETHICS, agenda("ethics-2026-06-17"))
+    assert [n for n, _, _ in ethics] == [str(n) for n in range(5, 15)]  # opening and closing items skipped
+    assert ethics[0][2] == "Action Items"
+    lafpp = ens.split_agenda(ens.FIRE_AND_POLICE_PENSIONS, agenda("lafpp-2026-10-01"))
+    assert [n for n, _, _ in lafpp] == ["C1", "D1", "D2", "D3"]  # closed session and standing items dropped
