@@ -47,35 +47,28 @@ For each item you include, add a `flag` field to its JSON file: `{"reason": "<on
 
 If reviewing shows an extraction field is wrong (a misspelled street that won't geocode, a missing `parks` tag that a staff report makes obvious, a misleading summary), correct it in the item file, then rerun `uv run lacomm locate` if you changed `locations`. Say what you corrected and why in the commit message; git history is the record. Don't change scraper-owned fields (`lacomm check` rejects that).
 
-Write `data/digests/YYYY-MM-DD.md` (today's date):
+Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by commission: agenda items (from `score`) and decisions on earlier items (from `uv run lacomm decisions`).
 
 ```markdown
 # Commissions digest — <Month D, YYYY>
 
-Agenda items from meetings <Month D> – <Month D, YYYY>. <N> items reviewed; <M> listed below.
+Agenda items from meetings <Month D> – <Month D, YYYY>, and decisions recorded from <journals and minutes of ...>. <N> items reviewed; <M> listed below.
 
 ## <Commission full name>
 
 <One sentence on what this commission decides.>
 
 - **<Mon D>** · upcoming · <neighborhood> — <summary, rewritten if needed>. <Why it matters.> [Agenda](<url>) · [Staff report](<url>)
-- **<Mon D>** · <neighborhood> — ...
+- **<Mon D>** · <neighborhood> — <item, in a few words>: **<approved 5–0 / continued to Oct 9 / withdrawn / ...>**. [Journal or minutes](<outcome source>)
 ```
 
-Then, if `uv run lacomm decisions` lists anything, add this section after the intro line:
-
-```markdown
-## Decisions recorded
-
-- **<Commission>, <Mon D>** · <neighborhood> — <item, in a few words>: **<approved 5–0 / continued / withdrawn / ...>**. [Journal or minutes](<outcome source>)
-```
-
-List every outcome for an item flagged in an earlier digest (marked `*`). For other items, list only withdrawals, denials, continuances and split votes. Leave out unanimous approvals of routine items. If a decision changes what an earlier digest said (e.g. an item it described was withdrawn), say so plainly.
+Which decisions to include: every outcome for an item flagged in an earlier digest (marked `*` by `decisions`). For other items, only withdrawals, denials, continuances and split votes, plus anything you'd have listed as an agenda item. Leave out unanimous approvals of routine items. When an item has both a listed agenda entry and a decision, give one bullet with the outcome in it.
 
 Rules:
-- One section per commission that has listed items, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, then any others. Within a section, list items by meeting date, oldest first.
-- Mark meetings on or after today's date as `upcoming`. Don't describe outcomes of past meetings unless an item says what was decided.
-- Don't refer to earlier or later digests ("first", "this time", "since last time"). Each digest should read the same way whenever it's generated.
+- One section per commission with anything listed, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, then any others. There's no separate decisions section.
+- Within a section: upcoming items first, soonest first; then past items and decisions, newest first.
+- Mark meetings on or after today's date as `upcoming`. Don't describe outcomes of past meetings unless an item or a recorded decision says what was decided.
+- Don't refer to earlier or later digests ("first", "this time", "since last time", "as reported earlier"). Each digest should read the same way whenever it's generated. If a decision contradicts how an item was described before (e.g. it was withdrawn), state the outcome plainly.
 - Routine items in Ian's neighborhoods (single houses, cell sites) get a short bullet with no "why it matters".
 - Keep the whole digest skimmable in two minutes.
 
