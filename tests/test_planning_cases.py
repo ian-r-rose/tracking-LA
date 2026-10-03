@@ -30,3 +30,14 @@ def test_only_projects_near_watched_neighborhoods_are_kept():
     assert planning_cases.is_local("NO SUCH PLACE", geocoder, hoods, interests)  # unresolved: kept
     geocoder.geocode = lambda text: {"lat": 34.2, "lon": -118.45}  # Van Nuys
     assert not planning_cases.is_local("5601 N SEPULVEDA BLVD", geocoder, hoods, interests)
+
+
+def test_case_page_outcome():
+    fixtures = Path(__file__).parent / "fixtures" / "planning_cases"
+    decided = (fixtures / "case-ZA-2023-5864-ZAD-HCA.html").read_text()
+    assert planning_cases.case_outcome(decided, "u") == {
+        "status": "approved",
+        "text": "ZA action: PARTIALLY APPROVED (Sep 24, 2026); appeal period ends 10/09/2026",
+        "source": "u",
+    }
+    assert planning_cases.case_outcome((fixtures / "case-ZA-2026-5125-ZV.html").read_text(), "u") is None

@@ -5,7 +5,8 @@ a hearing, and many are decided by a Zoning Administrator or the Planning Direct
 without one. Planning's "recent case filings" page reads a JSON feed covering about
 two weeks. A project often files several cases at once (an environmental ENV case
 alongside a ZA or DIR case), so cases with the same address and description become
-one item, keyed by its main case number.
+one item, keyed by its main case number. Decisions come from each case's page in
+PDIS (Planning's case tracking), which shows the action taken and the appeal period.
 
 Unlike agendas, filings arrive citywide at a steady clip and are all site-specific,
 so only projects in or near the watched neighborhoods are kept. A project whose
@@ -17,9 +18,11 @@ import re
 from datetime import date, datetime
 
 import httpx
+from bs4 import BeautifulSoup
 
 from lacomm import http_client
 from lacomm.geo import Geocoder, Neighborhoods
+from lacomm.outcomes import normalize_status
 from lacomm.score import load_interests
 
 FEED = "https://planning.lacity.gov/dcpapi/general/newcases"
@@ -85,3 +88,34 @@ def meeting_items(meeting: dict, feed_json: bytes) -> list[dict]:
             return [item for address, item in project_items(feed_json) if is_local(address, geocoder, hoods, interests)]
         finally:
             geocoder.save()
+
+
+def case_fields(html: str) -> dict[str, str]:
+    """The labeled fields on a case's PDIS page ("ZA Action", "End of Appeal Period", ...)."""
+    fields = {}
+    for row in BeautifulSoup(html, "html.parser").select(".rowData"):
+        title, data = row.select_one(".title"), row.select_one(".data")
+        if title and data:
+            value = data.get_text(" ", strip=True)
+            fields[title.get_text(" ", strip=True).rstrip(" :")] = "" if value == "N/A" else value
+    return fields
+
+
+def case_outcome(html: str, url: str) -> dict | None:
+    """The latest action on a case (a ZA, the Director or a commission), if one was taken."""
+    fields = case_fields(html)
+    actions = []
+    for label, action in fields.items():
+        if (m := re.fullmatch(r"(.+) Action", label)) and action:
+            when = fields.get(f"{m.group(1)} Action Date", "")
+            day = datetime.strptime(when, "%m/%d/%Y").date() if re.fullmatch(r"\d\d/\d\d/\d{4}", when) else date.min
+            actions.append((day, m.group(1), action))
+    if not actions:
+        return None
+    day, body, action = max(actions)
+    text = f"{body} action: {action}" + (f" ({day:%b %-d, %Y})" if day != date.min else "")
+    if appeal_end := fields.get("End of Appeal Period"):
+        text += f"; appeal period ends {appeal_end}"
+    if fields.get("Appealed", "").lower().startswith("yes"):
+        text += "; appealed"
+    return {"status": normalize_status(action), "text": text, "source": url}
