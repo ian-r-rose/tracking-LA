@@ -28,6 +28,9 @@ neighborhoods:
   - Pico-Union
   - Griffith Park  # includes the LA Zoo
   - Elysian Valley  # Frogtown
+  - Eagle Rock
+  - Hollywood Hills
+  - Larchmont
 
 # Points for location: inside a listed neighborhood, or within nearby_km of one.
 in_neighborhood: 4
