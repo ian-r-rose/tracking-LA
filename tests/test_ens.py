@@ -37,3 +37,14 @@ def test_dwp_numbers_items_by_section_and_titles_skip_recommended_by():
     assert "$250,000,000" in ge["text"]
     # Page numbers and the next section don't leak into the last item.
     assert "Adjournment" not in items[-1]["text"]
+
+
+def test_building_and_safety_haul_routes_without_owner_names():
+    items = ens.split_agenda(ens.BUILDING_AND_SAFETY, agenda("bbsc-2026-07-28"))
+    # Officer elections (section A) are skipped; numbering is per lettered section.
+    assert [number for number, _, _ in items] == ["D1", "D2", "E1", "E2", "E3", "E4", "E5"]
+    number, text, section = items[-1]
+    assert section.startswith("E. PUBLIC HEARINGS regarding EXPORT-IMPORT")
+    assert "SAN RAFAEL AVENUE" in text and "7,505 cubic yards" in text
+    assert all("OWNER" not in text for _, text, _ in items)
+    assert all("BOARD OF BUILDING AND SAFETY COMMISSIONERS  " not in text for _, text, _ in items)

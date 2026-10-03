@@ -24,7 +24,7 @@ class Format:
     item_start: re.Pattern  # groups: (number, first line)
     skip_item: re.Pattern | None = None  # standing items to drop, matched on the first line
     end_item: re.Pattern | None = None  # lines that end the current item without starting one
-    section: re.Pattern | None = None  # section headings, kept as context on the items below them
+    section: re.Pattern | None = None  # section headings (matched on the raw line), kept as context on the items below them
     ignore_line: re.Pattern | None = None  # page headers, footers, page numbers
     end_agenda: re.Pattern | None = None
     listing_title: re.Pattern | None = None  # only listing links whose text matches
@@ -38,7 +38,7 @@ TRANSPORTATION = Format(
     listing_url="https://ens.lacity.org/ladot/dotcmA3a.htm",
     item_start=re.compile(r"^\s{0,6}(\d{1,2})\.​?\s*(\S.*)$"),
     skip_item=re.compile(r"Welcome|Roll Call|Approval of Minutes|Commission Business|Communications|General Manager", re.I),
-    section=re.compile(r"^([A-Z][A-Z ,&]{4,})$"),
+    section=re.compile(r"^([A-Z][A-Z ,&]{4,}?)\s*$"),
     ignore_line=re.compile(r"^BOARD OF TRANSPORTATION\s*$|COMMISSIONERS AGENDA.*- \d+ -"),
     end_agenda=re.compile(r"^ADJOURNMENT"),
 )
@@ -49,9 +49,24 @@ WATER_AND_POWER = Format(
     listing_title=re.compile(r"Board of Water and Power Commissioners", re.I),
     item_start=re.compile(r"^\s{4,8}(\d{1,2})\.\s+(\S.*)$"),
     skip_item=re.compile(r"approval of the minutes", re.I),
-    section=re.compile(r"^([A-Z]\.\s+\S.*)$"),
+    section=re.compile(r"^([A-Z]\.\s+\S.*?)\s*$"),
     ignore_line=re.compile(r"^\s+\d{1,2}\s*$"),
     end_agenda=re.compile(r"^[A-Z]\.\s+Adjournment"),
+    number_with_section=True,
+)
+
+BUILDING_AND_SAFETY = Format(
+    commission="bbsc",
+    listing_url="https://ens.lacity.org/ladbs/ladbs_agenda.htm",
+    # Lettered sections (C. PUBLIC NUISANCE HEARINGS, D. PUBLIC HEARINGS regarding
+    # EXPORT-IMPORT applications, i.e. haul routes) with items numbered within each.
+    item_start=re.compile(r"^\s{4,16}(\d{1,2})\.\s+(\S.*)$"),
+    skip_item=re.compile(r"^Election of|^[A-Z][a-z]+ \d{1,2}, \d{4}"),  # officer elections, minutes approvals
+    section=re.compile(r"^\s{0,8}([A-Z]\.\s+\S.*?)\s*$"),
+    # Page headers and footers; also owner and appellant names, which are often private
+    # individuals (owners of vacant homes, neighbors appealing).
+    ignore_line=re.compile(r"^AGENDA OF THE\s|^BOARD OF BUILDING AND SAFETY COMMISSIONERS\s{2,}|^LADBS G-5|^\s+(OWNER|APPELLANT)S?:"),
+    end_agenda=re.compile(r"^[A-Z]\.\s+Public Comments", re.I),
     number_with_section=True,
 )
 
@@ -66,7 +81,7 @@ RECREATION_AND_PARKS = Format(
 
 # Rec & Parks agendas are fetched from Rec & Parks' own site (lacomm.sources.rap), which
 # also has minutes and extra documents; RECREATION_AND_PARKS is still the agenda format.
-FORMATS = [TRANSPORTATION, WATER_AND_POWER]
+FORMATS = [TRANSPORTATION, WATER_AND_POWER, BUILDING_AND_SAFETY]
 
 
 def meeting_date(title: str, href: str) -> date | None:
@@ -107,7 +122,7 @@ def split_agenda(fmt: Format, text: str) -> list[tuple[str, str, str | None]]:
             current = [m.group(2)]
             number = (section[0] if fmt.number_with_section and section else "") + m.group(1)
             items.append((number, current, section))
-        elif fmt.section and (m := fmt.section.match(line.strip())) and line == line.lstrip():
+        elif fmt.section and (m := fmt.section.match(line)):
             section, current = re.sub(r"\s+", " ", m.group(1)).strip(), None
         elif fmt.end_item and fmt.end_item.match(line):
             current = None
