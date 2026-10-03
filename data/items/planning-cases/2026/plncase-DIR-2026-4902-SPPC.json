@@ -8,5 +8,27 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-4902-SPPC",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-4903-EAF"
-  ]
+  ],
+  "summary": "Restaurant expansion and conversion of adjoining market/retail space at 720 N Virgil Ave in Hollywood.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "720 N Virgil Ave, Los Angeles, CA",
+      "lat": 34.084032,
+      "lon": -118.286789,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-4902-SPPC",
+      "ENV-2026-4903-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "restaurant expansion and change of use"
+  },
+  "digest": "2026-10-03"
 }

@@ -7,5 +7,27 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-4870-EAF\nAddress: 3375 N BLAIR DR\nFiled: 2026-09-18\nCouncil district: 4\nCommunity plan area: Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass\nDescription: CEQA clearance for ZA-2023-3802-ZAD-PA1 which is a request to remove conditions 9 and 10 of the parent case.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-4870-EAF"
-  ]
+  ],
+  "summary": "CEQA clearance for request to remove conditions of previous case at 3375 N Blair Dr, Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "3375 N Blair Dr, Los Angeles, CA",
+      "lat": 34.133436,
+      "lon": -118.346992,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-4870-EAF"
+    ],
+    "council_district": 4,
+    "plan_area": "Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass",
+    "action": "CEQA clearance for condition removal"
+  },
+  "digest": "2026-10-03"
 }

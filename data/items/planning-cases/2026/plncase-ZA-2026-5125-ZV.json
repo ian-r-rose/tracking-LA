@@ -8,5 +8,30 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5125-ZV",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5126-EAF"
-  ]
+  ],
+  "summary": "Zone variance to permit 17,565 sq. ft. gym/fitness use on ground floor of commercial office building at 3424 W Wilshire Blvd.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3424 W Wilshire Blvd, Los Angeles, CA",
+      "lat": 34.061691,
+      "lon": -118.298417,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5125-ZV",
+      "ENV-2026-5126-EAF"
+    ],
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "action": "Zone variance"
+  },
+  "flag": {
+    "reason": "A zone variance for a large gym in a Koreatown office building, a watched neighborhood."
+  },
+  "digest": "2026-10-03"
 }

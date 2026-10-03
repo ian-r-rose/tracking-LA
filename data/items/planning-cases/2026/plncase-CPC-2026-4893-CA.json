@@ -7,5 +7,20 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: CPC-2026-4893-CA\nAddress: NO ADDRESSES WERE FOUND\nFiled: 2026-09-21\nDescription: Code amendments to clarify eligibility and review procedures, permit a project to utilize adjacent sites for certain HE Sites. An ordinance to adopt the list of  Lower Income Rezoning Housing Element Sites.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/CPC-2026-4893-CA"
-  ]
+  ],
+  "summary": "Code amendments to clarify eligibility and review procedures for Housing Element Sites and to adopt the list of Lower Income Rezoning Housing Element Sites.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "CPC-2026-4893-CA"
+    ]
+  },
+  "flag": {
+    "reason": "Citywide code amendments and a list of rezoning sites for the Housing Element, which affect where housing can be built in every neighborhood."
+  },
+  "digest": "2026-10-03"
 }

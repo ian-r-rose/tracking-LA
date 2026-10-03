@@ -8,5 +8,28 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-4868-PM-CC",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-4869-EAF"
-  ]
+  ],
+  "summary": "Condo conversion of 4 existing units at 212 N San Pascual Ave in Northeast Los Angeles.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "212 N San Pascual Ave, Los Angeles, CA",
+      "lat": 34.114447,
+      "lon": -118.177677,
+      "neighborhood": "Highland Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2026-4868-PM-CC",
+      "ENV-2026-4869-EAF"
+    ],
+    "council_district": 14,
+    "plan_area": "Northeast Los Angeles",
+    "action": "condo conversion"
+  },
+  "digest": "2026-10-03"
 }

@@ -8,5 +8,27 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-4831-CUB",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-4832-EAF"
-  ]
+  ],
+  "summary": "Conditional use permit for sale of beer and wine with day spa and restaurant at 2700 W Wilshire Blvd, Westlake.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2700 W Wilshire Blvd, Los Angeles, CA",
+      "lat": 34.060881,
+      "lon": -118.282417,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-4831-CUB",
+      "ENV-2026-4832-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "Westlake",
+    "action": "Conditional use permit for sale of alcoholic beverages"
+  },
+  "digest": "2026-10-03"
 }

@@ -7,5 +7,27 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: AA-2026-4980-PMUL\nAddress: 7685 W WILLOW GLEN ROAD\nFiled: 2026-09-24\nCouncil district: 4\nCommunity plan area: Hollywood\nDescription: SB 9 Urban Lot Split to split a lot into two lots; no new construction.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-4980-PMUL"
-  ]
+  ],
+  "summary": "SB 9 urban lot split at 7685 W Willow Glen Road in Hollywood.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "7685 W Willow Glen Road, Los Angeles, CA",
+      "lat": 34.11868,
+      "lon": -118.368503,
+      "neighborhood": "Hollywood Hills West"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2026-4980-PMUL"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood",
+    "action": "SB 9 urban lot split"
+  },
+  "digest": "2026-10-03"
 }

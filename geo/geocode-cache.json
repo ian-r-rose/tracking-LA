@@ -54,13 +54,26 @@
   "score": 97.59
  },
  "11100 W CHALON ROAD": null,
+ "11100 W Chalon Road": null,
  "1150 W SUNSET BLVD": {
   "address": "1150 W SUNSET BLVD, 90012",
   "lat": 34.066794,
   "lon": -118.249812,
   "score": 100
  },
+ "1150 W Sunset Blvd": {
+  "address": "1150 W SUNSET BLVD, 90012",
+  "lat": 34.066794,
+  "lon": -118.249812,
+  "score": 100
+ },
  "1160 N LAS PALMAS AVE": {
+  "address": "1160 N LAS PALMAS AVE, 90038",
+  "lat": 34.09185,
+  "lon": -118.336248,
+  "score": 100
+ },
+ "1160 N Las Palmas Ave": {
   "address": "1160 N LAS PALMAS AVE, 90038",
   "lat": 34.09185,
   "lon": -118.336248,
@@ -284,6 +297,12 @@
   "lon": -118.325297,
   "score": 100
  },
+ "2069 N Argyle Ave": {
+  "address": "2069 N ARGYLE AVE, 90068",
+  "lat": 34.108297,
+  "lon": -118.325297,
+  "score": 100
+ },
  "2069 North Argyle Avenue": {
   "address": "2069 N ARGYLE AVE, 90068",
   "lat": 34.108297,
@@ -303,6 +322,12 @@
   "score": 100
  },
  "212 N SAN PASCUAL AVE": {
+  "address": "212 W SAN PASCUAL AVE, 90042",
+  "lat": 34.114447,
+  "lon": -118.177677,
+  "score": 92.78
+ },
+ "212 N San Pascual Ave": {
   "address": "212 W SAN PASCUAL AVE, 90042",
   "lat": 34.114447,
   "lon": -118.177677,
@@ -392,6 +417,12 @@
   "lon": -118.282417,
   "score": 100
  },
+ "2700 W Wilshire Blvd": {
+  "address": "2700 W WILSHIRE BLVD, 90057",
+  "lat": 34.060881,
+  "lon": -118.282417,
+  "score": 100
+ },
  "2718 North Hyperion Avenue": {
   "address": "2718 N HYPERION AVE, 90027",
   "lat": 34.106981,
@@ -458,6 +489,12 @@
   "lon": -118.352608,
   "score": 100
  },
+ "3063 N Passmore Dr": {
+  "address": "3063 N PASSMORE DR, 90068",
+  "lat": 34.126552,
+  "lon": -118.352608,
+  "score": 100
+ },
  "3190 South La Cienega Boulevard": {
   "address": "3190 S LA CIENEGA BLVD, 90016",
   "lat": 34.028707,
@@ -465,6 +502,12 @@
   "score": 100
  },
  "3230 N GLENDALE BLVD": {
+  "address": "3230 N GLENDALE BLVD, 90039",
+  "lat": 34.117898,
+  "lon": -118.26069,
+  "score": 100
+ },
+ "3230 N Glendale Blvd": {
   "address": "3230 N GLENDALE BLVD, 90039",
   "lat": 34.117898,
   "lon": -118.26069,
@@ -488,13 +531,31 @@
   "lon": -118.346992,
   "score": 100
  },
+ "3375 N Blair Dr": {
+  "address": "3375 N BLAIR DR, 90068",
+  "lat": 34.133436,
+  "lon": -118.346992,
+  "score": 100
+ },
  "3424 W WILSHIRE BLVD": {
   "address": "3424 W WILSHIRE BLVD, 90010",
   "lat": 34.061691,
   "lon": -118.298417,
   "score": 100
  },
+ "3424 W Wilshire Blvd": {
+  "address": "3424 W WILSHIRE BLVD, 90010",
+  "lat": 34.061691,
+  "lon": -118.298417,
+  "score": 100
+ },
  "3621 N DOVER ST": {
+  "address": "3621 N DOVER ST, 90039",
+  "lat": 34.122645,
+  "lon": -118.264655,
+  "score": 100
+ },
+ "3621 N Dover St": {
   "address": "3621 N DOVER ST, 90039",
   "lat": 34.122645,
   "lon": -118.264655,
@@ -572,6 +633,12 @@
   "lon": -118.209734,
   "score": 92.78
  },
+ "481 N Quail Dr": {
+  "address": "481 W QUAIL DR, 90065",
+  "lat": 34.102963,
+  "lon": -118.209734,
+  "score": 92.78
+ },
  "4849 North Mount Royal Drive": {
   "address": "4849 N MT ROYAL DR, 90041",
   "lat": 34.13442,
@@ -591,13 +658,31 @@
   "lon": -118.309645,
   "score": 100
  },
+ "5020 W Melrose Ave": {
+  "address": "5020 W MELROSE AVE, 90038",
+  "lat": 34.083444,
+  "lon": -118.309645,
+  "score": 100
+ },
  "5158 W HOLLYWOOD BLVD": {
   "address": "5158 W HOLLYWOOD BLVD, 90027",
   "lat": 34.101687,
   "lon": -118.302415,
   "score": 100
  },
+ "5158 W Hollywood Blvd": {
+  "address": "5158 W HOLLYWOOD BLVD, 90027",
+  "lat": 34.101687,
+  "lon": -118.302415,
+  "score": 100
+ },
  "521 S BIXEL ST": {
+  "address": "521 S BIXEL ST, 90017",
+  "lat": 34.054727,
+  "lon": -118.261625,
+  "score": 100
+ },
+ "521 S Bixel St": {
   "address": "521 S BIXEL ST, 90017",
   "lat": 34.054727,
   "lon": -118.261625,
@@ -657,6 +742,12 @@
   "lon": -118.318128,
   "score": 100
  },
+ "6023 W Rodgerton Dr": {
+  "address": "6023 W RODGERTON DR, 90068",
+  "lat": 34.125701,
+  "lon": -118.318128,
+  "score": 100
+ },
  "6023 West Rodgerton Drive": {
   "address": "6023 W RODGERTON DR, 90068",
   "lat": 34.125701,
@@ -699,6 +790,12 @@
   "lon": -118.286789,
   "score": 100
  },
+ "720 N Virgil Ave": {
+  "address": "720 N VIRGIL AVE, 90029",
+  "lat": 34.084032,
+  "lon": -118.286789,
+  "score": 100
+ },
  "7220 North Hesperia Avenue": {
   "address": "7220 N HESPERIA AVE, 91335",
   "lat": 34.201634,
@@ -718,6 +815,12 @@
   "score": 100
  },
  "7685 W WILLOW GLEN ROAD": {
+  "address": "7685 W WILLOW GLEN ROAD, 90046",
+  "lat": 34.11868,
+  "lon": -118.368503,
+  "score": 100
+ },
+ "7685 W Willow Glen Road": {
   "address": "7685 W WILLOW GLEN ROAD, 90046",
   "lat": 34.11868,
   "lon": -118.368503,
@@ -761,6 +864,12 @@
   "score": 100
  },
  "815 E WASHINGTON BLVD": {
+  "address": "815 E WASHINGTON BLVD, 90021",
+  "lat": 34.026368,
+  "lon": -118.254221,
+  "score": 100
+ },
+ "815 E Washington Blvd": {
   "address": "815 E WASHINGTON BLVD, 90021",
   "lat": 34.026368,
   "lon": -118.254221,

@@ -7,5 +7,24 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-4885-EAF\nAddress: 11100 W CHALON ROAD\nFiled: 2026-09-21\nCouncil district: 5\nCommunity plan area: Bel Air - Beverly Crest\nDescription: Haul Route for approx. 5,515 CY of cut and 857 CY of fill, for 6,372 CY of total grading. Raw net export is approximately 4,658 CY",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-4885-EAF"
-  ]
+  ],
+  "summary": "Haul route approval for grading project at 11100 W Chalon Road, Bel Air - Beverly Crest.",
+  "topics": [
+    "land_use",
+    "environment",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "11100 W Chalon Road, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-4885-EAF"
+    ],
+    "council_district": 5,
+    "plan_area": "Bel Air - Beverly Crest"
+  },
+  "digest": "2026-10-03"
 }

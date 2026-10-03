@@ -7,5 +7,30 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: EAR-2026-5031-AH-AHS-HCA\nAddress: 1150 W SUNSET BLVD\nFiled: 2026-09-28\nCouncil district: 1\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley\nDescription: Construction of a 100% affordable housing mixed-use housing development a total of 237 units, 1,007  SF of retail space, and 141 parking spaces.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/EAR-2026-5031-AH-AHS-HCA"
-  ]
+  ],
+  "summary": "Construction of 100% affordable housing mixed-use development with 237 units, retail space, and parking at 1150 W Sunset Blvd.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "1150 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.066794,
+      "lon": -118.249812,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "EAR-2026-5031-AH-AHS-HCA"
+    ],
+    "council_district": 1,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "Affordable housing mixed-use development"
+  },
+  "flag": {
+    "reason": "A 237-unit, 100% affordable housing project in Echo Park, one of the watched neighborhoods."
+  },
+  "digest": "2026-10-03"
 }

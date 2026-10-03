@@ -7,5 +7,27 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: AA-2026-5067-PMUL\nAddress: 3621 N DOVER ST\nFiled: 2026-09-29\nCouncil district: 13\nCommunity plan area: Northeast Los Angeles\nDescription: SB 9 Urban Lot Split to subdivide one R1 lot into 2 R1 lots.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-5067-PMUL"
-  ]
+  ],
+  "summary": "SB 9 urban lot split to create two lots from one at 3621 N Dover St in Northeast Los Angeles.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3621 N Dover St, Los Angeles, CA",
+      "lat": 34.122645,
+      "lon": -118.264655,
+      "neighborhood": "Atwater Village"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2026-5067-PMUL"
+    ],
+    "council_district": 13,
+    "plan_area": "Northeast Los Angeles",
+    "action": "SB 9 urban lot split"
+  },
+  "digest": "2026-10-03"
 }

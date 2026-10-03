@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "6000-9600 North Van Nuys Boulevard, Los Angeles, CA"
+      "text": "6000-9600 North Van Nuys Boulevard, Los Angeles, CA",
+      "lat": 34.179456,
+      "lon": -118.448664,
+      "neighborhood": "Van Nuys"
     },
     {
       "text": "13200-14500 West Van Nuys Boulevard, Los Angeles, CA",

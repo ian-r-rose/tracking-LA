@@ -8,5 +8,31 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-4992-CU2-SPPC-DI",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-4993-EAF"
-  ]
+  ],
+  "summary": "New 9,000 square foot commercial and restaurant development with publicly accessible plaza at 521 S Bixel St in Westlake.",
+  "topics": [
+    "land_use",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "521 S Bixel St, Los Angeles, CA",
+      "lat": 34.054727,
+      "lon": -118.261625,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-4992-CU2-SPPC-DI",
+      "ENV-2026-4993-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "Westlake",
+    "action": "new commercial and restaurant uses with public plaza"
+  },
+  "flag": {
+    "reason": "New commercial development with a publicly accessible plaza in Westlake, which borders the watched neighborhoods of Echo Park and Downtown, and includes a drive-thru."
+  },
+  "digest": "2026-10-03"
 }

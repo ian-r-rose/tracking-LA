@@ -7,5 +7,25 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2024-6025-CE-1A\nAddress: 2069 N ARGYLE AVE\nFiled: 2026-09-17\nCouncil district: 4\nCommunity plan area: Hollywood",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2024-6025-CE-1A"
-  ]
+  ],
+  "summary": "Planning case at 2069 N Argyle Ave in Hollywood.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2069 N Argyle Ave, Los Angeles, CA",
+      "lat": 34.108297,
+      "lon": -118.325297,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2024-6025-CE-1A"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood"
+  },
+  "digest": "2026-10-03"
 }

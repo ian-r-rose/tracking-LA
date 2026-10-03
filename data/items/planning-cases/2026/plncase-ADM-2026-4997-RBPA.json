@@ -7,5 +7,26 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-4997-RBPA\nAddress: 815 E WASHINGTON BLVD\nFiled: 2026-09-24\nCouncil district: 14\nCommunity plan area: Southeast Los Angeles\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-4997-RBPA"
-  ]
+  ],
+  "summary": "Administrative clearance for sale of alcoholic beverages for on-site consumption at 815 E Washington Blvd, Southeast Los Angeles.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "815 E Washington Blvd, Los Angeles, CA",
+      "lat": 34.026368,
+      "lon": -118.254221,
+      "neighborhood": null
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-4997-RBPA"
+    ],
+    "council_district": 14,
+    "plan_area": "Southeast Los Angeles",
+    "action": "Administrative clearance under Restaurant Beverage Program"
+  },
+  "digest": "2026-10-03"
 }

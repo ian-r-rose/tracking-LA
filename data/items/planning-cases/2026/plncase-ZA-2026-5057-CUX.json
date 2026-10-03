@@ -9,5 +9,28 @@
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5057-CUX",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5058-EAF",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5056-CUB-CUX"
-  ]
+  ],
+  "summary": "Conditional use permits for expanded hours (8am-2am) and live entertainment with alcoholic beverages at 3230 N Glendale Blvd in Northeast Los Angeles.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3230 N Glendale Blvd, Los Angeles, CA",
+      "lat": 34.117898,
+      "lon": -118.26069,
+      "neighborhood": "Atwater Village"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5057-CUX",
+      "ENV-2026-5058-EAF",
+      "ZA-2026-5056-CUB-CUX"
+    ],
+    "council_district": 13,
+    "plan_area": "Northeast Los Angeles",
+    "action": "conditional use permits for extended hours and live entertainment"
+  },
+  "digest": "2026-10-03"
 }

@@ -8,5 +8,28 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5118-CU1-DRB-SPPC-MSP-HCA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5119-EAF"
-  ]
+  ],
+  "summary": "New 3-story single-family home with attached accessory dwelling unit at 3063 N Passmore Dr in Sherman Oaks.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3063 N Passmore Dr, Los Angeles, CA",
+      "lat": 34.126552,
+      "lon": -118.352608,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5118-CU1-DRB-SPPC-MSP-HCA",
+      "ENV-2026-5119-EAF"
+    ],
+    "council_district": 4,
+    "plan_area": "Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass",
+    "action": "new 3-story single-family home with attached ADU"
+  },
+  "digest": "2026-10-03"
 }

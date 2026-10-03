@@ -7,5 +7,26 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-5132-RBPA\nAddress: 5020 W MELROSE AVE\nFiled: 2026-10-02\nCouncil district: 13\nCommunity plan area: Wilshire\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5132-RBPA"
-  ]
+  ],
+  "summary": "Administrative clearance for alcoholic beverage service at restaurant at 5020 W Melrose Ave in Wilshire.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5020 W Melrose Ave, Los Angeles, CA",
+      "lat": 34.083444,
+      "lon": -118.309645,
+      "neighborhood": "Larchmont"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-5132-RBPA"
+    ],
+    "council_district": 13,
+    "plan_area": "Wilshire",
+    "action": "administrative clearance for alcoholic beverage service"
+  },
+  "digest": "2026-10-03"
 }

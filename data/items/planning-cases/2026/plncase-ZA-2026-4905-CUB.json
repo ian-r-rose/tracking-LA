@@ -8,5 +8,27 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-4905-CUB",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-4906-EAF"
-  ]
+  ],
+  "summary": "Conditional use permit for sale of full-line of alcoholic beverages with parcel delivery service at 1160 N Las Palmas Ave, Hollywood.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1160 N Las Palmas Ave, Los Angeles, CA",
+      "lat": 34.09185,
+      "lon": -118.336248,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-4905-CUB",
+      "ENV-2026-4906-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "Conditional use permit for sale of alcoholic beverages"
+  },
+  "digest": "2026-10-03"
 }

@@ -7,5 +7,26 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-5012-RBPA\nAddress: 5158 W HOLLYWOOD BLVD\nFiled: 2026-09-25\nCouncil district: 13\nCommunity plan area: Hollywood\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5012-RBPA"
-  ]
+  ],
+  "summary": "Administrative clearance for sale of alcoholic beverages for on-site consumption at 5158 W Hollywood Blvd, Hollywood.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5158 W Hollywood Blvd, Los Angeles, CA",
+      "lat": 34.101687,
+      "lon": -118.302415,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-5012-RBPA"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "Administrative clearance under Restaurant Beverage Program"
+  },
+  "digest": "2026-10-03"
 }

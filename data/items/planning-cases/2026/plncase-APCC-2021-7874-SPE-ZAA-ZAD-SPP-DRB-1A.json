@@ -7,5 +7,25 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: APCC-2021-7874-SPE-ZAA-ZAD-SPP-DRB-1A\nAddress: 6023 W RODGERTON DR\nFiled: 2026-09-28\nCouncil district: 4\nCommunity plan area: Hollywood",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/APCC-2021-7874-SPE-ZAA-ZAD-SPP-DRB-1A"
-  ]
+  ],
+  "summary": "Planning case for 6023 W Rodgerton Dr, Hollywood.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6023 W Rodgerton Dr, Los Angeles, CA",
+      "lat": 34.125701,
+      "lon": -118.318128,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCC-2021-7874-SPE-ZAA-ZAD-SPP-DRB-1A"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood"
+  },
+  "digest": "2026-10-03"
 }
