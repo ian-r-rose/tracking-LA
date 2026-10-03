@@ -53,7 +53,7 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
         seen.add(m["id"])
         meetings.append(
             {
-                "commission": slug,
+                "body": slug,
                 "date": meeting_date,
                 # Several BPW meetings can share a date (regular + management), so keep the
                 # PrimeGov meeting id to keep item ids unique.
@@ -90,7 +90,7 @@ def cfac_items(meeting: dict, agenda_text: str) -> list[dict]:
             number = f"{section_number}{m.group(1)}"
             current = {
                 "id": f"cfac-{day}-{number}",
-                "commission": "cfac",
+                "body": "cfac",
                 "meeting_date": day,
                 "item_number": number,
                 "title": m.group(2).strip()[:200],
@@ -106,7 +106,7 @@ def cfac_items(meeting: dict, agenda_text: str) -> list[dict]:
 
 
 def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
-    if meeting["commission"] == "cfac":
+    if meeting["body"] == "cfac":
         return cfac_items(meeting, pdf_text(agenda_html))
     soup = BeautifulSoup(agenda_html, "html.parser")
     items = []
@@ -128,8 +128,8 @@ def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
         matter = re.search(r"[A-Z]{2,5}-\d{4}-\d{3,5}", text)
         items.append(
             {
-                "id": f"{meeting['commission']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number.group(1)}",
-                "commission": meeting["commission"],
+                "id": f"{meeting['body']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number.group(1)}",
+                "body": meeting["body"],
                 "meeting_date": meeting["date"].isoformat(),
                 "item_number": number.group(1),
                 "title": matter.group(0) if matter else text.splitlines()[0],
@@ -159,5 +159,5 @@ def journal_outcomes(meeting: dict, journal_html: bytes) -> dict[str, dict]:
         outcome = {"text": disposition_text, "source": meeting["journal_url"]}
         if ayes:
             outcome["vote"] = f"{count(ayes)}-{count(nays)}"
-        outcomes[f"{meeting['commission']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number.group(1)}"] = outcome
+        outcomes[f"{meeting['body']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number.group(1)}"] = outcome
     return outcomes

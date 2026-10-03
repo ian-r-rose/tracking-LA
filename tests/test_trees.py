@@ -7,7 +7,7 @@ LISTING = (Path(__file__).parent / "fixtures" / "trees" / "pending.html").read_b
 
 
 def test_postings_become_items_keyed_by_posting_id():
-    items = trees.meeting_items({"commission": "trees", "date": date(2026, 10, 1), "agenda_url": "x"}, LISTING)
+    items = trees.meeting_items({"body": "trees", "date": date(2026, 10, 1), "agenda_url": "x"}, LISTING)
     assert len(items) == 14
     vermont = next(i for i in items if i["id"] == "trees-1070")
     assert vermont["meeting_date"] == "2026-10-02"

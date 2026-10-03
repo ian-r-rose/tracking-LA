@@ -9,7 +9,7 @@ FIXTURES = Path(__file__).parent / "fixtures" / "airports"
 def test_feed_lists_board_meetings_not_committees():
     meetings = airports.parse_feed((FIXTURES / "feed.xml").read_text())
     assert meetings[0] == {
-        "commission": "airports",
+        "body": "airports",
         "date": date(2026, 9, 23),
         "agenda_url": "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1280",
     }

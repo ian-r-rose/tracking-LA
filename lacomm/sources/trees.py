@@ -18,7 +18,7 @@ LISTING = "https://permits.streets.lacity.gov/treepostings/public/pending_postin
 
 def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     today = date.today()
-    return [{"commission": "trees", "date": today, "agenda_url": f"{LISTING}#{today.isoformat()}"}]
+    return [{"body": "trees", "date": today, "agenda_url": f"{LISTING}#{today.isoformat()}"}]
 
 
 def _date(text: str) -> date | None:
@@ -51,7 +51,7 @@ def meeting_items(meeting: dict, listing_html: bytes) -> list[dict]:
         items.append(
             {
                 "id": f"trees-{posting['Posting ID']}",
-                "commission": "trees",
+                "body": "trees",
                 "meeting_date": (hearing or posted).isoformat(),
                 "item_number": posting["Posting ID"],
                 "title": f"Removal of {n} street trees at {where}: {why}",

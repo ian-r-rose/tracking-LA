@@ -4,7 +4,7 @@ from pathlib import Path
 from lacomm.sources import zoo
 
 PAGE = (Path(__file__).parent / "fixtures" / "zoo" / "commission.html").read_bytes()
-MEETING = {"commission": "zoo", "date": date(2026, 9, 15), "agenda_url": zoo.PAGE + "#2026-09-15"}
+MEETING = {"body": "zoo", "date": date(2026, 9, 15), "agenda_url": zoo.PAGE + "#2026-09-15"}
 
 
 def test_agenda_items_skip_standing_sections_and_keep_document_links():

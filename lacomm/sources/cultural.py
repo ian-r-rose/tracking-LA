@@ -58,7 +58,7 @@ def parse_view(table: dict) -> list[dict]:
     for r in records:
         if r["kind"] == "Meeting Agenda" and r["date"] not in cancelled:
             meetings.setdefault(r["date"], {
-                "commission": "cac",
+                "body": "cac",
                 "date": r["date"],
                 "agenda_url": f"{PAGE}#{r['date'].isoformat()}",
                 "agenda_title": r["title"],
@@ -80,7 +80,7 @@ def meeting_items(meeting: dict, _page: bytes) -> list[dict]:
     return [
         {
             "id": f"cac-{day}-meeting",
-            "commission": "cac",
+            "body": "cac",
             "meeting_date": day,
             "item_number": "meeting",
             "title": f"Cultural Affairs Commission meeting, {meeting['date']:%B %-d, %Y}",

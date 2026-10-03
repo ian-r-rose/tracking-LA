@@ -64,7 +64,7 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
             if not slug or not entry["AgendaLink"] or "cancel" in entry["Note"].lower() or not start <= when <= end:
                 continue
             meetings.append(
-                {"commission": slug, "date": when, "agenda_url": entry["AgendaLink"], "minutes_url": entry["MinutesLink"] or None}
+                {"body": slug, "date": when, "agenda_url": entry["AgendaLink"], "minutes_url": entry["MinutesLink"] or None}
             )
     return meetings
 
@@ -112,8 +112,8 @@ def items_from_text(meeting: dict, agenda_text: str, links: list[str]) -> list[d
             urls += [u for u in links if case.replace("-", "_") in u]
         items.append(
             {
-                "id": f"{meeting['commission']}-{meeting_date.isoformat()}-{number}",
-                "commission": meeting["commission"],
+                "id": f"{meeting['body']}-{meeting_date.isoformat()}-{number}",
+                "body": meeting["body"],
                 "meeting_date": meeting_date.isoformat(),
                 "item_number": number,
                 "title": item_title(text),
@@ -170,5 +170,5 @@ def minutes_outcomes(meeting: dict, minutes_text: str) -> dict[str, dict]:
         outcome = {"status": status, "text": f"MOTION {result.group(1)}: {action[:240]}", "source": meeting["minutes_url"]}
         if vote := re.search(r"Vote:\s*(\d+)\s*[–-]\s*(\d+)", text):
             outcome["vote"] = f"{vote.group(1)}-{vote.group(2)}"
-        outcomes[f"{meeting['commission']}-{meeting['date'].isoformat()}-{number}"] = outcome
+        outcomes[f"{meeting['body']}-{meeting['date'].isoformat()}-{number}"] = outcome
     return outcomes

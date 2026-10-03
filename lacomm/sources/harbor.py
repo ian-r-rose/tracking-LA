@@ -33,7 +33,7 @@ def parse_archive(html: str) -> list[dict]:
         seen.add(url)
         meetings.append(
             {
-                "commission": "harbor",
+                "body": "harbor",
                 "date": datetime.strptime(m.group(2), "%m%d%Y").date(),
                 "kind": m.group(3).lower().replace("-agenda", ""),  # regular, special
                 "agenda_url": url,
@@ -71,7 +71,7 @@ def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
             number = f"{meeting['kind']}-{m.group(1)}"
             current = {
                 "id": f"harbor-{day}-{number}",
-                "commission": "harbor",
+                "body": "harbor",
                 "meeting_date": day,
                 "item_number": number,
                 "title": re.sub(r"^RESOLUTION NO\.?\s*_*\s*-\s*", "", m.group(2))[:200],

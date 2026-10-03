@@ -36,7 +36,7 @@ def parse_page(html: str) -> dict | None:
     when = date(2000 + year, month, day)
     files = [(t, u) for t, u in links if "/files/" in u and u != agenda[1]]
     return {
-        "commission": "elpueblo",
+        "body": "elpueblo",
         "date": when,
         "agenda_url": agenda[1],
         # Listed minutes are for the previous meeting, so they aren't attached to these items.
@@ -90,7 +90,7 @@ def items_from_text(meeting: dict, agenda_text: str) -> list[dict]:
         items.append(
             {
                 "id": f"elpueblo-{day}-{number}",
-                "commission": "elpueblo",
+                "body": "elpueblo",
                 "meeting_date": day,
                 "item_number": number,
                 "title": text.splitlines()[0],

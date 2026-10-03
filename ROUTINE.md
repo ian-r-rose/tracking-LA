@@ -4,7 +4,7 @@ Instructions for the scheduled Claude Code routine that keeps `data/` up to date
 
 ## 1. Fetched data
 
-The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (09:00 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some commission sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
+The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (09:00 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some City sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
 
 Check the Fetch commits since the last `Digest` commit (`git log --format='%h %s%n%b' <last digest commit>..HEAD`). If any lists failed sources, name them in the digest's intro (a source that failed once and then succeeded doesn't need a mention). If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary. An `empty:` line means an agenda produced no items, which can be a changed agenda format; mention those in your final summary too, not in the digest.
 
@@ -47,16 +47,16 @@ For each item you include, add a `flag` field to its JSON file: `{"reason": "<on
 
 If reviewing shows an extraction field is wrong (a misspelled street that won't geocode, a missing `parks` tag that a staff report makes obvious, a misleading summary), correct it in the item file, then rerun `uv run lacomm locate` if you changed `locations`. Say what you corrected and why in the commit message; git history is the record. Don't change scraper-owned fields (`lacomm check` rejects that).
 
-Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by commission: agenda items (from `score`) and decisions on earlier items (from `uv run lacomm decisions`).
+Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by body (commission, board or other source): agenda items (from `score`) and decisions on earlier items (from `uv run lacomm decisions`).
 
 ```markdown
 # Commissions digest — <Month D, YYYY>
 
 Agenda items from meetings <Month D> – <Month D, YYYY>, and decisions recorded from <journals and minutes of ...>. <N> items reviewed; <M> listed below.
 
-## <Commission full name>
+## <Body's full name>
 
-<One sentence on what this commission decides.>
+<One sentence on what this body decides or publishes.>
 
 - **<Mon D>** · upcoming · <neighborhood> — <summary, rewritten if needed>. <Why it matters.> [Agenda](<url>) · [Staff report](<url>)
 - **<Mon D>** · <neighborhood> — <item, in a few words>: **<approved 5–0 / continued to Oct 9 / withdrawn / ...>**. [Journal or minutes](<outcome source>)
@@ -65,7 +65,7 @@ Agenda items from meetings <Month D> – <Month D, YYYY>, and decisions recorded
 Which decisions to include: every outcome for an item flagged in an earlier digest (marked `*` by `decisions`). For other items, only withdrawals, denials, continuances and split votes, plus anything you'd have listed as an agenda item. Leave out unanimous approvals of routine items. When an item has both a listed agenda entry and a decision, give one bullet with the outcome in it.
 
 Rules:
-- One section per commission with anything listed, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, then any others. There's no separate decisions section.
+- One section per body with anything listed, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, then any others. There's no separate decisions section.
 - Within a section, every `upcoming` bullet comes before any past one: upcoming items soonest first, then past items and decisions newest first.
 - Mark meetings on or after today's date as `upcoming`. Don't describe outcomes of past meetings unless an item or a recorded decision says what was decided.
 - Don't refer to earlier or later digests ("first", "this time", "since last time", "as reported earlier"). Each digest should read the same way whenever it's generated. If a decision contradicts how an item was described before (e.g. it was withdrawn), state the outcome plainly.

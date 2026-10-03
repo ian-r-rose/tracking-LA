@@ -25,7 +25,7 @@ def parse_feed(xml: str) -> list[dict]:
             continue
         meetings.append(
             {
-                "commission": "airports",
+                "body": "airports",
                 "date": parsedate_to_datetime(item.findtext("pubDate")).date(),
                 "agenda_url": item.findtext("link").strip(),
             }
@@ -59,7 +59,7 @@ def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
                 number = label if not any(i["item_number"] == label for i in items) else f"{label}b"
                 current = {
                     "id": f"airports-{day}-{number}",
-                    "commission": "airports",
+                    "body": "airports",
                     "meeting_date": day,
                     "item_number": number,
                     "title": re.sub(r"^(RESOLUTION NO\.?\s*-\s*)?(Adoption of the staff report; and\s*)?", "", text)[:200],

@@ -19,7 +19,7 @@ def test_normalize_status():
 
 
 def test_public_works_journal():
-    meeting = {"commission": "bpw", "date": date(2026, 9, 9), "meeting_id": 2826, "journal_url": "J"}
+    meeting = {"body": "bpw", "date": date(2026, 9, 9), "meeting_id": 2826, "journal_url": "J"}
     outcomes = primegov.journal_outcomes(meeting, (FIXTURES / "primegov" / "bpw-journal-2026-09-09.html").read_bytes())
     assert outcomes["bpw-2026-09-09-2826-9"] == {
         "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH", "source": "J", "vote": "5-0",

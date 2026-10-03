@@ -8,7 +8,7 @@ from lacomm.sources import planning
 from lacomm.store import upsert_item
 
 FIXTURES = Path(__file__).parent / "fixtures" / "planning"
-MEETING = {"commission": "cpc", "date": date(2026, 9, 10), "agenda_url": "https://example/agenda"}
+MEETING = {"body": "cpc", "date": date(2026, 9, 10), "agenda_url": "https://example/agenda"}
 
 
 def agenda(doc_id: int) -> str:
@@ -20,7 +20,7 @@ def test_list_meetings_skips_canceled_and_maps_commissions():
     transport = httpx.MockTransport(lambda request: httpx.Response(200, json=payload))
     with httpx.Client(transport=transport) as client:
         meetings = planning.list_meetings(date(2026, 1, 1), date(2026, 12, 31), client)
-    assert [m["commission"] for m in meetings] == ["cpc", "apc-west-la", "apc-east-la", "chc"]
+    assert [m["body"] for m in meetings] == ["cpc", "apc-west-la", "apc-east-la", "chc"]
     assert meetings[0]["date"] == date(2026, 10, 8)
 
 
@@ -80,7 +80,7 @@ def test_indented_item_headers_are_found_but_requested_actions_are_not():
 
 
 def test_minutes_outcomes_and_truncated_minutes():
-    meeting = {"commission": "cpc", "date": date(2026, 7, 9), "minutes_url": "M"}
+    meeting = {"body": "cpc", "date": date(2026, 7, 9), "minutes_url": "M"}
     outcomes = planning.minutes_outcomes(meeting, (FIXTURES / "minutes-cpc-2026-07-09.txt").read_text())
     assert outcomes["cpc-2026-07-09-5a"]["status"] == "approved"
     assert outcomes["cpc-2026-07-09-5a"]["vote"] == "8-0"

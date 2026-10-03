@@ -9,7 +9,7 @@ FIXTURES = Path(__file__).parent / "fixtures" / "harbor"
 def test_archive_lists_board_agendas_not_committees():
     meetings = harbor.parse_archive((FIXTURES / "archive.html").read_text())
     assert meetings[0] == {
-        "commission": "harbor",
+        "body": "harbor",
         "date": date(2026, 9, 30),
         "kind": "special",
         "agenda_url": "https://portoflosangeles.org/commission/agenda-archive-and-videos/agendas/2026/09302026-special-agenda",

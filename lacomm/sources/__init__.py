@@ -58,7 +58,7 @@ SOURCES = [
         meeting_outcomes=metro.meeting_outcomes,
     ),
     *(
-        Source(fmt.commission, partial(ens.list_meetings, fmt), partial(ens.meeting_items, fmt))
+        Source(fmt.body, partial(ens.list_meetings, fmt), partial(ens.meeting_items, fmt))
         for fmt in ens.FORMATS
     ),
 ]

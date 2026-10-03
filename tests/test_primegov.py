@@ -7,7 +7,7 @@ import httpx
 from lacomm.sources import primegov
 
 FIXTURES = Path(__file__).parent / "fixtures" / "primegov"
-MEETING = {"commission": "bpw", "date": date(2026, 9, 30), "meeting_id": 2835, "agenda_url": "https://example/agenda"}
+MEETING = {"body": "bpw", "date": date(2026, 9, 30), "meeting_id": 2835, "agenda_url": "https://example/agenda"}
 
 
 def test_items_carry_section_matter_id_and_report_link():
@@ -30,7 +30,7 @@ def test_list_meetings_keeps_board_and_cfac_meetings():
 
     with httpx.Client(transport=httpx.MockTransport(handler)) as client:
         meetings = primegov.list_meetings(date(2026, 1, 1), date(2026, 12, 31), client)
-    assert {m["commission"] for m in meetings} == {"bpw", "cfac"}
+    assert {m["body"] for m in meetings} == {"bpw", "cfac"}
     assert all("compiledMeetingDocumentFileId" in m["agenda_url"] or "CompiledDocument" in m["agenda_url"] for m in meetings)
 
 
@@ -43,7 +43,7 @@ def test_commission_slug():
 
 
 def test_cfac_pdf_agenda_items():
-    meeting = {"commission": "cfac", "date": date(2026, 9, 3), "agenda_url": "u"}
+    meeting = {"body": "cfac", "date": date(2026, 9, 3), "agenda_url": "u"}
     items = primegov.cfac_items(meeting, (FIXTURES / "cfac-agenda-2026-09-03.txt").read_text())
     assert [i["item_number"] for i in items][:3] == ["6A", "6C", "7A"]
     onteora = next(i for i in items if i["item_number"] == "8E")

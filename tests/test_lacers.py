@@ -10,7 +10,7 @@ FIXTURES = Path(__file__).parent / "fixtures" / "lacers"
 def test_board_agendas_only_without_cache_buster():
     meetings = lacers.parse_page((FIXTURES / "agendas-and-minutes.html").read_text())
     assert meetings[0] == {
-        "commission": "lacers",
+        "body": "lacers",
         "date": date(2026, 9, 22),
         "agenda_url": "https://www.lacers.org/sites/main/files/file-attachments/board_agenda_20260922_combined.pdf",
     }

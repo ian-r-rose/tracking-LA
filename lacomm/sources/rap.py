@@ -45,7 +45,7 @@ def parse_year_page(html: str) -> list[dict]:
                 documents.append({"title": a.get_text(" ", strip=True), "url": urljoin(SITE, a["href"])})
         meetings.append(
             {
-                "commission": "rap",
+                "body": "rap",
                 "date": datetime.fromisoformat(when["datetime"].replace("Z", "+00:00")).date(),
                 "agenda_url": urljoin(SITE, agenda["href"]),
                 "minutes_url": urljoin(SITE, minutes["href"]) if minutes else None,
@@ -78,7 +78,7 @@ def items_from_meeting(meeting: dict, agenda_text: str, extra_texts: dict[str, s
         items.append(
             {
                 "id": f"rap-{day}-{number}",
-                "commission": "rap",
+                "body": "rap",
                 "meeting_date": day,
                 "item_number": number,
                 "title": text.splitlines()[0],
@@ -93,7 +93,7 @@ def items_from_meeting(meeting: dict, agenda_text: str, extra_texts: dict[str, s
         items.append(
             {
                 "id": f"rap-{day}-{slug}",
-                "commission": "rap",
+                "body": "rap",
                 "meeting_date": day,
                 "item_number": slug,
                 "title": doc["title"],

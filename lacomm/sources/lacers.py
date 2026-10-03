@@ -20,7 +20,7 @@ TITLE = re.compile(r"^(\w+ \d{1,2}, \d{4}) - Board of Administration Meeting Age
 AGENDA_PAGES = 12  # the agenda itself is a few pages; staff reports follow
 
 FORMAT = Format(
-    commission="lacers",
+    body="lacers",
     listing_url=PAGE,
     item_start=re.compile(r"^\s{4,12}([A-Z])\.\s+(\S.*)$"),
     skip_item=re.compile(r"VERBAL REPORT|APPROVAL OF MINUTES|CLOSED SESSION|REPORT ON DEPARTMENT OPERATIONS|UPCOMING AGENDA ITEMS"),
@@ -36,7 +36,7 @@ def parse_page(html: str) -> list[dict]:
         if m := TITLE.match(a.get_text(" ", strip=True)):
             meetings.append(
                 {
-                    "commission": "lacers",
+                    "body": "lacers",
                     "date": datetime.strptime(m.group(1), "%B %d, %Y").date(),
                     # The query string is a cache-buster that changes when the file is re-uploaded.
                     "agenda_url": urljoin(PAGE, a["href"]).split("?")[0],

@@ -4,7 +4,7 @@ from pathlib import Path
 from lacomm.sources import planning_cases
 
 FEED = (Path(__file__).parent / "fixtures" / "planning_cases" / "newcases.json").read_bytes()
-MEETING = {"commission": "planning-cases", "date": date(2026, 10, 3), "agenda_url": planning_cases.FEED}
+MEETING = {"body": "planning-cases", "date": date(2026, 10, 3), "agenda_url": planning_cases.FEED}
 
 
 def test_cases_for_one_project_become_one_item():

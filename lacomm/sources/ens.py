@@ -19,7 +19,7 @@ MONTH_DATE = re.compile(r"(January|February|March|April|May|June|July|August|Sep
 
 @dataclass
 class Format:
-    commission: str
+    body: str
     listing_url: str
     item_start: re.Pattern  # groups: (number, first line)
     skip_item: re.Pattern | None = None  # standing items to drop, matched on the first line
@@ -35,7 +35,7 @@ class Format:
 
 
 TRANSPORTATION = Format(
-    commission="transportation",
+    body="transportation",
     listing_url="https://ens.lacity.org/ladot/dotcmA3a.htm",
     item_start=re.compile(r"^\s{0,6}(\d{1,2})\.​?\s*(\S.*)$"),
     skip_item=re.compile(r"Welcome|Roll Call|Approval of Minutes|Commission Business|Communications|General Manager", re.I),
@@ -45,7 +45,7 @@ TRANSPORTATION = Format(
 )
 
 WATER_AND_POWER = Format(
-    commission="dwp",
+    body="dwp",
     listing_url="https://ens.lacity.org/dwp/ens_dwp_agenda.htm",
     listing_title=re.compile(r"Board of Water and Power Commissioners", re.I),
     item_start=re.compile(r"^\s{4,8}(\d{1,2})\.\s+(\S.*)$"),
@@ -57,7 +57,7 @@ WATER_AND_POWER = Format(
 )
 
 BUILDING_AND_SAFETY = Format(
-    commission="bbsc",
+    body="bbsc",
     listing_url="https://ens.lacity.org/ladbs/ladbs_agenda.htm",
     # Lettered sections (C. PUBLIC NUISANCE HEARINGS, D. PUBLIC HEARINGS regarding
     # EXPORT-IMPORT applications, i.e. haul routes) with items numbered within each.
@@ -71,7 +71,7 @@ BUILDING_AND_SAFETY = Format(
 
 # Police, Fire and Animal Services: numbered sections with lettered items.
 POLICE = Format(
-    commission="police",
+    body="police",
     listing_url="https://ens.lacity.org/lapd/ens_lapd_agenda.htm",
     item_start=re.compile(r"^\s{6,10}([A-Z])\.\s+(\S.*)$"),
     section=re.compile(r"^(\d{1,2}\.\s+\S.*?)\s*$"),
@@ -80,7 +80,7 @@ POLICE = Format(
 )
 
 FIRE = Format(
-    commission="fire",
+    body="fire",
     listing_url="https://ens.lacity.org/lafd/ens_lafd_agenda.htm",
     listing_title=re.compile(r"Agenda", re.I),  # not the yearly meeting schedule
     item_start=re.compile(r"^\s{4,8}([A-Z])\.\s+(\S.*)$"),
@@ -92,7 +92,7 @@ FIRE = Format(
 )
 
 ANIMAL_SERVICES = Format(
-    commission="animal",
+    body="animal",
     listing_url="https://ens.lacity.org/animal/ens_animal_agenda.htm",
     item_start=re.compile(r"^\s{6,10}([A-Z])\.\s+(\S.*)$"),
     skip_item=re.compile(r"^Approval of (the )?Minutes", re.I),
@@ -103,7 +103,7 @@ ANIMAL_SERVICES = Format(
 )
 
 ETHICS = Format(
-    commission="ethics",
+    body="ethics",
     listing_url="https://ens.lacity.org/eth/ens_ethics_agenda.htm",
     item_start=re.compile(r"^(\d{1,2})\.\s+(\S.*)$"),
     skip_item=re.compile(
@@ -117,7 +117,7 @@ ETHICS = Format(
 )
 
 FIRE_AND_POLICE_PENSIONS = Format(
-    commission="lafpp",
+    body="lafpp",
     listing_url="https://ens.lacity.org/fppen/ens_pen_agenda.htm",
     listing_title=re.compile(r"^Board of Fire and Police Pension Commissioners(?!.*Committee)", re.I),
     item_start=re.compile(r"^\s{2,4}(\d{1,2})\.\s+(\S.*)$"),
@@ -129,7 +129,7 @@ FIRE_AND_POLICE_PENSIONS = Format(
 )
 
 RECREATION_AND_PARKS = Format(
-    commission="rap",
+    body="rap",
     listing_url="https://ens.lacity.org/rap/ens_rap_agenda.htm",
     item_start=re.compile(r"^\s{0,3}(\d{2}-\d{3})\s{2,}(\S.*)$"),
     # Numbered agenda sections ("8. COMMISSION TASK FORCE UPDATES") end the board reports.
@@ -172,7 +172,7 @@ def list_meetings(fmt: Format, start: date, end: date, client: httpx.Client) -> 
             if "addition" not in title.lower():
                 cancelled.add(when)
             continue
-        listed.append(({"commission": fmt.commission, "date": when, "agenda_url": urljoin(fmt.listing_url, href)}, title))
+        listed.append(({"body": fmt.body, "date": when, "agenda_url": urljoin(fmt.listing_url, href)}, title))
     return [m for m, title in listed if m["date"] not in cancelled or "special" in title.lower()]
 
 
@@ -210,8 +210,8 @@ def items_from_text(fmt: Format, meeting: dict, agenda_text: str, links: list[st
         reports = [u if u.startswith("http") else f"https://{u}" for u in links if u.endswith(f"/{number}.pdf")]
         items.append(
             {
-                "id": f"{fmt.commission}-{meeting['date'].isoformat()}-{number}",
-                "commission": fmt.commission,
+                "id": f"{fmt.body}-{meeting['date'].isoformat()}-{number}",
+                "body": fmt.body,
                 "meeting_date": meeting["date"].isoformat(),
                 "item_number": number,
                 # DWP items open with "Recommended by <office>"; the substance is on the next line.

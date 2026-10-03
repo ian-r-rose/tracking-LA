@@ -135,7 +135,7 @@ def outcomes(since_days: int) -> None:
                     resp = client.get(url)
                     resp.raise_for_status()
                     for item_id, outcome in source.meeting_outcomes(meeting, resp.content).items():
-                        path = DATA / "items" / meeting["commission"] / item_id.split("-")[1] / f"{item_id}.json"
+                        path = DATA / "items" / meeting["body"] / item_id.split("-")[1] / f"{item_id}.json"
                         if not path.exists():
                             counts["no matching item"] += 1
                         elif record(path, {"status": normalize_status(outcome["text"]), **outcome}):  # a parser's own status wins

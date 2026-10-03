@@ -40,7 +40,7 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     when, _ = _agenda_lines(resp.text)
     if not when or not start <= when <= end:
         return []
-    return [{"commission": "zoo", "date": when, "agenda_url": f"{PAGE}#{when.isoformat()}"}]
+    return [{"body": "zoo", "date": when, "agenda_url": f"{PAGE}#{when.isoformat()}"}]
 
 
 def meeting_items(meeting: dict, page_html: bytes) -> list[dict]:
@@ -64,7 +64,7 @@ def meeting_items(meeting: dict, page_html: bytes) -> list[dict]:
         items.append(
             {
                 "id": f"zoo-{day}-{number}",
-                "commission": "zoo",
+                "body": "zoo",
                 "meeting_date": day,
                 "item_number": number,
                 "title": heading.title(),

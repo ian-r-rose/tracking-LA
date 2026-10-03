@@ -32,7 +32,7 @@ def items_url(event_id: int) -> str:
 def parse_events(events: list[dict]) -> list[dict]:
     return [
         {
-            "commission": "metro",
+            "body": "metro",
             "date": datetime.fromisoformat(e["EventDate"]).date(),
             "agenda_url": items_url(e["EventId"]),
             "page_url": e["EventInSiteURL"],
@@ -88,7 +88,7 @@ def meeting_items(meeting: dict, content: bytes) -> list[dict]:
         items.append(
             {
                 "id": item_id(meeting, item),
-                "commission": "metro",
+                "body": "metro",
                 "meeting_date": meeting["date"].isoformat(),
                 "item_number": _number(item),
                 "title": title if len(title) <= 160 else title[:157].rsplit(" ", 1)[0] + "…",

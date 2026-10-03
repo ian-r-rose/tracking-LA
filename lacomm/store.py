@@ -5,11 +5,11 @@ DATA = Path(__file__).resolve().parent.parent / "data"
 
 # Fields owned by the scraper. Everything else (summary, topics, locations, details, flag)
 # is added by later stages and must survive a re-fetch.
-SOURCE_FIELDS = ("id", "commission", "meeting_date", "item_number", "title", "text", "urls")
+SOURCE_FIELDS = ("id", "body", "meeting_date", "item_number", "title", "text", "urls")
 
 
 def item_path(item: dict, root: Path = DATA) -> Path:
-    return root / "items" / item["commission"] / item["meeting_date"][:4] / f"{item['id']}.json"
+    return root / "items" / item["body"] / item["meeting_date"][:4] / f"{item['id']}.json"
 
 
 def upsert_item(item: dict, root: Path = DATA) -> str:

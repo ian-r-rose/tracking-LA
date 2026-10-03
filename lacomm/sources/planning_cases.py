@@ -30,7 +30,7 @@ FEED = "https://planning.lacity.gov/dcpapi/general/newcases"
 
 def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     today = date.today()
-    return [{"commission": "planning-cases", "date": today, "agenda_url": f"{FEED}#{today.isoformat()}"}]
+    return [{"body": "planning-cases", "date": today, "agenda_url": f"{FEED}#{today.isoformat()}"}]
 
 
 def _main_case(cases: list[dict]) -> dict:
@@ -63,7 +63,7 @@ def project_items(feed_json: bytes) -> list[tuple[str, dict]]:
         ]
         item = {
             "id": f"plncase-{main['caseNum']}",
-            "commission": "planning-cases",
+            "body": "planning-cases",
             "meeting_date": filed.isoformat(),
             "item_number": main["caseNum"],
             "title": _short(f"{address}: {desc}" if desc else f"{address} ({main['caseNum']})"),

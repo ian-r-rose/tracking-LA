@@ -53,7 +53,7 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
         page.raise_for_status()
         agenda, exhibits = parse_meeting_page(page.text, page_url)
         if agenda:
-            meetings.append({"commission": "library", "date": day, "agenda_url": agenda, "page_url": page_url, "exhibits": exhibits})
+            meetings.append({"body": "library", "date": day, "agenda_url": agenda, "page_url": page_url, "exhibits": exhibits})
     return meetings
 
 
@@ -78,7 +78,7 @@ def meeting_items(meeting: dict, agenda_pdf: bytes) -> list[dict]:
     return [
         {
             "id": f"library-{day}-{letter}",
-            "commission": "library",
+            "body": "library",
             "meeting_date": day,
             "item_number": letter,
             "title": text,
