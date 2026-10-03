@@ -43,7 +43,7 @@ This lists every item not yet covered by a digest, one line each (score, meeting
 
 **Re-running on the same day** rewrites that day's digest: `score` and `decisions` default to today's date and also list what today's digest already covered. If `data/digests/<today>.md` exists, write it again from scratch, and remove the `flag` field from items you no longer include. Publishing updates the existing issue rather than opening a new one. (`--date YYYY-MM-DD` does the same for an earlier digest.)
 
-For each item you include, add a `flag` field to its JSON file: `{"reason": "<one sentence on why it matters to Ian>"}`.
+For each item you include, add a `flag` field to its JSON file: `{"reason": "<one sentence on why it matters to Ian>"}`. Base the reason on the item, related items in `data/` and `config/interests.yaml` (e.g. "runs through East Hollywood and Koreatown, two of the watched neighborhoods"), never on guesses about Ian's habits or plans ("a corridor Ian travels"). The same goes for the "why it matters" text in the digest.
 
 If reviewing shows an extraction field is wrong (a misspelled street that won't geocode, a missing `parks` tag that a staff report makes obvious, a misleading summary), correct it in the item file, then rerun `uv run lacomm locate` if you changed `locations`. Say what you corrected and why in the commit message; git history is the record. Don't change scraper-owned fields (`lacomm check` rejects that).
 
