@@ -4,7 +4,7 @@ Instructions for the scheduled Claude Code routine that keeps `data/` up to date
 
 ## 1. Fetched data
 
-The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily, including an hour before this routine. It runs there because this routine's sandbox can't reach some commission sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
+The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (09:00 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some commission sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
 
 Check the Fetch commits since the last `Digest` commit (`git log --format='%h %s%n%b' <last digest commit>..HEAD`). If any lists failed sources, name them in the digest's intro (a source that failed once and then succeeded doesn't need a mention). If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary.
 
@@ -36,10 +36,10 @@ Geocodes new locations with the City's locator (cached in `geo/geocode-cache.jso
 ## 4. Digest (main model)
 
 ```
-uv run lacomm score --limit 30
+uv run lacomm score
 ```
 
-This lists items not yet covered by a digest, highest score first, with the reasons for each score. Read the top items' JSON files, and for anything that might matter, the staff reports linked in `urls`. Some sites (ens.lacity.org) can't be reached from this sandbox; work from the item text when a link fails. Metro items link many large attachments (presentations, funding tables, environmental documents): decide from the item text, and open one attachment only when you're including an item whose text doesn't say where the project is. Then decide what is worth Ian's attention. Use the score as a guide, not a cutoff: a high score can be routine (a single-family hillside home), and a low score can matter (a citywide parks policy).
+This lists every item not yet covered by a digest, one line each (score, meeting date, file, reasons for the score, summary), highest score first. Read every line: all of them are marked as covered when this digest is committed, so an item you skip here won't come back. Open the JSON files of items that might matter, and for anything that might matter, the staff reports linked in `urls`. Some sites (ens.lacity.org) can't be reached from this sandbox; work from the item text when a link fails. Metro items link many large attachments (presentations, funding tables, environmental documents): decide from the item text, and open one attachment only when you're including an item whose text doesn't say where the project is. Then decide what is worth Ian's attention. Use the score as a guide, not a cutoff: a high score can be routine (a single-family hillside home), and a low score can matter (a citywide parks policy).
 
 For each item you include, add a `flag` field to its JSON file: `{"reason": "<one sentence on why it matters to Ian>"}`.
 

@@ -162,11 +162,12 @@ def locate() -> None:
         print(f"  near {', '.join(hits)}: {item_id}  {text}  [{hood}]")
 
 
-def score(limit: int) -> None:
+def score(limit: int | None) -> None:
+    """One line per undigested item, so the digest step can review all of them cheaply."""
     ranked = candidates()
     for c in ranked[:limit]:
-        print(f"{c['score']:3}  {c['path']}  [{'; '.join(c['reasons'])}]")
-        print(f"     {c['meeting_date']}  {c['summary']}")
+        reasons = f" [{'; '.join(c['reasons'])}]" if c["reasons"] else ""
+        print(f"{c['score']:2} {c['meeting_date']} {c['path']}{reasons} {c['summary']}")
     print(f"{len(ranked)} undigested item(s)")
 
 
@@ -201,7 +202,7 @@ def main() -> None:
     sub.add_parser("locate", help="Geocode item locations and assign neighborhoods")
     sub.add_parser("build-places", help="Refresh geo/places.json from Rec & Parks data on LA GeoHub")
     p = sub.add_parser("score", help="Rank items not yet in a digest")
-    p.add_argument("--limit", type=int, default=30)
+    p.add_argument("--limit", type=int, help="Show only the top N (default: all)")
     p = sub.add_parser("mark-digested", help="Record that all undigested items were covered by a digest")
     p.add_argument("date", help="Digest date, YYYY-MM-DD")
     p = sub.add_parser("site", help="Build the static site")

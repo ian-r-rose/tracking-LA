@@ -1,13 +1,14 @@
 name: Fetch
 
 # Fetches agendas and records outcomes, then commits the data. Daily, so the commit
-# that adds an item records when its agenda was first seen; on Mon/Thu it runs an
-# hour before the Claude routine (14:00 UTC). This runs here rather than in the
+# that adds an item records when its agenda was first seen; scheduled five hours
+# before the Claude routine (Mon/Thu 14:00 UTC) because GitHub can start scheduled
+# runs hours late. This runs here rather than in the
 # routine because the routine's sandbox proxy can't reach ens.lacity.org (LADOT, DWP).
 
 on:
   schedule:
-    - cron: "0 13 * * *"
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 concurrency:
