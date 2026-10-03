@@ -27,6 +27,7 @@ neighborhoods:
   - Highland Park
   - Pico-Union
   - Griffith Park  # includes the LA Zoo
+  - Elysian Valley  # Frogtown
 
 # Points for location: inside a listed neighborhood, or within nearby_km of one.
 in_neighborhood: 4
