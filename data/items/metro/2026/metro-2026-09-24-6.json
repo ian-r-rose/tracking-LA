@@ -15,6 +15,20 @@
     "status": "approved",
     "text": "APPROVED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-03",
+    "digest": "2026-10-03"
+  },
+  "summary": "Approves programming of $5.18 million within Measure M Multi-Year Subregional Program for Active Transportation projects and authorizes CEO to negotiate agreements.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "2026-0532"
+    ],
+    "action": "program funding approval",
+    "amount": "$5,183,184"
+  },
+  "digest": "2026-10-03"
 }

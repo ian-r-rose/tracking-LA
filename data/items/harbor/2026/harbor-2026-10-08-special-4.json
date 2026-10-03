@@ -11,5 +11,20 @@
     "https://kentico.portoflosangeles.org/getmedia/5a325fd6-8e95-40d4-8f6e-a5818c781315/04_Cargo-Marketing_FTZ-CSI-Site-55_-Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/3fb49547-62e1-4500-a372-ceef51c8ad1c/04_Cargo-Marketing_FTZ-CSI-Site-55_-Transmittal-2",
     "https://kentico.portoflosangeles.org/getmedia/450cf5b9-83bc-4568-8184-efc3e11da409/04_Cargo-Marketing_FTZ-CSI-Site-55_-Transmittal-3"
-  ]
+  ],
+  "summary": "Approval of Foreign-Trade Zone operating agreement with California Steel Industries, Inc. for steel production facility at 1400 San Bernardino Avenue, Fontana, CA.",
+  "topics": [
+    "land_use",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1400 San Bernardino Avenue, Fontana, CA"
+    }
+  ],
+  "details": {
+    "action": "approve FTZ operating agreement",
+    "applicant": "California Steel Industries, Inc."
+  },
+  "digest": "2026-10-03"
 }

@@ -47,6 +47,13 @@
   "lon": -118.44819,
   "score": 90
  },
+ "13375-13413 West Mulholland Drive": {
+  "address": "13413 W MULHOLLAND DR, 90210",
+  "lat": 34.130228,
+  "lon": -118.424408,
+  "score": 89.66
+ },
+ "1400 San Bernardino Avenue, Fontana": null,
  "1425 North Vermont": {
   "address": "1425 N VERMONT AVE, 90027",
   "lat": 34.097315,
@@ -76,6 +83,12 @@
   "lat": 34.250909,
   "lon": -118.468976,
   "score": 99.06
+ },
+ "16142 West Royal Oak Road": {
+  "address": "16142 W ROYAL OAK ROAD, 91436",
+  "lat": 34.142132,
+  "lon": -118.483302,
+  "score": 100
  },
  "1620 West 30th Street": {
   "address": "1620 W 30TH ST, 90018",
@@ -131,6 +144,7 @@
   "lon": -118.568938,
   "score": 88
  },
+ "1st Street, Long Beach": null,
  "200 South Orange Drive": {
   "address": "200 S ORANGE DR, 90036",
   "lat": 34.071,
@@ -190,6 +204,12 @@
   "lat": 34.059632,
   "lon": -118.278798,
   "score": 99.06
+ },
+ "2354 North Gloaming Way": {
+  "address": "2354 N GLOAMING WAY, 90210",
+  "lat": 34.115372,
+  "lon": -118.402129,
+  "score": 100
  },
  "2361 Fox Hills Drive": {
   "address": "2361 S FOX HILLS DR, 90064",
@@ -263,6 +283,12 @@
   "lon": -118.305412,
   "score": 100
  },
+ "3019-3025 ½ East 4th Street": {
+  "address": "3025 1/2 E 4TH ST, 90063",
+  "lat": 34.036532,
+  "lon": -118.202469,
+  "score": 89.57
+ },
  "305 East Rose Avenue": {
   "address": "305 E ROSE AVE, 90291",
   "lat": 33.996686,
@@ -305,11 +331,23 @@
   "lon": -118.327366,
   "score": 100
  },
+ "3947 North Fredonia Drive": {
+  "address": "3947 N FREDONIA DR, 90068",
+  "lat": 34.135363,
+  "lon": -118.36509,
+  "score": 100
+ },
  "4127 East Supreme Court": {
   "address": "4127 N SUPREME CT, 90032",
   "lat": 34.077407,
   "lon": -118.194731,
   "score": 92.78
+ },
+ "4200 West 28th Street": {
+  "address": "4200 W 28TH ST, 90018",
+  "lat": 34.031178,
+  "lon": -118.331679,
+  "score": 100
  },
  "4533 North Laurel Canyon Boulevard": {
   "address": "4533 N LAUREL CANYON BLVD, 91607",
@@ -445,6 +483,12 @@
   "lon": -118.309421,
   "score": 100
  },
+ "818 West 7th Street": {
+  "address": "818 W 7TH ST, 90731",
+  "lat": 33.737948,
+  "lon": -118.294995,
+  "score": 100
+ },
  "822 North Oneonta Drive": {
   "address": "822 W ONEONTA DR, 90065",
   "lat": 34.111335,
@@ -541,13 +585,24 @@
   "lon": -118.278293,
   "score": 96.74
  },
+ "Burbank Airport-South Metrolink Station": null,
  "Carlin G. Smith City Park": null,
  "Carson": null,
+ "Cesar E. Chavez Avenue & Fickett Street": {
+  "address": "E CESAR E CHAVEZ AVE & N FICKETT ST, 90033",
+  "lat": 34.045938,
+  "lon": -118.205825,
+  "score": 98.18
+ },
+ "Doran Street": null,
+ "East San Fernando Valley": null,
  "Griffith Park": null,
  "Griffith Park Golf Complex": null,
  "Hansen Dam Horse Park": null,
+ "Harbor Animal Services Center": null,
  "Holleigh Bernson Park": null,
  "Hollenbeck Park": null,
+ "Hollywood Community Police Station": null,
  "Hyperion Water Reclamation Plant": null,
  "James M. Wood Boulevard & 11th Street": null,
  "Jane and Bert Boeckmann Park": null,
@@ -569,6 +624,7 @@
  },
  "Main Street": null,
  "Mount Carmel Park": null,
+ "Northeast Community Police Station": null,
  "Northridge Recreation Center": null,
  "Ohio Avenue & Sepulveda Boulevard": {
   "address": "W OHIO AVE & S SEPULVEDA BLVD, 90025",
@@ -583,10 +639,16 @@
  "Palisades Tennis Courts": null,
  "Pio Pico Library": null,
  "Poinsettia Park": null,
+ "Pomona-Downtown Metrolink Station": null,
  "Port of Los Angeles": null,
+ "Rampart Community Police Station": null,
  "Rancho Park Golf Course": null,
  "SYLMAR FIRE STATION No. 31": null,
+ "San Bernardino Line, Los Angeles County": null,
+ "Santa Barbara": null,
  "Sepulveda House": null,
+ "Shoreline Drive, Long Beach": null,
+ "Southeast Community Police Station": null,
  "Spring Street & Alameda Street": {
   "address": "N NORTH SPRING ST & N ALAMEDA ST, 90012",
   "lat": 34.063065,
@@ -607,11 +669,26 @@
   "score": 98.18
  },
  "Van Nuys Airport": null,
+ "Van Nuys Community Police Station": null,
  "Van Nuys Sherman Oaks War Memorial Park": null,
  "Vanalden Avenue & Balboa Boulevard": null,
  "Venice Beach": null,
  "Venice Beach Recreation Center": null,
+ "Vermont Ave & 120th St": {
+  "address": "S VERMONT AVE & W 120TH ST, 90044",
+  "lat": 33.923691,
+  "lon": -118.291838,
+  "score": 98.18
+ },
+ "Vermont Ave & Sunset Blvd": {
+  "address": "N VERMONT AVE & W SUNSET BLVD, 90027",
+  "lat": 34.098156,
+  "lon": -118.29177,
+  "score": 98.18
+ },
+ "Vermont Transit Corridor": null,
  "Warner Grand Theatre": null,
+ "West Los Angeles Community Police Station": null,
  "Westchester Park": null,
  "Westwood Park": null,
  "Wilshire Boulevard & Hoover Street": {
@@ -620,6 +697,14 @@
   "lon": -118.284228,
   "score": 98.18
  },
+ "Wilshire Boulevard & La Brea Avenue": {
+  "address": "W WILSHIRE BLVD & S LA BREA AVE, 90036",
+  "lat": 34.062174,
+  "lon": -118.344069,
+  "score": 98.18
+ },
+ "Wilshire Boulevard & UCLA": null,
+ "Wilshire Boulevard & VA Medical Center": null,
  "Winward Plaza": null,
  "Ziegler Estate": null
 }

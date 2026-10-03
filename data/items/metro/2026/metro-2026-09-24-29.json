@@ -13,6 +13,23 @@
     "status": "approved",
     "text": "APPROVED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-03",
+    "digest": "2026-10-03"
+  },
+  "summary": "Directing the CEO to develop a plan to increase participation in Metro's subsidized fare and fareless programs by at least 30 percent, with a report within 90 days identifying enrollment barriers, strategies for expansion, and opportunities to simplify enrollment and digital access.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "2026-0689"
+    ],
+    "action": "Plan to expand subsidized and fareless fare program participation"
+  },
+  "flag": {
+    "reason": "Aims to raise enrollment in Metro's subsidized and free fare programs by 30 percent."
+  },
+  "digest": "2026-10-03"
 }

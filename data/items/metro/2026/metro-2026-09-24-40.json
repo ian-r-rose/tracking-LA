@@ -17,6 +17,20 @@
     "status": "approved",
     "text": "APPROVED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-03",
+    "digest": "2026-10-03"
+  },
+  "summary": "Authorizes contract modification with Bicycle Transit Systems, Inc. for grant-funded expansion of Metro Bike Share system, adding $7.55 million to the contract value.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "2026-0672"
+    ],
+    "action": "contract modification",
+    "amount": "$7,550,000"
+  },
+  "digest": "2026-10-03"
 }

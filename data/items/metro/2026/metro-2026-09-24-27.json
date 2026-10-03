@@ -13,6 +13,23 @@
     "status": "approved",
     "text": "APPROVED AS AMENDED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-03",
+    "digest": "2026-10-03"
+  },
+  "summary": "Directing the CEO to establish criteria for Open Streets grant applications with a maximum of $250,000 per event and a minimum of 3 consecutive miles of street closure, and to report back within 120 days on funding alternatives for programs beginning in FY 2028.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "2026-0688"
+    ],
+    "action": "Establishing Open Streets grant criteria and funding framework"
+  },
+  "flag": {
+    "reason": "Sets a $250,000 cap and minimum route length for Open Streets grants, shaping which street-closure events get funded."
+  },
+  "digest": "2026-10-03"
 }

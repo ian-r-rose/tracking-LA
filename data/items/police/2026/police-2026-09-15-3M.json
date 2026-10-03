@@ -7,5 +7,20 @@
   "text": "[3. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated September 9, 2026, relative to a donation valued at $1,500.00 to\n  fund the Crime Intelligence Analyst Seminar, as set forth.  [BPC #26-270]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261200072_09152026.pdf"
-  ]
+  ],
+  "summary": "Approval of $1,500 donation to fund the Crime Intelligence Analyst Seminar.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPC #26-270"
+    ],
+    "amount": "$1,500.00",
+    "action": "Approve donation",
+    "bureau": "LAPD"
+  },
+  "digest": "2026-10-03"
 }

@@ -7,5 +7,28 @@
   "text": "[D. PUBLIC HEARINGS regarding EXPORT-IMPORT applications pursuant to Section 91.7006.7.5]\n2354 NORTH GLOAMING WAY; BOARD FILE NO. 250904\n  C.D.: 5 (Councilmember Katy Young Yaroslavsky); Bel Air – Beverly Crest Planning Area\n\n  STAFF MEMBER:  Joaquin Greenough\n  BUREAU/DIVISION:  Inspection/Grading\n\n  APPLICANT:  EZ Permits, LLC – Hoa “Sean” Nguyen\n\n  Consideration of Application to export 2,223 cubic yards of earth from the project site; and\n  consideration whether the project is categorically exempt under CEQA pursuant to Section\n  15303 (Class 3) of the California Environmental Quality Act (CEQA) Guidelines (Case No. ENV-\n  2023-747-CE), and there is no substantial evidence demonstrating that an exception to a\n  categorical exemption pursuant to CEQA Guidelines, Section 15300.2 applies.\n\n  ACTION BY THE BBSC IS APPEALABLE TO THE CITY COUNCIL WITHIN TEN DAYS PURSUANT TO\n  SECTION 91.7006.7.5.",
   "urls": [
     "https://ens.lacity.org/ladbs/commagendas/ladbscommagendas253200178_09222026.pdf"
-  ]
+  ],
+  "summary": "Consideration of application to export 2,223 cubic yards of earth from 2354 North Gloaming Way in Bel Air, with CEQA categorical exemption review.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "2354 North Gloaming Way, Los Angeles, CA",
+      "lat": 34.115372,
+      "lon": -118.402129,
+      "neighborhood": "Beverly Crest"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2023-747-CE"
+    ],
+    "council_district": 5,
+    "plan_area": "Bel Air – Beverly Crest",
+    "action": "consideration of export application",
+    "applicant": "EZ Permits, LLC"
+  },
+  "digest": "2026-10-03"
 }

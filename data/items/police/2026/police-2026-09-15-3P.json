@@ -7,5 +7,20 @@
   "text": "[3. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated August 25, 2026, relative to a donation valued at $13,286.34 for\n  Special Weapons and Tactics equipment, as set forth.  [BPC #26-273]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261200072_09152026.pdf"
-  ]
+  ],
+  "summary": "Approval of $13,286.34 donation for Special Weapons and Tactics equipment.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPC #26-273"
+    ],
+    "amount": "$13,286.34",
+    "action": "Approve donation",
+    "bureau": "LAPD"
+  },
+  "digest": "2026-10-03"
 }

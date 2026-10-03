@@ -7,5 +7,20 @@
   "text": "[3. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated September 1, 2026, relative to a donation valued at $5,000.00\n  for Hollywood Community Police Station equipment, as set forth.  [BPC #26-272]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261200072_09152026.pdf"
-  ]
+  ],
+  "summary": "Approval of $5,000 donation for Hollywood Community Police Station equipment.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPC #26-272"
+    ],
+    "amount": "$5,000.00",
+    "action": "Approve donation",
+    "bureau": "LAPD"
+  },
+  "digest": "2026-10-03"
 }

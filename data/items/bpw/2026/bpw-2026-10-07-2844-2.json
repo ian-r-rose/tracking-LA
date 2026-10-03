@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25089",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=29345f32-ff12-4da7-936a-e34f4fac0e2a"
-  ]
+  ],
+  "summary": "Stop notice in the amount of $49,973.79 from WGJ Enterprises, Inc. for highway safety improvement program striping and markings work.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$49,973.79",
+    "action": "stop notice transmission",
+    "applicant": "WGJ Enterprises, Inc."
+  },
+  "digest": "2026-10-03"
 }

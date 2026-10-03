@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25089",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bf85901d-6a81-4e46-99e8-2b09e5e9952a"
-  ]
+  ],
+  "summary": "Authority for Expenditure of $156,000 to pay SCAQMD (South Coast Air Quality Management District) fees and licenses for July 2026 through June 2027.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$156,000",
+    "action": "authority for expenditure",
+    "council_district": 15,
+    "bureau": "Bureau of Sanitation"
+  },
+  "digest": "2026-10-03"
 }

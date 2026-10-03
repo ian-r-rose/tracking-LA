@@ -15,6 +15,24 @@
     "status": "approved",
     "text": "APPROVED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-03",
+    "digest": "2026-10-03"
+  },
+  "summary": "Approving the use of $1 million in Proposition C funding for Open and Slow Streets Cycle 8 operational events between September 2026 and March 2028, and amending the FY27 budget to authorize the expenditure.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "2026-0583"
+    ],
+    "action": "Funding allocation for Open and Slow Streets program",
+    "amount": "$1,000,000"
+  },
+  "flag": {
+    "reason": "Funds the next round of Open and Slow Streets events (CicLAvia-style street closures) through March 2028."
+  },
+  "digest": "2026-10-03"
 }

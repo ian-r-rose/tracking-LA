@@ -15,6 +15,25 @@
     "status": "approved",
     "text": "APPROVED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-03",
+    "digest": "2026-10-03"
+  },
+  "summary": "Metro Board establishes $116,242,594 life-of-project budget for the Doran Street Grade Separation Project.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Doran Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "establish project budget",
+    "amount": "$116,242,594",
+    "case_numbers": [
+      "2026-0529"
+    ]
+  },
+  "digest": "2026-10-03"
 }

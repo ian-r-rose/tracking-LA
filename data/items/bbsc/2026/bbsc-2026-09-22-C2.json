@@ -7,5 +7,28 @@
   "text": "[C. PUBLIC NUISANCE HEARINGS regarding the abatement of vacant buildings or structures that are]\n4200 WEST 28TH STREET, A.K.A. 4200-4206 WEST 28TH STREET; BOARD FILE NO. 260070\n  C.D.: 10 (Councilmember Heather Hutt); West Adams – Baldwin Hills - Leimert Planning Area\n\n  STAFF MEMBER:  Zeydi Stewart\n  BUREAU/DIVISION:  Code Enforcement/Vacant Building Abatement\n\n  OWNER:  Carol A. Boucher Revocable TRS – c/o Joan Boucher\n\n  SUBJECT:\n\n  The Department of Building and Safety (LADBS) requests that the Board of Building and\n  Safety Commissioners (BBSC) determine that the subject property, consisting of four dwelling\n  units configured as two two-story duplex dwellings with a detached accessory garage building,\n  constitutes a public nuisance due to the property having been repeatedly breached and\n  continuously maintained in an unsecured condition, thereby facilitating unauthorized entry and\n  occupancy.\n\n  ACTION BY THE BBSC IS NOT APPEALABLE.",
   "urls": [
     "https://ens.lacity.org/ladbs/commagendas/ladbscommagendas253200178_09222026.pdf"
-  ]
+  ],
+  "summary": "Public nuisance hearing for property at 4200 West 28th Street, a four-unit dwelling, regarding breach and unsecured conditions facilitating unauthorized entry.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "4200 West 28th Street, Los Angeles, CA",
+      "lat": 34.031178,
+      "lon": -118.331679,
+      "neighborhood": "Jefferson Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "260070"
+    ],
+    "council_district": 10,
+    "plan_area": "West Adams – Baldwin Hills - Leimert",
+    "action": "public nuisance hearing",
+    "bureau": "Code Enforcement/Vacant Building Abatement"
+  },
+  "digest": "2026-10-03"
 }

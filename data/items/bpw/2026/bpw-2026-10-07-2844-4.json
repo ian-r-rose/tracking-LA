@@ -8,5 +8,14 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25089",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e51219d-806d-4ec4-8fc5-659a26716669"
-  ]
+  ],
+  "summary": "Authorization for Inspector of Public Works to issue task order solicitation for content management and customer relationship management services from Information Technology Agency's bench contract.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "authorization of task order solicitation"
+  },
+  "digest": "2026-10-03"
 }

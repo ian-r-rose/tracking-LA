@@ -7,5 +7,20 @@
   "text": "[3. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated August 24, 2026, relative to a donation valued at $15,000.00 to\n  support the LAPD Hockey Team, as set forth.  [BPC #26-274]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261200072_09152026.pdf"
-  ]
+  ],
+  "summary": "Approval of $15,000 donation to support the LAPD Hockey Team.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPC #26-274"
+    ],
+    "amount": "$15,000.00",
+    "action": "Approve donation",
+    "bureau": "LAPD"
+  },
+  "digest": "2026-10-03"
 }
