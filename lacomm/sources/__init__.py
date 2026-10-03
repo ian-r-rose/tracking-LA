@@ -19,6 +19,9 @@ class Source:
     meeting_items: Callable  # (meeting, agenda bytes) -> list[item]
     outcome_url: Callable | None = None  # (meeting) -> URL of its journal/minutes, or None
     meeting_outcomes: Callable | None = None  # (meeting, record bytes) -> {item id: outcome}
+    # For lacomm canary, when meeting_items can legitimately return nothing (it filters):
+    # (meeting, agenda bytes) -> items before filtering.
+    canary_items: Callable | None = None
 
 
 SOURCES = [
@@ -38,7 +41,10 @@ SOURCES = [
         meeting_outcomes=lambda m, pdf: rap.minutes_outcomes(m, pdf_text(pdf)),
     ),
     Source("tree postings", trees.list_meetings, trees.meeting_items),
-    Source("planning cases", planning_cases.list_meetings, planning_cases.meeting_items),
+    Source(
+        "planning cases", planning_cases.list_meetings, planning_cases.meeting_items,
+        canary_items=lambda m, feed: planning_cases.project_items(feed),
+    ),
     Source("cultural affairs", cultural.list_meetings, cultural.meeting_items),
     Source("el pueblo", elpueblo.list_meetings, elpueblo.meeting_items),
     Source("zoo", zoo.list_meetings, zoo.meeting_items),

@@ -45,7 +45,7 @@ jobs:
             {
               echo "Fetch $(TZ=America/Los_Angeles date +%F)"
               echo
-              grep -h "failed:" fetch.log outcomes.log || true
+              grep -h "failed:\|empty:" fetch.log outcomes.log || true
             } > msg.txt
             git commit -q -F msg.txt
             git push

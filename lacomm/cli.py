@@ -11,6 +11,7 @@ import httpx
 import yaml
 
 from lacomm import http_client
+from lacomm import canary
 from lacomm.check import check_all
 from lacomm.outcomes import PROCESSED, normalize_status, record
 from lacomm.geo import Geocoder, Neighborhoods, Places, build_places
@@ -34,7 +35,7 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
     start, end = today - timedelta(days=since_days), today + LOOKAHEAD
     seen: dict = json.loads(AGENDAS.read_text()) if AGENDAS.exists() else {}
     counts = Counter()
-    failed = []
+    failed, empty = [], []
     with http_client(timeout=60) as client:
         todo = []
         for source in SOURCES:
@@ -65,13 +66,18 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
                 for source, meeting, content in pool.map(download, todo):
                     if content is None:
                         continue
-                    for item in source.meeting_items(meeting, content):
+                    items = source.meeting_items(meeting, content)
+                    if not items and not source.canary_items:  # a filtering source can come up empty
+                        empty.append(meeting["agenda_url"])
+                    for item in items:
                         counts[upsert_item(item)] += 1
                     seen[meeting["agenda_url"]] = meeting["date"].isoformat()
                     counts["fetched"] += 1
         finally:
             AGENDAS.write_text(json.dumps(seen, indent=1, sort_keys=True) + "\n")
     print(", ".join(f"{k}: {v}" for k, v in counts.items() if v) or "nothing found")
+    for url in empty:
+        print(f"  empty: {url} produced no items (a format change, or nothing but standing items)")
     for failure in failed:
         print(f"  failed: {failure}")
     if failed:
@@ -237,6 +243,7 @@ def main() -> None:
     p = sub.add_parser("decisions", help="List recorded outcomes not yet reported in a digest")
     p.add_argument("--date", default=la_today(), help="Digest date; outcomes already in it are listed too (default: today in LA)")
     sub.add_parser("check", help="Validate item files (run after extraction)")
+    sub.add_parser("canary", help="Check against the live sites that every source still lists meetings and parses items")
     sub.add_parser("locate", help="Geocode item locations and assign neighborhoods")
     sub.add_parser("build-places", help="Refresh geo/places.json from Rec & Parks data on LA GeoHub")
     p = sub.add_parser("score", help="Rank items not yet in a digest")
@@ -264,6 +271,11 @@ def main() -> None:
         decisions(args.date)
     elif args.command == "site":
         print(f"built {args.out}/ with {build_site(Path(args.out))} digest(s)")
+    elif args.command == "canary":
+        with http_client(timeout=120) as client:
+            problems = canary.run(client)
+        print(f"{problems} source(s) with problems" if problems else "all sources OK")
+        sys.exit(1 if problems else 0)
     elif args.command == "check":
         bad = check_all()
         print(f"{bad} item file(s) with problems" if bad else "all items OK")

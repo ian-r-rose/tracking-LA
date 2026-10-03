@@ -1,0 +1,20 @@
+name: Canary
+
+# Weekly check against the live sites that every source still lists meetings and
+# parses agendas into items, so a redesigned commission site fails loudly (GitHub
+# emails on failure) instead of quietly producing nothing. Runs Sunday, before the
+# Monday digest.
+
+on:
+  schedule:
+    - cron: "0 12 * * 0"
+  workflow_dispatch:
+
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
+      - run: sudo apt-get install -y poppler-utils
+      - run: uv run lacomm canary

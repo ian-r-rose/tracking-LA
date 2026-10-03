@@ -6,7 +6,7 @@ Instructions for the scheduled Claude Code routine that keeps `data/` up to date
 
 The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (09:00 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some commission sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
 
-Check the Fetch commits since the last `Digest` commit (`git log --format='%h %s%n%b' <last digest commit>..HEAD`). If any lists failed sources, name them in the digest's intro (a source that failed once and then succeeded doesn't need a mention). If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary.
+Check the Fetch commits since the last `Digest` commit (`git log --format='%h %s%n%b' <last digest commit>..HEAD`). If any lists failed sources, name them in the digest's intro (a source that failed once and then succeeded doesn't need a mention). If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary. An `empty:` line means an agenda produced no items, which can be a changed agenda format; mention those in your final summary too, not in the digest.
 
 ## 2. Extract (Haiku subagents)
 
