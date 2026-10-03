@@ -28,8 +28,9 @@ class Format:
     ignore_line: re.Pattern | None = None  # page headers, footers, page numbers
     end_agenda: re.Pattern | None = None
     listing_title: re.Pattern | None = None  # only listing links whose text matches
-    # Prefix item numbers with the first character of their section (DWP restarts numbering
-    # in each lettered section: N.1, K.1 -> "N1", "K1").
+    # Prefix item numbers with their section's number or letter (DWP restarts numbering in
+    # each lettered section: N.1, K.1 -> "N1", "K1"; Police letters items in numbered
+    # sections: 4.A -> "4A").
     number_with_section: bool = False
 
 
@@ -63,10 +64,41 @@ BUILDING_AND_SAFETY = Format(
     item_start=re.compile(r"^\s{4,16}(\d{1,2})\.\s+(\S.*)$"),
     skip_item=re.compile(r"^Election of|^[A-Z][a-z]+ \d{1,2}, \d{4}"),  # officer elections, minutes approvals
     section=re.compile(r"^\s{0,8}([A-Z]\.\s+\S.*?)\s*$"),
-    # Page headers and footers; also owner and appellant names, which are often private
-    # individuals (owners of vacant homes, neighbors appealing).
-    ignore_line=re.compile(r"^AGENDA OF THE\s|^BOARD OF BUILDING AND SAFETY COMMISSIONERS\s{2,}|^LADBS G-5|^\s+(OWNER|APPELLANT)S?:"),
+    ignore_line=re.compile(r"^AGENDA OF THE\s|^BOARD OF BUILDING AND SAFETY COMMISSIONERS\s{2,}|^LADBS G-5"),  # page headers, footers
     end_agenda=re.compile(r"^[A-Z]\.\s+Public Comments", re.I),
+    number_with_section=True,
+)
+
+# Police, Fire and Animal Services: numbered sections with lettered items.
+POLICE = Format(
+    commission="police",
+    listing_url="https://ens.lacity.org/lapd/ens_lapd_agenda.htm",
+    item_start=re.compile(r"^\s{6,10}([A-Z])\.\s+(\S.*)$"),
+    section=re.compile(r"^(\d{1,2}\.\s+\S.*?)\s*$"),
+    end_agenda=re.compile(r"^\d{1,2}\.\s+CLOSED SESSION"),  # personnel and litigation, not public decisions
+    number_with_section=True,
+)
+
+FIRE = Format(
+    commission="fire",
+    listing_url="https://ens.lacity.org/lafd/ens_lafd_agenda.htm",
+    listing_title=re.compile(r"Agenda", re.I),  # not the yearly meeting schedule
+    item_start=re.compile(r"^\s{4,8}([A-Z])\.\s+(\S.*)$"),
+    skip_item=re.compile(r"^Announcements|^Oral report", re.I),
+    section=re.compile(r"^\s{0,3}(\d{1,2}\.\s+\S.*?)\s*$"),
+    ignore_line=re.compile(r"EQUAL EMPLOYMENT OPPORTUNITY EMPLOYER|^\s*www\.lafd\.org|^Board of Fire Commission\s{3,}"),
+    end_agenda=re.compile(r"^ADJOURNMENT"),
+    number_with_section=True,
+)
+
+ANIMAL_SERVICES = Format(
+    commission="animal",
+    listing_url="https://ens.lacity.org/animal/ens_animal_agenda.htm",
+    item_start=re.compile(r"^\s{6,10}([A-Z])\.\s+(\S.*)$"),
+    skip_item=re.compile(r"^Approval of (the )?Minutes", re.I),
+    section=re.compile(r"^\s{2,5}(\d{1,2}\.\s+\S.*?)\s*$"),
+    ignore_line=re.compile(r"Please join us at our website|^Board of Animal Services Commissioners Meeting\s*$|^Meeting Agenda \w+ \d|^Page \d+\s*$"),
+    end_agenda=re.compile(r"^ADJOURNMENT"),
     number_with_section=True,
 )
 
@@ -81,7 +113,7 @@ RECREATION_AND_PARKS = Format(
 
 # Rec & Parks agendas are fetched from Rec & Parks' own site (lacomm.sources.rap), which
 # also has minutes and extra documents; RECREATION_AND_PARKS is still the agenda format.
-FORMATS = [TRANSPORTATION, WATER_AND_POWER, BUILDING_AND_SAFETY]
+FORMATS = [TRANSPORTATION, WATER_AND_POWER, BUILDING_AND_SAFETY, POLICE, FIRE, ANIMAL_SERVICES]
 
 
 def meeting_date(title: str, href: str) -> date | None:
@@ -96,16 +128,22 @@ def meeting_date(title: str, href: str) -> date | None:
 def list_meetings(fmt: Format, start: date, end: date, client: httpx.Client) -> list[dict]:
     resp = client.get(fmt.listing_url)
     resp.raise_for_status()
-    meetings = []
+    listed, cancelled = [], set()
     for href, title in re.findall(r'href="([^"]+\.pdf)"[^>]*>(.*?)</a>', resp.text, re.S | re.I):
         title = re.sub(r"<[^>]+>|\s+", " ", title).strip()
         if fmt.listing_title and not fmt.listing_title.search(title):
             continue
         when = meeting_date(title, href)
-        if not when or not start <= when <= end or "cancel" in title.lower():
+        if not when or not start <= when <= end:
             continue
-        meetings.append({"commission": fmt.commission, "date": when, "agenda_url": urljoin(fmt.listing_url, href)})
-    return meetings
+        # A cancellation notice can sit beside the agenda it cancels; drop both. A
+        # "Cancellations & Additions" notice (Building and Safety) amends an agenda instead.
+        if "cancel" in title.lower():
+            if "addition" not in title.lower():
+                cancelled.add(when)
+            continue
+        listed.append({"commission": fmt.commission, "date": when, "agenda_url": urljoin(fmt.listing_url, href)})
+    return [m for m in listed if m["date"] not in cancelled]
 
 
 def split_agenda(fmt: Format, text: str) -> list[tuple[str, str, str | None]]:
@@ -120,7 +158,7 @@ def split_agenda(fmt: Format, text: str) -> list[tuple[str, str, str | None]]:
             continue
         if m := fmt.item_start.match(line):
             current = [m.group(2)]
-            number = (section[0] if fmt.number_with_section and section else "") + m.group(1)
+            number = (re.match(r"\w+", section).group() if fmt.number_with_section and section else "") + m.group(1)
             items.append((number, current, section))
         elif fmt.section and (m := fmt.section.match(line)):
             section, current = re.sub(r"\s+", " ", m.group(1)).strip(), None

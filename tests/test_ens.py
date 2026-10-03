@@ -39,12 +39,41 @@ def test_dwp_numbers_items_by_section_and_titles_skip_recommended_by():
     assert "Adjournment" not in items[-1]["text"]
 
 
-def test_building_and_safety_haul_routes_without_owner_names():
+def test_building_and_safety_haul_routes():
     items = ens.split_agenda(ens.BUILDING_AND_SAFETY, agenda("bbsc-2026-07-28"))
     # Officer elections (section A) are skipped; numbering is per lettered section.
     assert [number for number, _, _ in items] == ["D1", "D2", "E1", "E2", "E3", "E4", "E5"]
     number, text, section = items[-1]
     assert section.startswith("E. PUBLIC HEARINGS regarding EXPORT-IMPORT")
     assert "SAN RAFAEL AVENUE" in text and "7,505 cubic yards" in text
-    assert all("OWNER" not in text for _, text, _ in items)
     assert all("BOARD OF BUILDING AND SAFETY COMMISSIONERS  " not in text for _, text, _ in items)
+
+
+def test_police_fire_animal_letter_items_within_numbered_sections():
+    police = ens.split_agenda(ens.POLICE, agenda("police-2026-09-29"))
+    assert [n for n, _, _ in police] == ["4A", "4B", "4C", "4D", "4E", "4F", "4G", "4H", "4I", "5A", "5B"]
+    assert all("PUBLIC EMPLOYEE" not in t for _, t, _ in police)  # closed session dropped
+    fire = ens.split_agenda(ens.FIRE, agenda("fire-2026-09-15"))
+    assert [n for n, _, _ in fire] == ["4A", "4B", "4C"]  # oral reports skipped
+    assert all("EQUAL EMPLOYMENT" not in t for _, t, _ in fire)
+    animal = ens.split_agenda(ens.ANIMAL_SERVICES, agenda("animal-2026-09-08"))
+    assert [n for n, _, _ in animal] == ["3A", "3B", "3C", "3D"]  # minutes approval skipped
+    assert "Please join us" not in animal[2][1]
+
+
+def test_cancellation_notice_drops_the_agenda_beside_it():
+    class Listing:
+        text = """
+        <a href="a/x_09222026.pdf">Board Meeting - September 22, 2026</a>
+        <a href="a/y_09222026.pdf">Cancellation Notice - Board Meeting - September 22, 2026</a>
+        <a href="a/z_09082026.pdf">Board Meeting - September 8, 2026</a>
+        <a href="a/w_05052026.pdf">Meeting Agenda - Cancellations &amp; Additions</a>
+        <a href="a/v_05052026.pdf">Meeting Agenda</a>
+        """
+        def raise_for_status(self): pass
+
+    class Client:
+        def get(self, url): return Listing()
+
+    meetings = ens.list_meetings(ens.ANIMAL_SERVICES, date(2026, 1, 1), date(2026, 12, 31), Client())
+    assert [m["date"] for m in meetings] == [date(2026, 9, 8), date(2026, 5, 5)]

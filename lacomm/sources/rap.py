@@ -21,7 +21,7 @@ SITE = "https://recreation.parks.lacity.gov"
 YEAR_PAGE = SITE + "/commissioners/agendas-minutes-reports/{year}"
 REPORT_NUMBER = re.compile(r"^\d{2}-\d{3}$")
 
-# Bundles of public comment letters from residents: not Board actions, and they name private people.
+# Bundles of public comment letters from residents: not Board actions.
 SKIP_DOCUMENT = re.compile(r"documents?[ -]received|constituent", re.IGNORECASE)
 
 # Extra documents get the start of their own text as item text; enough for extraction.

@@ -21,6 +21,8 @@ BODIES = {"Board of Directors - Regular Board Meeting", "Board of Directors - Sp
 # Standing items with a matter number but nothing to decide.
 SKIP = re.compile(r"^(APPROVE Minutes|RECEIVE remarks by the Chair|RECEIVE report by the Chief Executive Officer|RECEIVE General Public Comment)", re.I)
 COMMITTEE = re.compile(r"COMMITTEE (MADE|FORWARDED) THE FOLLOWING", re.I)
+# Minutes of earlier meetings ride along on some items but aren't about them.
+SKIP_ATTACHMENT = re.compile(r"minutes", re.I)
 
 
 def items_url(event_id: int) -> str:
@@ -78,7 +80,11 @@ def meeting_items(meeting: dict, content: bytes) -> list[dict]:
         if heading:
             text = f"[{heading}]\n{text}"
         matter = f"https://metro.legistar.com/LegislationDetail.aspx?ID={item['EventItemMatterId']}&GUID={item['EventItemMatterGuid']}"
-        attachments = [a["MatterAttachmentHyperlink"] for a in item["EventItemMatterAttachments"] or [] if a["MatterAttachmentShowOnInternetPage"]]
+        attachments = [
+            a["MatterAttachmentHyperlink"]
+            for a in item["EventItemMatterAttachments"] or []
+            if a["MatterAttachmentShowOnInternetPage"] and not SKIP_ATTACHMENT.search(a["MatterAttachmentName"])
+        ]
         items.append(
             {
                 "id": item_id(meeting, item),

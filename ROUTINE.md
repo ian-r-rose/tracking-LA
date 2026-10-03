@@ -39,7 +39,7 @@ Geocodes new locations with the City's locator (cached in `geo/geocode-cache.jso
 uv run lacomm score --limit 30
 ```
 
-This lists items not yet covered by a digest, highest score first, with the reasons for each score. Read the top items' JSON files, and for anything that might matter, the staff reports linked in `urls`. Some sites (ens.lacity.org) can't be reached from this sandbox; work from the item text when a link fails. Then decide what is worth Ian's attention. Use the score as a guide, not a cutoff: a high score can be routine (a single-family hillside home), and a low score can matter (a citywide parks policy).
+This lists items not yet covered by a digest, highest score first, with the reasons for each score. Read the top items' JSON files, and for anything that might matter, the staff reports linked in `urls`. Some sites (ens.lacity.org) can't be reached from this sandbox; work from the item text when a link fails. Metro items link many large attachments (presentations, environmental documents): decide from the item text, and open at most one attachment, and only for an item you're including. Then decide what is worth Ian's attention. Use the score as a guide, not a cutoff: a high score can be routine (a single-family hillside home), and a low score can matter (a citywide parks policy).
 
 For each item you include, add a `flag` field to its JSON file: `{"reason": "<one sentence on why it matters to Ian>"}`.
 

@@ -31,7 +31,7 @@ LOOKAHEAD = timedelta(days=60)
 def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> None:
     today = date.today()
     start, end = today - timedelta(days=since_days), today + LOOKAHEAD
-    seen: dict = json.loads(AGENDAS.read_text()) if AGENDAS.exists() and not refetch else {}
+    seen: dict = json.loads(AGENDAS.read_text()) if AGENDAS.exists() else {}
     counts = Counter()
     failed = []
     with http_client(timeout=60) as client:
@@ -45,7 +45,7 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
                 failed.append(f"{source.name}: {e}")
                 continue
             # Upcoming agendas can still be revised, so always re-fetch those.
-            new = [m for m in meetings if m["date"] >= today or m["agenda_url"] not in seen]
+            new = [m for m in meetings if refetch or m["date"] >= today or m["agenda_url"] not in seen]
             counts["skipped"] += len(meetings) - len(new)
             todo += [(source, m) for m in new]
 
