@@ -66,10 +66,11 @@ Which decisions to include: every outcome for an item flagged in an earlier dige
 
 Rules:
 - One section per commission with anything listed, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, then any others. There's no separate decisions section.
-- Within a section: upcoming items first, soonest first; then past items and decisions, newest first.
+- Within a section, every `upcoming` bullet comes before any past one: upcoming items soonest first, then past items and decisions newest first.
 - Mark meetings on or after today's date as `upcoming`. Don't describe outcomes of past meetings unless an item or a recorded decision says what was decided.
 - Don't refer to earlier or later digests ("first", "this time", "since last time", "as reported earlier"). Each digest should read the same way whenever it's generated. If a decision contradicts how an item was described before (e.g. it was withdrawn), state the outcome plainly.
 - Routine items in Ian's neighborhoods (single houses, cell sites) get a short bullet with no "why it matters".
+- Say where an item is in plain words ("in Echo Park"). Don't recite the selection rules in the digest ("Echo Park is a watched neighborhood", "A public park is involved"); the reader knows why items are there. Before calling a place inside, outside or next to the watched neighborhoods, in a bullet or a `flag` reason, check the list in `config/interests.yaml`.
 - Keep the whole digest skimmable in two minutes.
 
 Then mark everything you reviewed as covered and check the files:
