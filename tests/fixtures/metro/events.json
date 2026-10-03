@@ -1,0 +1,27 @@
+[
+ {
+  "EventId": 3545,
+  "EventGuid": "675D64BF-61B8-4462-A91C-188804C6AF73",
+  "EventLastModifiedUtc": "2026-09-22T00:12:20.817",
+  "EventRowVersion": "AAAAAAM0cqQ=",
+  "EventBodyId": 138,
+  "EventBodyName": "Board of Directors - Regular Board Meeting",
+  "EventDate": "2026-09-24T00:00:00",
+  "EventTime": "10:00 AM",
+  "EventVideoStatus": "Public",
+  "EventAgendaStatusId": 10,
+  "EventAgendaStatusName": "Final",
+  "EventMinutesStatusId": 9,
+  "EventMinutesStatusName": "Draft",
+  "EventLocation": "One Gateway Plaza, Los Angeles, CA 90012, \r\n3rd Floor, Metro Board Room",
+  "EventAgendaFile": "https://metro.legistar1.com/metro/meetings/2026/9/3545_A_Board_of_Directors_-_Regular_Board_Meeting_26-09-24_Agenda.pdf",
+  "EventMinutesFile": null,
+  "EventAgendaLastPublishedUTC": "2026-09-22T00:12:20.693",
+  "EventMinutesLastPublishedUTC": null,
+  "EventComment": "Watch online: https://boardagendas.metro.net\r\nListen by phone: Dial 888-978-8818 and enter Access Code:\r\n5647249# (English) or 7292892# (Espa\u00f1ol)\r\n\r\nTo give written or live public comment, please see the top of page 4",
+  "EventVideoPath": null,
+  "EventMedia": "4277",
+  "EventInSiteURL": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
+  "EventItems": []
+ }
+]
