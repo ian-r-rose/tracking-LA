@@ -87,6 +87,20 @@ These make recommendations to the Mayor, Council or a General Manager. They can 
 | Commission on the Status of Women | Women's issues | [civilandhumanrights.lacity.org](https://civilandhumanrights.lacity.org/commissions/commission-status-women) | — |
 | ULA Citizen Oversight Committee | Measure ULA spending | [ulacoc.org](https://www.ulacoc.org/) | — |
 
+## City Council committees
+
+Not commissions, but where Council matters are worked out before a Council vote. A committee's action is a recommendation to Council. Agendas are on the City Clerk's [PrimeGov portal](https://lacity.primegov.com/public/portal); each item's Council File, with its full history and Council votes, is on [Clerk Connect](https://cityclerk.lacity.org/lacityclerkconnect/). Full Council meetings aren't watched yet; Council's actions on matters from watched committees come through Clerk Connect.
+
+| Committee | Covers | Watched |
+|---|---|---|
+| Planning and Land Use Management (PLUM) | Planning appeals, Community Plans, zoning changes, historic designations | ✓ agendas + decisions |
+| Transportation | Streets, transit, parking, LADOT | ✓ agendas + decisions |
+| Arts, Parks, and City Facilities (formerly Arts, Parks, Libraries, and Community Enrichment) | Parks, arts, libraries, City buildings | ✓ agendas + decisions |
+| Public Works | Public Works bureaus, streets, sanitation | ✓ agendas + decisions |
+| Housing (formerly part of Housing and Homelessness) | Housing policy and programs | ✓ agendas + decisions |
+| Homelessness and Health | Homelessness and health programs | ✓ agendas + decisions |
+| Other committees, and full Council | | — |
+
 ## Not City commissions, but the City appoints members
 
 These are regional or joint agencies with their own governing boards. Metro is watched because it decides most transit and highway projects in the City; the others are out of scope for now.

@@ -1,4 +1,5 @@
-"""PrimeGov meeting portals, starting with the Department of Public Works.
+"""PrimeGov meeting portals: the Department of Public Works' here, and the shared
+listing and HTML agenda parsing that City Council's portal reuses (lacomm.sources.council).
 
 Public Works runs its own portal (separate from City Council's). Board of Public
 Works agendas are published as HTML with one block per item, which is much easier
@@ -27,18 +28,21 @@ def commission_slug(title: str) -> str | None:
     return None  # e.g. council district town halls hosted on the portal
 
 
-def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
+def portal_meetings(portal: str, start: date, end: date, client: httpx.Client) -> list[dict]:
+    """Raw meeting records from a PrimeGov portal: archived years in the range, plus upcoming."""
     raw = []
     for year in range(start.year, end.year + 1):
-        resp = client.get(f"{PORTAL}/api/v2/PublicPortal/ListArchivedMeetings", params={"year": year})
+        resp = client.get(f"{portal}/api/v2/PublicPortal/ListArchivedMeetings", params={"year": year})
         resp.raise_for_status()
         raw += resp.json()
-    resp = client.get(f"{PORTAL}/api/v2/PublicPortal/ListUpcomingMeetings")
+    resp = client.get(f"{portal}/api/v2/PublicPortal/ListUpcomingMeetings")
     resp.raise_for_status()
-    raw += resp.json()
+    return raw + resp.json()
 
+
+def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     meetings, seen = [], set()
-    for m in raw:
+    for m in portal_meetings(PORTAL, start, end, client):
         slug = commission_slug(m["title"])
         doc = next((d for d in m["documentList"] if d["templateName"] == "HTML Agenda"), None)
         journal = next((d for d in m["documentList"] if d["templateName"] == "HTML Journal"), None)
@@ -58,6 +62,7 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
                 # Several BPW meetings can share a date (regular + management), so keep the
                 # PrimeGov meeting id to keep item ids unique.
                 "meeting_id": m["id"],
+                "portal": PORTAL,
                 "agenda_url": (
                     f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={doc['id']}" if doc
                     else f"{PORTAL}/Public/CompiledDocument?meetingTemplateId={pdf['templateId']}&compileOutputType=1"
@@ -105,13 +110,14 @@ def cfac_items(meeting: dict, agenda_text: str) -> list[dict]:
     return [i for i in items if not re.fullmatch(r"(Other|Recreation & Parks -?)", i["title"].strip())]
 
 
-def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
-    if meeting["body"] == "cfac":
-        return cfac_items(meeting, pdf_text(agenda_html))
+def html_items(meeting: dict, agenda_html: bytes) -> list[tuple[str, str, list[tuple[str, str]]]]:
+    """(item number, text, [(attachment name, URL)]) for each item of a PrimeGov HTML agenda.
+    The text starts with the item's section heading in brackets, when it has one."""
     soup = BeautifulSoup(agenda_html, "html.parser")
     items = []
     for block in soup.select("div.meeting-item"):
-        number_cell = block.select_one("td")
+        # Council's agendas put a paperclip column before the number.
+        number_cell = block.select_one("td.number-cell") or block.select_one("td")
         number = re.search(r"\((\w+)\)", number_cell.get_text()) if number_cell else None
         body = block.select_one("div.agenda-item")
         if not number or not body:
@@ -121,20 +127,29 @@ def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
         heading = section.select_one("tr.section-row") if section else None
         if heading and (section_name := _text(heading)):
             text = f"[{section_name}]\n{text}"
-        urls = [meeting["agenda_url"]] + [
-            PORTAL + a["href"]
+        attachments = [
+            (a.get_text(" ", strip=True), meeting.get("portal", PORTAL) + a["href"])
             for a in block.select("div.attachment-holder a[href*='historyattachment']")
         ]
+        items.append((number.group(1), text, attachments))
+    return items
+
+
+def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
+    if meeting["body"] == "cfac":
+        return cfac_items(meeting, pdf_text(agenda_html))
+    items = []
+    for number, text, attachments in html_items(meeting, agenda_html):
         matter = re.search(r"[A-Z]{2,5}-\d{4}-\d{3,5}", text)
         items.append(
             {
-                "id": f"{meeting['body']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number.group(1)}",
+                "id": f"{meeting['body']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number}",
                 "body": meeting["body"],
                 "meeting_date": meeting["date"].isoformat(),
-                "item_number": number.group(1),
+                "item_number": number,
                 "title": matter.group(0) if matter else text.splitlines()[0],
                 "text": text,
-                "urls": urls,
+                "urls": [meeting["agenda_url"], *(url for _, url in attachments)],
             }
         )
     return items
