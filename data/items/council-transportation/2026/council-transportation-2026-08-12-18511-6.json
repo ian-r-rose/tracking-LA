@@ -14,11 +14,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a728f59-681f-4191-bc96-6b6934e0540f",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d8436fe-ac11-447b-ad2f-ed95726458b7"
   ],
+  "summary": "City Attorney presented a draft ordinance to allow private ambulance service rate increases in Los Angeles.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0583"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 18, 2026); Council action final",
+    "status": "filed",
+    "text": "Transportation Committee noted and filed the City Attorney report dated 7/24/26 and adopted the draft Ordinance (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 18, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0583",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1200-S37",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c6ff384d-25b6-4f58-925b-2578367b3b88"
   ],
+  "summary": "Reappointment of Carole Brogdon to the Rent Adjustment Commission for a term ending May 20, 2030.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1200-S37"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
+    "text": "Housing and Homelessness Committee approved item(s) (Aug 5, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1200-S37",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

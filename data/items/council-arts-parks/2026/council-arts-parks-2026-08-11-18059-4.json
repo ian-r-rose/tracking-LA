@@ -11,11 +11,28 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cbd9daa4-2fe4-44dc-bf46-301f49127fc4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=49b6331e-8d49-40a0-ac25-5a64a104b1b3"
   ],
+  "summary": "Increase admission fees for the Los Angeles Zoo.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Zoo, Los Angeles, CA",
+      "lat": 34.148581,
+      "lon": -118.287138,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-0600-S22"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 16, 2026); Council action final",
+    "status": "continued",
+    "text": "Council approved Arts, Parks, Libraries, and Community Enrichment and Budget and Finance Committees report dated August 18, 2026, subject to reconsideration, pursuant to Council Rule 51; Ordinance held over to September 16, 2026 for a second reading (Sep 9, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 16, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0600-S22",
     "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

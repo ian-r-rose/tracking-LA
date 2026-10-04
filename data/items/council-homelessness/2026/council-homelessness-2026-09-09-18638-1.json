@@ -10,11 +10,22 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0600-S112",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=31e19904-f54e-4303-8db4-2986eddd9f01"
   ],
+  "summary": "Motion requesting a report on allocating funding to expand the Recreational Vehicle to Home program.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0600-S112"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
+    "text": "Homelessness and Health Committee approved item(s) (Sep 9, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0600-S112",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

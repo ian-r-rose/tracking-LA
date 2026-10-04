@@ -10,10 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0936",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a61f6fc7-459a-44d1-bbad-d7cebb0a745f"
   ],
+  "summary": "Instructions to the Bureau of Sanitation to suspend CARE+ operations in areas impacted by environmental emergencies and implement a posting protocol for suspension of homeless encampment cleanups.",
+  "topics": [
+    "housing",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0936"
+  },
   "outcome": {
     "status": "approved",
     "text": "Ad Hoc Committee for Boyle Heights Fire Recovery approved item(s) (Sep 18, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0936",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

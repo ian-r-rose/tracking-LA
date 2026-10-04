@@ -11,11 +11,24 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=474dfa8b-beeb-4033-9219-7b7d68690345",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=746bf312-074d-46b1-9650-031d7feb0cf3"
   ],
-  "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 12, 2014); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=14-0005-S316",
-    "vote": "11-0-4",
-    "recorded": "2026-10-03"
+  "summary": "The city will remove 1804 South Kingsley Drive from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "1804 South Kingsley Drive, Los Angeles, CA",
+      "lat": 34.041128,
+      "lon": -118.303304,
+      "neighborhood": "Harvard Heights"
+    }
+  ],
+  "details": {
+    "council_file": "14-0005-S316",
+    "council_district": 10,
+    "case_numbers": [
+      "844468"
+    ]
   }
 }

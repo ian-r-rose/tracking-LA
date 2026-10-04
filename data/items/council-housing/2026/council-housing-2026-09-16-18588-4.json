@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S154",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e9fa9f3-d098-4d23-a759-5486c3ec033f"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 2868 West Francis Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "2868 West Francis Avenue, Los Angeles, CA",
+      "lat": 34.056753,
+      "lon": -118.288305,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "854294"
+    ],
+    "council_district": 1,
+    "council_file": "26-0005-S154"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S154",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

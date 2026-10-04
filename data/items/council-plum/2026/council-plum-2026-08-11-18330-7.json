@@ -14,11 +14,23 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea7192fa-22a2-4901-bcd0-ddb4d10bd4cb",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3a9bc937-ad63-4aff-b248-e3d0b36cd0ed"
   ],
+  "summary": "Update Landscape Ordinance to establish new Landscape and Site Design Standards with a point system and define outdoor amenity area provisions.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-1399",
+    "action": "Landscape ordinance amendment"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item forthwith (Sep 22, 2026)",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 11, 2026); Council adopted item forthwith (Sep 22, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-1399",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

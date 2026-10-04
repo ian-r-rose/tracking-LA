@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9407a376-1ecb-4016-8b32-0b3cc40d077e"
   ],
+  "summary": "Require a majority of Neighborhood Council board members to obtain and maintain certification with the Los Angeles Fire Department's Community Emergency Response Team Program.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0906-S4"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item as amended by , subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
+    "text": "Public Safety Committee concurred with the previous action of the Arts, Parks, Libraries, and Community Enrichment Committee (Aug 12, 2026); Council adopted item as amended by , subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S4",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

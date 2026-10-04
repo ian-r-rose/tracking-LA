@@ -10,11 +10,35 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1130",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8ab31e5-46d9-4927-845b-d7decf458f37"
   ],
+  "summary": "Approve conditional use permits for a 7,056-square-foot banquet hall with alcohol sales and dancing at 261 South Kenmore Avenue.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "261 South Kenmore Avenue, Los Angeles, CA",
+      "lat": 34.0699,
+      "lon": -118.296726,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "council_file": "26-1130",
+    "council_district": 10,
+    "case_numbers": [
+      "ZA-2025-2662-CUB-CUX-1A",
+      "ZA-2025-2662-CUB-CUX"
+    ],
+    "applicant": "Jonathan Lavi",
+    "action": "Approve conditional use permits"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 11, 2026); Council action final",
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee denied appeal(s) (Sep 8, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 11, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1130",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

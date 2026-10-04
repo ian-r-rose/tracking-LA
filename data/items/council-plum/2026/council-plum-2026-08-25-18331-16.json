@@ -14,11 +14,29 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ed84e8f-9eb7-4e4d-bfcf-1c3a5b5945ed",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=28d348e7-74e8-4f24-9091-8d7ee4fd9968"
   ],
+  "summary": "Consideration of veto and determination by Planning Commission.",
+  "topics": [
+    "environment",
+    "housing",
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0975",
+    "council_district": 15,
+    "case_numbers": [
+      "ZA-2023-7218-ZV-CDP-MEL-HCA-1A"
+    ],
+    "environmental_number": "ENV-2023-7220-CE",
+    "applicant": "Vartan Achabahian, Masis Holdings, LLC"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item forthwith (Aug 26, 2026)",
+    "status": "filed",
+    "text": "Planning and Land Use Management Committee noted and filed item(s) (Aug 25, 2026); Council adopted item forthwith (Aug 26, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0975",
     "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

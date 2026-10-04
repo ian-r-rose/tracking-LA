@@ -9,5 +9,18 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0744-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8cb20dfa-66ba-483c-a66b-2ba9d5df2121"
-  ]
+  ],
+  "summary": "Amendment to lease agreement with Heart of Los Angeles Community Partners for the installation and operation of the HOLA Rock Garden Project at Lafayette Park.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Lafayette Park, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "17-0744-S1",
+    "council_district": 10
+  }
 }

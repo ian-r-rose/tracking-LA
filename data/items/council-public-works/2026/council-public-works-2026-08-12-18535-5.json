@@ -10,11 +10,22 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S5",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=25f91e40-39af-4626-8901-25ba9ee90315"
   ],
+  "summary": "Developing public informational campaigns to increase awareness of city services.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0906-S5",
+    "action": "motion on public information campaigns"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
+    "text": "Public Safety Committee concurred with the previous action of the Government Operations Committee (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S5",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91470",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1278",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f72336f-6046-47ee-8905-697a91acf08c"
-  ]
+  ],
+  "summary": "City motion regarding TAP-to-Exit infrastructure and policies for transit payment.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1278",
+    "action": "motion on TAP-to-Exit infrastructure"
+  }
 }

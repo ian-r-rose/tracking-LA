@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S173",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f507980b-b51b-4027-b158-ac397889177d"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 610 South Evergreen Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "610 South Evergreen Avenue, Los Angeles, CA",
+      "lat": 34.034062,
+      "lon": -118.206595,
+      "neighborhood": "Boyle Heights"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "881826"
+    ],
+    "council_district": 14,
+    "council_file": "26-0005-S173"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S173",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

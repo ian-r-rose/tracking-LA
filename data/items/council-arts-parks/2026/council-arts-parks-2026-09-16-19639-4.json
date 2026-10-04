@@ -9,11 +9,29 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87808",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1145"
   ],
+  "summary": "The city will contract with Stray Cat Alliance to operate and maintain the animal shelter at Jefferson Park.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "3612 11th Avenue, Los Angeles, CA",
+      "lat": 34.022583,
+      "lon": -118.329487,
+      "neighborhood": "Jefferson Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-1145",
+    "council_district": 10
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 2, 2026)",
+    "text": "Arts, Parks, and City Facilities Committee approved item(s) (Sep 16, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 2, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1145",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

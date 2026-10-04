@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S163",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c927f42a-bb00-40b3-88e8-9ca4d8fc41ff"
   ],
+  "summary": "Removal of the property at 402 North Coronado Terrace from the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "402 North Coronado Terrace, Los Angeles, CA",
+      "lat": 34.072097,
+      "lon": -118.272144,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S163",
+    "council_district": 13,
+    "case_numbers": [
+      "907090"
+    ]
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S163",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

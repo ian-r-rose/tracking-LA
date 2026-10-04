@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S155",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b684b8f-d751-4400-8f7d-afecf26fff69"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 276 South Union Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "276 South Union Avenue, Los Angeles, CA",
+      "lat": 34.061533,
+      "lon": -118.267451,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "843328"
+    ],
+    "council_district": 1,
+    "council_file": "26-0005-S155"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S155",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

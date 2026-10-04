@@ -10,10 +10,20 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1169",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fae48df3-ccb7-4f77-bbb1-cea9655168c2"
   ],
+  "summary": "City preparations for the super El Nino predicted by the National Oceanic and Atmospheric Administration",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1169"
+  },
   "outcome": {
     "status": "approved",
     "text": "Public Safety Committee approved as amended (Sep 15, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1169",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

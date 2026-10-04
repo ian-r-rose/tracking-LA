@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S161",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=57f79c2f-875a-41cf-94e0-aaac0dd030ff"
   ],
+  "summary": "Removal of the property at 5345 South Ascot Avenue from the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "5345 South Ascot Avenue, Los Angeles, CA",
+      "lat": 33.994422,
+      "lon": -118.25,
+      "neighborhood": "Central-Alameda"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S161",
+    "council_district": 9,
+    "case_numbers": [
+      "896850"
+    ]
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S161",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

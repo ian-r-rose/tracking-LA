@@ -13,10 +13,20 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d4b75bda-6779-4278-8906-6de0b54b1b63",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7813d1e0-63ff-4d20-8274-ed1270f763d8"
   ],
+  "summary": "City implementation of an interactive kiosks program",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "22-1154-S2"
+  },
   "outcome": {
     "status": "approved",
     "text": "Public Works Committee approved as amended (Aug 26, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=22-1154-S2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

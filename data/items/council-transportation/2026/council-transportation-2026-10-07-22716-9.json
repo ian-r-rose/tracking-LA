@@ -14,11 +14,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=121e43b2-17b0-448f-b83a-47250a2ba20d",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e93b6a1f-3cbc-4e8f-9d0b-c45c34960b3f"
   ],
-  "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Dec 5, 2025); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-0600-S121",
-    "vote": "12-0-3",
-    "recorded": "2026-10-03"
+  "summary": "Independent evaluation of the Vision Zero Program and pedestrian safety legislation.",
+  "topics": [
+    "transportation",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-0600-S121",
+    "action": "report on Vision Zero Program"
   }
 }

@@ -10,11 +10,30 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0263",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b30288e-86c4-47f3-82be-1ed4de418b8a"
   ],
+  "summary": "Designating the intersection of Laurel Canyon Boulevard and Sheldon Street as Michael L. O'Gara Square.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Laurel Canyon Boulevard & Sheldon Street, Los Angeles, CA",
+      "lat": 34.231986,
+      "lon": -118.403739,
+      "neighborhood": "Sun Valley"
+    }
+  ],
+  "details": {
+    "council_file": "26-0263",
+    "council_district": 6,
+    "action": "naming intersection"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
+    "text": "Public Works Committee approved item(s) (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0263",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

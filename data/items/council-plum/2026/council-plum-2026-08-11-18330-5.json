@@ -14,11 +14,44 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c9e86794-a2e2-4ea4-8983-c8de5cb136b5",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4e5c1f9d-b96a-4fc7-bf5a-11f11b797c92"
   ],
+  "summary": "Authorization of Development Agreement with NREA-TRC 700 LLC for downtown mixed-use development at Flower Street, 7th Street, and Hope Street.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "700 South Flower Street, Los Angeles, CA",
+      "lat": 34.048604,
+      "lon": -118.258773,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "700 West 7th Street, Los Angeles, CA",
+      "lat": 33.737937,
+      "lon": -118.29241,
+      "neighborhood": "San Pedro"
+    },
+    {
+      "text": "711 South Hope Street, Los Angeles, CA",
+      "lat": 34.047859,
+      "lon": -118.257912,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "25-0778",
+    "council_district": 14,
+    "applicant": "NREA-TRC 700 LLC",
+    "action": "Development Agreement execution"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0778",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

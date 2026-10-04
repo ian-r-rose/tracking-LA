@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1013",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d3649960-e8c5-48a7-903f-1d627c5cece4"
   ],
+  "summary": "Contract for temporary staffing services for the Los Angeles Housing Department, Rent Division.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1013"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
+    "text": "Housing and Homelessness Committee approved item(s) (Aug 5, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1013",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

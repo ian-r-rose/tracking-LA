@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=20-0151-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1349904-2579-490a-b24c-09d9ed601592"
   ],
+  "summary": "Extend contract with Kompan, Inc. for the purchase and installation of playground and outdoor fitness equipment.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "20-0151-S1"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 12, 2026); Council action final",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved item(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 12, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=20-0151-S1",
     "vote": "14-0-1",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

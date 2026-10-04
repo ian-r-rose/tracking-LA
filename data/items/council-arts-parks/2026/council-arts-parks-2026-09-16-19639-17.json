@@ -10,10 +10,24 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1292",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c8ee1bb1-b3d6-4fc5-97cf-96c10d36d732"
   ],
+  "summary": "Motion directing the Department of Animal Services to report on structuring Animal Shelter operating hours to include more evening and weekend hours.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Animal Shelter, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-1292"
+  },
   "outcome": {
     "status": "approved",
     "text": "Arts, Parks, and City Facilities Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1292",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

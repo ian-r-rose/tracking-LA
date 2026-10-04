@@ -9,5 +9,26 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1120",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8433bb4-8b11-4005-bbbe-d143d09f8247"
-  ]
+  ],
+  "summary": "Declaration of City-owned fee interest beneath Industrial Street between Central Avenue and Alameda Street as surplus property.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Industrial Street & Central Avenue, Los Angeles, CA",
+      "lat": 34.037397,
+      "lon": -118.240574,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "Industrial Street & Alameda Street, Los Angeles, CA",
+      "lat": 34.036119,
+      "lon": -118.238553,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "26-1120"
+  }
 }

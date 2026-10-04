@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1118",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e88fe536-1cb3-41a6-a3f7-fae700816d7a"
   ],
+  "summary": "Resolution urges CommonSpirit Health and the California Nurses Association to discuss a strategy to preserve and grow healthcare services jobs.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1118"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 4, 2026); Council action final",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved item(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 4, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1118",
     "vote": "10-0-5",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

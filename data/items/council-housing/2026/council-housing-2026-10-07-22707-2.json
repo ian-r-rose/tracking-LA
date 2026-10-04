@@ -3,11 +3,21 @@
   "body": "council-housing",
   "meeting_date": "2026-10-07",
   "item_number": "2",
-  "title": "Motion (McOsker - Yaroslavsky) relative to Measure United to House Los Angeles property transfer tax exemptions for non-profit entities created specifically…",
+  "title": "Motion (McOsker - Yaroslavsky) relative to Measure United to House Los Angeles property transfer tax exemptions for non-profit entities created specifically\u2026",
   "text": "[Council File 26-1072]\nMotion (McOsker - Yaroslavsky) relative to Measure United to House Los Angeles property transfer tax exemptions for non-profit entities created specifically for property acquisitions.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91424",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1072",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bf8c0ff5-c4eb-4788-b01a-6085034dd60f"
-  ]
+  ],
+  "summary": "The city would provide property transfer tax breaks to non-profit organizations that acquire housing for low-income residents.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1072",
+    "action": "Measure United to House Los Angeles property trans"
+  }
 }

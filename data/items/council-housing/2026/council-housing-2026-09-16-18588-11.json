@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S162",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=58f064a9-6265-4ff4-8591-971a6279ab68"
   ],
+  "summary": "Removal of the property at 4047 East Chevy Chase Drive from the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "4047 East Chevy Chase Drive, Los Angeles, CA",
+      "lat": 34.133478,
+      "lon": -118.269868,
+      "neighborhood": "Atwater Village"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S162",
+    "council_district": 13,
+    "case_numbers": [
+      "889877"
+    ]
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S162",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

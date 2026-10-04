@@ -14,10 +14,20 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1bc11fc-6173-4557-a5c6-8bb4b1ad08d1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e6eb707e-0a8d-425b-8d10-3891c4bb7b7f"
   ],
+  "summary": "Amending the Los Angeles Municipal Code to update the Shared Mobility Device Permit Program Fee Schedule.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "17-1125"
+  },
   "outcome": {
     "status": "approved",
     "text": "Budget and Finance Committee concurred with the Public Works and Transportation Committees' action of September 8, 2026 (Sep 15, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-1125",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -10,10 +10,22 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S15",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7b70c2b3-5dcf-4cb7-aea4-44d37ca53ca2"
   ],
+  "summary": "Prohibit the parking of vehicles exceeding 22 feet in length or 84 inches in height on certain street segments in Council District 15.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0008-S15",
+    "council_district": 15,
+    "action": "prohibit oversized vehicle parking"
+  },
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S15",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

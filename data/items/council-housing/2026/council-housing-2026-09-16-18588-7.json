@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S157",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=50183523-6ce6-4732-a45f-0776b6fe9ddf"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 22525 West Del Valle Street.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "22525 West Del Valle Street, Los Angeles, CA",
+      "lat": 34.167134,
+      "lon": -118.616751,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "898740"
+    ],
+    "council_district": 3,
+    "council_file": "26-0005-S157"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S157",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

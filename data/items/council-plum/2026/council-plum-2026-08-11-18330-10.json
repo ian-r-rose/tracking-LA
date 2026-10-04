@@ -14,11 +14,33 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=12ca51da-79e6-40c5-8b62-fdaf21c3fa13",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d9b131ce-3949-4697-ade4-0b777a6f84ae"
   ],
+  "summary": "CONTINUED FROM 6/9/26 Categorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines, Section 15301, Class 1 (Existing Facilities), and related CEQA findings; report from the Central Los Angeles Area Planning Commission (CLAAPC); and appeals filed by: 1) Casey Maddren, Citizens for a Better LA; and 2) Romulus Zamora & UNITE HERE Local 11 (Representative: Jordan Sisson, Law Offices of Gideon Kracov, from the determination of the CLAAPC in approving a Categorical Exemption as the environmental clearance for a Plan Approval to modify conditions of approval to reflect a 14,427 square-foot increase in the total floor area (from 79,376 square feet to 93,803 square feet), including a 1,450 square-foot increase in the total commercial floor area (from 4,581 square feet to 6,031 square feet), and the removal of all on-site automobile parking spaces, in conjunction with the expansion and continued operation of an existing hotel; for the properties located at 6415 - 6419 West Selma Avenue.",
+  "topics": [
+    "parks",
+    "environment",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "6419 West Selma Ave, Los Angeles, CA",
+      "lat": 34.099845,
+      "lon": -118.329854,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "21-1404",
+    "council_district": 13,
+    "applicant": "6417 Selma Holdings, LLC",
+    "action": "categorical exemption"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee denied appeal(s) ; and thereby sustained the determination of the Central Los Angeles Area Planning Commission (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1404",
     "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

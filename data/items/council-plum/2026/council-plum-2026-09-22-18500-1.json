@@ -14,10 +14,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b82ae9a0-a909-464b-821d-a0b04f704091",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5e4b56f8-c438-4e61-bf52-7a4e30feb707"
   ],
+  "summary": "Extend temporary citywide prohibition on Recreational Vehicle Park permits for a second year.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0843",
+    "action": "Extend temporary prohibition on RV Park permits"
+  },
   "outcome": {
     "status": "approved",
     "text": "Planning and Land Use Management Committee approved item(s) (Sep 22, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0843",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

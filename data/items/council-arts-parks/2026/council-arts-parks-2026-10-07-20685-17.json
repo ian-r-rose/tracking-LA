@@ -9,5 +9,13 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1198",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b78a705e-b0e8-4b3a-b1e5-fd53662989d0"
-  ]
+  ],
+  "summary": "Motion to establish a permanent Park Gate Closure Program for Los Angeles city parks, including operational, fiscal, and staffing considerations.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1198"
+  }
 }

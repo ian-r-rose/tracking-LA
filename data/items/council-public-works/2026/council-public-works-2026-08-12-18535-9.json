@@ -14,11 +14,26 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f0d777fb-737d-4048-ab48-bc43adbdc4de",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9da15484-1533-478e-8c2e-f67526c47dd7"
   ],
+  "summary": "Establishing an amended process for Walk of Fame star submissions and installations.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Walk of Fame"
+    }
+  ],
+  "details": {
+    "council_file": "24-0489",
+    "action": "report on amended process"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item as amended by Amending Motion 7A (Soto-Martinez - Hernandez), subject to reconsideration, pursuant to Council Rule 51 (Sep 4, 2026); Council action final",
+    "text": "Public Works Committee approved item(s) (Aug 12, 2026); Council adopted item as amended by Amending Motion 7A (Soto-Martinez - Hernandez), subject to reconsideration, pursuant to Council Rule 51 (Sep 4, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0489",
     "vote": "10-0-5",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

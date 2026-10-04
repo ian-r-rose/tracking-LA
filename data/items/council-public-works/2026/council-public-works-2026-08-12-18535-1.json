@@ -11,10 +11,22 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3200f9f-c1d9-46bf-b54a-631f55c3f51a",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7f31c65d-eae2-4ba0-a939-c39f5c2271d9"
   ],
+  "summary": "Bureau of Street Services report on street sweeping and parking enforcement operations on posted routes.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-1219-S1",
+    "bureau": "Bureau of Street Services",
+    "action": "Report on street sweeping and parking enforcement"
+  },
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved as amended (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-1219-S1",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

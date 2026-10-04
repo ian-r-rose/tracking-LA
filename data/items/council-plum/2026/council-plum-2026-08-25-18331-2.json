@@ -10,11 +10,23 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0173",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea726476-e73e-44fb-b084-8e4d66064f55"
   ],
+  "summary": "Motion to amend building permit validity requirements.",
+  "topics": [
+    "housing",
+    "land_use",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0173"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 8, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved as amended (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 8, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0173",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

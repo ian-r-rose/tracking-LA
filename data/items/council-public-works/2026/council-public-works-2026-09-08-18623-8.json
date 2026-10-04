@@ -10,11 +10,29 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1230",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fd3cf39-82a1-4ff0-b409-dde50606cb2a"
   ],
+  "summary": "Issuing a revocable permit for improvements in the public right-of-way along the alley adjacent to 1900 South Main Street.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "1900 South Main Street, Los Angeles, CA",
+      "lat": 34.030914,
+      "lon": -118.264673,
+      "neighborhood": "Historic South-Central"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "council_file": "26-1230"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 2, 2026)",
+    "text": "Public Works Committee approved item(s) (Sep 8, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 2, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1230",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

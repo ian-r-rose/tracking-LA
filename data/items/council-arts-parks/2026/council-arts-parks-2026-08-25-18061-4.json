@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1200-S38",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=70058cc8-3956-41ad-8414-888d0ec454ce"
   ],
+  "summary": "Confirm appointment of Joana Reyes to the Board of Library Commissioners.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1200-S38"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 9, 2026)",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved item(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 9, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1200-S38",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

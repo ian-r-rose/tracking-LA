@@ -14,11 +14,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2dc6eb8c-f656-4365-beae-fbab97966ec0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b76a8f1b-139b-48c6-ad1a-b555c060ccdd"
   ],
+  "summary": "Approve funding for Department of Animal Services vehicles and personnel to expand Pet Fair and community health fair events citywide.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1221"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved as amended (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-1221",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -10,10 +10,22 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0274-S3",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=82f1cbb8-7858-457d-998b-d4916add8528"
   ],
+  "summary": "Prepare ordinance allowing refund of Affordable Housing Linkage Fees up to $35,000 for single-family home projects that never obtain occupancy.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "17-0274-S3",
+    "amount": "$35,000",
+    "action": "Amend Affordable Housing Linkage Fee refund provisions"
+  },
   "outcome": {
     "status": "approved",
     "text": "Planning and Land Use Management Committee concurred with the recommendation of the Housing Committee (Sep 22, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0274-S3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

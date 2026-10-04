@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0690-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=17048224-5a01-4f0b-ae2c-903a2afc013a"
   ],
+  "summary": "Release Homes for LA Round 2 Notice of Funding Availability regulations and open the 2026 NOFA.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0690-S1"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item forthwith (Sep 22, 2026); Council action final",
+    "text": "Housing Committee approved as amended (Sep 16, 2026); Council adopted item forthwith (Sep 22, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0690-S1",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

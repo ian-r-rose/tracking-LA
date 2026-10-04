@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91470",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1376",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b5d991dc-3651-4693-afc1-890d2e540296"
-  ]
+  ],
+  "summary": "City motion regarding the City's current active transportation projects and associated grant deadlines.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1376",
+    "action": "motion on active transportation projects"
+  }
 }

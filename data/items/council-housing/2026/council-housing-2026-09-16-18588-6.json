@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S156",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee442770-2eb9-46af-b493-03abad3ed68d"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 136 East Avenue 44.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "136 East Avenue 44, Los Angeles, CA",
+      "lat": 34.094959,
+      "lon": -118.207295,
+      "neighborhood": "Highland Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "769459"
+    ],
+    "council_district": 1,
+    "council_file": "26-0005-S156"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S156",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

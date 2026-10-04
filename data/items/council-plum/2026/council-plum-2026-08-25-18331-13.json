@@ -14,11 +14,27 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9fabcfc9-abf8-4833-96a2-fb9086b20329",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0f671bd1-f7a4-4cb5-bc87-52edde397422"
   ],
+  "summary": "Interim Control Ordinance prohibiting demolition of occupied rent-controlled residential units in Valley Glen for five years.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "Valley Glen, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "25-0970",
+    "council_district": 2,
+    "action": "Interim Control Ordinance adoption"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 8, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 8, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0970",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -10,11 +10,22 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1200-S51",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bf218b4b-d238-4ec1-bc86-39c96e05d43c"
   ],
+  "summary": "Appointment of Nick Gaines to the South Valley Area Planning Commission.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1200-S51",
+    "action": "Commission appointment"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 2, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 2, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1200-S51",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

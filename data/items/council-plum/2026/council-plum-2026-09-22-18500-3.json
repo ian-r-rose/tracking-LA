@@ -14,10 +14,26 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6fc4abaa-f451-4705-ab59-48234b793a29",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5d5d1b9-56d5-4701-af2f-c3f67c93b38d"
   ],
+  "summary": "Update Community Plan for Harbor Gateway area linking harbor, San Pedro, Wilmington, and Harbor City communities to main Los Angeles.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0775",
+    "council_district": 15,
+    "case_numbers": [
+      "CPC-2018-6404-CPU"
+    ],
+    "applicant": "City of Los Angeles",
+    "action": "Community Plan Update"
+  },
   "outcome": {
     "status": "approved",
     "text": "Planning and Land Use Management Committee approved item(s) (Sep 22, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0775",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -10,10 +10,22 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0600-S100",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=132c071a-ea5f-456c-b5ab-f31abc52a9a0"
   ],
+  "summary": "Create a holding account for the Automated Speed Enforcement Program.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0600-S100",
+    "action": "create holding account for Automated Speed Enforcement Program"
+  },
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0600-S100",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

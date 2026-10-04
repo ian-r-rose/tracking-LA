@@ -14,10 +14,34 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d7bfd95-199c-471e-853e-415c81101f7d",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e4a565e4-6643-42b4-909c-4233187b7524"
   ],
+  "summary": "Vacation of Turner Street from Alameda Street to Temple Street re-initiation in Council District 14",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Turner Street & Alameda Street, Los Angeles, CA",
+      "lat": 34.050546,
+      "lon": -118.238072,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "Turner Street & Temple Street, Los Angeles, CA",
+      "lat": 34.05051,
+      "lon": -118.236632,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "18-0195",
+    "council_district": 14
+  },
   "outcome": {
     "status": "approved",
     "text": "Public Works Committee approved item(s) (Sep 8, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0195",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

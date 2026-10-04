@@ -10,11 +10,22 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0002-S137",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c07ad26f-8d45-4a4c-a822-ba6a1758b618"
   ],
+  "summary": "Authorize Los Angeles Department of Transportation to submit a grant application as a co-applicant for the State of California Strategic Growth Council Transformative Climate Communities Round 6 Program.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "17-0002-S137",
+    "action": "authorize grant application"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item forthwith (Sep 29, 2026); Council action final",
+    "text": "Transportation Committee approved as amended (Sep 16, 2026); Council adopted item forthwith (Sep 29, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0002-S137",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

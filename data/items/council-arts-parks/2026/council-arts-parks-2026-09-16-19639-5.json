@@ -13,11 +13,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b92b7688-e7e6-4e7c-8606-e1780b20e3f6",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ad1b80f-4ae3-4b95-ad6d-71aad0deb5fb"
   ],
+  "summary": "Ordinance to exempt the Library Department publishing agreements from City Council approval.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0456"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 29, 2026)",
+    "text": "Arts, Parks, and City Facilities Committee approved item(s) (Sep 16, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 29, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0456",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

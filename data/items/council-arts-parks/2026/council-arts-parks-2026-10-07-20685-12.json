@@ -9,5 +9,17 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0218",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=04cd3ef5-0112-4643-8be9-c67b92d8b97d"
-  ]
+  ],
+  "summary": "City Clerk report on the Pico/Genessee Community Pocket Park Trust Fund No. 917 for Fiscal Year 2023-24.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Pico/Genessee Community Pocket Park, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-0218"
+  }
 }

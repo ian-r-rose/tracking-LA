@@ -9,11 +9,35 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=84394",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0627"
   ],
+  "summary": "Officially designate the Melrose Avenue business corridor from Fairfax Avenue to Highland Avenue as the 'Melrose Arts District'.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Melrose Avenue & Fairfax Avenue, Los Angeles, CA",
+      "lat": 34.083819,
+      "lon": -118.36143,
+      "neighborhood": "Fairfax"
+    },
+    {
+      "text": "Melrose Avenue & Highland Avenue, Los Angeles, CA",
+      "lat": 34.083459,
+      "lon": -118.338597,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "26-0627",
+    "council_district": 5
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved item(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0627",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

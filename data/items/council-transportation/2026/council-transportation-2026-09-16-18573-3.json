@@ -10,10 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-1219-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=32fa0725-de96-4789-ac97-e9eea9e45636"
   ],
+  "summary": "Coordinate street sweeping and parking enforcement between Bureau of Street Services and Los Angeles Department of Transportation.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-1219-S1",
+    "action": "coordinate street sweeping and parking enforcement"
+  },
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved as amended (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-1219-S1",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

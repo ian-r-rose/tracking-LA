@@ -13,11 +13,12 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f9c80a8f-3f87-4a5c-92f7-b0630070e7bf",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=81a19aa6-017d-41fc-b6a7-82adc0eb3be2"
   ],
-  "outcome": {
-    "status": "approved",
-    "text": "Council adopted item forthwith (Dec 12, 2025); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-1210",
-    "vote": "14-0-1",
-    "recorded": "2026-10-03"
+  "summary": "Report on accepting grant funding from the California Department of Education for subsidized preschool services at Department of Recreation and Parks facilities.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1210"
   }
 }

@@ -14,10 +14,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=334b085d-1809-4ccb-a4ee-e6ba3d6fd8f3",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=42c7ed6d-c647-4cb8-8edc-d3f2ad17e254"
   ],
+  "summary": "Report on progress of the Automated Bus Lane Enforcement Program for six Downtown Area Short Hop transit routes.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "21-1224",
+    "action": "report on Automated Bus Lane Enforcement Program"
+  },
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1224",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

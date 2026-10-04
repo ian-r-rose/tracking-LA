@@ -10,11 +10,30 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S13",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5aedc262-dd55-4cc6-bc19-1262be1d1db7"
   ],
+  "summary": "Establish oversize vehicle parking restrictions along West 130th Street and West 132nd Street in Council District 15.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "West 130th Street, Los Angeles, CA"
+    },
+    {
+      "text": "West 132nd Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 15,
+    "council_file": "26-0008-S13",
+    "action": "establishing oversize vehicle parking restrictions"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026)",
+    "text": "Transportation Committee approved item(s) (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S13",
     "vote": "12-3-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

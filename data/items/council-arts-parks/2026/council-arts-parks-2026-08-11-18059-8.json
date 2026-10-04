@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0582",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6325029-2b8a-4f36-9499-624754e3a632"
   ],
+  "summary": "Request feasibility study on contracting with an established animal care organization to operate City animal shelter facilities.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0582"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved item(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0582",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -9,5 +9,18 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-1255",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=17066a4a-0d6e-41fb-9cb3-b6556a4cf4f3"
-  ]
+  ],
+  "summary": "Motion to enforce new operating hours (Sunrise to Sunset) for Branford Park.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Branford Park, 13306 Branford Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "24-1255",
+    "council_district": 6
+  }
 }

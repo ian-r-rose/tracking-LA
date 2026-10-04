@@ -14,10 +14,20 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c7f5d39f-a452-4084-88c7-f26c6313c02c",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1d9a2f8-a3fc-4a2c-985e-275a19c6f5b6"
   ],
+  "summary": "Department report on non-applicant matter.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "09-0969-S4"
+  },
   "outcome": {
     "status": "approved",
     "text": "Planning and Land Use Management Committee approved item(s) (Aug 25, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=09-0969-S4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

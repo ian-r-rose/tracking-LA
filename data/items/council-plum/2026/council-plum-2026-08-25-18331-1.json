@@ -14,10 +14,29 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2b05b90f-413b-4c56-9023-b6db5633c8b9",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d4a15dc-a10a-49df-af01-5700cdcb7fdc"
   ],
+  "summary": "Request to continue decision on Starbucks drive-through coffee shop with zone boundary adjustment at 23717 West Victory Boulevard.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "23717 West Victory Boulevard, Los Angeles, CA",
+      "lat": 34.186712,
+      "lon": -118.643015,
+      "neighborhood": "West Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-0497",
+    "council_district": 12,
+    "action": "Conditional Use Permit and Zone Boundary Adjustment continuation"
+  },
   "outcome": {
     "status": "continued",
     "text": "Planning and Land Use Management Committee continued item to December 8, 2026 (Aug 25, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0497",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

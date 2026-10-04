@@ -9,5 +9,25 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91424",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S175",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=240f5a3f-7b89-4e76-8d29-45af3b5ca6d8"
-  ]
+  ],
+  "summary": "The city will remove 1702 West Exposition Boulevard from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "1702 West Exposition Boulevard, Los Angeles, CA",
+      "lat": 34.018185,
+      "lon": -118.311142,
+      "neighborhood": "Exposition Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S175",
+    "council_district": 8,
+    "case_numbers": [
+      "878802"
+    ]
+  }
 }

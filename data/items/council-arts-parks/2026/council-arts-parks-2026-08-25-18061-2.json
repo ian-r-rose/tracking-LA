@@ -10,11 +10,25 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1200-S42",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1e244adb-524a-4b52-83d5-3737949df229"
   ],
+  "summary": "Confirm appointment of Teresa Hillery to the Board of El Pueblo de Los Angeles Historical Monument Authority Commissioners.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "El Pueblo de Los Angeles Historical Monument, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-1200-S42"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 1, 2026); Council action final",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved item(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 1, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1200-S42",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

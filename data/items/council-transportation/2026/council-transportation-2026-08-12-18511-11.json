@@ -10,11 +10,26 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0913",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c7dd781-f984-4e3a-96bc-8ded52bb2b6c"
   ],
+  "summary": "Establishing Preferential Parking District No. 333 in the Park Mesa Heights Community.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Park Mesa Heights, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "council_file": "26-0913"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item as amended by Amending Motion 26A (Hutt for Harris-Dawson - Price), subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
+    "text": "Transportation Committee approved item(s) (Aug 12, 2026); Council adopted item as amended by Amending Motion 26A (Hutt for Harris-Dawson - Price), subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0913",
     "vote": "10-0-5",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

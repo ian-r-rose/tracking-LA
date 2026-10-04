@@ -11,11 +11,30 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9fe9a30b-f323-4d1e-b37e-551d2c5d9990",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9a9d81b5-ed3c-4a36-8f24-71c756e423dd"
   ],
+  "summary": "Designating the intersection of 80th Street and Normandie Avenue as Sam Watson Square.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "80th Street & Normandie Avenue, Los Angeles, CA",
+      "lat": 33.966396,
+      "lon": -118.300253,
+      "neighborhood": "Vermont Knolls"
+    }
+  ],
+  "details": {
+    "council_file": "26-0617",
+    "council_district": 9,
+    "action": "naming intersection"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 18, 2026); Council action final",
+    "text": "Public Works Committee approved as amended (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 18, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0617",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -14,10 +14,41 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1feed58d-ea05-4308-9447-4b4c48c56a2c",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=24b5958c-1a35-4f27-9728-7b658a6c6bda"
   ],
+  "summary": "Approve new two-story single-family residence with attached garage, swimming pool, and spa at North Stanley Hills Drive.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2166 North Stanley Hills Drive, Los Angeles, CA",
+      "lat": 34.110157,
+      "lon": -118.376868,
+      "neighborhood": "Hollywood Hills West"
+    },
+    {
+      "text": "2172 North Stanley Hills Drive, Los Angeles, CA",
+      "lat": 34.110336,
+      "lon": -118.376795,
+      "neighborhood": "Hollywood Hills West"
+    }
+  ],
+  "details": {
+    "council_file": "26-1033",
+    "council_district": 4,
+    "case_numbers": [
+      "ZA-2025-1386-CU1-HCA-1A",
+      "ZA-2024-6711-CU1-HCA-1A"
+    ],
+    "applicant": "Rouzbeh Zarrinbakhsh, Stanley Family Residence, LLC",
+    "action": "Approve single-family dwelling"
+  },
   "outcome": {
     "status": "approved",
     "text": "Planning and Land Use Management Committee granted appeal(s) (Sep 22, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1033",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

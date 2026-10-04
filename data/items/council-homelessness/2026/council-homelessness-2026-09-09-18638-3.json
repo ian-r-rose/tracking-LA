@@ -11,11 +11,29 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a1580b3-777e-4a9e-9cd7-6c87cbfe55f9",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a91dfa2-3215-41d7-a5ad-01ef7e8fbcd0"
   ],
+  "summary": "Funding allocation and lease for a Residential Interim Housing and Low Barrier Navigation Center at 600 East 116th Place for those experiencing homelessness.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "600 East 116th Place, Los Angeles, CA",
+      "lat": 33.928212,
+      "lon": -118.265115,
+      "neighborhood": "Green Meadows"
+    }
+  ],
+  "details": {
+    "council_file": "23-1022-S40"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, as amended, forthwith. Council adopted Motion (Jurado - Blumenfield) to adopt the Budget and Finance Committee and the Homelessness and Health Reports as amended by Amending Motion 34A (Jurado - Yaroslavsky) forthwith (Sep 16, 2026); Council action final",
+    "text": "Council adopted item, as amended, forthwith. Council adopted Motion (Jurado - Blumenfield) to adopt the Budget and Finance Committee and the Homelessness and Health Reports as amended by Amending Motion 34A (Jurado - Yaroslavsky) forthwith (Sep 16, 2026); Council adopted item, as amended, forthwith. Council adopted Motion (Jurado - Blumenfield) to adopt the Budget and Finance Committee and the Homelessness and Health Reports as amended by Amending Motion 34A (Jurado - Yaroslavsky) forthwith (Sep 16, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1022-S40",
     "vote": "12-1-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

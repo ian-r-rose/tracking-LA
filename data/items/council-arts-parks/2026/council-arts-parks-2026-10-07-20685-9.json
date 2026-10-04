@@ -9,5 +9,21 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1315",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fd050adc-f81d-4697-ac03-6cb55268346e"
-  ]
+  ],
+  "summary": "License agreement with betterTogether Forever to provide animal intervention services at the North Central Animal Services Center.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "3201 Lacy Street, Los Angeles, CA",
+      "lat": 34.083951,
+      "lon": -118.217731,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "council_file": "26-1315",
+    "council_district": 1
+  }
 }

@@ -12,11 +12,27 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c3d15b7-0b38-4218-9f5b-1333e804c14d",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=285bbe70-da52-47dc-963e-5c7357890fa8"
   ],
+  "summary": "Expanding the design scope of the Sepulveda Basin Pedestrian Safety and Access Improvements Project.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Sepulveda Basin"
+    }
+  ],
+  "details": {
+    "council_file": "26-0037",
+    "action": "report on design scope expansion"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item as amended by Amending Motion (Padilla - Hernandez), subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
+    "text": "Public Works Committee approved as amended (Aug 12, 2026); Council adopted item as amended by Amending Motion (Padilla - Hernandez), subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0037",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

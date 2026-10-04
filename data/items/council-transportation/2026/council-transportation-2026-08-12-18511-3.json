@@ -10,11 +10,23 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=19-1308-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bb5a21c9-5834-441f-979f-0e5506553e8e"
   ],
+  "summary": "Amend an agreement with EV Charging Solutions to modify equipment specifications, clarify utility reimbursements, and add new charging sites.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "19-1308-S1",
+    "action": "amending agreement"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item forthwith (Aug 21, 2026); Council action final",
+    "text": "Energy and Environment Committee concurred with the Transportation Committee action of August 12, 2026 to approve this item (Aug 18, 2026); Council adopted item forthwith (Aug 21, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=19-1308-S1",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

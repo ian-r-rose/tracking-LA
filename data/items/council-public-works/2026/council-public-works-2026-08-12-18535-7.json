@@ -10,11 +10,30 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0335",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d482f0e4-ffd3-43ad-a0b7-20a116afdbd2"
   ],
+  "summary": "Designating the intersection of Terra Bella Street and Woodman Avenue as Veterans Memorial Square in memory of Sgt. Adrian Carrillo.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Terra Bella Street & Woodman Avenue, Los Angeles, CA",
+      "lat": 34.239915,
+      "lon": -118.443515,
+      "neighborhood": "Panorama City"
+    }
+  ],
+  "details": {
+    "council_file": "26-0335",
+    "council_district": 6,
+    "action": "naming intersection"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
+    "text": "Public Works Committee approved item(s) (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0335",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

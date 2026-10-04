@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-1538",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3ca5c603-4c26-4e6b-8bc6-cf663a318032"
-  ]
+  ],
+  "summary": "Report on the 2025 Citywide Park Needs Assessment and updates to the Public Recreation Plan and Municipal Code regarding park classifications and funding radii.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1538"
+  }
 }

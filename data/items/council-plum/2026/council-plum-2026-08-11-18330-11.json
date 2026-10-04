@@ -14,11 +14,45 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9111a020-764b-419a-ab09-f5b8968f61ba",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=31f44f9c-285e-45a7-bf83-1111b0322fb3"
   ],
+  "summary": "Approval of reuse of American Jewish University campus as Milken Community School private high school accommodating up to 900 students in existing structures in the Mulholland Scenic Parkway area.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2785 North Casiano Road, Los Angeles, CA",
+      "lat": 34.124572,
+      "lon": -118.471195,
+      "neighborhood": "Bel-Air"
+    },
+    {
+      "text": "2845 North Casiano Road, Los Angeles, CA",
+      "lat": 34.125225,
+      "lon": -118.471314,
+      "neighborhood": "Bel-Air"
+    },
+    {
+      "text": "2791 North Casiano Road, Los Angeles, CA",
+      "lat": 34.124638,
+      "lon": -118.471204,
+      "neighborhood": "Bel-Air"
+    }
+  ],
+  "details": {
+    "council_file": "26-0861",
+    "council_district": 5,
+    "case_numbers": [
+      "CPC-2025-3449-CU3-SPPC-DRB-MSP-1A"
+    ],
+    "action": "Conditional Use and Project Compliance Review approval"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 14, 2026); Council action final",
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee denied appeal(s) ; and thereby sustained the determination of the Los Angeles City Planning Commission (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 14, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0861",
     "vote": "10-0-5",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

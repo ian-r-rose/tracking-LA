@@ -14,11 +14,28 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e172520d-d3a5-458a-bff9-d393526ea8b5",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=da651694-cfb3-4778-b90e-af1007e2bee9"
   ],
+  "summary": "Approval of preliminary parcel map to subdivide property at 1400 North Vista Moraga into two lots allowing existing dwelling and one new single-family home.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "1400 North Vista Moraga, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-0766",
+    "council_district": 5,
+    "action": "Preliminary Parcel Map approval"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee denied appeal(s) ; and thereby sustained the determination of the Los Angeles City Planning Commission (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0766",
     "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

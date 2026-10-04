@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91470",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1244-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c0fda599-c00b-426f-9736-6411ac7c2566"
-  ]
+  ],
+  "summary": "City motion to advance First/Last Mile-Eligible Projects for transit connections.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-1244-S1",
+    "action": "motion on First/Last Mile-Eligible Projects"
+  }
 }

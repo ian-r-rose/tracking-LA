@@ -13,11 +13,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d9d10e83-dda1-4062-95b6-ab5a341af98d",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=15df9fa1-354a-4995-a6d9-398ff2f8d2a4"
   ],
+  "summary": "Reappointment of John Wirfs to the Board of El Pueblo de Los Angeles Historical Monument Authority.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "21-1200-S12"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
+    "text": "Arts, Parks, and City Facilities Committee approved item(s) (Sep 16, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1200-S12",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

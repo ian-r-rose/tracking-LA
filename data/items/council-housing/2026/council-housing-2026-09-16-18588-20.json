@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S171",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=84ecf746-915d-4998-b23a-adcdb7759f72"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 418 1/2 East 51st Street.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "418 1/2 East 51st Street, Los Angeles, CA",
+      "lat": 33.996497,
+      "lon": -118.267151,
+      "neighborhood": "South Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "910792"
+    ],
+    "council_district": 9,
+    "council_file": "26-0005-S171"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S171",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

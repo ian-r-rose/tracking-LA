@@ -12,10 +12,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f8a9da39-9cf7-4e9b-b73e-c9e8f935aecc",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=48a30aca-ff6a-4412-9060-f97ee12e30c3"
   ],
-  "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (May 24, 2024); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0472",
-    "recorded": "2026-10-03"
+  "summary": "Establishing Preferential Parking District No. 338 in Council District Ten.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-0472",
+    "council_district": 10,
+    "action": "establish preferential parking district"
   }
 }

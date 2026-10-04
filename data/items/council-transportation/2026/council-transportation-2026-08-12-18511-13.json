@@ -12,11 +12,22 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f48ef0fd-275f-4f6c-9496-9942a4def11b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1083a72e-5353-4041-a0d6-f35697a91e3b"
   ],
+  "summary": "DOT presented a report on incident response and infrastructure communication protocols for Interstate 110 and Gaffey Street.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 15,
+    "council_file": "26-0251"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item as amended by Amending Motion 13A (Padilla for McOsker - Hutt), subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
+    "status": "filed",
+    "text": "Transportation Committee noted and filed item(s) (Aug 12, 2026); Council adopted item as amended by Amending Motion 13A (Padilla for McOsker - Hutt), subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0251",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

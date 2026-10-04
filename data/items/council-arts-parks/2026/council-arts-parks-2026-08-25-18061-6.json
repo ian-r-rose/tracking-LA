@@ -10,11 +10,23 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1140",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b9eaa0eb-3a89-4959-9d24-e0b56c8685f4"
   ],
+  "summary": "Funding approved for a feasibility study to evaluate governance models for the Los Angeles Zoo and identify potential implementation roadmaps.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1140",
+    "council_district": 14
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 9, 2026)",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved item(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 9, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1140",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

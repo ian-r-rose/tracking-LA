@@ -10,11 +10,23 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1010",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b977393-4ccb-469b-a8ac-495d398582a1"
   ],
+  "summary": "Authorization to extend on-call programming contracts through June 2028 and increase total compensation by $6.5 million.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1010",
+    "amount": "$6.5 million",
+    "action": "Contract extension and increase authorization"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1010",
     "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

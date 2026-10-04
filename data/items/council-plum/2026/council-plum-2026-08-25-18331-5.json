@@ -14,11 +14,37 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=29521e3a-333e-46e7-9167-35372b9fadee",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d3f820f-f4b8-4252-a8a4-f3cb3fad59f6"
   ],
+  "summary": "Zone change.",
+  "topics": [
+    "environment",
+    "housing",
+    "land_use",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "12910 W Culver Boulevard, Los Angeles, CA",
+      "lat": 33.98305,
+      "lon": -118.427231,
+      "neighborhood": "Del Rey"
+    }
+  ],
+  "details": {
+    "council_file": "26-0898",
+    "council_district": 11,
+    "case_numbers": [
+      "CPC-2025-5749-VZC-HD"
+    ],
+    "environmental_number": "ENV-2025-5750-CE",
+    "applicant": "Lawry J. Meister, Westbrook Marina Office, LLC"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 8, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 8, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0898",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

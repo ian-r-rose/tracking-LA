@@ -9,5 +9,13 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0248",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=87ef6bf0-b6fa-43bf-868a-0177fb7639ea"
-  ]
+  ],
+  "summary": "Report on identifying artists of existing public art on Department of Recreation and Parks property and exploring opportunities for expanding the Permanent Art Collection.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0248"
+  }
 }

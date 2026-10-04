@@ -14,11 +14,37 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1aaebbb-15ab-453b-ac1c-b4daf8b9588b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dca9e475-d25f-4bbd-96c2-000d75f5603d"
   ],
+  "summary": "Approval of tract map and subdivision.",
+  "topics": [
+    "environment",
+    "housing",
+    "land_use",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "4061 W Melrose Avenue, Los Angeles, CA",
+      "lat": 34.083663,
+      "lon": -118.288315,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "26-1079",
+    "council_district": 13,
+    "case_numbers": [
+      "VTT-84762-SL-1A"
+    ],
+    "environmental_number": "ENV-2025-1299-CE",
+    "applicant": "Aaron Belliston, Melrose Ten, LLC"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee granted appeal(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1079",
     "vote": "10-0-5",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

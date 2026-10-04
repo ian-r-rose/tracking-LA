@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S160",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fb872c0-a88e-4676-9f69-9e008fc14206"
   ],
+  "summary": "The city will remove 910 South Alandele Avenue from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "910 South Alandele Ave, Los Angeles, CA",
+      "lat": 34.058941,
+      "lon": -118.35825,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S160",
+    "council_district": 5,
+    "case_numbers": [
+      "892381"
+    ]
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S160",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

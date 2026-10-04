@@ -11,11 +11,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=603c6692-a724-40d2-a1b5-9dc095811a46",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4756b1af-c3a6-4754-b85d-c03f347b9657"
   ],
-  "outcome": {
-    "status": "approved",
-    "text": "Council adopted item forthwith (Jul 1, 2025); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0651",
-    "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+  "summary": "Verbal update on identifying funding solutions to help families and individuals remain housed and the feasibility of a local subsidy program independent of Federal funding.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0651"
+  },
+  "digest": "backfill"
 }

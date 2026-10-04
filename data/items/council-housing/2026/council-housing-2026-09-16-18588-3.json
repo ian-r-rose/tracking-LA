@@ -11,10 +11,24 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3accde85-c542-4c2b-8183-ee4c0d17d5c1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=af6fc911-b377-4d6b-b76c-54155dc8d54f"
   ],
-  "outcome": {
-    "status": "approved",
-    "text": "Housing Committee approved item(s) (Sep 11, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0005-S269",
-    "recorded": "2026-10-03"
-  }
+  "summary": "Remove property from Rent Escrow Account Program at 4865 North Bakman Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "4865 North Bakman Avenue, Los Angeles, CA",
+      "lat": 34.159389,
+      "lon": -118.377458,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "758541"
+    ],
+    "council_district": 2,
+    "council_file": "17-0005-S269"
+  },
+  "digest": "backfill"
 }

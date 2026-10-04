@@ -9,5 +9,21 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91470",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0739-S4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=290a868b-06cd-4fe1-8287-8cb658b6fb9f"
-  ]
+  ],
+  "summary": "Applying for and accepting grant funding to purchase and install electrical infrastructure for bus electrification at the City-owned Sylmar Bus Maintenance Yard.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "12776 Foothill Boulevard, Los Angeles, CA",
+      "lat": 34.291566,
+      "lon": -118.413255,
+      "neighborhood": "Pacoima"
+    }
+  ],
+  "details": {
+    "council_file": "17-0739-S4",
+    "action": "apply for and accept grant funding for bus electrification"
+  }
 }

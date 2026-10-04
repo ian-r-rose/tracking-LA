@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0600-S115",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=77e8b746-8abf-4322-b668-b2d51d47068e"
   ],
+  "summary": "Update city policy to facilitate the acceptance of private donations related to signage.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0600-S115"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item as amended by , subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved as amended (Aug 11, 2026); Council adopted item as amended by , subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0600-S115",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

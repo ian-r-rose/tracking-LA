@@ -9,5 +9,21 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1162",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e51e933e-de67-48b4-b465-661e9334f192"
-  ]
+  ],
+  "summary": "Agreement with Rancho Preschool Inc. for operating a recreational child development and preschool program at Cheviot Hills Recreation Center.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "2551 Motor Avenue, Los Angeles, CA",
+      "lat": 34.046485,
+      "lon": -118.407845,
+      "neighborhood": "Cheviot Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-1162",
+    "council_district": 5
+  }
 }

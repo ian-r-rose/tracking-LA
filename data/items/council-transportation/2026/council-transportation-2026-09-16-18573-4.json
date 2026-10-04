@@ -13,10 +13,22 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d7edc9c5-4810-454a-8681-307926ad93a3",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f91cb71a-7425-49a3-a2fe-9d8414bee92d"
   ],
+  "summary": "Establish Temporary Preferential Parking District No. 346 in Council District 10.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-1338",
+    "council_district": 10,
+    "action": "establish Temporary Preferential Parking District"
+  },
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-1338",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

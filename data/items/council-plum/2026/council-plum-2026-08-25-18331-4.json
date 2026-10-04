@@ -10,11 +10,25 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S11",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=093082c3-0bba-4748-abe8-d034db2d723b"
   ],
+  "summary": "Council motion.",
+  "topics": [
+    "budget",
+    "public_safety",
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0906-S11",
+    "council_district": 14,
+    "amount": "$25,000"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted Motion (Jurado - McOsker) to adopt the Ad Hoc Committee for Boyle Heights Fire Recovery Committee Report, subject to reconsideration, pursuant to Council Rule 51 (Sep 16, 2026); Council action final",
+    "text": "Council adopted Motion (Jurado - McOsker) to adopt the Ad Hoc Committee for Boyle Heights Fire Recovery Committee Report, subject to reconsideration, pursuant to Council Rule 51 (Sep 16, 2026); Council adopted Motion (Jurado - McOsker) to adopt the Ad Hoc Committee for Boyle Heights Fire Recovery Committee Report, subject to reconsideration, pursuant to Council Rule 51 (Sep 16, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S11",
     "vote": "14-0-1",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

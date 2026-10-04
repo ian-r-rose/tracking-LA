@@ -14,11 +14,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=668dc182-9fcb-47b4-8c06-362575cb6c63",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c187bdba-d771-42c5-8ebc-9c14c390137d"
   ],
+  "summary": "DOT reported on a low-income payment diversion program for the Speed Safety System Pilot Program.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-1168"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
+    "status": "filed",
+    "text": "Transportation Committee noted and filed item(s) (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1168",
     "vote": "10-0-5",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

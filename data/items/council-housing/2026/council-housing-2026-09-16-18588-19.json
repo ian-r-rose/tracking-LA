@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S170",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bf110860-29b2-4410-9e03-aa23731164f8"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 436 South Cloverdale Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "436 South Cloverdale Avenue, Los Angeles, CA",
+      "lat": 34.066486,
+      "lon": -118.346121,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "898369"
+    ],
+    "council_district": 5,
+    "council_file": "26-0005-S170"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S170",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

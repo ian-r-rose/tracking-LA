@@ -14,11 +14,36 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2ce1cab4-7dc3-4eda-9d01-984356379545",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2da48026-e29f-48b3-8126-2a6ebe28d02a"
   ],
+  "summary": "Designation of Fox Apartments as Historic-Cultural Monuments.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "10251 West Santa Monica Boulevard, Los Angeles, CA",
+      "lat": 34.060067,
+      "lon": -118.420672,
+      "neighborhood": "Westwood"
+    },
+    {
+      "text": "1749 South Ensley Avenue, Los Angeles, CA",
+      "lat": 34.060371,
+      "lon": -118.420853,
+      "neighborhood": "Westwood"
+    }
+  ],
+  "details": {
+    "council_file": "26-0622",
+    "council_district": 5,
+    "action": "Historic-Cultural Monument designation"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0622",
     "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

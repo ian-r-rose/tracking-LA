@@ -10,10 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1293",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ed8a88f2-bafd-4a36-b81d-d085e4a38af7"
   ],
+  "summary": "Motion directing the Department of Animal Services to report on property conditions and capital improvement needs across all DAS facilities.",
+  "topics": [
+    "other",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1293"
+  },
   "outcome": {
     "status": "approved",
     "text": "Arts, Parks, and City Facilities Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1293",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

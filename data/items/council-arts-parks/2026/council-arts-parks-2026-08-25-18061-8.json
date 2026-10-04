@@ -10,11 +10,21 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1037",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=681222f2-9391-4d30-91f3-504af22a41a4"
   ],
+  "summary": "In-kind donation of an articulating horse mannequin from the Lange Foundation for the Specialized Mobile Animal Rescue Team training operations.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1037"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 4, 2026); Council action final",
+    "status": "filed",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee noted and filed the Department of Animal Services report dated July 31, 2026; and, approved the Mayor report dated August 6, 2026 (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 4, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1037",
     "vote": "10-0-5",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

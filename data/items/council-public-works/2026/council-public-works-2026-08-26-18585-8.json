@@ -10,11 +10,34 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0961",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7a2cea62-fb09-4be1-9cf8-70124f5b3396"
   ],
+  "summary": "Designate Van Nuys Boulevard from Laurel Canyon Boulevard to Foothill Boulevard as 'Pueblo Magico'",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Van Nuys Boulevard & Laurel Canyon Boulevard, Los Angeles, CA",
+      "lat": 34.258788,
+      "lon": -118.43213,
+      "neighborhood": "Pacoima"
+    },
+    {
+      "text": "Van Nuys Boulevard & Foothill Boulevard, Los Angeles, CA",
+      "lat": 34.280874,
+      "lon": -118.401845,
+      "neighborhood": "Lake View Terrace"
+    }
+  ],
+  "details": {
+    "council_file": "26-0961"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 1, 2026); Council action final",
+    "text": "Public Works Committee approved item(s) (Aug 26, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 1, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0961",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

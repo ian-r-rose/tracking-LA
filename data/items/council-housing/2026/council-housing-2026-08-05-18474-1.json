@@ -12,11 +12,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8dcb033f-7814-488e-9580-fb488415f2b2",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=33daa44c-b52b-40c4-b3ac-9726fe842ade"
   ],
+  "summary": "Reappointment of Loraine Lundquist to the Rent Adjustment Commission for a term ending May 20, 2030.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-1200-S126"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
+    "text": "Housing and Homelessness Committee approved item(s) (Aug 5, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1200-S126",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

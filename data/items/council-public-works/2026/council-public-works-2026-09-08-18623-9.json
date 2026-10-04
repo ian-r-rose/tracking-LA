@@ -11,10 +11,25 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=51c68d0d-ffc2-4684-b0ae-9eab6a90648a",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b755e51a-806c-4195-8ff3-fb1c1e12b20b"
   ],
+  "summary": "Establishing a Sixth Street Viaduct Maintenance Trust Fund for the receipt, retention, and disbursement of gifts, contributions, and donations for maintenance of the Sixth Street Viaduct Bridge.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Sixth Street Viaduct, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "council_file": "22-0708-S3"
+  },
   "outcome": {
     "status": "approved",
     "text": "Budget and Finance Committee concurred with the Public Works Committee's action of September 8, 2026 (Sep 15, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=22-0708-S3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

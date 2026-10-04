@@ -10,10 +10,22 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S14",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e0dc77ee-04e4-4718-bad5-c367311df18e"
   ],
+  "summary": "Prohibit the parking of oversize vehicles between 2:00 am and 6:00 am on certain street segments in Council District 12.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0008-S14",
+    "council_district": 12,
+    "action": "prohibit oversize vehicle parking"
+  },
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S14",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

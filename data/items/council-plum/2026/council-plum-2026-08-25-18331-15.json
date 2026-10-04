@@ -14,11 +14,29 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a88db17f-ceaa-4b14-a1a0-01359a23597f",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=37818b8e-bcd7-485e-9561-bfe188ed1a81"
   ],
+  "summary": "Categorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelin.",
+  "topics": [
+    "environment",
+    "housing",
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0975-S1",
+    "council_district": 15,
+    "case_numbers": [
+      "ZA-2023-7218-ZV-CDP-MEL-HCA-2A"
+    ],
+    "environmental_number": "ENV-2023-7220-CE",
+    "applicant": "Vartan Achabahian, Masis Holdings, LLC"
+  },
   "outcome": {
-    "status": "approved",
-    "text": "Council adopted item forthwith (Aug 26, 2026)",
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee denied appeal(s) ; and thereby sustained the determination of the Harbor Area Planning Commission (Aug 25, 2026); Council adopted item forthwith (Aug 26, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0975-S1",
     "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

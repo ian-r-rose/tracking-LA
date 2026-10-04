@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S165",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1c87271a-652d-4884-ad73-c40f40231340"
   ],
+  "summary": "Removal of the property at 3712 South 7th Avenue from the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "3712 South 7th Avenue, Los Angeles, CA",
+      "lat": 34.019627,
+      "lon": -118.324946,
+      "neighborhood": "Leimert Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S165",
+    "council_district": 10,
+    "case_numbers": [
+      "911178"
+    ]
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S165",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -9,5 +9,26 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91424",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S176",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2fe1d752-77fe-476e-a699-00574f52e80a"
-  ]
+  ],
+  "summary": "The city will remove 2125 North Parkside Avenue from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "2125 North Parkside Ave, Los Angeles, CA",
+      "lat": 34.069608,
+      "lon": -118.200147,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S176",
+    "council_district": 14,
+    "case_numbers": [
+      "919504"
+    ]
+  }
 }

@@ -12,10 +12,21 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9ae1e757-f01b-4707-9156-7cc1209bc634",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=135d580e-3153-458f-b855-f6bf0ff26b57"
   ],
+  "summary": "Taking immediate actions to preserve street lighting services and long-term steps to stabilize the Bureau.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0955",
+    "action": "report on budget and stabilization"
+  },
   "outcome": {
     "status": "continued",
     "text": "Public Works Committee continued item to a date to be determined (Aug 26, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0955",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

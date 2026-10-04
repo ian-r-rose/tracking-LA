@@ -14,10 +14,20 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7841fdd3-de9b-4b11-8f32-4555dc94261e",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cfd7a3b7-f916-49e0-aff7-2e6d081c3a45"
   ],
+  "summary": "Amending the Los Angeles Municipal Code to authorize the use of Rapid Micro-trenching with a Street Damage Restoration Fee matching regular Micro-trenching.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-0041"
+  },
   "outcome": {
     "status": "approved",
     "text": "Public Works Committee approved item(s) (Sep 22, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0041",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -10,11 +10,27 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1107",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=285ff452-52c5-4a77-a6d0-0bc20b3f5f2a"
   ],
+  "summary": "Temporary repair of the Encino Franklin Fields Bridge to restore safe public access and support continued operation of Franklin Fields in Council District 6",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Franklin Fields, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-1107",
+    "council_district": 6
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item forthwith (Sep 22, 2026); Council action final",
+    "text": "Public Works Committee approved item(s) (Aug 26, 2026); Council adopted item forthwith (Sep 22, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1107",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

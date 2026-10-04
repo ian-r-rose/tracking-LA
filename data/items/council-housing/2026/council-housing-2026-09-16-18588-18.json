@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S169",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d892e12-185d-44d2-bc0a-cc704c279088"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 7820 North Lindley Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "7820 North Lindley Avenue, Los Angeles, CA",
+      "lat": 34.212436,
+      "lon": -118.527289,
+      "neighborhood": "Reseda"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "905891"
+    ],
+    "council_district": 4,
+    "council_file": "26-0005-S169"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S169",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

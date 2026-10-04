@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0661",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9a302548-6923-445c-8b11-8e1d227e9fa0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0b1b56ad-67ff-4863-a263-8972adee4bdc"
-  ]
+  ],
+  "summary": "Amending the Los Angeles Municipal Code to establish base fines and late penalties for parking violations within 20 feet of marked or unmarked crosswalks.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0661",
+    "action": "amend municipal code"
+  }
 }

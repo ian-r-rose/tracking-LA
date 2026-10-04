@@ -10,10 +10,31 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S167",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7e79f685-1a03-44d6-81c0-1174c3f13d93"
   ],
+  "summary": "Remove property from Rent Escrow Account Program at 1052 West 60th Street.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "1052 West 60th Street, Los Angeles, CA",
+      "lat": 33.985803,
+      "lon": -118.292647,
+      "neighborhood": "Vermont-Slauson"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "886116"
+    ],
+    "council_district": 9,
+    "council_file": "26-0005-S167"
+  },
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S167",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

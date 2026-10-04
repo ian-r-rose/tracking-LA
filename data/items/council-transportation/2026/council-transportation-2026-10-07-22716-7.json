@@ -9,5 +9,22 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91470",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1374",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a5815f58-f7e5-4d70-ae52-9887da903bdc"
-  ]
+  ],
+  "summary": "City motion to improve traffic safety at the intersection of 60th Street and 10th Avenue.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "60th Street & 10th Avenue, Los Angeles, CA",
+      "lat": 33.985422,
+      "lon": -118.328594,
+      "neighborhood": "Hyde Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-1374",
+    "council_district": 9,
+    "action": "motion on traffic safety"
+  }
 }

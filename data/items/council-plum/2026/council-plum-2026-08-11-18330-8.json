@@ -14,11 +14,31 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0177aeac-dbaa-47a7-bb3b-9ced5717fc72",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=447e41f3-a06b-4554-a863-e20baa961e11"
   ],
+  "summary": "Approval of categorical exemption for construction of new single-family dwelling with four-car garage and pool at 4230 North Saltillo Street.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "4230 North Saltillo Street, Los Angeles, CA",
+      "lat": 34.146399,
+      "lon": -118.593468,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-0412",
+    "council_district": 3,
+    "action": "Categorical exemption approval for single-family dwelling"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee granted appeal(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0412",
     "vote": "15-0-0",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

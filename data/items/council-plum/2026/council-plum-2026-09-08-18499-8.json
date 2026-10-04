@@ -13,11 +13,40 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1bd06978-a537-4ec4-9acc-71b2fb92062f",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=17a12fa7-c25f-4915-bf66-ca2142b84575"
   ],
+  "summary": "Designate The Talmadge as a Historic-Cultural Monument at two Los Angeles locations.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3278 West Wilshire Boulevard, Los Angeles, CA",
+      "lat": 34.061718,
+      "lon": -118.293622,
+      "neighborhood": "Koreatown"
+    },
+    {
+      "text": "656-660 South Berendo Street, Los Angeles, CA",
+      "lat": 34.061553,
+      "lon": -118.294086,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "council_file": "26-1044",
+    "council_district": 10,
+    "case_numbers": [
+      "CHC-2026-2057-HCM"
+    ],
+    "applicant": "James Dastoli",
+    "action": "Include in Historic-Cultural Monuments"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved item(s) (Sep 8, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1044",
     "vote": "11-0-4",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

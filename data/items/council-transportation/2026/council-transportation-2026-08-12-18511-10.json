@@ -10,11 +10,26 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0912",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a01e2315-73ce-46f2-a45f-88fcc0d77383"
   ],
+  "summary": "Establishing Preferential Parking District No. 321 in the Warner Center area.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Warner Center, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "council_file": "26-0912"
+  },
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 18, 2026); Council action final",
+    "text": "Transportation Committee approved item(s) (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 18, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0912",
     "vote": "12-0-3",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

@@ -14,11 +14,37 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=da35cd4f-3e02-4817-b899-0734a8be600b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=23bc4e65-f4c8-418c-8d59-bcdd07dbb210"
   ],
+  "summary": "Zone change from R4-1 to C2-1 to allow office conversion.",
+  "topics": [
+    "environment",
+    "housing",
+    "land_use"
+  ],
+  "details": {
+    "council_file": "26-0985",
+    "council_district": 11,
+    "applicant": "Young Chong, CFI Venture Group, LLC",
+    "action": "zone change",
+    "case_numbers": [
+      "ENV-2024-8092-CE",
+      "APCW-2024-8091-ZC"
+    ]
+  },
+  "locations": [
+    {
+      "text": "8946 S Sepulveda Eastway, Los Angeles, CA",
+      "lat": 33.955333,
+      "lon": -118.394683,
+      "neighborhood": "Westchester"
+    }
+  ],
   "outcome": {
     "status": "approved",
-    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 25, 2026); Council action final",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 25, 2026); Council action final",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0985",
     "vote": "13-0-2",
-    "recorded": "2026-10-03"
-  }
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
 }

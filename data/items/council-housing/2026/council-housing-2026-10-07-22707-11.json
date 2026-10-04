@@ -11,5 +11,27 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1b606ee-9318-4f72-9070-9f7f5705de73",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fe4d335d-6d92-41ee-8be6-816749d84463",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=38db36cf-9d3f-46d9-96df-81d334f03d45"
-  ]
+  ],
+  "summary": "The city will remove 3000 West Crestmoore Place from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "3000 West Crestmoore Place, Los Angeles, CA",
+      "lat": 34.117777,
+      "lon": -118.236272,
+      "neighborhood": "Glassell Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S181",
+    "council_district": 13,
+    "case_numbers": [
+      "44287",
+      "426933",
+      "707367"
+    ]
+  }
 }
