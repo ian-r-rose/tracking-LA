@@ -11,15 +11,15 @@ from pathlib import Path
 import httpx
 import yaml
 
-from lacomm import http_client
-from lacomm import canary
-from lacomm.check import check_all
-from lacomm.outcomes import PROCESSED, normalize_status, record
-from lacomm.geo import Geocoder, Neighborhoods, Places, build_places
-from lacomm.score import candidates
-from lacomm.site import build as build_site
-from lacomm.sources import SOURCES, Source
-from lacomm.store import DATA, upsert_item
+from tracking_la import http_client
+from tracking_la import canary
+from tracking_la.check import check_all
+from tracking_la.outcomes import PROCESSED, normalize_status, record
+from tracking_la.geo import Geocoder, Neighborhoods, Places, build_places
+from tracking_la.score import candidates
+from tracking_la.site import build as build_site
+from tracking_la.sources import SOURCES, Source
+from tracking_la.store import DATA, upsert_item
 
 # The Planning server takes ~9s per request regardless of size, so download a few at a time.
 CONCURRENT_DOWNLOADS = 4
@@ -247,7 +247,7 @@ def mark_digested(digest_date: str) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(prog="lacomm")
+    parser = argparse.ArgumentParser(prog="tracking-la")
     sub = parser.add_subparsers(dest="command", required=True)
     p = sub.add_parser("fetch", help="Fetch agendas for meetings since N days ago (and all upcoming)")
     p.add_argument("--since", type=int, default=30, metavar="DAYS")

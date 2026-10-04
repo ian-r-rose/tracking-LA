@@ -9,8 +9,8 @@ from pathlib import Path
 
 import yaml
 
-from lacomm.geo import Neighborhoods
-from lacomm.store import DATA
+from tracking_la.geo import Neighborhoods
+from tracking_la.store import DATA
 
 INTERESTS = DATA.parent / "config" / "interests.yaml"
 

@@ -1,7 +1,7 @@
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import planning_cases
+from tracking_la.sources import planning_cases
 
 FEED = (Path(__file__).parent / "fixtures" / "planning_cases" / "newcases.json").read_bytes()
 MEETING = {"body": "planning-cases", "date": date(2026, 10, 3), "agenda_url": planning_cases.FEED}
@@ -18,7 +18,7 @@ def test_cases_for_one_project_become_one_item():
 
 
 def test_only_projects_near_watched_neighborhoods_are_kept():
-    from lacomm.geo import Neighborhoods
+    from tracking_la.geo import Neighborhoods
 
     class Geocoder:
         def geocode(self, text):

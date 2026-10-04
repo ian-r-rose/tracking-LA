@@ -11,10 +11,10 @@ from pathlib import Path
 
 import markdown
 
-from lacomm.store import DATA
+from tracking_la.store import DATA
 
 ROOT = DATA.parent
-TITLE = "LA Commissions Watch"
+TITLE = "Tracking LA"
 
 STYLE = """
 :root { --bg: #fdfcfa; --fg: #1f1d1a; --muted: #6b665e; --line: #e4e0d8; --link: #1d5c8f; }
@@ -60,7 +60,7 @@ def page(title: str, body: str, prefix: str = "") -> str:
 <main>
 {body}
 </main>
-<footer>Agendas, minutes and journals from LA City commission websites, summarized with Claude.
+<footer>Agendas, minutes and journals from LA City and Metro websites, summarized with Claude.
 Summaries can be wrong; follow the links to the source documents.</footer>
 </body>
 </html>

@@ -2,7 +2,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import metro
+from tracking_la.sources import metro
 
 FIXTURES = Path(__file__).parent / "fixtures" / "metro"
 MEETING = {"date": date(2026, 9, 24), "agenda_url": metro.items_url(3545), "page_url": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545"}

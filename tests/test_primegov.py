@@ -4,7 +4,7 @@ from pathlib import Path
 
 import httpx
 
-from lacomm.sources import primegov
+from tracking_la.sources import primegov
 
 FIXTURES = Path(__file__).parent / "fixtures" / "primegov"
 MEETING = {"body": "bpw", "date": date(2026, 9, 30), "meeting_id": 2835, "agenda_url": "https://example/agenda"}

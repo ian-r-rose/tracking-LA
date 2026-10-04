@@ -2,8 +2,8 @@ import json
 from datetime import date
 from pathlib import Path
 
-from lacomm.outcomes import normalize_status, record
-from lacomm.sources import primegov, rap
+from tracking_la.outcomes import normalize_status, record
+from tracking_la.sources import primegov, rap
 
 FIXTURES = Path(__file__).parent / "fixtures"
 

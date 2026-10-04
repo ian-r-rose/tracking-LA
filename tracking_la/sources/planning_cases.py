@@ -20,10 +20,10 @@ from datetime import date, datetime
 import httpx
 from bs4 import BeautifulSoup
 
-from lacomm import http_client
-from lacomm.geo import Geocoder, Neighborhoods
-from lacomm.outcomes import normalize_status
-from lacomm.score import load_interests
+from tracking_la import http_client
+from tracking_la.geo import Geocoder, Neighborhoods
+from tracking_la.outcomes import normalize_status
+from tracking_la.score import load_interests
 
 FEED = "https://planning.lacity.gov/dcpapi/general/newcases"
 

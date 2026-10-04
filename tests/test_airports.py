@@ -1,7 +1,7 @@
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import airports
+from tracking_la.sources import airports
 
 FIXTURES = Path(__file__).parent / "fixtures" / "airports"
 

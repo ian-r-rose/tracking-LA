@@ -1,7 +1,7 @@
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import ens
+from tracking_la.sources import ens
 
 FIXTURES = Path(__file__).parent / "fixtures" / "ens"
 MEETING = {"date": date(2026, 9, 17), "agenda_url": "https://example/agenda"}

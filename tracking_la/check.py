@@ -9,7 +9,7 @@ import json
 import subprocess
 from pathlib import Path
 
-from lacomm.store import DATA, SOURCE_FIELDS
+from tracking_la.store import DATA, SOURCE_FIELDS
 
 OUTCOME_STATUSES = {"approved", "denied", "continued", "withdrawn", "filed", "other"}
 TOPICS = {"parks", "transportation", "land_use", "housing", "environment", "budget", "public_safety", "other"}

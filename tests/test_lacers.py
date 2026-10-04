@@ -1,8 +1,8 @@
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import lacers
-from lacomm.sources.ens import split_agenda
+from tracking_la.sources import lacers
+from tracking_la.sources.ens import split_agenda
 
 FIXTURES = Path(__file__).parent / "fixtures" / "lacers"
 

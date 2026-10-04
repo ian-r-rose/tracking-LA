@@ -1,7 +1,7 @@
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import harbor
+from tracking_la.sources import harbor
 
 FIXTURES = Path(__file__).parent / "fixtures" / "harbor"
 

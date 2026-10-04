@@ -12,7 +12,7 @@ from urllib.parse import urljoin
 import httpx
 from bs4 import BeautifulSoup
 
-from lacomm.pdf import normalize_space, pdf_text
+from tracking_la.pdf import normalize_space, pdf_text
 
 PAGE = "https://elpueblo.lacity.gov/commission"
 

@@ -1,7 +1,7 @@
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import zoo
+from tracking_la.sources import zoo
 
 PAGE = (Path(__file__).parent / "fixtures" / "zoo" / "commission.html").read_bytes()
 MEETING = {"body": "zoo", "date": date(2026, 9, 15), "agenda_url": zoo.PAGE + "#2026-09-15"}

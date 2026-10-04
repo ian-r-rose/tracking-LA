@@ -2,8 +2,8 @@ from datetime import date
 
 import httpx
 
-from lacomm import canary
-from lacomm.sources import Source
+from tracking_la import canary
+from tracking_la.sources import Source
 
 TODAY = date(2026, 10, 3)
 

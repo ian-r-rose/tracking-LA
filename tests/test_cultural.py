@@ -2,7 +2,7 @@ import json
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import cultural
+from tracking_la.sources import cultural
 
 TABLE = json.loads((Path(__file__).parent / "fixtures" / "cultural" / "view.json").read_text())
 

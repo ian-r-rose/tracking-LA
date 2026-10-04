@@ -7,8 +7,8 @@ from datetime import date
 from functools import partial
 from typing import Callable
 
-from lacomm.pdf import pdf_text
-from lacomm.sources import (
+from tracking_la.pdf import pdf_text
+from tracking_la.sources import (
     airports, council, cultural, elpueblo, ens, harbor, lacers, library, metro, planning, planning_cases, primegov, rap,
     trees, zoo,
 )
@@ -21,7 +21,7 @@ class Source:
     meeting_items: Callable  # (meeting, agenda bytes) -> list[item]
     outcome_url: Callable | None = None  # (meeting) -> URL of its journal/minutes, or None
     meeting_outcomes: Callable | None = None  # (meeting, record bytes) -> {item id: outcome}
-    # For lacomm canary, when meeting_items can legitimately return nothing (it filters):
+    # For tracking-la canary, when meeting_items can legitimately return nothing (it filters):
     # (meeting, agenda bytes) -> items before filtering.
     canary_items: Callable | None = None
     # Sources whose items each have a page to follow for decisions (a Planning case in

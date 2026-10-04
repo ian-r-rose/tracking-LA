@@ -13,9 +13,9 @@ from urllib.parse import urljoin
 import httpx
 from bs4 import BeautifulSoup
 
-from lacomm import http_client
-from lacomm.pdf import normalize_space, pdf_text
-from lacomm.sources.ens import RECREATION_AND_PARKS, split_agenda
+from tracking_la import http_client
+from tracking_la.pdf import normalize_space, pdf_text
+from tracking_la.sources.ens import RECREATION_AND_PARKS, split_agenda
 
 SITE = "https://recreation.parks.lacity.gov"
 YEAR_PAGE = SITE + "/commissioners/agendas-minutes-reports/{year}"

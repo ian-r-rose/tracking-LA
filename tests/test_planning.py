@@ -4,8 +4,8 @@ from pathlib import Path
 
 import httpx
 
-from lacomm.sources import planning
-from lacomm.store import upsert_item
+from tracking_la.sources import planning
+from tracking_la.store import upsert_item
 
 FIXTURES = Path(__file__).parent / "fixtures" / "planning"
 MEETING = {"body": "cpc", "date": date(2026, 9, 10), "agenda_url": "https://example/agenda"}

@@ -1,5 +1,5 @@
-from lacomm.geo import Neighborhoods
-from lacomm.score import score_item
+from tracking_la.geo import Neighborhoods
+from tracking_la.score import score_item
 
 INTERESTS = {
     "topics": {"parks": 3, "transportation": 3, "land_use": 1},
@@ -29,7 +29,7 @@ def test_citywide_item_ranks_on_topic_alone():
 
 def test_candidates_include_items_already_in_the_digest_being_rewritten(tmp_path):
     import json
-    from lacomm.score import candidates
+    from tracking_la.score import candidates
 
     folder = tmp_path / "items" / "x" / "2026"
     folder.mkdir(parents=True)

@@ -9,7 +9,7 @@ from datetime import date, datetime
 
 import httpx
 
-from lacomm.pdf import normalize_space, pdf_links, pdf_text
+from tracking_la.pdf import normalize_space, pdf_links, pdf_text
 
 API = "https://planning.lacity.gov/dcpapi2/meetings/api/all/commissions/{year}"
 

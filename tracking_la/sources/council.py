@@ -2,7 +2,7 @@
 
 Committees are where Council matters are discussed before going to full Council; a
 committee's action is a recommendation to Council. Agendas use the same PrimeGov HTML
-as Public Works (lacomm.sources.primegov). Committees are selected by PrimeGov's
+as Public Works (tracking_la.sources.primegov). Committees are selected by PrimeGov's
 committee id, because their names change (Housing and Homelessness split in two in
 2026; Arts and Parks has been renamed twice).
 
@@ -19,8 +19,8 @@ from datetime import date, datetime
 import httpx
 from bs4 import BeautifulSoup
 
-from lacomm.outcomes import normalize_status
-from lacomm.sources import primegov
+from tracking_la.outcomes import normalize_status
+from tracking_la.sources import primegov
 
 PORTAL = "https://lacity.primegov.com"
 CLERK_CONNECT = "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber={}"

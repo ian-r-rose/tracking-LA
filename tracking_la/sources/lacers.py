@@ -12,8 +12,8 @@ from urllib.parse import urljoin
 import httpx
 from bs4 import BeautifulSoup
 
-from lacomm.pdf import pdf_text
-from lacomm.sources.ens import Format, items_from_text
+from tracking_la.pdf import pdf_text
+from tracking_la.sources.ens import Format, items_from_text
 
 PAGE = "https://www.lacers.org/agendas-and-minutes"
 TITLE = re.compile(r"^(\w+ \d{1,2}, \d{4}) - Board of Administration Meeting Agenda$")

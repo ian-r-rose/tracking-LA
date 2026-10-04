@@ -13,7 +13,7 @@ from urllib.parse import urljoin
 import httpx
 from bs4 import BeautifulSoup
 
-from lacomm.pdf import normalize_space, pdf_text
+from tracking_la.pdf import normalize_space, pdf_text
 
 INDEX = "https://www.lapl.org/board-library-commissioners/meetings"
 MEETING_PAGE = re.compile(r"/board-library-commissioners/meetings/blc-meeting-(\d{4}-\d{2}-\d{2})")

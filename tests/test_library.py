@@ -1,7 +1,7 @@
 from datetime import date
 from pathlib import Path
 
-from lacomm.sources import library
+from tracking_la.sources import library
 
 FIXTURES = Path(__file__).parent / "fixtures" / "library"
 

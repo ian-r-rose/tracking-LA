@@ -1,5 +1,5 @@
 """PrimeGov meeting portals: the Department of Public Works' here, and the shared
-listing and HTML agenda parsing that City Council's portal reuses (lacomm.sources.council).
+listing and HTML agenda parsing that City Council's portal reuses (tracking_la.sources.council).
 
 Public Works runs its own portal (separate from City Council's). Board of Public
 Works agendas are published as HTML with one block per item, which is much easier
@@ -13,7 +13,7 @@ from datetime import date, datetime
 import httpx
 from bs4 import BeautifulSoup
 
-from lacomm.pdf import normalize_space, pdf_text
+from tracking_la.pdf import normalize_space, pdf_text
 
 PORTAL = "https://dpwlacity.primegov.com"
 

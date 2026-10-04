@@ -1,4 +1,4 @@
-from lacomm.site import build
+from tracking_la.site import build
 
 
 def test_build(tmp_path):

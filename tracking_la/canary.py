@@ -11,7 +11,7 @@ from datetime import date, timedelta
 
 import httpx
 
-from lacomm.sources import SOURCES, Source
+from tracking_la.sources import SOURCES, Source
 
 WINDOW = timedelta(days=120)  # long enough for bodies that meet every other month
 TRIES = 3  # the newest agendas to try; one can legitimately be empty (closed session only)

@@ -14,7 +14,7 @@ from datetime import date, datetime
 
 import httpx
 
-from lacomm.outcomes import normalize_status
+from tracking_la.outcomes import normalize_status
 
 API = "https://webapi.legistar.com/v1/metro"
 BODIES = {"Board of Directors - Regular Board Meeting", "Board of Directors - Special Board Meeting"}

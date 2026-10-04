@@ -12,7 +12,7 @@ import re
 from datetime import date
 from pathlib import Path
 
-from lacomm.store import DATA
+from tracking_la.store import DATA
 
 # Minutes and journals already processed, so they aren't parsed again every run.
 PROCESSED = DATA / "outcome-sources.json"

@@ -12,7 +12,7 @@ from urllib.parse import urljoin
 
 import httpx
 
-from lacomm.pdf import normalize_space, pdf_links, pdf_text
+from tracking_la.pdf import normalize_space, pdf_links, pdf_text
 
 MONTH_DATE = re.compile(r"(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),\s*(\d{4})")
 
@@ -137,7 +137,7 @@ RECREATION_AND_PARKS = Format(
     ignore_line=re.compile(r"^\s+\d{1,2}\s*$"),
 )
 
-# Rec & Parks agendas are fetched from Rec & Parks' own site (lacomm.sources.rap), which
+# Rec & Parks agendas are fetched from Rec & Parks' own site (tracking_la.sources.rap), which
 # also has minutes and extra documents; RECREATION_AND_PARKS is still the agenda format.
 FORMATS = [
     TRANSPORTATION, WATER_AND_POWER, BUILDING_AND_SAFETY, POLICE, FIRE, ANIMAL_SERVICES, ETHICS,

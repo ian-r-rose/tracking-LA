@@ -102,37 +102,6 @@ wheels = [
 ]
 
 [[package]]
-name = "lacomm"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "httpx" },
-    { name = "markdown" },
-    { name = "pypdf" },
-    { name = "pyyaml" },
-    { name = "shapely" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "pytest" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "beautifulsoup4", specifier = ">=4.15.0" },
-    { name = "httpx", specifier = ">=0.28.1" },
-    { name = "markdown", specifier = ">=3.11" },
-    { name = "pypdf", specifier = ">=6.19.0" },
-    { name = "pyyaml", specifier = ">=6.0.3" },
-    { name = "shapely", specifier = ">=2.1.2" },
-]
-
-[package.metadata.requires-dev]
-dev = [{ name = "pytest", specifier = ">=9.1.1" }]
-
-[[package]]
 name = "markdown"
 version = "3.11"
 source = { registry = "https://pypi.org/simple" }
@@ -371,6 +340,37 @@ sdist = { url = "https://files.pythonhosted.org/packages/71/c3/1b817965ac12dc002
 wheels = [
     { url = "https://files.pythonhosted.org/packages/66/87/5ed59e1d0290564e2027ed066c52b059892c4637741337fc0967183c8d4d/soupsieve-2.10-py3-none-any.whl", hash = "sha256:8596eb8967d744174820280fa62b4542a2e955bfaccca73ed8a13c6eb8e9b502", size = 38019, upload-time = "2026-09-24T02:36:33.709Z" },
 ]
+
+[[package]]
+name = "tracking-la"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "beautifulsoup4" },
+    { name = "httpx" },
+    { name = "markdown" },
+    { name = "pypdf" },
+    { name = "pyyaml" },
+    { name = "shapely" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "pytest" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "beautifulsoup4", specifier = ">=4.15.0" },
+    { name = "httpx", specifier = ">=0.28.1" },
+    { name = "markdown", specifier = ">=3.11" },
+    { name = "pypdf", specifier = ">=6.19.0" },
+    { name = "pyyaml", specifier = ">=6.0.3" },
+    { name = "shapely", specifier = ">=2.1.2" },
+]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest", specifier = ">=9.1.1" }]
 
 [[package]]
 name = "typing-extensions"

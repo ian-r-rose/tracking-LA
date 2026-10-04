@@ -4,7 +4,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-from lacomm.sources import council
+from tracking_la.sources import council
 
 FIXTURES = Path(__file__).parent / "fixtures" / "council"
 MEETING = {

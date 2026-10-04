@@ -1,6 +1,6 @@
 import httpx
 
-from lacomm.geo import Geocoder, Neighborhoods, Places, clean_query, plausible
+from tracking_la.geo import Geocoder, Neighborhoods, Places, clean_query, plausible
 
 
 def test_clean_query_strips_city_and_state():
@@ -64,7 +64,7 @@ def test_zoo_alias():
 
 
 def test_plausible_ignores_units_and_apostrophes():
-    from lacomm.geo import plausible
+    from tracking_la.geo import plausible
 
     assert plausible("14703 W RINALDI ST A-C", "14703 W RINALDI ST, 91340")
     assert plausible("2304 S STRONGS DR", "2304 S STRONG'S DR, 90291")

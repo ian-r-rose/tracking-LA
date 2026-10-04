@@ -4,10 +4,10 @@ import time
 
 import httpx
 
-# Set LACOMM_CONTACT (an email or URL) so site operators can reach us about our traffic.
+# Set TRACKING_LA_CONTACT (an email or URL) so site operators can reach us about our traffic.
 # The "Mozilla/5.0 (compatible; ...)" prefix is the usual crawler convention; some City sites
 # (e.g. Rec & Parks) reject User-Agents without it.
-USER_AGENT = "Mozilla/5.0 (compatible; la-commissions/0.1" + (f"; +{c}" if (c := os.environ.get("LACOMM_CONTACT")) else "") + ")"
+USER_AGENT = "Mozilla/5.0 (compatible; tracking-la/0.1" + (f"; +{c}" if (c := os.environ.get("TRACKING_LA_CONTACT")) else "") + ")"
 
 
 # Statuses worth another try: City firewalls sometimes refuse a request (403) or a server is

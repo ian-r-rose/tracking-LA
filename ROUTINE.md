@@ -4,7 +4,7 @@ Instructions for the scheduled Claude Code routine that keeps `data/` up to date
 
 ## 1. Fetched data
 
-The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (09:00 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some City sites. Don't run `lacomm fetch` or `lacomm outcomes` here.
+The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (09:00 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some City sites. Don't run `tracking-la fetch` or `tracking-la outcomes` here.
 
 Check the Fetch commits since the last `Digest` commit (`git log --format='%h %s%n%b' <last digest commit>..HEAD`). If any lists failed sources, name them in the digest's intro (a source that failed once and then succeeded doesn't need a mention). If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary. An `empty:` line means an agenda produced no items, which can be a changed agenda format; mention those in your final summary too, not in the digest.
 
@@ -23,12 +23,12 @@ Find item files under `data/items/` that have no `summary` field. Split them int
 >
 > Don't run any git commands, and don't edit any file other than the item files listed.
 
-Then run `uv run lacomm check`. It must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent).
+Then run `uv run tracking-la check`. It must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent).
 
 ## 3. Locate
 
 ```
-uv run lacomm locate
+uv run tracking-la locate
 ```
 
 Geocodes new locations with the City's locator (cached in `geo/geocode-cache.json`), sets each location's `neighborhood`, and lists items in or near the neighborhoods in `config/interests.yaml`.
@@ -36,7 +36,7 @@ Geocodes new locations with the City's locator (cached in `geo/geocode-cache.jso
 ## 4. Digest (main model)
 
 ```
-uv run lacomm score
+uv run tracking-la score
 ```
 
 This lists every item not yet covered by a digest, one line each (score, meeting date, file, reasons for the score, summary), highest score first. Read every line: all of them are marked as covered when this digest is committed, so an item you skip here won't come back. Open the JSON files of items that might matter, and for anything that might matter, the staff reports linked in `urls`. Some sites (ens.lacity.org) can't be reached from this sandbox; work from the item text when a link fails. Metro items link many large attachments (presentations, funding tables, environmental documents): decide from the item text, and open one attachment only when you're including an item whose text doesn't say where the project is. Then decide what is worth Ian's attention. Use the score as a guide, not a cutoff: a high score can be routine (a single-family hillside home), and a low score can matter (a citywide parks policy).
@@ -45,9 +45,9 @@ This lists every item not yet covered by a digest, one line each (score, meeting
 
 For each item you include, add a `flag` field to its JSON file: `{"reason": "<one sentence on why it matters to Ian>"}`. Base the reason on the item, related items in `data/` and `config/interests.yaml` (e.g. "runs through East Hollywood and Koreatown, two of the watched neighborhoods"), never on guesses about Ian's habits or plans ("a corridor Ian travels"). The same goes for the "why it matters" text in the digest.
 
-If reviewing shows an extraction field is wrong (a misspelled street that won't geocode, a missing `parks` tag that a staff report makes obvious, a misleading summary), correct it in the item file, then rerun `uv run lacomm locate` if you changed `locations`. Say what you corrected and why in the commit message; git history is the record. Don't change scraper-owned fields (`lacomm check` rejects that).
+If reviewing shows an extraction field is wrong (a misspelled street that won't geocode, a missing `parks` tag that a staff report makes obvious, a misleading summary), correct it in the item file, then rerun `uv run tracking-la locate` if you changed `locations`. Say what you corrected and why in the commit message; git history is the record. Don't change scraper-owned fields (`tracking-la check` rejects that).
 
-Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by body (commission, board or other source): agenda items (from `score`) and decisions on earlier items (from `uv run lacomm decisions`).
+Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by body (commission, board or other source): agenda items (from `score`) and decisions on earlier items (from `uv run tracking-la decisions`).
 
 ```markdown
 # Commissions digest — <Month D, YYYY>
@@ -76,8 +76,8 @@ Rules:
 Then mark everything you reviewed as covered and check the files:
 
 ```
-uv run lacomm mark-digested YYYY-MM-DD
-uv run lacomm check
+uv run tracking-la mark-digested YYYY-MM-DD
+uv run tracking-la check
 ```
 
 ## 5. Commit
