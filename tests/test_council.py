@@ -70,3 +70,10 @@ def test_council_action_says_what_the_committee_recommended():
         "source": url,
         "vote": "11-0-4",
     }
+
+
+def test_dashes_standing_in_for_a_council_file_are_dropped(monkeypatch):
+    text = "-----\nVerbal report from the Department of Water and Power on understanding your bill."
+    monkeypatch.setattr(council.primegov, "html_items", lambda meeting, html: [("1", text, [])])
+    item = council.meeting_items(MEETING, b"")[0]
+    assert item["title"].startswith("Verbal report") and item["text"].startswith("Verbal report")

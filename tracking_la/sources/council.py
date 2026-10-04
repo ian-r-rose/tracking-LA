@@ -34,6 +34,7 @@ COMMITTEES = {
     104: "council-housing",  # Housing and Homelessness, until it split in 2026
     2: "council-housing",
     121: "council-homelessness",  # Homelessness and Health
+    49: "council-environment",  # Energy and Environment
 }
 
 COUNCIL_FILE = re.compile(r"^\d{2}-\d{4}(-S\d+)?$")
@@ -82,7 +83,7 @@ def _short(text: str, limit: int = 160) -> str:
 def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
     items = []
     for number, text, attachments in primegov.html_items(meeting, agenda_html):
-        lines = text.splitlines()
+        lines = [l for l in text.splitlines() if not re.fullmatch(r"-+", l)]  # stands in for a missing Council File
         section = lines.pop(0) if lines and lines[0].startswith("[") else None
         if section == "[ITEM(S)]":  # the heading of most committee agendas' only section
             section = None

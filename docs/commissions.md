@@ -99,6 +99,7 @@ Not commissions, but where Council matters are worked out before a Council vote.
 | Public Works | Public Works bureaus, streets, sanitation | ✓ agendas + decisions |
 | Housing (formerly part of Housing and Homelessness) | Housing policy and programs | ✓ agendas + decisions |
 | Homelessness and Health | Homelessness and health programs | ✓ agendas + decisions |
+| Energy and Environment | Urban forest and street trees, climate, DWP, sanitation and waste | ✓ agendas + decisions |
 | Other committees, and full Council | | — |
 
 ## Not City commissions, but the City appoints members
