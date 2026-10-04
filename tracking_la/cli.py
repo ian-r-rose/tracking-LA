@@ -13,6 +13,7 @@ import yaml
 
 from tracking_la import http_client
 from tracking_la import canary
+from tracking_la import digested as digested_csv
 from tracking_la.check import check_all
 from tracking_la.outcomes import PROCESSED, normalize_status, record
 from tracking_la.geo import Geocoder, Neighborhoods, Places, build_places
@@ -174,9 +175,10 @@ def decisions(digest_date: str) -> None:
     """Outcomes not yet reported in a digest (or reported in the `digest_date` one, so a
     digest can be rewritten); items flagged in an earlier digest first."""
     found = []
+    digested = digested_csv.load()
     for path in sorted((DATA / "items").rglob("*.json")):
         item = json.loads(path.read_text())
-        if (o := item.get("outcome")) and o.get("digest", digest_date) == digest_date:
+        if (o := item.get("outcome")) and digested.get((item["id"], o["recorded"]), digest_date) == digest_date:
             found.append((not item.get("flag"), item["meeting_date"], path, item, o))
     for _, _, path, item, o in sorted(found, key=lambda f: (f[0], f[1])):
         flagged = "*" if item.get("flag") else " "
@@ -230,20 +232,19 @@ def score(limit: int | None, digest_date: str) -> None:
 
 
 def mark_digested(digest_date: str) -> None:
-    items = outcomes_marked = 0
+    """Record in data/digested.csv that every extracted item and decision not yet in a
+    digest was covered by this one."""
+    digested = digested_csv.load()
+    rows = []
     for path in sorted((DATA / "items").rglob("*.json")):
         item = json.loads(path.read_text())
-        new_item = "summary" in item and "digest" not in item
-        new_outcome = bool(item.get("outcome")) and "digest" not in item["outcome"]
-        if new_item:
-            item["digest"] = digest_date
-            items += 1
-        if new_outcome:
-            item["outcome"]["digest"] = digest_date
-            outcomes_marked += 1
-        if new_item or new_outcome:
-            path.write_text(json.dumps(item, indent=2, ensure_ascii=False) + "\n")
-    print(f"marked {items} item(s) and {outcomes_marked} outcome(s) as covered by the {digest_date} digest")
+        if "summary" in item and (item["id"], "") not in digested:
+            rows.append((digest_date, item["id"], ""))
+        if (o := item.get("outcome")) and (item["id"], o["recorded"]) not in digested:
+            rows.append((digest_date, item["id"], o["recorded"]))
+    digested_csv.append(rows)
+    items = sum(1 for r in rows if not r[2])
+    print(f"marked {items} item(s) and {len(rows) - items} outcome(s) as covered by the {digest_date} digest")
 
 
 def main() -> None:

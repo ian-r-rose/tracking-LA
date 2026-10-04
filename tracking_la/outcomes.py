@@ -36,7 +36,7 @@ def record(item_path: Path, outcome: dict) -> bool:
     """Set an item's outcome. Returns True if it changed. A later digest reports it once."""
     item = json.loads(item_path.read_text())
     old = item.get("outcome") or {}
-    if {k: v for k, v in old.items() if k not in ("recorded", "digest")} == outcome:
+    if {k: v for k, v in old.items() if k != "recorded"} == outcome:
         return False
     item["outcome"] = outcome | {"recorded": date.today().isoformat()}
     item_path.write_text(json.dumps(item, indent=2, ensure_ascii=False) + "\n")

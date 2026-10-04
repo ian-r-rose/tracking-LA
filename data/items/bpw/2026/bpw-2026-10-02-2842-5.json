@@ -17,12 +17,10 @@
   "details": {
     "action": "bureau update"
   },
-  "digest": "2026-09-30",
   "outcome": {
     "status": "filed",
     "text": "RECEIVED",
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25101",
-    "recorded": "2026-10-03",
-    "digest": "2026-10-03"
+    "recorded": "2026-10-03"
   }
 }

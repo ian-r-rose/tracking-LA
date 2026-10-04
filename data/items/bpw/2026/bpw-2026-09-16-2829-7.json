@@ -23,13 +23,11 @@
     "council_district": 11,
     "bureau": "Engineering"
   },
-  "digest": "2026-09-30",
   "outcome": {
     "status": "approved",
     "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24881",
     "vote": "4-0",
-    "recorded": "2026-10-01",
-    "digest": "2026-10-01"
+    "recorded": "2026-10-01"
   }
 }

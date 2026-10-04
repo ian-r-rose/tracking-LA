@@ -18,8 +18,7 @@
     "status": "approved",
     "text": "APPROVED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03",
-    "digest": "2026-10-03"
+    "recorded": "2026-10-03"
   },
   "summary": "Approves programming of approximately $115 million within various Measure M programs for transportation system improvements and South Bay transit investments.",
   "topics": [
@@ -32,6 +31,5 @@
     ],
     "action": "program funding approval",
     "amount": "$114,674,573"
-  },
-  "digest": "2026-10-03"
+  }
 }

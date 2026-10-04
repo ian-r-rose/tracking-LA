@@ -33,13 +33,11 @@
   "flag": {
     "reason": "Seven-unit density-bonus building in the Highland Park–Garvanza HPOZ, a test of infill in a historic district."
   },
-  "digest": "2026-09-30",
   "outcome": {
     "status": "approved",
     "text": "MOTION PASSED: Approve, pursuant to Chapter 1 Section 12.22 A.25 of the Los Angeles Municipal Code (LAMC), a Density Bonus for a Housing Development Project consisting of a new three-story, seven-unit apartment building with one unit set aside for a low-i",
     "source": "https://planning.lacity.gov/dcpapi2/meetings/document/81462",
     "vote": "8-0",
-    "recorded": "2026-10-01",
-    "digest": "2026-10-01"
+    "recorded": "2026-10-01"
   }
 }

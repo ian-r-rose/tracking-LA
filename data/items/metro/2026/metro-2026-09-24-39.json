@@ -15,8 +15,7 @@
     "status": "approved",
     "text": "ADOPTED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03",
-    "digest": "2026-10-03"
+    "recorded": "2026-10-03"
   },
   "summary": "Increases life-of-project budget for Metro C Line Traction Power Substations replacement by $63 million, bringing the total LOP to $161.5 million.",
   "topics": [
@@ -29,6 +28,5 @@
     ],
     "action": "budget increase",
     "amount": "$63,000,000"
-  },
-  "digest": "2026-10-03"
+  }
 }

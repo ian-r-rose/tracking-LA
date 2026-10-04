@@ -18,8 +18,7 @@
     "status": "approved",
     "text": "APPROVED AS AMENDED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03",
-    "digest": "2026-10-03"
+    "recorded": "2026-10-03"
   },
   "summary": "Awards contract to ElDorado National (California), Inc. for manufacturing and delivery of 220 Battery Electric Buses for $337.7 million, with board approval required for future options.",
   "topics": [
@@ -33,6 +32,5 @@
     "action": "contract award",
     "amount": "$337,698,727.58",
     "applicant": "ElDorado National (California), Inc."
-  },
-  "digest": "2026-10-03"
+  }
 }

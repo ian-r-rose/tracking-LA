@@ -9,6 +9,7 @@ from pathlib import Path
 
 import yaml
 
+from tracking_la import digested as digested_csv
 from tracking_la.geo import Neighborhoods
 from tracking_la.store import DATA
 
@@ -45,11 +46,12 @@ def candidates(root: Path = DATA, interests: dict | None = None, digest_date: st
     """Extracted items for a digest, highest score first: those not yet in any digest, plus
     those already in the `digest_date` one (so a digest can be rewritten)."""
     interests = interests or load_interests()
+    digested = digested_csv.load(root / "digested.csv")
     hoods = Neighborhoods()
     ranked = []
     for path in sorted((root / "items").rglob("*.json")):
         item = json.loads(path.read_text())
-        if "summary" not in item or item.get("digest", digest_date) != digest_date:
+        if "summary" not in item or digested.get((item["id"], ""), digest_date) != digest_date:
             continue
         points, reasons = score_item(item, interests, hoods)
         ranked.append({"score": points, "reasons": reasons, "path": str(path.relative_to(root.parent)), **item})

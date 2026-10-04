@@ -17,8 +17,7 @@
     "status": "approved",
     "text": "APPROVED ON CONSENT CALENDAR",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03",
-    "digest": "2026-10-03"
+    "recorded": "2026-10-03"
   },
   "summary": "Authorizing contract modification with CH2M Hill, Inc. to increase the consultant support services contract for the P2000 Light Rail Vehicle Overhaul Program by $810,985.32, extending the period of performance through June 30, 2034.",
   "topics": [
@@ -32,6 +31,5 @@
     ],
     "action": "Contract modification for consultant services",
     "amount": "$810,985.32"
-  },
-  "digest": "2026-10-03"
+  }
 }

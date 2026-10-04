@@ -15,8 +15,7 @@
     "status": "approved",
     "text": "ADOPTED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03",
-    "digest": "2026-10-03"
+    "recorded": "2026-10-03"
   },
   "summary": "Authorizes claiming $58.9 million in California Cap-and-Invest proceeds for A-Line operations funding through the state LCTOP program.",
   "topics": [
@@ -29,6 +28,5 @@
     ],
     "action": "fund authorization",
     "amount": "$58,909,350"
-  },
-  "digest": "2026-10-03"
+  }
 }

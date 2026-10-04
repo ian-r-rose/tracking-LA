@@ -33,9 +33,10 @@ def test_candidates_include_items_already_in_the_digest_being_rewritten(tmp_path
 
     folder = tmp_path / "items" / "x" / "2026"
     folder.mkdir(parents=True)
-    for name, extra in [("new", {}), ("same", {"digest": "2026-10-05"}), ("older", {"digest": "2026-10-01"})]:
-        item = {"id": name, "meeting_date": "2026-10-01", "summary": name, "topics": ["other"], "locations": [], **extra}
+    for name in ("new", "same", "older"):
+        item = {"id": name, "meeting_date": "2026-10-01", "summary": name, "topics": ["other"], "locations": []}
         (folder / f"{name}.json").write_text(json.dumps(item))
+    (tmp_path / "digested.csv").write_text("digest,item_id,decision_recorded\n2026-10-05,same,\n2026-10-01,older,\n")
     interests = {"topics": {}, "neighborhoods": [], "in_neighborhood": 4, "nearby": 2, "nearby_km": 1}
     assert {c["id"] for c in candidates(tmp_path, interests)} == {"new"}
     assert {c["id"] for c in candidates(tmp_path, interests, "2026-10-05")} == {"new", "same"}

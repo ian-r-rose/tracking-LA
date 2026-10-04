@@ -30,13 +30,11 @@
     "action": "lifeguarding services agreement approval",
     "applicant": "Consolidated Fire Protection District of Los Angeles County"
   },
-  "digest": "2026-09-30",
   "outcome": {
     "status": "approved",
     "text": "APPROVED",
     "source": "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/sep03/090326mintelephonicregular_0.pdf",
     "vote": "3-0",
-    "recorded": "2026-10-01",
-    "digest": "2026-10-01"
+    "recorded": "2026-10-01"
   }
 }

@@ -17,8 +17,7 @@
     "status": "approved",
     "text": "APPROVED",
     "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3545&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
-    "recorded": "2026-10-03",
-    "digest": "2026-10-03"
+    "recorded": "2026-10-03"
   },
   "summary": "Authorizing a contract modification with Prudential Overall Supply to exercise a three-year option for uniform rental services, increasing the total contract amount from $3,256,271 to $6,831,717 through November 30, 2029.",
   "topics": [
@@ -31,6 +30,5 @@
     ],
     "action": "Contract modification for uniform rental services",
     "amount": "$3,575,446"
-  },
-  "digest": "2026-10-03"
+  }
 }

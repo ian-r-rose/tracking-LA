@@ -46,6 +46,9 @@ def check_item(path: Path) -> list[str]:
         if outcome.get("status") not in OUTCOME_STATUSES or not outcome.get("text") or not outcome.get("source"):
             problems.append(f"outcome needs status in {sorted(OUTCOME_STATUSES)}, text and source: {outcome!r}")
 
+    if "digest" in item or "digest" in (outcome or {}):
+        problems.append("which digest covered an item goes in data/digested.csv, not the item")
+
     if committed := committed_version(path):
         changed = [k for k in SOURCE_FIELDS if item.get(k) != committed.get(k)]
         if changed:

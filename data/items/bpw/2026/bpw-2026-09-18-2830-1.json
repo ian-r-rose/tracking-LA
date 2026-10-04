@@ -25,12 +25,10 @@
     "amount": "$47,520,280.41",
     "action": "Stop Notice"
   },
-  "digest": "2026-09-30",
   "outcome": {
     "status": "continued",
     "text": "CONTINUED TO WEDNESDAY, SEPTEMBER 23, 2026",
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=24943",
-    "recorded": "2026-10-01",
-    "digest": "2026-10-01"
+    "recorded": "2026-10-01"
   }
 }
