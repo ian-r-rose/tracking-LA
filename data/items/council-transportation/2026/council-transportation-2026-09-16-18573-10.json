@@ -1,0 +1,31 @@
+{
+  "id": "council-transportation-2026-09-16-18573-10",
+  "body": "council-transportation",
+  "meeting_date": "2026-09-16",
+  "item_number": "10",
+  "title": "Resolution (Lee – Martinez) relative to prohibiting the parking of oversize vehicles between 2:00 am and 6:00 am on certain street segments in Council…",
+  "text": "[Council File 26-0008-S14; CD 12]\nResolution (Lee – Martinez) relative to prohibiting the parking of oversize vehicles between 2:00 am and 6:00 am on certain street segments in Council District 12.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87848",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S14",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e0dc77ee-04e4-4718-bad5-c367311df18e"
+  ],
+  "summary": "Prohibit the parking of oversize vehicles between 2:00 am and 6:00 am on certain street segments in Council District 12.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0008-S14",
+    "council_district": 12,
+    "action": "prohibit oversize vehicle parking"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S14",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

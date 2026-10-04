@@ -1,0 +1,32 @@
+{
+  "id": "council-transportation-2026-09-16-18573-7",
+  "body": "council-transportation",
+  "meeting_date": "2026-09-16",
+  "item_number": "7",
+  "title": "Motion (McOsker - Lee) relative to adding certain street segments as roadways where it is unlawful to drive vehicles exceeding a maximum gross weight of…",
+  "text": "[Council File 26-0964; CD 15]\nMotion (McOsker - Lee) relative to adding certain street segments as roadways where it is unlawful to drive vehicles exceeding a maximum gross weight of 6,000 pounds.\nCommunity Impact Statement:\nYes\nFor:\nWatts Neighborhood Council",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87848",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0964",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=90e5429e-c3d4-4b39-a731-b4807339e675"
+  ],
+  "summary": "Designate certain street segments in Council District 15 as roadways where vehicles exceeding 6,000 pounds gross weight are prohibited.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0964",
+    "council_district": 15,
+    "action": "restrict heavy vehicle traffic"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved item(s) (Sep 16, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 2, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0964",
+    "vote": "12-0-3",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

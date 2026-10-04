@@ -1,0 +1,40 @@
+{
+  "id": "council-housing-2026-09-16-18588-19",
+  "body": "council-housing",
+  "meeting_date": "2026-09-16",
+  "item_number": "19",
+  "title": "Housing Department report relative to removing the property at 436 South Cloverdale Avenue (Case No. 898369), Assessor I.D. No. 5508-005-020, from the Rent…",
+  "text": "[Council File 26-0005-S170; CD 5]\nHousing Department report relative to removing the property at 436 South Cloverdale Avenue (Case No. 898369), Assessor I.D. No. 5508-005-020, from the Rent Escrow Account Program.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S170",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bf110860-29b2-4410-9e03-aa23731164f8"
+  ],
+  "summary": "Remove property from Rent Escrow Account Program at 436 South Cloverdale Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "436 South Cloverdale Avenue, Los Angeles, CA",
+      "lat": 34.066486,
+      "lon": -118.346121,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "898369"
+    ],
+    "council_district": 5,
+    "council_file": "26-0005-S170"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S170",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

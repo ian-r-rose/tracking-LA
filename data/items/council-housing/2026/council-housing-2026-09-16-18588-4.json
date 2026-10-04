@@ -1,0 +1,40 @@
+{
+  "id": "council-housing-2026-09-16-18588-4",
+  "body": "council-housing",
+  "meeting_date": "2026-09-16",
+  "item_number": "4",
+  "title": "Housing Department report relative to removing the property at 2868 West Francis Avenue (Case No. 854294), Assessor I.D. No. 5077-025-012, from the Rent…",
+  "text": "[Council File 26-0005-S154; CD 1]\nHousing Department report relative to removing the property at 2868 West Francis Avenue (Case No. 854294), Assessor I.D. No. 5077-025-012, from the Rent Escrow Account Program.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S154",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2e9fa9f3-d098-4d23-a759-5486c3ec033f"
+  ],
+  "summary": "Remove property from Rent Escrow Account Program at 2868 West Francis Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "2868 West Francis Avenue, Los Angeles, CA",
+      "lat": 34.056753,
+      "lon": -118.288305,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "854294"
+    ],
+    "council_district": 1,
+    "council_file": "26-0005-S154"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S154",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

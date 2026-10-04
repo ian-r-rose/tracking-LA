@@ -1,0 +1,40 @@
+{
+  "id": "council-housing-2026-09-16-18588-15",
+  "body": "council-housing",
+  "meeting_date": "2026-09-16",
+  "item_number": "15",
+  "title": "Housing Department report relative to removing the property at 523 East 66th Street (Case No. 852604), Assessor I.D. No. 6011-013-045, from the Rent Escrow…",
+  "text": "[Council File 26-0005-S166; CD 9]\nHousing Department report relative to removing the property at 523 East 66th Street (Case No. 852604), Assessor I.D. No. 6011-013-045, from the Rent Escrow Account Program.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S166",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6973b3a-ebfb-4a2f-8d09-51f153c57f48"
+  ],
+  "summary": "Remove property from Rent Escrow Account Program at 523 East 66th Street.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "523 East 66th Street, Los Angeles, CA",
+      "lat": 33.979798,
+      "lon": -118.265822,
+      "neighborhood": "Florence"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "852604"
+    ],
+    "council_district": 9,
+    "council_file": "26-0005-S166"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S166",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

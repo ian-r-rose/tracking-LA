@@ -1,0 +1,33 @@
+{
+  "id": "council-public-works-2026-08-12-18535-2",
+  "body": "council-public-works",
+  "meeting_date": "2026-08-12",
+  "item_number": "2",
+  "title": "Bureau of Street Services report relative to existing practices for protected bicycle lane maintenance.",
+  "text": "[Council File 24-0947]\nBureau of Street Services report relative to existing practices for protected bicycle lane maintenance.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nYes\nFor:\nLos Feliz Neighborhood Council\nReseda Neighborhood Council\nPalms Neighborhood Council",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=84482",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0947",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2e0e759-2030-463d-b023-befca709c7b0",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e6d3905c-d53a-434a-bd06-a2225b704f8b",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=75836e44-53a4-4943-a428-9aaea0ccc232"
+  ],
+  "summary": "Report on existing practices for maintaining protected bicycle lanes.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-0947",
+    "action": "report on bicycle lane maintenance"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "Public Works Committee noted and filed item(s) (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0947",
+    "vote": "10-0-5",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "council-plum-2026-09-22-18500-5",
+  "body": "council-plum",
+  "meeting_date": "2026-09-22",
+  "item_number": "5",
+  "title": "Categorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines, Sections 15303, Class 3 and Section 15332, Class 32,…",
+  "text": "[Council File 26-1033; CD 4]\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines, Sections 15303, Class 3 and Section 15332, Class 32, and related CEQA findings; report from the Central Los Angeles Area Planning Commission (CLAAPC); and, an appeal filed by Concerned Citizens of Stanley Hills Drive (Representative: Jamie T. Hall, Channel Law Group, LLP), from the determination of the CLAAPC in approving a Categorical Exemption as the environmental clearance for a new two-story single-family dwelling with attached two-car garage, swimming pool, and spa, the proposed residence will contain approximately 2,338 square feet in floor area, consisting of 1,030 square feet on the first floor, 1,149 square feet on the second floor, and a 359 square-foot garage (200 square feet is exempt from floor area calculations), the proposed structure will be a maximum of 28 feet in height with a rooftop deck, site grading includes 437 cubic yards of cut and 322 cubic yards of fill, the Project includes the construction of two retaining walls up to 10 feet in height; for the properties located at 2166 North Stanley Hills Drive and 2172 Stanley Hills Drive.\nApplicant: Rouzbeh Zarrinbakhsh, Stanley Family Residence, LLC\nRepresentative: Sami Kohanim, Entitle and Permits\nCase Nos. ZA-2025-1386-CU1-HCA-1A; ZA-2024-6711-CU1-HCA-1A\nEnvironmental No. ENV-2024-6712-CE-1A\nRelated Cases: ZA-2025-1386-CU1-HCA; ZA-2024-6711-CU1-HCA\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=88998",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1033",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fef3d714-853e-418e-822e-4b21f4faaee1",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=381c8b09-a7fa-42d8-9c1a-ce1d4afa9c10",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=63f5f714-b992-400e-b6a7-070044c68d78",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1feed58d-ea05-4308-9447-4b4c48c56a2c",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=24b5958c-1a35-4f27-9728-7b658a6c6bda"
+  ],
+  "summary": "Approve new two-story single-family residence with attached garage, swimming pool, and spa at North Stanley Hills Drive.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2166 North Stanley Hills Drive, Los Angeles, CA",
+      "lat": 34.110157,
+      "lon": -118.376868,
+      "neighborhood": "Hollywood Hills West"
+    },
+    {
+      "text": "2172 North Stanley Hills Drive, Los Angeles, CA",
+      "lat": 34.110336,
+      "lon": -118.376795,
+      "neighborhood": "Hollywood Hills West"
+    }
+  ],
+  "details": {
+    "council_file": "26-1033",
+    "council_district": 4,
+    "case_numbers": [
+      "ZA-2025-1386-CU1-HCA-1A",
+      "ZA-2024-6711-CU1-HCA-1A"
+    ],
+    "applicant": "Rouzbeh Zarrinbakhsh, Stanley Family Residence, LLC",
+    "action": "Approve single-family dwelling"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee granted appeal(s) (Sep 22, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1033",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

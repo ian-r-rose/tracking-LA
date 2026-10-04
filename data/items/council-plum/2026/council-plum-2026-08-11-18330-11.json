@@ -1,0 +1,58 @@
+{
+  "id": "council-plum-2026-08-11-18330-11",
+  "body": "council-plum",
+  "meeting_date": "2026-08-11",
+  "item_number": "11",
+  "title": "Categorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines, Section 15301 (Class 1 for existing structures),…",
+  "text": "[Council File 26-0861; CD 5]\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines, Section 15301 (Class 1 for existing structures), Section 15303 (Class 3 for conversion of small structures), Section 15314 (Class 14 minor additions to schools), and Section 15332 (Class 32 for in-fill development), and related CEQA findings; report from the Los Angeles City Planning Commission (LACPC); and Appeals filed by: 1) Jack Zakariaie and Nilou Zakariaie; and 2) Mona Cohen - Concerned Bel Air Park Homeowners (Representative: Robert L. Glushon, Luna & Glushon), from the determination of the LACPC in: 1) Approving a Conditional Use, pursuant to Chapter 1 Section 12.24 U.24 and Chapter 1A Section 13B.2.3 of the Los Angeles Municipal Code (LAMC) in the RE Zone; and, 2) Approving a Project Compliance and Design Review, pursuant to LAMC Chapter 1 Sections 11.5.7 and 16.50 and Chapter 1A Section 13B.4.3, with the Mulholland Scenic Parkway Specific Plan for the use and maintenance of an existing school facility for a private high school (Grades 9-12) with a total of 40 classrooms and maximum enrollment of 900 students; for the reuse of an existing university campus facility (American Jewish University) for the operation of a Private High School (Milken Community School) with a maximum student enrollment of 900 students, grades 9 through 12, no new construction, exterior renovations, or additional square footage is proposed, proposed interior-only renovations reconfigure existing square footage, increasing the classroom count from 25 classrooms to a total of 40 classrooms, proposed hours of operation are weekdays Monday to Friday from 7:30 a.m. to 3:30 p.m. for regular school hours and until 7:30 p.m. for extracurricular activities including after-school sports, a limited number of faculty and students will have access to the campus on Saturdays and Sundays for extracurricular activities during both the regular school year and the summer, summer school and summer day camp hours of operation are 8:00 a.m. to 3:30 p.m., Monday through Friday, there will be a maximum of six special events per year which will last until 10:00 p.m. in the evening and may occur on weekdays or weekends, the site is in the Inner and Outer Corridors of the Mulholland Scenic Parkway Specific Plan and is upslope and Visible from the Mulholland Drive right-of-way, the Project does not propose any tree removals or grading; for the properties located at 2785, 2845, and 2791 North Casiano Road, subject to modified Conditions of Approval; and adoption of project findings.\nApplicant: Tarryn Breskal - CFO/COO, Milken Community School\nRepresentative: Mark Armbruster, Armbruster Goldsmith & Delvac LLP\nCase No. CPC-2025-3449-CU3-SPPC-DRB-MSP-1A\nEnvironmental No. ENV-2025-3450-CE\nRelated Case No. CPC-2025-3449-CU3-SPPC-DRB-MSP\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - AUGUST 18, 2026\n(LAST DAY FOR COUNCIL ACTION - AUGUST 18, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=84461",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0861",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d5113be6-fa24-4988-946d-2eb0dcab3a7f",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4d7d58d0-cd1c-488b-9892-87b7b64561c0",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c4d663ff-75a8-45e7-97cb-e7dba03e827a",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9111a020-764b-419a-ab09-f5b8968f61ba",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=31f44f9c-285e-45a7-bf83-1111b0322fb3"
+  ],
+  "summary": "Approval of reuse of American Jewish University campus as Milken Community School private high school accommodating up to 900 students in existing structures in the Mulholland Scenic Parkway area.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2785 North Casiano Road, Los Angeles, CA",
+      "lat": 34.124572,
+      "lon": -118.471195,
+      "neighborhood": "Bel-Air"
+    },
+    {
+      "text": "2845 North Casiano Road, Los Angeles, CA",
+      "lat": 34.125225,
+      "lon": -118.471314,
+      "neighborhood": "Bel-Air"
+    },
+    {
+      "text": "2791 North Casiano Road, Los Angeles, CA",
+      "lat": 34.124638,
+      "lon": -118.471204,
+      "neighborhood": "Bel-Air"
+    }
+  ],
+  "details": {
+    "council_file": "26-0861",
+    "council_district": 5,
+    "case_numbers": [
+      "CPC-2025-3449-CU3-SPPC-DRB-MSP-1A"
+    ],
+    "action": "Conditional Use and Project Compliance Review approval"
+  },
+  "outcome": {
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee denied appeal(s) ; and thereby sustained the determination of the Los Angeles City Planning Commission (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 14, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0861",
+    "vote": "10-0-5",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "council-plum-2026-09-08-18499-4",
+  "body": "council-plum",
+  "meeting_date": "2026-09-08",
+  "item_number": "4",
+  "title": "Motion (McOsker - Hernandez) relative to instructing the Department of City Planning (DCP) and the Department of Transportation, with the assistance of the…",
+  "text": "[Council File 26-0171-S1; CD 15]\nMotion (McOsker - Hernandez) relative to instructing the Department of City Planning (DCP) and the Department of Transportation, with the assistance of the Department of Building and Safety and the Police Department, and in consultation with the City Attorney, to prepare a report with recommendations on the feasibility and legal authority to require ingress and egress for the properties located at 1502 East Lomita Boulevard, 1600 East Lomita Boulevard, and 1612 North Blinn Avenue in Wilmington, CA 90744 (APNs 7426027018, 7426027019, and 7426027020) be limited to the north end of the site as part of ongoing nuisance abatement efforts; and instructing DCP, with the assistance of the various departments, to include recommendations in the requested report that identify any necessary land use approvals, code enforcement actions, property improvements, environmental review, legal authorities, or other measures needed to implement the proposed ingress and egress configuration.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=86471",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0171-S1",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=15196cde-9079-41a3-bf69-087c7a822565"
+  ],
+  "summary": "Instruction to report on limiting ingress and egress for properties in Wilmington as part of nuisance abatement efforts.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1502 East Lomita Boulevard, Los Angeles, CA",
+      "lat": 33.799985,
+      "lon": -118.245886,
+      "neighborhood": "Wilmington"
+    },
+    {
+      "text": "1600 East Lomita Boulevard, Los Angeles, CA",
+      "lat": 33.800043,
+      "lon": -118.244675,
+      "neighborhood": "Wilmington"
+    },
+    {
+      "text": "1612 North Blinn Avenue, Los Angeles, CA",
+      "lat": 33.796011,
+      "lon": -118.245641,
+      "neighborhood": "Wilmington"
+    }
+  ],
+  "details": {
+    "council_file": "26-0171-S1",
+    "council_district": 15,
+    "action": "Motion to instruct report on ingress and egress configuration"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved item(s) (Sep 8, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0171-S1",
+    "vote": "11-0-4",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "council-plum-2026-09-22-18500-3",
+  "body": "council-plum",
+  "meeting_date": "2026-09-22",
+  "item_number": "3",
+  "title": "Department of City Planning (DCP) Report with Revised Recommended Actions, DCP Supplemental Report, and Zoning Code Maps relative to the Harbor Gateway…",
+  "text": "[Council File 25-0775; CD 15]\nDepartment of City Planning (DCP) Report with Revised Recommended Actions, DCP Supplemental Report, and Zoning Code Maps relative to the Harbor Gateway Community Plan Update located in the far southern portion of Los Angeles, the Community Plan Area (CPA) is a narrow corridor which links the City’s harbor, San Pedro, Wilmington, and Harbor City communities to the main body of the City, the Harbor Gateway CPA is bordered by the South and Southeast Los Angeles CPAs to the north (at 120th Street), the cities of Gardena and Torrance to the west, and Carson and unincorporated Los Angeles County to the east, and it shares a common boundary with the Wilmington-Harbor City CPA to the south (at Sepulveda Blvd).\nApplicant: City of Los Angeles\nCase No. CPC-2018-6404-CPU\nEnvironmental No. ENV-2019-3379-EIR\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=88998",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0775",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a7061acc-77c7-4650-82ed-6bc366ae4959",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=26fddd5a-1928-4ba1-a13a-7d3285dea5b7",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b43097b-8c4a-40de-b9a4-344749ace74d",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6fc4abaa-f451-4705-ab59-48234b793a29",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5d5d1b9-56d5-4701-af2f-c3f67c93b38d"
+  ],
+  "summary": "Update Community Plan for Harbor Gateway area linking harbor, San Pedro, Wilmington, and Harbor City communities to main Los Angeles.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0775",
+    "council_district": 15,
+    "case_numbers": [
+      "CPC-2018-6404-CPU"
+    ],
+    "applicant": "City of Los Angeles",
+    "action": "Community Plan Update"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved item(s) (Sep 22, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0775",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

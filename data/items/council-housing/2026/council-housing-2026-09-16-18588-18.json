@@ -1,0 +1,40 @@
+{
+  "id": "council-housing-2026-09-16-18588-18",
+  "body": "council-housing",
+  "meeting_date": "2026-09-16",
+  "item_number": "18",
+  "title": "Housing Department report relative to removing the property at 7820 North Lindley Avenue (Case No. 905891), Assessor I.D. No. 2101-024-0004, from the Rent…",
+  "text": "[Council File 26-0005-S169; CD 4]\nHousing Department report relative to removing the property at 7820 North Lindley Avenue (Case No. 905891), Assessor I.D. No. 2101-024-0004, from the Rent Escrow Account Program (REAP).\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S169",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d892e12-185d-44d2-bc0a-cc704c279088"
+  ],
+  "summary": "Remove property from Rent Escrow Account Program at 7820 North Lindley Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "7820 North Lindley Avenue, Los Angeles, CA",
+      "lat": 34.212436,
+      "lon": -118.527289,
+      "neighborhood": "Reseda"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "905891"
+    ],
+    "council_district": 4,
+    "council_file": "26-0005-S169"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S169",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

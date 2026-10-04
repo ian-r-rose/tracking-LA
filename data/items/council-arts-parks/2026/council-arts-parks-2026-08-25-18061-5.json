@@ -1,0 +1,39 @@
+{
+  "id": "council-arts-parks-2026-08-25-18061-5",
+  "body": "council-arts-parks",
+  "meeting_date": "2026-08-25",
+  "item_number": "5",
+  "title": "Motion (Jurado – Hutt) relative to renaming Pershing Square to “Biddy Mason Park” in recognition of Biddy Mason’s extraordinary contributions to the…",
+  "text": "[Council File 24-0751; CD 14]\nMotion (Jurado – Hutt) relative to renaming Pershing Square to “Biddy Mason Park” in recognition of Biddy Mason’s extraordinary contributions to the founding and development of the City of Los Angeles, and in honor of a woman whose generosity and vision helped shape the City into what it is today.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=85033",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0751",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ce9d356c-9e55-41a8-a154-f563b53d9258",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e71a1558-4e8a-4aa5-a920-ca4b1dd8c7de"
+  ],
+  "summary": "Pershing Square will be renamed to Biddy Mason Park in recognition of Biddy Mason's contributions to the founding and development of Los Angeles.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Pershing Square, Los Angeles, CA",
+      "lat": 34.048413,
+      "lon": -118.252989,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "24-0751",
+    "council_district": 14
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Arts, Parks, Libraries, and Community Enrichment Committee approved item(s) (Aug 25, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 4, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0751",
+    "vote": "11-0-4",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

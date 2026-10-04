@@ -1,0 +1,42 @@
+{
+  "id": "council-plum-2026-08-25-18331-1",
+  "body": "council-plum",
+  "meeting_date": "2026-08-25",
+  "item_number": "1",
+  "title": "REQUEST TO CONTINUE TO 12/8/26",
+  "text": "[Council File 26-0497; CD 12]\nREQUEST TO CONTINUE TO 12/8/26\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines Sections 15301 (Class 1), 15303 (Class 3) and 15305 (Class 5), and related CEQA findings; report from the South Valley Area Planning Commission (SVAPC); and, an appeal filed by West Valley Alliance for Optimal Living (Representative: Jamie T. Hall Channel Law Group, LLP), from the determination of the SVAPC in approving a Categorical Exemption as the environmental clearance for a Conditional Use Permit and a Zone Boundary Adjustment to allow the construction, use, and maintenance of a new 1,479 square-foot Starbucks Drive-Through Coffee Shop with a trash enclosure and walk up/pick up window, the project proposes an adjustment to the C1 zone boundary so that the entire building, signage, patio, trash enclosure, and drive-through lanes are all within the boundaries of the existing commercial zone; for the property located at 23717 West Victory Boulevard.\nOwner/Applicant: Megdal Pizza, LLC\nRepresentative: Armbruster, Goldsmith & Delvac LLP\nCase No. ZA-2024-5222-CU2-ZBA-1A\nEnvironmental No. ENV-2024-5223-CE-1A\nRelated Case: ZA-2024-5222-CU2-ZBA\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 18, 2026\n(LAST DAY FOR COUNCIL ACTION - DECEMBER 11, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=84986",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0497",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=42d9b8c3-c305-4c39-9e33-28bb6481be15",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e023fbe9-9d42-4a46-b9f0-d38d530f40cf",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1e853d98-53fb-4ffa-88f6-fe4e8e98f644",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2b05b90f-413b-4c56-9023-b6db5633c8b9",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d4a15dc-a10a-49df-af01-5700cdcb7fdc"
+  ],
+  "summary": "Request to continue decision on Starbucks drive-through coffee shop with zone boundary adjustment at 23717 West Victory Boulevard.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "23717 West Victory Boulevard, Los Angeles, CA",
+      "lat": 34.186712,
+      "lon": -118.643015,
+      "neighborhood": "West Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-0497",
+    "council_district": 12,
+    "action": "Conditional Use Permit and Zone Boundary Adjustment continuation"
+  },
+  "outcome": {
+    "status": "continued",
+    "text": "Planning and Land Use Management Committee continued item to December 8, 2026 (Aug 25, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0497",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

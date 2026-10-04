@@ -1,0 +1,33 @@
+{
+  "id": "council-housing-2026-10-07-22707-8",
+  "body": "council-housing",
+  "meeting_date": "2026-10-07",
+  "item_number": "8",
+  "title": "LAHD relative to removing the property at 7323 North Remmet Avenue (Case No. 869290), Assessor I.D. No. 2111-014-017, from the REAP.",
+  "text": "[Council File 26-0005-S177; CD 3]\nLAHD relative to removing the property at 7323 North Remmet Avenue (Case No. 869290), Assessor I.D. No. 2111-014-017, from the REAP.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91424",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S177",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5a970527-398d-4574-9dd2-233b5cd4631e"
+  ],
+  "summary": "The city will remove 7323 North Remmet Avenue from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "7323 North Remmet Ave, Los Angeles, CA",
+      "lat": 34.203291,
+      "lon": -118.600353,
+      "neighborhood": "Canoga Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S177",
+    "council_district": 3,
+    "case_numbers": [
+      "869290"
+    ]
+  }
+}

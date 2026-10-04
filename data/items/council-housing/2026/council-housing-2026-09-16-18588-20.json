@@ -1,0 +1,40 @@
+{
+  "id": "council-housing-2026-09-16-18588-20",
+  "body": "council-housing",
+  "meeting_date": "2026-09-16",
+  "item_number": "20",
+  "title": "Housing Department report relative to removing the property at 418 1/2 East 51st Street (Case No. 910792), Assessor I.D. No. 5109-023-030, from the Rent…",
+  "text": "[Council File 26-0005-S171; CD 9]\nHousing Department report relative to removing the property at 418 1/2 East 51st Street (Case No. 910792), Assessor I.D. No. 5109-023-030, from the Rent Escrow Account Program.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S171",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=84ecf746-915d-4998-b23a-adcdb7759f72"
+  ],
+  "summary": "Remove property from Rent Escrow Account Program at 418 1/2 East 51st Street.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "418 1/2 East 51st Street, Los Angeles, CA",
+      "lat": 33.996497,
+      "lon": -118.267151,
+      "neighborhood": "South Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "910792"
+    ],
+    "council_district": 9,
+    "council_file": "26-0005-S171"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S171",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

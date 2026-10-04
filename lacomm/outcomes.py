@@ -23,9 +23,9 @@ def normalize_status(text: str) -> str:
     for pattern, status in [
         (r"CONTINUED|POSTPONED|DEFERRED|HELD", "continued"),
         (r"WITHDRAWN|PULLED|ADMINISTRATIVE CLOSURE|TERMINATED", "withdrawn"),
-        (r"DENIED|DISAPPROVED|REJECTED|FAILED", "denied"),
+        (r"DENIED|DISAPPROVED|REJECTED|FAILED|VETOED", "denied"),
         (r"RECEIVED|NOTED AND FILED|\bFILED\b", "filed"),
-        (r"ADOPTED|APPROVED|AWARDED|GRANTED", "approved"),
+        (r"ADOPTED|APPROVED|AWARDED|GRANTED|CONCURRED|SIGNED", "approved"),
     ]:
         if re.search(pattern, t):
             return status

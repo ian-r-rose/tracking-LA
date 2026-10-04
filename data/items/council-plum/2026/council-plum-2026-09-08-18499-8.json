@@ -1,0 +1,52 @@
+{
+  "id": "council-plum-2026-09-08-18499-8",
+  "body": "council-plum",
+  "meeting_date": "2026-09-08",
+  "item_number": "8",
+  "title": "Categorical Exemption from the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15308, Class 8 and Article 19, Section 15331,…",
+  "text": "[Council File 26-1044; CD 10]\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15308, Class 8 and Article 19, Section 15331, Class 31 of the State CEQA Guidelines, and report from the Cultural Heritage Commission relative to the inclusion of The Talmadge, located at 3278 West Wilshire Boulevard; and 656-660 South Berendo Street, in the list of Historic-Cultural Monuments.\nApplicant: James Dastoli\nOwner: Talmadge LLC\nCase No. CHC-2026-2057-HCM\nEnvironmental No. ENV-2026-2058-CE\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - OCTOBER 14, 2026\n(LAST DAY FOR COUNCIL ACTION - OCTOBER 14, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=86471",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1044",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e5f3624f-a584-4c20-82de-1e62356437f4",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d68d4240-e75b-4dbe-8e85-7d407d91dcfd",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1bd06978-a537-4ec4-9acc-71b2fb92062f",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=17a12fa7-c25f-4915-bf66-ca2142b84575"
+  ],
+  "summary": "Designate The Talmadge as a Historic-Cultural Monument at two Los Angeles locations.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3278 West Wilshire Boulevard, Los Angeles, CA",
+      "lat": 34.061718,
+      "lon": -118.293622,
+      "neighborhood": "Koreatown"
+    },
+    {
+      "text": "656-660 South Berendo Street, Los Angeles, CA",
+      "lat": 34.061553,
+      "lon": -118.294086,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "council_file": "26-1044",
+    "council_district": 10,
+    "case_numbers": [
+      "CHC-2026-2057-HCM"
+    ],
+    "applicant": "James Dastoli",
+    "action": "Include in Historic-Cultural Monuments"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved item(s) (Sep 8, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1044",
+    "vote": "11-0-4",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

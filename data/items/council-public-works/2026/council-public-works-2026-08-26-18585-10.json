@@ -1,0 +1,38 @@
+{
+  "id": "council-public-works-2026-08-26-18585-10",
+  "body": "council-public-works",
+  "meeting_date": "2026-08-26",
+  "item_number": "10",
+  "title": "Motion (Price – Harris-Dawson) relative to designating the intersection of 41st Street and Compton Avenue as “Chet Brewer Square.\"",
+  "text": "[Council File 26-1073]\nMotion (Price – Harris-Dawson) relative to designating the intersection of 41st Street and Compton Avenue as “Chet Brewer Square.\"\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=85072",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1073",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a211f0f6-1158-4e4b-9ef0-d070ef32361b"
+  ],
+  "summary": "Designating the intersection of 41st Street and Compton Avenue as Chet Brewer Square.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "41st Street & Compton Avenue, Los Angeles, CA",
+      "lat": 34.009074,
+      "lon": -118.250654,
+      "neighborhood": "Central-Alameda"
+    }
+  ],
+  "details": {
+    "council_file": "26-1073",
+    "action": "naming intersection"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Public Works Committee approved item(s) (Aug 26, 2026); Council adopted item as amended by , subject to reconsideration, pursuant to Council Rule 51 (Sep 16, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1073",
+    "vote": "14-0-1",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

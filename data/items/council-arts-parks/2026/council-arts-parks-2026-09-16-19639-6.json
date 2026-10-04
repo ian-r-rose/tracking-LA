@@ -1,0 +1,38 @@
+{
+  "id": "council-arts-parks-2026-09-16-19639-6",
+  "body": "council-arts-parks",
+  "meeting_date": "2026-09-16",
+  "item_number": "6",
+  "title": "City Administrative Officer report relative to a proposed Agreement between the Department of Recreation and Parks and The Wall Las Memorias for the…",
+  "text": "[Council File 26-1144; CD 14]\nCity Administrative Officer report relative to a proposed Agreement between the Department of Recreation and Parks and The Wall Las Memorias for the improvement, operation, and maintenance of The Wall Las Memorias Memorial located at 3501 Valley Boulevard.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - OCTOBER 17, 2026\n(LAST DAY FOR COUNCIL ACTION - OCTOBER 16, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87808",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1144",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2314134d-df04-4b19-a658-de7f6a474d5d"
+  ],
+  "summary": "The city will partner with The Wall Las Memorias to improve and maintain this community memorial in CD 14.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "3501 Valley Boulevard, Los Angeles, CA",
+      "lat": 34.065577,
+      "lon": -118.20213,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "council_file": "26-1144",
+    "council_district": 14
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Arts, Parks, and City Facilities Committee approved item(s) (Sep 16, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 2, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1144",
+    "vote": "12-0-3",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "council-housing-2026-09-16-18588-13",
+  "body": "council-housing",
+  "meeting_date": "2026-09-16",
+  "item_number": "13",
+  "title": "Housing Department report relative to removing the property at 2441 Meadowvale Avenue (Case No. 823700), Assessor I.D. No. 5445-016-003, from the Rent…",
+  "text": "[Council File 26-0005-S164; CD 13]\nHousing Department report relative to removing the property at 2441 Meadowvale Avenue (Case No. 823700), Assessor I.D. No. 5445-016-003, from the Rent Escrow Account Program.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S164",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3efb5c9b-3c3f-4b7a-b62b-ed1a03b95998"
+  ],
+  "summary": "Removal of the property at 2441 Meadowvale Avenue from the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "2441 Meadowvale Avenue, Los Angeles, CA",
+      "lat": 34.09164,
+      "lon": -118.232789,
+      "neighborhood": "Elysian Valley"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S164",
+    "council_district": 13,
+    "case_numbers": [
+      "823700"
+    ]
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S164",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

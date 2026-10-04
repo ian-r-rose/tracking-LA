@@ -1,0 +1,33 @@
+{
+  "id": "council-transportation-2026-09-16-18573-2",
+  "body": "council-transportation",
+  "meeting_date": "2026-09-16",
+  "item_number": "2",
+  "title": "Board of Transportation Commissioners report relative to expanding Preferential Parking District No. 270, in the Winnetka area in Council District Three.",
+  "text": "[Council File 18-0756; CD 3]\nBoard of Transportation Commissioners report relative to expanding Preferential Parking District No. 270, in the Winnetka area in Council District Three.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87848",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0756",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=17f088ce-250f-401e-825a-a6861ad27f7c",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5daa5549-e3d1-4542-abd9-2b5873f20bf7",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a563b1cd-60bf-4957-af31-c50e851ad5dc"
+  ],
+  "summary": "Expand Preferential Parking District No. 270 in the Winnetka area of Council District 3.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "18-0756",
+    "council_district": 3,
+    "action": "expand Preferential Parking District"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0756",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "council-housing-2026-10-07-22707-9",
+  "body": "council-housing",
+  "meeting_date": "2026-10-07",
+  "item_number": "9",
+  "title": "LAHD relative to removing the property at 655 West 113th Street (Case No. 906789), Assessor I.D. No. 6075-014-028, from the REAP.",
+  "text": "[Council File 26-0005-S179; CD 8]\nLAHD relative to removing the property at 655 West 113th Street (Case No. 906789), Assessor I.D. No. 6075-014-028, from the REAP.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91424",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S179",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7350a04b-edb5-47b3-a0d8-406174f8f87f"
+  ],
+  "summary": "The city will remove 655 West 113th Street from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "655 West 113th Street, Los Angeles, CA",
+      "lat": 33.932026,
+      "lon": -118.285991,
+      "neighborhood": "Vermont Vista"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S179",
+    "council_district": 8,
+    "case_numbers": [
+      "906789"
+    ]
+  }
+}

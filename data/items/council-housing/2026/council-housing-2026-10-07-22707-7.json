@@ -1,0 +1,34 @@
+{
+  "id": "council-housing-2026-10-07-22707-7",
+  "body": "council-housing",
+  "meeting_date": "2026-10-07",
+  "item_number": "7",
+  "title": "LAHD relative to removing the property at 2125 North Parkside Avenue (Case No. 919504), Assessor I.D. No. 5211-011-032, from the REAP.",
+  "text": "[Council File 26-0005-S176; CD 14]\nLAHD relative to removing the property at 2125 North Parkside Avenue (Case No. 919504), Assessor I.D. No. 5211-011-032, from the REAP.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91424",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S176",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2fe1d752-77fe-476e-a699-00574f52e80a"
+  ],
+  "summary": "The city will remove 2125 North Parkside Avenue from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "2125 North Parkside Ave, Los Angeles, CA",
+      "lat": 34.069608,
+      "lon": -118.200147,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S176",
+    "council_district": 14,
+    "case_numbers": [
+      "919504"
+    ]
+  }
+}

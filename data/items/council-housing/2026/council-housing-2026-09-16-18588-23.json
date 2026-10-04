@@ -1,0 +1,40 @@
+{
+  "id": "council-housing-2026-09-16-18588-23",
+  "body": "council-housing",
+  "meeting_date": "2026-09-16",
+  "item_number": "23",
+  "title": "Housing Department report relative to removing the property at 2532 North Eastlake Avenue (Case No. 819183), Assessor I.D. No. 5208-008-019, from the Rent…",
+  "text": "[Council File 26-0005-S174; CD 14]\nHousing Department report relative to removing the property at 2532 North Eastlake Avenue (Case No. 819183), Assessor I.D. No. 5208-008-019, from the Rent Escrow Account Program.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S174",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e64db68e-272c-4144-972d-d5072ada6d04"
+  ],
+  "summary": "Remove property from Rent Escrow Account Program at 2532 North Eastlake Avenue.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "2532 North Eastlake Avenue, Los Angeles, CA",
+      "lat": 34.076409,
+      "lon": -118.207743,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "819183"
+    ],
+    "council_district": 14,
+    "council_file": "26-0005-S174"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S174",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

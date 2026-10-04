@@ -1,0 +1,32 @@
+{
+  "id": "council-plum-2026-09-22-18500-7",
+  "body": "council-plum",
+  "meeting_date": "2026-09-22",
+  "item_number": "7",
+  "title": "Report with recommendations for a Zoning Code Amendment from the Department of City Planning dated, June 24, 2026 relative to equestrian uses.",
+  "text": "[Council File 25-0096]\nReport with recommendations for a Zoning Code Amendment from the Department of City Planning dated, June 24, 2026 relative to equestrian uses.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=88998",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0096",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5758a212-22be-4173-b1e6-2229623ca3e0",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5724308f-4859-4491-b07d-2a332dca31b3",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f8995978-6ca9-4474-ad87-7b6da208e083"
+  ],
+  "summary": "Report with recommendations for zoning code amendment regarding equestrian uses.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0096",
+    "action": "Zoning code amendment for equestrian uses"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved as amended (Sep 22, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0096",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

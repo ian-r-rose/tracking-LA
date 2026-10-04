@@ -1,0 +1,31 @@
+{
+  "id": "council-transportation-2026-09-16-18573-5",
+  "body": "council-transportation",
+  "meeting_date": "2026-09-16",
+  "item_number": "5",
+  "title": "Budget Recommendation and Los Angeles Department of Transportation report relative to creating a holding account for the Automated Speed Enforcement Program.",
+  "text": "[Council File 26-0600-S100]\nBudget Recommendation and Los Angeles Department of Transportation report relative to creating a holding account for the Automated Speed Enforcement Program.\n(Referred to Transportation and Budget and Finance Committees)\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87848",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0600-S100",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=132c071a-ea5f-456c-b5ab-f31abc52a9a0"
+  ],
+  "summary": "Create a holding account for the Automated Speed Enforcement Program.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0600-S100",
+    "action": "create holding account for Automated Speed Enforcement Program"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved item(s) (Sep 16, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0600-S100",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

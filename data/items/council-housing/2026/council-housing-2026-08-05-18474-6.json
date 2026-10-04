@@ -1,0 +1,45 @@
+{
+  "id": "council-housing-2026-08-05-18474-6",
+  "body": "council-housing",
+  "meeting_date": "2026-08-05",
+  "item_number": "6",
+  "title": "CDs 10, 15",
+  "text": "[Council File 26-0978]\nCDs 10, 15\nLos Angeles Housing Department report relative to amending loan agreements for the rehabilitation of the Avalon Terrace / Nicolet Apartments located at 451 East 120th Street, Los Angeles, CA 90061 and 4027 and 4033 Nicolet Street, Los Angeles, CA 90008.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=84265",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0978",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=93126a7b-5be8-421a-aabe-907e94fdfce6"
+  ],
+  "summary": "Amendment of loan agreements for the rehabilitation of Avalon Terrace/Nicolet Apartments located at 451 East 120th Street and 4027 Nicolet Street in Los Angeles.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "451 East 120th Street, Los Angeles, CA 90061",
+      "lat": 33.923796,
+      "lon": -118.267135,
+      "neighborhood": "Green Meadows"
+    },
+    {
+      "text": "4027 Nicolet Street, Los Angeles, CA 90008",
+      "lat": 34.013795,
+      "lon": -118.351302,
+      "neighborhood": "Baldwin Hills/Crenshaw"
+    }
+  ],
+  "details": {
+    "council_file": "26-0978",
+    "council_district": 10,
+    "action": "amending loan agreements for rehabilitation"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing and Homelessness Committee approved item(s) (Aug 5, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 19, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0978",
+    "vote": "12-0-3",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

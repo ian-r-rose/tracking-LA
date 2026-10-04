@@ -1,0 +1,40 @@
+{
+  "id": "council-plum-2026-09-08-18499-5",
+  "body": "council-plum",
+  "meeting_date": "2026-09-08",
+  "item_number": "5",
+  "title": "Motion (Nazarian - McOsker) relative to authorizing the Department of Building and Safety to waive the outstanding balance of the lien in the amount of…",
+  "text": "[Council File 26-1218; CD 2]\nMotion (Nazarian - McOsker) relative to authorizing the Department of Building and Safety to waive the outstanding balance of the lien in the amount of $1,103.48 for the property located at 5845 Cleon Avenue, which is inclusive of all associated fees and accumulated interest.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=86471",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1218",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=578d2902-3df9-4172-8734-de34782731ee"
+  ],
+  "summary": "Waive outstanding lien balance of $1,103.48 for property at 5845 Cleon Avenue.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "5845 Cleon Avenue, Los Angeles, CA",
+      "lat": 34.176621,
+      "lon": -118.368181,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "26-1218",
+    "council_district": 2,
+    "amount": "$1,103.48",
+    "action": "Waive outstanding lien balance"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved item(s) (Sep 8, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 18, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1218",
+    "vote": "11-0-4",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

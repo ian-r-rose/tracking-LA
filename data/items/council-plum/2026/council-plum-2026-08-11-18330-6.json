@@ -1,0 +1,49 @@
+{
+  "id": "council-plum-2026-08-11-18330-6",
+  "body": "council-plum",
+  "meeting_date": "2026-08-11",
+  "item_number": "6",
+  "title": "CONTINUED FROM 6/23/26",
+  "text": "[Council File 26-0622; CD 5]\nCONTINUED FROM 6/23/26\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to Article 19, Section 15308, Class 8 and Article 19, Section 15331, Class 31 of the State CEQA Guidelines, and report from the Cultural Heritage Commission relative to the inclusion of Fox Apartments, located at 10251 - 10257 West Santa Monica Boulevard; and 1749 - 1755 South Ensley Avenue, in the list of Historic-Cultural Monuments.\nApplicant: Adrian Scott Fine, Los Angeles Conservancy\nOwners: SM Ensley Property LLC; and Saundra Borie, Trustee, Saundra Borie Trust\nCase No. CHC-2025-6217-HCM\nEnvironmental No. ENV-2025-6218-CE\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nYes\nFor: Westwood Neighborhood Council\nTIME LIMIT FILE - SEPTEMBER 6, 2026\n(LAST DAY FOR COUNCIL ACTION - SEPTEMBER 4, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=84461",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0622",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb893b48-e156-48d4-b316-8ce54da1f33a",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a95d525e-22b1-4df6-a136-76349533276a",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=93564e85-357f-4c2c-bdea-ac525be5a6f2",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2ce1cab4-7dc3-4eda-9d01-984356379545",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2da48026-e29f-48b3-8126-2a6ebe28d02a"
+  ],
+  "summary": "Designation of Fox Apartments as Historic-Cultural Monuments.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "10251 West Santa Monica Boulevard, Los Angeles, CA",
+      "lat": 34.060067,
+      "lon": -118.420672,
+      "neighborhood": "Westwood"
+    },
+    {
+      "text": "1749 South Ensley Avenue, Los Angeles, CA",
+      "lat": 34.060371,
+      "lon": -118.420853,
+      "neighborhood": "Westwood"
+    }
+  ],
+  "details": {
+    "council_file": "26-0622",
+    "council_district": 5,
+    "action": "Historic-Cultural Monument designation"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved item(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0622",
+    "vote": "15-0-0",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

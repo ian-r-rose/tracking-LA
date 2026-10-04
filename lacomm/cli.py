@@ -1,5 +1,6 @@
 import argparse
 import json
+import re
 import sys
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
@@ -17,7 +18,7 @@ from lacomm.outcomes import PROCESSED, normalize_status, record
 from lacomm.geo import Geocoder, Neighborhoods, Places, build_places
 from lacomm.score import candidates
 from lacomm.site import build as build_site
-from lacomm.sources import SOURCES, planning_cases
+from lacomm.sources import SOURCES, Source
 from lacomm.store import DATA, upsert_item
 
 # The Planning server takes ~9s per request regardless of size, so download a few at a time.
@@ -86,35 +87,49 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
 
 # Journals and minutes can be revised shortly after a meeting; re-read them for this long.
 OUTCOME_RECHECK = timedelta(days=14)
-# Keep checking a decided Planning case this long, to catch an appeal.
-CASE_RECHECK = timedelta(days=30)
+# Stop following a page once it shows a final decision, or when its item is this old.
+FINAL = re.compile(r"Council action final", re.I)
+FOLLOW_AT_MOST = timedelta(days=365)
 
 
-def case_outcomes(client: httpx.Client, counts: Counter, failed: list) -> None:
-    """Decisions on the Planning case filings we hold, from each case's PDIS page."""
+def followed_outcomes(client: httpx.Client, counts: Counter, failed: list) -> None:
+    """Decisions for items that each have a page to follow (Source.follow_url): a Planning
+    case's PDIS page, a Council File's Clerk Connect page. Each page is fetched once per
+    run, even when several items share it (a Council File on several agendas)."""
     today = date.today()
-    todo = []
-    for path in sorted((DATA / "items" / "planning-cases").rglob("*.json")):
+    followers = [s for s in SOURCES if s.follow_url]
+    pages: dict[str, tuple[Source, list[Path]]] = {}
+    for path in sorted((DATA / "items").rglob("*.json")):
         item = json.loads(path.read_text())
-        if (o := item.get("outcome")) and date.fromisoformat(o["recorded"]) < today - CASE_RECHECK:
+        if date.fromisoformat(item["meeting_date"]) < today - FOLLOW_AT_MOST:
             continue
-        todo.append((path, item["urls"][0]))
+        for source in followers:
+            if not (url := source.follow_url(item)):
+                continue
+            o = item.get("outcome")
+            final = o and FINAL.search(o["text"])
+            stale = o and date.fromisoformat(o["recorded"]) < today - timedelta(days=source.follow_days)
+            if not (final or stale):
+                pages.setdefault(url, (source, []))[1].append(path)
+            break
 
-    def check(job):
-        path, url = job
+    def fetch_page(url):
         try:
             resp = client.get(url)
             resp.raise_for_status()
-            return path, planning_cases.case_outcome(resp.text, url)
+            return url, resp.text
         except httpx.HTTPError as e:
             failed.append(f"{url}: {e}")
-            return path, None
+            return url, None
 
     with ThreadPoolExecutor(CONCURRENT_DOWNLOADS) as pool:
-        for path, outcome in pool.map(check, todo):
-            counts["cases checked"] += 1
-            if outcome and record(path, outcome):
-                counts["case decisions recorded"] += 1
+        for url, html in pool.map(fetch_page, list(pages)):
+            counts["pages followed"] += 1
+            source, paths = pages[url]
+            for path in paths if html else []:
+                outcome = source.follow_outcome(html, url, json.loads(path.read_text()))
+                if outcome and record(path, outcome):
+                    counts["followed decisions recorded"] += 1
 
 
 def outcomes(since_days: int) -> None:
@@ -146,7 +161,7 @@ def outcomes(since_days: int) -> None:
                     counts["records read"] += 1
             except httpx.HTTPError as e:
                 failed.append(f"{source.name}: {e}")
-        case_outcomes(client, counts, failed)
+        followed_outcomes(client, counts, failed)
     PROCESSED.write_text(json.dumps(processed, indent=1, sort_keys=True) + "\n")
     print(", ".join(f"{k}: {v}" for k, v in counts.items()) or "no new journals or minutes")
     for failure in failed:

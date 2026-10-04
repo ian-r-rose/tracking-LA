@@ -1,0 +1,45 @@
+{
+  "id": "council-public-works-2026-09-08-18623-7",
+  "body": "council-public-works",
+  "meeting_date": "2026-09-08",
+  "item_number": "7",
+  "title": "Motion (Harris-Dawson – Jurado) relative to developing the center medians along Broadway between 93rd Street and 112th Street as green and recreational spaces.",
+  "text": "[Council File 26-1201; CD 8]\nMotion (Harris-Dawson – Jurado) relative to developing the center medians along Broadway between 93rd Street and 112th Street as green and recreational spaces.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=86444",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1201",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ceb77675-0f43-4167-89a0-bd74af128bf9"
+  ],
+  "summary": "Developing the center medians along Broadway between 93rd Street and 112th Street as green and recreational spaces.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Broadway & 93rd St, Los Angeles, CA",
+      "lat": 33.951906,
+      "lon": -118.27827,
+      "neighborhood": "Broadway-Manchester"
+    },
+    {
+      "text": "Broadway & 112th St, Los Angeles, CA",
+      "lat": 33.932952,
+      "lon": -118.278621,
+      "neighborhood": "Broadway-Manchester"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "council_file": "26-1201"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Public Works Committee approved item(s) (Sep 8, 2026); Council adopted item forthwith (Sep 22, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1201",
+    "vote": "10-0-5",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "council-plum-2026-08-11-18330-8",
+  "body": "council-plum",
+  "meeting_date": "2026-08-11",
+  "item_number": "8",
+  "title": "CONTINUED FROM 5/26/26",
+  "text": "[Council File 26-0412; CD 3]\nCONTINUED FROM 5/26/26\nCategorical Exemption from the California Environmental Quality Act (CEQA) pursuant to CEQA Guidelines, Article 19, Section 15303, Class 3 (New Construction or Conversion of Small Structures) and related CEQA findings; report from the South Valley Area Planning Commission (SVAPC); and, an appeal filed by Girard Tract Community Preservation (Representative: Jamie T. Hall, Channel Law Group, LLP), from the determination of the SVAPC in approving a Categorical Exemption as the environmental clearance for the construction of a new two-story 1,899 square-foot single family dwelling with a four-car garage, basement, two retaining walls, and pool, the Project is located in the Girard Tract Specific Plan and is in the Inner Corridor of the Mulholland Specific Plan, subject to the Baseline Hillside Ordinance, the Project Site is downslope and visible from the Mulholland Drive right-of-way, the Project proposes 726 cubic yards of cut, zero cubic yards of fill, 726 cubic yards of export, and zero cubic yards of import grading, the Project proposes the removal of two Oak trees and one street tree; for the property located at 4230 North Saltillo Street.\nApplicant: Mehran Tebyani\nRepresentative: Pouya Payan- Labyrinth Design Studio, Inc.\nCase No. ZA-2023-1206-ZAD-DRB-SPP-MSP-HCA-1A\nEnvironmental No. ENV-2023-1207-CE-1A\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - AUGUST 28, 2026\n(LAST DAY FOR COUNCIL ACTION - AUGUST 28, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=84461",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0412",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=98d4f532-b736-4ce4-ab3a-ee7a15af65bf",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f0ac234-7d08-4e97-97dc-8112658c9f0f",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee9a6ee4-3eeb-4a5e-9d21-9efe5a1fcc96",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0177aeac-dbaa-47a7-bb3b-9ced5717fc72",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=447e41f3-a06b-4554-a863-e20baa961e11"
+  ],
+  "summary": "Approval of categorical exemption for construction of new single-family dwelling with four-car garage and pool at 4230 North Saltillo Street.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "4230 North Saltillo Street, Los Angeles, CA",
+      "lat": 34.146399,
+      "lon": -118.593468,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-0412",
+    "council_district": 3,
+    "action": "Categorical exemption approval for single-family dwelling"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee granted appeal(s) (Aug 11, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0412",
+    "vote": "15-0-0",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}

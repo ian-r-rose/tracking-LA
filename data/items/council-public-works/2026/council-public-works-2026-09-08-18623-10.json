@@ -1,0 +1,47 @@
+{
+  "id": "council-public-works-2026-09-08-18623-10",
+  "body": "council-public-works",
+  "meeting_date": "2026-09-08",
+  "item_number": "10",
+  "title": "City Engineer report relative to the vacation of Turner Street from Alameda Street to Temple Street - Re-Initiation (VAC- E1401333).",
+  "text": "[Council File 18-0195; CD 14]\nCity Engineer report relative to the vacation of Turner Street from Alameda Street to Temple Street - Re-Initiation (VAC- E1401333).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=86444",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0195",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5745e459-11ca-4db6-87f3-63508375b1bf",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=db2f70c1-2423-47ad-9740-f188dfce1dfa",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a843845-1c76-45d3-bfd2-f559708b5e94",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d7bfd95-199c-471e-853e-415c81101f7d",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e4a565e4-6643-42b4-909c-4233187b7524"
+  ],
+  "summary": "Vacation of Turner Street from Alameda Street to Temple Street re-initiation in Council District 14",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Turner Street & Alameda Street, Los Angeles, CA",
+      "lat": 34.050546,
+      "lon": -118.238072,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "Turner Street & Temple Street, Los Angeles, CA",
+      "lat": 34.05051,
+      "lon": -118.236632,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "18-0195",
+    "council_district": 14
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Public Works Committee approved item(s) (Sep 8, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0195",
+    "recorded": "2026-10-04",
+    "digest": "backfill"
+  },
+  "digest": "backfill"
+}
