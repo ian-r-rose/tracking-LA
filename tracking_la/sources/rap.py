@@ -4,6 +4,11 @@ https://recreation.parks.lacity.gov/commissioners/agendas-minutes-reports/<year>
 each meeting with its agenda, minutes, numbered board reports (26-213.pdf), and other
 documents such as commissioner motions and presentations, which aren't agenda items
 in the PDF but can matter (e.g. a motion opposing use of park land for a project).
+
+A firewall in front of the site (an AWS load balancer) sometimes refuses requests from
+cloud machines such as GitHub's runners, with a 403. Then the agendas come from
+ens.lacity.org instead, without minutes or extra documents; once the site answers
+again, its agenda (a different URL) is fetched and its versions of the items replace them.
 """
 
 import re
@@ -15,6 +20,7 @@ from bs4 import BeautifulSoup
 
 from tracking_la import http_client
 from tracking_la.pdf import normalize_space, pdf_text
+from tracking_la.sources import ens
 from tracking_la.sources.ens import RECREATION_AND_PARKS, split_agenda
 
 SITE = "https://recreation.parks.lacity.gov"
@@ -56,6 +62,27 @@ def parse_year_page(html: str) -> list[dict]:
 
 
 def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
+    try:
+        return site_meetings(start, end, client)
+    except httpx.HTTPStatusError as e:
+        if e.response.status_code != 403:
+            raise
+        print(
+            f"  fallback: rec and parks refused {e.request.url} (403 from {e.response.headers.get('server')}) "
+            f"for IP {public_ip(client)}; using ens.lacity.org agendas, without minutes or extra documents"
+        )
+        return [m | {"fallback": True} for m in ens.list_meetings(RECREATION_AND_PARKS, start, end, client)]
+
+
+def public_ip(client: httpx.Client) -> str:
+    """This machine's public IP, to tell whether the firewall refuses particular addresses."""
+    try:
+        return client.get("https://checkip.amazonaws.com", timeout=10).text.strip()
+    except httpx.HTTPError:
+        return "unknown"
+
+
+def site_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     meetings = []
     for year in range(start.year, end.year + 1):
         resp = client.get(YEAR_PAGE.format(year=year))
@@ -105,6 +132,8 @@ def items_from_meeting(meeting: dict, agenda_text: str, extra_texts: dict[str, s
 
 
 def meeting_items(meeting: dict, agenda_pdf: bytes) -> list[dict]:
+    if meeting.get("fallback"):
+        return ens.meeting_items(RECREATION_AND_PARKS, meeting, agenda_pdf)
     extra_texts = {}
     with http_client(timeout=60) as client:
         for doc in meeting["documents"]:

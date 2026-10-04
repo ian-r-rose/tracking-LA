@@ -1,6 +1,8 @@
 from datetime import date
 from pathlib import Path
 
+import httpx
+
 from tracking_la.sources import rap
 
 FIXTURES = Path(__file__).parent / "fixtures" / "rap"
@@ -40,3 +42,21 @@ def test_motion_becomes_its_own_item():
     items = rap.items_from_meeting(oct1, (FIXTURES / "agenda-2026-10-01.txt").read_text(), {motion["url"]: "MOTION ..."})
     item = next(i for i in items if i["id"] == "rap-2026-10-01-arroyo-seco-water-reuse-project-motion")
     assert item["text"].startswith("[Arroyo Seco Water Reuse Project motion]\nMOTION")
+
+
+def test_refused_site_falls_back_to_ens_agendas(capsys):
+    def respond(request):
+        if request.url.host == "recreation.parks.lacity.gov":
+            return httpx.Response(403, headers={"server": "awselb/2.0"})
+        if request.url.host == "checkip.amazonaws.com":
+            return httpx.Response(200, text="203.0.113.7\n")
+        return httpx.Response(200, text='<a href="agenda/rapagenda1_10012026.pdf">October 01, 2026 Agenda</a>')
+
+    with httpx.Client(transport=httpx.MockTransport(respond)) as client:
+        meetings = rap.list_meetings(date(2026, 9, 1), date(2026, 10, 31), client)
+    assert meetings == [{
+        "body": "rap", "date": date(2026, 10, 1), "fallback": True,
+        "agenda_url": "https://ens.lacity.org/rap/agenda/rapagenda1_10012026.pdf",
+    }]
+    out = capsys.readouterr().out
+    assert "fallback: rec and parks refused" in out and "awselb/2.0" in out and "203.0.113.7" in out
