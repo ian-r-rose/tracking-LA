@@ -58,13 +58,13 @@ def test_verbal_update_counts():
     assert reportbacks.confirmed(r, 0)["url"] is None
 
 
-def test_table_lists_pending_then_recently_filed(tmp_path):
+def test_table_lists_pending_and_recently_filed_by_adoption(tmp_path):
     folder = tmp_path / "report-backs"
     folder.mkdir()
     cao = {"departments": ["CAO"], "deadline": 30}
     filed = lambda day: [{"date": day, "title": "Report from City Administrative Officer", "url": f"{day}.pdf"}]
     records = {
-        "a": {"adopted": "2026-08-19", "documents": [], "requests": [{**cao, "asks": "no deadline", "deadline": None}]},
+        "a": {"adopted": "2026-08-20", "documents": [], "requests": [{**cao, "asks": "no deadline", "deadline": None}]},
         "b": {"adopted": "2026-08-19", "documents": [], "requests": [{**cao, "asks": "overdue"}]},
         "c": {"adopted": "2026-03-25", "documents": filed("2026-08-04"), "requests": [{**cao, "asks": "filed"}],
               "document_reviews": {"2026-08-04.pdf": [0]}},
@@ -74,7 +74,7 @@ def test_table_lists_pending_then_recently_filed(tmp_path):
     for name, r in records.items():
         (folder / f"{name}.json").write_text(json.dumps({"council_file": name, **r}))
     rows = reportbacks.table(date(2026, 10, 4), tmp_path)
-    assert [(q["asks"], ok) for _, q, _, ok in rows] == [("overdue", False), ("no deadline", False), ("filed", True)]
+    assert [(q["asks"], ok) for _, q, _, ok in rows] == [("no deadline", False), ("overdue", False), ("filed", True)]
     assert [rid for rid, *_ in reportbacks.landed(tmp_path)] == ["report-back:c:0"]
 
 

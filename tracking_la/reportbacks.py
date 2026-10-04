@@ -262,18 +262,14 @@ def request_id(record: dict, index: int) -> str:
 
 def table(today: date, root: Path = DATA) -> list[tuple[dict, dict, dict | None, bool]]:
     """(record, request, report or None, confirmed) for adopted instructions still pending,
-    or filed within SHOW_FILED_FOR: pending first (overdue first, then by due date, then
-    those without a deadline, oldest first), then filed ones, most recent first."""
+    or filed within SHOW_FILED_FOR, most recently adopted first."""
     rows = []
     for r in records(root):
         for i, q in enumerate(r.get("requests") or [] if r.get("adopted") else []):
             doc, ok = filed(r, i) or (None, False)
-            rows.append((r, q, doc, ok))
-    pending = [row for row in rows if not row[2]]
-    recent = [row for row in rows if row[2] and date.fromisoformat(row[2]["date"]) >= today - SHOW_FILED_FOR]
-    pending.sort(key=lambda row: (due(row[0], row[1]) is None, due(row[0], row[1]) or date.max, row[0]["adopted"]))
-    recent.sort(key=lambda row: row[2]["date"], reverse=True)
-    return pending + recent
+            if not doc or date.fromisoformat(doc["date"]) >= today - SHOW_FILED_FOR:
+                rows.append((r, q, doc, ok))
+    return sorted(rows, key=lambda row: row[0]["adopted"], reverse=True)
 
 
 def landed(root: Path = DATA) -> list[tuple[str, dict, dict, dict]]:

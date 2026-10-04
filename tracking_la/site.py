@@ -140,8 +140,8 @@ def report_backs_page(today: date | None = None) -> str:
         )
     intro = (
         "<h1>Report backs</h1>\n<p>Departments that City Council has asked to look into something and "
-        "report back, on Council Files from the watched committees: pending ones first, then those filed "
-        "in the last year. Due dates count from Council's adoption of the motion. Committees sometimes "
+        "report back, on Council Files from the watched committees: pending ones, and those filed in the "
+        "last year, most recently adopted first. Due dates count from Council's adoption of the motion. Committees sometimes "
         "change a deadline, which this doesn't see; check the Council File.</p>"
     )
     if not rows:
