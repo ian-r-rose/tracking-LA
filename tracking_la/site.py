@@ -38,9 +38,8 @@ h3 { font-size: 1.05rem; margin: 1.25rem 0 .25rem; }
 li { margin: .4rem 0; }
 table { border-collapse: collapse; width: 100%; font-size: .9rem; display: block; overflow-x: auto; }
 th, td { text-align: left; vertical-align: top; padding: .35rem .5rem; border-bottom: 1px solid var(--line); }
-main.wide { max-width: 76rem; }
 .asks { min-width: 22rem; }
-.status { white-space: nowrap; font-variant-numeric: tabular-nums; }
+.status { font-variant-numeric: tabular-nums; }
 .archive { list-style: none; padding: 0; }
 .archive li { display: flex; gap: 1rem; }
 .archive .date { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 6.5rem; }
@@ -48,7 +47,7 @@ footer { color: var(--muted); font-size: .85rem; padding-top: 2rem; padding-bott
 """
 
 
-def page(title: str, body: str, prefix: str = "", wide: bool = False) -> str:
+def page(title: str, body: str, prefix: str = "") -> str:
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -64,7 +63,7 @@ def page(title: str, body: str, prefix: str = "", wide: bool = False) -> str:
 <a href="{prefix}commissions.html">Sources</a>
 <a href="{prefix}report-backs.html">Report backs</a>
 </header>
-<main{' class="wide"' if wide else ""}>
+<main>
 {body}
 </main>
 <footer>Agendas, minutes and journals from LA City and Metro websites, summarized with Claude.
@@ -108,7 +107,7 @@ def build(out: Path) -> int:
         index = "<h1>No digests yet</h1>"
     (out / "index.html").write_text(page(TITLE, index))
 
-    (out / "report-backs.html").write_text(page(f"Report backs · {TITLE}", report_backs_page(), wide=True))
+    (out / "report-backs.html").write_text(page(f"Report backs · {TITLE}", report_backs_page()))
 
     guide = (ROOT / "docs" / "commissions.md").read_text()
     (out / "commissions.html").write_text(page(f"Sources · {TITLE}", render(guide)))
