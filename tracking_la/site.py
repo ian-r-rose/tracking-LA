@@ -74,7 +74,7 @@ Summaries can be wrong; follow the links to the source documents.</footer>
 
 def render(text: str) -> str:
     text = re.sub(r"\A---\n.*?\n---\n", "", text, flags=re.S)  # front matter
-    return markdown.markdown(text, extensions=["tables"])
+    return markdown.markdown(text, extensions=["tables", "toc"])  # toc: ids on headings, for #anchors
 
 
 def heading(text: str) -> str:

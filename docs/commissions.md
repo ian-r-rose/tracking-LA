@@ -1,16 +1,26 @@
 ---
-title: LA City Commissions by Power
+title: What Tracking LA Watches
 ---
 
-# LA City Commissions, Sorted by Power
+# What Tracking LA Watches
 
-LA has roughly 55 boards and commissions. Their powers differ a lot. Some run a city department outright, some decide cases, and many only advise. This page sorts them into tiers by the kind of power they hold. It also lists where each one posts agendas, and whether this project watches it (the **Watched** column).
+Tracking LA follows the City bodies that decide what gets built, paved, planted and funded:
 
-Council and its committees are out of scope here.
+- **City commissions**, below, sorted into tiers by the kind of power they hold.
+- **City Council committees** ([below](#city-council-committees)), and the department [report backs](report-backs.html) their motions ask for.
+- **Metro**'s Board ([below](#not-city-commissions-but-the-city-appoints-members)).
+- New City Planning [case filings](https://planning.lacity.gov/resources/case-reports/recent-case-filings): applications as they're filed, including those a Zoning Administrator or the Planning Director decides without a commission.
+- StreetsLA [tree removal postings](https://permits.streets.lacity.gov/treepostings/public/pending_postings.cfm), which lead to Public Works tree hearings.
+
+The **Watched** columns say which bodies are followed, and whether for agendas only or for decisions too.
+
+## City commissions
+
+LA has roughly 55 boards and commissions. Their powers differ a lot. Some run a city department outright, some decide cases, and many only advise. This section sorts them into tiers by the kind of power they hold, and lists where each one posts agendas.
 
 **One check on all of them:** under Charter §245, most board actions become final only after a short window in which the City Council can vote (2/3) to take up the action and veto it. The Council can't amend it, only veto it, which sends it back to the board. A few bodies are exempt, including Ethics, Fire & Police Pensions and LACERS.
 
-## Tier 1 — Controls a department
+### Tier 1 — Controls a department
 
 The board is the head of its department and has final authority over its operations, contracts and policy, subject to §245. The three *proprietary* departments (Harbor, Airports, Water & Power) also control their own revenues and land (Charter Art. VI).
 
@@ -30,7 +40,7 @@ The board is the head of its department and has final authority over its operati
 | Board of Fire and Police Pension Commissioners | Pension fund | [ens.lacity.org/fppen](https://ens.lacity.org/fppen/ens_pen_agenda.htm) (PDF) | ✓ agendas |
 | LACERS Board of Administration | Civilian pension fund | [lacers.org](https://www.lacers.org/agendas-and-minutes) | ✓ agendas |
 
-### A note on Public Works
+#### A note on Public Works
 
 Public Works is unusually large. Its five bureaus would be separate departments in many cities:
 
@@ -46,7 +56,7 @@ The Board is also unusual: its five commissioners are full-time and paid. The bu
 - **Community Forest Advisory Committee:** advisory; listed in Tier 3.
 - **Board offices:** Petroleum & Natural Gas Administration, Community Beautification, Citywide Filming and the Capital Infrastructure Program. These are staff offices, not decision bodies ([list](https://dpw.lacity.gov/board-offices-and-programs)).
 
-## Tier 2 — Decides cases or sets binding rules in a specific area
+### Tier 2 — Decides cases or sets binding rules in a specific area
 
 These bodies don't run a department. They make binding decisions in a defined area: quasi-judicial hearings, permits, appeals or rules.
 
@@ -66,7 +76,7 @@ These bodies don't run a department. They make binding decisions in a defined ar
 | Employee Relations Board | Decides labor-representation disputes | [erb.lacity.gov](https://erb.lacity.gov/) | — |
 | Police Permit Review Panel | Hears police permit cases | [lapdonline.org](https://www.lapdonline.org/) | — |
 
-## Tier 3 — Advisory
+### Tier 3 — Advisory
 
 These make recommendations to the Mayor, Council or a General Manager. They can still shape what happens, especially early on, but their votes aren't binding.
 
@@ -124,4 +134,3 @@ These are regional or joint agencies with their own governing boards. Metro is w
 - The 2016 guide lists the Commission on the Status of Women as "Head of Department." It has since been folded into the Civil + Human Rights and Equity Department, so it's listed as advisory here.
 - Tiers are a judgment call. A Tier 3 body that sets an agenda early can matter more than a Tier 1 board that rubber-stamps.
 - "Agendas posted at" links for watched bodies are the sources the scrapers read. Links for the others come from the original survey and haven't been checked closely.
-- Also watched, though not commissions: new City Planning [case filings](https://planning.lacity.gov/resources/case-reports/recent-case-filings) (applications as they're filed, including those a Zoning Administrator or the Planning Director decides without a commission), and StreetsLA [tree removal postings](https://permits.streets.lacity.gov/treepostings/public/pending_postings.cfm), which lead to Public Works tree hearings.
