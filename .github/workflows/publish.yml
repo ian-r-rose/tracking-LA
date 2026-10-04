@@ -49,7 +49,7 @@ jobs:
           else
             files=$(git diff --name-only --diff-filter=AM "$BEFORE" "$GITHUB_SHA" -- 'data/digests/*.md')
           fi
-          gh label create digest --color 1d5c8f --description "Commissions digest" 2>/dev/null || true
+          gh label create digest --color 1d5c8f --description "Tracking LA digest" 2>/dev/null || true
           for f in $files; do
             day=$(basename "$f" .md)
             title="Digest $day"

@@ -1,4 +1,4 @@
-"""Build the static site: every digest, newest first, the commissions guide, and the
+"""Build the static site: every digest, newest first, the guide to sources (docs/commissions.md), and the
 table of pending report backs.
 
 Plain HTML with relative links, so it works on GitHub Pages under /<repo>/ and
@@ -59,7 +59,7 @@ def page(title: str, body: str, prefix: str = "") -> str:
 <header>
 <a class="name" href="{prefix}index.html">{TITLE}</a>
 <a href="{prefix}archive.html">Archive</a>
-<a href="{prefix}commissions.html">Commissions</a>
+<a href="{prefix}commissions.html">Sources</a>
 <a href="{prefix}report-backs.html">Report backs</a>
 </header>
 <main>
@@ -109,7 +109,7 @@ def build(out: Path) -> int:
     (out / "report-backs.html").write_text(page(f"Report backs · {TITLE}", report_backs_page()))
 
     guide = (ROOT / "docs" / "commissions.md").read_text()
-    (out / "commissions.html").write_text(page(f"Commissions · {TITLE}", render(guide)))
+    (out / "commissions.html").write_text(page(f"Sources · {TITLE}", render(guide)))
     return len(digests)
 
 

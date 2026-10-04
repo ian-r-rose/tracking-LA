@@ -6,6 +6,6 @@ def test_build(tmp_path):
     n = build(out)
     assert n == len(list((out / "digests").glob("*.html")))
     index = (out / "index.html").read_text()
-    assert "<h1>Commissions digest" in index and 'href="style.css"' in index
+    assert "<h1>Tracking LA — " in index and 'href="style.css"' in index
     assert "<table>" in (out / "commissions.html").read_text()
     assert "title: " not in (out / "commissions.html").read_text()  # front matter stripped

@@ -69,7 +69,7 @@ If reviewing shows an extraction field is wrong (a misspelled street that won't 
 Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by body (commission, board or other source): agenda items (from `score`) and decisions on earlier items (from `uv run tracking-la decisions`). Then a **Report backs** section from `uv run tracking-la report-backs`: each report back that came in, with what was asked, who filed it, and how late it was if there was a deadline ("filed 98 days after its 30-day deadline"). Close the section with a link to the [table of report backs](https://ian-r-rose.github.io/tracking-LA/report-backs.html) and the pending count (and how many are overdue). Leave the section out if nothing came in.
 
 ```markdown
-# Commissions digest — <Month D, YYYY>
+# Tracking LA — <Month D, YYYY>
 
 Agenda items from meetings <Month D> – <Month D, YYYY>, and decisions recorded from <journals and minutes of ...>. <N> items reviewed; <M> listed below.
 
