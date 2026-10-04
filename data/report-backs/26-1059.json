@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Los Angeles Department of Transportation"],
+      "departments": [
+        "Los Angeles Department of Transportation"
+      ],
       "asks": "Report on the feasibility, cost, and steps necessary to install roadway improvements such as a crosswalk or other safety improvements to increase pedestrian safety at West Adams Boulevard and West Boulevard",
       "deadline": 30
     }

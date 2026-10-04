@@ -8,28 +8,46 @@
   "documents": [
     {
       "date": "2026-08-07",
-      "from": "Bureau of Street Lighting"
+      "title": "Report from Bureau of Street Lighting",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0955_rpt_bsl_8-06-26.pdf",
+      "excerpt": "BOARD OF PUBLIC WORKS MEMBERS CITY OF LOS ANGELES DEPARTMENT OF PUBLIC WORKS CALIFORNIA STEVE S. KANG BUREAU OF PRESIDENT STREET LIGHTING JENNY CHAVEZ VICE PRESIDENT MIGUEL SANGALANG EXECUTIVE DIRECTOR JOHN GRANT PRESIDENT PRO TEMPORE 1149 S. BROADWAY, SUITE 200 LOS ANGELES, CA 90015-2213 FAITH I. MITCHELL COMMISSIONER https://lalights.lacity.org/ ERNESTO CARDENAS COMMISSIONER KAREN BASS E-mail: bsl.streetlighting@lacity.org MAYOR VACANT EXECUTIVE OFFICER ​ ​ ​ ​ ​ 08/07/2026 To: ​ The Honorable City Council, City of Los Angeles ℅ City Clerk Room 395, City Hall CC: ​ Sharon Tso, Chief Legislative Analyst ​ Matt Szabo, City Administrative Officer ​ Andrea Greene, Deputy Mayor of Infrastructure COUNCIL FILE# 26-0955: IMMEDIATE ACTIONS TO PRESERVE STREET LIGHTING SERVICES AND LONG TERM STEPS TO STABILIZE THE BUREAU The Bureau of Street Lighting (BSL) recently went out to ballot on District NO. 5500, proposing a much-needed update to the Assessment based on the Bureau’s Long Term Plan. The results were presented to Council on June 26 and unfortunately District NO. 5500 failed to pass. In response to ramifications of the failed vote, the Council directed BSL, with the assistance from the City Attorney’s Office, City Administrative Officer, the Chief Legislative Analyst, and any additional necessary departments, to present recommendations on how to mitigate immediate impacts to lighting services, update BSL fees to ensure full cost recovery, and options to monetize BSL’s existing assets. This report answers both CF 26-0955 and 25-0600-S109: Revenue Generating Opportunities for the Bureau of Street Lighting. FISCAL SITUATION OF BSL At the start of FY26/27 the Bureau faces immediate fiscal challenges. As a result of reductions to the Bureau’s hiring hall funding in the FY 26-27 budget and no current interim transfers to absorb the additional costs, the Bureau risks losing approximately 15% of its field staff which amounts to 27 hiring hall positions. In addition, overtime resources are significantly constrained, as overtime was also reduced by $1M in the FY 26-27 budget through reduction exercises. The Bureau has started the fiscal year off with just $171K in adopted overtime, which puts the funding at a level that has not been seen for over 20 years, and constrains overtime use to the AN EQUAL EMPLOYMENT OPPORTUNITY EMPLOYER Recyclable and made from recycled waste. 1 most extreme emergency cases. For comparison, the Bureau easily spends $35,000 to $40,000 in overtime over a weekend fully staffed for vandalism repairs. To address the immediate funding impacts of the current budget, the Bureau recommends the following allocation of funds to restore all hiring hall positions and the operating supplies and the materials accompanying those positions, as well as the overtime lost for FY 26-27 in CWPT Fortification and the Assistant Street Lighting Electrician which was also lost from that program. Restoring Hiring Hall Positions and CWPT Fortification Resourc"
     },
     {
       "date": "2026-08-21",
-      "from": "City Administrative Officer"
+      "title": "Report from City Administrative Officer",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0955_rpt_cao_8-21-26.pdf",
+      "excerpt": "REPORT FROM OFFICE OF THE CITY ADMINISTRATIVE OFFICER Date: August 21, 2026 CAO File No. 0220-06415-0000 Council File No. 26-0955 Council District: Citywide To: The Council From: Matthew W. Szabo, City Administrative Officer Reference: Motion (Hernandez, Yaroslavsky - Harris-Dawson) (C.F. 26-0955) Subject: RESPONSE TO MOTION REGARDING FUNDING FOR BUREAU OF STREET LIGHTING WORKFORCE, BASELINE SERVICES, AND REVENUE GENERATING OPPORTUNITIES RECOMMENDATIONS That the Council: 1. Instruct the City Administrative Officer to initiate a budget reduction exercise to identify appropriation reductions from the Department of Public Works or other City departments and report to Council with recommended options for appropriation reductions to support up to $6.47 million in additional support for the Bureau of Street Lighting (BSL); 2. Instruct the BSL to complete Proposition 26 compliant fee studies for its fee proposals related to the Banner, Streetlights-As-A-Service (SAAS), EV Chargers on Streetlights, and Community Impact programs described in its report dated August 7, 2026 (C.F. 26-0955); 3. Instruct the BSL, with the assistance of the City Administrative Officer (CAO) and the City Attorney to report on the current legal authorities and limitations for the commercial proposals included in its August 7, 2026 report (C.F. 26-0955) and what additional authority would be needed to pursue the BSL’s proposals, and the steps needed to obtain such authority, prior to the approval of an RFP/RFQ for any of the proposed commercial activities; and, 4. Instruct the BSL and the CAO, with the assistance of the City Attorney, to report on opportunities to restructure the BSL and/or the provision of street lighting services which will result in a sustainably funded model for street lighting services in the City. SUMMARY On July 1, 2026, the Council approved Motion (Hernandez, Yaroslavsky - Harris-Dawson), which instructed this Office, with assistance from the Bureau of Street Lighting (BSL), to report with CAO File No. PAGE 0220-06415-0000 2 options identifying $6.6 million for immediate use by BSL to maintain workforce and baseline services, including the feasibility of repurposing MICLA funding previously approved for use by the BSL by the Council and Mayor (C.F. 26-0955). In this report, this Office provides options for funding the $6.6 million in costs referenced by the Motion, an assessment of the potential use of previously authorized MICLA funding for BSL operations, and input from this Office on key factors mentioned in the separate BSL report written in response to other instructions of the Motion. BACKGROUND The Bureau of Street Lighting (Bureau) maintains the City's street lighting system, which supports public safety, mobility, neighborhood connectivity, and economic activity. The Bureau's primary funding source is property assessment funds, which have remained at the same amount since 1996 despite increases in labor, construction, and operating costs, aging i"
     }
   ],
   "requests": [
     {
-      "departments": ["City Administrative Officer"],
+      "departments": [
+        "City Administrative Officer"
+      ],
       "asks": "Options identifying $6.6 million for immediate use by Bureau of Street Lighting to maintain workforce and baseline services, including feasibility of repurposing MICLA funding.",
       "deadline": 30
     },
     {
-      "departments": ["Bureau of Street Lighting"],
+      "departments": [
+        "Bureau of Street Lighting"
+      ],
       "asks": "Cost analysis of Bureau's fees not currently at full recovery with recommendations for updating fees and monetizing current assets, and recommendations on interdepartmental partnerships to preserve staffing and manage the streetlight system.",
       "deadline": 30
     },
     {
-      "departments": ["Bureau of Street Lighting"],
+      "departments": [
+        "Bureau of Street Lighting"
+      ],
       "asks": "Written and graphic analysis of ballot tabulation results including heat map, identification of areas supporting future assessment increases, and breakdown by assessment value, acreage, dwelling units, and parcel ownership.",
       "deadline": 30
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2026/26-0955_rpt_bsl_8-06-26.pdf": [
+      1
+    ],
+    "https://cityclerk.lacity.org/onlinedocs/2026/26-0955_rpt_cao_8-21-26.pdf": [
+      0
+    ]
+  }
 }

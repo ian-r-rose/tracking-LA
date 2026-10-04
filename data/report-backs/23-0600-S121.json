@@ -8,15 +8,18 @@
   "documents": [
     {
       "date": "2026-06-03",
-      "from": "Board of Police Commissioners"
+      "title": "Report from Board of Police Commissioners",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-0600-S121_rpt_bpc_6-3-26 (2).pdf"
     },
     {
       "date": "2026-08-14",
-      "from": "City Attorney"
+      "title": "Report from City Attorney",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-0600-S121_rpt_atty_8-14-26.pdf"
     },
     {
-      "date": "2026-09-28",
-      "from": "Department of Transportation"
+      "date": "2026-09-24",
+      "title": "Report from Department of Transportation",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2023/23-0600-s121_rpt_dot_6-26-26.pdf"
     }
   ],
   "requests": []

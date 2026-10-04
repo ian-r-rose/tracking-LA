@@ -8,14 +8,33 @@
   "documents": [
     {
       "date": "2026-08-14",
-      "from": "City Administrative Officer"
+      "title": "Report from City Administrative Officer",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-0708-S3_rpt_cao_08-14-26.pdf",
+      "excerpt": "REPORT FROM OFFICE OF THE CITY ADMINISTRATIVE OFFICER Date: August 14, 2026 CAO File No. 0220-06417-0000 Council File No. 22-0708-S3 Council District: 14 To: The City Council for From: Matthew W. Szabo, City Administrative Officer Subject: BOARD OF PUBLIC WORKS REQUEST FOR CREATION OF A NEW SIXTH STREET VIADUCT MAINTENANCE TRUST FUND (C.F. 22-0708-S3) RECOMMENDATIONS That the City Council, subject to the approval of the Mayor: 1. Request the City Attorney to prepare an Ordinance to establish the Sixth Street Viaduct Maintenance Trust Fund for the purpose of the receipt, retention and disbursement of gifts, contributions, and donations for the maintenance of the Sixth Street Viaduct, including trash and bulky item pickup, graffiti abatement, and other services; 2. Authorize the Controller to establish a new fund entitled “Sixth Street Viaduct Maintenance Trust Fund”; 3. Instruct the Controller to establish new revenue accounts within the new fund, as deemed appropriate by the Board of Public Works; and, 4. Authorize the Department of Public Works, Board of Public Works to be the administrator of the “Sixth Street Viaduct Maintenance Trust Fund”. SUMMARY On July 1, 2026, the Council approved Motion (Jurado-Price) instructing the City Administrative Officer, in consultation with Council District 14 and the City Attorney, to report on the establishment of a Sixth Street Viaduct Maintenance Trust Fund (Fund) for the purpose of the receipt, retention and disbursement of gifts, contributions, and donations for maintenance of the Sixth Street Viaduct, including trash and bulky item pickup, graffiti abatement, and other services (C.F. 22-0783-S3). The recommendations of this report include the necessary approvals and requests to create the Fund in response to Motion (Jurado-Price). CAO File No. PAGE 0220-06417-0000 2 DISCUSSION The Sixth Street Viaduct, also known as the Sixth Street Bridge, was constructed in 1932 to connect Boyle Heights and Eastside communities with Downtown Los Angeles. In 2016, the Bureau of Engineering began the demolition and reconstruction of the Sixth Street Viaduct and the work was completed in 2022. Since the completion of the project, the Sixth Street Viaduct has confronted ongoing challenges due to bulky item disposal, vandalism, and other activities that have damaged both the bridge and its fixtures. Both the community and private entities have expressed concerns that these challenges would result in the bridge returning to its previous state and expressed interest in providing funds to ensure the bridge is properly maintained and preserved. Motion (Jurado-Price) aims to establish the Fund to facilitate the receipt, retention, and disbursement of funds received from private entities for the purpose of maintaining the bridge. These may include graffiti abatement services, trash pick-up, bulky item pick up, and other services required to preserve the Sixth Street Viaduct. Funds may be appropriated to the relevant departments t"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Communication from Public Works Committee Clerk",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-0708-S3_misc_9-8-26b.pdf"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Joint report from Public Works Committee and Budget and Finance Committee",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-0708-S3_rpt_pw_9-8-26.pdf"
     }
   ],
   "requests": [
     {
-      "departments": ["City Administrative Officer"],
+      "departments": [
+        "City Administrative Officer"
+      ],
       "asks": "Establishment of a Sixth Street Viaduct Maintenance Trust Fund for the purpose of receipt, retention, and disbursement of gifts, contributions, and donations for maintenance of the viaduct, including trash and bulky item pickup, graffiti abatement, and other services.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2022/22-0708-S3_rpt_cao_08-14-26.pdf": [
+      0
+    ]
+  }
 }

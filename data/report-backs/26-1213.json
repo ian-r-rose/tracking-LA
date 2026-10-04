@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of Water and Power"],
+      "departments": [
+        "Department of Water and Power"
+      ],
       "asks": "Report on the Energization Process Improvement including inspection process improvements, proactive review workflows, and internal communication plan; on multifamily and mixed use electrical requests and service data by affordable/market-rate and project status; and on staffing vacancies, turnover reduction strategies, and employee transition procedures.",
       "deadline": null
     }

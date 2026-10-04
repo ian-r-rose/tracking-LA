@@ -8,19 +8,31 @@
   "documents": [
     {
       "date": "2026-09-11",
-      "from": "Bureau of Sanitation"
+      "title": "Report from Bureau of Sanitation",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0906-S7_misc_09-11-26.pdf",
+      "excerpt": "CITY OF LOS ANGELES INTER-DEPARTMENTAL CORRESPONDENCE DATE: September 11, 2026 TO: Honorable Ysabel Jurado, Chair Honorable Adrin Nazarian, Vice Chair Honorable John Lee, Member Special Meeting - Ad Hoc Committee for Boyle Heights Fire Recovery FROM: Joone Kim-Lopez, Executive Director and General Manager er LA Sanitation and Environment SUBJECT: LA SANITATION AND ENVIRONMENT RESPONSE ONSE ON BOYLE HEIGHTS COLD STORAGE WAREHOUSE FIRE STORMWATER RUNOFF WATER QUALITY TESTING (CF 26-0906-S7) RECOMMENDATION 1. The Bureau of Sanitation recommends the Council to note and file this report as it is for informational purposes. INTRODUCTION This memorandum is in response to CF 26-0906-S7 that instructed the following: ● Bureau of Sanitation (LASAN) to report on the final results of water quality testing conducted on stormwater runoff associated with the June 17, 2026, Boyle Heights Lineage warehouse fire, including any findings regarding contaminants detected, impacts to receiving waters, and any recommendations for ongoing monitoring. ● LASAN to report on the status of the requested Cleanup and Abatement Order issued by the Los Angeles Regional Water Quality Control Board, including any approved remediation plan, implementation timeline, responsible agencies, and progress made toward protecting public health and water quality. BACKGROUND LASAN’s Watershed Protection Division (WPD) dispatched Environmental Compliance Inspectors (ECI) to the scene on June 17, 2026, the day that the cold storage warehouse fire broke out, and have maintained daily site inspections since that date. The ECIs conducted daily water quality sampling of the runoff generated from fire fighting activities through July 14, 2026. The Water Quality Results (ATTACHMENT 1) are separated into four sets of data, representing key periods of how the runoff was being monitored and managed. LASAN’s Environmental Monitoring Division (EMD) performed the laboratory analyses for the runoff samples. 1 CITY OF LOS ANGELES INTER-DEPARTMENTAL CORRESPONDENCE The four attached reports provide the detailed test results. Below is a summary of those results. ● Pre-diversion (June 17 to June 26, 2026): The test results from this period are from the early stages of the fire fighting activities, and represent the runoff from the site that entered the storm drain system and flowed to the Los Angeles River (R. 10 samples were collected during this period. Under normal circumstances, dry weather discharges from the storm drain system to the Los Angeles River are not permitted, but runoff from fire fighting activities falls under a legal exemption to this rule. Following recommendations from the Los Angeles Fire Department Joint Hazard Assessment Team, the water quality sampling in this period focused on analysis of metals in the runoff. On June 25, 2026, WPD added analysis for fecal indicator bacteria (FIB) and poly-aromatic hydrocarbons (PAH). The sampling for bacteria was prompted by the observation of decaying"
     }
   ],
   "requests": [
     {
-      "departments": ["Bureau of Sanitation"],
+      "departments": [
+        "Bureau of Sanitation"
+      ],
       "asks": "Final results of water quality testing on stormwater runoff from the June 17, 2026 Lineage warehouse fire, including contaminants detected, impacts to receiving waters, and recommendations for ongoing monitoring.",
       "deadline": null
     },
     {
-      "departments": ["Bureau of Sanitation"],
+      "departments": [
+        "Bureau of Sanitation"
+      ],
       "asks": "Status of the Cleanup and Abatement Order issued by the Los Angeles Regional Water Quality Control Board, including approved remediation plan, implementation timeline, responsible agencies, and progress.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2026/26-0906-S7_misc_09-11-26.pdf": [
+      0,
+      1
+    ]
+  }
 }

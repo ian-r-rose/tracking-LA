@@ -8,7 +8,12 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Chief Legislative Analyst", "Los Angeles Fire Department", "Department of Building and Safety", "Department of Water and Power"],
+      "departments": [
+        "Chief Legislative Analyst",
+        "Los Angeles Fire Department",
+        "Department of Building and Safety",
+        "Department of Water and Power"
+      ],
       "asks": "Current permitting, inspection, and enforcement requirements for rooftop solar installations on commercial and industrial buildings, including safety mechanisms, gaps in interagency coordination, and recommendations for changes to ordinances and procedures.",
       "deadline": null
     }

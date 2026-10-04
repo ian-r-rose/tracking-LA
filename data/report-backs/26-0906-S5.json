@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Information Technology Agency"],
+      "departments": [
+        "Information Technology Agency"
+      ],
       "asks": "Feasibility of implementing an automatic emergency response notification system through MyLA311 to provide residents with timely updates, public safety alerts, and resource information during emergency events.",
       "deadline": 30
     }

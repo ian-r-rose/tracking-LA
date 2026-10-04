@@ -8,12 +8,20 @@
   "documents": [
     {
       "date": "2026-04-17",
-      "from": "City Attorney"
+      "title": "Report from City Attorney",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0481_rpt_atty_4-17-26.pdf"
+    },
+    {
+      "date": "2026-05-27",
+      "title": "Transmittal Letter to Public Works Committee",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0481_misc_05-27-2026.pdf"
     }
   ],
   "requests": [
     {
-      "departments": ["City Administrative Officer"],
+      "departments": [
+        "City Administrative Officer"
+      ],
       "asks": "Recommendations regarding alignment of staffing and funding to provide an adequate level of maintenance for bicycle and multi-use paths, at least equal to that provided to streets and sidewalks.",
       "deadline": null
     }

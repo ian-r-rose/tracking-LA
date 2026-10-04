@@ -8,12 +8,19 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of Transportation", "Bureau of Engineering", "Bureau of Street Services", "Bureau of Street Lighting"],
+      "departments": [
+        "Department of Transportation",
+        "Bureau of Engineering",
+        "Bureau of Street Services",
+        "Bureau of Street Lighting"
+      ],
       "asks": "Provide a current list of the City's active transportation projects and associated grant deadlines, prioritizing projects on the High Injury Network, improving access to transit, serving disadvantaged communities, and extending non-vehicular path networks.",
       "deadline": null
     },
     {
-      "departments": ["City Administrative Officer"],
+      "departments": [
+        "City Administrative Officer"
+      ],
       "asks": "Identify adequate staffing levels and evaluate funding options, including the feasibility of utilizing MICLA lease revenue bonds, to provide necessary staff resources and project implementation costs for the City's active transportation projects.",
       "deadline": null
     }

@@ -8,7 +8,13 @@
   "documents": [
     {
       "date": "2026-09-15",
-      "from": "Bureau of Sanitation"
+      "title": "Report from Bureau of Sanitation",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0936_rpt_bos_9-15-26.pdf"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Report from Ad Hoc Committee for Boyle Heights Fire Recovery",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0936_rpt_AHBHFR_09-18-26.pdf"
     }
   ],
   "requests": []

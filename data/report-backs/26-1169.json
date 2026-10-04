@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Emergency Management Department"],
+      "departments": [
+        "Emergency Management Department"
+      ],
       "asks": "Prepare presentation on preparations for the super El Nino predicted by NOAA, including fortifying coastal areas, emergency notifications, clearing catch-basins, stabilizing hillsides, and addressing overgrown vegetation in Fire Hazard Severity Zones.",
       "deadline": null
     }

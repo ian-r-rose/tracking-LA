@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of Recreation and Parks"],
+      "departments": [
+        "Department of Recreation and Parks"
+      ],
       "asks": "Report on a process that creates a citywide running club that showcases the diverse open spaces throughout the City and creates a place for individuals and diverse running clubs to come together.",
       "deadline": null
     }

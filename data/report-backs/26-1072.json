@@ -8,12 +8,16 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Office of Finance"],
+      "departments": [
+        "Office of Finance"
+      ],
       "asks": "Report to identify non-profit organizations that would have fallen under the proposed amendment",
       "deadline": 90
     },
     {
-      "departments": ["Office of Finance"],
+      "departments": [
+        "Office of Finance"
+      ],
       "asks": "Provide the feasibility of retroactively extending the exemptions and refunding those collections to the appropriate non-profit entity",
       "deadline": null
     }

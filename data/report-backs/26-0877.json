@@ -8,7 +8,11 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of City Planning", "Department of Building and Safety", "Bureau of Sanitation"],
+      "departments": [
+        "Department of City Planning",
+        "Department of Building and Safety",
+        "Bureau of Sanitation"
+      ],
       "asks": "ADU trash policies and procedures with recommendations to mitigate increased trash needs, including sanitation alternatives for properties with bin storage limitations and use of micro-dumpsters or collection programs.",
       "deadline": 60
     }

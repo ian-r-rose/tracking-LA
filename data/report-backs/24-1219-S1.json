@@ -8,18 +8,43 @@
   "documents": [
     {
       "date": "2026-08-07",
-      "from": "Bureau of Street Services"
+      "title": "Joint Report from Bureau of Street Services and Department of Transportation",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-1219-s1_rpt_bss_8-07-26.pdf",
+      "excerpt": "FORM GEN. 160 (Rev. 8-12) CITY OF LOS ANGELES INTER-DEPARTMENTAL CORRESPONDENCE DATE: August 7, 2026 TO: The Honorable City Council FROM: Keith Mozee for Executive Director and General Manager Bureau of Street Services (StreetsLA) Laura Rubio-Cornejo General Manager Department of Transportation (LADOT) SUBJECT: STREET SWEEPING AND PARKING ENFORCEMENT (CF 24-1219-S1) RECOMMENDATION That the City Council note and file this report, as it is provided for informational purposes only. SUMMARY Pursuant to the recommendations adopted by the City Council on August 29, 2025 (Council File 24-1219-S1), this report provides information in response to the following recommendations: • Current coordination efforts between street sweeping and parking enforcement operations on posted routes. • Recommendations to improve interdepartmental collaboration to facilitate simultaneous parking enforcement and street sweeping, including resources needed for implementation. • Explore potential technology or equipment that could be utilized to support operations. • Data on citations issued for street sweeping, including information on disputed citations issued in areas where street sweeping did not take place. • Develop policies that would prevent the issuance of parking citations in areas where posted street sweeping does not occur and after street sweepers have passed. DISCUSSION StreetsLA is responsible for maintaining one of the largest municipal street networks in the nation, including 1,384 total street sweeping routes, accounting for 13,891 curb miles of public streets. The purpose of the street sweeping program (Program) is to prevent debris from washing into storm drains, waterways, and ultimately the ocean. It also serves to maintain clean and safe streets for residents and visitors by removing debris that can cause accidents or block storm drains, and helps to improve the overall aesthetics of neighborhoods. The Program is organized into three major types of routes: • Posted Routes - Comprising 34% of all City streets, posted routes are primarily residential streets with signs detailing parking restrictions on days/times that street sweeping is scheduled to occur. The installation of the parking restriction signage, and enforcement of The Honorable City Council August 7, 2026 Page 2 of 3 those restrictions are the responsibility of LADOT. In the current fiscal year, posted routes are swept bi-weekly. • Commercial Corridors - Comprising 11% of City streets, these routes are heavily trafficked commercial corridors that are swept before the morning commute. In the current fiscal year, commercial corridors are swept every three-four weeks. • Open Routes - Comprising 55% of City streets, these streets are not regularly scheduled for sweeping, and do not have posted parking restrictions. Open routes are only swept as resources permit. In the current fiscal year, open routes are swept quarterly. The posted routes of the Program have been largely unchanged since 1998 (CF "
     },
     {
-      "date": "2026-08-07",
-      "from": "Department of Transportation"
+      "date": "2026-08-12",
+      "title": "Communication from Public Works Committee Clerk",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-1219-S1_misc_8-12-26b.pdf"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Communication from Bureau of Street Services and Department of Transportation (presentation slides)",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-1219-S1_misc_8-12-26.pdf",
+      "excerpt": "Street Sweeping and Parking Enforcement Public Works Committee August 12, 2026 Street Sweeping Program 1,384 Prevention 1998 Nation-leading Network Environmental Posted Routes Static Protection StreetsLA maintains one Posted routes have of the largest municipal The program prevents remained largely street networks in the debris, trash, and heavy unchanged since 1998 nation, managing 1,384 metals from entering based on Council Office total street sweeping storm drains and protects priorities and equity routes, equivalent to the ocean environment. goals. 13,891 curb miles. 2 Street Sweeping Routes Classifications 34% 11% 55% Posted Routes Commercial Corridors Open Routes Posted Routes comprise Commercial Corridors Open Routes account for 34% of City streets, make up 11% of streets, 55% of streets; these lack featuring bi-weekly heavily trafficked areas posted parking sweeping and parking swept every three to four restrictions and are swept restrictions enforced by weeks before the quarterly as resources LADOT. morning commute. permit. Street Sweeping Budget and Resources Fiscal Year Program Funding Total Program Positions FY 22-23 $12.1 million 91 FY 23-24 $13.9 million 122 FY 24-25 $13.6 million 113 FY 25-26 $11.8 million 100 FY 26-27 $13.0 million 100 Daily Coordination Synchronizes Sweeping and Parking Enforcement 01 02 03 Morning Route Notices Cancellations & Street Blockages Citations Each morning, StreetsLA When parked vehicles sends a notice advising If equipment failure, block curb and gutter LADOT of specific routes illness, or unforeseen lanes, operators inform expected to be missed. circumstances force a their supervisors, who route cancellation, notify LADOT Parking LADOT Parking Enforcement to address Enforcement is informed the blockage. to rescind any issued citations. Parking Enforcement Overview 01 02 03 Daily Deployment Resource Constraints Logistical Challenges ● Traffic Officers are deployed ● LADOT lacks a dedicated ● Simultaneous sweeping and daily from 5 Area Parking enforcement group for street enforcement requires Enforcement Offices. sweeping. complex daily resource synchronization. ● Supervisors assign details ● The division manages a fleet based on available of 550 vehicles with ● Current staffing shortages resources and service calls. fluctuating shift utilization. prevent officers from preceding or following ● Details are structured across ● 100 Traffic Officers pending sweepers. four standard shifts between hiring freeze 08:00 and 15:00. Parking Enforcement Overview 26% 0.4% 0.04% Street Sweeping Street Sweeping Error Street Sweeping Error Citations Citations Citations Paid Street sweeping In FY 25/26 LADOT Of the 2,165 tickets violations account for issued 2,165 street issued when routes were 26% of all annual sweeping citations when either not scheduled or citations. In FY 25/26 a route was either not canceled in FY 25/26, all LADOT issued 544,300 scheduled or canceled. but 191 were dismissed street cleaning citatio"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "Proposed Amendments",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-1219-S1_misc_9-16-26.pdf"
     }
   ],
   "requests": [
     {
-      "departments": ["Bureau of Street Services", "Department of Transportation"],
+      "departments": [
+        "Bureau of Street Services",
+        "Department of Transportation"
+      ],
       "asks": "Current coordination efforts between street sweeping and parking enforcement operations on posted routes, recommendations to improve interdepartmental collaboration including resources needed, potential technology or equipment to support operations, data on citations issued for street sweeping, and proposed policies to prevent parking citations in areas where street sweeping does not occur.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2024/24-1219-s1_rpt_bss_8-07-26.pdf": [
+      0
+    ],
+    "https://cityclerk.lacity.org/onlinedocs/2024/24-1219-S1_misc_8-12-26.pdf": [
+      0
+    ]
+  }
 }

@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Bureau of Engineering"],
+      "departments": [
+        "Bureau of Engineering"
+      ],
       "asks": "Report with recommendations to temporarily close 101st Street between Lou Dillon Avenue and Juniper Street in the Jordan Downs Redevelopment area, pursuant to State Vehicle Code Section 21101.4.",
       "deadline": null
     }

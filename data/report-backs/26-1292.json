@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of Animal Services"],
+      "departments": [
+        "Department of Animal Services"
+      ],
       "asks": "Report on how to better structure the operating hours of shelter operations to include more evening and weekend hours.",
       "deadline": null
     }

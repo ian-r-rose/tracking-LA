@@ -8,12 +8,16 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of City Planning"],
+      "departments": [
+        "Department of City Planning"
+      ],
       "asks": "Impacts of SB 9 and SB 1211 on attached ADU development in Los Angeles, including any trends involving attached ADUs exceeding traditional proportional size relationships.",
       "deadline": 60
     },
     {
-      "departments": ["Department of City Planning"],
+      "departments": [
+        "Department of City Planning"
+      ],
       "asks": "Additional local regulatory options available under State law to preserve neighborhood compatibility while maintaining compliance with State ADU mandates.",
       "deadline": null
     }

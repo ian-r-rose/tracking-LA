@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of Neighborhood Empowerment"],
+      "departments": [
+        "Department of Neighborhood Empowerment"
+      ],
       "asks": "Report with recommendations to require majority of Neighborhood Council board members to obtain and maintain CERT Program certification, including implementation options, timelines, costs, exemptions, and renewal requirements.",
       "deadline": null
     }

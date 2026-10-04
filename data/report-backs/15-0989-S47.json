@@ -8,19 +8,48 @@
   "documents": [
     {
       "date": "2025-09-24",
-      "from": "Department of City Planning"
+      "title": "Report from Department of City Planning",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S47_rpt_dcp_9-24-25.pdf"
+    },
+    {
+      "date": "2025-09-26",
+      "title": "Communication from Department of City Planning - Supplemental Transmittal",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S47_misc_9-26-25.pdf"
     },
     {
       "date": "2026-01-08",
-      "from": "Los Angeles City Planning Commission"
+      "title": "Report from Los Angeles City Planning Commission",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S47_RPT_CPC_1-08-26.pdf"
+    },
+    {
+      "date": "2026-01-08",
+      "title": "Communication from Department of City Planning - Supplemental Transmittal",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S47_misc_1_01-08-26.pdf"
+    },
+    {
+      "date": "2026-01-13",
+      "title": "Communication from Planning and Land Use Management Committee Clerk",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S47_misc_01-13-26.pdf"
+    },
+    {
+      "date": "2026-01-26",
+      "title": "Report from Ad Hoc Committee on the 2028 Olympic and Paralympic Games",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S47_rpt_oly_1-26-26.pdf"
     },
     {
       "date": "2026-06-23",
-      "from": "City Attorney"
+      "title": "Report from City Attorney",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S47_rpt_atty_6-23-26.pdf"
     },
     {
-      "date": "2026-07-01",
-      "from": "Department of City Planning"
+      "date": "2026-06-30",
+      "title": "Report from Department of City Planning",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-s47_rpt_dcp_7-01-26.pdf"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "Revised Ordinance dated 8-16-26",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S47_misc_Revised Ord dated 8-19-26.pdf"
     }
   ],
   "requests": []

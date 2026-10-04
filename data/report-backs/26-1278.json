@@ -8,7 +8,10 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Los Angeles Police Department", "Los Angeles Fire Department"],
+      "departments": [
+        "Los Angeles Police Department",
+        "Los Angeles Fire Department"
+      ],
       "asks": "Report quarterly regarding the volume of service calls at Metro stations throughout the City to evaluate the effectiveness of the TAP-to-Exit program and progress in maintaining safe and accessible Metro stations.",
       "deadline": null
     }

@@ -8,12 +8,16 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["City Attorney"],
+      "departments": [
+        "City Attorney"
+      ],
       "asks": "Obtain and provide the feasibility study for the JCI Harbor Gateway facility, and provide an assessment of whether and to what extent the study may be publicly disclosed",
       "deadline": null
     },
     {
-      "departments": ["City Attorney"],
+      "departments": [
+        "City Attorney"
+      ],
       "asks": "Obtain and provide any proposed consent order concerning the JCI Harbor Gateway facility prior to adoption, and provide an assessment of whether and to what extent the consent order may be publicly disclosed",
       "deadline": null
     }

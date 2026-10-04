@@ -7,15 +7,24 @@
   "adopted": "2025-06-04",
   "documents": [
     {
-      "date": "2026-07-09",
-      "from": "Bureau of Sanitation"
+      "date": "2026-07-07",
+      "title": "Report from Bureau of Sanitation",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0380_misc_07-07-26.pdf",
+      "excerpt": "FOR"
     }
   ],
   "requests": [
     {
-      "departments": ["Bureau of Sanitation"],
+      "departments": [
+        "Bureau of Sanitation"
+      ],
       "asks": "Status of the Fats, Oil and Grease Program and feasibility of adjusting the $100,000 monetary threshold for remodeling of food service establishments to install grease interceptors, and ways to enhance media and educational outreach programs to engage the public and industry on proper waste disposal to prevent sewer system overflows.",
       "deadline": 45
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-0380_misc_07-07-26.pdf": [
+      0
+    ]
+  }
 }

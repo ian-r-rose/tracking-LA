@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Los Angeles Department of Transportation"],
+      "departments": [
+        "Los Angeles Department of Transportation"
+      ],
       "asks": "Report on the feasibility, cost, and steps necessary to install parking meters on both sides of West Adams Boulevard between Buckingham Road and Hillcrest Drive",
       "deadline": 30
     }

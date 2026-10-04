@@ -8,17 +8,25 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Los Angeles Department of Transportation"],
+      "departments": [
+        "Los Angeles Department of Transportation"
+      ],
       "asks": "Implementation of a system for cancellation of citations for people impacted by the warehouse fire, including status of current programs under AB 1299 and California Vehicle Code 40215.",
       "deadline": null
     },
     {
-      "departments": ["Los Angeles Fire Department", "Los Angeles Police Department"],
+      "departments": [
+        "Los Angeles Fire Department",
+        "Los Angeles Police Department"
+      ],
       "asks": "Towing operations practiced during the Boyle Heights warehouse fire, including outreach efforts to contact owners and advise them of rights under California law.",
       "deadline": null
     },
     {
-      "departments": ["Los Angeles Department of Transportation", "Los Angeles Police Department"],
+      "departments": [
+        "Los Angeles Department of Transportation",
+        "Los Angeles Police Department"
+      ],
       "asks": "Feasibility of initiating post-storage impound hearing for affected vehicle owners or providing written notice offering such a hearing that can be conducted remotely.",
       "deadline": null
     }

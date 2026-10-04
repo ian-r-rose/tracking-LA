@@ -8,12 +8,17 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["City Attorney"],
+      "departments": [
+        "City Attorney"
+      ],
       "asks": "Procedural authority to delay or restrict permit issuance pending an active fire investigation, including procedural safeguards necessary for legal compliance.",
       "deadline": null
     },
     {
-      "departments": ["Department of City Planning", "Department of Building and Safety"],
+      "departments": [
+        "Department of City Planning",
+        "Department of Building and Safety"
+      ],
       "asks": "Recommendations for applying discretionary review to future land use projects at 1400 S. Los Palos Street for public safety protection and environmental review compliance.",
       "deadline": null
     }

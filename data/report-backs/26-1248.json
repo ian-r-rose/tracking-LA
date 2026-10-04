@@ -8,12 +8,22 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Bureau of Street Services", "Bureau of Sanitation", "Bureau of Engineering", "Bureau of Street Lighting"],
+      "departments": [
+        "Bureau of Street Services",
+        "Bureau of Sanitation",
+        "Bureau of Engineering",
+        "Bureau of Street Lighting"
+      ],
       "asks": "Provide a verbal report to Council on emergency preparedness, storm response, and post-recovery efforts for El Nino or other storm-related emergencies, including crew deployment, emergency dispatch, catch basin and storm drain maintenance, street lighting damage response, sandbag inventory, hillside stability preparedness, and public infrastructure integrity assessment.",
       "deadline": null
     },
     {
-      "departments": ["Bureau of Street Services", "Bureau of Sanitation", "Bureau of Engineering", "Bureau of Street Lighting"],
+      "departments": [
+        "Bureau of Street Services",
+        "Bureau of Sanitation",
+        "Bureau of Engineering",
+        "Bureau of Street Lighting"
+      ],
       "asks": "Periodically prepare post-storm reports following El Nino or other emergency rainstorm events, including work performed, emergency response activities, storm-related service requests received and addressed, outstanding requests, and damage to public right-of-way with repair and restoration needs.",
       "deadline": null
     }

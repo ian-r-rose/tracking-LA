@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of Water and Power"],
+      "departments": [
+        "Department of Water and Power"
+      ],
       "asks": "Groundwater recharge expansion feasibility including project status, site suitability, costs, timeline, permitting, environmental risks, and funding sources for the Vulcan Materials property near San Fernando Road.",
       "deadline": 120
     }

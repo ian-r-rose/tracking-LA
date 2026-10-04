@@ -116,11 +116,12 @@ def build(out: Path) -> int:
 def report_backs_page(today: date | None = None) -> str:
     today = today or date.today()
     rows = []
-    for record, request, doc in reportbacks.table(today):
+    for record, request, doc, confirmed in reportbacks.table(today):
         due = reportbacks.due(record, request)
         if doc:
             late = (date.fromisoformat(doc["date"]) - due).days if due else None
             status = f"filed {doc['date']}" + (f", {late} days late" if late and late > 0 else "")
+            status += "" if confirmed else " (not yet checked)"
         else:
             late = (today - due).days if due else None
             status = f"pending, {late} days overdue" if late and late > 0 else "pending"
@@ -129,7 +130,9 @@ def report_backs_page(today: date | None = None) -> str:
             "<tr>"
             f'<td><a href="{html.escape(link)}">{html.escape(record["council_file"])}</a></td>'
             f"<td>{html.escape(', '.join(request['departments']))}</td>"
-            f"<td>{html.escape(request['asks'])}</td>"
+            f"<td>{html.escape(request['asks'])}"
+            + (f' · <a href="{html.escape(doc["url"])}">report</a>' if doc and doc["url"] else "")
+            + "</td>"
             f"<td>{record['adopted']}</td>"
             f"<td>{due or 'none'}</td>"
             f'<td class="status">{html.escape(status)}</td>'

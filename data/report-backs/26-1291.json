@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of Animal Services"],
+      "departments": [
+        "Department of Animal Services"
+      ],
       "asks": "Report on the security needs at each of the City's six Animal Shelter locations and the associated funding needed.",
       "deadline": null
     }

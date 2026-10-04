@@ -9,11 +9,23 @@
   "documents": [
     {
       "date": "2025-12-04",
-      "from": "Los Angeles City Planning Commission"
+      "title": "Report from Department of City Planning",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0970_rpt_cpc_12-4-25.pdf"
     },
     {
-      "date": "2026-06-17",
-      "from": "City Attorney"
+      "date": "2026-02-06",
+      "title": "Communication from Los Angeles City Planning Commission",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0970_misc_02-06-26.pdf"
+    },
+    {
+      "date": "2026-05-12",
+      "title": "Communication from Department of City Planning",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0970_misc_5-12-26.pdf"
+    },
+    {
+      "date": "2026-06-16",
+      "title": "Report from City Attorney",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0970_rpt_atty_6-16-26.pdf"
     }
   ]
 }

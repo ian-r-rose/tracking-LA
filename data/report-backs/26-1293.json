@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Department of Animal Services"],
+      "departments": [
+        "Department of Animal Services"
+      ],
       "asks": "Report on the condition and capital improvement needs of all properties utilized by the Department of Animal Services.",
       "deadline": null
     }

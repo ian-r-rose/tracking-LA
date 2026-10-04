@@ -24,7 +24,14 @@
   "documents": [
     {
       "date": "2026-09-14",
-      "from": "Chief Legislative Analyst"
+      "title": "Report from Chief Legislative Analyst",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0548_rpt_cla_9-15-26.pdf",
+      "excerpt": "September 14,2026"
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2026/26-0548_rpt_cla_9-15-26.pdf": [
+      1
+    ]
+  }
 }

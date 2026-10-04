@@ -8,19 +8,39 @@
   "documents": [
     {
       "date": "2026-07-31",
-      "from": "verbal update"
+      "title": "Housing and Homelessness Committee scheduled a verbal update for this matter pursuant to Council action of July 1, 2025.",
+      "url": null
+    },
+    {
+      "date": "2026-08-05",
+      "title": "Communication from Public - Housing Authority of the City of Los Angeles (HACLA) Presentation",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0651_misc_1_8-5-26.pdf",
+      "excerpt": "Housing Authority of the City of Los Sustaining Angeles Housing for Emergency Housing Informational Briefing: Voucher Recipients Section 8 Funding Update Housing and Homelessness Committee August 5, 2026 Council File (11) 25-0651 August 5, 2026 The Challenge HACLA currently administers federal Emergency Housing Voucher(EHV) funding that supports approximately 2,700 households, which include over 4,300 people. Federal funding for the EHV program was set to expire by December 2026. It would have cost HACLA approximately $57 million to continue rental assistance for these households once funding expired. Without intervention, 4,300 vulnerable renters risked eviction and potential returns to homelessness. 2 HACLA’s Response • HACLA’s Board of Commissioners promptly determined that addressing the needs of EHV households would be a key priority for the agency. • Following the July 1, 2025, City Council motion, HACLA collaborated with local partners to explore and assess alternative funding options. Raised awareness with LACAHSA and the Leadership Table of the regional impact. • LACAHSA granted $500,000 to HR&A to assist HACLA and other housing agencies in L.A. County with developing a transition plan to support impacted households in stabilizing, enrolling in benefits, and accessing services. • HACLA engaged in advocacy efforts across federal, state, and local government levels as well as through national advocacy with U.S. Conference of Mayors. • With assistance from HACLA’s AmeriCorps volunteers, ongoing direct support was provided to EHV households during this time. 3 HACLA’s HCV Shortfall Has Ended • With the funding notices now in hand—and after confirmation with HUD’s Shortfall Team—HACLA is no longer in a funding shortfall for its Section 8 Housing Choice Voucher Program (HCV). • With the $976 million HACLA received in CY2026 funding for HCV tenant- based renewals, HACLA will be able to transition all EHV households to HCV, thereby keeping families stably housed. • LACDA has also announced that they will be able to transition their EHV households to Housing Choice Vouchers. • Additionally, HACLA will process the approximately 3,000 applications which were paused last year due to funding constraints. That timeline will be announced soon. 4 EHV Recipients Will Be Able to Maintain Current Their Housing • EHV recipients will be absorbed into the HCV program, allowing eligible households to continue receiving housing assistance. Households will transition effective September 1, 2026. • Families will remain in their current units, and property owners will continue to receive support through HACLA communications and ongoing Housing Assistance Payments (HAP). This will be seamless and HACLA will not need anything new from either the tenant or the owner. • Households with delinquent annual recertifications, unresolved inspection issues, or portability-related matters will be addressed separately to ensure a smooth transition. 5 Positive Impact in Every C"
     }
   ],
   "requests": [
     {
-      "departments": ["Housing Authority of the City of Los Angeles", "City Administrative Officer", "Los Angeles Housing Department", "Chief Legislative Analyst"],
+      "departments": [
+        "Housing Authority of the City of Los Angeles",
+        "City Administrative Officer",
+        "Los Angeles Housing Department",
+        "Chief Legislative Analyst"
+      ],
       "asks": "Funding options to ensure Emergency Housing Voucher holders remain housed through 2030, transition of eligible EHV holders to Continuum of Care slots and project-based voucher slots, and implementation of an exit strategy for EHV holders.",
       "deadline": 90
     },
     {
-      "departments": ["Housing Authority of the City of Los Angeles"],
+      "departments": [
+        "Housing Authority of the City of Los Angeles"
+      ],
       "asks": "Feasibility of implementing a local subsidy program not relying on federal funding, including validated cost projections to keep EHV households stably housed through 2030, proposed funding plan, and landscape of local and state funders for permanent housing and tenant-based subsidies.",
       "deadline": 90
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-0651_misc_1_8-5-26.pdf": [
+      0,
+      1
+    ]
+  }
 }

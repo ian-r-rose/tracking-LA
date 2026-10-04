@@ -7,15 +7,29 @@
   "adopted": "2026-04-15",
   "documents": [
     {
-      "date": "2026-07-31",
-      "from": "Department of Transportation"
+      "date": "2026-07-23",
+      "title": "Report from Department of Transportation",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2019/19-0131-S2_rpt_dot_07-23-26.pdf",
+      "excerpt": "CITY OF LOS ANGELES INTER-DEPARTMENTAL MEMORANDUM Date: July 23, 2026 To: Honorable City Council c/o City Clerk, Room 395 Attention: Honorable Heather Hutt, Chair, Transportation Committee From: Laura Rubio-Cornejo, General Manager Department of Transportation Subject: BlueLA EV Carsharing Program Status SUMMARY As directed by the Los Angeles City Council in Council File (CF) 19-0131-S2, this report provides an update from the Los Angeles Department of Transportation (LADOT) on the BlueLA EV Carsharing Program. RECOMMENDATION That the Los Angeles City Council Note and File this report. BACKGROUND In November 2016, the City Council approved and authorized LADOT to accept a $1,669,343 grant from the California Air Resources Board (CARB) to pilot an electric vehicle (EV) carshare program in selected Disadvantaged Communities (CF 15-1227). In December 2016, the City Council approved and authorized LADOT to execute a contract with BlueCalifornia, LLC to operate and maintain the pilot EV carshare program (C-128717). The parent company of BlueCalifornia, LLC, Bollore group, committed private funding towards the implementation and initial operation of the program. The program was branded as BlueLA Car Share. The operator was tasked with building a network of 40 stations incorporating 200 Electric Vehicle Supply Equipment (EVSE) charge points and maintaining a fleet of 100 EVs. In June 2017, the City Council authorized Amendment #1 recognizing BlueCalifornia, LLC’s legal name change to BlueLA Carsharing, LLC (C-128717 First Contract Amendment). The program officially launched in April 2018. Car sharing is a paid service in which members have short-term rental access to a car, allowing the vehicle to be shared within the community. Car sharing is ideal for multiple trips around the city for multiple tasks, providing the freedom to use a vehicle without the costs and burdens of owning a personal vehicle. BlueLA was a membership-based subscription service that offered access to a network of shared electric vehicles 24 hours a day, 7 days a week. To become a member, individuals created an account online or through the BlueLA app. Members had to be 18 years of age or older, have a valid driver’s license, and a valid credit or debit card to use the service. Once an account was created, members could use the app or website to reserve cars and access their vehicles. To qualify for the Community Membership discounted rate, a person must provide certain documentation, including proof that their total Annual Gross Income is at or less than the prescribed Honorable City Council​ 2​ July 23, 2026 limit or that they are eligible for Public Assistance Programs, including Medicaid, Medi-Cal, CalFresh, Food Stamps, SNAP, SSI/SSP, CalWORKS, TANF, Tribal TANF, Federal Public Housing Assistance, or LIHEAP. After six months of operations, LADOT applied for $3 million in additional funding from CARB to expand the program from 40 stations to 100 stations and triple the number o"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Communication from Council District 1 - Amendment",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2019/19-0131-S2_misc_08-12-26.pdf"
     }
   ],
   "requests": [
     {
-      "departments": ["Department of Transportation"],
+      "departments": [
+        "Department of Transportation"
+      ],
       "asks": "Status of the BlueLA EV carsharing program, including contract status with Blink Mobility, number and condition of EV charging stations, number of BlueLA users between 2018 and 2021 by location, current transit options in neighborhoods where program was available, and opportunities for launching a new EV carsharing program.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2019/19-0131-S2_rpt_dot_07-23-26.pdf": [
+      0
+    ]
+  }
 }

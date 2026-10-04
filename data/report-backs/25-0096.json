@@ -7,15 +7,34 @@
   "adopted": "2025-03-05",
   "documents": [
     {
-      "date": "2026-06-25",
-      "from": "Department of City Planning"
+      "date": "2026-06-24",
+      "title": "Report from Department of City Planning",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0096_rpt_dcp_6-24-26.pdf",
+      "excerpt": "DEPARTMENT OF EXECUTIVE OFFICES CITY PLANNING City of Los Angeles 200 N. Spring Street, Room 525 CALIFORNIA Los Angeles, CA 90012-4801 COMMISSION OFFICE (213) 978-1271 (213) 978-1300 CITY PLANNING COMMISSION VINCENT P. BERTONI, AICP MONIQUE LAWSHE DIRECTOR PRESIDENT CAROLINE CHOE KEVIN J. KELLER, AICP VICE-PRESIDENT EXECUTIVE OFFICER SHANA M.M. BONSTIN DEPUTY DIRECTOR PRISCILLA CHAVEZ MARTINA DIAZ HAYDEE URITA-LOPEZ DEPUTY DIRECTOR SARAH JOHNSON PHYLLIS KLEIN KAREN BASS ARTHI L VARMA, AICP DEPUTY DIRECTOR BRIAN ROSENSTEIN MAYOR JACOB SAITMAN LISA M. WEBBER, AICP DEPUTY DIRECTOR ELIZABETH ZAMORA June 24, 2026 Los Angeles City Council c/o Office of the City Clerk City Hall, Room 396 Los Angeles, CA 90012 Dear Honorable Members: REPORT BACK ON RECOMMENDATIONS RELATIVE TO EQUESTRIAN USES; CF 16-1468- S4 and CF 25-0096 SUMMARY On January 31,2025, the City Council adopted two Motions related to equestrian uses in the City. The first Motion, CF 16-1468-S4, instructed the Department of City Planning (DCP), Department of Building and Safety (DBS), and Department of Animal Services (Animal Services), in consultation with the City Attorney, to prepare a report with recommendations to amend the Los Angeles Municipal Code (LAMC) to reduce the required distance of an equine enclosure from any habitable room on neighboring properties from 75 feet to 35 feet, establish a Conditional Use Permit (CUP) process for new animal keeping structures unable to comply with distancing requirements where Accessory Dwelling Units are present, establish grandfathering rights for equine structures in “K” Equinekeeping Supplement Use District (“K” Districts), and clarify the enforcement responsibilities of the relevant departments. The second Motion, CF 25-0 96, instructed DCP, with assistance of DBS and in consultation with the City Attorney, to prepare and present a report with recommendations, and corresponding proposed ordinance to establish development standards that enable the use of storage containers for the purposes of equestrian equipment storage in “K” Districts. The ordinance should include, but not be limited to, the definition of “Equestrian Equipment Storage Container,” setback requirements, a prohibition on stacking containers, and standards for locating them on properties. Given these two Motions are both related to equestrian-related regulations, this report will directly address and provide recommendations for both Motions. Equine keeping has been a long time tradition within certain neighborhoods of the City of Los Angeles. The LAMC contains equine keeping regulations and established “K” Districts to preserve and protect the equestrian properties and to minimize impacts from equine keeping on neighboring properties. One of the restrictions to meet such a goal is: equine keeping enclosures The Honorable City Council CF 16-1468-S4 and CF 25-0096 Page 2 are required to observe 35-foot and 75-foot distances from dwelling units on the subject equine property as we"
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Communication from Council District 7",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0096_misc_09-18-26.pdf"
+    },
+    {
+      "date": "2026-09-22",
+      "title": "Communication from Council District 7 - Amendment",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2025/25-0096_misc_09-22-26.pdf"
     }
   ],
   "requests": [
     {
-      "departments": ["Department of City Planning"],
+      "departments": [
+        "Department of City Planning"
+      ],
       "asks": "Report with recommendations and proposed ordinance to establish development standards enabling the use of storage containers for equestrian equipment in K Overlay Zones, including definition, setback requirements, prohibition of stacking, and location standards.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-0096_rpt_dcp_6-24-26.pdf": [
+      0
+    ]
+  }
 }

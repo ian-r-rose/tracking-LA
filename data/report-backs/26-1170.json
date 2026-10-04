@@ -8,12 +8,16 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Chief Legislative Analyst"],
+      "departments": [
+        "Chief Legislative Analyst"
+      ],
       "asks": "Report on the impacts of the Mayor's proposed Capital Infrastructure Plan and the Bureau of Engineering's proposed capital project intake process on the Council's ability to initiate, prioritize, and fund capital projects.",
       "deadline": null
     },
     {
-      "departments": ["City Administrative Officer"],
+      "departments": [
+        "City Administrative Officer"
+      ],
       "asks": "Report on how the proposed Capital Infrastructure Plan and capital project intake process would impact the City's budget process, including impacts to the annual Capital and Technology Improvement Expenditure Plan, funding sources, and management and oversight of capital projects.",
       "deadline": null
     }

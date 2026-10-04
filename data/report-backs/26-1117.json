@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Los Angeles Department of Transportation"],
+      "departments": [
+        "Los Angeles Department of Transportation"
+      ],
       "asks": "Report with recommendations to address truck activity and idling issues in the Harbor Gateway South community, including the installation of No Idling signs and other traffic control measures that would improve safety and reduce the impacts of these large commercial vehicles in the area",
       "deadline": null
     }

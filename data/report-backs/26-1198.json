@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Chief Legislative Analyst"],
+      "departments": [
+        "Chief Legislative Analyst"
+      ],
       "asks": "Report on options for establishing a permanent Park Gate Closure Program, including feasibility, operational and fiscal impacts, and staffing and resource requirements to ensure City parks are consistently secured.",
       "deadline": null
     }

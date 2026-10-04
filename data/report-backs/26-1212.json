@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["City Administrative Officer"],
+      "departments": [
+        "City Administrative Officer"
+      ],
       "asks": "Report on the feasibility of utilizing Municipal Improvement Corporation of Los Angeles (MICLA) financing or other City-supported financing mechanisms to support the Jordan Downs Neighborhood Recreation Center, including eligibility, applicable precedent, financing approval requirements, and estimated financing amounts; and on potential funding mechanisms to support capital construction and ongoing operations, with a coordinated funding strategy.",
       "deadline": 15
     }

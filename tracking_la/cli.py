@@ -235,7 +235,8 @@ def score(limit: int | None, digest_date: str) -> None:
 
 def report_backs(digest_date: str) -> None:
     """Report backs that came in and aren't in a digest yet (or are in the `digest_date` one),
-    then how many are still pending."""
+    how many are still pending, and the records with candidate reports still to check."""
+    today = date.fromisoformat(digest_date)
     digested = digested_csv.load()
     found = [
         (rid, r, q, doc) for rid, r, q, doc in reportbacks.landed()
@@ -244,14 +245,20 @@ def report_backs(digest_date: str) -> None:
     for rid, r, q, doc in sorted(found, key=lambda f: f[3]["date"], reverse=True):
         when = reportbacks.due(r, q)
         late = f"{(date.fromisoformat(doc['date']) - when).days:+d} days vs due {when}" if when else "no deadline"
-        print(f"{doc['date']}  {r['council_file']:12} {doc['from']} ({late}); adopted {r['adopted']}")
+        print(f"{doc['date']}  {r['council_file']:12} {doc['title']} ({late}); adopted {r['adopted']}")
         print(f"     asked {', '.join(q['departments'])}: {q['asks']}")
-        print(f"     {reportbacks.council.council_file_url(r['council_file'])}")
-    pending = [(r, q) for r, q, doc in reportbacks.table(date.fromisoformat(digest_date)) if not doc]
-    overdue = [rq for rq in pending if (d := reportbacks.due(*rq)) and d < date.fromisoformat(digest_date)]
-    unreviewed = sum(1 for r in reportbacks.records() if r.get("motion") and r.get("requests") is None)
-    print(f"{len(found)} report back(s) came in; {len(pending)} pending ({len(overdue)} overdue)"
-          + (f"; {unreviewed} motion(s) not yet reviewed" if unreviewed else ""))
+        print(f"     {doc['url'] or reportbacks.council.council_file_url(r['council_file'])}")
+    rows = reportbacks.table(today)
+    pending = [(r, q) for r, q, doc, _ in rows if not doc]
+    overdue = [rq for rq in pending if (d := reportbacks.due(*rq)) and d < today]
+    print(f"{len(found)} report back(s) came in; {len(pending)} pending ({len(overdue)} overdue)")
+    unreviewed = [r for r in reportbacks.records() if r.get("motion") and r.get("requests") is None]
+    to_check = [r for r in reportbacks.records() if reportbacks.to_review(r)]
+    if unreviewed:
+        print(f"{len(unreviewed)} motion(s) not yet reviewed for requests")
+    for r in to_check:
+        print(f"to check: {reportbacks.record_path(r['council_file']).relative_to(DATA.parent)}"
+              f" ({len(reportbacks.to_review(r))} document(s))")
 
 
 def mark_digested(digest_date: str) -> None:

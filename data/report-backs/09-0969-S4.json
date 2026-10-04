@@ -4,38 +4,5 @@
   "introduced": "2023-03-16",
   "motion_url": null,
   "adopted": "2023-08-30",
-  "documents": [
-    {
-      "date": "2023-09-13",
-      "from": "City Administrative Officer"
-    },
-    {
-      "date": "2023-11-02",
-      "from": "City Attorney"
-    },
-    {
-      "date": "2025-10-07",
-      "from": "Department of City Planning"
-    },
-    {
-      "date": "2025-11-05",
-      "from": "City Administrative Officer"
-    },
-    {
-      "date": "2025-11-17",
-      "from": "City Attorney"
-    },
-    {
-      "date": "2026-02-27",
-      "from": "City Attorney"
-    },
-    {
-      "date": "2026-03-11",
-      "from": "Department of City Planning"
-    },
-    {
-      "date": "2026-03-24",
-      "from": "City Administrative Officer"
-    }
-  ]
+  "documents": []
 }

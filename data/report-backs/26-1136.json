@@ -8,7 +8,9 @@
   "documents": [],
   "requests": [
     {
-      "departments": ["Los Angeles Department of Transportation"],
+      "departments": [
+        "Los Angeles Department of Transportation"
+      ],
       "asks": "Report with an assessment of the cost, funding opportunities and resources needed to widen the Marvin Braude Bike Trail through Venice Beach in order to accommodate a pedestrian path in time for the 2028 Olympic and Paralympic Games",
       "deadline": 30
     }

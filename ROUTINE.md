@@ -42,6 +42,8 @@ Find files under `data/report-backs/` that have a non-empty `motion` field and n
 
 Run `uv run tracking-la check` again afterwards.
 
+Then check the candidate reports yourself (main model). `uv run tracking-la report-backs` ends with `to check:` lines, one per record with documents to check. In each record, a document in `documents` with an `excerpt` (the start of its text) is a candidate: it's from an asked department, or from the Mayor, who transmits many departments' reports. For each candidate not yet a key in `document_reviews`, read its excerpt against the record's `requests` and add `"<document url>": [<indexes of the requests it answers>]` to `document_reviews` (create the object if needed; indexes count from 0 in `requests`). A report answers a request when it responds to what Council asked, even partly or late; a report on something else on the same Council File (a contract, a different instruction, a transmittal of an unrelated report) answers none: write `[]`. Don't change any other field. If an excerpt is unreadable or too short to tell (a scan), look for the committee agenda item about it in `data/items/council-*` (same Council File; e.g. "Bureau of Sanitation report relative to the status of the Fats, Oil and Grease Program"); if neither says what it answers, write `[]`. Run `uv run tracking-la check` again afterwards.
+
 ## 3. Locate
 
 ```
@@ -64,7 +66,7 @@ For each item you include, add a `flag` field to its JSON file: `{"reason": "<on
 
 If reviewing shows an extraction field is wrong (a misspelled street that won't geocode, a missing `parks` tag that a staff report makes obvious, a misleading summary), correct it in the item file, then rerun `uv run tracking-la locate` if you changed `locations`. Say what you corrected and why in the commit message; git history is the record. Don't change scraper-owned fields (`tracking-la check` rejects that).
 
-Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by body (commission, board or other source): agenda items (from `score`) and decisions on earlier items (from `uv run tracking-la decisions`). Then a **Report backs** section from `uv run tracking-la report-backs`: each report back that came in, with what was asked, who filed it, and how late it was if there was a deadline ("filed 98 days after its 30-day deadline"). Open the Council File to check the document is the requested report; leave out ones that aren't, and say so in your final summary. Close the section with a link to the [table of report backs](https://ian-r-rose.github.io/tracking-LA/report-backs.html) and the pending count (and how many are overdue). Leave the section out if nothing came in.
+Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by body (commission, board or other source): agenda items (from `score`) and decisions on earlier items (from `uv run tracking-la decisions`). Then a **Report backs** section from `uv run tracking-la report-backs`: each report back that came in, with what was asked, who filed it, and how late it was if there was a deadline ("filed 98 days after its 30-day deadline"). Close the section with a link to the [table of report backs](https://ian-r-rose.github.io/tracking-LA/report-backs.html) and the pending count (and how many are overdue). Leave the section out if nothing came in.
 
 ```markdown
 # Commissions digest — <Month D, YYYY>

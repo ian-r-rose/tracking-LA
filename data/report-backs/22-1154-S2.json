@@ -7,19 +7,34 @@
   "adopted": "2025-08-27",
   "documents": [
     {
-      "date": "2026-08-21",
-      "from": "City Tourism Department"
+      "date": "2026-08-20",
+      "title": "Report from City Tourism Department",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1154-S2_misc_08-20-2026.pdf",
+      "excerpt": "CITY TOURISM DEPARTMENT LOS ANGELES CONVENTION CENTER 1201 S. FIGUEROA STREET LOS ANGELES, CA 90015 (213) 765-4601 August 20, 2026 Public Works Committee Trade, Travel and Tourism Committee Office of the City Clerk 200 N. Spring Street, Room 395 Los Angeles, CA 90012 SUBJECT: RESPONSE TO MOTION 22-1154-S2B, PROPOSED INTERACTIVE KIOSK PROGRAM Dear Honorable Councilmembers: SUMMARY On August 27, 2025, City Council (Council) directed the Los Angeles City Tourism Department (CTD), with assistance from the Bureau of Street Services (StreetsLA), the City Administrative Officer (CAO), and the City Attorney, to report on the following information related to the proposed interactive kiosk program (Program): a.)​ Scope of the Program; b.)​ Assessment to identify the appropriate of City of Los Angeles (City) agency to manage and administer the Request for Proposal (RFP) and the Program; c.)​ Regulatory framework and spatial requirements for kiosk installation; and d.)​ Estimated annual revenue projections and fiscal impacts to the Sidewalk and Transit Amenities Program (STAP). This report includes information in response to items a.), c.) and the environmental review process as detailed by the Office of the City Attorney; it also includes an attachment submitted by StreetsLA. As CAO was indicated to report on items b.) and d.), information in response to those two items is addressed in a separate report from CAO. August 20, 2026 Page 2 The attached communication from StreetsLA also provides additional context that may address items b.) and d.). BACKGROUND CTD’s mission is to advance tourism policies and strategies to increase the competitiveness of Los Angeles as a premier convention and tourism destination. In order to help the City maximize the economic benefits derived from out-of-town visitors, CTD’s contractor, the Los Angeles Tourism & Convention Board (LATCB) has been tasked with enhancing the visitor experience with the intent of encouraging repeat visitation and longer stays. Given the City’s size, diversity and complexity, the ability to share information to visitors while they are in market to assist with planning and wayfinding has been identified as a major opportunity for improving the visitor experience. One avenue to achieve this goal would be to implement a system of digital interactive kiosks across the City, which could then be used to communicate real-time information and to help equitably distribute visitors as well as residents throughout the City, thereby supporting local businesses and encouraging exploration. Over the past 10 years, CTD has explored the use of digital interactive kiosks in various capacities. The concept behind the proposed Program as it stands today includes utilizing the public right-of-way for deployment of kiosks in every Council District to help build out the City’s tourism infrastructure. SCOPE OF THE PROGRAM As a department with limited resources and workforce (i.e. funding for just 12 position authorities in"
     },
     {
       "date": "2026-08-21",
-      "from": "City Administrative Officer"
+      "title": "Report from City Administrative Officer",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1154-s2_rpt_cao_8-21-26.pdf"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Communication from Committee Clerk (Notice)",
+      "url": "https://cityclerk.lacity.org/onlinedocs/2022/22-1154-S2_misc_8-26-26.pdf"
     }
   ],
   "requests": [
     {
-      "departments": ["City Tourism Department"],
+      "departments": [
+        "City Tourism Department"
+      ],
       "asks": "Scope of the proposed interactive kiosk program, assessment to identify the appropriate City agency to manage and administer the kiosk program, regulatory framework and spatial requirements for kiosk installation, and estimated annual revenue projections and fiscal impacts to the Sidewalk and Transit Amenities Program.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2022/22-1154-S2_misc_08-20-2026.pdf": [
+      0
+    ]
+  }
 }
