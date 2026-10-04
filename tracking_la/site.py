@@ -38,7 +38,6 @@ h3 { font-size: 1.05rem; margin: 1.25rem 0 .25rem; }
 li { margin: .4rem 0; }
 table { border-collapse: collapse; width: 100%; font-size: .9rem; display: block; overflow-x: auto; }
 th, td { text-align: left; vertical-align: top; padding: .35rem .5rem; border-bottom: 1px solid var(--line); }
-.asks { min-width: 22rem; }
 .status { font-variant-numeric: tabular-nums; }
 .archive { list-style: none; padding: 0; }
 .archive li { display: flex; gap: 1rem; }
