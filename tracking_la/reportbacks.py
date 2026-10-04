@@ -260,16 +260,26 @@ def request_id(record: dict, index: int) -> str:
     return f"report-back:{record['council_file']}:{index}"
 
 
+def latest(record: dict, request: dict, report: dict | None, today: date) -> tuple[date, str]:
+    """A request's most recent event: its report was filed, its deadline passed, or Council
+    adopted it."""
+    if report:
+        return date.fromisoformat(report["date"]), "filed"
+    if (when := due(record, request)) and when < today:
+        return when, "went overdue"
+    return date.fromisoformat(record["adopted"]), "adopted"
+
+
 def table(today: date, root: Path = DATA) -> list[tuple[dict, dict, dict | None, bool]]:
     """(record, request, report or None, confirmed) for adopted instructions still pending,
-    or filed within SHOW_FILED_FOR, most recently adopted first."""
+    or filed within SHOW_FILED_FOR, most recent event (see `latest`) first."""
     rows = []
     for r in records(root):
         for i, q in enumerate(r.get("requests") or [] if r.get("adopted") else []):
             doc, ok = filed(r, i) or (None, False)
             if not doc or date.fromisoformat(doc["date"]) >= today - SHOW_FILED_FOR:
                 rows.append((r, q, doc, ok))
-    return sorted(rows, key=lambda row: row[0]["adopted"], reverse=True)
+    return sorted(rows, key=lambda row: latest(row[0], row[1], row[2], today)[0], reverse=True)
 
 
 def landed(root: Path = DATA) -> list[tuple[str, dict, dict, dict]]:

@@ -58,7 +58,7 @@ def test_verbal_update_counts():
     assert reportbacks.confirmed(r, 0)["url"] is None
 
 
-def test_table_lists_pending_and_recently_filed_by_adoption(tmp_path):
+def test_table_lists_pending_and_recently_filed_by_latest_event(tmp_path):
     folder = tmp_path / "report-backs"
     folder.mkdir()
     cao = {"departments": ["CAO"], "deadline": 30}
@@ -74,7 +74,9 @@ def test_table_lists_pending_and_recently_filed_by_adoption(tmp_path):
     for name, r in records.items():
         (folder / f"{name}.json").write_text(json.dumps({"council_file": name, **r}))
     rows = reportbacks.table(date(2026, 10, 4), tmp_path)
-    assert [(q["asks"], ok) for _, q, _, ok in rows] == [("no deadline", False), ("overdue", False), ("filed", True)]
+    # b went overdue Sep 18; a was adopted Aug 20; c's report was filed Aug 4.
+    assert [(q["asks"], ok) for _, q, _, ok in rows] == [("overdue", False), ("no deadline", False), ("filed", True)]
+    assert reportbacks.latest(*rows[0][:3], date(2026, 10, 4)) == (date(2026, 9, 18), "went overdue")
     assert [rid for rid, *_ in reportbacks.landed(tmp_path)] == ["report-back:c:0"]
 
 

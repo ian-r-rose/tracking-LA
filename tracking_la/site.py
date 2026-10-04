@@ -125,9 +125,11 @@ def report_backs_page(today: date | None = None) -> str:
         else:
             late = (today - due).days if due else None
             status = f"pending, {late} days overdue" if late and late > 0 else "pending"
+        when, event = reportbacks.latest(record, request, doc, today)
         link = reportbacks.council.council_file_url(record["council_file"])
         rows.append(
             "<tr>"
+            f'<td class="status">{event} {when:%b %-d, %Y}</td>'
             f'<td><a href="{html.escape(link)}">{html.escape(record["council_file"])}</a></td>'
             f"<td>{html.escape(', '.join(request['departments']))}</td>"
             f"<td>{html.escape(request['asks'])}"
@@ -141,10 +143,10 @@ def report_backs_page(today: date | None = None) -> str:
     intro = (
         "<h1>Report backs</h1>\n<p>Departments that City Council has asked to look into something and "
         "report back, on Council Files from the watched committees: pending ones, and those filed in the "
-        "last year, most recently adopted first. Due dates count from Council's adoption of the motion. Committees sometimes "
+        "last year. The most recent events come first: a report filed, a deadline passed, or a motion adopted. Due dates count from Council's adoption of the motion. Committees sometimes "
         "change a deadline, which this doesn't see; check the Council File.</p>"
     )
     if not rows:
         return intro + "\n<p>None right now.</p>"
-    head = "<tr><th>Council File</th><th>Asked of</th><th>Asked for</th><th>Adopted</th><th>Due</th><th>Status</th></tr>"
+    head = "<tr><th>Latest</th><th>Council File</th><th>Asked of</th><th>Asked for</th><th>Adopted</th><th>Due</th><th>Status</th></tr>"
     return intro + f"\n<table>\n{head}\n" + "\n".join(rows) + "\n</table>"
