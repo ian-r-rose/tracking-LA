@@ -131,15 +131,23 @@ def council_votes(text: str) -> dict[date, str]:
     return votes
 
 
-def council_file_outcome(html: str, url: str) -> dict | None:
-    """The latest action on a Council File (by a committee or by Council), if any."""
+def council_file_outcome(html: str, url: str, since: date | None = None) -> dict | None:
+    """The latest action on a Council File (by a committee or by Council) since `since`, the
+    item's meeting date: a Council File can have been decided before, on an earlier motion.
+    When Council acted on a committee's report, the committee's action comes first, since
+    "Council adopted item" alone doesn't say what the committee recommended (e.g. whether
+    PLUM granted or denied an appeal)."""
     soup = BeautifulSoup(html, "html.parser")
-    activities = [(when, text.rstrip(" .")) for when, text in file_activities(soup)]
+    activities = [(when, text.rstrip(" .")) for when, text in file_activities(soup) if not since or when >= since]
     actions = [(when, text) for when, text in activities if ACTION.search(text) and "transmitted" not in text.lower()]
     if not actions:
         return None
     when, text = max(actions, key=lambda a: a[0])  # File Activities are newest first; max keeps the first on a tie
     text = f"{text} ({when:%b %-d, %Y})"
+    if text.startswith("Council ") and (
+        committee := next(((w, t) for w, t in actions if w <= when and "Committee" in t), None)
+    ):
+        text = f"{committee[1]} ({committee[0]:%b %-d, %Y}); {text}"
     if any(w >= when and "Council action final" in t for w, t in activities):
         text += "; Council action final"  # past the Mayor's and Council's reconsideration windows
     outcome = {"status": normalize_status(text), "text": text, "source": url}

@@ -49,3 +49,24 @@ def test_council_file_outcome_is_the_latest_action():
     text = BeautifulSoup(html, "html.parser").get_text(" ")
     assert council.council_votes(text)[date(2025, 12, 12)] == "14-1-0"
     assert council.follow_url({"urls": ["a", url]}) == url
+
+
+def test_council_file_outcome_ignores_actions_before_the_meeting():
+    html = (FIXTURES / "cf-25-0843.html").read_text()
+    url = council.council_file_url("25-0843")
+    assert council.council_file_outcome(html, url, since=date(2026, 9, 22))["text"].startswith("Planning and Land Use")
+    assert council.council_file_outcome(html, url, since=date(2026, 9, 23)) is None
+
+
+def test_council_action_says_what_the_committee_recommended():
+    html = (FIXTURES / "cf-26-1130.html").read_text()  # a Charter Section 245 appeal
+    url = council.council_file_url("26-1130")
+    # Before PLUM's Sep 8 meeting, the file was decided once already (Council asserted jurisdiction).
+    assert council.council_file_outcome(html, url, since=date(2026, 9, 8)) == {
+        "status": "denied",
+        "text": "Planning and Land Use Management Committee denied appeal(s) (Sep 8, 2026); "
+        "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 11, 2026); "
+        "Council action final",
+        "source": url,
+        "vote": "11-0-4",
+    }

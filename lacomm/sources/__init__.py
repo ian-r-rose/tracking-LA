@@ -3,6 +3,7 @@ turn one meeting's agenda (raw bytes) into items. Sources that publish journals 
 minutes can also say where a meeting's record is and how to read outcomes from it."""
 
 from dataclasses import dataclass
+from datetime import date
 from functools import partial
 from typing import Callable
 
@@ -24,8 +25,8 @@ class Source:
     # (meeting, agenda bytes) -> items before filtering.
     canary_items: Callable | None = None
     # Sources whose items each have a page to follow for decisions (a Planning case in
-    # PDIS, a Council File in Clerk Connect): item -> page URL or None, (page html, URL)
-    # -> outcome or None, and how many days to keep re-checking after a decision.
+    # PDIS, a Council File in Clerk Connect): item -> page URL or None, (page html, URL,
+    # item) -> outcome or None, and how many days to keep re-checking after a decision.
     follow_url: Callable | None = None
     follow_outcome: Callable | None = None
     follow_days: int = 30
@@ -52,12 +53,15 @@ SOURCES = [
         "planning cases", planning_cases.list_meetings, planning_cases.meeting_items,
         canary_items=lambda m, feed: planning_cases.project_items(feed),
         follow_url=lambda item: item["urls"][0] if item["body"] == "planning-cases" else None,
-        follow_outcome=planning_cases.case_outcome, follow_days=30,
+        follow_outcome=lambda html, url, item: planning_cases.case_outcome(html, url), follow_days=30,
     ),
     Source(
         "council committees", council.list_meetings, council.meeting_items,
         # Matters reach full Council weeks after the committee, so keep following longer.
-        follow_url=council.follow_url, follow_outcome=council.council_file_outcome, follow_days=90,
+        # Only actions from the item's meeting on: a Council File may have been decided before.
+        follow_url=council.follow_url,
+        follow_outcome=lambda html, url, item: council.council_file_outcome(html, url, date.fromisoformat(item["meeting_date"])),
+        follow_days=90,
     ),
     Source("cultural affairs", cultural.list_meetings, cultural.meeting_items),
     Source("el pueblo", elpueblo.list_meetings, elpueblo.meeting_items),

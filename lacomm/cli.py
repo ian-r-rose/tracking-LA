@@ -113,20 +113,21 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list) -> No
                 pages.setdefault(url, (source, []))[1].append(path)
             break
 
-    def check(url):
-        source, paths = pages[url]
+    def fetch_page(url):
         try:
             resp = client.get(url)
             resp.raise_for_status()
-            return url, source.follow_outcome(resp.text, url)
+            return url, resp.text
         except httpx.HTTPError as e:
             failed.append(f"{url}: {e}")
             return url, None
 
     with ThreadPoolExecutor(CONCURRENT_DOWNLOADS) as pool:
-        for url, outcome in pool.map(check, list(pages)):
+        for url, html in pool.map(fetch_page, list(pages)):
             counts["pages followed"] += 1
-            for path in pages[url][1]:
+            source, paths = pages[url]
+            for path in paths if html else []:
+                outcome = source.follow_outcome(html, url, json.loads(path.read_text()))
                 if outcome and record(path, outcome):
                     counts["followed decisions recorded"] += 1
 
