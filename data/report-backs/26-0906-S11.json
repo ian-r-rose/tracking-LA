@@ -5,5 +5,17 @@
   "introduced": "2026-08-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0906-S11_misc_08-04-26.pdf",
   "adopted": "2026-09-16",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Building and Safety"],
+      "asks": "Current citation and fine structure with recommendations for increasing penalties for notices of violations on projects with significant community impact, with a range from $25,000 to $1,000,000 per fine.",
+      "deadline": 7
+    },
+    {
+      "departments": ["Community Investment Department"],
+      "asks": "Proposed mechanism to dedicate fees and fines collected from building violations toward financial support for those directly affected by the Lineage Warehouse fire, including recommendations for a guaranteed income component.",
+      "deadline": null
+    }
+  ]
 }

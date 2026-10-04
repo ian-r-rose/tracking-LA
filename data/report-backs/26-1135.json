@@ -5,5 +5,17 @@
   "introduced": "2026-08-14",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1135_misc_08-14-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Los Angeles Department of Transportation"],
+      "asks": "Investigate the feasibility of relocating or adding speed safety cameras as part of the Speed Safety System Pilot Program to Paseo Del Mar between Gaffey Street and Barbara Street, while continuing the pilot program and associated data collection",
+      "deadline": null
+    },
+    {
+      "departments": ["Los Angeles Department of Transportation"],
+      "asks": "Report on alternative or complementary traffic-calming treatments for Paseo Del Mar and the surrounding area, including, but not limited to, speed tables, raised crosswalks, enhanced signage and striping, and other proven speed-management measures, including recommendations regarding their feasibility, effectiveness, cost, and potential implementation timeline",
+      "deadline": null
+    }
+  ]
 }

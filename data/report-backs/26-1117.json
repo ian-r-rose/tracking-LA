@@ -5,5 +5,12 @@
   "introduced": "2026-08-12",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1117_misc_08-12-26.pdf",
   "adopted": "2026-10-02",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Los Angeles Department of Transportation"],
+      "asks": "Report with recommendations to address truck activity and idling issues in the Harbor Gateway South community, including the installation of No Idling signs and other traffic control measures that would improve safety and reduce the impacts of these large commercial vehicles in the area",
+      "deadline": null
+    }
+  ]
 }

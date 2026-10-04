@@ -5,5 +5,12 @@
   "introduced": "2026-09-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1278_misc_09-04-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Los Angeles Police Department", "Los Angeles Fire Department"],
+      "asks": "Report quarterly regarding the volume of service calls at Metro stations throughout the City to evaluate the effectiveness of the TAP-to-Exit program and progress in maintaining safe and accessible Metro stations.",
+      "deadline": null
+    }
+  ]
 }

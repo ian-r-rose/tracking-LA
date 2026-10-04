@@ -10,5 +10,17 @@
       "date": "2026-07-31",
       "from": "verbal update"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["Housing Authority of the City of Los Angeles", "City Administrative Officer", "Los Angeles Housing Department", "Chief Legislative Analyst"],
+      "asks": "Funding options to ensure Emergency Housing Voucher holders remain housed through 2030, transition of eligible EHV holders to Continuum of Care slots and project-based voucher slots, and implementation of an exit strategy for EHV holders.",
+      "deadline": 90
+    },
+    {
+      "departments": ["Housing Authority of the City of Los Angeles"],
+      "asks": "Feasibility of implementing a local subsidy program not relying on federal funding, including validated cost projections to keep EHV households stably housed through 2030, proposed funding plan, and landscape of local and state funders for permanent housing and tenant-based subsidies.",
+      "deadline": 90
+    }
   ]
 }

@@ -10,5 +10,12 @@
       "date": "2026-06-25",
       "from": "Department of City Planning"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["Department of City Planning"],
+      "asks": "Report with recommendations and proposed ordinance to establish development standards enabling the use of storage containers for equestrian equipment in K Overlay Zones, including definition, setback requirements, prohibition of stacking, and location standards.",
+      "deadline": null
+    }
   ]
 }

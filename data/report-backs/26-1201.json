@@ -5,5 +5,17 @@
   "introduced": "2026-08-25",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1201_misc_08-25-26.pdf",
   "adopted": "2026-09-22",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Bureau of Street Services", "Department of Recreation and Parks"],
+      "asks": "Report with recommendations to develop the center medians along Broadway between 93rd Street and 112th Street as green and recreational spaces with benches, workout equipment, and a walking path.",
+      "deadline": null
+    },
+    {
+      "departments": ["City Administrative Officer"],
+      "asks": "Report with recommendations to fund the green and recreational improvements in the center medians along Broadway between 93rd Street and 112th Street.",
+      "deadline": null
+    }
+  ]
 }

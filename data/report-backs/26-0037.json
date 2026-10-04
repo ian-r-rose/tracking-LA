@@ -5,6 +5,16 @@
   "introduced": "2026-01-13",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0037_misc_01-13-26.pdf",
   "adopted": "2026-03-13",
+  "requests": [
+    {
+      "departments": [
+        "Bureau of Engineering",
+        "Los Angeles Department of Transportation"
+      ],
+      "asks": "Recommendations, phasing, and funding options to expand Sepulveda Basin Pedestrian Safety and Access Improvements Project scope to include Victory Boulevard intersections without delaying core project delivery.",
+      "deadline": 90
+    }
+  ],
   "documents": [
     {
       "date": "2026-08-06",

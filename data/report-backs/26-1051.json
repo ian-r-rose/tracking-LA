@@ -5,5 +5,12 @@
   "introduced": "2026-08-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1051_misc_08-04-26.pdf",
   "adopted": "2026-08-28",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Los Angeles Department of Transportation"],
+      "asks": "Report on the feasibility, cost, and steps necessary to install parking meters on both sides of West Adams Boulevard between Buckingham Road and Hillcrest Drive",
+      "deadline": 30
+    }
+  ]
 }

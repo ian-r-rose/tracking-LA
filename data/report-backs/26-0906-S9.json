@@ -5,5 +5,12 @@
   "introduced": "2026-08-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0906-S9_misc_08-04-26.pdf",
   "adopted": "2026-08-26",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Civil and Human Rights and Equity Department"],
+      "asks": "Feasibility of establishing an Environmental Justice and Advocacy Advisory Commission to engage communities on environmental justice issues and advise the Mayor and City Council on policy recommendations, with recommendations for diverse representation and appointment process.",
+      "deadline": 90
+    }
+  ]
 }

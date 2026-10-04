@@ -10,5 +10,12 @@
       "date": "2026-08-14",
       "from": "City Administrative Officer"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["City Administrative Officer"],
+      "asks": "Establishment of a Sixth Street Viaduct Maintenance Trust Fund for the purpose of receipt, retention, and disbursement of gifts, contributions, and donations for maintenance of the viaduct, including trash and bulky item pickup, graffiti abatement, and other services.",
+      "deadline": null
+    }
   ]
 }

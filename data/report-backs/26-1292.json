@@ -5,5 +5,12 @@
   "introduced": "2026-09-09",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1292_misc_09-09-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Animal Services"],
+      "asks": "Report on how to better structure the operating hours of shelter operations to include more evening and weekend hours.",
+      "deadline": null
+    }
+  ]
 }

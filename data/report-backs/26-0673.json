@@ -5,5 +5,14 @@
   "introduced": "2026-05-05",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0673_misc_5-5-26.pdf",
   "adopted": "2026-08-19",
+  "requests": [
+    {
+      "departments": [
+        "Chief Legislative Analyst"
+      ],
+      "asks": "Impacts of Los Angeles County Department of Homeless Services and Housing becoming lead of region's Continuum of Care and Coordinated Entry System.",
+      "deadline": null
+    }
+  ],
   "documents": []
 }

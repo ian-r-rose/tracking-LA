@@ -5,6 +5,16 @@
   "introduced": "2026-02-20",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0251_misc_02-20-26.pdf",
   "adopted": "2026-03-25",
+  "requests": [
+    {
+      "departments": [
+        "Los Angeles Department of Transportation",
+        "Department of Water and Power"
+      ],
+      "asks": "Timeline of Interstate 110/Gaffey incident response including agency roles and communication protocols, availability and protocols for electronic resident notifications of road disruptions, current inventory and deployment of portable changeable message signs and traffic control devices citywide, coordination protocols with Caltrans for state freeway incidents, and recommendations to improve resource availability, interagency coordination, and communication.",
+      "deadline": 30
+    }
+  ],
   "documents": [
     {
       "date": "2026-08-04",

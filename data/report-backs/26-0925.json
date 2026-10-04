@@ -5,5 +5,12 @@
   "introduced": "2026-06-23",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0925_misc_06-23-26.pdf",
   "adopted": "2026-08-25",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Bureau of Sanitation"],
+      "asks": "Modern Organics Processing and Composting Master Plan to increase local composting capacity, with recommendations to achieve 50% local compost usage by 2030, fiscal impact analysis, strategic partnerships, and utilization of SB 1383 procurement dollars and CCG-5 program.",
+      "deadline": null
+    }
+  ]
 }

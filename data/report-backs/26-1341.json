@@ -5,5 +5,17 @@
   "introduced": "2026-09-18",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1341_misc_9-18-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["City Administrative Officer"],
+      "asks": "Report within 90 days on city fees and exactions applicable to small-scale for-sale housing and identify options to establish exemptions, reductions, credits, deferrals, proportional fee structures, or other modifications for qualifying small-scale ownership projects, with specific evaluation of fiscal impacts of recommendations.",
+      "deadline": 90
+    },
+    {
+      "departments": ["City Administrative Officer"],
+      "asks": "Evaluate potential fiscal and economic benefits of facilitating additional individually owned homes, including long-term property-tax implications of converting properties into multiple separately transferable lots or condominium units.",
+      "deadline": null
+    }
+  ]
 }

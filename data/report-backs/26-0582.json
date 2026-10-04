@@ -5,5 +5,21 @@
   "introduced": "2026-04-21",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0582_misc_4-21-26.pdf",
   "adopted": "2026-08-21",
+  "requests": [
+    {
+      "departments": [
+        "Department of Animal Services"
+      ],
+      "asks": "Feasibility of issuing a Request for Information seeking an established animal care and control contractor to operate one or more shelter facilities in manner similar to Northeast Valley Animal Care Center.",
+      "deadline": null
+    },
+    {
+      "departments": [
+        "City Administrative Officer"
+      ],
+      "asks": "Feasibility and process for reassigning staff and resources from certain City-operated shelter facilities to other City-operated facilities to improve conditions at reduced number of facilities while contractor operates others, preventing job loss.",
+      "deadline": null
+    }
+  ],
   "documents": []
 }

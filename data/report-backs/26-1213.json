@@ -5,5 +5,12 @@
   "introduced": "2026-08-26",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1213_misc_08-26-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Water and Power"],
+      "asks": "Report on the Energization Process Improvement including inspection process improvements, proactive review workflows, and internal communication plan; on multifamily and mixed use electrical requests and service data by affordable/market-rate and project status; and on staffing vacancies, turnover reduction strategies, and employee transition procedures.",
+      "deadline": null
+    }
+  ]
 }

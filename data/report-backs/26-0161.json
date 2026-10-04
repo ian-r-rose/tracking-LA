@@ -5,6 +5,15 @@
   "introduced": "2026-02-06",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0161_misc_2-6-26.pdf",
   "adopted": "2026-03-06",
+  "requests": [
+    {
+      "departments": [
+        "General Services Department"
+      ],
+      "asks": "Lease agreements of El Pueblo including rent amounts, arrears, duration of rental agreements, vacant parcels, lease marketing, City approval role, legacy arrangements, RFP processes, contracting formalities, property maintenance responsibility, GSD repair frequency per year, and average repair completion time.",
+      "deadline": null
+    }
+  ],
   "documents": [
     {
       "date": "2026-06-01",

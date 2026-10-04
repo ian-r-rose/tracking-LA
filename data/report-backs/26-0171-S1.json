@@ -5,5 +5,15 @@
   "introduced": "2026-08-28",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0171-S1_misc_08-28-26.pdf",
   "adopted": "2026-09-18",
+  "requests": [
+    {
+      "departments": [
+        "Department of City Planning",
+        "Department of Transportation"
+      ],
+      "asks": "Feasibility and legal authority to restrict ingress and egress for properties at 1502 East Lomita Boulevard, 1600 East Lomita Boulevard, and 1612 North Blinn Avenue in Wilmington to north end of site; recommendations for necessary land use approvals, code enforcement actions, property improvements, environmental review, legal authorities, and implementation timeline.",
+      "deadline": null
+    }
+  ],
   "documents": []
 }

@@ -5,5 +5,12 @@
   "introduced": "2026-08-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1050_misc_08-04-26.pdf",
   "adopted": "2026-09-15",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Bureau of Street Services", "Los Angeles Department of Transportation", "Bureau of Street Lighting", "Bureau of Engineering", "Department of Water and Power", "Department of City Planning"],
+      "asks": "Report with recommendations to modernize the City's internal Tree Spacing Guidelines",
+      "deadline": 90
+    }
+  ]
 }

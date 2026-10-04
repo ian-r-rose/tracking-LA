@@ -5,5 +5,12 @@
   "introduced": "2026-09-09",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1291_misc_09-09-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Animal Services"],
+      "asks": "Report on the security needs at each of the City's six Animal Shelter locations and the associated funding needed.",
+      "deadline": null
+    }
+  ]
 }

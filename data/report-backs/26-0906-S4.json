@@ -5,5 +5,12 @@
   "introduced": "2026-07-01",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0906-S4_misc_7-1-26.pdf",
   "adopted": "2026-08-19",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Neighborhood Empowerment"],
+      "asks": "Report with recommendations to require majority of Neighborhood Council board members to obtain and maintain CERT Program certification, including implementation options, timelines, costs, exemptions, and renewal requirements.",
+      "deadline": null
+    }
+  ]
 }

@@ -5,5 +5,12 @@
   "introduced": "2026-09-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1279_misc_9-4-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Recreation and Parks"],
+      "asks": "Report on a process that creates a citywide running club that showcases the diverse open spaces throughout the City and creates a place for individuals and diverse running clubs to come together.",
+      "deadline": null
+    }
+  ]
 }

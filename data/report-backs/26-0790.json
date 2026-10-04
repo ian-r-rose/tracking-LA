@@ -5,5 +5,12 @@
   "introduced": "2026-05-27",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0790_misc_5-27-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Water and Power"],
+      "asks": "Groundwater recharge expansion feasibility including project status, site suitability, costs, timeline, permitting, environmental risks, and funding sources for the Vulcan Materials property near San Fernando Road.",
+      "deadline": 120
+    }
+  ]
 }

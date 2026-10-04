@@ -5,5 +5,12 @@
   "introduced": "2026-08-21",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1169_misc_8-21-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Emergency Management Department"],
+      "asks": "Prepare presentation on preparations for the super El Nino predicted by NOAA, including fortifying coastal areas, emergency notifications, clearing catch-basins, stabilizing hillsides, and addressing overgrown vegetation in Fire Hazard Severity Zones.",
+      "deadline": null
+    }
+  ]
 }

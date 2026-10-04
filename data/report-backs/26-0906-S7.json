@@ -10,5 +10,17 @@
       "date": "2026-09-11",
       "from": "Bureau of Sanitation"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["Bureau of Sanitation"],
+      "asks": "Final results of water quality testing on stormwater runoff from the June 17, 2026 Lineage warehouse fire, including contaminants detected, impacts to receiving waters, and recommendations for ongoing monitoring.",
+      "deadline": null
+    },
+    {
+      "departments": ["Bureau of Sanitation"],
+      "asks": "Status of the Cleanup and Abatement Order issued by the Los Angeles Regional Water Quality Control Board, including approved remediation plan, implementation timeline, responsible agencies, and progress.",
+      "deadline": null
+    }
   ]
 }

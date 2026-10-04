@@ -5,5 +5,17 @@
   "introduced": "2026-08-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1058_misc_08-04-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Recreation and Parks"],
+      "asks": "Report on existing protocols, policies and requirements governing the use of parks and recreational facilities for private events that charge admission or other fees to members of the public",
+      "deadline": null
+    },
+    {
+      "departments": ["Department of Recreation and Parks"],
+      "asks": "Update all related protocols for private use of public spaces with an opportunity for formal public review",
+      "deadline": null
+    }
+  ]
 }

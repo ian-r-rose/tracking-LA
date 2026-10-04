@@ -5,5 +5,12 @@
   "introduced": "2026-09-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0196-S1_misc_09-04-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Chief Legislative Analyst", "City Attorney"],
+      "asks": "Policy options and code amendments to streamline nuisance abatement proceedings, including a process to issue nuisance abatement orders for property owners willing but unable to perform work, feasibility of increasing fines and penalties for non-compliance with Notice to Comply orders, and potential changes in State law to support enforcement.",
+      "deadline": null
+    }
+  ]
 }

@@ -5,5 +5,12 @@
   "introduced": "2026-09-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1280_misc_9-4-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Building and Safety"],
+      "asks": "Develop and report on a Citywide Vacant and Public Nuisance Property Abatement Program, including the number and location of priority properties, enforcement and abatement actions available, available and potential funding sources to support cleanup and demolition, mechanisms to recover costs from property owners, and recommendations for an ongoing process to proactively identify and address priority vacant and nuisance properties.",
+      "deadline": 30
+    }
+  ]
 }

@@ -5,5 +5,12 @@
   "introduced": "2026-09-09",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1293_misc_9-9-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Department of Animal Services"],
+      "asks": "Report on the condition and capital improvement needs of all properties utilized by the Department of Animal Services.",
+      "deadline": null
+    }
+  ]
 }

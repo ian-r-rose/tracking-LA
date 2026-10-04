@@ -5,5 +5,12 @@
   "introduced": "2026-08-04",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1059_misc_8-04-26.pdf",
   "adopted": "2026-08-28",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Los Angeles Department of Transportation"],
+      "asks": "Report on the feasibility, cost, and steps necessary to install roadway improvements such as a crosswalk or other safety improvements to increase pedestrian safety at West Adams Boulevard and West Boulevard",
+      "deadline": 30
+    }
+  ]
 }

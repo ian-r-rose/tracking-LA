@@ -10,5 +10,12 @@
       "date": "2026-04-17",
       "from": "City Attorney"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["City Administrative Officer"],
+      "asks": "Recommendations regarding alignment of staffing and funding to provide an adequate level of maintenance for bicycle and multi-use paths, at least equal to that provided to streets and sidewalks.",
+      "deadline": null
+    }
   ]
 }

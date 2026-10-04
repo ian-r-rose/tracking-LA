@@ -5,5 +5,12 @@
   "introduced": "2026-06-30",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0964_misc_06-30-26.pdf",
   "adopted": "2026-10-02",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Los Angeles Department of Transportation"],
+      "asks": "Traffic study of specified street segments examining traffic incident data and providing recommendations for enhancing roadway design and striping, and feasibility of full closure or one-way conversion of East 114th Street.",
+      "deadline": null
+    }
+  ]
 }

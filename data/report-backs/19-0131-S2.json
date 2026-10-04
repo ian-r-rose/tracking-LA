@@ -10,5 +10,12 @@
       "date": "2026-07-31",
       "from": "Department of Transportation"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["Department of Transportation"],
+      "asks": "Status of the BlueLA EV carsharing program, including contract status with Blink Mobility, number and condition of EV charging stations, number of BlueLA users between 2018 and 2021 by location, current transit options in neighborhoods where program was available, and opportunities for launching a new EV carsharing program.",
+      "deadline": null
+    }
   ]
 }

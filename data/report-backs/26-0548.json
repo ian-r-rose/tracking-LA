@@ -5,6 +5,22 @@
   "introduced": "2026-04-15",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0548_misc_04-15-26.pdf",
   "adopted": "2026-08-25",
+  "requests": [
+    {
+      "departments": [
+        "Los Angeles Department of Transportation"
+      ],
+      "asks": "Recommendations to regulate e-bikes, e-motos and electric mopeds including legal standards, banning non-compliant sales and conversions, educational requirements for riders under 18 or without driver's license, and storage and charging safety rules.",
+      "deadline": 90
+    },
+    {
+      "departments": [
+        "Chief Legislative Analyst"
+      ],
+      "asks": "Pending state legislation related to e-bikes, e-motos, and similar mobility devices and recommendations on draft resolutions of support for bills in interest of safety and welfare of City residents.",
+      "deadline": null
+    }
+  ],
   "documents": [
     {
       "date": "2026-09-14",

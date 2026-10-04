@@ -14,5 +14,22 @@
       "date": "2026-08-21",
       "from": "City Administrative Officer"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["City Administrative Officer"],
+      "asks": "Options identifying $6.6 million for immediate use by Bureau of Street Lighting to maintain workforce and baseline services, including feasibility of repurposing MICLA funding.",
+      "deadline": 30
+    },
+    {
+      "departments": ["Bureau of Street Lighting"],
+      "asks": "Cost analysis of Bureau's fees not currently at full recovery with recommendations for updating fees and monetizing current assets, and recommendations on interdepartmental partnerships to preserve staffing and manage the streetlight system.",
+      "deadline": 30
+    },
+    {
+      "departments": ["Bureau of Street Lighting"],
+      "asks": "Written and graphic analysis of ballot tabulation results including heat map, identification of areas supporting future assessment increases, and breakdown by assessment value, acreage, dwelling units, and parcel ownership.",
+      "deadline": 30
+    }
   ]
 }

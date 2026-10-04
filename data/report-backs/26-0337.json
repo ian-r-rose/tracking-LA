@@ -5,5 +5,14 @@
   "introduced": "2026-03-10",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0337_misc_03-10-26.pdf",
   "adopted": null,
+  "requests": [
+    {
+      "departments": [
+        "Department of Recreation and Parks"
+      ],
+      "asks": "Detailed breakdown of investment in boys' sports compared to girls' sports, number of contracted sports organizations catering to boys versus girls, and formal process for groups to apply for and secure field space including waitlist system.",
+      "deadline": null
+    }
+  ],
   "documents": []
 }

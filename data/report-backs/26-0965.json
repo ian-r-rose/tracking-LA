@@ -5,5 +5,12 @@
   "introduced": "2026-06-30",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0965_misc_06-30-26.pdf",
   "adopted": "2026-08-19",
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Los Angeles Housing Department"],
+      "asks": "Feasibility and program proposal for utilizing Handyworker Program funding to support senior citizens and low-income persons with smoke remediation including HVAC remediation and air filtration systems, with details on outreach, application guidelines, and recommended award amounts.",
+      "deadline": 30
+    }
+  ]
 }

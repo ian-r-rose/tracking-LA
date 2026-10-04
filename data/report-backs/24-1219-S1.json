@@ -14,5 +14,12 @@
       "date": "2026-08-07",
       "from": "Department of Transportation"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["Bureau of Street Services", "Department of Transportation"],
+      "asks": "Current coordination efforts between street sweeping and parking enforcement operations on posted routes, recommendations to improve interdepartmental collaboration including resources needed, potential technology or equipment to support operations, data on citations issued for street sweeping, and proposed policies to prevent parking citations in areas where street sweeping does not occur.",
+      "deadline": null
+    }
   ]
 }

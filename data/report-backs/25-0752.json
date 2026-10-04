@@ -10,5 +10,12 @@
       "date": "2026-07-10",
       "from": "Bureau of Engineering"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["Bureau of Engineering"],
+      "asks": "Update on the Capital Improvement Plan process, proposed capital projects intake process with common standards, recommendations on revised process for project selection and prioritization using objective scoring, and recommendations for revisions to Los Angeles Administrative Code Sections 5.43 and 5.44 to establish a Capital Improvement Plan process outside the annual budget process.",
+      "deadline": 90
+    }
   ]
 }

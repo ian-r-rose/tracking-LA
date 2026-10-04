@@ -14,5 +14,12 @@
       "date": "2026-08-21",
       "from": "City Administrative Officer"
     }
+  ],
+  "requests": [
+    {
+      "departments": ["City Tourism Department"],
+      "asks": "Scope of the proposed interactive kiosk program, assessment to identify the appropriate City agency to manage and administer the kiosk program, regulatory framework and spatial requirements for kiosk installation, and estimated annual revenue projections and fiscal impacts to the Sidewalk and Transit Amenities Program.",
+      "deadline": null
+    }
   ]
 }

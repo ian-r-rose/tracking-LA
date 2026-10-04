@@ -5,5 +5,14 @@
   "introduced": "2026-05-21",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-0757_misc_05-20-26.pdf",
   "adopted": "2026-08-26",
+  "requests": [
+    {
+      "departments": [
+        "City Administrative Officer"
+      ],
+      "asks": "Analysis of options to in-source, contract, or otherwise sustainably fund functions of City Plants including recommendations for efficient and streamlined structure to support City's urban forest goals.",
+      "deadline": null
+    }
+  ],
   "documents": []
 }

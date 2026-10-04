@@ -5,5 +5,17 @@
   "introduced": "2026-08-05",
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1072_misc_08-05-26.pdf",
   "adopted": null,
-  "documents": []
+  "documents": [],
+  "requests": [
+    {
+      "departments": ["Office of Finance"],
+      "asks": "Report to identify non-profit organizations that would have fallen under the proposed amendment",
+      "deadline": 90
+    },
+    {
+      "departments": ["Office of Finance"],
+      "asks": "Provide the feasibility of retroactively extending the exemptions and refunding those collections to the appropriate non-profit entity",
+      "deadline": null
+    }
+  ]
 }
