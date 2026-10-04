@@ -9,6 +9,7 @@ import json
 import subprocess
 from pathlib import Path
 
+from tracking_la import reportbacks
 from tracking_la.store import DATA, SOURCE_FIELDS
 
 OUTCOME_STATUSES = {"approved", "denied", "continued", "withdrawn", "filed", "other"}
@@ -56,11 +57,22 @@ def check_item(path: Path) -> list[str]:
     return problems
 
 
+def check_report_back(path: Path) -> list[str]:
+    problems = reportbacks.check_record(path)
+    if not problems and (committed := committed_version(path)):
+        record = json.loads(path.read_text())
+        if changed := [k for k in reportbacks.FETCHED_FIELDS if record.get(k) != committed.get(k)]:
+            problems.append(f"fetched fields were modified: {changed}")
+    return problems
+
+
 def check_all(root: Path = DATA) -> int:
-    """Print problems for every item file; return the number of bad files."""
+    """Print problems for every item and report-back file; return the number of bad files."""
     bad = 0
-    for path in sorted((root / "items").rglob("*.json")):
-        if problems := check_item(path):
+    paths = [(p, check_item) for p in sorted((root / "items").rglob("*.json"))]
+    paths += [(p, check_report_back) for p in sorted((root / "report-backs").glob("*.json"))]
+    for path, check in paths:
+        if problems := check(path):
             bad += 1
             print(f"{path.relative_to(root.parent)}:")
             for problem in problems:

@@ -25,6 +25,23 @@ Find item files under `data/items/` that have no `summary` field. Split them int
 
 Then run `uv run tracking-la check`. It must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent).
 
+### Report backs
+
+Find files under `data/report-backs/` that have a non-empty `motion` field and no `requests` field. Split them into batches of about 20 and give each batch to a subagent running `haiku`, with these instructions:
+
+> Each JSON file listed holds the operative part of a City Council motion (`motion`). Add a `requests` field listing every instruction in it for a City department, office or agency to report back to Council: to study, analyze, assess or look into something and report, present or provide recommendations. Leave every existing field unchanged and keep the file valid JSON (2-space indent).
+>
+> Each request is an object:
+> - `departments`: the department(s) asked to report, lead first, named as the City names them in full ("Department of Transportation", "Bureau of Sanitation", "Bureau of Engineering", "Bureau of Street Services", "Bureau of Street Lighting", "Department of City Planning", "Department of Recreation and Parks", "Los Angeles Housing Department", "Department of Building and Safety", "Department of Water and Power", "City Administrative Officer", "Chief Legislative Analyst", "City Attorney", "Fire Department", "Police Department", "General Services Department", ...). Leave out departments only "assisting" or "in coordination with".
+> - `asks`: one plain sentence on what they're asked to report on, for a resident skimming a table, e.g. "Options to fund street lights in areas with outages from copper wire theft."
+> - `deadline`: the number of days if the motion gives one ("within 30 days" → 30), a date as "YYYY-MM-DD" if it gives a date, otherwise null.
+>
+> Several instructions to the same department(s) with the same deadline can be one request. Requests to prepare or present an ordinance, resolution or contract aren't report backs; leave them out, as well as instructions to take an action (install signs, transfer funds, rename a park). If the motion asks for no report back, write `"requests": []`. If `motion` is unreadable (a bad scan), write `"requests": []` and `"unreadable": true`.
+>
+> Don't make up information. Use only what the motion says. Don't run any git commands, and don't edit any file other than the files listed.
+
+Run `uv run tracking-la check` again afterwards.
+
 ## 3. Locate
 
 ```
@@ -47,7 +64,7 @@ For each item you include, add a `flag` field to its JSON file: `{"reason": "<on
 
 If reviewing shows an extraction field is wrong (a misspelled street that won't geocode, a missing `parks` tag that a staff report makes obvious, a misleading summary), correct it in the item file, then rerun `uv run tracking-la locate` if you changed `locations`. Say what you corrected and why in the commit message; git history is the record. Don't change scraper-owned fields (`tracking-la check` rejects that).
 
-Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by body (commission, board or other source): agenda items (from `score`) and decisions on earlier items (from `uv run tracking-la decisions`).
+Write `data/digests/YYYY-MM-DD.md` (today's date). It has two kinds of entries, grouped together by body (commission, board or other source): agenda items (from `score`) and decisions on earlier items (from `uv run tracking-la decisions`). Then a **Report backs** section from `uv run tracking-la report-backs`: each report back that came in, with what was asked, who filed it, and how late it was if there was a deadline ("filed 98 days after its 30-day deadline"). Open the Council File to check the document is the requested report; leave out ones that aren't, and say so in your final summary. Close the section with a link to the [table of report backs](https://ian-r-rose.github.io/tracking-LA/report-backs.html) and the pending count (and how many are overdue). Leave the section out if nothing came in.
 
 ```markdown
 # Commissions digest — <Month D, YYYY>
@@ -73,7 +90,7 @@ Rules:
 - Say where an item is in plain words ("in Echo Park"). Don't recite the selection rules in the digest ("Echo Park is a watched neighborhood", "A public park is involved"); the reader knows why items are there. Before calling a place inside, outside or next to the watched neighborhoods, in a bullet or a `flag` reason, check the list in `config/interests.yaml`.
 - Keep the whole digest skimmable in two minutes.
 
-Then mark everything you reviewed as covered and check the files:
+Then mark everything you reviewed (items, decisions and report backs) as covered and check the files:
 
 ```
 uv run tracking-la mark-digested YYYY-MM-DD

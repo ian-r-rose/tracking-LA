@@ -102,6 +102,8 @@ Not commissions, but where Council matters are worked out before a Council vote.
 | Energy and Environment | Urban forest and street trees, climate, DWP, sanitation and waste | ✓ agendas + decisions |
 | Other committees, and full Council | | — |
 
+Motions on these committees' Council Files often instruct a department to report back, sometimes within a deadline. Those requests, and whether the report has been filed, are in the [report backs table](report-backs.html).
+
 ## Not City commissions, but the City appoints members
 
 These are regional or joint agencies with their own governing boards. Metro is watched because it decides most transit and highway projects in the City; the others are out of scope for now.

@@ -14,6 +14,7 @@ import yaml
 from tracking_la import http_client
 from tracking_la import canary
 from tracking_la import digested as digested_csv
+from tracking_la import reportbacks
 from tracking_la.check import check_all
 from tracking_la.outcomes import PROCESSED, normalize_status, record
 from tracking_la.geo import Geocoder, Neighborhoods, Places, build_places
@@ -163,6 +164,7 @@ def outcomes(since_days: int) -> None:
             except httpx.HTTPError as e:
                 failed.append(f"{source.name}: {e}")
         followed_outcomes(client, counts, failed)
+        reportbacks.update(client, counts, failed)
     PROCESSED.write_text(json.dumps(processed, indent=1, sort_keys=True) + "\n")
     print(", ".join(f"{k}: {v}" for k, v in counts.items()) or "no new journals or minutes")
     for failure in failed:
@@ -231,9 +233,30 @@ def score(limit: int | None, digest_date: str) -> None:
     print(f"{len(ranked)} item(s) for the {digest_date} digest (not yet in a digest, or already in this one)")
 
 
+def report_backs(digest_date: str) -> None:
+    """Report backs that came in and aren't in a digest yet (or are in the `digest_date` one),
+    then how many are still pending."""
+    digested = digested_csv.load()
+    found = [
+        (rid, r, q, doc) for rid, r, q, doc in reportbacks.landed()
+        if digested.get((rid, doc["date"]), digest_date) == digest_date
+    ]
+    for rid, r, q, doc in sorted(found, key=lambda f: f[3]["date"], reverse=True):
+        when = reportbacks.due(r, q)
+        late = f"{(date.fromisoformat(doc['date']) - when).days:+d} days vs due {when}" if when else "no deadline"
+        print(f"{doc['date']}  {r['council_file']:12} {doc['from']} ({late}); adopted {r['adopted']}")
+        print(f"     asked {', '.join(q['departments'])}: {q['asks']}")
+        print(f"     {reportbacks.council.council_file_url(r['council_file'])}")
+    pending = [(r, q) for r, q, doc in reportbacks.table(date.fromisoformat(digest_date)) if not doc]
+    overdue = [rq for rq in pending if (d := reportbacks.due(*rq)) and d < date.fromisoformat(digest_date)]
+    unreviewed = sum(1 for r in reportbacks.records() if r.get("motion") and r.get("requests") is None)
+    print(f"{len(found)} report back(s) came in; {len(pending)} pending ({len(overdue)} overdue)"
+          + (f"; {unreviewed} motion(s) not yet reviewed" if unreviewed else ""))
+
+
 def mark_digested(digest_date: str) -> None:
-    """Record in data/digested.csv that every extracted item and decision not yet in a
-    digest was covered by this one."""
+    """Record in data/digested.csv that every extracted item, decision and report back not
+    yet in a digest was covered by this one."""
     digested = digested_csv.load()
     rows = []
     for path in sorted((DATA / "items").rglob("*.json")):
@@ -242,9 +265,11 @@ def mark_digested(digest_date: str) -> None:
             rows.append((digest_date, item["id"], ""))
         if (o := item.get("outcome")) and (item["id"], o["recorded"]) not in digested:
             rows.append((digest_date, item["id"], o["recorded"]))
-    digested_csv.append(rows)
+    report_backs = [(digest_date, rid, doc["date"]) for rid, _, _, doc in reportbacks.landed() if (rid, doc["date"]) not in digested]
+    digested_csv.append(rows + report_backs)
     items = sum(1 for r in rows if not r[2])
-    print(f"marked {items} item(s) and {len(rows) - items} outcome(s) as covered by the {digest_date} digest")
+    print(f"marked {items} item(s), {len(rows) - items} outcome(s) and {len(report_backs)} report back(s)"
+          f" as covered by the {digest_date} digest")
 
 
 def main() -> None:
@@ -265,6 +290,8 @@ def main() -> None:
     p = sub.add_parser("score", help="Rank items not yet in a digest")
     p.add_argument("--limit", type=int, help="Show only the top N (default: all)")
     p.add_argument("--date", default=la_today(), help="Digest date; items already in it are listed too (default: today in LA)")
+    p = sub.add_parser("report-backs", help="List report backs that came in and aren't in a digest yet")
+    p.add_argument("--date", default=la_today(), help="Digest date; report backs already in it are listed too (default: today in LA)")
     p = sub.add_parser("mark-digested", help="Record that all undigested items were covered by a digest")
     p.add_argument("date", help="Digest date, YYYY-MM-DD")
     p = sub.add_parser("site", help="Build the static site")
@@ -285,6 +312,8 @@ def main() -> None:
         outcomes(args.since)
     elif args.command == "decisions":
         decisions(args.date)
+    elif args.command == "report-backs":
+        report_backs(args.date)
     elif args.command == "site":
         print(f"built {args.out}/ with {build_site(Path(args.out))} digest(s)")
     elif args.command == "canary":
