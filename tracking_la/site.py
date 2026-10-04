@@ -38,6 +38,8 @@ h3 { font-size: 1.05rem; margin: 1.25rem 0 .25rem; }
 li { margin: .4rem 0; }
 table { border-collapse: collapse; width: 100%; font-size: .9rem; display: block; overflow-x: auto; }
 th, td { text-align: left; vertical-align: top; padding: .35rem .5rem; border-bottom: 1px solid var(--line); }
+main.wide { max-width: 76rem; }
+.asks { min-width: 22rem; }
 .status { white-space: nowrap; font-variant-numeric: tabular-nums; }
 .archive { list-style: none; padding: 0; }
 .archive li { display: flex; gap: 1rem; }
@@ -46,7 +48,7 @@ footer { color: var(--muted); font-size: .85rem; padding-top: 2rem; padding-bott
 """
 
 
-def page(title: str, body: str, prefix: str = "") -> str:
+def page(title: str, body: str, prefix: str = "", wide: bool = False) -> str:
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -62,7 +64,7 @@ def page(title: str, body: str, prefix: str = "") -> str:
 <a href="{prefix}commissions.html">Sources</a>
 <a href="{prefix}report-backs.html">Report backs</a>
 </header>
-<main>
+<main{' class="wide"' if wide else ""}>
 {body}
 </main>
 <footer>Agendas, minutes and journals from LA City and Metro websites, summarized with Claude.
@@ -106,7 +108,7 @@ def build(out: Path) -> int:
         index = "<h1>No digests yet</h1>"
     (out / "index.html").write_text(page(TITLE, index))
 
-    (out / "report-backs.html").write_text(page(f"Report backs · {TITLE}", report_backs_page()))
+    (out / "report-backs.html").write_text(page(f"Report backs · {TITLE}", report_backs_page(), wide=True))
 
     guide = (ROOT / "docs" / "commissions.md").read_text()
     (out / "commissions.html").write_text(page(f"Sources · {TITLE}", render(guide)))
@@ -129,15 +131,15 @@ def report_backs_page(today: date | None = None) -> str:
         link = reportbacks.council.council_file_url(record["council_file"])
         rows.append(
             "<tr>"
-            f'<td class="status">{event} {when:%b %-d, %Y}</td>'
             f'<td><a href="{html.escape(link)}">{html.escape(record["council_file"])}</a></td>'
             f"<td>{html.escape(', '.join(request['departments']))}</td>"
-            f"<td>{html.escape(request['asks'])}"
+            f'<td class="asks">{html.escape(request["asks"])}'
             + (f' · <a href="{html.escape(doc["url"])}">report</a>' if doc and doc["url"] else "")
             + "</td>"
             f"<td>{record['adopted']}</td>"
             f"<td>{due or 'none'}</td>"
             f'<td class="status">{html.escape(status)}</td>'
+            f'<td class="status">{event} {when:%b %-d, %Y}</td>'
             "</tr>"
         )
     intro = (
@@ -148,5 +150,8 @@ def report_backs_page(today: date | None = None) -> str:
     )
     if not rows:
         return intro + "\n<p>None right now.</p>"
-    head = "<tr><th>Latest</th><th>Council File</th><th>Asked of</th><th>Asked for</th><th>Adopted</th><th>Due</th><th>Status</th></tr>"
+    head = (
+        '<tr><th>Council File</th><th>Asked of</th><th class="asks">Asked for</th><th>Adopted</th><th>Due</th>'
+        "<th>Status</th><th>Latest</th></tr>"
+    )
     return intro + f"\n<table>\n{head}\n" + "\n".join(rows) + "\n</table>"
