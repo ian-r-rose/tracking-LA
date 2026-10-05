@@ -10,6 +10,17 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0999",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d2ed547-3eed-4968-9c8b-68c76de87b3a"
   ],
+  "summary": "City Council approves personal services agreements for the Bureau of Sanitation to provide landscaping and site services including tree trimming and irrigation maintenance.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0999",
+    "bureau": "Bureau of Sanitation",
+    "action": "contract award"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Aug 18, 2026); Council adopted item forthwith (Sep 8, 2026); Council action final",

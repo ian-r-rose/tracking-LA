@@ -10,10 +10,23 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0742",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=12f0de34-b01d-41e6-9f21-facf0ca5e439"
   ],
+  "summary": "Motion to amend the Low Impact Development Ordinance so projects of 500 to 2,499 square feet can be released from earlier stormwater compliance requirements.",
+  "topics": [
+    "environment",
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0742",
+    "action": "amend ordinance"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Oct 1, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0742",
     "recorded": "2026-10-04"
+  },
+  "flag": {
+    "reason": "Changes stormwater rules for small projects citywide; Palms Neighborhood Council opposed it unless amended."
   }
 }

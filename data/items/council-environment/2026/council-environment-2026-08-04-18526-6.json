@@ -10,6 +10,20 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0790",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d195561f-3906-4f35-92a3-2fa66a8313e0"
   ],
+  "summary": "City Council requests analysis of opportunities to expand groundwater recharge capacity in the San Fernando Valley.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "San Fernando Valley"
+    }
+  ],
+  "details": {
+    "council_file": "26-0790",
+    "council_district": 6,
+    "action": "analysis request"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Aug 4, 2026)",

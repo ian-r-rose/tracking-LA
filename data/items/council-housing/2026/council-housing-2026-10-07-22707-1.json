@@ -3,7 +3,7 @@
   "body": "council-housing",
   "meeting_date": "2026-10-07",
   "item_number": "1",
-  "title": "Motion (Yaroslavsky, Nazarian - Harris-Dawson) relative to establishing a fee deferral program that allows developers to pay impact fees at a later date\u2026",
+  "title": "Motion (Yaroslavsky, Nazarian - Harris-Dawson) relative to establishing a fee deferral program that allows developers to pay impact fees at a later date…",
   "text": "[Council File 26-1341]\nMotion (Yaroslavsky, Nazarian - Harris-Dawson) relative to establishing a fee deferral program that allows developers to pay impact fees at a later date instead of requiring upfront payment at building permit issuance.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91424",
@@ -19,5 +19,8 @@
   "details": {
     "council_file": "26-1341",
     "action": "establishing a fee deferral program that allows de"
+  },
+  "flag": {
+    "reason": "Citywide change letting developers defer impact fees until after building permits."
   }
 }

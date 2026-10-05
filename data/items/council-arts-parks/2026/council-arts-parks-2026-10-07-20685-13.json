@@ -30,5 +30,8 @@
   ],
   "details": {
     "council_file": "26-1120"
+  },
+  "flag": {
+    "reason": "The street segment is in Downtown, one of the watched neighborhoods."
   }
 }

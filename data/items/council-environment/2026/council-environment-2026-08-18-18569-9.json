@@ -11,6 +11,19 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9df4f5ac-dc96-4b9b-9d0e-e9336ca18675",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b485d7e-d538-44c6-82e8-dd431855795e"
   ],
+  "summary": "Council approved prioritizing service requests in Boyle Heights for bulky item pickup, street sweeping, power washing, and dead animal removal.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Boyle Heights, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-0906-S14",
+    "council_district": 14
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Aug 18, 2026); Council adopted item as amended by Amending Motion 19A (Jurado - Hernandez), subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",

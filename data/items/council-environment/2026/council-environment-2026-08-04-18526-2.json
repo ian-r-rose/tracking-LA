@@ -14,6 +14,22 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ef821f03-57c8-467a-9985-9a4046606b48",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=413752df-3783-41d8-b7db-b7621b2792fd"
   ],
+  "summary": "City Council approves lease amendment for DWP Customer Service Center at 9154 Sepulveda Boulevard in North Hills.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "9154 Sepulveda Boulevard, Los Angeles, CA",
+      "lat": 33.953577,
+      "lon": -118.396077,
+      "neighborhood": "Westchester"
+    }
+  ],
+  "details": {
+    "council_file": "26-1008",
+    "action": "lease amendment"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Aug 4, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 12, 2026); Council action final",

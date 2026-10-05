@@ -10,6 +10,15 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1039-S4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=46ffcad1-3b4b-411c-90a1-ef57c2b9936f"
   ],
+  "summary": "City Council reviews Year-1 report on existing municipal building decarbonization efforts.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "21-1039-S4"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Aug 18, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 2, 2026); Council action final",

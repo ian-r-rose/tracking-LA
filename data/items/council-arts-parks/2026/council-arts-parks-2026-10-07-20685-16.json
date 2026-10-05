@@ -22,5 +22,8 @@
   "details": {
     "council_file": "24-1255",
     "council_district": 6
+  },
+  "flag": {
+    "reason": "Sunrise-to-sunset hours for a park, which could be a model for other parks."
   }
 }

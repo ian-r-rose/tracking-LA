@@ -10,6 +10,16 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0757",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6977edb4-500f-4239-b4fa-f7695f02f50d"
   ],
+  "summary": "City Council requests analysis of funding options for the functions currently performed by City Plants.",
+  "topics": [
+    "budget",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0757",
+    "action": "analysis request"
+  },
   "outcome": {
     "status": "approved",
     "text": "Council adopted Motion (Blumenfield - Yaroslavsky) to move the Budget and Finance Committee Report, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council adopted Motion (Blumenfield - Yaroslavsky) to move the Budget and Finance Committee Report, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",

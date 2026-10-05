@@ -12,6 +12,15 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d85e2135-7154-40e4-bfbf-80608747c094",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb93e3f4-21a1-4615-bacf-917f326b2e69"
   ],
+  "summary": "Bureau of Sanitation reported on the status of the Fats, Oil and Grease Program.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0380",
+    "bureau": "Bureau of Sanitation"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved as amended (Oct 1, 2026)",

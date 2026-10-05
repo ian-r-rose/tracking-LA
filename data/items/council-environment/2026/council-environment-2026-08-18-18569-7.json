@@ -10,6 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S7",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=071b5f59-3168-40de-9a9e-de2cbc28b61a"
   ],
+  "summary": "Council will address water quality testing results from stormwater runoff associated with a warehouse fire in Boyle Heights and review the status of cleanup efforts.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0906-S7"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Aug 18, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026); Council action final",

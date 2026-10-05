@@ -10,6 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S9",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=14e1ccb9-92b0-4504-aa1b-b4245f31675b"
   ],
+  "summary": "Council established an Environmental Justice and Advocacy Advisory Commission.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0906-S9"
+  },
   "outcome": {
     "status": "approved",
     "text": "Civil Rights, Equity, Immigration, Aging, and Disability Committee approved item(s) (Aug 21, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 26, 2026)",

@@ -14,6 +14,15 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d968bf2-4956-49b0-916c-2743989098e0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5747bba2-5b02-4fa7-8e7e-a5d0eac8ff76"
   ],
+  "summary": "Council authorized the Board of Water and Power Commissioners to award a contract for design and construction services related to the John Ferraro Building Renovation and Modernization Project.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0868",
+    "action": "contract award"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Oct 1, 2026)",

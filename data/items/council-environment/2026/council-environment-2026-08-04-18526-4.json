@@ -14,6 +14,20 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c31ea05-5c8a-490f-b833-a5697671a629",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b73ecc6d-bed2-4c43-be36-6a84b1c5db12"
   ],
+  "summary": "City Council approves Memorandum of Agreement between DWP and Bureau of Sanitation for cost-sharing of planning activities for the Hyperion Water Reclamation Plant Program Implementation Plan.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Hyperion Water Reclamation Plant"
+    }
+  ],
+  "details": {
+    "council_file": "21-1188-S15",
+    "bureau": "Bureau of Sanitation"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Aug 4, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 21, 2026); Council action final",

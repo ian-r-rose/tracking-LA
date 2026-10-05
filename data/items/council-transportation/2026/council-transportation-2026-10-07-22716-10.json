@@ -19,5 +19,8 @@
   "details": {
     "council_file": "25-0661",
     "action": "amend municipal code"
+  },
+  "flag": {
+    "reason": "Sets fines for parking near crosswalks, citywide."
   }
 }

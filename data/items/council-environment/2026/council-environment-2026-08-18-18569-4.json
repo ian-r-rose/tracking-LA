@@ -11,6 +11,16 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=306504ba-3f75-4f97-96bb-300d3c194abf",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=caff92d1-e1a3-4d61-bdf0-a8892ebdf4b8"
   ],
+  "summary": "City Council approves third amendment to BlueLA Carsharing Service agreement to complete transfer of EV charging infrastructure.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "19-0131-S3",
+    "action": "contract amendment"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) Energy and Environment Committee concurred with the Transportation Committee action of August 12, 2026 to approve this item (Aug 18, 2026); Council adopted item forthwith (Aug 21, 2026); Council action final",

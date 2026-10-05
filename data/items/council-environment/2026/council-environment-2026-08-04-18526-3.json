@@ -14,6 +14,16 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3157a24c-b9e0-4875-934d-8d238b8432ba",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b3c7f046-1a0f-4a56-a020-8bf207795d3d"
   ],
+  "summary": "City Council approves alternative project delivery contract criteria for the John Ferraro Building Renovation and Modernization Project.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0868",
+    "action": "contract approval"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Oct 1, 2026)",

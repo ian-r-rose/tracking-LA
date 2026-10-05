@@ -1337,6 +1337,12 @@
   "lon": -118.35825,
   "score": 100
  },
+ "9154 Sepulveda Boulevard": {
+  "address": "9154 S SEPULVEDA BLVD, 90045",
+  "lat": 33.953577,
+  "lon": -118.396077,
+  "score": 99.06
+ },
  "9236 North Burnet Avenue": {
   "address": "9236 N BURNET AVE, 91343",
   "lat": 34.238228,
@@ -1443,6 +1449,7 @@
   "score": 98.18
  },
  "Franklin Fields": null,
+ "Granada Hills": null,
  "Griffith Park": null,
  "Griffith Park Golf Complex": null,
  "Hansen Dam Horse Park": null,
@@ -1529,10 +1536,12 @@
  "Poinsettia Park": null,
  "Pomona-Downtown Metrolink Station": null,
  "Port of Los Angeles": null,
+ "Porter Ranch": null,
  "Rampart Community Police Station": null,
  "Rancho Park Golf Course": null,
  "SYLMAR FIRE STATION No. 31": null,
  "San Bernardino Line, Los Angeles County": null,
+ "San Fernando Valley": null,
  "Santa Barbara": null,
  "Sepulveda Basin": null,
  "Sepulveda House": null,

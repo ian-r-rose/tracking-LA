@@ -10,6 +10,15 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0925",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=077a6ca6-1691-48a0-a578-d058558cf3e7"
   ],
+  "summary": "City Council requests creation of a Modern Organics Processing and Composting Master Plan.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0925",
+    "action": "master plan development"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Aug 4, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 25, 2026); Council action final",

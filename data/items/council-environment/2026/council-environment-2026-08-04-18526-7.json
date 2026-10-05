@@ -10,6 +10,16 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0877",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a96b2b1a-e010-4dba-b5af-2302441d1e7d"
   ],
+  "summary": "City Council requests development of trash policies and procedures for accessory dwelling units.",
+  "topics": [
+    "housing",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0877",
+    "action": "policy development"
+  },
   "outcome": {
     "status": "continued",
     "text": "Energy and Environment Committee continued item to a date to be determined (Aug 4, 2026)",

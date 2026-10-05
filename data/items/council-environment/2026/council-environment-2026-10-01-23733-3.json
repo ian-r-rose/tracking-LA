@@ -14,6 +14,15 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c636b1b2-e465-4b76-ae8e-5771accab501",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a29c086b-3b56-4271-8d23-c1e3d7dba819"
   ],
+  "summary": "Bureau of Sanitation reported on maintaining the current Low Impact Development Ordinance.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "22-0600-S54",
+    "bureau": "Bureau of Sanitation"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Oct 1, 2026)",

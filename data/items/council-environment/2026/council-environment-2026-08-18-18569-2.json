@@ -13,6 +13,24 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b28d9dc-1eca-4517-8adc-fb9078fcf0b9",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6cd7733f-5d3c-434b-8612-39e5fe9928a2"
   ],
+  "summary": "City Council reviews DWP's response to the After-Action Report on the August 5, 2025 water service disruption in Granada Hills and Porter Ranch.",
+  "topics": [
+    "environment",
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "Granada Hills"
+    },
+    {
+      "text": "Porter Ranch"
+    }
+  ],
+  "details": {
+    "council_file": "25-0922",
+    "council_district": 12,
+    "action": "after-action review"
+  },
   "outcome": {
     "status": "filed",
     "text": "Energy and Environment Committee noted and filed item(s) (Aug 18, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 4, 2026); Council action final",

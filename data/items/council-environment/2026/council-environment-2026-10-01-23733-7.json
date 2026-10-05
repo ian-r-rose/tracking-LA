@@ -10,6 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906-S16",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=12352526-2b89-4b0d-816c-7e50e7807ecd"
   ],
+  "summary": "Council directed the city to establish a process for overseeing and approving installation of solar energy systems on large commercial or industrial buildings.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0906-S16"
+  },
   "outcome": {
     "status": "approved",
     "text": "Energy and Environment Committee approved item(s) (Oct 1, 2026)",
