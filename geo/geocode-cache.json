@@ -79,6 +79,12 @@
  },
  "11100 W CHALON ROAD": null,
  "11100 W Chalon Road": null,
+ "11245 N PORTER RANCH DR": {
+  "address": "11245 N PORTER RANCH DR, 91311",
+  "lat": 34.273056,
+  "lon": -118.569676,
+  "score": 100
+ },
  "1150 W SUNSET BLVD": {
   "address": "1150 W SUNSET BLVD, 90012",
   "lat": 34.066794,
@@ -300,6 +306,12 @@
   "address": "1749 S ENSLEY AVE, 90024",
   "lat": 34.060371,
   "lon": -118.420853,
+  "score": 100
+ },
+ "17917 W CHASE ST": {
+  "address": "17917 W CHASE ST, 91325",
+  "lat": 34.224675,
+  "lon": -118.523566,
   "score": 100
  },
  "18009 West Sherman Way": {
