@@ -23,8 +23,9 @@
   },
   "outcome": {
     "status": "approved",
-    "text": "Planning and Land Use Management Committee approved as amended (Sep 22, 2026)",
+    "text": "Planning and Land Use Management Committee approved as amended (Sep 22, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 6, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0096",
-    "recorded": "2026-10-04"
+    "vote": "12-0-3",
+    "recorded": "2026-10-07"
   }
 }

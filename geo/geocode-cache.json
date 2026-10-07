@@ -47,6 +47,12 @@
   "lon": -118.420672,
   "score": 100
  },
+ "10336 N DE SOTO AVE": {
+  "address": "10336 N DE SOTO AVE, 91311",
+  "lat": 34.257945,
+  "lon": -118.58852,
+  "score": 100
+ },
  "10440 W QUITO LANE": {
   "address": "10440 W QUITO LANE, 90077",
   "lat": 34.106075,
@@ -57,6 +63,12 @@
   "address": "1052 W 60TH ST, 90044",
   "lat": 33.985803,
   "lon": -118.292647,
+  "score": 100
+ },
+ "1053 N MARINE AVE": {
+  "address": "1053 N MARINE AVE, 90744",
+  "lat": 33.783799,
+  "lon": -118.264105,
   "score": 100
  },
  "10535 Missouri Avenue": {
@@ -97,6 +109,12 @@
   "lon": -118.249812,
   "score": 100
  },
+ "1155 N HELIOTROPE DR": {
+  "address": "1155 N HELIOTROPE DR, 90029",
+  "lat": 34.092269,
+  "lon": -118.295045,
+  "score": 100
+ },
  "1160 N LAS PALMAS AVE": {
   "address": "1160 N LAS PALMAS AVE, 90038",
   "lat": 34.09185,
@@ -107,6 +125,12 @@
   "address": "1160 N LAS PALMAS AVE, 90038",
   "lat": 34.09185,
   "lon": -118.336248,
+  "score": 100
+ },
+ "1165 N HELIOTROPE DR": {
+  "address": "1165 N HELIOTROPE DR, 90029",
+  "lat": 34.09252,
+  "lon": -118.295046,
   "score": 100
  },
  "11677 W SAN VICENTE BLVD": {
@@ -248,6 +272,12 @@
   "lon": -118.245886,
   "score": 100
  },
+ "15027 W VENTURA BLVD": {
+  "address": "15027 W VENTURA BLVD, 91403",
+  "lat": 34.152945,
+  "lon": -118.460519,
+  "score": 100
+ },
  "15430 Septo Street": {
   "address": "15430 W SEPTO ST, 91345",
   "lat": 34.250909,
@@ -289,6 +319,12 @@
   "lat": 34.197603,
   "lon": -118.49138,
   "score": 99.06
+ },
+ "1702 W SUNSET BLVD": {
+  "address": "1702 W SUNSET BLVD, 90026",
+  "lat": 34.077203,
+  "lon": -118.25853,
+  "score": 100
  },
  "1702 West Exposition Boulevard": {
   "address": "1702 W EXPOSITION BLVD (S/R), 90018",
@@ -451,6 +487,12 @@
   "address": "2125 N PARKSIDE AVE, 90031",
   "lat": 34.069608,
   "lon": -118.200147,
+  "score": 100
+ },
+ "21326 W VENTURA BLVD": {
+  "address": "21326 W VENTURA BLVD, 91364",
+  "lat": 34.167517,
+  "lon": -118.596137,
   "score": 100
  },
  "2141 S GLYNDON AVE": {
@@ -705,6 +747,12 @@
   "lon": -118.352608,
   "score": 100
  },
+ "3179 W LOS FELIZ BLVD": {
+  "address": "3179 W LOS FELIZ BLVD, 90039",
+  "lat": 34.123803,
+  "lon": -118.268077,
+  "score": 100
+ },
  "3190 South La Cienega Boulevard": {
   "address": "3190 S LA CIENEGA BLVD, 90016",
   "lat": 34.028707,
@@ -733,6 +781,12 @@
   "address": "3278 W WILSHIRE BLVD, 90010",
   "lat": 34.061718,
   "lon": -118.293622,
+  "score": 100
+ },
+ "3315 E ISABEL DR": {
+  "address": "3315 E ISABEL DR, 90065",
+  "lat": 34.104034,
+  "lon": -118.230192,
   "score": 100
  },
  "3352 North Barham Boulevard": {
@@ -988,6 +1042,12 @@
   "lon": -118.302415,
   "score": 100
  },
+ "520 W 120TH ST": {
+  "address": "520 W 120TH ST, 90044",
+  "lat": 33.923649,
+  "lon": -118.283419,
+  "score": 100
+ },
  "521 S BIXEL ST": {
   "address": "521 S BIXEL ST, 90017",
   "lat": 34.054727,
@@ -1108,6 +1168,12 @@
   "lon": -118.320546,
   "score": 100
  },
+ "6230 W SUNSET BLVD": {
+  "address": "6230 W SUNSET BLVD, 90028",
+  "lat": 34.097945,
+  "lon": -118.324818,
+  "score": 100
+ },
  "6419 West Selma Ave": {
   "address": "6419 W SELMA AVE, 90028",
   "lat": 34.099845,
@@ -1154,6 +1220,12 @@
   "address": "700 W 7TH ST, 90731",
   "lat": 33.737937,
   "lon": -118.29241,
+  "score": 100
+ },
+ "7075 W FOOTHILL BLVD": {
+  "address": "7075 W FOOTHILL BLVD, 91042",
+  "lat": 34.24806,
+  "lon": -118.28538,
   "score": 100
  },
  "7100 South Vermont": {
@@ -1300,6 +1372,12 @@
   "lat": 34.111299,
   "lon": -118.217821,
   "score": 92.78
+ },
+ "8400 S VERMONT AVE": {
+  "address": "8400 S VERMONT AVE, 90044",
+  "lat": 33.962378,
+  "lon": -118.291402,
+  "score": 100
  },
  "846 E SUPERBA AVE": {
   "address": "846 E SUPERBA AVE, 90291",

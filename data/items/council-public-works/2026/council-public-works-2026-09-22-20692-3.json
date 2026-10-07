@@ -24,8 +24,9 @@
   },
   "outcome": {
     "status": "approved",
-    "text": "Public Works Committee approved item(s) (Sep 22, 2026)",
+    "text": "Public Works Committee approved item(s) (Sep 22, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 6, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0041",
-    "recorded": "2026-10-04"
+    "vote": "12-0-3",
+    "recorded": "2026-10-07"
   }
 }
