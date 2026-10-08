@@ -21,5 +21,11 @@
     "council_file": "24-0472",
     "council_district": 10,
     "action": "establish preferential parking district"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved item(s) (Oct 7, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0472",
+    "recorded": "2026-10-08"
   }
 }

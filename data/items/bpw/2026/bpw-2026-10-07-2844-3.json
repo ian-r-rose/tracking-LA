@@ -31,5 +31,12 @@
   },
   "flag": {
     "reason": "Environmental review for rehabilitating the lake at Hollenbeck Park, a public park, together with a sewer replacement."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25127",
+    "vote": "3-0",
+    "recorded": "2026-10-08"
   }
 }

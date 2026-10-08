@@ -33,5 +33,11 @@
   },
   "flag": {
     "reason": "The street segment is in Downtown, one of the watched neighborhoods."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Arts, Parks, and City Facilities Committee approved item(s) (Oct 7, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1120",
+    "recorded": "2026-10-08"
   }
 }

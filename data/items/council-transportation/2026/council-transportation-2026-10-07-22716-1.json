@@ -19,5 +19,11 @@
   "details": {
     "council_file": "26-1392",
     "action": "report on transportation construction projects"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved as amended (Oct 7, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1392",
+    "recorded": "2026-10-08"
   }
 }

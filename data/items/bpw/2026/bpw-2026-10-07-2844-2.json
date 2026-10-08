@@ -19,5 +19,12 @@
     "amount": "$49,973.79",
     "action": "stop notice transmission",
     "applicant": "WGJ Enterprises, Inc."
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25127",
+    "vote": "3-0",
+    "recorded": "2026-10-08"
   }
 }

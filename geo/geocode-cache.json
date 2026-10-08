@@ -83,6 +83,12 @@
   "lon": -118.367468,
   "score": 100
  },
+ "10845 W WOODBINE ST": {
+  "address": "10845 W WOODBINE ST, 90034",
+  "lat": 34.024265,
+  "lon": -118.416017,
+  "score": 100
+ },
  "1100 North Vermont": {
   "address": "1100 N VERMONT AVE, 90029",
   "lat": 34.090933,
@@ -432,6 +438,12 @@
   "address": "1941 S CARMONA AVE, 90016",
   "lat": 34.039569,
   "lon": -118.361477,
+  "score": 100
+ },
+ "19535 W VENTURA BLVD": {
+  "address": "19535 W VENTURA BLVD, 91356",
+  "lat": 34.172858,
+  "lon": -118.558618,
   "score": 100
  },
  "19910-20000 Lorne Street": {

@@ -25,5 +25,11 @@
   "details": {
     "council_file": "17-0739-S4",
     "action": "apply for and accept grant funding for bus electrification"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved item(s) (Oct 7, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0739-S4",
+    "recorded": "2026-10-08"
   }
 }

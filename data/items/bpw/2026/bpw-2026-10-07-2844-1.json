@@ -19,5 +19,12 @@
     "action": "authority for expenditure",
     "council_district": 15,
     "bureau": "Bureau of Sanitation"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25127",
+    "vote": "3-0",
+    "recorded": "2026-10-08"
   }
 }

@@ -32,5 +32,11 @@
   },
   "flag": {
     "reason": "Signage work on Sunset Blvd in Hollywood, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "withdrawn",
+    "text": "DIR action: ADMINISTRATIVE CLOSURE (Oct 7, 2026)",
+    "source": "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5198-DI-SPPC",
+    "recorded": "2026-10-08"
   }
 }
