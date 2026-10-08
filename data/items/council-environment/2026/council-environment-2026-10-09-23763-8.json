@@ -9,5 +9,15 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91562",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1015-S20",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=78a20ab7-deee-4e33-942a-2b3ee8aacd23"
-  ]
+  ],
+  "summary": "The City Administrative Officer reports on a grant application to the federal Bureau of Reclamation's WaterSMART Drought Response Program for fiscal year 2026.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "21-1015-S20",
+    "action": "Report on grant application"
+  }
 }

@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5166-CUB",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5167-EAF"
-  ]
+  ],
+  "summary": "A new restaurant at 1702 W Sunset Blvd is seeking a conditional use permit to sell a full line of alcohol for on-site drinking. The application was filed Oct. 6 and has not been decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1702 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.077203,
+      "lon": -118.25853,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5166-CUB",
+      "ENV-2026-5167-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "Conditional use permit for on-site sale of a full line of alcoholic beverages with a new restaurant"
+  },
+  "flag": {
+    "reason": "Full-line alcohol permit request on Sunset Blvd in Echo Park, a watched neighborhood."
+  }
 }

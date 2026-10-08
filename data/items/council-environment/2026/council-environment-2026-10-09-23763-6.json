@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91562",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0384-S21",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e454a1df-e81a-4f0f-b6b2-6631d8cc6165"
-  ]
+  ],
+  "summary": "The Measure W oversight committee reports on two applications to modify projects under the Safe Clean Water Regional program, submitted to the Los Angeles County Flood Control District.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "18-0384-S21",
+    "action": "Report on two project modification requests"
+  }
 }

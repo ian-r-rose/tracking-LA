@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25097",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=671c9e01-ae0e-466c-b9bd-b82032ffc816"
-  ]
+  ],
+  "summary": "Bureau heads from Street Services, Street Lighting and Contract Administration are scheduled to give the board an update.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0525"
+    ],
+    "bureau": "Bureau of Street Services + Bureau of Street Lighting + Bureau of Contract Administration",
+    "action": "Bureau heads update"
+  }
 }

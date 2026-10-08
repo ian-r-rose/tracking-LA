@@ -8,5 +8,21 @@
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/El%20Pueblo%20Commission%20Agenda%2010-8-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/Recommendation%20Termination%20of%20Concession%20Agreements%20-%20Dorkas%20Ramirez.pdf"
-  ]
+  ],
+  "summary": "El Pueblo's commission is asked to approve terminating the lease for Ramirez Toys, a concession at the Olvera Street historic monument.",
+  "topics": [
+    "other",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "El Pueblo de Los Angeles Historical Monument (Olvera Street)"
+    }
+  ],
+  "details": {
+    "action": "Approval of termination of lease of W-4 (Ramirez Toys)"
+  },
+  "flag": {
+    "reason": "Ends a long-standing Olvera Street concession inside the El Pueblo historic plaza in Downtown."
+  }
 }

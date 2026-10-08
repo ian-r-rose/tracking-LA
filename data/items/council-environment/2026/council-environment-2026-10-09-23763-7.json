@@ -9,5 +9,16 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91562",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1015-S21",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2977ed93-07a0-42ff-a7ee-ff2dbdb916de"
-  ]
+  ],
+  "summary": "Authorizes the Bureau of Sanitation to apply for the Baldwin Hills and Urban Watershed Conservancy Proposition 4 Community and Climate Resilience Grant.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "21-1015-S21",
+    "bureau": "Bureau of Sanitation",
+    "action": "Authorize grant application"
+  }
 }

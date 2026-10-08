@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-5184-RBPA\nAddress: 3179 W LOS FELIZ BLVD\nFiled: 2026-10-06\nCouncil district: 13\nCommunity plan area: Northeast Los Angeles\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5184-RBPA"
-  ]
+  ],
+  "summary": "An administrative clearance under the Restaurant Beverage Program would allow a restaurant at 3179 W Los Feliz Blvd to sell alcohol for on-site drinking. The application was filed Oct. 6 and has not been decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3179 W Los Feliz Blvd, Los Angeles, CA",
+      "lat": 34.123803,
+      "lon": -118.268077,
+      "neighborhood": "Atwater Village"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-5184-RBPA"
+    ],
+    "council_district": 13,
+    "plan_area": "Northeast Los Angeles",
+    "action": "Administrative clearance under the Restaurant Beverage Program for on-site alcohol sales"
+  },
+  "flag": {
+    "reason": "New alcohol service at a restaurant in Atwater Village, a watched neighborhood."
+  }
 }

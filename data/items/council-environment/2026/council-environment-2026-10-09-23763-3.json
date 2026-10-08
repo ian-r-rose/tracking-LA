@@ -9,5 +9,17 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91562",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1350",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=649b49e7-350a-4514-87ae-3cf26553db11"
-  ]
+  ],
+  "summary": "A council motion would create a trust fund to cover part of City utility bills for Department of Water and Power customers affected by the situation, as emergency support.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1350",
+    "action": "Create emergency bill-assistance trust fund for DWP customers"
+  },
+  "flag": {
+    "reason": "Citywide utility bill relief proposal that would affect DWP customers across the city."
+  }
 }

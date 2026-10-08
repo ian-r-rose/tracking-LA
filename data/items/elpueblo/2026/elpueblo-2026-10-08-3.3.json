@@ -8,5 +8,25 @@
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/El%20Pueblo%20Commission%20Agenda%2010-8-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/Board%20Recommendation%20E-5%20Concession%20Jorge%20Moreno%20Cafe%20Soxiety.pdf"
-  ]
+  ],
+  "summary": "Approves a lease of unit E-5 at El Pueblo to Jorge Moreno for Cafe Soxiety.",
+  "topics": [
+    "land_use",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "125 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057043,
+      "lon": -118.238693,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "applicant": "Jorge Moreno, Cafe Soxiety",
+    "action": "Approve lease of E-5"
+  },
+  "flag": {
+    "reason": "New lease inside the El Pueblo historic plaza in Downtown, a public open space."
+  }
 }

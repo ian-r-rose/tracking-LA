@@ -7,5 +7,25 @@
   "text": "[El Pueblo de Los Angeles Historical Monument (Olvera Street), 125 Paseo de la Plaza]\nApproval of Fifteen-Year Renewal Option for the Cooperative Agreement with United\n  Methodist Ministries–Los Angeles District at 115 Paseo de la Plaza",
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/El%20Pueblo%20Commission%20Agenda%2010-8-26.pdf"
-  ]
+  ],
+  "summary": "Approves a fifteen-year renewal option for the cooperative agreement with United Methodist Ministries–Los Angeles District for the site at 115 Paseo de la Plaza in El Pueblo.",
+  "topics": [
+    "land_use",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "115 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057072,
+      "lon": -118.238742,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "applicant": "United Methodist Ministries–Los Angeles District",
+    "action": "Approve fifteen-year renewal option"
+  },
+  "flag": {
+    "reason": "Lease renewal inside the El Pueblo historic plaza in Downtown, a public open space."
+  }
 }

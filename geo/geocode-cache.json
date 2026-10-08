@@ -97,6 +97,12 @@
   "lon": -118.569676,
   "score": 100
  },
+ "115 Paseo de la Plaza": {
+  "address": "115 E PASEO DE LA PLAZA, 90012",
+  "lat": 34.057072,
+  "lon": -118.238742,
+  "score": 99.02
+ },
  "1150 W SUNSET BLVD": {
   "address": "1150 W SUNSET BLVD, 90012",
   "lat": 34.066794,
@@ -115,6 +121,12 @@
   "lon": -118.295045,
   "score": 100
  },
+ "1155 N Heliotrope Dr": {
+  "address": "1155 N HELIOTROPE DR, 90029",
+  "lat": 34.092269,
+  "lon": -118.295045,
+  "score": 100
+ },
  "1160 N LAS PALMAS AVE": {
   "address": "1160 N LAS PALMAS AVE, 90038",
   "lat": 34.09185,
@@ -128,6 +140,12 @@
   "score": 100
  },
  "1165 N HELIOTROPE DR": {
+  "address": "1165 N HELIOTROPE DR, 90029",
+  "lat": 34.09252,
+  "lon": -118.295046,
+  "score": 100
+ },
+ "1165 N Heliotrope Dr": {
   "address": "1165 N HELIOTROPE DR, 90029",
   "lat": 34.09252,
   "lon": -118.295046,
@@ -320,7 +338,19 @@
   "lon": -118.49138,
   "score": 99.06
  },
+ "16500 W Nordhoff St": {
+  "address": "16500 W NORDHOFF ST, 91343",
+  "lat": 34.23562,
+  "lon": -118.491681,
+  "score": 100
+ },
  "1702 W SUNSET BLVD": {
+  "address": "1702 W SUNSET BLVD, 90026",
+  "lat": 34.077203,
+  "lon": -118.25853,
+  "score": 100
+ },
+ "1702 W Sunset Blvd": {
   "address": "1702 W SUNSET BLVD, 90026",
   "lat": 34.077203,
   "lon": -118.25853,
@@ -753,6 +783,12 @@
   "lon": -118.268077,
   "score": 100
  },
+ "3179 W Los Feliz Blvd": {
+  "address": "3179 W LOS FELIZ BLVD, 90039",
+  "lat": 34.123803,
+  "lon": -118.268077,
+  "score": 100
+ },
  "3190 South La Cienega Boulevard": {
   "address": "3190 S LA CIENEGA BLVD, 90016",
   "lat": 34.028707,
@@ -784,6 +820,12 @@
   "score": 100
  },
  "3315 E ISABEL DR": {
+  "address": "3315 E ISABEL DR, 90065",
+  "lat": 34.104034,
+  "lon": -118.230192,
+  "score": 100
+ },
+ "3315 E Isabel Dr": {
   "address": "3315 E ISABEL DR, 90065",
   "lat": 34.104034,
   "lon": -118.230192,
@@ -1174,6 +1216,12 @@
   "lon": -118.324818,
   "score": 100
  },
+ "6230 W Sunset Blvd": {
+  "address": "6230 W SUNSET BLVD, 90028",
+  "lat": 34.097945,
+  "lon": -118.324818,
+  "score": 100
+ },
  "6419 West Selma Ave": {
   "address": "6419 W SELMA AVE, 90028",
   "lat": 34.099845,
@@ -1538,6 +1586,7 @@
  "Doran Street": null,
  "East San Fernando Valley": null,
  "El Pueblo de Los Angeles Historical Monument": null,
+ "El Pueblo de Los Angeles Historical Monument (Olvera Street)": null,
  "Figueroa Street & Pacific Coast Highway": {
   "address": "N FIGUEROA ST & W PACIFIC COAST HWY, 90744",
   "lat": 33.790464,
@@ -1584,6 +1633,7 @@
  },
  "Leimert Park": null,
  "Loma Verde Avenue": null,
+ "Lopez Canyon Landfill": null,
  "Los Angeles Convention Center": null,
  "Los Angeles International Airport": null,
  "Los Angeles River Bike Path": null,

@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25097",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ab0369d6-7530-4d17-9115-85f283e4fd6d"
-  ]
+  ],
+  "summary": "The Bureau of Street Services will give the board a status update on major street improvement and resurfacing projects.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0522"
+    ],
+    "bureau": "Bureau of Street Services",
+    "action": "Status update on major street improvement and resurfacing projects"
+  }
 }

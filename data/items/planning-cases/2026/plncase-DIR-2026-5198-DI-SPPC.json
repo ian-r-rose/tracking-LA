@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5198-DI-SPPC",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5199-EAF"
-  ]
+  ],
+  "summary": "Three wall signs and one ledge sign at 6230 W Sunset Blvd would be restored under the Hollywood Signage district rules. The application was filed Oct. 6 and has not been decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6230 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.097945,
+      "lon": -118.324818,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5198-DI-SPPC",
+      "ENV-2026-5199-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "Restoration of 3 wall signs and 1 ledge sign"
+  },
+  "flag": {
+    "reason": "Signage work on Sunset Blvd in Hollywood, a watched neighborhood."
+  }
 }

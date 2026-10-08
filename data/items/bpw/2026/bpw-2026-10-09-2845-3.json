@@ -7,5 +7,21 @@
   "text": "[REPORT(S)]\nBPW-2026-0523\nLopez Canyon Landfill\n- Bureau of Sanitation",
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25097"
-  ]
+  ],
+  "summary": "The Bureau of Sanitation will give a report on the Lopez Canyon Landfill.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Lopez Canyon Landfill"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0523"
+    ],
+    "bureau": "Bureau of Sanitation",
+    "action": "Report on Lopez Canyon Landfill"
+  }
 }

@@ -13,5 +13,18 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d329b51d-49c0-450f-a355-01e7b1bc5b56",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=590e8bf6-885a-4465-9d0f-8b10c8d3b8c7",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ff2e3b6b-cae4-4e7d-b3dc-547f883a0e17"
-  ]
+  ],
+  "summary": "The Department of Water and Power and the Harbor Department submit their annual report on power outages and power surges at the Port of Los Angeles.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Port of Los Angeles"
+    }
+  ],
+  "details": {
+    "council_file": "24-0916",
+    "council_district": 15
+  }
 }

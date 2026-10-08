@@ -8,5 +8,27 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81538",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-15-2026/ZA_2024_8013_Commission_Packet.pdf"
-  ]
+  ],
+  "summary": "The North Valley Area Planning Commission will hear neighbors' appeal of a May 5 zoning administrator decision approving a conditional use for additions that bring Valley Park Baptist Church's building at 16500 W Nordhoff St to 15,605 square feet. That decision also found the project exempt from CEQA.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "16500 W Nordhoff St, Los Angeles, CA",
+      "lat": 34.23562,
+      "lon": -118.491681,
+      "neighborhood": "North Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2024-8013-CU2-1A",
+      "ENV-2024-8014-CE"
+    ],
+    "council_district": 12,
+    "plan_area": "Mission Hills – Panorama City – North Hills",
+    "applicant": "Valley Park Baptist Church of Sepulveda",
+    "action": "Appeal of zoning administrator's approval of a conditional use for church additions"
+  }
 }

@@ -7,5 +7,25 @@
   "text": "[El Pueblo de Los Angeles Historical Monument (Olvera Street), 125 Paseo de la Plaza]\nApproval to assign Amalia Sanchez as an additional merchant on the C9 concession\n  agreement",
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/El%20Pueblo%20Commission%20Agenda%2010-8-26.pdf"
-  ]
+  ],
+  "summary": "Approves adding Amalia Sanchez as an additional merchant on the C9 concession agreement at El Pueblo.",
+  "topics": [
+    "land_use",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "125 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057043,
+      "lon": -118.238693,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "applicant": "Amalia Sanchez",
+    "action": "Assign additional merchant to C9 concession"
+  },
+  "flag": {
+    "reason": "Concession change inside the El Pueblo historic plaza in Downtown, a public open space."
+  }
 }

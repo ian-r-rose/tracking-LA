@@ -12,5 +12,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2c135c10-971c-4188-96fa-d9d3d2360da4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6aff5ef-a56b-4648-b468-4de2f67ebf5f",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a83c9346-050f-44b3-bb6a-ea143848e2dc"
-  ]
+  ],
+  "summary": "The Harbor Department submits its 2025 annual progress report on making City facilities and events zero waste.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "21-1208-S6",
+    "council_district": 15
+  }
 }

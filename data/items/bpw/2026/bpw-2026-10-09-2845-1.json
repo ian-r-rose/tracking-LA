@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25097",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9bf05d87-3d1e-4c22-9dc5-5e5cb9ac48d2"
-  ]
+  ],
+  "summary": "The Board of Public Works recommends a personal services contract with NS Corporation for repair and maintenance of automated vehicle wash facilities. The Mayor and City Council must authorize the contract before it is signed.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0516"
+    ],
+    "applicant": "NS Corporation",
+    "bureau": "BOS + BCA",
+    "action": "Personal services contract for repair and maintenance of automated vehicle wash facilities"
+  }
 }

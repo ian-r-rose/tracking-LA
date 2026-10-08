@@ -7,5 +7,17 @@
   "text": "[REPORT(S)]\nBPW-2026-0524\nLivability Services\n- Bureau of Sanitation",
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25097"
-  ]
+  ],
+  "summary": "The Bureau of Sanitation is scheduled to report on Livability Services.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0524"
+    ],
+    "bureau": "Bureau of Sanitation",
+    "action": "Report on Livability Services"
+  }
 }
