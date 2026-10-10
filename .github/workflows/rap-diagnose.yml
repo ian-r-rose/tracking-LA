@@ -21,34 +21,14 @@ jobs:
           UA="Mozilla/5.0 (compatible; tracking-la/0.1; +https://github.com/ian-r-rose/tracking-LA)"
           S=https://recreation.parks.lacity.gov
           IP=$(curl -s https://checkip.amazonaws.com)
-          out=""
-          probe() {  # label, then curl arguments
-            local label=$1; shift
-            local r
-            r=$(curl -s -o /dev/null -w '%{http_code} %{http_version}' --max-time 20 "$@")
-            out+="$label=$r; "
-          }
-          probe year "$S/commissioners/agendas-minutes-reports/2026" -A "$UA"
-          probe year-accept "$S/commissioners/agendas-minutes-reports/2026" -A "$UA" -H "Accept: text/html,application/xhtml+xml" -H "Accept-Language: en-US,en;q=0.9"
-          probe year-http1 "$S/commissioners/agendas-minutes-reports/2026" -A "$UA" --http1.1
-          probe home "$S/" -A "$UA"
-          probe robots "$S/robots.txt" -A "$UA"
-          probe sitemap "$S/sitemap.xml" -A "$UA"
-          probe jsonapi "$S/jsonapi" -A "$UA"
-          probe pdf "$S/sites/default/files/pdf/commissioner/2026/oct01/26-218.pdf" -A "$UA"
-          probe minutes "$S/sites/default/files/pdf/commissioner/2026/sep17/091726-min-telephonic-regular.pdf" -A "$UA"
-          probe ip1 "$S/commissioners/agendas-minutes-reports/2026" -A "$UA" --resolve recreation.parks.lacity.gov:443:52.53.92.162
-          probe ip2 "$S/commissioners/agendas-minutes-reports/2026" -A "$UA" --resolve recreation.parks.lacity.gov:443:13.56.177.238
-          probe laparks "https://www.laparks.org/" -A "$UA"
-          echo "::notice title=curl from $IP::$out"
-          httpx=$(uv run python -c "
-          import httpx
-          from tracking_la import http_client
-          with http_client(timeout=20) as c:
-              for u in ['$S/commissioners/agendas-minutes-reports/2026', '$S/sites/default/files/pdf/commissioner/2026/oct01/26-218.pdf', '$S/jsonapi']:
-                  r = c.get(u)
-                  print(u.rsplit('/', 1)[-1], r.status_code, r.headers.get('server'), end='; ')
-          ")
-          echo "::notice title=httpx (fetcher's client)::$httpx"
-          body=$(curl -s --max-time 20 -A "$UA" "$S/commissioners/agendas-minutes-reports/2026" | head -c 600 | tr '\n' ' ')
-          echo "::notice title=403 body::$body"
+          # The year page every 10 seconds for four minutes: status, ELB address, seconds since start.
+          t0=$(date +%s); out=""
+          for i in $(seq 24); do
+            r=$(curl -s -o body.html -w '%{http_code}@%{remote_ip}' --max-time 20 -A "$UA" "$S/commissioners/agendas-minutes-reports/2026" || echo err)
+            out+="$(( $(date +%s) - t0 ))s:$r "
+            [ "${r%%@*}" = 403 ] && cp body.html refused.html
+            sleep 10
+          done
+          echo "::notice title=year page from $IP::$out"
+          [ -f refused.html ] && echo "::notice title=403 body::$(head -c 800 refused.html | tr '\n\r' '  ')"
+          true
