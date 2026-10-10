@@ -23,5 +23,11 @@
     ],
     "bureau": "Bureau of Sanitation",
     "action": "Report on Lopez Canyon Landfill"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25155",
+    "recorded": "2026-10-10"
   }
 }

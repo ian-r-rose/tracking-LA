@@ -22,5 +22,11 @@
   },
   "flag": {
     "reason": "Citywide change letting developers defer impact fees until after building permits."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved as amended (Oct 7, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1341",
+    "recorded": "2026-10-10"
   }
 }

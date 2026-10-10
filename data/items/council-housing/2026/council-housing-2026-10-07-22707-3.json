@@ -26,5 +26,11 @@
     {
       "text": "Harmony Place Apartments"
     }
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Oct 7, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1157",
+    "recorded": "2026-10-10"
+  }
 }

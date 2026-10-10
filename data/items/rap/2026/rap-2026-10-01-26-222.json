@@ -22,10 +22,18 @@
     "action": "commitment of supplemental park fees"
   },
   "urls": [
-    "https://ens.lacity.org/rap/agenda/rapagenda311200386_10012026.pdf",
-    "https://www.laparks.org/sites/default/files/pdf/commissioner/2026/oct01/26-222.pdf"
+    "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/rap-meeting-agenda-10-1-2026.pdf",
+    "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/100126mintelephonicregular.pdf",
+    "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/26-222.pdf"
   ],
   "flag": {
     "reason": "Outdoor stage, lighting and paths at the Griffith Park Performing Arts Center."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED",
+    "source": "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct01/100126mintelephonicregular.pdf",
+    "vote": "4-0",
+    "recorded": "2026-10-10"
   }
 }

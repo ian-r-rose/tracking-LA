@@ -20,5 +20,11 @@
     ],
     "bureau": "Bureau of Street Services + Bureau of Street Lighting + Bureau of Contract Administration",
     "action": "Bureau heads update"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25155",
+    "recorded": "2026-10-10"
   }
 }

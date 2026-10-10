@@ -36,5 +36,11 @@
   },
   "flag": {
     "reason": "Inside Glassell Park, one of the watched neighborhoods."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Oct 7, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S181",
+    "recorded": "2026-10-10"
   }
 }

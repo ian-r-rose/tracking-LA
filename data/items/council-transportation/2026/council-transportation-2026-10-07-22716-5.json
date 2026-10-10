@@ -21,5 +21,11 @@
   },
   "flag": {
     "reason": "Transit payment policy and infrastructure affecting Metro riders citywide."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved as amended (Oct 7, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1278",
+    "recorded": "2026-10-10"
   }
 }

@@ -77,6 +77,12 @@
   "lon": -118.426699,
   "score": 99.06
  },
+ "10740 W VENTURA BLVD": {
+  "address": "10740 W VENTURA BLVD, 91604",
+  "lat": 34.138403,
+  "lon": -118.365173,
+  "score": 100
+ },
  "10827 W HUSTON ST": {
   "address": "10827 W HUSTON ST, 91601",
   "lat": 34.159854,
@@ -101,6 +107,12 @@
   "address": "11245 N PORTER RANCH DR, 91311",
   "lat": 34.273056,
   "lon": -118.569676,
+  "score": 100
+ },
+ "1135 N WESTMORELAND AVE": {
+  "address": "1135 N WESTMORELAND AVE, 90029",
+  "lat": 34.091791,
+  "lon": -118.287845,
   "score": 100
  },
  "115 Paseo de la Plaza": {
@@ -217,6 +229,12 @@
   "lon": -118.44819,
   "score": 90
  },
+ "1321 E PALMS BLVD": {
+  "address": "1321 E PALMS BLVD, 90291",
+  "lat": 34.002315,
+  "lon": -118.4533,
+  "score": 100
+ },
  "13375-13413 West Mulholland Drive": {
   "address": "13413 W MULHOLLAND DR, 90210",
   "lat": 34.130228,
@@ -239,6 +257,12 @@
   "address": "13750 N FENTON AVE, 91342",
   "lat": 34.3218,
   "lon": -118.435927,
+  "score": 100
+ },
+ "1391 N TOWER GROVE DR": {
+  "address": "1391 N TOWER GROVE DR, 90210",
+  "lat": 34.096856,
+  "lon": -118.425922,
   "score": 100
  },
  "1400 North Vista Moraga": {
@@ -276,6 +300,12 @@
   "address": "14401 W VENTURA BLVD, 91423",
   "lat": 34.150534,
   "lon": -118.445942,
+  "score": 100
+ },
+ "146 N BERENDO ST": {
+  "address": "146 N BERENDO ST, 90004",
+  "lat": 34.073559,
+  "lon": -118.294124,
   "score": 100
  },
  "14703 W RINALDI ST A-C": {
@@ -915,6 +945,12 @@
   "lon": -118.217095,
   "score": 92.78
  },
+ "3906 S PACIFIC AVE": {
+  "address": "3906 S PACIFIC AVE, 90731",
+  "lat": 33.708649,
+  "lon": -118.287883,
+  "score": 100
+ },
  "3911 West Adams Boulevard": {
   "address": "3911 W ADAMS BLVD, 90018",
   "lat": 34.032678,
@@ -986,6 +1022,18 @@
   "lat": 34.031178,
   "lon": -118.331679,
   "score": 100
+ },
+ "4209 N SCANDIA WAY": {
+  "address": "4209 N SCANDIA WAY, 90065",
+  "lat": 34.119915,
+  "lon": -118.223928,
+  "score": 100
+ },
+ "423 N HOOVER ST A-D": {
+  "address": "423 N HOOVER ST, 90004",
+  "lat": 34.078511,
+  "lon": -118.284487,
+  "score": 91.43
  },
  "4230 North Saltillo Street": {
   "address": "4230 N SALTILLO ST, 91364",
@@ -1138,6 +1186,12 @@
   "lon": -118.5759,
   "score": 100
  },
+ "5412 N BELLINGHAM AVE": {
+  "address": "5412 N BELLINGHAM AVE, 91607",
+  "lat": 34.168913,
+  "lon": -118.399173,
+  "score": 100
+ },
  "5566 West 2nd Street": {
   "address": "5566 W 2ND ST, 90036",
   "lat": 34.070988,
@@ -1216,6 +1270,12 @@
   "lon": -118.206595,
   "score": 100
  },
+ "612 N HOOVER ST": {
+  "address": "612 N HOOVER ST, 90004",
+  "lat": 34.081991,
+  "lon": -118.284403,
+  "score": 100
+ },
  "6155 West Rodgerton Drive": {
   "address": "6155 W RODGERTON DR, 90068",
   "lat": 34.125276,
@@ -1232,6 +1292,18 @@
   "address": "6230 W SUNSET BLVD, 90028",
   "lat": 34.097945,
   "lon": -118.324818,
+  "score": 100
+ },
+ "625 E CRESTMOORE PL": {
+  "address": "625 E CRESTMOORE PL, 90291",
+  "lat": 33.988504,
+  "lon": -118.45668,
+  "score": 100
+ },
+ "636 E VERNON AVE": {
+  "address": "636 E VERNON AVE, 90011",
+  "lat": 34.003822,
+  "lon": -118.264571,
   "score": 100
  },
  "6419 West Selma Ave": {
@@ -1264,6 +1336,18 @@
   "lon": -118.332356,
   "score": 99.06
  },
+ "679 S HARVARD BLVD": {
+  "address": "679 S HARVARD BLVD, 90005",
+  "lat": 34.060828,
+  "lon": -118.304242,
+  "score": 100
+ },
+ "692 N AMALFI DR": {
+  "address": "692 N AMALFI DR, 90272",
+  "lat": 34.040573,
+  "lon": -118.511731,
+  "score": 100
+ },
  "6933 Santa Monica Boulevard": {
   "address": "6933 W SANTA MONICA BLVD, 90038",
   "lat": 34.090779,
@@ -1282,10 +1366,22 @@
   "lon": -118.29241,
   "score": 100
  },
+ "7001 S TROLLEYWAY": {
+  "address": "7001 S TROLLEYWAY, 90293",
+  "lat": 33.956025,
+  "lon": -118.449264,
+  "score": 100
+ },
  "7075 W FOOTHILL BLVD": {
   "address": "7075 W FOOTHILL BLVD, 91042",
   "lat": 34.24806,
   "lon": -118.28538,
+  "score": 100
+ },
+ "708 E BROOKS AVE": {
+  "address": "708 E BROOKS AVE, 90291",
+  "lat": 33.996841,
+  "lon": -118.465953,
   "score": 100
  },
  "7100 South Vermont": {

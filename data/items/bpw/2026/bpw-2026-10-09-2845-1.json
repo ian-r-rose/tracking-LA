@@ -21,5 +21,12 @@
     "applicant": "NS Corporation",
     "bureau": "BOS + BCA",
     "action": "Personal services contract for repair and maintenance of automated vehicle wash facilities"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED - REFERRED TO MAYOR AND CITY COUNCIL, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25155",
+    "vote": "3-0",
+    "recorded": "2026-10-10"
   }
 }
