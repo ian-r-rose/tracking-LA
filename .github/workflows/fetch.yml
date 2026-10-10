@@ -1,14 +1,16 @@
 name: Fetch
 
 # Fetches agendas and records outcomes, then commits the data. Daily, so the commit
-# that adds an item records when its agenda was first seen; scheduled five hours
-# before the Claude routine (Mon/Thu 14:00 UTC) because GitHub can start scheduled
-# runs hours late. This runs here rather than in the
+# that adds an item records when its agenda was first seen. GitHub has started these
+# runs 4-8 hours late (and sometimes skipped them), so there are two, well before the
+# Claude routine (Mon/Thu 14:00 UTC); the second usually finds nothing new. This runs
+# here rather than in the
 # routine because the routine's sandbox proxy can't reach ens.lacity.org (LADOT, DWP).
 
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "17 2 * * *"
+    - cron: "43 6 * * *"
   workflow_dispatch:
 
 concurrency:
@@ -23,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
-      - run: sudo apt-get install -y poppler-utils
+      - run: sudo apt-get update -q && sudo apt-get install -y poppler-utils
       # A failing source makes these exit 1 after the other sources finish. Commit
       # what succeeded, then fail the job so the failure is visible.
       - id: fetch

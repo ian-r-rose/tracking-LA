@@ -7,18 +7,23 @@ in the PDF but can matter (e.g. a motion opposing use of park land for a project
 
 A firewall in front of the site (an AWS load balancer) sometimes refuses requests from
 cloud machines such as GitHub's runners, with a 403. Then the agendas come from
-ens.lacity.org instead, without minutes or extra documents; once the site answers
-again, its agenda (a different URL) is fetched and its versions of the items replace them.
+ens.lacity.org instead, without minutes or extra documents, and only for meetings not
+already fetched from the site, whose fuller items they would otherwise replace. Once the
+site answers again, its agenda (a different URL) is fetched and its versions of the
+items replace the fallback ones.
 """
 
+import json
 import re
 from datetime import date, datetime
+from pathlib import Path
 from urllib.parse import urljoin
 
 import httpx
 from bs4 import BeautifulSoup
 
 from tracking_la import http_client
+from tracking_la.store import DATA
 from tracking_la.pdf import normalize_space, pdf_text
 from tracking_la.sources import ens
 from tracking_la.sources.ens import RECREATION_AND_PARKS, split_agenda
@@ -71,7 +76,16 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
             f"  fallback: rec and parks refused {e.request.url} (403 from {e.response.headers.get('server')}) "
             f"for IP {public_ip(client)}; using ens.lacity.org agendas, without minutes or extra documents"
         )
-        return [m | {"fallback": True} for m in ens.list_meetings(RECREATION_AND_PARKS, start, end, client)]
+        meetings = ens.list_meetings(RECREATION_AND_PARKS, start, end, client)
+        return [m | {"fallback": True} for m in meetings if not from_site(m["date"])]
+
+
+def from_site(day: date, root: Path = DATA) -> bool:
+    """Whether this meeting's items were fetched from Rec & Parks' own site."""
+    for path in (root / "items" / "rap" / str(day.year)).glob(f"rap-{day.isoformat()}-*.json"):
+        if any(url.startswith(SITE) for url in json.loads(path.read_text())["urls"]):
+            return True
+    return False
 
 
 def public_ip(client: httpx.Client) -> str:
