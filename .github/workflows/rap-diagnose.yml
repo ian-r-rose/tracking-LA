@@ -15,20 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
-      - name: Probe
+      - run: sudo apt-get update -q && sudo apt-get install -y poppler-utils
+      # The real fetch, from a fresh runner (nothing is committed).
+      - name: Fetch Rec & Parks
         shell: bash
         run: |
-          UA="Mozilla/5.0 (compatible; tracking-la/0.1; +https://github.com/ian-r-rose/tracking-LA)"
-          S=https://recreation.parks.lacity.gov
-          IP=$(curl -s https://checkip.amazonaws.com)
-          # The year page every 10 seconds for four minutes: status, ELB address, seconds since start.
-          t0=$(date +%s); out=""
-          for i in $(seq 24); do
-            r=$(curl -s -o body.html -w '%{http_code}@%{remote_ip}' --max-time 20 -A "$UA" "$S/commissioners/agendas-minutes-reports/2026" || echo err)
-            out+="$(( $(date +%s) - t0 ))s:$r "
-            [ "${r%%@*}" = 403 ] && cp body.html refused.html
-            sleep 10
-          done
-          echo "::notice title=year page from $IP::$out"
-          [ -f refused.html ] && echo "::notice title=403 body::$(head -c 800 refused.html | tr '\n\r' '  ')"
-          true
+          start=$(date +%s)
+          uv run tracking-la fetch --since 30 --source "rec and parks" --refetch 2>&1 | tee fetch.log || true
+          lines=$(grep -h "failed:\|fallback:\|waited:\|new:\|unchanged:" fetch.log | tr '\n' ' ')
+          echo "::notice title=fetch ($(( $(date +%s) - start ))s)::$lines"
+          git status --short data | head -50 | tr '\n' ' ' | sed 's/^/::notice title=changes::/'; echo

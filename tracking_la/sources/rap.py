@@ -5,8 +5,10 @@ each meeting with its agenda, minutes, numbered board reports (26-213.pdf), and 
 documents such as commissioner motions and presentations, which aren't agenda items
 in the PDF but can matter (e.g. a motion opposing use of park land for a project).
 
-A firewall in front of the site (an AWS load balancer) sometimes refuses requests from
-cloud machines such as GitHub's runners, with a 403. Then the agendas come from
+A firewall in front of the site (an AWS load balancer) refuses a fresh GitHub runner
+with a 403 for about its first minute, then answers (probed 2026-10-10: 403s for 51
+seconds, then 24 straight 200s), so requests are retried for a few minutes. If it
+still refuses, the agendas come from
 ens.lacity.org instead, without minutes or extra documents, and only for meetings not
 already fetched from the site, whose fuller items they would otherwise replace. Once the
 site answers again, its agenda (a different URL) is fetched and its versions of the
@@ -15,6 +17,7 @@ items replace the fallback ones.
 
 import json
 import re
+import time
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urljoin
@@ -34,6 +37,10 @@ REPORT_NUMBER = re.compile(r"^\d{2}-\d{3}$")
 
 # Bundles of public comment letters from residents: not Board actions.
 SKIP_DOCUMENT = re.compile(r"documents?[ -]received|constituent", re.IGNORECASE)
+
+# How long to keep retrying a refused request, and how often.
+RETRY_FOR = 180
+RETRY_EVERY = 15
 
 # Extra documents get the start of their own text as item text; enough for extraction.
 EXTRA_TEXT_CHARS = 4000
@@ -96,11 +103,21 @@ def public_ip(client: httpx.Client) -> str:
         return "unknown"
 
 
+def get(client: httpx.Client, url: str) -> httpx.Response:
+    """GET, retrying while the firewall refuses (403); raises once it gives up."""
+    waited = 0
+    while (resp := client.get(url)).status_code == 403 and waited < RETRY_FOR:
+        time.sleep(RETRY_EVERY)
+        waited += RETRY_EVERY
+    if waited and resp.status_code != 403:
+        print(f"  waited: rec and parks answered {url} after {waited}s of 403s")
+    return resp.raise_for_status()
+
+
 def site_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     meetings = []
     for year in range(start.year, end.year + 1):
-        resp = client.get(YEAR_PAGE.format(year=year))
-        resp.raise_for_status()
+        resp = get(client, YEAR_PAGE.format(year=year))
         meetings += [m for m in parse_year_page(resp.text) if start <= m["date"] <= end]
     return meetings
 
@@ -153,8 +170,7 @@ def meeting_items(meeting: dict, agenda_pdf: bytes) -> list[dict]:
         for doc in meeting["documents"]:
             if REPORT_NUMBER.match(doc["title"]) or SKIP_DOCUMENT.search(doc["title"]):
                 continue
-            resp = client.get(doc["url"])
-            resp.raise_for_status()
+            resp = get(client, doc["url"])
             if resp.content.startswith(b"%PDF"):  # some PDFs are linked without a .pdf extension
                 extra_texts[doc["url"]] = normalize_space(pdf_text(resp.content))[:EXTRA_TEXT_CHARS]
     return items_from_meeting(meeting, pdf_text(agenda_pdf), extra_texts)

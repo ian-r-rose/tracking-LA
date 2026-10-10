@@ -47,6 +47,7 @@ def test_motion_becomes_its_own_item():
 
 def test_refused_site_falls_back_to_ens_agendas(capsys, monkeypatch):
     monkeypatch.setattr(rap, "from_site", lambda day: day == date(2026, 9, 17))
+    monkeypatch.setattr(rap.time, "sleep", lambda seconds: None)
 
     def respond(request):
         if request.url.host == "recreation.parks.lacity.gov":
@@ -74,3 +75,15 @@ def test_from_site(tmp_path):
     assert rap.from_site(date(2026, 9, 17), tmp_path)
     assert not rap.from_site(date(2026, 10, 1), tmp_path)  # a fallback fetch can be redone
     assert not rap.from_site(date(2026, 10, 15), tmp_path)
+
+
+def test_refusals_are_retried(capsys, monkeypatch):
+    monkeypatch.setattr(rap.time, "sleep", lambda seconds: None)
+    responses = iter([403, 403, 200])
+
+    def respond(request):
+        return httpx.Response(next(responses), text="ok")
+
+    with httpx.Client(transport=httpx.MockTransport(respond)) as client:
+        assert rap.get(client, rap.SITE + "/page").text == "ok"
+    assert "answered https://recreation.parks.lacity.gov/page after 30s of 403s" in capsys.readouterr().out
