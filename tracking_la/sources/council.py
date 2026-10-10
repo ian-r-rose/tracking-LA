@@ -37,6 +37,9 @@ COMMITTEES = {
     49: "council-environment",  # Energy and Environment
 }
 
+# A meeting's HTML agenda, by the name PrimeGov gives its template; a revision replaces the original.
+AGENDA_TEMPLATES = ("HTML Revised Special Agenda", "HTML Revised Agenda", "HTML Special Agenda", "HTML Agenda")
+
 COUNCIL_FILE = re.compile(r"^\d{2}-\d{4}(-S\d+)?$")
 # Of an item's attachments (the whole Council File's documents, often dozens), link these.
 KEY_DOCUMENT = re.compile(r"^(Report|Motion|Resolution|Draft Ordinance|Attachment to Report)", re.I)
@@ -55,7 +58,8 @@ def parse_meetings(raw: list[dict]) -> list[dict]:
         # "SAP" meetings are the Spanish-language duplicates of each agenda.
         if not body or "CANCEL" in title or re.search(r"\bSAP\b", title) or m["id"] in seen:
             continue
-        doc = next((d for d in m["documentList"] if d["templateName"] in ("HTML Agenda", "HTML Special Agenda")), None)
+        templates = {d["templateName"]: d for d in m["documentList"]}
+        doc = next((templates[t] for t in AGENDA_TEMPLATES if t in templates), None)
         if not doc:
             continue
         seen.add(m["id"])

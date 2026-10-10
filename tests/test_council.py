@@ -24,6 +24,15 @@ def test_meetings_by_committee_id_without_spanish_duplicates_or_cancellations():
     assert all(m["body"].startswith("council-") for m in meetings)  # full Council and other committees skipped
 
 
+def test_revised_agendas_count():
+    def meeting(templates):
+        return {"id": 1, "committeeId": 2, "dateTime": "2026-09-08T10:00:00", "title": "REVISED SPECIAL - Housing Committee",
+                "documentList": [{"id": n, "templateName": t} for n, t in enumerate(templates)]}
+
+    [m] = council.parse_meetings([meeting(["HTML Special Agenda", "HTML Revised Special Agenda", "Revised Special Agenda"])])
+    assert m["agenda_url"].endswith("FileId=1")  # the revision, not the original
+
+
 def test_items_carry_council_file_district_and_links():
     items = council.meeting_items(MEETING, (FIXTURES / "plum-2026-09-22.html").read_bytes())
     assert [i["item_number"] for i in items] == ["1", "2", "3", "4", "5", "6", "7"]
