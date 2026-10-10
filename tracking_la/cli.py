@@ -186,6 +186,7 @@ def decisions(digest_date: str) -> None:
         flagged = "*" if item.get("flag") else " "
         print(f"{flagged} {o['status']:10} {o.get('vote', ''):5} {path.relative_to(DATA.parent)}")
         print(f"     {item['meeting_date']}  {item.get('summary', item['title'])[:120]}  [{o['text']}]")
+        print(f"     {o['source']}")
     print(f"{len(found)} unreported outcome(s); * = flagged in a digest")
 
 
@@ -330,7 +331,7 @@ def main() -> None:
         sys.exit(1 if problems else 0)
     elif args.command == "check":
         bad = check_all()
-        print(f"{bad} item file(s) with problems" if bad else "all items OK")
+        print(f"{bad} file(s) with problems" if bad else "all files OK")
         sys.exit(1 if bad else 0)
 
 

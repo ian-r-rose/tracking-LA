@@ -66,11 +66,25 @@ def check_report_back(path: Path) -> list[str]:
     return problems
 
 
+def check_digest(path: Path) -> list[str]:
+    """Every bullet links to where it came from (agenda, Council File, minutes, case, report)."""
+    bullets = []  # each top-level bullet with its indented continuation lines
+    for line in path.read_text().splitlines():
+        if line.startswith("- "):
+            bullets.append(line)
+        elif bullets and bullets[-1] is not None and (line.startswith(" ") or not line):
+            bullets[-1] += "\n" + line
+        else:
+            bullets.append(None)
+    return [f"bullet without a link: {b[:80]}" for b in bullets if b and "](http" not in b]
+
+
 def check_all(root: Path = DATA) -> int:
-    """Print problems for every item and report-back file; return the number of bad files."""
+    """Print problems for every item, report-back and digest file; return the number of bad files."""
     bad = 0
     paths = [(p, check_item) for p in sorted((root / "items").rglob("*.json"))]
     paths += [(p, check_report_back) for p in sorted((root / "report-backs").glob("*.json"))]
+    paths += [(p, check_digest) for p in sorted((root / "digests").glob("*.md"))]
     for path, check in paths:
         if problems := check(path):
             bad += 1

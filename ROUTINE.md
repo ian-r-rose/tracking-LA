@@ -78,7 +78,7 @@ Agenda items from meetings <Month D> – <Month D, YYYY>, and decisions recorded
 <One sentence on what this body decides or publishes.>
 
 - **<Mon D>** · upcoming · <neighborhood> — <summary, rewritten if needed>. <Why it matters.> [Agenda](<url>) · [Staff report](<url>)
-- **<Mon D>** · <neighborhood> — <item, in a few words>: **<approved 5–0 / continued to Oct 9 / withdrawn / ...>**. [Journal or minutes](<outcome source>)
+- **<Mon D>** · <neighborhood> — <item, in a few words>: **<approved 5–0 / continued to Oct 9 / withdrawn / ...>**. [Journal, minutes or Council File](<outcome source>)
 ```
 
 Which decisions to include: every outcome for an item flagged in an earlier digest (marked `*` by `decisions`). For other items, only withdrawals, denials, continuances and split votes, plus anything you'd have listed as an agenda item. Leave out unanimous approvals of routine items. When an item has both a listed agenda entry and a decision, give one bullet with the outcome in it.
@@ -90,6 +90,8 @@ Rules:
 - Don't refer to earlier or later digests ("first", "this time", "since last time", "as reported earlier"). Each digest should read the same way whenever it's generated. If a decision contradicts how an item was described before (e.g. it was withdrawn), state the outcome plainly.
 - Routine items in Ian's neighborhoods (single houses, cell sites) get a short bullet with no "why it matters".
 - Say where an item is in plain words ("in Echo Park"). Don't recite the selection rules in the digest ("Echo Park is a watched neighborhood", "A public park is involved"); the reader knows why items are there. Before calling a place inside, outside or next to the watched neighborhoods, in a bullet or a `flag` reason, check the list in `config/interests.yaml`.
+- Every bullet links to its source: an agenda item to its agenda (and staff report, if any), a decision to the outcome source `decisions` prints under it (a Council File's decisions link the Council File, e.g. [Council File 25-0843](...)). `check` reports bullets without a link.
+- Every section starts with its one sentence on what the body does.
 - Keep the whole digest skimmable in two minutes.
 
 Then mark everything you reviewed (items, decisions and report backs) as covered and check the files:
