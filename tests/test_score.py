@@ -40,3 +40,20 @@ def test_candidates_include_items_already_in_the_digest_being_rewritten(tmp_path
     interests = {"topics": {}, "neighborhoods": [], "in_neighborhood": 4, "nearby": 2, "nearby_km": 1}
     assert {c["id"] for c in candidates(tmp_path, interests)} == {"new"}
     assert {c["id"] for c in candidates(tmp_path, interests, "2026-10-05")} == {"new", "same"}
+
+
+def test_council_vote_on_a_listed_committee_item_ranks_higher(tmp_path):
+    import json
+    from tracking_la.score import candidates
+
+    folder = tmp_path / "items" / "x" / "2026"
+    folder.mkdir(parents=True)
+    base = {"meeting_date": "2026-10-14", "summary": "s", "topics": ["other"], "locations": []}
+    for item in ({"id": "committee", "flag": {"reason": "r"}}, {"id": "council-vote", "follows": "committee"},
+                 {"id": "other-vote", "follows": "unlisted"}, {"id": "unlisted"}):
+        (folder / f"{item['id']}.json").write_text(json.dumps(base | item))
+    (tmp_path / "digested.csv").write_text("digest,item_id,decision_recorded\n2026-10-05,committee,\n2026-10-05,unlisted,\n")
+    interests = {"topics": {}, "neighborhoods": [], "in_neighborhood": 4, "nearby": 2, "nearby_km": 1, "follows_listed": 6}
+    top, other = candidates(tmp_path, interests)
+    assert (top["id"], top["score"], top["reasons"]) == ("council-vote", 6, ["Council vote on committee, listed in a digest"])
+    assert (other["id"], other["score"]) == ("other-vote", 0)

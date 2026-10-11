@@ -1,4 +1,5 @@
 import json
+import re
 from datetime import date
 from pathlib import Path
 
@@ -21,7 +22,34 @@ def test_meetings_by_committee_id_without_spanish_duplicates_or_cancellations():
     assert ("2026-10-07", "council-housing") in bodies
     assert not any(b == "council-transportation" and d == "2026-08-26" for d, b in bodies)  # cancelled
     assert len([m for m in meetings if m["meeting_id"] == 18500]) == 1  # not its SAP twin
-    assert all(m["body"].startswith("council-") for m in meetings)  # full Council and other committees skipped
+    assert all(m["body"].startswith("council") for m in meetings)  # other committees skipped
+
+
+def test_full_council_has_its_extra_agendas():
+    meeting = {"id": 7, "committeeId": 1, "dateTime": "2026-09-29T10:00:00", "title": "City Council Meeting",
+               "documentList": [{"id": 1, "templateName": "HTML Agenda"}, {"id": 2, "templateName": "Agenda"},
+                                {"id": 3, "templateName": "HTML Supplemental Agenda"}]}
+    meetings = council.parse_meetings([meeting])
+    assert [(m["body"], m["meeting_id"], m["agenda_url"][-1]) for m in meetings] == [
+        ("council", 7, "1"), ("council", "7-supplemental", "3")]
+
+
+def test_full_council_skips_routine_items_and_follows_committee_items(tmp_path):
+    committee_item = tmp_path / "items" / "council-plum" / "2026" / "council-plum-2026-09-22-18500-2.json"
+    committee_item.parent.mkdir(parents=True)
+    committee_item.write_text(json.dumps({
+        "id": "council-plum-2026-09-22-18500-2", "meeting_date": "2026-09-22",
+        "text": "[Council File 25-0774; CD 15]\nDepartment of City Planning report"}))
+    meeting = {"body": "council", "date": date(2026, 10, 6), "meeting_id": 2700, "portal": council.PORTAL, "agenda_url": "A"}
+    items = council.meeting_items(meeting, (FIXTURES / "council-2026-10-06.html").read_bytes(), tmp_path)
+    by_file = {re.match(r"\[Council File ([^;\]]+)", i["text"]).group(1): i for i in items}
+    assert by_file["25-0774"]["follows"] == "council-plum-2026-09-22-18500-2"
+    assert council.follow_url(by_file["25-0774"]) is None  # the committee item records Council's action
+    assert "follows" not in by_file["26-1370"]  # a district's motion, straight to Council
+    assert council.follow_url(by_file["26-1370"])
+    assert "26-1368" not in by_file  # funding a district's World End Polio Day recognition
+    assert council.SKIP_COUNCIL_ITEM.search("The City Council may recess to Closed Session, pursuant to Government Code")
+    assert council.LIEN_FILE.match("26-0160-S75")
 
 
 def test_revised_agendas_count():

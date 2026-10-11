@@ -7,7 +7,7 @@ title: What Tracking LA Watches
 Tracking LA follows the City bodies that decide what gets built, paved, planted and funded:
 
 - **City commissions**, below, sorted into tiers by the kind of power they hold.
-- **City Council committees** ([below](#city-council-committees)), and the department [report backs](report-backs.html) their motions ask for.
+- **City Council and its committees** ([below](#city-council-and-its-committees)), and the department [report backs](report-backs.html) their motions ask for.
 - **Metro**'s Board ([below](#not-city-commissions-but-the-city-appoints-members)).
 - New City Planning [case filings](https://planning.lacity.gov/resources/case-reports/recent-case-filings): applications as they're filed, including those a Zoning Administrator or the Planning Director decides without a commission.
 - StreetsLA [tree removal postings](https://permits.streets.lacity.gov/treepostings/public/pending_postings.cfm), which lead to Public Works tree hearings.
@@ -97,9 +97,9 @@ These make recommendations to the Mayor, Council or a General Manager. They can 
 | Commission on the Status of Women | Women's issues | [civilandhumanrights.lacity.org](https://civilandhumanrights.lacity.org/commissions/commission-status-women) | — |
 | ULA Citizen Oversight Committee | Measure ULA spending | [ulacoc.org](https://www.ulacoc.org/) | — |
 
-## City Council committees
+## City Council and its committees
 
-Not commissions, but where Council matters are worked out before a Council vote. A committee's action is a recommendation to Council. Agendas are on the City Clerk's [PrimeGov portal](https://lacity.primegov.com/public/portal); each item's Council File, with its full history and Council votes, is on [Clerk Connect](https://cityclerk.lacity.org/lacityclerkconnect/). Full Council meetings aren't watched yet; Council's actions on matters from watched committees come through Clerk Connect.
+The committees are where Council matters are worked out before a Council vote. A committee's action is a recommendation to Council. Agendas are on the City Clerk's [PrimeGov portal](https://lacity.primegov.com/public/portal); each item's Council File, with its full history and Council votes, is on [Clerk Connect](https://cityclerk.lacity.org/lacityclerkconnect/). Full Council agendas are watched too, except closed sessions, nuisance-abatement liens and motions funding a district's events or recognitions. A Council File that came through a watched committee isn't summarized again: its Council agenda item carries the committee item's summary, and Council's vote is recorded on the committee item.
 
 | Committee | Covers | Watched |
 |---|---|---|
@@ -110,7 +110,8 @@ Not commissions, but where Council matters are worked out before a Council vote.
 | Housing (formerly part of Housing and Homelessness) | Housing policy and programs | ✓ agendas + decisions |
 | Homelessness and Health | Homelessness and health programs | ✓ agendas + decisions |
 | Energy and Environment | Urban forest and street trees, climate, DWP, sanitation and waste | ✓ agendas + decisions |
-| Other committees, and full Council | | — |
+| Full Council | Everything that reaches a Council vote | ✓ agendas (most items) + decisions |
+| Other committees | | — |
 
 Motions on these committees' Council Files often instruct a department to report back, sometimes within a deadline. Those requests, and whether the report has been filed, are in the [report backs table](report-backs.html).
 

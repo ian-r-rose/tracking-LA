@@ -1,0 +1,32 @@
+{
+  "id": "council-2026-10-13-17727-10",
+  "body": "council",
+  "meeting_date": "2026-10-13",
+  "item_number": "10",
+  "title": "CD 1, CD 2",
+  "text": "[Council File 26-1157]\n[Items for which Public Hearings Have Been Held]\nCD 1, CD 2\nHOUSING COMMITTEE REPORT relative to amending the terms of the loan agreements with Los Angeles Family Housing for affordable housing projects Strong Residence and Harmony Place Apartments.\nRecommendations for Council action:\nAUTHORIZE the General Manager, Housing Department (LAHD), or designee, to negotiate and execute all documents required for Strong Residence and Harmony Place Apartments.\nREQUEST the City Attorney to prepare all necessary documents including, but not limited to, a recasting of project debt and a new loan agreement (and/or amendments and restatements of any necessary existing documents) to preserve and support affordable housing units at:\nThe Strong Residence property by establishing a new loan maturity date up through and including June 10, 2045.\nThe Harmony Place Apartments property by establishing a new loan maturity date up through and including September 19, 2040 and updating the reserve requirements to be consistent with current LAHD standards.\nAUTHORIZE any other technical adjustments to the loan agreement and other documents as deemed necessary by the City Attorney to implement the changes outlined in this report.\nFiscal Impact Statement:\nThe LAHD reports that there is no impact to the General Fund. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - OCTOBER 19, 2026\n(LAST DAY FOR COUNCIL ACTION - OCTOBER 16, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1157",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b1cba189-a6ce-4b8f-be79-8501b6417fc8",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d894be5-3cbc-4ff2-b732-bcc13217759f"
+  ],
+  "follows": "council-housing-2026-10-07-22707-3",
+  "summary": "The city would change the terms of its loans to Los Angeles Family Housing for two affordable apartment projects in Districts 1 and 2.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Strong Residence"
+    },
+    {
+      "text": "Harmony Place Apartments"
+    }
+  ],
+  "details": {
+    "council_file": "26-1157",
+    "action": "amendment"
+  }
+}

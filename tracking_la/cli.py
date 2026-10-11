@@ -21,7 +21,7 @@ from tracking_la.geo import Geocoder, Neighborhoods, Places, build_places
 from tracking_la.score import candidates
 from tracking_la.site import build as build_site
 from tracking_la.sources import SOURCES, Source
-from tracking_la.store import DATA, upsert_item
+from tracking_la.store import DATA, carry_over, upsert_item
 
 # The Planning server takes ~9s per request regardless of size, so download a few at a time.
 CONCURRENT_DOWNLOADS = 4
@@ -220,6 +220,16 @@ def locate() -> None:
         print(f"  near {', '.join(hits)}: {item_id}  {text}  [{hood}]")
 
 
+def carry() -> None:
+    carried = 0
+    for path in sorted((DATA / "items").rglob("*.json")):
+        item = json.loads(path.read_text())
+        if (new := carry_over(item)) is not item:
+            path.write_text(json.dumps(new, indent=2, ensure_ascii=False) + "\n")
+            carried += 1
+    print(f"{carried} item(s) took the extraction of the item they follow")
+
+
 def la_today() -> str:
     """Digests are dated in LA time; the routine's machine runs on UTC."""
     return datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()
@@ -292,6 +302,7 @@ def main() -> None:
     p = sub.add_parser("decisions", help="List recorded outcomes not yet reported in a digest")
     p.add_argument("--date", default=la_today(), help="Digest date; outcomes already in it are listed too (default: today in LA)")
     sub.add_parser("check", help="Validate item files (run after extraction)")
+    sub.add_parser("carry", help="Give items that follow an extracted item its extraction (run after extraction)")
     sub.add_parser("canary", help="Check against the live sites that every source still lists meetings and parses items")
     sub.add_parser("locate", help="Geocode item locations and assign neighborhoods")
     sub.add_parser("build-places", help="Refresh geo/places.json from Rec & Parks data on LA GeoHub")
@@ -329,6 +340,8 @@ def main() -> None:
             problems = canary.run(client)
         print(f"{problems} source(s) with problems" if problems else "all sources OK")
         sys.exit(1 if problems else 0)
+    elif args.command == "carry":
+        carry()
     elif args.command == "check":
         bad = check_all()
         print(f"{bad} file(s) with problems" if bad else "all files OK")

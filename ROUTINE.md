@@ -4,13 +4,13 @@ Instructions for the scheduled Claude Code routine that keeps `data/` up to date
 
 ## 1. Fetched data
 
-The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (09:00 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some City sites. Don't run `tracking-la fetch` or `tracking-la outcomes` here.
+The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (02:17 and 06:43 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some City sites. Don't run `tracking-la fetch` or `tracking-la outcomes` here. If `uv run` hangs (it can, reaching for the package index from this sandbox), use `uv run --offline`.
 
 Check the Fetch commits since the last `Digest` commit (`git log --format='%h %s%n%b' <last digest commit>..HEAD`). If any lists failed sources, name them in the digest's intro (a source that failed once and then succeeded doesn't need a mention). If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary. An `empty:` line means an agenda produced no items, which can be a changed agenda format; mention those in your final summary too, not in the digest. A `fallback:` line means Rec & Parks' site refused the fetch and its agendas came from ens.lacity.org, without minutes or extra documents; mention it in your final summary.
 
 ## 2. Extract (Haiku subagents)
 
-Find item files under `data/items/` that have no `summary` field. Split them into batches of about 15 and give each batch to a subagent running `haiku`, with the instructions below.
+Find item files under `data/items/` that have no `summary` field, leaving out those with a `follows` field (a full Council item on a committee item's Council File): they take the committee item's extraction. Split them into batches of about 15 and give each batch to a subagent running `haiku`, with the instructions below.
 
 > For each item JSON file listed, read the `text` field and add these fields to the file. Leave every existing field unchanged and keep the file valid JSON (2-space indent).
 >
@@ -23,7 +23,7 @@ Find item files under `data/items/` that have no `summary` field. Split them int
 >
 > Don't run any git commands, and don't edit any file other than the item files listed.
 
-Then run `uv run tracking-la check`. It must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent).
+Then run `uv run tracking-la carry`, which gives each item with `follows` the extraction of the item it follows, and `uv run tracking-la check`. Check must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent).
 
 ### Report backs
 
@@ -84,7 +84,8 @@ Agenda items from meetings <Month D> – <Month D, YYYY>, and decisions recorded
 Which decisions to include: every outcome for an item flagged in an earlier digest (marked `*` by `decisions`). For other items, only withdrawals, denials, continuances and split votes, plus anything you'd have listed as an agenda item. Leave out unanimous approvals of routine items. When an item has both a listed agenda entry and a decision, give one bullet with the outcome in it.
 
 Rules:
-- One section per body with anything listed, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, City Council committees (Planning and Land Use Management first), then any others. A committee's action is a recommendation to the full Council; when a decision says what Council did next (adopted, "Council action final"), say so. There's no separate decisions section.
+- One section per body with anything listed, in this order: City Planning Commission, Area Planning Commissions (alphabetical), Cultural Heritage Commission, City Council, City Council committees (Planning and Land Use Management first), then any others. A committee's action is a recommendation to the full Council; when a decision says what Council did next (adopted, "Council action final"), say so.
+- Full Council items (`data/items/council/`) that `follow` a committee item (same Council File) carry that item's summary. List one when `score` says "Council vote on ..., listed in a digest": an upcoming Council vote on something an earlier digest covered, e.g. "**Oct 14** · upcoming · Wilmington — Council votes on the Wilmington-Harbor City Community Plan Update, which PLUM approved Sep 22. [Agenda](...) · [Council File 25-0774](...)". Say what the committee recommended if the Council agenda's recommendations say. Other items that follow a committee item are listed only if you'd have listed the committee item. Items straight to Council (motions, resolutions, appointments, final maps, street lighting districts) are judged like any other agenda item. There's no separate decisions section.
 - Within a section, every `upcoming` bullet comes before any past one: upcoming items soonest first, then past items and decisions newest first.
 - Mark meetings on or after today's date as `upcoming`. Don't describe outcomes of past meetings unless an item or a recorded decision says what was decided.
 - Don't refer to earlier or later digests ("first", "this time", "since last time", "as reported earlier"). Each digest should read the same way whenever it's generated. If a decision contradicts how an item was described before (e.g. it was withdrawn), state the outcome plainly.

@@ -11,7 +11,7 @@ import yaml
 
 from tracking_la import digested as digested_csv
 from tracking_la.geo import Neighborhoods
-from tracking_la.store import DATA
+from tracking_la.store import DATA, followed_item
 
 INTERESTS = DATA.parent / "config" / "interests.yaml"
 
@@ -54,6 +54,9 @@ def candidates(root: Path = DATA, interests: dict | None = None, digest_date: st
         if "summary" not in item or digested.get((item["id"], ""), digest_date) != digest_date:
             continue
         points, reasons = score_item(item, interests, hoods)
+        if (earlier := followed_item(item, root)) and earlier.get("flag"):
+            points += interests["follows_listed"]
+            reasons.insert(0, f"Council vote on {earlier['id']}, listed in a digest")
         ranked.append({"score": points, "reasons": reasons, "path": str(path.relative_to(root.parent)), **item})
     ranked.sort(key=lambda c: c["meeting_date"], reverse=True)
     ranked.sort(key=lambda c: c["score"], reverse=True)  # stable: newest first within a score

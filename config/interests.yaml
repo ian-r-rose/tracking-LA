@@ -37,3 +37,6 @@ neighborhoods:
 in_neighborhood: 4
 nearby: 2
 nearby_km: 1.0
+
+# Points for a full Council item on a Council File whose committee item was listed in a digest.
+follows_listed: 6

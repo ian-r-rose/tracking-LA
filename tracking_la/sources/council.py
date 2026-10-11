@@ -1,7 +1,15 @@
-"""City Council committees, from the City Clerk's PrimeGov portal.
+"""City Council and its committees, from the City Clerk's PrimeGov portal.
 
 Committees are where Council matters are discussed before going to full Council; a
-committee's action is a recommendation to Council. Agendas use the same PrimeGov HTML
+committee's action is a recommendation to Council.
+
+Full Council passes nearly everything in batches, a section per roll call, unless an
+item is called "special"; there's no consent marker on an item. Its agendas skip
+closed sessions, nuisance-abatement liens (the -0160-S series of Council Files) and
+motions funding a district's events and recognitions. An item whose Council File was
+on a watched committee's agenda `follows` that committee item: it carries over the
+committee item's extraction instead of being extracted again, and isn't followed for
+a decision itself, since the committee item records Council's action. Agendas use the same PrimeGov HTML
 as Public Works (tracking_la.sources.primegov). Committees are selected by PrimeGov's
 committee id, because their names change (Housing and Homelessness split in two in
 2026; Arts and Parks has been renamed twice).
@@ -13,14 +21,17 @@ every step, including what full Council did after the committee, and whose Counc
 Vote Information has roll calls by member.
 """
 
+import json
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
+from pathlib import Path
 
 import httpx
 from bs4 import BeautifulSoup
 
 from tracking_la.outcomes import normalize_status
 from tracking_la.sources import primegov
+from tracking_la.store import DATA
 
 PORTAL = "https://lacity.primegov.com"
 CLERK_CONNECT = "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber={}"
@@ -35,10 +46,23 @@ COMMITTEES = {
     2: "council-housing",
     121: "council-homelessness",  # Homelessness and Health
     49: "council-environment",  # Energy and Environment
+    1: "council",  # full City Council
 }
 
+# Full Council has met with a regular agenda plus supplemental, special or continuation
+# ones; only a few days back, since what it did comes from Clerk Connect, not agendas.
+COUNCIL_LOOKBACK = timedelta(days=3)
+
+SKIP_COUNCIL_ITEM = re.compile(
+    r"may recess to Closed Session"
+    r"|relative to funding for (services in connection with|.*\b(celebration|recognition|observation|commemoration)\b)",
+    re.I,
+)
+LIEN_FILE = re.compile(r"^\d{2}-0160-S\d+$")  # nuisance-abatement liens
+
 # A meeting's HTML agenda, by the name PrimeGov gives its template; a revision replaces the original.
-AGENDA_TEMPLATES = ("HTML Revised Special Agenda", "HTML Revised Agenda", "HTML Special Agenda", "HTML Agenda")
+AGENDA_TEMPLATES = ("HTML Revised Special Agenda", "HTML Revised Agenda", "HTML Agenda", "HTML Special Agenda")
+COUNCIL_EXTRA_AGENDAS = ("Supplemental", "Special", "Continuation")
 
 COUNCIL_FILE = re.compile(r"^\d{2}-\d{4}(-S\d+)?$")
 # Of an item's attachments (the whole Council File's documents, often dozens), link these.
@@ -50,6 +74,19 @@ def council_file_url(number: str) -> str:
     return CLERK_CONNECT.format(number)
 
 
+def agenda_documents(m: dict, body: str) -> list[tuple[str | None, dict]]:
+    """(kind, document) for a meeting's HTML agendas: one, plus full Council's extra ones."""
+    templates = {d["templateName"].strip(): d for d in m["documentList"]}
+    main = next((templates[t] for t in AGENDA_TEMPLATES if t in templates), None)
+    documents = [(None, main)] if main else []
+    if body == "council":
+        for kind in COUNCIL_EXTRA_AGENDAS:
+            doc = templates.get(f"HTML Revised {kind} Agenda") or templates.get(f"HTML {kind} Agenda")
+            if doc and doc is not main:
+                documents.append((kind.lower(), doc))
+    return documents
+
+
 def parse_meetings(raw: list[dict]) -> list[dict]:
     meetings, seen = [], set()
     for m in raw:
@@ -58,25 +95,26 @@ def parse_meetings(raw: list[dict]) -> list[dict]:
         # "SAP" meetings are the Spanish-language duplicates of each agenda.
         if not body or "CANCEL" in title or re.search(r"\bSAP\b", title) or m["id"] in seen:
             continue
-        templates = {d["templateName"]: d for d in m["documentList"]}
-        doc = next((templates[t] for t in AGENDA_TEMPLATES if t in templates), None)
-        if not doc:
-            continue
         seen.add(m["id"])
-        meetings.append(
-            {
-                "body": body,
-                "date": datetime.fromisoformat(m["dateTime"]).date(),
-                "meeting_id": m["id"],
-                "portal": PORTAL,
-                "agenda_url": f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={doc['id']}",
-            }
-        )
+        for kind, doc in agenda_documents(m, body):
+            meetings.append(
+                {
+                    "body": body,
+                    "date": datetime.fromisoformat(m["dateTime"]).date(),
+                    "meeting_id": f"{m['id']}-{kind}" if kind else m["id"],
+                    "portal": PORTAL,
+                    "agenda_url": f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={doc['id']}",
+                }
+            )
     return meetings
 
 
 def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
-    return [m for m in parse_meetings(primegov.portal_meetings(PORTAL, start, end, client)) if start <= m["date"] <= end]
+    council_start = max(start, date.today() - COUNCIL_LOOKBACK)
+    return [
+        m for m in parse_meetings(primegov.portal_meetings(PORTAL, start, end, client))
+        if (council_start if m["body"] == "council" else start) <= m["date"] <= end
+    ]
 
 
 def _short(text: str, limit: int = 160) -> str:
@@ -84,7 +122,19 @@ def _short(text: str, limit: int = 160) -> str:
     return text if len(text) <= limit else text[: limit - 3].rsplit(" ", 1)[0] + "…"
 
 
-def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
+def committee_items(root: Path = DATA) -> dict[str, list[tuple[str, str]]]:
+    """(meeting date, item id) of watched committees' items, by Council File."""
+    found = {}
+    for path in (root / "items").glob("council-*/*/*.json"):
+        item = json.loads(path.read_text())
+        if m := re.match(r"\[Council File ([^;\]]+)", item["text"]):
+            found.setdefault(m.group(1), []).append((item["meeting_date"], item["id"]))
+    return found
+
+
+def meeting_items(meeting: dict, agenda_html: bytes, root: Path = DATA) -> list[dict]:
+    council = meeting["body"] == "council"
+    followed = committee_items(root) if council else {}
     items = []
     for number, text, attachments in primegov.html_items(meeting, agenda_html):
         lines = [l for l in text.splitlines() if not re.fullmatch(r"-+", l)]  # stands in for a missing Council File
@@ -92,20 +142,24 @@ def meeting_items(meeting: dict, agenda_html: bytes) -> list[dict]:
         if section == "[ITEM(S)]":  # the heading of most committee agendas' only section
             section = None
         council_file = lines.pop(0) if lines and COUNCIL_FILE.match(lines[0]) else None
-        district = lines.pop(0) if lines and re.fullmatch(r"CD \d{1,2}", lines[0]) else None
+        district = lines.pop(0) if lines and re.fullmatch(r"CDs? [\d, ]+", lines[0]) else None
+        if council and (SKIP_COUNCIL_ITEM.search(lines[0] if lines else text) or LIEN_FILE.match(council_file or "")):
+            continue
         header = "; ".join(p for p in (f"Council File {council_file}" if council_file else None, district) if p)
         documents = [url for name, url in attachments if KEY_DOCUMENT.match(name)][:MAX_DOCUMENTS]
-        items.append(
-            {
-                "id": f"{meeting['body']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number}",
-                "body": meeting["body"],
-                "meeting_date": meeting["date"].isoformat(),
-                "item_number": number,
-                "title": _short(lines[0] if lines else text),
-                "text": "\n".join(p for p in (f"[{header}]" if header else None, section, *lines) if p),
-                "urls": [meeting["agenda_url"], *([council_file_url(council_file)] if council_file else []), *documents],
-            }
-        )
+        item = {
+            "id": f"{meeting['body']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number}",
+            "body": meeting["body"],
+            "meeting_date": meeting["date"].isoformat(),
+            "item_number": number,
+            "title": _short(lines[0] if lines else text),
+            "text": "\n".join(p for p in (f"[{header}]" if header else None, section, *lines) if p),
+            "urls": [meeting["agenda_url"], *([council_file_url(council_file)] if council_file else []), *documents],
+        }
+        earlier = [c for c in followed.get(council_file, []) if c[0] <= item["meeting_date"]]
+        if earlier:
+            item["follows"] = max(earlier)[1]
+        items.append(item)
     return items
 
 
@@ -162,4 +216,6 @@ def council_file_outcome(html: str, url: str, since: date | None = None) -> dict
 
 
 def follow_url(item: dict) -> str | None:
+    if item.get("follows"):  # the committee item it follows records Council's action
+        return None
     return next((u for u in item["urls"] if u.startswith(CLERK_CONNECT.split("?")[0])), None)

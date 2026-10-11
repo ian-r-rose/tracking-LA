@@ -1,0 +1,40 @@
+{
+  "id": "council-2026-10-13-17727-2",
+  "body": "council",
+  "meeting_date": "2026-10-13",
+  "item_number": "2",
+  "title": "CATEGORICAL EXEMPTION and PUBLIC WORKS COMMITTEE REPORT relative to the vacation of Turner Street from Alameda Street to Temple Street, VAC-E1401333 (Vacation).",
+  "text": "[Council File 18-0195; CD 14]\n[Items Noticed for Public Hearing]\nCATEGORICAL EXEMPTION and PUBLIC WORKS COMMITTEE REPORT relative to the vacation of Turner Street from Alameda Street to Temple Street, VAC-E1401333 (Vacation).\nRecommendations for Council action:\nFIND that the Vacation is exempt from the California Environmental Quality Act of 1970, pursuant to Article III, Class 5(3) of the City's Environmental Guidelines.\nFIND that the street vacation proceedings pursuant to the Public Streets, Highways and Service Easements Vacation Law be instituted for the vacation of the public right-of-way indicated below and shown on the map of the July 29, 2026 City Engineer report, attached to the Council file:\nTurner Street from Alameda Street to Temple Street.\nFIND that there is a public benefit to the Vacation. Upon vacation of the street, the City is relieved of its ongoing obligation to maintain the street. In addition, the City is relieved of any potential liability that might result from continued ownership of the involved street easements.\nFIND that the Vacation is in substantial conformance with the purposes, intent and provisions of the General Plan, in conformance with Section 556 of the City Charter.\nFIND that the Vacation is not necessary for non-motorized transportation facilities, in conformance with Section 892 of the California Streets and Highways Code.\nFIND that the Vacation is not necessary for present or prospective public use, in conformance with Section 8324 of the California Streets and Highways Code.\nADOPT said City Engineer's report with the conditions contained therein.\nFiscal Impact Statement:\nThe City Engineer reports that the petitioner has paid a fee of $47,100 for the investigation of this request pursuant to Section 7.42 of the Los Angeles Administrative Code (LAAC). Any deficit fee to recover the cost pursuant to Section 7.44 of the LAAC will be required of the petitioner. Maintenance of the public easement by City forces will be eliminated.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0195",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=75f5e656-9d68-4d8a-812c-84a60a964ff1",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cac94595-46c8-4f1b-a70d-a500515985da",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0f1259b-21bf-464d-beaf-a6e0c34ce7d6",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d04c30cf-77d6-4580-bbe5-17c4c6173e00",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f45951b1-a006-4260-9e91-483be192d583"
+  ],
+  "follows": "council-public-works-2026-09-08-18623-10",
+  "summary": "Vacation of Turner Street from Alameda Street to Temple Street re-initiation in Council District 14",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Turner Street & Alameda Street, Los Angeles, CA",
+      "lat": 34.050546,
+      "lon": -118.238072,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "Turner Street & Temple Street, Los Angeles, CA",
+      "lat": 34.05051,
+      "lon": -118.236632,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "18-0195",
+    "council_district": 14
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "council-2026-10-16-23773-6",
+  "body": "council",
+  "meeting_date": "2026-10-16",
+  "item_number": "6",
+  "title": "TRANSPORTATION COMMITTEE REPORT relative to traffic safety in and around the intersection of 60th Street and 10th Avenue.",
+  "text": "[Council File 26-1374; CD 8]\n[Items for which Public Hearings Have Been Held]\nTRANSPORTATION COMMITTEE REPORT relative to traffic safety in and around the intersection of 60th Street and 10th Avenue.\nRecommendation for Council action, pursuant to Motion (Harris-Dawson – Hutt):\nINSTRUCT the Los Angeles Department of Transportation, working with the City Administrative Officer (CAO), to report within 14 days with the following:\nA traffic safety assessment of the intersection of 60th Street and 10th Avenue, as well as the residential segment along 60th Street adjacent to the intersection\nOptions for appropriate permanent and/or temporary traffic calming measures at the intersection of 60th Street and 10th Avenue, including but not limited to:\nIncreased signage\nUpdated striping\nSpeed humps\nThe identification of potential funding options for any of the identified traffic calming measures.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted.",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91655",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1374",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5af6679b-c2a3-497e-9418-4cc795e4c8ab"
+  ],
+  "follows": "council-transportation-2026-10-07-22716-7",
+  "summary": "City motion to improve traffic safety at the intersection of 60th Street and 10th Avenue.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "60th Street & 10th Avenue, Los Angeles, CA",
+      "lat": 33.985422,
+      "lon": -118.328594,
+      "neighborhood": "Hyde Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-1374",
+    "council_district": 9,
+    "action": "motion on traffic safety"
+  }
+}

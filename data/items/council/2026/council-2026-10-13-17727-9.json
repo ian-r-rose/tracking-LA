@@ -1,0 +1,31 @@
+{
+  "id": "council-2026-10-13-17727-9",
+  "body": "council",
+  "meeting_date": "2026-10-13",
+  "item_number": "9",
+  "title": "CATEGORICAL EXEMPTION and ARTS, PARKS, AND CITY FACILITIES COMMITTEE REPORT relative to proposed Agreement with Rancho Preschool Inc. for the operation of a…",
+  "text": "[Council File 26-1162; CD 5]\n[Items for which Public Hearings Have Been Held]\nCATEGORICAL EXEMPTION and ARTS, PARKS, AND CITY FACILITIES COMMITTEE REPORT relative to proposed Agreement with Rancho Preschool Inc. for the operation of a recreational child development and preschool program at Cheviot Hills Recreation Center located at 2551 Motor Avenue.\nRecommendations for Council action:\nDETERMINE that the proposed action is categorically exempt from the provisions of the California Environmental Quality Act (CEQA) pursuant to Article III, Section 1, Class 1(14) [Issuance of a license to use an existing structure involving negligible or no expansion of use] of City CEQA Guidelines; and, Article 19, Section 15301 of California CEQA Guidelines.\nAPPROVE the proposed Agreement with Rancho Preschool Inc. (Organization), a California non-profit corporation, setting forth the terms and conditions for the operation of a recreational child development and preschool program during the academic season at the Cheviot Hills Aquatic building, within the Cheviot Hills Recreation Center located at 25551 Motor Avenue, substantially in the form included as Attachment 1 of the Board of Recreation and Park Commissioners (Board) report dated August 20, 2026, attached to the Council file, subject to approval of the City Attorney as to form.\nAUTHORIZE the President and Secretary, Board, to execute the Agreement subsequent to all necessary approvals.\nAUTHORIZE the Department of Recreation and Parks (RAP) to make any necessary technical changes consistent with the Board’s intent in approving the proposed Agreement.\nFiscal Impact Statement:\nThe Board reports that the proposed Agreement will have no adverse fiscal impact on the RAP's General Fund, as the Organization is a self-sustaining program, and operational and program costs will be covered by the Organization.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - OCTOBER 19, 2026\n(LAST DAY FOR COUNCIL ACTION - OCTOBER 16, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1162",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c64a8204-c0ff-4567-be20-f21e17ac2b83",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e216a41c-abfb-4d53-8944-02ae6bfb85d0"
+  ],
+  "follows": "council-arts-parks-2026-10-07-20685-8",
+  "summary": "Agreement with Rancho Preschool Inc. for operating a recreational child development and preschool program at Cheviot Hills Recreation Center.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "2551 Motor Avenue, Los Angeles, CA",
+      "lat": 34.046485,
+      "lon": -118.407845,
+      "neighborhood": "Cheviot Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-1162",
+    "council_district": 5
+  }
+}

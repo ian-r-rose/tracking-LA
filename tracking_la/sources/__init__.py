@@ -56,7 +56,7 @@ SOURCES = [
         follow_outcome=lambda html, url, item: planning_cases.case_outcome(html, url), follow_days=30,
     ),
     Source(
-        "council committees", council.list_meetings, council.meeting_items,
+        "city council", council.list_meetings, council.meeting_items,
         # Matters reach full Council weeks after the committee, so keep following longer.
         # Only actions from the item's meeting on: a Council File may have been decided before.
         follow_url=council.follow_url,
