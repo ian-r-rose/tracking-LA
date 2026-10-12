@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91641",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=15-0989-S72",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=44619bfb-f662-4557-8bf5-28a49d71426f"
-  ]
+  ],
+  "summary": "Motion asking the city administrative office and legislative analyst to report on a plan for encampment resolution and unhoused outreach and housing placement during the 2028 Olympic and Paralympic Games.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "15-0989-S72",
+    "action": "motion requesting report"
+  }
 }

@@ -8,5 +8,15 @@
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91685",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1334"
-  ]
+  ],
+  "summary": "Council takes up the implementation strategy for the Fiscal Year 2026-27 Clean Corridors Program, a joint effort of Street Services, Sanitation and General Services.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1334",
+    "bureau": "Bureau of Street Services, Bureau of Sanitation",
+    "action": "implementation strategy report"
+  }
 }

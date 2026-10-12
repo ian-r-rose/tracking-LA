@@ -9,5 +9,18 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91665",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-1083-S2",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=88429cce-2a50-4421-9241-6d0983b9f5c9"
-  ]
+  ],
+  "summary": "Motion directing Planning to bring technical amendments to speed up approvals of projects under state Senate Bill 79, aligned with Missing Middle LA, and asking for a broader implementation strategy with Building and Safety.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1083-S2",
+    "action": "motion directing amendments and implementation report"
+  },
+  "flag": {
+    "reason": "Citywide land use rules for transit-area housing."
+  }
 }

@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0002-S133",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f1bef6a-f600-47ed-9db9-1146488f5589",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a45c8400-9c53-4635-b01e-6e7883fbac66"
-  ]
+  ],
+  "summary": "Council is asked to support state Assembly Bill 1569, which would require the state education department to create a standardized e-bike safety and training program for students in grades 7 to 12.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0002-S133",
+    "action": "support of state legislation"
+  }
 }

@@ -16,5 +16,15 @@
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0274-S3",
     "vote": "12-0-3",
     "recorded": "2026-10-10"
+  },
+  "summary": "Motion to refund the Affordable Housing Linkage Fee for a construction project that was never completed and never received a Certificate of Occupancy.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "17-0274-S3",
+    "action": "fee refund motion"
   }
 }

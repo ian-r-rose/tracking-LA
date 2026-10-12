@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5240-SE\nAddress: 423 N HOOVER ST A-D\nFiled: 2026-10-08\nCouncil district: 13\nCommunity plan area: Wilshire\nDescription: The  Community Care Expansion (CCE) Capital Expansion grant award for the Gateways Hospital and Mental Health Center.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5240-SE"
-  ]
+  ],
+  "summary": "Approval of a Community Care Expansion capital grant for the Gateways Hospital and Mental Health Center at 423 N Hoover St in Wilshire. The application has been filed and is not yet decided.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "423 N Hoover St, Los Angeles, CA",
+      "lat": 34.078511,
+      "lon": -118.284487,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5240-SE"
+    ],
+    "council_district": 13,
+    "plan_area": "Wilshire",
+    "action": "grant award (Community Care Expansion capital)"
+  },
+  "flag": {
+    "reason": "Filing in East Hollywood, a watched neighborhood."
+  }
 }

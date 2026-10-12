@@ -8,5 +8,13 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1791",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1791&meta_id=80901"
-  ]
+  ],
+  "summary": "Extends a legal services contract with Theodora Oringher for two more years, to July 17, 2029, covering LAWA's public contracting and construction litigation work.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "contract term extension"
+  }
 }

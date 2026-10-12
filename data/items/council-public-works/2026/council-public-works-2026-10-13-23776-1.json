@@ -11,5 +11,15 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0627c3e8-933a-490a-9430-55d1e86ab17d",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=72b06bf2-bbf4-4010-aa98-8c62009e9ff8",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=421dfe1e-8df2-4fc8-8611-280799b88850"
-  ]
+  ],
+  "summary": "Council considers the Bureau of Street Lighting's report on immediate steps to keep streetlight services running and longer-term steps to stabilize the bureau.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0955",
+    "bureau": "Bureau of Street Lighting",
+    "action": "report on immediate and long-term streetlight service actions"
+  }
 }

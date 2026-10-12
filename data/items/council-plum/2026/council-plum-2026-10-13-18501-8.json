@@ -13,5 +13,28 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ed594707-76a6-4913-9286-30470ff62cd7",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0814f683-0c73-4b0e-8245-deedf12c02b0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=52877b52-02e7-4421-a541-ab2c2b4f39b7"
-  ]
+  ],
+  "summary": "Zone change and General Plan amendment to allow a new two-story Los Angeles Fire Department fire station (Station No. 31) on a vacant 35,067 square-foot lot at 16300 West Foothill Boulevard, changing its land use from light industrial to public facilities.",
+  "topics": [
+    "land_use",
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "16300 West Foothill Boulevard, Los Angeles, CA",
+      "lat": 34.319245,
+      "lon": -118.485975,
+      "neighborhood": "Sylmar"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2026-3542-GPA-ZC"
+    ],
+    "council_district": 7,
+    "council_file": "26-0580",
+    "applicant": "Department of Public Works, Bureau of Engineering",
+    "bureau": "Bureau of Engineering",
+    "action": "General Plan amendment and zone change"
+  }
 }

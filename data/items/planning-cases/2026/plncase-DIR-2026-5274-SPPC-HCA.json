@@ -8,5 +8,30 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5274-SPPC-HCA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5275-EAF"
-  ]
+  ],
+  "summary": "A new four-story, 23-unit, 100% affordable apartment building at 1135 N Westmoreland Ave in Hollywood. The application has been filed and is not yet decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "1135 N Westmoreland Ave, Los Angeles, CA",
+      "lat": 34.091791,
+      "lon": -118.287845,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5274-SPPC-HCA",
+      "ENV-2026-5275-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "new case filing"
+  },
+  "flag": {
+    "reason": "Affordable housing filing in East Hollywood, a watched neighborhood."
+  }
 }

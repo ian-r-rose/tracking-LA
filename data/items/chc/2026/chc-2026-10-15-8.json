@@ -7,5 +7,30 @@
   "text": "PROPOSED MONUMENT: CANYON COUNTRY STORE\n\n  CHC-2026-4816-HCM\n  CEQA: ENV-2026-4817-CE  Council District: 4 – Raman\n  Plan Area: Hollywood  Last Day to Act: 10-16-26\n\n  PROPERTY ADDRESS: 2100 – 2108 North Laurel Canyon Boulevard\n\n  REQUESTED ACTIONS:\n  Review of the Historic-Cultural Monument application, pursuant to Los Angeles Administrative Code\n  Section 22.171.10, to determine whether to take the proposed designation of a Monument under\n  consideration.\n\n  Owner:  Canyon Country Corp c/o Davis Shamsa\n\n  Applicant:  Daniela Velazco, Los Angeles Conservancy",
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81550"
-  ]
+  ],
+  "summary": "The Cultural Heritage Commission is deciding whether to take up a proposed historic-cultural monument designation for the Canyon Country Store at 2100–2108 N Laurel Canyon Blvd in Hollywood, on an application from the Los Angeles Conservancy.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2100 N Laurel Canyon Blvd, Los Angeles, CA",
+      "lat": 34.108906,
+      "lon": -118.369694,
+      "neighborhood": "Hollywood Hills West"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CHC-2026-4816-HCM",
+      "ENV-2026-4817-CE"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood",
+    "applicant": "Daniela Velazco, Los Angeles Conservancy",
+    "action": "historic-cultural monument review"
+  },
+  "flag": {
+    "reason": "Proposed monument in Laurel Canyon, near the Hollywood Hills."
+  }
 }

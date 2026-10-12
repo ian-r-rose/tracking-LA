@@ -14,5 +14,63 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=efd1a2d3-b09b-46f7-b756-eff53ac76b53",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=36b17639-637c-4610-97fe-0a46297651f7"
   ],
-  "follows": "council-plum-2026-10-13-18501-14"
+  "follows": "council-plum-2026-10-13-18501-14",
+  "summary": "Kenya Lee's appeal of City Planning's approval of a two-story, 2,283 square-foot wastewater pumping plant and surface parking lot in Venice, which also changes the site's land use designation from residential to public facility.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "128 E Hurricane St, Los Angeles, CA",
+      "lat": 33.975782,
+      "lon": -118.461491,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "133 E Hurricane St, Los Angeles, CA",
+      "lat": 33.976016,
+      "lon": -118.461336,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "139 E Hurricane St, Los Angeles, CA",
+      "lat": 33.976031,
+      "lon": -118.461311,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "3813 S Esplanade, Los Angeles, CA",
+      "lat": 33.976268,
+      "lon": -118.461133,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "3817 S Esplanade, Los Angeles, CA",
+      "lat": 33.976155,
+      "lon": -118.461046,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "3913 S Esplanade W, Los Angeles, CA",
+      "lat": 33.975694,
+      "lon": -118.461251,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "council_file": "26-0734-S1",
+    "council_district": 11,
+    "case_numbers": [
+      "CPC-2024-2010-GPA-ZC-CU3-SPPC-1A",
+      "CPC-2024-2010-GPA-ZC-CU3-SPPC"
+    ],
+    "plan_area": "Ballona Lagoon West Subarea of the Venice Coastal Zone Specific Plan",
+    "applicant": "Department of Public Works (DPW) and LA Sanitation and Environment",
+    "bureau": "Bureau of Engineering",
+    "action": "appeal of City Planning approval of Class 3 Conditional Use Permit and Project Compliance"
+  },
+  "flag": {
+    "reason": "Appeal changing a site's land use designation."
+  }
 }

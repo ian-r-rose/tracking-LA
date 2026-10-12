@@ -12,5 +12,15 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=627aaaf5-3f72-489a-91e7-f1960bbe6f74",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=90c201bc-2ded-4144-b08e-bb1715fa9626",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=118cd711-fb34-430c-9f9e-0d737bd0b344"
-  ]
+  ],
+  "summary": "Council is asked to approve reallocating $130,219.42 among American Rescue Plan Act projects and related fund transfers to prepare the program's final grant closeout.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-0211",
+    "action": "reallocation of ARPA funding",
+    "amount": "$130,219.42"
+  }
 }

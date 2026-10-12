@@ -8,5 +8,19 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25144",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=637623cb-b14d-4fef-9b19-92461ef11d18"
-  ]
+  ],
+  "summary": "Board notice of a $290,537.53 stop notice from Asia General Contractors tied to structural steel work at the Hollywood Sanitation Yard.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Sanitation Yard"
+    }
+  ],
+  "details": {
+    "applicant": "Asia General Contractors, Inc.",
+    "amount": "$290,537.53",
+    "action": "stop notice"
+  }
 }

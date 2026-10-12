@@ -9,5 +9,30 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1408",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=33d7150d-3e8a-42f6-bcc3-2c9561c21a54"
-  ]
+  ],
+  "summary": "Council motion to transfer $16,000 from the District 8 trust fund to install speed humps on 60th Street between Crenshaw Boulevard and 8th Avenue.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "60th St & Crenshaw Blvd, Los Angeles, CA",
+      "lat": 33.985404,
+      "lon": -118.330844,
+      "neighborhood": "Hyde Park"
+    },
+    {
+      "text": "60th St & 8th Ave, Los Angeles, CA",
+      "lat": 33.985431,
+      "lon": -118.326461,
+      "neighborhood": "Hyde Park"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "council_file": "26-1408",
+    "action": "funding transfer for speed humps",
+    "amount": "$16,000"
+  }
 }

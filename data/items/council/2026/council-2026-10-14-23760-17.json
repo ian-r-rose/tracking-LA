@@ -10,5 +10,23 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0278",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f47d1b05-7e0f-4abc-8925-7a95e8c08e05",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d3cddac-5c9a-4374-88ff-004296d9cda6"
-  ]
+  ],
+  "summary": "Council motion to fund emergency repairs in Pacific Palisades before forecast El Niño rains, including removing the rest of a concrete staircase near 17570 Posetano Road. It would move about $610,000 from SB1 road funds into a new account for the work.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "17570 Posetano Road, Los Angeles, CA",
+      "lat": 34.04058,
+      "lon": -118.559492,
+      "neighborhood": "Pacific Palisades"
+    }
+  ],
+  "details": {
+    "council_file": "26-0278",
+    "action": "funding motion",
+    "amount": "$596,000 and $13,944.95"
+  }
 }

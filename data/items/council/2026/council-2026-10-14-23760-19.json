@@ -9,5 +9,18 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91679",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0011-S19",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=77c4c860-f36c-44a8-9ca7-ad0b1046151d"
-  ]
+  ],
+  "summary": "Council motion to shift $100,000 from Council District 15's street furniture revenue to the Bureau of Street Services' Urban Forestry Division, for overtime and contract work.",
+  "topics": [
+    "budget",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0011-S19",
+    "council_district": 15,
+    "bureau": "Bureau of Street Services",
+    "action": "funding transfer",
+    "amount": "$100,000"
+  }
 }

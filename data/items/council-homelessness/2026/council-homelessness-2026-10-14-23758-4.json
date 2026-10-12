@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91641",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1151",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a295e8de-badd-4505-b5be-a95ed2aad64b"
-  ]
+  ],
+  "summary": "Motion asking for a strategy to address homelessness among transitional aged youth.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1151",
+    "action": "motion"
+  }
 }

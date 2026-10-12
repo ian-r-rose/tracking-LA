@@ -8,5 +8,20 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-236.pdf"
-  ]
+  ],
+  "summary": "Changes the scope of the O'Melveny Park trail improvement project and commits park fees to it.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "O'Melveny Park",
+      "lat": 34.311141,
+      "lon": -118.521076,
+      "neighborhood": "Granada Hills"
+    }
+  ],
+  "details": {
+    "action": "commitment of park fees; modification of scope of work"
+  }
 }

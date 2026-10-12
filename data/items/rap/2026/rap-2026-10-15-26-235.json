@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-235.pdf"
-  ]
+  ],
+  "summary": "Final acceptance of the restroom installation project at Leimert Plaza Park.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Leimert Plaza Park"
+    }
+  ],
+  "details": {
+    "action": "final acceptance"
+  }
 }

@@ -11,5 +11,23 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3edb1b1a-759f-4354-91f9-0ec612aeb390",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1ba5cd0-c6ac-4997-8618-654170a05831",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=97ba9011-ec81-4ecf-991e-d8eaa5d37fa7"
-  ]
+  ],
+  "summary": "Council is asked to approve the final parcel map for a property at 7262 West Waring Avenue, west of Alta Vista Boulevard.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "7262 W Waring Ave, Los Angeles, CA",
+      "lat": 34.085222,
+      "lon": -118.347789,
+      "neighborhood": "Fairfax"
+    }
+  ],
+  "details": {
+    "council_district": 5,
+    "council_file": "26-1418",
+    "action": "final parcel map approval",
+    "amount": "$16,500.00"
+  }
 }

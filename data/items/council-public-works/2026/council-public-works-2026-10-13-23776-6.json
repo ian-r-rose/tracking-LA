@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91685",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1333",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=216360e3-d3e7-490b-a16c-ec386e44f711"
-  ]
+  ],
+  "summary": "Council asks what resources a citywide program would need to plant and maintain trees in vacant tree wells, accounting for different species' watering needs.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1333",
+    "action": "report on resources needed for tree planting and maintenance program"
+  }
 }

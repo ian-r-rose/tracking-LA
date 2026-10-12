@@ -8,5 +8,14 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1791",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1791&meta_id=80904"
-  ]
+  ],
+  "summary": "Adds $1,011,900 to a wireless voice, data and equipment contract with AT&T Enterprises for Los Angeles World Airports, raising the total to $3,611,900 and extending it two years.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$1,011,900",
+    "action": "contract amendment"
+  }
 }

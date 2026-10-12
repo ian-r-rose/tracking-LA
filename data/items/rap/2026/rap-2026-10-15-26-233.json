@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-233.pdf"
-  ]
+  ],
+  "summary": "Commits and decommits park fees for the Balboa Sports Complex restroom renovation at Sepulveda Basin, and accepts the completed project.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Balboa Sports Complex, Sepulveda Basin Recreation Area"
+    }
+  ],
+  "details": {
+    "action": "commitment and decommitment of park fees; final acceptance"
+  }
 }

@@ -8,5 +8,13 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/information-report-log-vc-numbers-10-15-26.pdf"
-  ]
+  ],
+  "summary": "An informational log of public comments sent to the Recreation and Parks board, each referred to the general manager, on topics such as Macarthur Park fencing and noise at Hansen Dam.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "informational report on referred communications"
+  }
 }

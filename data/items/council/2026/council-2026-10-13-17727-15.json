@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1397",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=779126fa-3c05-4903-9106-1400e7003e28"
-  ]
+  ],
+  "summary": "Council is asked to reactivate and restore an expired council file on a decentralized regional district system for delivering city services to its last legislative status.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1397",
+    "action": "reactivate and restore expired council file"
+  }
 }

@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0001",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fc50784a-3e23-4be4-a0d9-2f42d5576517",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1af5e032-c862-498f-9cd0-6e89d83e50c3"
-  ]
+  ],
+  "summary": "Council motion to move the 2026 winter recess to December 16 through December 30, 2026.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0001",
+    "action": "amend 2026 council recess schedule"
+  }
 }

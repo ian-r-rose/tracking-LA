@@ -8,5 +8,21 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-229.pdf"
-  ]
+  ],
+  "summary": "Approves brush clearance and native plant rehabilitation at Sepulveda Basin Recreation Area by the Los Angeles Conservation Corps, with a CEQA categorical exemption.",
+  "topics": [
+    "parks",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Sepulveda Basin Recreation Area",
+      "lat": 34.17863,
+      "lon": -118.489324,
+      "neighborhood": "Sepulveda Basin"
+    }
+  ],
+  "details": {
+    "action": "approval of brush clearance and native plant rehabilitation"
+  }
 }

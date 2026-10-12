@@ -8,5 +8,20 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-228.pdf"
-  ]
+  ],
+  "summary": "Commits park fees to fencing improvements at Vermont Square Park.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Vermont Square Park",
+      "lat": 34.000355,
+      "lon": -118.297194,
+      "neighborhood": "Vermont Square"
+    }
+  ],
+  "details": {
+    "action": "commitment of park fees"
+  }
 }

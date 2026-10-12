@@ -13,5 +13,30 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bef32053-e71b-40dc-bff4-73a8e8edd7c4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f5e91cb3-4b0e-4764-94db-e6f0409f3dbd",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=36097498-d094-4f2a-943b-17c48694f62b"
-  ]
+  ],
+  "summary": "Council considers the environmental impact report and City Engineer report on vacating portions of Pico Boulevard and LA Live Way, including their subsurface and airspace.",
+  "topics": [
+    "transportation",
+    "environment",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Pico Blvd, Los Angeles, CA"
+    },
+    {
+      "text": "LA Live Way, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "21-0458",
+    "council_district": 9,
+    "case_numbers": [
+      "VAC-E1401376"
+    ],
+    "action": "street vacation (EIR and City Engineer report)"
+  },
+  "flag": {
+    "reason": "Street vacation in Downtown, a watched neighborhood."
+  }
 }

@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91665",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1280",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ffc2ffbb-e875-453e-b820-5fb5efc844c1"
-  ]
+  ],
+  "summary": "Motion asking Building and Safety to report on vacant and public nuisance properties citywide, ranked by public safety risk, and to set out how vacant-building abatement cases are opened.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1280",
+    "action": "report request motion"
+  }
 }

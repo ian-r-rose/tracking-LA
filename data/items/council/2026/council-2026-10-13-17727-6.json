@@ -11,5 +11,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fa874c63-2a73-464d-aff8-22332fcc4db7",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9654d02b-596f-48b4-b8ea-38a9e34f9f06",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc95a10c-a3da-4c04-b652-f06d7f156785"
-  ]
+  ],
+  "summary": "Council is asked to approve the Recreation and Parks Department's 2026-27 project plan for the youth sports partnership with the LA28 organizing committee, paid from a dedicated fund rather than the General Fund, and to request a report on funding youth sports after 2028.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "15-0989-S76",
+    "action": "approval of project plan"
+  }
 }

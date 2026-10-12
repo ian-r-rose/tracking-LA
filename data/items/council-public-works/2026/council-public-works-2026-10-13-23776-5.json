@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91685",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1332",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1abb90b-1028-4365-a210-9c3ca518f486"
-  ]
+  ],
+  "summary": "Council asks whether the City complies with state law AB 1572, which bars using drinking water to irrigate non-functional turf on most government properties.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1332",
+    "action": "compliance review of state limits on potable water irrigation of non-functional turf"
+  }
 }

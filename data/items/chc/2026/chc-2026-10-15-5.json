@@ -7,5 +7,26 @@
   "text": "MONUMENT: ORIGINAL PANTRY, HISTORIC-CULTURAL MONUMENT #255\n\n  Plan Area: Downtown  Council District: 14 – Jurado\n\n  PROPERTY ADDRESS:  873 – 877 South Figueroa Street;\n  809 – 813 West James M. Wood Boulevard\n\n  Informational presentation on the proposed installation of two digital, rooftop displays on the Monument.\n  Follow-up from July 16, 2026 meeting. Commission review and comment.\n\n  Owner/\n  Applicant:  Pope and Pantry LLC c/o Leo Pustilnikov\n\n  Presenters:  Benjamin Anderson, Office Untitled; and Robert Chattel, Heritage Consulting Group",
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81550"
-  ]
+  ],
+  "summary": "The Cultural Heritage Commission will review and comment on a proposal to add two digital rooftop displays to the Original Pantry, a historic-cultural monument at 873 S Figueroa St downtown.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "873 S Figueroa St, Los Angeles, CA",
+      "lat": 34.046575,
+      "lon": -118.262562,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "plan_area": "Downtown",
+    "applicant": "Pope and Pantry LLC",
+    "action": "informational presentation on proposed rooftop digital displays"
+  },
+  "flag": {
+    "reason": "Historic monument in Downtown, a watched neighborhood."
+  }
 }

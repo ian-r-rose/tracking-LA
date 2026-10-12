@@ -8,5 +8,20 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-230.pdf"
-  ]
+  ],
+  "summary": "Commits park fees to pool improvements at the Roosevelt High School pool.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Roosevelt High School Pool",
+      "lat": 34.039481,
+      "lon": -118.210503,
+      "neighborhood": "Boyle Heights"
+    }
+  ],
+  "details": {
+    "action": "commitment of park fees"
+  }
 }

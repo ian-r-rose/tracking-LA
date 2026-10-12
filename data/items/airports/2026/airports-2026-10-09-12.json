@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1791",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1791&meta_id=80920"
-  ]
+  ],
+  "summary": "Appropriates $30,543,000 for the Terminal 4 concessions project at LAX.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "amount": "$30,543,000",
+    "action": "appropriation"
+  }
 }

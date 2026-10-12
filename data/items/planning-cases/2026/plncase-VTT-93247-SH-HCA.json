@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: VTT-93247-SH-HCA\nAddress: 146 N BERENDO ST\nFiled: 2026-10-08\nCouncil district: 10\nCommunity plan area: Wilshire\nDescription: 8 subdivided homes on a 7,500 Sq. Ft. lot in the R3-1 zone per SB684.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/VTT-93247-SH-HCA"
-  ]
+  ],
+  "summary": "A new application would subdivide a 7,500 sq ft lot at 146 N Berendo St in Wilshire into eight homes under SB 684. The application has been filed and is not yet decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "146 N Berendo St, Los Angeles, CA",
+      "lat": 34.073559,
+      "lon": -118.294124,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "VTT-93247-SH-HCA"
+    ],
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "action": "new case filing"
+  },
+  "flag": {
+    "reason": "Filing in Koreatown, a watched neighborhood."
+  }
 }

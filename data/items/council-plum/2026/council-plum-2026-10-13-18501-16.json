@@ -13,5 +13,33 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e0a0b350-1fe9-4f9c-bf05-2c9e9e3568f1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=88659822-d297-43e2-93b5-ae07fbab6515",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0101bc4a-d6a4-41ed-ab45-a94a86d8581a"
-  ]
+  ],
+  "summary": "Appeal by Studio City Residents Association and Save LA River Open Space of the City Planning Commission's approval of an 814-unit mixed-use project at 12501 to 12665 West Ventura Boulevard, including 46 very low income units and 75,968 square feet of restaurant space.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "12501 West Ventura Boulevard, Los Angeles, CA",
+      "lat": 34.142777,
+      "lon": -118.405273,
+      "neighborhood": "Studio City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-5697-DB-PR-SPPC-MCUP-VHCA-1A",
+      "VTT-84453",
+      "VTT-84453-1A",
+      "VTT-84453-2A"
+    ],
+    "council_district": 4,
+    "council_file": "26-1081-S1",
+    "applicant": "Brett Torino & Eleda Cohen / Studio City Sports Center, LLC",
+    "action": "appeal of Project Review and Project Compliance approvals"
+  },
+  "flag": {
+    "reason": "Large housing project appealed by Save LA River Open Space."
+  }
 }

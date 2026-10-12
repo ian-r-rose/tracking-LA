@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-5253-RBPA\nAddress: 612 N HOOVER ST\nFiled: 2026-10-08\nCouncil district: 13\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5253-RBPA"
-  ]
+  ],
+  "summary": "An administrative clearance under the Restaurant Beverage Program would let a restaurant at 612 N Hoover St in Silver Lake - Echo Park - Elysian Valley sell and serve alcohol for on-site consumption. The application has been filed and is not yet decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "612 N Hoover St, Los Angeles, CA",
+      "lat": 34.081991,
+      "lon": -118.284403,
+      "neighborhood": "Silver Lake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-5253-RBPA"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "administrative clearance (Restaurant Beverage Program)"
+  },
+  "flag": {
+    "reason": "Filing in Silver Lake, a watched neighborhood."
+  }
 }

@@ -7,5 +7,26 @@
   "text": "MONUMENT: PACIFIC’S CINERAMA DOME THEATRE AND MARQUEE, HISTORIC-CULTURAL\n  MONUMENT #659\n\n  Plan Area: Hollywood  Council District: 13 – Soto-Martinez\n\n  PROPERTY ADDRESS:  6360 – 6368 West Sunset Boulevard\n\n  Informational presentation on the proposed rehabilitation project. Commission review and comment.\n\n  Owner:  Dome Center, LLC\n\n  Applicant:  Alamo Drafthouse Cinema\n\n  Presenters:  Debra Gerod, Gruen Associates; Kristin Larson, Sony Pictures; and\n  Oscar Cortez, Alamo Drafthouse Cinema",
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81550"
-  ]
+  ],
+  "summary": "Informational briefing on Alamo Drafthouse's proposed rehabilitation of the Cinerama Dome theatre and marquee on Sunset Boulevard, a Historic-Cultural Monument; the commission is asked only to review and comment.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6360 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.097925,
+      "lon": -118.32784,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "applicant": "Alamo Drafthouse Cinema",
+    "action": "informational presentation on proposed rehabilitation project"
+  },
+  "flag": {
+    "reason": "Historic monument in Hollywood, a watched neighborhood."
+  }
 }

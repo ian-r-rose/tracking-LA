@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1791",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1791&meta_id=80924"
-  ]
+  ],
+  "summary": "Three-year purchase of three aircraft rescue and firefighting vehicles for Los Angeles International Airport from Rosenbauer Minnesota through a Sourcewell contract, for up to $8 million.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "applicant": "Rosenbauer Minnesota LLC",
+    "amount": "$8,000,000",
+    "action": "contract award"
+  }
 }

@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=15-0989-S59",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d9628230-eeb2-4588-b90c-0cc01d5c507f",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d60bf660-846c-4764-9ce0-7f8eebaa3753"
-  ]
+  ],
+  "summary": "Council asks city departments and agencies such as Metro and the County to report within 90 days on contracting opportunities for local, small and underrepresented businesses at non-venue Olympic activations.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "15-0989-S59",
+    "action": "report request on small business procurement"
+  }
 }

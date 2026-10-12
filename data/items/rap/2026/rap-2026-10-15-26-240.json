@@ -7,5 +7,24 @@
   "text": "Los Angeles Equestrian Center – Approval of Proposed Amendment No. 2 to\n  Agreement No. 3947; Categorical Exemption from the Provisions of the\n  California Environmental Quality Act (CEQA) Pursuant to Article 19, Section\n  15301 [Operation, Repair, Maintenance, Permitting, Leasing, Licensing, or Minor\n  Alteration of Existing Public or Private Structures, Facilities, Mechanical\n\n  Equipment, or Topographical Features, Involving Negligible or No Expansion of\n  Existing or Former Use] of California CEQA Guidelines as well as Article III,\n  Section 1, Class 1(14) of City CEQA Guidelines",
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf"
-  ]
+  ],
+  "summary": "Second amendment to an existing agreement covering the Los Angeles Equestrian Center.",
+  "topics": [
+    "parks",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Equestrian Center",
+      "lat": 34.158736,
+      "lon": -118.307983,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "approval of Amendment No. 2 to Agreement No. 3947"
+  },
+  "flag": {
+    "reason": "Agreement at the Equestrian Center in Griffith Park, a watched neighborhood."
+  }
 }

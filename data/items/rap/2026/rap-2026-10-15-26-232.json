@@ -8,5 +8,20 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-232.pdf"
-  ]
+  ],
+  "summary": "Final acceptance of the path-of-travel improvements at Northridge Recreation Center, and release of park fees that had been committed to the project.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Northridge Recreation Center",
+      "lat": 34.253415,
+      "lon": -118.533987,
+      "neighborhood": "Northridge"
+    }
+  ],
+  "details": {
+    "action": "final acceptance; decommitment of park fees"
+  }
 }

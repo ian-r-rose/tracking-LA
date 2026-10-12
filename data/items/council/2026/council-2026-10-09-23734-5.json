@@ -16,5 +16,15 @@
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-1184-S1",
     "vote": "12-0-3",
     "recorded": "2026-10-12"
+  },
+  "summary": "Council approval of a $412,506 increase and two-year extension of the Personnel Department's occupational health management software contract with PureEHS Buyer LLC, bringing total compensation to $1,344,734.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-1184-S1",
+    "action": "contract amendment: increase expenditure authority and extend term",
+    "amount": "$412,506"
   }
 }

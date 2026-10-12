@@ -10,5 +10,23 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1393",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e8ae9777-84b7-40e5-bba7-da1b6dfed978",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=499cbe43-7d2e-4d32-8fac-6f853ebe2783"
-  ]
+  ],
+  "summary": "Council is asked to approve the final parcel map for a property at 13510 West Kittridge Street, west of Greenbush Avenue, along with its subdivision improvement agreement.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "13510 W Kittridge St, Los Angeles, CA",
+      "lat": 34.190247,
+      "lon": -118.427245,
+      "neighborhood": "Valley Glen"
+    }
+  ],
+  "details": {
+    "council_district": 2,
+    "council_file": "26-1393",
+    "action": "final parcel map approval",
+    "amount": "$9,064"
+  }
 }

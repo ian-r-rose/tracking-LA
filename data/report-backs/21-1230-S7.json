@@ -5,5 +5,15 @@
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2021/21-1230-S7_misc_10-15-24.pdf",
   "adopted": null,
   "documents": [],
-  "motion": "I THEREFORE MOVE that the City Council instruct the Planning Department and the Chief Legislative Analyst, with the assistance of the Office of the City Attorney and Housing Department, to report on language that: 1) fully incorporates the labor standards and the affordability requirements of Senate Bill 4, as adopted by the State Legislature, into the Department of City Planning's local implementation of Senate Bill 4 projects and policies, and OCT 1 t 2024 that 2) removes from the Citywide Housing Incentive Program, any local adaption of SB 4's intent so that SB 4 is the only law that governs incentives for by-right development of housing on lands governed by SB 4. PRESENTED BY: ~ Councilmember, 15th District ~ SECONDED BY: OCT 1 t 2024"
+  "motion": "I THEREFORE MOVE that the City Council instruct the Planning Department and the Chief Legislative Analyst, with the assistance of the Office of the City Attorney and Housing Department, to report on language that: 1) fully incorporates the labor standards and the affordability requirements of Senate Bill 4, as adopted by the State Legislature, into the Department of City Planning's local implementation of Senate Bill 4 projects and policies, and OCT 1 t 2024 that 2) removes from the Citywide Housing Incentive Program, any local adaption of SB 4's intent so that SB 4 is the only law that governs incentives for by-right development of housing on lands governed by SB 4. PRESENTED BY: ~ Councilmember, 15th District ~ SECONDED BY: OCT 1 t 2024",
+  "requests": [
+    {
+      "departments": [
+        "Department of City Planning",
+        "Chief Legislative Analyst"
+      ],
+      "asks": "Language fully incorporating SB 4's labor standards and affordability requirements into local implementation, and removing any local version of SB 4's intent from the Citywide Housing Incentive Program.",
+      "deadline": null
+    }
+  ]
 }

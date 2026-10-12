@@ -9,5 +9,16 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1401",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2767708e-d64c-4f24-b8f9-c62620832031"
-  ]
+  ],
+  "summary": "Council is asked to move $200,000 from a CD 13 redevelopment services account to the Sanitation Fund to pay for additional homeless services in Council District 13.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 13,
+    "council_file": "26-1401",
+    "action": "fund transfer for homeless services",
+    "amount": "$200,000"
+  }
 }

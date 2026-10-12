@@ -12,5 +12,16 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=35c3d867-5459-49f8-a854-7b9cb3e53986",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dec7d898-01c3-4d3a-871c-b38ed42f7e50",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1531bd53-96b8-4a19-bf8d-0eeca433963d"
-  ]
+  ],
+  "summary": "Council is asked to authorize a Controller transfer of $45,505 for sworn overtime and $4,495 for related costs to cover the FY 2026-27 Regional Threat Assessment Center grant subaward.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "21-0460-S5",
+    "action": "transfer of funds",
+    "amount": "$45,505 (overtime) and $4,495 (related costs)"
+  }
 }

@@ -13,5 +13,16 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=07f3e4ea-6313-41b5-a9f3-c1c58b7d557e",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=474de6fb-7707-4bf5-9ced-67df30679408",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cdbb8c4e-9501-49f9-a4d6-65cc55493001"
-  ]
+  ],
+  "summary": "Council approval to move $164,693 in FY 2025 Internet Crimes Against Children task force grant funds into overtime and related cost accounts for 2025-26.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0015",
+    "action": "transfer of appropriations for grant award",
+    "amount": "$164,693"
+  }
 }

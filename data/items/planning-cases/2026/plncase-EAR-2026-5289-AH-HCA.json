@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: EAR-2026-5289-AH-HCA\nAddress: 679 S HARVARD BLVD\nFiled: 2026-10-09\nCouncil district: 10\nCommunity plan area: Wilshire\nDescription: Per LAMC 12.22 A. 39 an AHIP project for construction of a new 70,201 square-foot (4.72 FAR), seven-story, 93-foot, one-inch 100% affordable housing development with 114 dwelling units.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/EAR-2026-5289-AH-HCA"
-  ]
+  ],
+  "summary": "A proposed seven-story, 114-unit, 100% affordable housing building at 679 S Harvard Blvd in Wilshire, filed as an AHIP project. The application has been filed and is not yet decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "679 S Harvard Blvd, Los Angeles, CA",
+      "lat": 34.060828,
+      "lon": -118.304242,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "EAR-2026-5289-AH-HCA"
+    ],
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "action": "new AHIP project filing"
+  },
+  "flag": {
+    "reason": "Affordable housing filing in Koreatown, a watched neighborhood."
+  }
 }

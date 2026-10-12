@@ -20,5 +20,19 @@
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0534-S1",
     "vote": "10-0-5",
     "recorded": "2026-10-12"
+  },
+  "summary": "Council action to have the Community Investment Department, rather than another office, oversee the bond-funded Hollywood Walk of Fame public amenities project.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Walk of Fame, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "council_file": "18-0534-S1",
+    "action": "amend project monitoring role for bond-funded project"
   }
 }

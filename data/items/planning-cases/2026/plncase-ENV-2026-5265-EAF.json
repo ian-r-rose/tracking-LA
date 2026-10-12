@@ -7,5 +7,27 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5265-EAF\nAddress: 10740 W VENTURA BLVD\nFiled: 2026-10-08\nCouncil district: 4\nCommunity plan area: Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass\nDescription: Standalone environmental assessment for a haul route in conjunction with a new EV charging parking lot located within the Ventura-Cahuenga Boulevard Corridor SP zoned C2-1VL-RIO and R1-1-RIO.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5265-EAF"
-  ]
+  ],
+  "summary": "A standalone environmental assessment for a haul route serving a new EV charging parking lot at 10740 W Ventura Blvd, within the Ventura-Cahuenga Boulevard Corridor Specific Plan. The application has been filed and is not yet decided.",
+  "topics": [
+    "land_use",
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "10740 W Ventura Blvd, Los Angeles, CA",
+      "lat": 34.138403,
+      "lon": -118.365173,
+      "neighborhood": "Studio City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5265-EAF"
+    ],
+    "council_district": 4,
+    "plan_area": "Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass",
+    "action": "standalone environmental assessment"
+  }
 }

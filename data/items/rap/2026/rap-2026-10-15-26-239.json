@@ -7,5 +7,25 @@
   "text": "Arroyo Seco Park – CD14 Tiny Homes Village Project – Extension of Emergency\n  Use of a Portion of the Park for a Temporary Homeless Shelter Facility for a\n  Period Not to Exceed One Year – Statutory Exemption from the California\n  Environmental Quality Act (CEQA) Pursuant to California Public Resources\n  Code Section 21080.27.5 and Government Code Section 8698.4(a)(4)\n  Applicable to Lease, Conveyance, Encumbrance, Financial Assistance, and\n  Contract to Provide Services for People Experiencing Homelessness",
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf"
-  ]
+  ],
+  "summary": "Extends for up to one year the use of part of Arroyo Seco Park as a temporary homeless shelter tiny homes village in Council District 14.",
+  "topics": [
+    "parks",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Arroyo Seco Park",
+      "lat": 34.1058,
+      "lon": -118.186729,
+      "neighborhood": "Montecito Heights"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "action": "extension of emergency use of park for temporary homeless shelter"
+  },
+  "flag": {
+    "reason": "Use of park land for housing in Arroyo Seco Park."
+  }
 }

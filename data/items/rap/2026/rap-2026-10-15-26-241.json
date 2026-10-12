@@ -7,5 +7,20 @@
   "text": "Griffith Park – Greek Theatre – Amendment To The User Agreement",
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf"
-  ]
+  ],
+  "summary": "Amends the user agreement for the Greek Theatre in Griffith Park; the agenda text does not spell out the changes.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Greek Theatre, Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "amendment to user agreement"
+  },
+  "flag": {
+    "reason": "Agreement at the Greek Theatre in Griffith Park, a watched neighborhood."
+  }
 }

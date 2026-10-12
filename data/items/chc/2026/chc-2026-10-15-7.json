@@ -7,5 +7,30 @@
   "text": "PROPOSED MONUMENT: DYNASTY CENTER\n\n  CHC-2026-4813-HCM\n  CEQA: ENV-2026-4814-CE  Council District: 1 – Hernandez\n  Plan Area: Downtown  Last Day to Act: 10-16-26\n\n  PROPERTY ADDRESS: 800-816 North Broadway; 225-233 West Alpine Street;\n  815-821 North Spring Street\n\n  REQUESTED ACTIONS:\n  Review of the Historic-Cultural Monument application, pursuant to Los Angeles Administrative Code\n  Section 22.171.10, to determine whether to take the proposed designation of a Monument under\n  consideration.\n\n  Owners:  Redcar CT9 Owner, LLC; De Young and Hyon K. Kim\n\n  Applicants:  Calvin Nguyen and Huy Pham, Asian & Pacific Islander Americans in Historic\n  Preservation",
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81550"
-  ]
+  ],
+  "summary": "Cultural Heritage Commission review of an application to designate the Dynasty Center at 800 North Broadway in Downtown as a Historic-Cultural Monument.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "800 N Broadway, Los Angeles, CA",
+      "lat": 34.062363,
+      "lon": -118.238239,
+      "neighborhood": "Chinatown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CHC-2026-4813-HCM",
+      "ENV-2026-4814-CE"
+    ],
+    "council_district": 1,
+    "plan_area": "Downtown",
+    "applicant": "Calvin Nguyen and Huy Pham, Asian & Pacific Islander Americans in Historic Preservation",
+    "action": "Historic-Cultural Monument designation review"
+  },
+  "flag": {
+    "reason": "Proposed monument in Chinatown, a watched neighborhood."
+  }
 }

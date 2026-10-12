@@ -13,5 +13,26 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=486edce6-daa1-43b1-bbf9-3c47ed7446ac",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eeb9c0a7-9036-4c5b-8353-30a33c4689f8"
   ],
-  "follows": "council-plum-2026-10-13-18501-11"
+  "follows": "council-plum-2026-10-13-18501-11",
+  "summary": "Proposal to add the Mary Clay School at 3911 West Adams Boulevard to the city's list of Historic-Cultural Monuments.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3911 W Adams Blvd, Los Angeles, CA",
+      "lat": 34.032678,
+      "lon": -118.327366,
+      "neighborhood": "Jefferson Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-1043",
+    "council_district": 10,
+    "case_numbers": [
+      "CHC-2026-1489-HCM"
+    ],
+    "applicant": "City of Los Angeles",
+    "action": "Historic-Cultural Monument designation"
+  }
 }

@@ -11,5 +11,29 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8fc4f333-9546-497b-ae6e-f8d6bf9904d7",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=45c349eb-2119-4ee3-87a2-bd5a061861c4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0871cc5c-e26d-4e12-82e2-ccea3d750250"
-  ]
+  ],
+  "summary": "Council motion to accept a $100,000 developer payment tied to the Lightstone DTLA project at 1240-1260 South Figueroa Street and deposit it in the CD 14 Public Benefits Trust Fund for blight removal and cleanup.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "1240 S Figueroa St, Los Angeles, CA",
+      "lat": 34.041355,
+      "lon": -118.267289,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "601 W Pico Blvd, Los Angeles, CA",
+      "lat": 34.040158,
+      "lon": -118.266878,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "council_file": "18-0269-S3",
+    "action": "acceptance of developer payment to trust fund",
+    "amount": "$100,000"
+  }
 }

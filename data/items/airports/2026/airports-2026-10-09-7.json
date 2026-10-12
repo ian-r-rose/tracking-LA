@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1791",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1791&meta_id=80910"
-  ]
+  ],
+  "summary": "Awards three-year job order construction contracts to J-Squared General Contractors and Aztecs Telecom for miscellaneous construction at LAX and Van Nuys Airport, up to $6,000,000 combined.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "amount": "$6,000,000",
+    "action": "contract award"
+  }
 }

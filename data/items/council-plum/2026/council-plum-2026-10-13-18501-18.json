@@ -13,5 +13,18 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=590ac814-5154-46e4-93aa-bf6804b3fff7",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6277846d-9d13-4469-bbbd-9da9d9e37750",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4e4c835e-3e4d-4d79-8d8e-5ec38bdd983b"
-  ]
+  ],
+  "summary": "City Planning report on developing a citywide local alternative plan and distributing housing capacity under state Senate Bill 79.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1083",
+    "action": "City Planning report"
+  },
+  "flag": {
+    "reason": "Citywide land use rules for transit-area housing."
+  }
 }

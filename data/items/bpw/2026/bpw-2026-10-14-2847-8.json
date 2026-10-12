@@ -8,5 +8,27 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25144",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=36622e99-b3a3-4e64-b444-35f17069df6f"
-  ]
+  ],
+  "summary": "Approving a permit to remove 12 protected native trees and seven street trees at 23200 West Mulholland Drive, with replacement trees required and a replacement fee authorized because the site cannot fit all replacement street trees.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "23200 West Mulholland Drive, Los Angeles, CA",
+      "lat": 34.152632,
+      "lon": -118.630952,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "bureau": "Bureau of Street Services",
+    "case_numbers": [
+      "CPC-2001-5976-CU-ZV-ZAD-SPR",
+      "ENV-391-1984-CUZ"
+    ],
+    "action": "fee permit to remove trees"
+  }
 }

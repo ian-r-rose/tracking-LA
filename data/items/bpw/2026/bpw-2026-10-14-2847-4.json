@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25144",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e05a66ea-e7e3-4e0d-aed8-dc4c3a7b3b47"
-  ]
+  ],
+  "summary": "Approving a memorandum of understanding with the City of Glendale to support planning, construction, operation and maintenance of the Glendale-Los Angeles Garden River Bridge project, and authorizing its signing.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 4,
+    "bureau": "Bureau of Engineering",
+    "action": "memorandum of understanding"
+  }
 }

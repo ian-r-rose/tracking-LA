@@ -16,5 +16,14 @@
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0299",
     "vote": "15-0-0",
     "recorded": "2026-10-10"
+  },
+  "summary": "Motion asking what rental assistance programs are available to residents of properties owned or administered by the Housing Authority of the City of Los Angeles.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0299",
+    "action": "motion"
   }
 }

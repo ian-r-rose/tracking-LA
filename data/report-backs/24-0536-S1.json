@@ -11,5 +11,23 @@
       "url": "https://cityclerk.lacity.org/onlinedocs/2024/24-0536-S1_rpt_cla_09-23-26.pdf"
     }
   ],
-  "motion": "I THEREFORE MOVE that the Chief Legislative Analyst (CLA) and City Administrative Officer (CAO), with the assistance of HR&A advisors, the Los Angeles Housing Department (LAHD), Los Angeles Homeless Services Authority (LAHSA), and City Controller, report within 15 days on an administrative workout plan to effectuate timely processing of invoices. 1 FURTHER MOVE that the CLA and CAO, with assistance from HR&A advisors, LAHD, and LAHSA, report on progress with the payment of outstanding invoices, including a breakout of outstanding payments by time, status, program, contract number, and funding source. PRESENTED BY. QusZus NIUHYA RAMAN Councilmember, 4th District mamsn SB 2 mfazer B6*,13.3 SECONDED BY: ( dti M*D 13 2026"
+  "motion": "I THEREFORE MOVE that the Chief Legislative Analyst (CLA) and City Administrative Officer (CAO), with the assistance of HR&A advisors, the Los Angeles Housing Department (LAHD), Los Angeles Homeless Services Authority (LAHSA), and City Controller, report within 15 days on an administrative workout plan to effectuate timely processing of invoices. 1 FURTHER MOVE that the CLA and CAO, with assistance from HR&A advisors, LAHD, and LAHSA, report on progress with the payment of outstanding invoices, including a breakout of outstanding payments by time, status, program, contract number, and funding source. PRESENTED BY. QusZus NIUHYA RAMAN Councilmember, 4th District mamsn SB 2 mfazer B6*,13.3 SECONDED BY: ( dti M*D 13 2026",
+  "requests": [
+    {
+      "departments": [
+        "Chief Legislative Analyst",
+        "City Administrative Officer"
+      ],
+      "asks": "An administrative workout plan to effectuate timely processing of invoices.",
+      "deadline": 15
+    },
+    {
+      "departments": [
+        "Chief Legislative Analyst",
+        "City Administrative Officer"
+      ],
+      "asks": "Progress on payment of outstanding invoices, broken out by time, status, program, contract number and funding source.",
+      "deadline": null
+    }
+  ]
 }

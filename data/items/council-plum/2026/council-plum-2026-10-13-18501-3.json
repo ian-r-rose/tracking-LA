@@ -9,5 +9,15 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91665",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-1428-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=981bfdd7-33b5-4733-a8e3-e435a64ed740"
-  ]
+  ],
+  "summary": "Motion asking for a series of reports on the city's Zone 0 policy for properties in the Very High Fire Hazard Severity Zone, including compliance costs and possible exemptions for historic structures.",
+  "topics": [
+    "public_safety",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1428-S1",
+    "action": "motion requesting reports"
+  }
 }

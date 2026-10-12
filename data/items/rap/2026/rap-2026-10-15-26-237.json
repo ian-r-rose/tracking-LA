@@ -8,5 +8,20 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-237.pdf"
-  ]
+  ],
+  "summary": "Accepting donated tennis court improvements at Palisades Recreation Center, funded by the Live Like Braun Foundation, and naming Court No. 1 in honor of Braun Levi.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Palisades Recreation Center",
+      "lat": 34.04235,
+      "lon": -118.524605,
+      "neighborhood": "Pacific Palisades"
+    }
+  ],
+  "details": {
+    "action": "donation acceptance and naming of tennis court"
+  }
 }

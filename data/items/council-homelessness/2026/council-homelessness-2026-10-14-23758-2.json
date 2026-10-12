@@ -13,5 +13,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8bfa16c5-7d10-422d-8780-d1b35de30c74",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1d2b7adb-99ce-43a7-9384-192a8cf40ed9",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=811a4389-c7c2-4d6e-9542-a990ea3a1a1c"
-  ]
+  ],
+  "summary": "Discussion only: a verbal update from city officials and the homeless services authority on the Los Angeles Continuum of Care.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0207",
+    "action": "verbal update (discussion only)"
+  }
 }

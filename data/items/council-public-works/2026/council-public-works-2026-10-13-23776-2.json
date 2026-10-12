@@ -12,5 +12,15 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2adbfd74-8a97-4bbf-9b81-a3f5f6fc3cfb",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=76147b50-c916-476e-bc48-87150553bf38",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a110adb5-512e-43f9-84c3-625e7b1ba43c"
-  ]
+  ],
+  "summary": "Council takes up reports on how damaged streetlight infrastructure gets repaired, plus streetlighting policies from other major cities that could be adopted in Los Angeles.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0125",
+    "bureau": "Bureau of Street Lighting",
+    "action": "review of repair processes and streetlighting policies"
+  }
 }

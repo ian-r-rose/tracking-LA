@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1791",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1791&meta_id=80918"
-  ]
+  ],
+  "summary": "Appropriates $66,206,233 for the Departures Curbside Refresh project at LAX.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "amount": "$66,206,233",
+    "action": "appropriation"
+  }
 }

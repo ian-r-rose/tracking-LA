@@ -13,5 +13,32 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=11227e5d-c548-4cec-a13f-fbc766bcaa6f",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6588f83c-4150-45e3-b9ba-37f40f14b3e8",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ee2cc3ed-cf7f-479f-b8b5-eec7968572e3"
-  ]
+  ],
+  "summary": "Emerson College's appeal of City Planning's approval modifying conditions for a seven-story mixed-use building with 109 dwelling units and ground-floor commercial space at 6007 West Sunset Boulevard.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "6007 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.098108,
+      "lon": -118.319989,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "26-1193",
+    "council_district": 13,
+    "case_numbers": [
+      "CPC-2021-1557-DB-SPR-HCA-M1-1A",
+      "CPC-2021-1557-DB-SPR-HCA-M1",
+      "CPC-2021-1557-DB-SPR-HCA"
+    ],
+    "applicant": "6007 Sunset (LA) OZ, LLC",
+    "action": "appeal of City Planning approval of Modification of Entitlements"
+  },
+  "flag": {
+    "reason": "Mixed-use housing appeal in Hollywood, a watched neighborhood."
+  }
 }

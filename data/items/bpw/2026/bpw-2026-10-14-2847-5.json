@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25144",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9b4e6b3c-c1f6-40d1-912e-d1fc4fb1afec"
-  ]
+  ],
+  "summary": "Issuing a design services task to Lee & Ro, Inc. for the Dacotah Pumping Plant No. 606 rehabilitation, with a $1,328,604 budget including contingency.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 14,
+    "bureau": "Bureau of Engineering",
+    "applicant": "Lee & Ro, Inc.",
+    "amount": "$1,328,604",
+    "action": "task order issuance"
+  }
 }

@@ -10,5 +10,23 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1430",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dcbe9541-2bf3-4c92-898c-958b4ea8b634",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=722fd9db-a928-400a-82a6-3eb25e8f1b88"
-  ]
+  ],
+  "summary": "Council is asked to approve the final parcel map for a property at 3760 North Dover Street, east of Boyce Avenue, along with its subdivision improvement agreement.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3760 N Dover St, Los Angeles, CA",
+      "lat": 34.123594,
+      "lon": -118.262819,
+      "neighborhood": "Atwater Village"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "council_file": "26-1430",
+    "action": "final parcel map approval",
+    "amount": "$16,500"
+  }
 }

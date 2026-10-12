@@ -8,5 +8,21 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25144",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f68bdfef-a1e7-4b4f-a653-92d028a731d0"
-  ]
+  ],
+  "summary": "Raising the construction budget for emergency storm drain repairs at Debris Basin No. 69 to $4.5 million and authorizing revised construction orders to Mike Prlich & Sons.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Debris Basin No. 69"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "bureau": "Bureau of Engineering",
+    "applicant": "Mike Prlich & Sons, Inc.",
+    "amount": "$4,500,000",
+    "action": "revised construction budget and construction orders"
+  }
 }

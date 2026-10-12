@@ -13,5 +13,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a8a40281-4900-4b88-976f-a976b2f6dbbe",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6fbf6fb6-4769-4bd5-8e52-fe0f19e3ea0a",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d9a99d8-1dea-4d6c-85c3-289567f1ee9f"
-  ]
+  ],
+  "summary": "City Administrative Officer report on an updated bed plan and strategy under the Alliance Settlement Agreement.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-1022-S18",
+    "action": "CAO report"
+  }
 }

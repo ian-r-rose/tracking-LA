@@ -13,5 +13,18 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=78bd727c-82d1-46e1-bee6-fc871483dca5",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0cd4312a-d79f-49ed-aa4a-caffb289e2f0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4c5e7962-4f03-41ce-9e4e-f120732a7b6f"
-  ]
+  ],
+  "summary": "Ordinance to locally carry out state Senate Bill 79 (the Abundant and Affordable Home Near Transit Act) by amending the city's low-rise rules and updating the Mixed Income Incentive Program.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1083-S3",
+    "action": "ordinance adoption"
+  },
+  "flag": {
+    "reason": "Citywide land use rules for transit-area housing."
+  }
 }

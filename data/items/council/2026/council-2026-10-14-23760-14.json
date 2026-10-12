@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0845",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5caa910-3b85-4591-8023-54d6572838bf",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6e06792-895e-45dc-ac06-b8a6682f225d"
-  ]
+  ],
+  "summary": "Council is asked to note and file the Office of Finance report on the city's 2026-27 Statement of Investment Policy.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0845",
+    "action": "note and file report"
+  }
 }

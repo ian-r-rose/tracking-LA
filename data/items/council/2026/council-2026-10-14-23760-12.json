@@ -10,5 +10,15 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0222",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e84415a8-4d83-4c57-bcde-ec39e01e859e",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3730a942-ae6a-4892-81eb-087f22c39578"
-  ]
+  ],
+  "summary": "Council is asked to note and file a City Clerk report on the Council District 5 Avenue of the Stars Community Amenities Trust Fund for fiscal 2023-24.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 5,
+    "council_file": "26-0222",
+    "action": "note and file report"
+  }
 }

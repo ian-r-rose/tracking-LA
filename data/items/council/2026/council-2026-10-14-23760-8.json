@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0002-S142",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9894fdd-4d53-46e5-9e34-ed2b22a1a03d",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=eb3b1f0a-2b1c-46e6-abb6-15ee6d94e89a"
-  ]
+  ],
+  "summary": "Council is asked to support state Assembly Bill 2635, which would require local air districts to offer commercial vouchers for zero-emission small off-road equipment to gardeners, landscapers and similar small-equipment operators.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0002-S142",
+    "action": "support of state legislation"
+  }
 }

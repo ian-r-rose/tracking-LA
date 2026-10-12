@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91665",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0196-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f9ec1179-91de-42fb-860a-5456f2461118"
-  ]
+  ],
+  "summary": "Motion asking the city attorney and legislative analyst to release pending reports on streamlining nuisance abatement proceedings.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-0196-S1",
+    "action": "motion to release pending reports"
+  }
 }

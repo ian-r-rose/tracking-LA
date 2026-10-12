@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25144",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=821a7f26-9374-41b6-8bfe-1f97a3366fda"
-  ]
+  ],
+  "summary": "Awarding a task order of up to $847,669 to Cordoba Corporation for backup communications at critical Bureau of Sanitation sites and related maintenance support, over an 18-month term.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Sanitation",
+    "applicant": "Cordoba Corporation",
+    "amount": "$847,669.00",
+    "action": "task order award"
+  }
 }

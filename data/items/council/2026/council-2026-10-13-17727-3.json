@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-1180",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=30ed84d4-031f-4a20-adac-46af86a9ca5e",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5b12a701-3a3d-4ea9-9695-acdd3773c733"
-  ]
+  ],
+  "summary": "Asks city offices to develop ways to extend the Legacy Business Program to restaurants and small businesses open at least 10 years, and to draft a Citywide Restaurant Protection Ordinance. Reports are due within 90 days.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1180",
+    "action": "report request on Legacy Business Program and restaurant protection ordinance"
+  }
 }

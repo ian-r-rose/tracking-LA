@@ -13,5 +13,15 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c84c46c1-d3ae-44ad-ad6e-bc92564e8c39",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ca0e14c-b192-499d-925c-3feab500dd32",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=49102e30-9b2e-4637-9873-f0d8fd4229c3"
-  ]
+  ],
+  "summary": "Reports on a public access study and mitigation measures for the Venice Coastal Zone, meant to help Al Fresco operators with their coastal development permit applications while keeping the coast publicly accessible.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 11,
+    "council_file": "20-1074-S5",
+    "action": "report and recommendations on public access study"
+  }
 }

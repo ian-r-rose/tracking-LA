@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/rap-meeting-agenda-10-15-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/26-234.pdf"
-  ]
+  ],
+  "summary": "Commits park fees to park improvements at Rancho Cienega Park.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Rancho Cienega Park"
+    }
+  ],
+  "details": {
+    "action": "commitment of park fees"
+  }
 }

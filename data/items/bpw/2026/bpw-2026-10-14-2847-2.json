@@ -8,5 +8,14 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25144",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=93ab7401-c867-4de9-8d04-47f9657e47e5"
-  ]
+  ],
+  "summary": "Public bid opening for Sidewalk Repair Program Package No. 89, estimated at $2.35 million, covering sidewalk repairs in Council Districts 1, 10 and 14.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$2,351,162",
+    "action": "bid opening"
+  }
 }
