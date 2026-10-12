@@ -13,5 +13,12 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=404b2866-3873-43db-8fef-45aa672dcaec",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bc44fafc-b3e9-437c-a5e7-282dde1a279c",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=475f06a4-c4d4-40d4-9b1b-508f62a658c4"
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 9, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0534-S1",
+    "vote": "10-0-5",
+    "recorded": "2026-10-12"
+  }
 }
