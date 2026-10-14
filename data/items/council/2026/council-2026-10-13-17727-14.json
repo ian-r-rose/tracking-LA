@@ -20,5 +20,12 @@
     "council_file": "26-1396",
     "action": "update of list of citywide special events",
     "amount": "$75,000"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 13, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1396",
+    "vote": "15-0-0",
+    "recorded": "2026-10-14"
   }
 }

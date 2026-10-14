@@ -145,6 +145,12 @@
   "lon": -118.249812,
   "score": 100
  },
+ "11541 N LAUREL CANYON BLVD": {
+  "address": "11541 N LAUREL CANYON BLVD, 91340",
+  "lat": 34.279603,
+  "lon": -118.454362,
+  "score": 100
+ },
  "1155 N HELIOTROPE DR": {
   "address": "1155 N HELIOTROPE DR, 90029",
   "lat": 34.092269,
@@ -245,6 +251,12 @@
   "address": "128 E HURRICANE ST, 90292",
   "lat": 33.975782,
   "lon": -118.461491,
+  "score": 100
+ },
+ "12904 W PALMS BLVD": {
+  "address": "12904 W PALMS BLVD, 90066",
+  "lat": 34.006244,
+  "lon": -118.44628,
   "score": 100
  },
  "12910 W Culver Boulevard": {
@@ -390,6 +402,12 @@
   "address": "15027 W VENTURA BLVD, 91403",
   "lat": 34.152945,
   "lon": -118.460519,
+  "score": 100
+ },
+ "15355 W SHERMAN WAY": {
+  "address": "15355 W SHERMAN WAY, 91406",
+  "lat": 34.201374,
+  "lon": -118.467427,
   "score": 100
  },
  "15430 Septo Street": {
@@ -939,6 +957,12 @@
   "lon": -118.217731,
   "score": 99.06
  },
+ "3224 N GLENDALE BLVD": {
+  "address": "3224 N GLENDALE BLVD, 90039",
+  "lat": 34.117822,
+  "lon": -118.260769,
+  "score": 100
+ },
  "3230 N GLENDALE BLVD": {
   "address": "3230 N GLENDALE BLVD, 90039",
   "lat": 34.117898,
@@ -1215,6 +1239,12 @@
   "lon": -118.396544,
   "score": 100
  },
+ "4555 W 63RD ST": {
+  "address": "4555 W 63RD ST, 90043",
+  "lat": 33.982678,
+  "lon": -118.354273,
+  "score": 100
+ },
  "4590 West Colorado Boulevard": {
   "address": "4590 W COLORADO BLVD, 90039",
   "lat": 34.141217,
@@ -1334,6 +1364,12 @@
   "address": "5412 N BELLINGHAM AVE, 91607",
   "lat": 34.168913,
   "lon": -118.399173,
+  "score": 100
+ },
+ "549 S CERES AVE": {
+  "address": "549 S CERES AVE, 90013",
+  "lat": 34.04074,
+  "lon": -118.240635,
   "score": 100
  },
  "5566 West 2nd Street": {
@@ -1768,6 +1804,12 @@
   "address": "873 S FIGUEROA ST, 90017",
   "lat": 34.046575,
   "lon": -118.262562,
+  "score": 100
+ },
+ "8901 S SEPULVEDA BLVD": {
+  "address": "8901 S SEPULVEDA BLVD, 90045",
+  "lat": 33.955863,
+  "lon": -118.396349,
   "score": 100
  },
  "8946 S Sepulveda Eastway": {
