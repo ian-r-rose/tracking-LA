@@ -24,5 +24,12 @@
     "applicant": "Mike Prlich & Sons, Inc.",
     "amount": "$4,500,000",
     "action": "revised construction budget and construction orders"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25171",
+    "vote": "4-0",
+    "recorded": "2026-10-15"
   }
 }

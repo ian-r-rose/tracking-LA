@@ -18,5 +18,12 @@
     "council_district": 4,
     "bureau": "Bureau of Engineering",
     "action": "memorandum of understanding"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25171",
+    "vote": "4-0",
+    "recorded": "2026-10-15"
   }
 }

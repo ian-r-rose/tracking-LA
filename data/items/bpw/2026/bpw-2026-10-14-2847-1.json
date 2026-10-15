@@ -22,5 +22,12 @@
     "applicant": "Asia General Contractors, Inc.",
     "amount": "$290,537.53",
     "action": "stop notice"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25171",
+    "vote": "4-0",
+    "recorded": "2026-10-15"
   }
 }

@@ -38,5 +38,11 @@
   },
   "flag": {
     "reason": "Street vacation in Downtown, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Public Works Committee approved item(s) (Oct 13, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-0458",
+    "recorded": "2026-10-15"
   }
 }

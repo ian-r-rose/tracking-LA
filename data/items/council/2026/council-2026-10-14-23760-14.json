@@ -19,5 +19,12 @@
   "details": {
     "council_file": "26-0845",
     "action": "note and file report"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 14, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0845",
+    "vote": "13-0-2",
+    "recorded": "2026-10-15"
   }
 }

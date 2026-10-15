@@ -101,6 +101,12 @@
   "lon": -118.416017,
   "score": 100
  },
+ "10853 N SHARP AVE": {
+  "address": "10853 N SHARP AVE, 91345",
+  "lat": 34.267348,
+  "lon": -118.446488,
+  "score": 100
+ },
  "1100 North Vermont": {
   "address": "1100 N VERMONT AVE, 90029",
   "lat": 34.090933,
@@ -566,6 +572,12 @@
   "lon": -118.558618,
   "score": 100
  },
+ "19800 W VENTURA BLVD": {
+  "address": "19800 W VENTURA BLVD, 91364",
+  "lat": 34.172385,
+  "lon": -118.563893,
+  "score": 100
+ },
  "19910-20000 Lorne Street": {
   "address": "20000 W LORNE ST, 91306",
   "lat": 34.21713,
@@ -931,6 +943,12 @@
   "address": "3063 N PASSMORE DR, 90068",
   "lat": 34.126552,
   "lon": -118.352608,
+  "score": 100
+ },
+ "3100 W WILSHIRE BLVD": {
+  "address": "3100 W WILSHIRE BLVD, 90010",
+  "lat": 34.061744,
+  "lon": -118.28917,
   "score": 100
  },
  "3179 W LOS FELIZ BLVD": {
@@ -1390,6 +1408,12 @@
   "lon": -118.37346,
   "score": 100
  },
+ "5757 N KATHERINE AVE": {
+  "address": "5757 N KATHERINE AVE, 91401",
+  "lat": 34.174967,
+  "lon": -118.44332,
+  "score": 100
+ },
  "5779 W WILSHIRE BLVD": {
   "address": "5779 W WILSHIRE BLVD, 90036",
   "lat": 34.062558,
@@ -1533,6 +1557,12 @@
   "address": "6419 W SELMA AVE, 90028",
   "lat": 34.099845,
   "lon": -118.329854,
+  "score": 100
+ },
+ "642 W ATHENS BLVD": {
+  "address": "642 W ATHENS BLVD, 90044",
+  "lat": 33.921716,
+  "lon": -118.286169,
   "score": 100
  },
  "6513 S VISTA DEL MAR": {
@@ -1708,6 +1738,12 @@
   "lat": 34.062363,
   "lon": -118.238239,
   "score": 99.02
+ },
+ "806 N SWEETZER AVE": {
+  "address": "806 N SWEETZER AVE, 90069",
+  "lat": 34.085557,
+  "lon": -118.370184,
+  "score": 100
  },
  "808 N Oneonta Dr": {
   "address": "808 W ONEONTA DR, 90065",

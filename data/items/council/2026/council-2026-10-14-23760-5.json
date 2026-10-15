@@ -23,5 +23,12 @@
     "council_file": "21-0460-S5",
     "action": "transfer of funds",
     "amount": "$45,505 (overtime) and $4,495 (related costs)"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 14, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-0460-S5",
+    "vote": "11-3-1",
+    "recorded": "2026-10-15"
   }
 }

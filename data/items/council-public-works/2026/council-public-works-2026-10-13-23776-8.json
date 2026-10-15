@@ -20,5 +20,11 @@
     "council_file": "26-1314",
     "amount": "$2,500,000",
     "action": "award of federal grant funds"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Public Works Committee approved item(s) (Oct 13, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1314",
+    "recorded": "2026-10-15"
   }
 }

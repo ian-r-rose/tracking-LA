@@ -21,5 +21,12 @@
     "council_file": "26-1323",
     "action": "fund transfer",
     "amount": "$20 million"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item forthwith (Oct 14, 2026); Council action final",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1323",
+    "vote": "13-0-2",
+    "recorded": "2026-10-15"
   }
 }

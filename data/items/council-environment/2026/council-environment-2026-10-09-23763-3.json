@@ -21,5 +21,11 @@
   },
   "flag": {
     "reason": "Citywide utility bill relief proposal that would affect DWP customers across the city."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Energy and Environment Committee approved item(s) (Oct 9, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1350",
+    "recorded": "2026-10-15"
   }
 }

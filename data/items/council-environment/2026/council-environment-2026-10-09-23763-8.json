@@ -19,5 +19,11 @@
   "details": {
     "council_file": "21-1015-S20",
     "action": "Report on grant application"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Energy and Environment Committee approved item(s) (Oct 9, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1015-S20",
+    "recorded": "2026-10-15"
   }
 }

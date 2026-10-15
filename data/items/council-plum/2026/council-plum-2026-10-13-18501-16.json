@@ -41,5 +41,11 @@
   },
   "flag": {
     "reason": "Large housing project appealed by Save LA River Open Space."
+  },
+  "outcome": {
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee denied appeal(s) ; and thereby sustained the determination of the Los Angeles City Planning Commission (Oct 13, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1081-S1",
+    "recorded": "2026-10-15"
   }
 }

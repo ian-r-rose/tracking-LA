@@ -24,5 +24,12 @@
     "council_file": "25-0015",
     "action": "transfer of appropriations for grant award",
     "amount": "$164,693"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 14, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0015",
+    "vote": "12-0-3",
+    "recorded": "2026-10-15"
   }
 }

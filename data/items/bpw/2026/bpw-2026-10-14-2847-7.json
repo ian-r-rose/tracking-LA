@@ -19,5 +19,12 @@
     "applicant": "Cordoba Corporation",
     "amount": "$847,669.00",
     "action": "task order award"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25171",
+    "vote": "4-0",
+    "recorded": "2026-10-15"
   }
 }

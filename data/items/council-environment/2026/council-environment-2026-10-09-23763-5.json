@@ -21,5 +21,11 @@
   "details": {
     "council_file": "21-1208-S6",
     "council_district": 15
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "Energy and Environment Committee noted and filed item(s) (Oct 9, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-1208-S6",
+    "recorded": "2026-10-15"
   }
 }

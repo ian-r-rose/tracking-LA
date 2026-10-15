@@ -22,5 +22,12 @@
     "council_file": "23-0211",
     "action": "reallocation of ARPA funding",
     "amount": "$130,219.42"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item as amended by Amending Motion 10A (Yaroslavsky - Blumenfield), subject to reconsideration, pursuant to Council Rule 51 (Oct 14, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-0211",
+    "vote": "13-0-2",
+    "recorded": "2026-10-15"
   }
 }

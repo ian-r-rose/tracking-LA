@@ -17,5 +17,12 @@
   "details": {
     "amount": "$2,351,162",
     "action": "bid opening"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "BIDS RECEIVED, OPENED AND DECLARED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25171",
+    "vote": "4-0",
+    "recorded": "2026-10-15"
   }
 }

@@ -22,5 +22,12 @@
     "bureau": "Bureau of Street Services",
     "action": "funding transfer",
     "amount": "$100,000"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 14, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0011-S19",
+    "vote": "13-0-2",
+    "recorded": "2026-10-15"
   }
 }

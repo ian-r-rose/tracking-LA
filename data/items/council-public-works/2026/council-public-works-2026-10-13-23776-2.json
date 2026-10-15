@@ -22,5 +22,11 @@
     "council_file": "25-0125",
     "bureau": "Bureau of Street Lighting",
     "action": "review of repair processes and streetlighting policies"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "Public Works Committee noted and filed item(s) (Oct 13, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0125",
+    "recorded": "2026-10-15"
   }
 }

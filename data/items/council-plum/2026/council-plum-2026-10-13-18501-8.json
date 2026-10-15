@@ -36,5 +36,11 @@
     "applicant": "Department of Public Works, Bureau of Engineering",
     "bureau": "Bureau of Engineering",
     "action": "General Plan amendment and zone change"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved item(s) (Oct 13, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0580",
+    "recorded": "2026-10-15"
   }
 }

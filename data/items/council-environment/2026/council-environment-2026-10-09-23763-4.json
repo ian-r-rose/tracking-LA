@@ -26,5 +26,11 @@
   "details": {
     "council_file": "24-0916",
     "council_district": 15
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Energy and Environment Committee approved item(s) (Oct 9, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0916",
+    "recorded": "2026-10-15"
   }
 }

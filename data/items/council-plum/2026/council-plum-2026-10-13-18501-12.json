@@ -23,5 +23,11 @@
     "council_district": 11,
     "council_file": "20-1074-S5",
     "action": "report and recommendations on public access study"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved item(s) (Oct 13, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=20-1074-S5",
+    "recorded": "2026-10-15"
   }
 }

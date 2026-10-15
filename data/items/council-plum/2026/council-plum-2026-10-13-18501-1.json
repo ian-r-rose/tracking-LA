@@ -41,5 +41,11 @@
   },
   "flag": {
     "reason": "Large 474-unit project in Downtown, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee approved item(s) (Oct 13, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-0784-S1",
+    "recorded": "2026-10-15"
   }
 }
