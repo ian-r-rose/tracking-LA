@@ -107,6 +107,12 @@
   "lon": -118.446488,
   "score": 100
  },
+ "110 W College St": {
+  "address": "110 W COLLEGE ST, 90012",
+  "lat": 34.062772,
+  "lon": -118.234308,
+  "score": 100
+ },
  "1100 North Vermont": {
   "address": "1100 N VERMONT AVE, 90029",
   "lat": 34.090933,
@@ -197,6 +203,12 @@
   "address": "11677 W SAN VICENTE BLVD, 90049",
   "lat": 34.053993,
   "lon": -118.464738,
+  "score": 100
+ },
+ "117 W Bruno St": {
+  "address": "117 W BRUNO ST, 90012",
+  "lat": 34.062136,
+  "lon": -118.234928,
   "score": 100
  },
  "11973 W San Vicente Blvd": {
@@ -307,6 +319,12 @@
   "lon": -118.426242,
   "score": 100
  },
+ "1350 N Western Ave": {
+  "address": "1350 N WESTERN AVE, 90027",
+  "lat": 34.095612,
+  "lon": -118.309173,
+  "score": 100
+ },
  "13510 W Kittridge St": {
   "address": "13510 W KITTRIDGE ST, 91401",
   "lat": 34.190247,
@@ -323,6 +341,12 @@
   "address": "13750 N FENTON AVE, 91342",
   "lat": 34.3218,
   "lon": -118.435927,
+  "score": 100
+ },
+ "1377 N Serrano Ave": {
+  "address": "1377 N SERRANO AVE, 90027",
+  "lat": 34.09638,
+  "lon": -118.307073,
   "score": 100
  },
  "139 E Hurricane St": {
@@ -951,6 +975,12 @@
   "lon": -118.28917,
   "score": 100
  },
+ "3100 W Wilshire Blvd": {
+  "address": "3100 W WILSHIRE BLVD, 90010",
+  "lat": 34.061744,
+  "lon": -118.28917,
+  "score": 100
+ },
  "3179 W LOS FELIZ BLVD": {
   "address": "3179 W LOS FELIZ BLVD, 90039",
   "lat": 34.123803,
@@ -976,6 +1006,12 @@
   "score": 99.06
  },
  "3224 N GLENDALE BLVD": {
+  "address": "3224 N GLENDALE BLVD, 90039",
+  "lat": 34.117822,
+  "lon": -118.260769,
+  "score": 100
+ },
+ "3224 N Glendale Blvd": {
   "address": "3224 N GLENDALE BLVD, 90039",
   "lat": 34.117822,
   "lon": -118.260769,
@@ -1384,7 +1420,19 @@
   "lon": -118.399173,
   "score": 100
  },
+ "5433 W Fernwood Ave": {
+  "address": "5433 W FERNWOOD AVE, 90027",
+  "lat": 34.095678,
+  "lon": -118.307762,
+  "score": 100
+ },
  "549 S CERES AVE": {
+  "address": "549 S CERES AVE, 90013",
+  "lat": 34.04074,
+  "lon": -118.240635,
+  "score": 100
+ },
+ "549 S Ceres Ave": {
   "address": "549 S CERES AVE, 90013",
   "lat": 34.04074,
   "lon": -118.240635,
@@ -1891,6 +1939,12 @@
   "score": 100
  },
  "941 Temescal Canyon Road, Pacific Palisades": null,
+ "943 N Main St": {
+  "address": "943 N NORTH MAIN ST, 90012",
+  "lat": 34.06218,
+  "lon": -118.234605,
+  "score": 99.06
+ },
  "9537 N LEMONA AVE": {
   "address": "9537 N LEMONA AVE, 91343",
   "lat": 34.243444,
@@ -2005,6 +2059,7 @@
  "Harmony Place Apartments": null,
  "Holleigh Bernson Park": null,
  "Hollenbeck Park": null,
+ "Hollywood Burbank Airport": null,
  "Hollywood Community Police Station": null,
  "Hollywood Sanitation Yard": null,
  "Hollywood Walk of Fame": null,
@@ -2086,6 +2141,7 @@
   "score": 98.18
  },
  "NO ADDRESSES WERE FOUND": null,
+ "North Hollywood Station": null,
  "Northeast Community Police Station": null,
  "Northridge Recreation Center": null,
  "Ohio Avenue & Sepulveda Boulevard": {

@@ -30,5 +30,8 @@
       "asks": "Progress on payment of outstanding invoices, broken out by time, status, program, contract number and funding source.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2024/24-0536-S1_rpt_cla_09-23-26.pdf": []
+  }
 }

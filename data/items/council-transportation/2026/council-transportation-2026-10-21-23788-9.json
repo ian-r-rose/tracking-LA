@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1210",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d8515ca-e69e-486e-a5b9-ba036f41a98b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6f5a535-ecda-4c19-9f8b-a22c68b5c055"
-  ]
+  ],
+  "summary": "LADOT's report would update the city's guidelines for traffic signal phasing and timing.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-1210",
+    "action": "report on signal phasing and timing guidelines"
+  }
 }

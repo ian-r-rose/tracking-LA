@@ -8,5 +8,27 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81570",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-21-2026/APCW_2025_2220.pdf"
-  ]
+  ],
+  "summary": "Conditional use to turn a 5,765 sq ft former church at 305 East Rose Avenue in Venice into a 161-seat private club with a lounge, co-working space and commercial kitchen, with an exception allowing zero parking spaces where 77 are required.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "305 East Rose Avenue, Los Angeles, CA",
+      "lat": 33.996686,
+      "lon": -118.476828,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCW-2025-2220-SPPE-CU2-SPPC-CDP",
+      "ENV-2025-2222-CE"
+    ],
+    "council_district": 11,
+    "plan_area": "Venice",
+    "applicant": "305 Rose Avenue, LLC",
+    "action": "conditional use permit for private club"
+  }
 }

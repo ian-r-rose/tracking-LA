@@ -48,5 +48,8 @@
       "asks": "Quarterly reports on Low-Rise Ordinance progress toward SB 79 capacity targets, including a public dashboard by station area and status updates on local alternative plans.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083-S3_misc_06-17-26.pdf": []
+  }
 }

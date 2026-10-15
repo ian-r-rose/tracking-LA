@@ -8,5 +8,22 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81569",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-22-2026/CPC_2026_4893.pdf"
-  ]
+  ],
+  "summary": "Citywide zoning code amendments that clarify eligibility and review for housing element sites, let projects use adjacent sites, and adopt the Lower Income Rezoning sites list by ordinance.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "CPC-2026-4893-CA"
+    ],
+    "plan_area": "Citywide",
+    "applicant": "City of Los Angeles",
+    "action": "code amendment"
+  },
+  "flag": {
+    "reason": "Citywide housing-site rules that affect where new housing can be built."
+  }
 }

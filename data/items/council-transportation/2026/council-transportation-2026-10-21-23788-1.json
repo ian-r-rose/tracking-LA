@@ -10,5 +10,15 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=15-0315-S11",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c13c82fa-9ea2-4756-a56f-f146749124d4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7bab8950-997a-48d0-9ea5-2ce2045fa5f3"
-  ]
+  ],
+  "summary": "Authority for LADOT to apply for State Low Carbon Transit Operations Program funding for fiscal year 2025-26.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "15-0315-S11",
+    "action": "authority to submit grant application"
+  }
 }

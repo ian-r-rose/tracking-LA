@@ -9,5 +9,15 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91797",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0008-S18",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=499170fc-929a-4c0a-854e-fa3909e53c9a"
-  ]
+  ],
+  "summary": "Resolution to bar parking of vehicles longer than 22 feet or taller than 84 inches from 2:00 to 6:00 a.m. on specified street segments in Council District 2.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 2,
+    "council_file": "26-0008-S18",
+    "action": "parking prohibition"
+  }
 }

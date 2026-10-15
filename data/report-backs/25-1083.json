@@ -100,5 +100,24 @@
       "asks": "Confidential report on potential legal challenges to SB 79 and possible grounds for cost recovery from the state.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_misc_1_11-13-25.pdf": [
+      0
+    ],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_misc_11-17-25.pdf": [],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_rpt_dcp_2-18-26.pdf": [
+      0
+    ],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_misc_02-20-26.pdf": [
+      0
+    ],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_misc_03-19-26.pdf": [],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_rpt_dcp_3-20-26.pdf": [],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_rpt_dcp_4-9-26.pdf": [],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_misc_10-06-26.pdf": [
+      0
+    ],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-1083_misc_1_10-09-26.pdf": []
+  }
 }

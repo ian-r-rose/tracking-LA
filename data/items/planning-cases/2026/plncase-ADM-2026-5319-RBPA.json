@@ -7,5 +7,25 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-5319-RBPA\nAddress: 3224 N GLENDALE BLVD\nFiled: 2026-10-13\nCouncil district: 13\nCommunity plan area: Northeast Los Angeles\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5319-RBPA"
-  ]
+  ],
+  "summary": "Application to allow a restaurant at 3224 North Glendale Boulevard in Northeast Los Angeles to serve alcoholic beverages for on-site consumption under the city's Restaurant Beverage Program.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3224 N Glendale Blvd, Los Angeles, CA",
+      "lat": 34.117822,
+      "lon": -118.260769,
+      "neighborhood": "Atwater Village"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-5319-RBPA"
+    ],
+    "council_district": 13,
+    "plan_area": "Northeast Los Angeles",
+    "action": "administrative clearance under Restaurant Beverage Program"
+  }
 }

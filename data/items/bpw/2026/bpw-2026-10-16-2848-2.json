@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25148",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0ce510b2-fc08-48ec-bbb3-47a4c5df4dab"
-  ]
+  ],
+  "summary": "Receipt of a bond from PCN3, Inc. to release $363,171.91 held under a stop payment notice by Asia General Contractors over work at the Hollywood Sanitation Yard.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Sanitation Yard"
+    }
+  ],
+  "details": {
+    "action": "bond to release stop payment notice",
+    "amount": "$363,171.91"
+  }
 }

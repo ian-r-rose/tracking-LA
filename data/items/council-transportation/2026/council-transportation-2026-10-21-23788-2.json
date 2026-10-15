@@ -9,5 +9,17 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91797",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1424",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bad89f32-e8f6-4da1-9028-f6d967f256fa"
-  ]
+  ],
+  "summary": "Motion asking whether the City can install Toronto-style barriers on City streets using its own crews.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1424",
+    "action": "feasibility study"
+  },
+  "flag": {
+    "reason": "Citywide street-safety barrier policy affecting protected street design."
+  }
 }

@@ -8,5 +8,14 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25148",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=08d84dc7-add3-4bfe-b675-6731ee1555a0"
-  ]
+  ],
+  "summary": "Authorization for the Board of Public Works to sign a sole source contract with Data Trace Information Services LLC for the Bureau of Engineering and Bureau of Contract Administration.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "sole source contract",
+    "bureau": "Bureau of Engineering and Bureau of Contract Administration"
+  }
 }

@@ -9,5 +9,21 @@
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/elpelp_commisson3240200821_10152026.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/Board%20Recommendation%20E-5%20Concession%20Jorge%20Moreno%20Cafe%20Soxiety.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/Moreno%2C%20J.%20Proposal%20Application%20El%20Pueblo%20E5.pdf"
-  ]
+  ],
+  "summary": "Approval of key terms for a lease of concession stall E-5 on Olvera Street to Jorge Moreno for Cafe Soxiety.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "125 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057043,
+      "lon": -118.238693,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "applicant": "Jorge Moreno",
+    "action": "approval of key lease terms"
+  }
 }

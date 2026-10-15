@@ -9,5 +9,17 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91797",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1426",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d53a750f-1318-412f-8d70-0861099bb6f1"
-  ]
+  ],
+  "summary": "Motion to create a Fatal Crash Rapid Response Program to respond to fatal traffic collisions.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1426",
+    "action": "establish program"
+  },
+  "flag": {
+    "reason": "Citywide street-safety program aimed at fatal crashes."
+  }
 }

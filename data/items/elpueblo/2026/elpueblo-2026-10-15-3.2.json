@@ -9,5 +9,20 @@
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/elpelp_commisson3240200821_10152026.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/Recommendation%20Termination%20of%20Concession%20Agreements%20-%20Dorkas%20Ramirez%20%281%29.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/C-203435%20Termination%20of%20Concession%20Agreement%20Dorkas%20Ramirez%20W-4%20-2026.pdf"
-  ]
+  ],
+  "summary": "Termination of the concession lease for stall W-4 on Olvera Street, held by Artesanias Ramirez.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "125 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057043,
+      "lon": -118.238693,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "action": "termination of concession lease"
+  }
 }

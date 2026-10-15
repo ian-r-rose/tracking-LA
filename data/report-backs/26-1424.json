@@ -5,5 +5,14 @@
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1424_misc_10-07-26.pdf",
   "adopted": null,
   "documents": [],
-  "motion": "I THEREFORE MOVE to INSTRUCT the LADOT to report back on the resources required to enable the Department to install Toronto Style Barriers in-house. PRESENTED BY: Lel—X.4_______ HEATHER HUTT Councilmember, 10th District SECONDED BY: OCT 0 7 2026"
+  "motion": "I THEREFORE MOVE to INSTRUCT the LADOT to report back on the resources required to enable the Department to install Toronto Style Barriers in-house. PRESENTED BY: Lel—X.4_______ HEATHER HUTT Councilmember, 10th District SECONDED BY: OCT 0 7 2026",
+  "requests": [
+    {
+      "departments": [
+        "Department of Transportation"
+      ],
+      "asks": "Resources LADOT would need to install Toronto Style Barriers in-house.",
+      "deadline": null
+    }
+  ]
 }

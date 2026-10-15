@@ -8,5 +8,27 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81570",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-21-2026/PS_1464_1A_Remand.pdf"
-  ]
+  ],
+  "summary": "The West Los Angeles Area Planning Commission re-hears Defend Ballona Wetlands' appeal of a private street approval that would give 5000 South Beethoven Street access by a new private bridge over Centinela Creek. The City Council sent the case back for a new decision.",
+  "topics": [
+    "land_use",
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "5000 South Beethoven Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "PS-1464-1A",
+      "ENV-2023-6735-MND-REC1"
+    ],
+    "council_district": 11,
+    "plan_area": "Palms – Mar Vista – Del Rey",
+    "council_file": "26-1226",
+    "applicant": "Ilan Israely, 5000 Beethoven LLC",
+    "action": "appeal of private street approval"
+  }
 }

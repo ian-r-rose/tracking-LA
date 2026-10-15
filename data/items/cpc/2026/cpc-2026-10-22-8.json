@@ -8,5 +8,41 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81569",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-22-2026/CPC_2023_2306.pdf"
-  ]
+  ],
+  "summary": "Zone change, plan amendment and alcohol permit for a five-story, 232,802-square-foot office, restaurant and retail building replacing a surface parking lot near College and Main streets.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "110 W College St, Los Angeles, CA",
+      "lat": 34.062772,
+      "lon": -118.234308,
+      "neighborhood": "Chinatown"
+    },
+    {
+      "text": "117 W Bruno St, Los Angeles, CA",
+      "lat": 34.062136,
+      "lon": -118.234928,
+      "neighborhood": "Chinatown"
+    },
+    {
+      "text": "943 N Main St, Los Angeles, CA",
+      "lat": 34.06218,
+      "lon": -118.234605,
+      "neighborhood": "Chinatown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2023-2306-GPA-VZC-HD-MCUP-PR"
+    ],
+    "council_district": 1,
+    "plan_area": "Central City North",
+    "applicant": "S&R Partners, LLC",
+    "action": "zone change and conditional use permit"
+  },
+  "flag": {
+    "reason": "A large office and retail building with a zone change in Chinatown, a watched neighborhood."
+  }
 }

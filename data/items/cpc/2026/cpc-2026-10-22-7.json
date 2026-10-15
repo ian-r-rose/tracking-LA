@@ -7,5 +7,43 @@
   "text": "CPC-2025-5792-DB-PR  Council District: 13 – Soto-Martinez\n  CEQA: ENV-2025-5791-SE  Last Day to Act: 11-12-26\n  Related Case: VTT-84600-1A\n  Plan Area: Hollywood\n\n  PUBLIC HEARING – Completed April 29, 2026\n\n  PROJECT SITE:  1350 – 1362 North Western Avenue; 1377 North Serrano Avenue;\n  5433 – 5499 West Fernwood Avenue\n\n  The Department of City Planning is requesting that the matter be continued to a date certain of January\n  14, 2027.\n\n  PROPOSED PROJECT:\n  Demolition of an existing surface parking lot and a parking structure and the construction, use, and\n  maintenance of a new eight-story, 85-foot tall, 302,979 square-foot mixed-use building with 251 residential\n  units, of which 21 units will be reserved for Very Low Income Households, and 2,489 square-feet of ground\n  floor commercial space.\n\n  REQUESTED ACTIONS:\n  1. A Statutory Exemption from California Environmental Quality Act (CEQA) pursuant to California Public\n  Resource Code Section 21080.66 (Assembly Bill 130);\n  2. Pursuant to Chapter 1 Section 12.22 A.37 and Chapter 1A Section 13B.2.3 of the Los Angeles Municipal\n  Code (LAMC), and Assembly Bill (AB) 1287, a Density Bonus to allow a 34 percent density increase to\n  allow the construction of a new mixed-use building with 251 dwelling units, including 21 units reserved for\n  Very Low Income Households, with the following requested On-Menu Incentives and Waivers or\n  Modifications of Development Standards:\n  a. An On-Menu Incentive to allow averaging of floor area ratio, density, parking, or open space, and\n  permitting vehicular access across the entire project site;\n  b. An On-Menu Incentive to allow a 47 percent increase in Floor Area Ratio (FAR) to permit a FAR of\n  2.2:1 in lieu of 1.5:1;\n  c. A Waiver of Development Standards to allow a reduction in the residential side yard setback along\n  Fernwood Avenue to permit five feet and six inches in lieu of 11 feet;\n  d. A Waiver of Development Standards to allow a reduction in the residential rear yard setback along the\n  interior east lot line to permit two feet and two inches in lieu of 20 feet; and\n  2. Pursuant to LAMC Chapter 1 Section 16.05 and Chapter 1A Section 13B.2.4, a Project Review for a\n  development project which creates or results in an increase of 50 or more dwelling units.\n\n  Applicant:  Georgetown 1350 Western, LLC\n  Representative: Kyndra Casper, DLA Piper, LLP\n\n  Staff:  Michelle Carter, City Planner\n  michelle.carter@lacity.org\n  (213) 978-1262",
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81569"
-  ]
+  ],
+  "summary": "Density bonus and project review for an eight-story mixed-use building with 251 homes, 21 reserved for very low-income households, and ground-floor commercial space on the site of a surface parking lot and parking structure. The Planning Department has asked to postpone the hearing to January 14, 2027.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "1350 N Western Ave, Los Angeles, CA",
+      "lat": 34.095612,
+      "lon": -118.309173,
+      "neighborhood": "East Hollywood"
+    },
+    {
+      "text": "1377 N Serrano Ave, Los Angeles, CA",
+      "lat": 34.09638,
+      "lon": -118.307073,
+      "neighborhood": "East Hollywood"
+    },
+    {
+      "text": "5433 W Fernwood Ave, Los Angeles, CA",
+      "lat": 34.095678,
+      "lon": -118.307762,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-5792-DB-PR",
+      "VTT-84600-1A"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "applicant": "Georgetown 1350 Western, LLC",
+    "action": "density bonus and project review"
+  },
+  "flag": {
+    "reason": "A 251-home project in East Hollywood, a watched neighborhood."
+  }
 }

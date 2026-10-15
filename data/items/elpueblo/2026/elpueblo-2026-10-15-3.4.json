@@ -9,5 +9,20 @@
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/elpelp_commisson3240200821_10152026.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/Board%20Recommendation%20C-9%20addition%20of%20Amalia%20Sanchez%20on%20concession%20agreement.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/C-9-%20Felix%20Munoz%20note%20to%20add%20Amalia%20Sanchez.pdf"
-  ]
+  ],
+  "summary": "Approval to add Amalia Sanchez as an additional merchant on the C-9 concession agreement on Olvera Street.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "125 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057043,
+      "lon": -118.238693,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "action": "addition of merchant to concession agreement"
+  }
 }

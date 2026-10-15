@@ -9,5 +9,20 @@
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/elpelp_commisson3240200821_10152026.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/La%20Plaza%20Methodist%20Church%20Extension%20Recomendation%2010-15-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/United%20Methodist%20Ministries%20Cooperative%20Agreement%2011-22-11.pdf"
-  ]
+  ],
+  "summary": "Approval of a fifteen-year renewal option for the cooperative agreement with United Methodist Ministries at 115 Paseo de la Plaza in El Pueblo.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "115 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057072,
+      "lon": -118.238742,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "action": "fifteen-year renewal option for cooperative agreement"
+  }
 }

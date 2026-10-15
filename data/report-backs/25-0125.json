@@ -34,5 +34,13 @@
       "asks": "Comparative analysis of street lighting repair processes in other major cities and how their best practices could be adopted in Los Angeles.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-0125_rpt_bsl_5-15-26.pdf": [
+      0
+    ],
+    "https://cityclerk.lacity.org/onlinedocs/2025/25-0125_rpt_cla_9-28-26.pdf": [
+      1
+    ]
+  }
 }
