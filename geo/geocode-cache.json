@@ -1564,6 +1564,12 @@
   "lon": -118.284403,
   "score": 100
  },
+ "613 E ROSE AVE": {
+  "address": "613 E ROSE AVE, 90291",
+  "lat": 33.999388,
+  "lon": -118.471733,
+  "score": 100
+ },
  "6155 West Rodgerton Drive": {
   "address": "6155 W RODGERTON DR, 90068",
   "lat": 34.125276,
@@ -1636,6 +1642,12 @@
   "lat": 34.088853,
   "lon": -118.332356,
   "score": 99.06
+ },
+ "676 E MARR ST": {
+  "address": "676 E MARR ST, 90291",
+  "lat": 33.987636,
+  "lon": -118.455473,
+  "score": 100
  },
  "679 S HARVARD BLVD": {
   "address": "679 S HARVARD BLVD, 90005",
@@ -1743,6 +1755,12 @@
   "address": "7556 N WOODLAKE AVE, 91304",
   "lat": 34.207234,
   "lon": -118.63211,
+  "score": 100
+ },
+ "7639 N TOPANGA CANYON BLVD": {
+  "address": "7639 N TOPANGA CANYON BLVD, 91304",
+  "lat": 34.209074,
+  "lon": -118.606109,
   "score": 100
  },
  "7685 W WILLOW GLEN ROAD": {
@@ -2140,6 +2158,7 @@
   "lon": -118.229234,
   "score": 98.18
  },
+ "N/A N/A": null,
  "NO ADDRESSES WERE FOUND": null,
  "North Hollywood Station": null,
  "Northeast Community Police Station": null,
