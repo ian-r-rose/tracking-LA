@@ -21,8 +21,9 @@
   },
   "outcome": {
     "status": "approved",
-    "text": "Transportation Committee approved item(s) (Oct 7, 2026)",
+    "text": "Transportation Committee approved item(s) (Oct 7, 2026); Council adopted item forthwith (Oct 16, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1244-S1",
-    "recorded": "2026-10-08"
+    "vote": "11-0-4",
+    "recorded": "2026-10-17"
   }
 }

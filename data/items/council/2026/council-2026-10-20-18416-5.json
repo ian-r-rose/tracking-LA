@@ -1,0 +1,35 @@
+{
+  "id": "council-2026-10-20-18416-5",
+  "body": "council",
+  "meeting_date": "2026-10-20",
+  "item_number": "5",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 7323 North Remmet Avenue (Case No. 869290), Assessor I.D. No. 2111-014-017,…",
+  "text": "[Council File 26-0005-S177; CD 3]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 7323 North Remmet Avenue (Case No. 869290), Assessor I.D. No. 2111-014-017, from the Rent Escrow Account Program (REAP).\nRecommendation for Council action:\nAPPROVE the Housing Department (LAHD) report dated September 4, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 7323 North Remmet Avenue (Case No. 869290), Assessor I.D. No. 2111-014-017, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the CLA has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S177",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8b9f6a51-42e7-4ba8-8dbf-f71e8d33839d",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0f69a2fa-623f-4443-ad6c-1b6cf9d94fe0"
+  ],
+  "follows": "council-housing-2026-10-07-22707-8",
+  "summary": "The city will remove 7323 North Remmet Avenue from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "7323 North Remmet Ave, Los Angeles, CA",
+      "lat": 34.203291,
+      "lon": -118.600353,
+      "neighborhood": "Canoga Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S177",
+    "council_district": 3,
+    "case_numbers": [
+      "869290"
+    ]
+  }
+}

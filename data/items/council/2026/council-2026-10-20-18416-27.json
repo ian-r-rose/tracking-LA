@@ -1,0 +1,42 @@
+{
+  "id": "council-2026-10-20-18416-27",
+  "body": "council",
+  "meeting_date": "2026-10-20",
+  "item_number": "27",
+  "title": "CATEGORICAL EXEMPTION FROM THE CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) AND RELATED CEQA FINDINGS, and PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT…",
+  "text": "[Council File 26-1193; CD 13]\n[Items for which Public Hearings Have Been Held]\nCATEGORICAL EXEMPTION FROM THE CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) AND RELATED CEQA FINDINGS, and PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT relative to an appeal for the property located at 6007 West Sunset Boulevard (6001 - 6023 West Sunset Boulevard; 1503 - 1517 North Gordon Street; and 1506 - 1512 North La Baig Avenue).\nRecommendations for Council action:\nDETERMINE, based on the whole of the administrative record, that the Project is exempt from CEQA pursuant to CEQA Guidelines, Section 15301, Class 1, there is no substantial evidence demonstrating that an exception to a categorical exemption pursuant to CEQA Guidelines, Section 15300.2 applies.\nADOPT the FINDINGS of the Department of City Planning (DCP) as the Findings of Council.\nRESOLVE TO DENY the APPEAL filed by Emerson College (Los Angeles) (Representative: Paola M. Ferrer, Emerson College), and THEREBY SUSTAIN the determination of the DCP in approving a Modification of Entitlements to modify Conditions of Approval Nos. 1 and 7.e; for the construction, use and maintenance of a new seven-story, 102,224 square-foot mixed-use building with 109 dwelling units (including 14 units – 15% of the base density set aside for Very Low Income Households), and 14,657 square feet of ground floor commercial space with a proposed building height of 86 feet and a total of 196 automobile parking spaces within one subterranean and three above ground level of parking and a total of 148 bicycle spaces; for the property located at 6007 West Sunset Boulevard (6001 - 6023 West Sunset Boulevard; 1503 - 1517 North Gordon Street; and 1506 - 1512 North La Baig Avenue), subject to Conditions of Approval.\nApplicant: 6007 Sunset (LA) OZ, LLC\nRepresentative: Chris Manasserian, Gonzales Law Group, APC\nCase No. CPC-2021-1557-DB-SPR-HCA-M1-1A\nEnvironmental No. ENV-2026-2496-CE\nRelated Case Nos. CPC-2021-1557-DB-SPR-HCA-M1; CPC-2021-1557-DB-SPR-HCA\nFiscal Impact Statement:\nNone submitted by the DCP. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - OCTOBER 24, 2026\n(LAST DAY FOR COUNCIL ACTION - OCTOBER 23, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1193",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a7193662-efe9-4855-9064-d12aee87a823",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cd9ec304-5a66-4855-904e-8a94d6ba8d7e",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d68b6da0-a2dc-4284-8f55-9f9214a7350c",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1e6f1e1a-83b6-4530-a032-7cb8ce485b03",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=192719f7-52c3-42e8-89fc-9346c810152a"
+  ],
+  "follows": "council-plum-2026-10-13-18501-17",
+  "summary": "Emerson College's appeal of City Planning's approval modifying conditions for a seven-story mixed-use building with 109 dwelling units and ground-floor commercial space at 6007 West Sunset Boulevard.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "6007 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.098108,
+      "lon": -118.319989,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "26-1193",
+    "council_district": 13,
+    "case_numbers": [
+      "CPC-2021-1557-DB-SPR-HCA-M1-1A",
+      "CPC-2021-1557-DB-SPR-HCA-M1",
+      "CPC-2021-1557-DB-SPR-HCA"
+    ],
+    "applicant": "6007 Sunset (LA) OZ, LLC",
+    "action": "appeal of City Planning approval of Modification of Entitlements"
+  }
+}

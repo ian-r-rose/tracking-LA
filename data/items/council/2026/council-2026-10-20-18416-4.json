@@ -1,0 +1,34 @@
+{
+  "id": "council-2026-10-20-18416-4",
+  "body": "council",
+  "meeting_date": "2026-10-20",
+  "item_number": "4",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 2125 North Parkside Avenue (Case No. 919504), Assessor I.D. No. 5211-011-032,…",
+  "text": "[Council File 26-0005-S176; CD 14]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 2125 North Parkside Avenue (Case No. 919504), Assessor I.D. No. 5211-011-032, from the Rent Escrow Account Program (REAP).\nRecommendation for Council action:\nAPPROVE the Housing Department (LAHD) report dated September 4, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 2125 North Parkside Avenue (Case No. 919504), Assessor I.D. No. 5211-011-032, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the CLA has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S176",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f53679e-92c7-4b51-872e-44eb40fca9eb",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ea2cf8a3-ac8f-4465-b83a-524e20702398"
+  ],
+  "follows": "council-housing-2026-10-07-22707-7",
+  "summary": "The city will remove 2125 North Parkside Avenue from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "2125 North Parkside Ave, Los Angeles, CA",
+      "lat": 34.069608,
+      "lon": -118.200147,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S176",
+    "council_district": 14,
+    "case_numbers": [
+      "919504"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "council-2026-10-21-18410-14",
+  "body": "council",
+  "meeting_date": "2026-10-21",
+  "item_number": "14",
+  "title": "STATUTORY EXEMPTION from the CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA), and RELATED CEQA FINDINGS, and PLANNING AND LAND USE MANAGEMENT (PLUM) COMMITTEE…",
+  "text": "[Council File 26-1081; CD 4]\n[Items for which Public Hearings Have Been Held]\nSTATUTORY EXEMPTION from the CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA), and RELATED CEQA FINDINGS, and PLANNING AND LAND USE MANAGEMENT (PLUM) COMMITTEE REPORT relative to Vesting Tentative Tract Map appeals for the properties located at 12501 – 12665 West Ventura Boulevard.\nRecommendations for Council action:\nDETERMINE, based on the whole of the administrative record, the Project is exempt from CEQA pursuant to Public Resources Code Section 21080.66.\nADOPT the FINDINGS of the Los Angeles City Planning Commission (LACPC) as the Findings of Council.\nRESOLVE TO DENY the APPEALS filed by: 1) Amy C. Minteer, on behalf of Studio City Residents Association & Save LA River Open Space; and 2) Marianne King, and THEREBY SUSTAIN the LACPC's approval of the environmental clearance, a Statutory Exemption from CEQA, and approval of a two-phased Vesting Tentative Tract Map, VTT No. 84453, for the merger and re-subdivision of the Project Site into two ground lots, three residential airspace lots, five commercial airspace lots, and eight parking airspace lots, and a haul route approval for the construction, use, and maintenance of a mixed-use development comprised of 814 residential units and 75,968 square feet of restaurant uses; for the properties located at 12501 - 12665 West Ventura Boulevard, subject to modified Conditions of Approval, as further modified by the PLUM Committee to:\nModify Condition S-3(i)(3) as follows: Improve Valleyheart Drive being dedicated and adjoining the subdivision with the construction of a new 10-foot-wide sidewalk with landscaped parkway to the satisfaction of the Bureau of Engineering. Repair and/or replace any broken, damaged or off-grade concrete curb, gutter and roadway pavement, including any necessary removal and reconstruction of existing improvements.\nAdd a Condition of Approval to the subject Letter of Determination (LOD) (VTT LOD), VTT-84453-2A as follows: Prior to recordation of the Final Map, the applicant shall demonstrate compliance with Public Resources Code Section 4290 and its implementing regulations in Title 14, Division 1.5, Chapter 7, Subdivision 2 (State Minimum Fire Safe Regulations) and Chapter 7 of the California Building Code, as recommended by the Department of City Planning report dated October 5, 2026.\nAdd the conditions listed in the letter from Council District 4, dated October 13, 2026, attached to the Council file.\nApplicant: Brett Torino & Eleda Cohen / Studio City Sports Center, LLC\nRepresentative: Rose Fistrovic / Psomas Case No. VTT-84453-2A\nEnvironmental No. ENV-2025-5698-SE\n​​​​​​​Related Case Nos. VTT-84453; VTT-84453-1A; CPC-2025-5697-DB-PR-SPPC-MCUP-VHCA\nFiscal Impact Statement:\nThe LACPC reports that there is no General Fund impact as administrative costs are recovered through fees.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - OCTOBER 23, 2026\n(LAST DAY FOR COUNCIL ACTION - OCTOBER 23, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91955",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1081",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fba62b03-524d-4e93-b119-206d8efd48e5",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f0fea3ec-857d-484a-bfb4-3ba87af1690e",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc1a40ec-0d26-4b23-9c35-94ef6d41faaa",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=907d89f8-442a-4ad8-b7e0-0e34c3a76eac",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f2094865-3082-40eb-883a-3f027db2a46e"
+  ],
+  "follows": "council-plum-2026-10-13-18501-15",
+  "summary": "Two appeals of a tract map approval for a mixed-use project at 12501 to 12665 West Ventura Boulevard, which would allow 814 homes and 75,968 square feet of restaurants.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "12501 West Ventura Boulevard, Los Angeles, CA",
+      "lat": 34.142777,
+      "lon": -118.405273,
+      "neighborhood": "Studio City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "VTT-84453-2A",
+      "VTT-84453",
+      "VTT-84453-1A",
+      "CPC-2025-5697-DB-PR-SPPC-MCUP-VHCA"
+    ],
+    "council_district": 4,
+    "council_file": "26-1081",
+    "applicant": "Brett Torino & Eleda Cohen / Studio City Sports Center, LLC",
+    "action": "appeals of Deputy Advisory Agency tract map approval"
+  }
+}

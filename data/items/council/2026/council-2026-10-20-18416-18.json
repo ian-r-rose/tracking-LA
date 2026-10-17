@@ -1,0 +1,36 @@
+{
+  "id": "council-2026-10-20-18416-18",
+  "body": "council",
+  "meeting_date": "2026-10-20",
+  "item_number": "18",
+  "title": "ARTS, PARKS, AND CITY FACILITIES COMMITTEE REPORT relative to declaring the City-owned fee interest beneath Industrial Street between Central Avenue and…",
+  "text": "[Council File 26-1120]\n[Items for which Public Hearings Have Been Held]\nARTS, PARKS, AND CITY FACILITIES COMMITTEE REPORT relative to declaring the City-owned fee interest beneath Industrial Street between Central Avenue and Alameda Street as surplus property.\nRecommendations for Council action, pursuant to Motion (Jurado - Hernandez):\nDECLARE the City-owned fee interest beneath Industrial Street between Central Avenue and Alameda Street to be surplus property in accordance with Article 7 of the Los Angeles Administrative Code.\nDIRECT the General Services Department, with the assistance of the Bureau of Engineering and the City Attorney, to take all necessary steps to process this surplus declaration consistent with applicable City procedures.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submited",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1120",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=52f6b1a5-fb6e-4912-b481-3ace3cd37e0e",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=57c515ae-3da5-45dd-ad0a-556f93372ca1"
+  ],
+  "follows": "council-arts-parks-2026-10-07-20685-13",
+  "summary": "Declaration of City-owned fee interest beneath Industrial Street between Central Avenue and Alameda Street as surplus property.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Industrial Street & Central Avenue, Los Angeles, CA",
+      "lat": 34.037397,
+      "lon": -118.240574,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "Industrial Street & Alameda Street, Los Angeles, CA",
+      "lat": 34.036119,
+      "lon": -118.238553,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "26-1120"
+  }
+}

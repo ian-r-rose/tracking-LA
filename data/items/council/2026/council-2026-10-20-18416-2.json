@@ -1,0 +1,36 @@
+{
+  "id": "council-2026-10-20-18416-2",
+  "body": "council",
+  "meeting_date": "2026-10-20",
+  "item_number": "2",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 1804 South Kingsley Drive (Case No. 844468), Assessor I.D. No. 5074-024-006,…",
+  "text": "[Council File 14-0005-S316; CD 10]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 1804 South Kingsley Drive (Case No. 844468), Assessor I.D. No. 5074-024-006, from the Rent Escrow Account Program (REAP).\nRecommendation for Council action:\nAPPROVE the Housing Department (LAHD) report dated September 4, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 1804 South Kingsley Drive (Case No. 844468), Assessor I.D. No. 5074-024-006, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the CLA has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=14-0005-S316",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a85cbc2f-afdd-4b51-858b-3a74b634188a",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f892d189-e1df-4d45-a56f-1d105fac0f87",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c34f9c47-75cd-4dcc-9dc6-abd86c47298d"
+  ],
+  "follows": "council-housing-2026-10-07-22707-5",
+  "summary": "The city will remove 1804 South Kingsley Drive from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "1804 South Kingsley Drive, Los Angeles, CA",
+      "lat": 34.041128,
+      "lon": -118.303304,
+      "neighborhood": "Harvard Heights"
+    }
+  ],
+  "details": {
+    "council_file": "14-0005-S316",
+    "council_district": 10,
+    "case_numbers": [
+      "844468"
+    ]
+  }
+}

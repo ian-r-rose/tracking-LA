@@ -1,0 +1,35 @@
+{
+  "id": "council-2026-10-20-18416-3",
+  "body": "council",
+  "meeting_date": "2026-10-20",
+  "item_number": "3",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 1702 West Exposition Boulevard (Case No. 878802), Assessor I.D. No.…",
+  "text": "[Council File 26-0005-S175; CD 8]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 1702 West Exposition Boulevard (Case No. 878802), Assessor I.D. No. 5035-033-017, from the Rent Escrow Account Program (REAP).\nRecommendation for Council action:\nAPPROVE the Housing Department (LAHD) report dated September 4, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 1702 West Exposition Boulevard (Case No. 878802), Assessor I.D. No. 5035-033-017, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the CLA has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S175",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=566ee5b4-db75-4e12-8365-2bbd22fffb40",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=447fa873-aae7-49c0-bbd0-b8d8899b0bf5"
+  ],
+  "follows": "council-housing-2026-10-07-22707-6",
+  "summary": "The city will remove 1702 West Exposition Boulevard from the Rent Escrow Account Program, allowing the property owner to regain control.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "1702 West Exposition Boulevard, Los Angeles, CA",
+      "lat": 34.018185,
+      "lon": -118.311142,
+      "neighborhood": "Exposition Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-0005-S175",
+    "council_district": 8,
+    "case_numbers": [
+      "878802"
+    ]
+  }
+}

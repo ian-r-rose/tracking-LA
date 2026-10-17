@@ -1,0 +1,43 @@
+{
+  "id": "council-2026-10-20-18416-26",
+  "body": "council",
+  "meeting_date": "2026-10-20",
+  "item_number": "26",
+  "title": "SSTATUTORY EXEMPTION from the CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA), AND RELATED CEQA FINDINGS, and PLANNING AND LAND USE MANAGEMENT (PLUM) COMMITTEE…",
+  "text": "[Council File 26-1081-S1; CD 4]\n[Items for which Public Hearings Have Been Held]\nSSTATUTORY EXEMPTION from the CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA), AND RELATED CEQA FINDINGS, and PLANNING AND LAND USE MANAGEMENT (PLUM) COMMITTEE REPORT relative to a Project Review and Project Compliance appeal for the properties located at 12501 - 12665 West Ventura Boulevard.\nRecommendations for Council action:\nDETERMINE, based on the whole of the administrative record, the Project is exempt from CEQA pursuant to Public Resources Code Section 21080.66.\nADOPT the FINDINGS of the Los Angeles City Planning Commission (LACPC) as the Findings of Council.\nRESOLVE TO DENY the APPEAL filed by Amy C. Minteer, on behalf of Studio City Residents Association & Save LA River Open Space, and THEREBY SUSTAIN the LACPC's approval of the environmental clearance, a Statutory Exemption from CEQA, and 1) Approving a Project Review, pursuant to the Los Angeles Municipal Code (LAMC) Chapter 1 Section 16.05 and Chapter 1A Section 13B.2.4, for a development project resulting in a net increase of 50 or more dwelling units and 50,000 gross square feet or more of non-residential floor area; and 2) Approving a Project Compliance, pursuant to LAMC Chapter 1A Section 13B.4.2 and the Ventura/Cahuenga Boulevard Corridor Specific Plan, Section 9, to permit the construction of a mixed-use development comprising 814 dwelling units and 75,968 square feet of restaurant floor area; for the demolition and removal of all existing structures from the Project Site and the construction, use, and maintenance of a 744,906-square-foot mixed-use development comprised of 814 residential units, 46 of which are reserved for Very Low Income households, and 75,968 square feet of restaurant space; the seven-story (84-foot-high) building will contain 668,938 square feet of residential floor area and 75,968 square feet of restaurant floor area with a maximum floor area ratio of 3.2:1; the Project's residential portion will provide 1,040 automobile parking spaces, 324 long-term bicycle parking stalls, and 30 short-term bicycle parking stalls; the commercial portion of the Project will provide 766 automobile parking spaces, 40 long-term bicycle parking stalls, and 38 short-term bicycle parking stalls; the Project will provide a total of 89,937 square feet of open space, including pool decks, courtyards, indoor recreational rooms located on the first through seventh floors, and private balconies; the Project proposes the removal of 240 non-protected trees from the Project Site and three non-protected street trees from the public right-of-way; the Project proposes grading and exporting of up to 521,000 cubic yards of earth and installation of wall, monument, projecting, identification, and wayfinding signs; for the properties located at 12501 – 12665 West Ventura Boulevard, subject to Conditions of Approval, as modified by the PLUM Committee to:\nAdd a Condition of Approval to the subject Letter of Determination (LOD) as follows: Prior to recordation of the Final Map, the applicant shall demonstrate compliance with Public Resources Code Section 4290 and its implementing regulations in Title 14, Division 1.5, Chapter 7, Subdivision 2 (State Minimum Fire Safe Regulations) and Chapter 7 of the California Building Code, as recommended by the Department of City Planning report dated October 5, 2026.\nAdd the conditions listed in the letter from Council District 4, dated October 13, 2026, attached to the Council file.\nApplicant: Brett Torino & Eleda Cohen / Studio City Sports Center, LLC\nRepresentative: Rose Fistrovic / Psomas\nCase No. CPC-2025-5697-DB-PR-SPPC-MCUP- VHCA-1A\nEnvironmental No. ENV-2025-5698-SE\nRelated Case Nos. VTT-84453; VTT-84453-1A; VTT-84453-2A\nFiscal Impact Statement:\nThe LACPC reports that there is no General Fund impact as administrative costs are recovered through fees.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - OCTOBER 23, 2026\n(LAST DAY FOR COUNCIL ACTION - OCTOBER 23, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1081-S1",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=abd0638c-aee8-49e0-8532-1b10122ea68d",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=772e227a-62cf-40ea-a47a-a9dd58838a4d",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8f963fe1-22e8-4c8b-97b2-a392b18e1ac9",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c8f1acf-ed7f-4d7f-8f9f-fde1a94d0a17",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0e618b75-6a8b-4ae7-9fe1-a41e71b5b4e8"
+  ],
+  "follows": "council-plum-2026-10-13-18501-16",
+  "summary": "Appeal by Studio City Residents Association and Save LA River Open Space of the City Planning Commission's approval of an 814-unit mixed-use project at 12501 to 12665 West Ventura Boulevard, including 46 very low income units and 75,968 square feet of restaurant space.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "12501 West Ventura Boulevard, Los Angeles, CA",
+      "lat": 34.142777,
+      "lon": -118.405273,
+      "neighborhood": "Studio City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-5697-DB-PR-SPPC-MCUP-VHCA-1A",
+      "VTT-84453",
+      "VTT-84453-1A",
+      "VTT-84453-2A"
+    ],
+    "council_district": 4,
+    "council_file": "26-1081-S1",
+    "applicant": "Brett Torino & Eleda Cohen / Studio City Sports Center, LLC",
+    "action": "appeal of Project Review and Project Compliance approvals"
+  }
+}

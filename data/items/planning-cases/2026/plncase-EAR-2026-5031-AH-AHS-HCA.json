@@ -31,5 +31,11 @@
   },
   "flag": {
     "reason": "A 237-unit, 100% affordable housing project in Echo Park."
+  },
+  "outcome": {
+    "status": "other",
+    "text": "EAR action: REVIEW COMPLETED (Oct 16, 2026)",
+    "source": "https://planning.lacity.gov/pdiscaseinfo/caseNumber/EAR-2026-5031-AH-AHS-HCA",
+    "recorded": "2026-10-17"
   }
 }

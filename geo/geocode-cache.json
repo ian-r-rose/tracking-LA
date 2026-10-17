@@ -584,6 +584,12 @@
   "lon": -118.264673,
   "score": 100
  },
+ "1932 S ARMACOST AVE": {
+  "address": "1932 S ARMACOST AVE, 90025",
+  "lat": 34.035808,
+  "lon": -118.45489,
+  "score": 100
+ },
  "1941 S CARMONA AVE": {
   "address": "1941 S CARMONA AVE, 90016",
   "lat": 34.039569,
@@ -602,6 +608,7 @@
   "lon": -118.563893,
   "score": 100
  },
+ "19821 W RINALDI ST": null,
  "19910-20000 Lorne Street": {
   "address": "20000 W LORNE ST, 91306",
   "lat": 34.21713,
