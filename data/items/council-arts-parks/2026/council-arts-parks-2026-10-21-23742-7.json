@@ -9,5 +9,25 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91886",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1372",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=888be8aa-ebb2-4195-913a-7c283c2ade22"
-  ]
+  ],
+  "summary": "A motion to transfer Proposition K funds for a new data network that will support the security and building monitoring systems at the Studio City Recreation Center gymnasium project.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "12621 Rye St, Los Angeles, CA",
+      "lat": 34.151415,
+      "lon": -118.407728,
+      "neighborhood": "Studio City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-1372"
+    ],
+    "council_district": 4,
+    "council_file": "26-1372",
+    "action": "transfer of Proposition K funds"
+  }
 }

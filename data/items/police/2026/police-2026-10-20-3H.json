@@ -7,5 +7,19 @@
   "text": "[3. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated September 30, 2026, relative to a donation valued at $10,150.00\n  to fund Pacific Community Police Station renovations, as set forth.  [BPC #26-322]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261200882_10202026.pdf"
-  ]
+  ],
+  "summary": "The Board is asked to approve a $10,150 donation to fund renovations at the Pacific Community Police Station.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Pacific Community Police Station"
+    }
+  ],
+  "details": {
+    "action": "donation acceptance",
+    "amount": "$10,150.00"
+  }
 }

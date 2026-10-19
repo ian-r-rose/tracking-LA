@@ -8,5 +8,14 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81250"
-  ]
+  ],
+  "summary": "An amendment adding $1,011,900 to LAWA's AT&T wireless voice and data services contract, raising its cap to $3,611,900 and extending it two years.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "contract amendment",
+    "amount": "$1,011,900"
+  }
 }

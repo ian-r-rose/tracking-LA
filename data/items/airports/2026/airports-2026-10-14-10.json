@@ -9,5 +9,19 @@
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81263",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81354"
-  ]
+  ],
+  "summary": "The Board is asked to approve $87,516,763 for continued design and construction of the Terminal 7 Refresh at Los Angeles International Airport.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Terminal 7, Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "appropriation",
+    "amount": "$87,516,763"
+  }
 }

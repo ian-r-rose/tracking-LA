@@ -9,5 +9,25 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91905",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S187",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e400bf29-684d-421f-b228-1db86c8c9821"
-  ]
+  ],
+  "summary": "Housing Department proposal to take 1307 South Ridgeley Drive in Council District 10 off the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "1307 South Ridgeley Drive, Los Angeles, CA",
+      "lat": 34.05083,
+      "lon": -118.354981,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "844138"
+    ],
+    "council_district": 10,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S187"
+  }
 }

@@ -10,5 +10,19 @@
     "https://metro.legistar.com/LegislationDetail.aspx?ID=12773&GUID=72361AA6-FEC0-487C-96C9-AAC5366048E7",
     "https://metro.legistar1.com/metro/attachments/d8041846-b133-4953-a522-09f9d7c6799b.pdf",
     "https://metro.legistar1.com/metro/attachments/22787e64-2ae4-410c-8122-9b77008abcfd.pdf"
-  ]
+  ],
+  "summary": "Metro board increase of $4.35 million, to $14.85 million, for ADA improvements at Los Angeles Union Station West, plus a $3.5 million boost to the FY27 budget for the project.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Union Station West"
+    }
+  ],
+  "details": {
+    "action": "LOP budget increase",
+    "amount": "$4,350,000"
+  }
 }

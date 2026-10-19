@@ -8,5 +8,17 @@
   "urls": [
     "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3549&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
     "https://metro.legistar.com/LegislationDetail.aspx?ID=12872&GUID=50A9DD1B-E311-4DB2-831E-EC1B888FDA39"
-  ]
+  ],
+  "summary": "Metro would set up a streamlined permitting pilot with corridor cities to cut duplicate reviews and speed local approvals for the Southeast Gateway Line, reporting back to the board within 120 days.",
+  "topics": [
+    "transportation",
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "action": "motion directing pilot program"
+  },
+  "flag": {
+    "reason": "Permitting pilot for the Southeast Gateway Line; transportation topic."
+  }
 }

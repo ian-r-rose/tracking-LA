@@ -9,5 +9,15 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1438",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a60fc950-a69d-427a-b04a-2ba57b50517c"
-  ]
+  ],
+  "summary": "Extends the city's contract with West Valley Homes through November 1, 2027, to continue its recreational vehicle outreach-to-home program in Council District 7.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 7,
+    "action": "contract term extension",
+    "council_file": "26-1438"
+  }
 }

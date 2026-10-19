@@ -19,5 +19,8 @@
   "details": {
     "council_file": "26-1278",
     "action": "motion on TAP-to-Exit infrastructure"
+  },
+  "flag": {
+    "reason": "Transit fare-gate policy affecting Metro rail stations in the city; transportation topic."
   }
 }

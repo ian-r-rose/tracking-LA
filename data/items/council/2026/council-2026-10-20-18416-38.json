@@ -11,5 +11,22 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c076aab8-0949-420a-b6dc-243042e1ef10",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b41f55d3-220c-4a9e-9d23-43d34ea81971",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3bfc4a97-0371-4c00-93cf-a52a4c4a4589"
-  ]
+  ],
+  "summary": "Renames the 23rd Street and Central Avenue intersection, already designated Lincoln Theater Square, to add Quincy Jones to the name.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "23rd St & Central Ave, Los Angeles, CA",
+      "lat": 34.020819,
+      "lon": -118.253885,
+      "neighborhood": "Historic South-Central"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "action": "amendment of prior council action (intersection naming)",
+    "council_file": "26-0159"
+  }
 }

@@ -11,5 +11,28 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0568cf9d-b2ee-4488-bd45-de384e72450f",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3aa853eb-a7fe-4280-8f64-3509217557c1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e9350744-af1d-4a20-8a53-c74a8ba49e34"
-  ]
+  ],
+  "summary": "Creates a new Jobs and Economic Development Incentive (JEDI) zone along Pacific Boulevard between the 110 Freeway and 22nd Street in Council District 15.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Pacific Blvd & I-110, Los Angeles, CA"
+    },
+    {
+      "text": "Pacific Blvd & 22nd St, Los Angeles, CA",
+      "lat": 33.724251,
+      "lon": -118.287986,
+      "neighborhood": "San Pedro"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "23-0957-S1"
+    ],
+    "council_district": 15,
+    "action": "establishment of JEDI zone",
+    "council_file": "23-0957-S1"
+  }
 }

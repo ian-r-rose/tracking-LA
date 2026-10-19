@@ -10,5 +10,24 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1223",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b97fb7ef-f487-4296-b5f9-acdd3816e35e",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ab6a11c-e700-4f67-94eb-e81b63fa381d"
-  ]
+  ],
+  "summary": "Changes the funding for Council District 6's El Grito celebration, including lighting City Hall, by moving $876 from the district's council projects account to General Services.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "City Hall, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-1223"
+    ],
+    "council_district": 6,
+    "action": "amendment of prior Council action",
+    "amount": "$876",
+    "council_file": "26-1223"
+  }
 }

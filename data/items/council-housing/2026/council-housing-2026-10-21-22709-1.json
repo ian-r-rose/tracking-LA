@@ -10,5 +10,26 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S182",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b27786d1-adaf-40a7-8ddb-c4ac45140714",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=848e55e8-dfcc-4fc8-9b5e-0542264b04ad"
-  ]
+  ],
+  "summary": "Housing Department proposal to take 9 East 19th Avenue in Council District 11 off the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "9 East 19th Avenue, Los Angeles, CA",
+      "lat": 33.985574,
+      "lon": -118.471963,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "801964",
+      "619017"
+    ],
+    "council_district": 11,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S182"
+  }
 }

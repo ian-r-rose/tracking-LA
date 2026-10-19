@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81246"
-  ]
+  ],
+  "summary": "A second amendment to HNTB Corporation's office lease at LAWA's Skyview Center, 6033 West Century Boulevard, adding space and extending the term for about $3.2 million in net revenue, with funds appropriated for tenant improvements and broker commissions.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "6033 West Century Boulevard, Los Angeles, CA",
+      "lat": 33.945638,
+      "lon": -118.389878,
+      "neighborhood": "Westchester"
+    }
+  ],
+  "details": {
+    "action": "lease amendment",
+    "amount": "$3,196,105"
+  }
 }

@@ -9,5 +9,22 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91905",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S185",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=613f9396-cbb3-4c9e-9856-26e2939eda06"
-  ]
+  ],
+  "summary": "Housing Department proposal to take 5923 North Monterey Road in Council District 14 off the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "5923 North Monterey Road, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "776529"
+    ],
+    "council_district": 14,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S185"
+  }
 }

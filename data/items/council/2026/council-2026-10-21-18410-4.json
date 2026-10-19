@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91955",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0865",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dd6b0148-5e56-452c-a45e-4797bc220474"
-  ]
+  ],
+  "summary": "Asks the Chief Legislative Analyst to report on how many businesses are not ADA-compliant, the costs of fixes, an outreach plan, and a possible micro-grant program for small businesses, and asks the City Attorney for the total paid in ADA sidewalk settlements since the Willits settlement.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "instruction to report on ADA compliance for small businesses",
+    "council_file": "26-0865"
+  }
 }

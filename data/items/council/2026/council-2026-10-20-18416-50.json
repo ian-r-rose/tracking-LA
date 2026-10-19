@@ -13,5 +13,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=76535c92-5f17-4c68-88ce-4d77c43d41bd",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=45fe0396-43e7-4338-a0dc-5e096ec9fca8",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1552da38-f7ec-4c5b-b04f-8849d614e72b"
-  ]
+  ],
+  "summary": "Revises a 2024 Council action on the CASP plan so warehouse, distribution and storage projects over 15,000 square feet need a conditional use permit, and directs the City Attorney to draft the related ordinances.",
+  "topics": ["land_use"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["13-0078-S2"],
+    "council_district": 1,
+    "action": "amendment of prior Council action",
+    "council_file": "13-0078-S2"
+  }
 }

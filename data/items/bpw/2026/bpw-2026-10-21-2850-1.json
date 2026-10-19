@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25183",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e100df09-4a19-45fd-8138-49b7b96e8aed"
-  ]
+  ],
+  "summary": "The Board is asked to reject the only bid on the Parkview sustainable transportation and transportation amenities improvement project, so the City Engineer can re-advertise it later.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 9,
+    "action": "bid rejection",
+    "bureau": "Bureau of Engineering"
+  }
 }

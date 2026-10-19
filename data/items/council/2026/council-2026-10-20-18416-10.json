@@ -9,5 +9,13 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-0972-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0dbb9196-bb2f-4df3-9f1a-63a5001cfea8"
-  ]
+  ],
+  "summary": "Extends the city's professional services contract with Standard Insurance Company by three years, through December 2027, funded by the human resources benefits budget and participant fees.",
+  "topics": ["budget"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["23-0972-S1"],
+    "action": "contract extension",
+    "council_file": "23-0972-S1"
+  }
 }

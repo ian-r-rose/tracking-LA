@@ -10,5 +10,26 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S183",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e2a8b8b5-5a3f-497c-852a-c1da49faad57",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=24791ff8-1a5e-4187-bf37-680ef464e6e5"
-  ]
+  ],
+  "summary": "Housing Department proposal to take 4056 West 21st Street in Council District 10 off the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "4056 West 21st Street, Los Angeles, CA",
+      "lat": 34.03782,
+      "lon": -118.329476,
+      "neighborhood": "Arlington Heights"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "922470",
+      "899313"
+    ],
+    "council_district": 10,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S183"
+  }
 }

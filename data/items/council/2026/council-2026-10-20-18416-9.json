@@ -13,5 +13,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4bec0fe2-d613-4fbb-92ab-d014954b511a",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e286105a-7bd8-46d4-814b-a9de896f94c8",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c5851387-844d-40a0-acdb-0acacfa440b7"
-  ]
+  ],
+  "summary": "Approves a labor agreement amendment that raises pay for boat captains and deck hands and changes work schedules for Harbor Department pilot station crews.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["24-0427"],
+    "action": "labor agreement amendment",
+    "amount": "approximately $48,000",
+    "council_file": "24-0427"
+  }
 }

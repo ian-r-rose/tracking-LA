@@ -9,5 +9,17 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91886",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1411",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c9b2eddb-ea20-4a7b-aea2-d41578b270a8"
-  ]
+  ],
+  "summary": "A motion on the Department of Animal Services' current Animal Control Officer staffing and deployment, and the resources needed to keep service and response times at their current level.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "26-1411"
+    ],
+    "council_file": "26-1411",
+    "action": "motion"
+  }
 }

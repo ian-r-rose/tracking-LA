@@ -9,5 +9,17 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91886",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1420-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e39d4375-0785-4fdf-bedc-266f080a7edc"
-  ]
+  ],
+  "summary": "A motion to create a comprehensive inventory of all city-owned artwork and objects located across city facilities.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "26-1420-S1"
+    ],
+    "council_file": "26-1420-S1",
+    "action": "motion"
+  }
 }

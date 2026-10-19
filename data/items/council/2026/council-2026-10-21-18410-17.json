@@ -10,5 +10,15 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0600-S16",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d525a65-1599-4536-89cf-be9a64d4ed40",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4f7d8212-e99d-4f6c-9368-27ec2d15b65a"
-  ]
+  ],
+  "summary": "Directs the City Administrative Officer to identify $460,000 in the budget for a public bank feasibility study, using Council discretionary funds if needed, and to report on the study's status with each financial status report.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "budget amendment for study funding",
+    "amount": "$460,000",
+    "council_file": "25-0600-S16"
+  }
 }

@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25183",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d1b55bfb-cb1c-4ebd-8ee4-b689ad54c747"
-  ]
+  ],
+  "summary": "The Board is asked to certify the environmental impact report for the Wilmington neighborhood greening and Wilmington-Anaheim green infrastructure corridor projects, adopt its findings and mitigation program, and approve the projects.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 15,
+    "action": "EIR certification and project approval",
+    "bureau": "Bureau of Engineering"
+  }
 }

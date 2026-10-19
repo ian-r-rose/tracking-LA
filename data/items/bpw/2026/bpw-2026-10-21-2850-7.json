@@ -8,5 +8,20 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25183",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5c068962-e9c7-4ead-9d79-b036e6c86e31"
-  ]
+  ],
+  "summary": "Acceptance of the completed Hyperion Treatment Plant headworks improvement and odor control contract with Murray Plumbing and Heating, and a decision not to penalize the contractor $126,144 for swapping out a bid-listed subcontractor without authorization.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Hyperion Treatment Plant"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "action": "contract acceptance and penalty waiver",
+    "amount": "$126,144",
+    "bureau": "Bureau of Contract Administration; Bureau of Engineering"
+  }
 }

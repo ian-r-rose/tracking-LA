@@ -8,5 +8,18 @@
   "urls": [
     "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3549&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
     "https://metro.legistar.com/LegislationDetail.aspx?ID=12883&GUID=A62A83C5-5FF5-472B-A9C9-54EB3D68FE1F"
-  ]
+  ],
+  "summary": "Metro board motion to commit up to $6 million, to be repaid by California high-speed rail, toward design and environmental work for a Pico Rivera regional rail station.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Pico Rivera Regional Rail Station"
+    }
+  ],
+  "details": {
+    "action": "motion",
+    "amount": "$6 million"
+  }
 }

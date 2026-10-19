@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81271"
-  ]
+  ],
+  "summary": "A three-year contract, through a cooperative Sourcewell agreement, to buy three 3,000-gallon aircraft rescue and firefighting vehicles for LAX, for up to $8 million.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$8,000,000"
+  }
 }

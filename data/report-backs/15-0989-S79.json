@@ -5,5 +5,12 @@
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2015/15-0989-S79_misc_10-06-26.pdf",
   "adopted": null,
   "documents": [],
-  "motion": "I THEREFORE MOVE that Council REQUEST the Los Angeles Public Library to report with recommendations for incorporating the Olympics into the 2028 Summer Reading Challenge. PRESENTED BY: SECONDED BY: ovookeKapal ^ ) MONICA RODRIGUEZ ( ) LU~O/ emaom Councilwoman, 7th District ~ OCT 0 6 2026"
+  "motion": "I THEREFORE MOVE that Council REQUEST the Los Angeles Public Library to report with recommendations for incorporating the Olympics into the 2028 Summer Reading Challenge. PRESENTED BY: SECONDED BY: ovookeKapal ^ ) MONICA RODRIGUEZ ( ) LU~O/ emaom Councilwoman, 7th District ~ OCT 0 6 2026",
+  "requests": [
+    {
+      "departments": ["Los Angeles Public Library"],
+      "asks": "Recommendations for incorporating the Olympics into the 2028 Summer Reading Challenge.",
+      "deadline": null
+    }
+  ]
 }

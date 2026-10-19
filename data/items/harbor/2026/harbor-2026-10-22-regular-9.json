@@ -11,5 +11,23 @@
     "https://kentico.portoflosangeles.org/getmedia/258a228c-a99c-4226-b5f0-df0528976a27/09_Waterfront-Real-Estate_Red-Car_Rec-and-Parks_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/ab69ce5a-6941-4fff-a3d6-6b38cd135cbc/09_Waterfront-Real-Estate_Red-Car_Rec-and-Parks_Transmittal-2",
     "https://kentico.portoflosangeles.org/getmedia/9d8e5272-0f61-4ace-acc4-ddfa6d331767/09_Waterfront-Real-Estate_Red-Car_Rec-and-Parks_Transmittal-3"
-  ]
+  ],
+  "summary": "The Port would loan one of its Red Car replicas to the Travel Town museum under a 20-year agreement with Recreation and Parks, so the car can be moved out of the way of the 22nd Street parking lot project.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "5200 Zoo Dr, Los Angeles, CA 90027",
+      "lat": 34.155402,
+      "lon": -118.300917,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "memorandum of understanding"
+  },
+  "flag": {
+    "reason": "Travel Town is in Griffith Park, a watched neighborhood."
+  }
 }

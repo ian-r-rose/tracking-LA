@@ -10,5 +10,12 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1313",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1682f291-a07e-453d-8f23-be6342896e4b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fe41cf80-fc55-40ac-94f4-656531d92a6c"
-  ]
+  ],
+  "summary": "Council is asked to exempt three Community and Investment Department positions, two Project Coordinators and a Chief Grants Coordinator, from civil service.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "council_file": "23-1313",
+    "action": "civil service exemption of positions"
+  }
 }

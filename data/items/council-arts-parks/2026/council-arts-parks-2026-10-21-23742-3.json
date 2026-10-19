@@ -12,5 +12,17 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=897c7953-a55a-4bbb-9459-9293b26d58fb",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=19a17aa0-9292-40ee-9698-16084a71fcfd",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fecb07aa-2773-4767-bf95-0fdcb793b3c7"
-  ]
+  ],
+  "summary": "A Department of Animal Services report on how many spay and neuter sterilization vouchers were issued and redeemed in fiscal year 2025-26.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "26-0533"
+    ],
+    "council_file": "26-0533",
+    "action": "report"
+  }
 }

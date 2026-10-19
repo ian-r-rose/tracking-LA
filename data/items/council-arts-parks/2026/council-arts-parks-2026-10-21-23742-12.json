@@ -9,5 +9,30 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91886",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0916",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6206d093-c9c5-48a2-bc32-04b875bf61f1"
-  ]
+  ],
+  "summary": "A motion to declare two city-owned properties, one near 39th Street and Flower Drive and one next to 3947 South Figueroa Street, as Exempt Surplus Land.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "39th St & Flower Dr, Los Angeles, CA",
+      "lat": 34.014069,
+      "lon": -118.281569,
+      "neighborhood": "Exposition Park"
+    },
+    {
+      "text": "3947 S Figueroa St, Los Angeles, CA",
+      "lat": 34.012687,
+      "lon": -118.28281,
+      "neighborhood": "Exposition Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-0916"
+    ],
+    "council_file": "26-0916",
+    "action": "declaration of exempt surplus land"
+  }
 }

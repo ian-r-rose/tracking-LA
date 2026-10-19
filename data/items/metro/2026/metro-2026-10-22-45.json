@@ -8,5 +8,23 @@
   "urls": [
     "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3549&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
     "https://metro.legistar.com/LegislationDetail.aspx?ID=12896&GUID=9A3ED72E-2B89-4104-ABAB-BBA5C983C7A2"
-  ]
+  ],
+  "summary": "Metro would have staff prepare a first/last mile plan for the Sun Valley Metrolink Station, evaluate more parking near the Pacoima station, and confirm that Sylmar station planning still applies, reporting back in 60 to 180 days.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Sun Valley Metrolink Station"
+    },
+    {
+      "text": "Pacoima Metrolink Station and Mobility Hub"
+    },
+    {
+      "text": "Sylmar Metrolink Station"
+    }
+  ],
+  "details": {
+    "action": "motion directing first/last mile planning"
+  }
 }

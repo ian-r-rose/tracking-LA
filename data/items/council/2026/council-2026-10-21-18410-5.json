@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91955",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=15-0417-S4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e27c6d65-5f52-4736-a890-3b775401025b"
-  ]
+  ],
+  "summary": "Adopts the 2026 annual planning report for the San Pedro Historic Waterfront business improvement district after finding it complies with state law, with no General Fund impact.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["15-0417-S4"],
+    "council_district": 15,
+    "action": "adoption of annual planning report",
+    "council_file": "15-0417-S4"
+  }
 }

@@ -241,6 +241,12 @@
   "lon": -118.267289,
   "score": 100
  },
+ "12450 Mason Avenue": {
+  "address": "12450 N MASON AVE, 91326",
+  "lat": 34.294365,
+  "lon": -118.581928,
+  "score": 99.06
+ },
  "125 Paseo de la Plaza": {
   "address": "125 E PASEO DE LA PLAZA, 90012",
   "lat": 34.057043,
@@ -252,6 +258,12 @@
   "lat": 34.142777,
   "lon": -118.405273,
   "score": 100
+ },
+ "12621 Rye St": {
+  "address": "12621 W RYE ST, 91604",
+  "lat": 34.151415,
+  "lon": -118.407728,
+  "score": 99.06
  },
  "12755 W BURBANK BLVD": {
   "address": "12755 W BURBANK BLVD, 91607",
@@ -287,6 +299,12 @@
   "address": "12952 W RATNER ST, 91605",
   "lat": 34.21677,
   "lon": -118.415967,
+  "score": 100
+ },
+ "1307 South Ridgeley Drive": {
+  "address": "1307 S RIDGELEY DR, 90019",
+  "lat": 34.05083,
+  "lon": -118.354981,
   "score": 100
  },
  "13200-14500 West Van Nuys Boulevard": {
@@ -359,6 +377,12 @@
   "address": "1391 N TOWER GROVE DR, 90210",
   "lat": 34.096856,
   "lon": -118.425922,
+  "score": 100
+ },
+ "140 N Judge John Aiso St": {
+  "address": "140 N JUDGE JOHN AISO ST, 90012",
+  "lat": 34.050741,
+  "lon": -118.240498,
   "score": 100
  },
  "1400 North Vista Moraga": {
@@ -470,6 +494,12 @@
   "lon": -118.300767,
   "score": 100
  },
+ "1624 South Hope Street": {
+  "address": "1624 S HOPE ST, 90015",
+  "lat": 34.036131,
+  "lon": -118.26776,
+  "score": 100
+ },
  "16300 Foothill Boulevard": {
   "address": "16300 W FOOTHILL BLVD, 91342",
   "lat": 34.319245,
@@ -511,6 +541,12 @@
   "lat": 34.018185,
   "lon": -118.311142,
   "score": 99.08
+ },
+ "1710 North Cherokee Avenue, Suite A": {
+  "address": "1710 N CHEROKEE AVE, 90028",
+  "lat": 34.102039,
+  "lon": -118.334706,
+  "score": 100
  },
  "17317 West Ventura Boulevard": {
   "address": "17317 W VENTURA BLVD, 91316",
@@ -596,6 +632,12 @@
   "lon": -118.361477,
   "score": 100
  },
+ "1950 South Avenue of the Stars": {
+  "address": "1950 S AVENUE OF THE STARS, 90067",
+  "lat": 34.059371,
+  "lon": -118.416425,
+  "score": 100
+ },
  "19535 W VENTURA BLVD": {
   "address": "19535 W VENTURA BLVD, 91356",
   "lat": 34.172858,
@@ -609,6 +651,12 @@
   "score": 100
  },
  "19821 W RINALDI ST": null,
+ "19821 W Rinaldi St": {
+  "address": "19821 W RINALDI ST, 91326",
+  "lat": 34.275166,
+  "lon": -118.566495,
+  "score": 100
+ },
  "19910-20000 Lorne Street": {
   "address": "20000 W LORNE ST, 91306",
   "lat": 34.21713,
@@ -712,6 +760,7 @@
   "lon": -118.596137,
   "score": 100
  },
+ "2137 250th St, Lomita": null,
  "2141 S GLYNDON AVE": {
   "address": "2141 S GLYNDON AVE, 90291",
   "lat": 33.999171,
@@ -736,6 +785,7 @@
   "lon": -118.376795,
   "score": 100
  },
+ "2201 S A St, Perris": null,
  "22525 West Del Valle Street": {
   "address": "22525 W DEL VALLE ST, 91364",
   "lat": 34.167134,
@@ -801,6 +851,12 @@
   "lat": 34.186712,
   "lon": -118.643015,
   "score": 100
+ },
+ "23rd St & Central Ave": {
+  "address": "E 23RD ST & S CENTRAL AVE, 90011",
+  "lat": 34.020819,
+  "lon": -118.253885,
+  "score": 98.18
  },
  "240 North Robinson Street": {
   "address": "240 N ROBINSON ST, 90026",
@@ -892,6 +948,7 @@
   "lon": -118.471204,
   "score": 100
  },
+ "2800 Fernwood Ave, Lynwood": null,
  "2800 West Jefferson Boulevard": {
   "address": "2800 W JEFFERSON BLVD, 90018",
   "lat": 34.025538,
@@ -910,6 +967,7 @@
   "lon": -118.288305,
   "score": 100
  },
+ "2900 Fernwood Ave, Lynwood": null,
  "2912 South Hobart Boulevard": {
   "address": "2912 S HOBART BLVD, 90018",
   "lat": 34.028833,
@@ -933,6 +991,12 @@
   "lat": 34.126712,
   "lon": -118.479882,
   "score": 94.24
+ },
+ "300 S Ferry St": {
+  "address": "300 S FERRY ST, 90731",
+  "lat": 33.747464,
+  "lon": -118.262093,
+  "score": 100
  },
  "3000 South Dalton Avenue": {
   "address": "3000 S DALTON AVE, 90018",
@@ -1114,6 +1178,12 @@
   "lon": -118.306671,
   "score": 99.06
  },
+ "3703 N Hellman Ave": {
+  "address": "3703 N HELLMAN AVE, 90032",
+  "lat": 34.088078,
+  "lon": -118.18517,
+  "score": 100
+ },
  "3712 South 7th Avenue": {
   "address": "3712 S 7TH AVE, 90018",
   "lat": 34.019627,
@@ -1174,6 +1244,18 @@
   "lon": -118.36509,
   "score": 100
  },
+ "3947 S Figueroa St": {
+  "address": "3947 S FIGUEROA ST, 90037",
+  "lat": 34.012687,
+  "lon": -118.28281,
+  "score": 100
+ },
+ "39th St & Flower Dr": {
+  "address": "W 39TH ST & S FLOWER DR, 90037",
+  "lat": 34.014069,
+  "lon": -118.281569,
+  "score": 98.18
+ },
  "401 S WESTERN AVE": {
   "address": "401 S WESTERN AVE, 90732",
   "lat": 33.74042,
@@ -1198,6 +1280,12 @@
   "lon": -118.269868,
   "score": 100
  },
+ "4056 West 21st Street": {
+  "address": "4056 W 21ST ST, 90018",
+  "lat": 34.03782,
+  "lon": -118.329476,
+  "score": 100
+ },
  "4061 W Melrose Avenue": {
   "address": "4061 W MELROSE AVE, 90029",
   "lat": 34.083663,
@@ -1208,6 +1296,12 @@
   "address": "4105 S MUIRFIELD ROAD, 90008",
   "lat": 34.01103,
   "lon": -118.347821,
+  "score": 100
+ },
+ "412 East Brooks Avenue": {
+  "address": "412 E BROOKS AVE, 90291",
+  "lat": 33.993826,
+  "lon": -118.471632,
   "score": 100
  },
  "4127 East Supreme Court": {
@@ -1385,6 +1479,12 @@
   "lon": -118.283419,
   "score": 100
  },
+ "5200 Zoo Dr": {
+  "address": "5200 W ZOO DR, 90027",
+  "lat": 34.155402,
+  "lon": -118.300917,
+  "score": 99.06
+ },
  "521 S BIXEL ST": {
   "address": "521 S BIXEL ST, 90017",
   "lat": 34.054727,
@@ -1426,6 +1526,12 @@
   "lat": 34.168913,
   "lon": -118.399173,
   "score": 100
+ },
+ "5420 Sunset Blvd": {
+  "address": "5420 W SUNSET BLVD, 90027",
+  "lat": 34.098042,
+  "lon": -118.30756,
+  "score": 99.06
  },
  "5433 W Fernwood Ave": {
   "address": "5433 W FERNWOOD AVE, 90027",
@@ -1480,6 +1586,19 @@
   "lat": 34.176621,
   "lon": -118.368181,
   "score": 99.06
+ },
+ "5923 North Monterey Road": null,
+ "5951 North Fulcher Avenue": {
+  "address": "5951 N FULCHER AVE, 91601",
+  "lat": 34.178798,
+  "lon": -118.373144,
+  "score": 100
+ },
+ "5th St & Hill St": {
+  "address": "W 5TH ST & S HILL ST, 90013",
+  "lat": 34.048782,
+  "lon": -118.251788,
+  "score": 98.18
  },
  "600 East 116th Place": {
   "address": "600 E 116TH PL, 90059",
@@ -1624,6 +1743,12 @@
   "address": "642 W ATHENS BLVD, 90044",
   "lat": 33.921716,
   "lon": -118.286169,
+  "score": 100
+ },
+ "6501 South Sepulveda Boulevard": {
+  "address": "6501 S SEPULVEDA BLVD, 90045",
+  "lat": 33.979341,
+  "lon": -118.394366,
   "score": 100
  },
  "6513 S VISTA DEL MAR": {
@@ -1927,6 +2052,12 @@
   "lon": -118.394683,
   "score": 100
  },
+ "9 East 19th Avenue": {
+  "address": "9 E 19TH AVE, 90291",
+  "lat": 33.985574,
+  "lon": -118.471963,
+  "score": 100
+ },
  "900 South Hilgard Avenue": {
   "address": "900 S HILGARD AVE, 90024",
   "lat": 34.063943,
@@ -2052,6 +2183,7 @@
   "score": 96.74
  },
  "Burbank Airport-South Metrolink Station": null,
+ "Cabrillo Beach Aquatic Community Center": null,
  "Canoga Park Arts Hub": null,
  "Carlin G. Smith City Park": null,
  "Carson": null,
@@ -2061,6 +2193,7 @@
   "lon": -118.205825,
   "score": 98.18
  },
+ "City Hall": null,
  "Debris Basin No. 69": null,
  "Doran Street": null,
  "East San Fernando Valley": null,
@@ -2088,12 +2221,19 @@
  "Hollywood Community Police Station": null,
  "Hollywood Sanitation Yard": null,
  "Hollywood Walk of Fame": null,
+ "Holt Ave & Cadillac Ave": {
+  "address": "S HOLT AVE & W CADILLAC AVE, 90034",
+  "lat": 34.039503,
+  "lon": -118.381802,
+  "score": 98.18
+ },
  "Hyperion Avenue & Udell Court": {
   "address": "N HYPERION AVE & W UDELL CT, 90027",
   "lat": 34.097445,
   "lon": -118.275516,
   "score": 98.18
  },
+ "Hyperion Treatment Plant": null,
  "Hyperion Water Reclamation Plant": null,
  "Industrial Street & Alameda Street": {
   "address": "E INDUSTRIAL ST & S ALAMEDA ST, 90021",
@@ -2129,6 +2269,7 @@
  "Los Angeles Convention Center": null,
  "Los Angeles International Airport": null,
  "Los Angeles River Bike Path": null,
+ "Los Angeles Union Station West": null,
  "Los Angeles Zoo, 5333 Zoo Drive": null,
  "MacArthur Lake": null,
  "MacArthur Park": null,
@@ -2179,11 +2320,21 @@
  "Olvera Street": null,
  "Outer Cabrillo Beach": null,
  "Pacific Avenue": null,
+ "Pacific Blvd & 22nd St": {
+  "address": "S PACIFIC AVE & W 22ND ST, 90731",
+  "lat": 33.724251,
+  "lon": -118.287986,
+  "score": 95.91
+ },
+ "Pacific Blvd & I-110": null,
+ "Pacific Community Police Station": null,
+ "Pacoima Metrolink Station and Mobility Hub": null,
  "Palisades Recreation Park": null,
  "Palisades Tennis Center": null,
  "Palisades Tennis Courts": null,
  "Park Mesa Heights": null,
  "Pico Blvd": null,
+ "Pico Rivera Regional Rail Station": null,
  "Pico/Genessee Community Pocket Park": null,
  "Pio Pico Library": null,
  "Poinsettia Park": null,
@@ -2198,9 +2349,22 @@
  "San Fernando Valley": null,
  "Santa Barbara": null,
  "Sepulveda Basin": null,
+ "Sepulveda Boulevard Tunnel near Mulholland Drive": null,
  "Sepulveda House": null,
  "Shoreline Drive, Long Beach": null,
  "Sixth Street Viaduct": null,
+ "South Robertson Blvd & Cadillac Ave": {
+  "address": "S ROBERTSON BLVD & W CADILLAC AVE, 90034",
+  "lat": 34.041114,
+  "lon": -118.387629,
+  "score": 99.09
+ },
+ "South Robertson Blvd & Cattaraugus Ave": {
+  "address": "S ROBERTSON BLVD & W CATTARAUGUS AVE, 90034",
+  "lat": 34.034832,
+  "lon": -118.389344,
+  "score": 99.09
+ },
  "Southeast Community Police Station": null,
  "Spring Street & Alameda Street": {
   "address": "N NORTH SPRING ST & N ALAMEDA ST, 90012",
@@ -2209,7 +2373,14 @@
   "score": 76.02
  },
  "Strong Residence": null,
+ "Sun Valley Metrolink Station": null,
  "Sunland": null,
+ "Sunland Blvd & Johanna Ave": {
+  "address": "N SUNLAND BLVD & N JOHANNA AVE, 91040",
+  "lat": 34.25337,
+  "lon": -118.344789,
+  "score": 98.18
+ },
  "Sunset Boulevard & Coronado Terrace": {
   "address": "W SUNSET BLVD & N CORONADO TER, 90026",
   "lat": 34.078833,
@@ -2222,7 +2393,10 @@
   "lon": -118.266966,
   "score": 98.18
  },
+ "Sylmar Metrolink Station": null,
  "Sylmar Park": null,
+ "Terminal 4, Los Angeles International Airport": null,
+ "Terminal 7, Los Angeles International Airport": null,
  "Terra Bella Street & Woodman Avenue": {
   "address": "W TERRA BELLA ST & N WOODMAN AVE, 91331",
   "lat": 34.239915,

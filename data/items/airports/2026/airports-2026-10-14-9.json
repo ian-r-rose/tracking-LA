@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81260"
-  ]
+  ],
+  "summary": "Two-year on-call contracts with 15 communications, public relations and marketing firms for LAX and Van Nuys, with a combined spending cap of $3 million and a one-year renewal option.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "action": "multiple award task order contracts",
+    "amount": "$3,000,000"
+  }
 }

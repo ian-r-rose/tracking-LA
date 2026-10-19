@@ -10,5 +10,20 @@
     "https://kentico.portoflosangeles.org/getmedia/28cf966c-b72c-4abf-b9b6-ba98d5772964/08_Waterfront-Real-Estate_HCI-Docks-Bid-No-F-1292_Board-Report",
     "https://kentico.portoflosangeles.org/getmedia/6ec9fb96-8fc1-451d-bf95-ba54217b0a9f/08_Waterfront-Real-Estate_HCI-Docks-Bid-No-F-1292_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/edf23f01-a446-46f7-9dfc-ede3b6390236/08_Waterfront-Real-Estate_HCI-Docks-Bid-No-F-1292_Transmittal-2"
-  ]
+  ],
+  "summary": "The Port would buy and install two docks with gangways at the Cabrillo Beach Aquatic Community Center, to prepare the site for LA28 Olympic sailing training, for up to $172,912.95.",
+  "topics": [
+    "budget",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Cabrillo Beach Aquatic Community Center"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$172,912.95",
+    "applicant": "Holman Craftsmen, Inc. dba HCI Docks"
+  }
 }

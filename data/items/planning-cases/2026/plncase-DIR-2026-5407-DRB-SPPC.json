@@ -8,5 +8,26 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5407-DRB-SPPC",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5408-EAF"
-  ]
+  ],
+  "summary": "A filed application would add about 9,717 square feet to the existing Walmart building at 19821 W Rinaldi St in Chatsworth - Porter Ranch, for storing and staging retail merchandise. No decision has been made yet.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "19821 W Rinaldi St, Los Angeles, CA",
+      "lat": 34.275166,
+      "lon": -118.566495,
+      "neighborhood": "Porter Ranch"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5407-DRB-SPPC",
+      "ENV-2026-5408-EAF"
+    ],
+    "council_district": 12,
+    "plan_area": "Chatsworth - Porter Ranch",
+    "action": "entitlement application"
+  }
 }

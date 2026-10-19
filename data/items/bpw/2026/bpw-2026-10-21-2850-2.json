@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25183",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=29a54109-99a2-48d3-8453-aa535365aa13"
-  ]
+  ],
+  "summary": "The Board is asked to approve a $223,816 construction budget for an emergency sewer rehabilitation on 57th Street, and to let the City Engineer issue change orders up to that budget.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 8,
+    "action": "construction budget and change order authority",
+    "amount": "$223,816",
+    "bureau": "Bureau of Engineering"
+  }
 }

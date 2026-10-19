@@ -8,5 +8,19 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25183",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e6c1a121-d090-4063-8cdb-b0ffe5767bd9"
-  ]
+  ],
+  "summary": "Approval of the Hollywood Chamber of Commerce's proposed 2026 honorees for new stars on the Hollywood Walk of Fame, with Engineering directed to issue permits for each approved installation.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Walk of Fame"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "action": "approval of proposed Walk of Fame names",
+    "bureau": "Bureau of Engineering"
+  }
 }

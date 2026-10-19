@@ -10,5 +10,13 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1386",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=66b87de1-6d83-410a-95d2-325098f75b21",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ade47e1-925d-449f-9172-4bfbb8967dcc"
-  ]
+  ],
+  "summary": "Directs several city departments to report on how a federal executive order making federal resources English-only affects residents with limited English, including whether city websites could add translations.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["26-1386"],
+    "action": "report back request",
+    "council_file": "26-1386"
+  }
 }

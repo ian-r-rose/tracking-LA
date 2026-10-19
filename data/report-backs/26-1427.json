@@ -5,5 +5,12 @@
   "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1427_misc_10-02-26.pdf",
   "adopted": null,
   "documents": [],
-  "motion": "I THEREFORE MOVE that the City Council INSTRUCT the Information Technology Agency, with the assistance of the Chief Legislative Analyst, and other relevant departments, to report with recommendations for establishing a Citywide data privacy policy and supporting policies applicable to all City and Proprietary Departments, that establish standards and safeguards governing data collection, storage, retention, access, sharing and disclosure; cybersecurity and protection against unauthorized access or security breaches; appropriate and prohibited uses of City technology and data; transparency, accountability, oversight, and auditing requirements; and any additional protections necessary to safeguard individual privacy and prevent the misuse of technology or information collected by the City. PRESENTED BY: SECONDED BY: Councilwoman, 7th District"
+  "motion": "I THEREFORE MOVE that the City Council INSTRUCT the Information Technology Agency, with the assistance of the Chief Legislative Analyst, and other relevant departments, to report with recommendations for establishing a Citywide data privacy policy and supporting policies applicable to all City and Proprietary Departments, that establish standards and safeguards governing data collection, storage, retention, access, sharing and disclosure; cybersecurity and protection against unauthorized access or security breaches; appropriate and prohibited uses of City technology and data; transparency, accountability, oversight, and auditing requirements; and any additional protections necessary to safeguard individual privacy and prevent the misuse of technology or information collected by the City. PRESENTED BY: SECONDED BY: Councilwoman, 7th District",
+  "requests": [
+    {
+      "departments": ["Information Technology Agency"],
+      "asks": "Recommendations for a Citywide data privacy policy covering data collection, retention, access, sharing, cybersecurity, appropriate uses and oversight for all City and proprietary departments.",
+      "deadline": null
+    }
+  ]
 }

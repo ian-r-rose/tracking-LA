@@ -7,5 +7,12 @@
   "text": "[Action Items]\nSelection of hearing officers in Case No. 2022-044, In the Matter of Heloise\n  Mitchell (alleged misuse of City position).",
   "urls": [
     "https://ens.lacity.org/eth/ethagendas/ethethagendas217200902_10212026.pdf"
-  ]
+  ],
+  "summary": "The Ethics Commission selects hearing officers for a pending case involving alleged misuse of a City position.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["2022-044"],
+    "action": "selection of hearing officers"
+  }
 }

@@ -9,5 +9,12 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0832-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=184d64b2-13fc-42ef-8ef2-851c33786569"
-  ]
+  ],
+  "summary": "Council is asked to create two temporary staff positions at the Department of Animal Services to run an ASPCA and Best Friends Animal Society grant, funded by holding three vacant Animal Care Technician positions.",
+  "topics": ["budget"],
+  "locations": [],
+  "details": {
+    "council_file": "26-0832-S1",
+    "action": "resolution authority for positions"
+  }
 }

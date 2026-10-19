@@ -8,5 +8,11 @@
   "urls": [
     "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3549&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
     "https://metro.legistar.com/LegislationDetail.aspx?ID=12884&GUID=D3F467D1-CB19-4D74-9CDA-0BF1E49A740A"
-  ]
+  ],
+  "summary": "Metro board motion to join LA, Long Beach and the county in a push to cut construction emissions by phasing in low-carbon concrete, starting with a small pilot.",
+  "topics": ["environment"],
+  "locations": [],
+  "details": {
+    "action": "motion"
+  }
 }

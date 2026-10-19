@@ -9,5 +9,25 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91905",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S184",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad471eb6-8359-499c-a15e-a23b79510fc0"
-  ]
+  ],
+  "summary": "Housing Department proposal to take 5951 North Fulcher Avenue in Council District 2 off the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "5951 North Fulcher Avenue, Los Angeles, CA",
+      "lat": 34.178798,
+      "lon": -118.373144,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "845755"
+    ],
+    "council_district": 2,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S184"
+  }
 }

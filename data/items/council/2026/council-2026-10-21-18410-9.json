@@ -10,5 +10,34 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1281",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2faee1a2-79b7-483a-9026-87ecd323e65a",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=207af407-fdf9-4d10-aae5-8c1c8dde861a"
-  ]
+  ],
+  "summary": "Directs the Department of Transportation to install three official city signs recognizing the Reynier Village community at three intersections, once the City Clerk confirms they are within the community boundaries.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "South Robertson Blvd & Cadillac Ave, Los Angeles, CA",
+      "lat": 34.041114,
+      "lon": -118.387629,
+      "neighborhood": null
+    },
+    {
+      "text": "South Robertson Blvd & Cattaraugus Ave, Los Angeles, CA",
+      "lat": 34.034832,
+      "lon": -118.389344,
+      "neighborhood": null
+    },
+    {
+      "text": "Holt Ave & Cadillac Ave, Los Angeles, CA",
+      "lat": 34.039503,
+      "lon": -118.381802,
+      "neighborhood": "Mid-City"
+    }
+  ],
+  "details": {
+    "council_district": 10,
+    "action": "naming of community and installation of community signs",
+    "council_file": "26-1281"
+  }
 }

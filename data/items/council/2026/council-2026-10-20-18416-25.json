@@ -11,5 +11,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cf6a212d-2ca5-4ca3-a4a0-6b1bcd1cf07d",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a5258def-5520-4ef3-824a-3d6fdae3ba7a",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=acd0b538-38bd-40d9-bc4d-838f70bdd5ff"
-  ]
+  ],
+  "summary": "Receives and files a Chief Legislative Analyst report on how fire-related emergency declarations affect workforce regulation policies, with no further action.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "receive and file report",
+    "council_file": "25-0342"
+  }
 }

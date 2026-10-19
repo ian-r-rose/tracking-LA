@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25183",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fdab5467-8e65-449d-bb0f-b1f5e31dd578"
-  ]
+  ],
+  "summary": "Full closure of Sepulveda Boulevard at the Sepulveda Tunnel near Mulholland Drive from 9 p.m. on November 18 to 5 a.m. on November 19, 2026, so engineers can inspect and digitally scan the tunnel ahead of emergency structural repairs.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Sepulveda Boulevard Tunnel near Mulholland Drive, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "temporary street closure",
+    "bureau": "Bureau of Engineering"
+  }
 }

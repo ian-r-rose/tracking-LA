@@ -9,5 +9,24 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0011-S20",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=659f6dcc-5d7c-4708-a81f-ab7cab12aadd"
-  ]
+  ],
+  "summary": "Transfers $437,000 of Council District 7 street furniture funds to the Department of Transportation for a traffic signal project at Sunland Boulevard and Johanna Avenue.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Sunland Blvd & Johanna Ave, Los Angeles, CA",
+      "lat": 34.25337,
+      "lon": -118.344789,
+      "neighborhood": "Shadow Hills"
+    }
+  ],
+  "details": {
+    "council_district": 7,
+    "action": "fund transfer for signal project",
+    "amount": "$437,000",
+    "council_file": "26-0011-S20"
+  }
 }

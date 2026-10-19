@@ -11,5 +11,13 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fda09743-f4df-43e6-a26d-3449667f5e6c",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6539dfa9-498e-4253-b1bd-23e7c9d328ab",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=56f66b85-6fb3-40ff-a610-acbed7841e64"
-  ]
+  ],
+  "summary": "Council considers a memorandum of understanding between the Police Commission and Axon Enterprise for a Lightpost test pilot program, a matter Council has already taken jurisdiction over.",
+  "topics": ["public_safety"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["26-1394"],
+    "action": "memorandum of understanding",
+    "council_file": "26-1394"
+  }
 }

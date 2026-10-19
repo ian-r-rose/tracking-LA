@@ -8,5 +8,29 @@
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1304"
-  ]
+  ],
+  "summary": "Council finds that allowing Whole Foods at 5420 Sunset Boulevard to sell alcoholic beverages for off-site consumption serves public convenience and necessity.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5420 Sunset Blvd, Los Angeles, CA",
+      "lat": 34.098042,
+      "lon": -118.30756,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-1304"
+    ],
+    "council_district": 13,
+    "applicant": "Mrs. Gooch's Natural Food Markets, Inc.",
+    "action": "public convenience or necessity determination for liquor license",
+    "council_file": "26-1304"
+  },
+  "flag": {
+    "reason": "Alcohol sale at a Sunset Blvd store in East Hollywood, a watched neighborhood."
+  }
 }

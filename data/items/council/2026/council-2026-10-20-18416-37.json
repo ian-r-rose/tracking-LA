@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1443",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ead2e576-f43f-4713-a8e0-a21969201179"
-  ]
+  ],
+  "summary": "Approves a non-event street banner campaign promoting DineLA and encouraging restaurant participation, with banners up January 15 to 29, 2027, and approves the banner design.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "approval of non-event street banner program",
+    "council_file": "26-1443"
+  }
 }

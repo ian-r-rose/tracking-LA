@@ -10,5 +10,15 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1178",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f5058d17-bcfa-4891-a7ea-b22efe2771a1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5fb5f133-1b05-4000-ac17-cfadb794ae28"
-  ]
+  ],
+  "summary": "Accepts an $80,569 donation from the Los Angeles Police Foundation of two Bosch event data recorders and supporting hardware for the Police Department's South Traffic Division.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "action": "acceptance of non-monetary donation",
+    "amount": "$80,569",
+    "council_file": "26-1178"
+  }
 }

@@ -13,5 +13,13 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4d25ea7a-bdaf-4de1-8cff-2c6db8387ce7",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f80f8780-6479-4e1e-865a-ee13ddf17377",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a6be05a-2f86-498e-b010-081dc1c7428f"
-  ]
+  ],
+  "summary": "Reactivates an expired Council file so the Building and Safety Department must update its 2018 report on the mandatory soft-story and non-ductile concrete retrofit programs.",
+  "topics": ["public_safety"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["14-1697-S4"],
+    "action": "reactivation of expired council file",
+    "council_file": "14-1697-S4"
+  }
 }

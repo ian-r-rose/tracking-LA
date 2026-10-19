@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81254"
-  ]
+  ],
+  "summary": "A five-year contract, with two one-year renewal options, for A to Z Glass & Mirror to supply and install glass and storefront systems at LAX and Van Nuys, for up to $2,345,000.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$2,345,000"
+  }
 }

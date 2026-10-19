@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81252"
-  ]
+  ],
+  "summary": "An amendment adding $700,000 to the airfield and traffic marking paint supply contract with International Coatings Company for LAX and Van Nuys, raising its cap to $1,600,000 and extending it two years to February 5, 2029.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "action": "contract amendment",
+    "amount": "$700,000"
+  }
 }

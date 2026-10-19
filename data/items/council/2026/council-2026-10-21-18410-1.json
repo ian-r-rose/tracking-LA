@@ -13,5 +13,24 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cb1468c7-6771-4e89-b556-ff47701068e9",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f704899e-60c3-44d8-9f8a-8419f60348f6",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9565c46a-a477-4d39-bf98-f231add83f50"
-  ]
+  ],
+  "summary": "Council is asked to adopt an ordinance quitclaiming a 10-foot sanitary sewer easement at 6501 South Sepulveda Boulevard, with the petitioner arranging payment of the recording fee.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6501 South Sepulveda Boulevard, Los Angeles, CA",
+      "lat": 33.979341,
+      "lon": -118.394366,
+      "neighborhood": "Westchester"
+    }
+  ],
+  "details": {
+    "council_file": "25-0597-S1",
+    "council_district": 11,
+    "action": "quitclaim of sanitary sewer easement",
+    "amount": "$7,075.91",
+    "bureau": "Bureau of Engineering"
+  }
 }

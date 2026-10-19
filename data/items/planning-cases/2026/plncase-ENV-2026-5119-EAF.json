@@ -7,5 +7,26 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5119-EAF\nAddress: 3063 N PASSMORE DR\nFiled: 2026-10-01\nCouncil district: 4\nCommunity plan area: Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass\nDescription: Construction, use, and maintenance of a new 3-story SFD with an attached ADU and attached 2-car garage located in the Mulholland Scenic Parkway Specific Plan zoned RE15-1. A haul route approval is also requested.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5119-EAF"
-  ]
+  ],
+  "summary": "A filed application would build a new three-story single-family home with an attached accessory dwelling unit and two-car garage at 3063 N Passmore Dr in Sherman Oaks - Studio City, within the Mulholland Scenic Parkway Specific Plan. A haul route approval is also requested. No decision has been made yet.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "3063 N Passmore Dr, Los Angeles, CA",
+      "lat": 34.126552,
+      "lon": -118.352608,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5119-EAF"
+    ],
+    "council_district": 4,
+    "plan_area": "Sherman Oaks - Studio City - Toluca Lake - Cahuenga Pass",
+    "action": "new home application with haul route approval"
+  }
 }

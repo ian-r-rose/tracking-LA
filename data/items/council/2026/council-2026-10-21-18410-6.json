@@ -10,5 +10,14 @@
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0429-S2",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f8d0bab6-22f5-4d0c-849b-3985224866cc",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9702b0c7-80b0-4932-a24f-f1f59959569d"
-  ]
+  ],
+  "summary": "Adopts the fiscal year 2026 annual planning report for the Hollywood Media District business improvement district, finding it meets state law and that the budget increase does not harm assessed property owners.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "adoption of annual planning report for business improvement district",
+    "council_file": "24-0429-S2"
+  }
 }

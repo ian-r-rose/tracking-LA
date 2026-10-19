@@ -8,5 +8,23 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25183",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=54c2c143-b500-4559-856e-9d105ca3ad9c"
-  ]
+  ],
+  "summary": "The Board is asked to authorize a revocable permit that lets the property at 3703 North Hellman Avenue keep its garage, retaining walls, steps, gates and landscaping extending into the public right-of-way.",
+  "topics": [
+    "land_use",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "3703 N Hellman Ave, Los Angeles, CA",
+      "lat": 34.088078,
+      "lon": -118.18517,
+      "neighborhood": "Montecito Heights"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "action": "revocable permit to encroach into public way",
+    "bureau": "Bureau of Engineering and Bureau of Street Services"
+  }
 }

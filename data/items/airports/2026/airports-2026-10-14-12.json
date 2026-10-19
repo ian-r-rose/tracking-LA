@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81267"
-  ]
+  ],
+  "summary": "The Board is asked to approve $30,543,000 for the Terminal 4 concessions project at Los Angeles International Airport.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Terminal 4, Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "appropriation",
+    "amount": "$30,543,000"
+  }
 }

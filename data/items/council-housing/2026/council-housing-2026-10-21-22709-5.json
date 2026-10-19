@@ -9,5 +9,25 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91905",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S186",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2df8e50-1c15-4d63-ab80-0e2117a8e708"
-  ]
+  ],
+  "summary": "Housing Department proposal to take 412 East Brooks Avenue in Council District 11 off the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "412 East Brooks Avenue, Los Angeles, CA",
+      "lat": 33.993826,
+      "lon": -118.471632,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "887662"
+    ],
+    "council_district": 11,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S186"
+  }
 }

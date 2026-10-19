@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81258"
-  ]
+  ],
+  "summary": "A one-year construction contract, with a 180-day extension option, for S&L Specialty Construction to insulate homes in Bid Group 11 of LAX's residential sound insulation program, capped at $2,468,100 plus a $250,000 change order.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$2,468,100"
+  }
 }

@@ -8,5 +8,23 @@
   "urls": [
     "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3549&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
     "https://metro.legistar.com/LegislationDetail.aspx?ID=12898&GUID=59153AE6-934B-4C75-8D01-D3024CE4DF4A"
-  ]
+  ],
+  "summary": "Metro board motion to rename the Pershing Square station to Biddy Mason Station, with updated signage and a public awareness campaign.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Pershing Square",
+      "lat": 34.048413,
+      "lon": -118.252989,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "action": "motion"
+  },
+  "flag": {
+    "reason": "Renames a Downtown station, a watched neighborhood."
+  }
 }

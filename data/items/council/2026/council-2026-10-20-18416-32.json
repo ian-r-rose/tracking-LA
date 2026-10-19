@@ -9,5 +9,18 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0011-S21",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=73781d57-c35d-4102-b074-c04a2e2ec8ee"
-  ]
+  ],
+  "summary": "Moves $240,000 from Council District 3's street furniture fund to the Bureau of Street Services to pay for supplemental tree trimming in the district.",
+  "topics": [
+    "budget",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 3,
+    "action": "fund transfer for supplemental tree trimming",
+    "amount": "$240,000",
+    "bureau": "Bureau of Street Services",
+    "council_file": "26-0011-S21"
+  }
 }

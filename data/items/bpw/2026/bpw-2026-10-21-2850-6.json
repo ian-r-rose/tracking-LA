@@ -8,5 +8,24 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25183",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6cb36cc-9709-4529-8092-4698bb027416"
-  ]
+  ],
+  "summary": "The Board is asked to approve permanently removing a closed public toilet at Fifth and Hill streets and restoring the sidewalk where it stood.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "5th St & Hill St, Los Angeles, CA",
+      "lat": 34.048782,
+      "lon": -118.251788,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "action": "permanent decommissioning and removal",
+    "bureau": "Bureau of Street Services"
+  },
+  "flag": {
+    "reason": "Public street fixture removal in Downtown, a watched neighborhood."
+  }
 }

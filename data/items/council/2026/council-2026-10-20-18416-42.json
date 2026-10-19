@@ -9,5 +9,15 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1462",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a0f2c046-2b1f-4fb4-b2fa-36e023dc3be5"
-  ]
+  ],
+  "summary": "Council considers $250,000 from the General City Purposes fund to extend homeless outreach and intervention services in Council District 10 through December 2027.",
+  "topics": ["budget", "other"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["26-1462"],
+    "council_district": 10,
+    "action": "funding motion",
+    "amount": "$250,000",
+    "council_file": "26-1462"
+  }
 }

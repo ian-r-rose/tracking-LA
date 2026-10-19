@@ -10,5 +10,23 @@
     "https://kentico.portoflosangeles.org/getmedia/b0244e45-be0f-4493-bf00-17fa73cb769f/05_ENG_GMWTF-FIRST-AMENDMENT_25684b2_FINAL",
     "https://kentico.portoflosangeles.org/getmedia/6322e6d6-bd50-4db4-b3a5-790a716e0212/05_ENG_GMWTF-FIRST-AMENDMENT_25684b2_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/1a52a48a-e4db-4669-8e42-7269325faa92/05_ENG_GMWTF-FIRST-AMENDMENT_25684b2_Transmittal-2"
-  ]
+  ],
+  "summary": "The Port would extend its AECOM engineering contract to 2031 and add $4.36 million, bringing the total to $14.14 million, because the Goods Movement Workforce Training Facility is moving to a new site near Ferry Street.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "300 S Ferry St, Los Angeles, CA",
+      "lat": 33.747464,
+      "lon": -118.262093,
+      "neighborhood": "San Pedro"
+    }
+  ],
+  "details": {
+    "action": "contract amendment",
+    "amount": "$4,363,157",
+    "applicant": "AECOM Technical Services, Inc."
+  }
 }

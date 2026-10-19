@@ -9,5 +9,12 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91905",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0528",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b79fe488-6b09-4ccd-98aa-32c2acafa7f2"
-  ]
+  ],
+  "summary": "Council motion on pet housing policies and landlord restrictions on pets.",
+  "topics": ["housing"],
+  "locations": [],
+  "details": {
+    "action": "policy motion",
+    "council_file": "26-0528"
+  }
 }

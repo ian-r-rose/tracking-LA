@@ -16,5 +16,27 @@
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1456",
     "vote": "10-0-5",
     "recorded": "2026-10-17"
+  },
+  "summary": "Allows the California Municipal Finance Authority to issue up to $21 million in revenue bonds to finance a 97-unit affordable apartment development at 1624 South Hope Street.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1624 South Hope Street, Los Angeles, CA",
+      "lat": 34.036131,
+      "lon": -118.26776,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "action": "TEFRA approval of revenue bonds for affordable housing",
+    "amount": "$21,000,000",
+    "council_file": "26-1456"
+  },
+  "flag": {
+    "reason": "Affordable housing financing in Downtown, a watched neighborhood."
   }
 }

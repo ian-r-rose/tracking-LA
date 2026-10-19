@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1288",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1288&meta_id=81269"
-  ]
+  ],
+  "summary": "A four-year contract, with a one-year extension option, to buy cars, trucks, vans and SUVs for LAX and Van Nuys Airport through a cooperative Sourcewell contract, for up to $30 million.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$30,000,000"
+  }
 }
