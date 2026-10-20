@@ -17,6 +17,12 @@
   "lon": -118.236701,
   "score": 99.06
  },
+ "1003 E 4TH PL": {
+  "address": "1003 E 4TH PL, 90013",
+  "lat": 34.04211,
+  "lon": -118.23389,
+  "score": 100
+ },
  "10144 N SUNLAND BLVD": {
   "address": "10144 N SUNLAND BLVD, 91040",
   "lat": 34.259939,
@@ -305,6 +311,12 @@
   "address": "1307 S RIDGELEY DR, 90019",
   "lat": 34.05083,
   "lon": -118.354981,
+  "score": 100
+ },
+ "1309 N LOGAN ST": {
+  "address": "1309 N LOGAN ST, 90026",
+  "lat": 34.077399,
+  "lon": -118.258389,
   "score": 100
  },
  "13200-14500 West Van Nuys Boulevard": {
@@ -1984,6 +1996,12 @@
   "address": "818 W 7TH ST, 90731",
   "lat": 33.737948,
   "lon": -118.294995,
+  "score": 100
+ },
+ "8200 N WEBB AVE": {
+  "address": "8200 N WEBB AVE, 91605",
+  "lat": 34.219446,
+  "lon": -118.391012,
   "score": 100
  },
  "822 North Oneonta Drive": {

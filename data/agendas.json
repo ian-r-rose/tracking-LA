@@ -32,6 +32,7 @@
  "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-09/El%20Pueblo%20Commission%20Agenda%209-24-26.pdf": "2026-09-24",
  "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/El%20Pueblo%20Commission%20Agenda%2010-8-26.pdf": "2026-10-08",
  "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/elpelp_commisson3240200821_10152026.pdf": "2026-10-15",
+ "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-10/elpelp_commisson3240200954_10222026%20%281%29.pdf": "2026-10-22",
  "https://ens.lacity.org/animal/agendas/animalagendas65199903_09082026.pdf": "2026-09-08",
  "https://ens.lacity.org/animal/agendas/animalagendas65200739_10132026.pdf": "2026-10-13",
  "https://ens.lacity.org/dwp/agendas/dwpagendas202199811_09082026.pdf": "2026-09-08",
@@ -117,6 +118,7 @@
  "https://permits.streets.lacity.gov/treepostings/public/pending_postings.cfm#2026-10-17": "2026-10-17",
  "https://permits.streets.lacity.gov/treepostings/public/pending_postings.cfm#2026-10-18": "2026-10-18",
  "https://permits.streets.lacity.gov/treepostings/public/pending_postings.cfm#2026-10-19": "2026-10-19",
+ "https://permits.streets.lacity.gov/treepostings/public/pending_postings.cfm#2026-10-20": "2026-10-20",
  "https://planning.lacity.gov/dcpapi/general/newcases#2026-10-03": "2026-10-03",
  "https://planning.lacity.gov/dcpapi/general/newcases#2026-10-04": "2026-10-04",
  "https://planning.lacity.gov/dcpapi/general/newcases#2026-10-05": "2026-10-05",
@@ -133,6 +135,7 @@
  "https://planning.lacity.gov/dcpapi/general/newcases#2026-10-17": "2026-10-17",
  "https://planning.lacity.gov/dcpapi/general/newcases#2026-10-18": "2026-10-18",
  "https://planning.lacity.gov/dcpapi/general/newcases#2026-10-19": "2026-10-19",
+ "https://planning.lacity.gov/dcpapi/general/newcases#2026-10-20": "2026-10-20",
  "https://planning.lacity.gov/dcpapi2/meetings/document/81333": "2026-09-01",
  "https://planning.lacity.gov/dcpapi2/meetings/document/81334": "2026-09-02",
  "https://planning.lacity.gov/dcpapi2/meetings/document/81373": "2026-09-10",
@@ -162,5 +165,6 @@
  "https://www.lacers.org/sites/main/files/file-attachments/board_agenda_20261013_combined.pdf": "2026-10-13",
  "https://www.lacers.org/sites/main/files/file-attachments/board_agenda_combined_20260809.pdf": "2026-09-08",
  "https://www.lapl.org/sites/default/files/media/document/2026-09/agenda.pdf": "2026-09-10",
- "https://www.lapl.org/sites/default/files/media/document/2026-10/agenda-10082026docx-4.pdf": "2026-10-08"
+ "https://www.lapl.org/sites/default/files/media/document/2026-10/agenda-10082026docx-4.pdf": "2026-10-08",
+ "https://www.lapl.org/sites/default/files/media/document/2026-10/agenda-10222026.pdf": "2026-10-22"
 }
