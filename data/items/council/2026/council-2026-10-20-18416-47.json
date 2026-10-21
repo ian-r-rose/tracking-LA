@@ -11,11 +11,22 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e540e024-e152-4950-9361-35497d919635"
   ],
   "summary": "Council ratifies and continues the local emergency declared after the Boyle Heights cold-storage warehouse fire, which also lets departments skip competitive bidding for emergency purchases.",
-  "topics": ["public_safety"],
+  "topics": [
+    "public_safety"
+  ],
   "locations": [],
   "details": {
-    "case_numbers": ["26-0906"],
+    "case_numbers": [
+      "26-0906"
+    ],
     "action": "continuation of local emergency",
     "council_file": "26-0906"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0906",
+    "vote": "15-0-0",
+    "recorded": "2026-10-21"
   }
 }

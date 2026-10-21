@@ -265,6 +265,12 @@
   "lon": -118.405273,
   "score": 100
  },
+ "12511 W MAGNOLIA BLVD": {
+  "address": "12511 W MAGNOLIA BLVD, 91607",
+  "lat": 34.164942,
+  "lon": -118.405667,
+  "score": 100
+ },
  "12621 Rye St": {
   "address": "12621 W RYE ST, 91604",
   "lat": 34.151415,
@@ -307,6 +313,12 @@
   "lon": -118.415967,
   "score": 100
  },
+ "13050 W SAN VICENTE BLVD": {
+  "address": "13050 W SAN VICENTE BLVD, 90049",
+  "lat": 34.048427,
+  "lon": -118.490718,
+  "score": 100
+ },
  "1307 South Ridgeley Drive": {
   "address": "1307 S RIDGELEY DR, 90019",
   "lat": 34.05083,
@@ -347,6 +359,12 @@
   "address": "13456 W VAN NUYS BLVD, 91331",
   "lat": 34.263005,
   "lon": -118.426242,
+  "score": 100
+ },
+ "1350 N DAVIES DR": {
+  "address": "1350 N DAVIES DR, 90210",
+  "lat": 34.095111,
+  "lon": -118.436418,
   "score": 100
  },
  "1350 N Western Ave": {
@@ -410,10 +428,22 @@
   "score": 100
  },
  "1400 San Bernardino Avenue, Fontana": null,
+ "1403 W 3RD ST": {
+  "address": "1403 W 3RD ST, 90732",
+  "lat": 33.741471,
+  "lon": -118.306583,
+  "score": 100
+ },
  "14117 W HUBBARD ST": {
   "address": "14117 W HUBBARD ST, 91342",
   "lat": 34.298448,
   "lon": -118.440493,
+  "score": 100
+ },
+ "14205 W HAYNES ST": {
+  "address": "14205 W HAYNES ST, 91401",
+  "lat": 34.189759,
+  "lon": -118.442285,
   "score": 100
  },
  "1425 North Vermont": {
@@ -630,6 +660,12 @@
   "address": "1900 S MAIN ST, 90007",
   "lat": 34.030914,
   "lon": -118.264673,
+  "score": 100
+ },
+ "19020 W MIRANDA ST": {
+  "address": "19020 W MIRANDA ST, 91356",
+  "lat": 34.175149,
+  "lon": -118.54878,
   "score": 100
  },
  "1932 S ARMACOST AVE": {
@@ -1461,6 +1497,12 @@
   "score": 92.78
  },
  "5000 South Beethoven Street": null,
+ "5003 N KESTER AVE": {
+  "address": "5003 N KESTER AVE, 91403",
+  "lat": 34.161342,
+  "lon": -118.457495,
+  "score": 100
+ },
  "5020 W MELROSE AVE": {
   "address": "5020 W MELROSE AVE, 90038",
   "lat": 34.083444,
@@ -1725,6 +1767,12 @@
   "address": "6230 W SUNSET BLVD, 90028",
   "lat": 34.097945,
   "lon": -118.324818,
+  "score": 100
+ },
+ "6233 W HOLLYWOOD BLVD": {
+  "address": "6233 W HOLLYWOOD BLVD, 90028",
+  "lat": 34.101706,
+  "lon": -118.325467,
   "score": 100
  },
  "625 E CRESTMOORE PL": {
@@ -2045,6 +2093,12 @@
   "lat": 34.226919,
   "lon": -118.45754,
   "score": 99.06
+ },
+ "863 N VIA DE LA PAZ": {
+  "address": "863 N VIA DE LA PAZ, 90272",
+  "lat": 34.046276,
+  "lon": -118.527399,
+  "score": 100
  },
  "873 S Figueroa St": {
   "address": "873 S FIGUEROA ST, 90017",

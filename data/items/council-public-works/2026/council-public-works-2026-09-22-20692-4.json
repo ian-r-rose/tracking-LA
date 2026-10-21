@@ -20,8 +20,9 @@
   },
   "outcome": {
     "status": "approved",
-    "text": "Planning and Land Use Management Committee approved item(s) (Oct 13, 2026)",
+    "text": "Planning and Land Use Management Committee approved item(s) (Oct 13, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0196-S1",
-    "recorded": "2026-10-15"
+    "vote": "12-0-3",
+    "recorded": "2026-10-21"
   }
 }

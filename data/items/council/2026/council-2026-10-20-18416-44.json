@@ -12,11 +12,20 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b823399-da6b-4a5e-bd6f-1c6e8c3b2c99"
   ],
   "summary": "Council is asked to approve Fleet Works Corporation, doing business as Hollywood Car Carrier Service, as the official police garage for towing and storage in Service Area 2.",
-  "topics": ["public_safety"],
+  "topics": [
+    "public_safety"
+  ],
   "locations": [],
   "details": {
     "council_file": "26-0873",
     "applicant": "Fleet Works Corporation, dba Hollywood Car Carrier Service",
     "action": "selection of official police garage"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0873",
+    "vote": "15-0-0",
+    "recorded": "2026-10-21"
   }
 }

@@ -12,10 +12,19 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fe41cf80-fc55-40ac-94f4-656531d92a6c"
   ],
   "summary": "Council is asked to exempt three Community and Investment Department positions, two Project Coordinators and a Chief Grants Coordinator, from civil service.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
   "details": {
     "council_file": "23-1313",
     "action": "civil service exemption of positions"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1313",
+    "vote": "12-0-3",
+    "recorded": "2026-10-21"
   }
 }

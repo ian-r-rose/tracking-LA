@@ -13,12 +13,23 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=923ec8d1-980b-4c6e-a7ea-f03cf2776985"
   ],
   "summary": "Council receives and files a Police Commission report on the impacts of the LAPD's virtual reality training program, with no further action.",
-  "topics": ["public_safety"],
+  "topics": [
+    "public_safety"
+  ],
   "locations": [],
   "details": {
-    "case_numbers": ["24-1430"],
+    "case_numbers": [
+      "24-1430"
+    ],
     "council_district": 1,
     "action": "note and file report",
     "council_file": "24-1430"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-1430",
+    "vote": "15-0-0",
+    "recorded": "2026-10-21"
   }
 }

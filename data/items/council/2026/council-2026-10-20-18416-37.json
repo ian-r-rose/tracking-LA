@@ -18,5 +18,12 @@
   "details": {
     "action": "approval of non-event street banner program",
     "council_file": "26-1443"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1443",
+    "vote": "15-0-0",
+    "recorded": "2026-10-21"
   }
 }
