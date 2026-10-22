@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92023",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0600-S82",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a2b4ca9f-ba01-4a53-8a81-256866bcaf26"
-  ]
+  ],
+  "summary": "The Council will close out, without further action, a Personnel Department report on alternative qualifications for candidates to become Housing or Building Inspectors.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0600-S82",
+    "action": "Note and file Personnel Department report"
+  }
 }

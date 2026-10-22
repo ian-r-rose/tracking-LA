@@ -8,5 +8,30 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81606",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-27-2026/ZA_2026_1712_CUB_1A_Commission_Packet.pdf"
-  ]
+  ],
+  "summary": "An appeal of the zoning administrator's approval of a conditional use permit for off-site sales of full-line alcohol at a planned 3,808 sq ft bottle shop at 1512-1514 West Pico Boulevard in Westlake, open 8 a.m. to 2 a.m. daily.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1512 W Pico Blvd, Los Angeles, CA",
+      "lat": 34.04388,
+      "lon": -118.275388,
+      "neighborhood": "Pico-Union"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-1712-CUB-1A",
+      "ENV-2026-1713-CE"
+    ],
+    "council_district": 1,
+    "plan_area": "Westlake",
+    "applicant": "Eddie Shamas, Sipsy Pico Inc.",
+    "action": "Appeal of conditional use permit approval for off-site alcohol sales"
+  },
+  "flag": {
+    "reason": "Late-night alcohol sales appeal on Pico Boulevard in Pico-Union, a watched neighborhood."
+  }
 }

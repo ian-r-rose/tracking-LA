@@ -8,5 +8,36 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81605",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-28-2026/Item_No._6_Appeal_Recommendation_Report_for_AA_2025_1674_PM_1A___Copy.pdf"
-  ]
+  ],
+  "summary": "An appeal of the approval to split one lot at 2236 West Avenue 33 and 2249 North Cazador Drive in Northeast Los Angeles into two parcels, each keeping a single-family home. No new construction is proposed.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2236 W Avenue 33, Los Angeles, CA",
+      "lat": 34.106568,
+      "lon": -118.232266,
+      "neighborhood": "Glassell Park"
+    },
+    {
+      "text": "2249 N Cazador Dr, Los Angeles, CA",
+      "lat": 34.106927,
+      "lon": -118.2333,
+      "neighborhood": "Glassell Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2025-1674-PM-1A",
+      "ENV-2025-1675-CE"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "applicant": "Nathan D. Showalter",
+    "action": "Appeal of preliminary parcel map approval"
+  },
+  "flag": {
+    "reason": "Lot-split appeal in Glassell Park, a watched neighborhood."
+  }
 }

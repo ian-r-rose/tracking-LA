@@ -23,6 +23,12 @@
   "lon": -118.23389,
   "score": 100
  },
+ "1003 E 4th Pl": {
+  "address": "1003 E 4TH PL, 90013",
+  "lat": 34.04211,
+  "lon": -118.23389,
+  "score": 100
+ },
  "10100 W CONSTELLATION BLVD": {
   "address": "10100 W CONSTELLATION BLVD, 90067",
   "lat": 34.059373,
@@ -337,6 +343,12 @@
   "lon": -118.258389,
   "score": 100
  },
+ "1309 N Logan St": {
+  "address": "1309 N LOGAN ST, 90026",
+  "lat": 34.077399,
+  "lon": -118.258389,
+  "score": 100
+ },
  "13200-14500 West Van Nuys Boulevard": {
   "address": "14500 W VAN NUYS BLVD, 91402",
   "lat": 34.246989,
@@ -500,6 +512,12 @@
   "lon": -118.291713,
   "score": 97.59
  },
+ "1500 W Colorado Blvd": {
+  "address": "1500 W COLORADO BLVD, 90041",
+  "lat": 34.139121,
+  "lon": -118.19823,
+  "score": 100
+ },
  "1502 East Lomita Boulevard": {
   "address": "1502 E LOMITA BLVD, 90744",
   "lat": 33.799985,
@@ -510,6 +528,12 @@
   "address": "15027 W VENTURA BLVD, 91403",
   "lat": 34.152945,
   "lon": -118.460519,
+  "score": 100
+ },
+ "1512 W Pico Blvd": {
+  "address": "1512 W PICO BLVD, 90015",
+  "lat": 34.04388,
+  "lon": -118.275388,
   "score": 100
  },
  "15355 W SHERMAN WAY": {
@@ -846,6 +870,18 @@
   "score": 100
  },
  "2201 S A St, Perris": null,
+ "2236 W Avenue 33": {
+  "address": "2236 W AVENUE 33, 90065",
+  "lat": 34.106568,
+  "lon": -118.232266,
+  "score": 100
+ },
+ "2249 N Cazador Dr": {
+  "address": "2249 W CAZADOR DR, 90065",
+  "lat": 34.106927,
+  "lon": -118.2333,
+  "score": 92.78
+ },
  "22525 West Del Valle Street": {
   "address": "22525 W DEL VALLE ST, 91364",
   "lat": 34.167134,
@@ -1490,6 +1526,12 @@
   "lon": -118.209734,
   "score": 92.78
  },
+ "4849 N Mount Royal Dr": {
+  "address": "4849 N MT ROYAL DR, 90041",
+  "lat": 34.13442,
+  "lon": -118.204091,
+  "score": 100
+ },
  "4849 North Mount Royal Drive": {
   "address": "4849 N MT ROYAL DR, 90041",
   "lat": 34.13442,
@@ -1507,6 +1549,12 @@
   "lat": 34.067856,
   "lon": -118.177934,
   "score": 92.78
+ },
+ "4900 Vineland Ave, North Hollywood": {
+  "address": "4900 N VINELAND AVE, 91601",
+  "lat": 34.159661,
+  "lon": -118.370188,
+  "score": 81.19
  },
  "5000 South Beethoven Street": null,
  "5003 N KESTER AVE": {
@@ -1793,6 +1841,12 @@
   "lon": -118.325467,
   "score": 100
  },
+ "6233 W Hollywood Blvd": {
+  "address": "6233 W HOLLYWOOD BLVD, 90028",
+  "lat": 34.101706,
+  "lon": -118.325467,
+  "score": 100
+ },
  "625 E CRESTMOORE PL": {
   "address": "625 E CRESTMOORE PL, 90291",
   "lat": 33.988504,
@@ -1812,6 +1866,12 @@
   "score": 100
  },
  "6407 W SUNSET BLVD": {
+  "address": "6407 W SUNSET BLVD, 90028",
+  "lat": 34.098063,
+  "lon": -118.329079,
+  "score": 100
+ },
+ "6407 W Sunset Blvd": {
   "address": "6407 W SUNSET BLVD, 90028",
   "lat": 34.098063,
   "lon": -118.329079,
@@ -1908,6 +1968,12 @@
   "score": 100
  },
  "7001 W SANTA MONICA BLVD": {
+  "address": "7001 W SANTA MONICA BLVD, 90038",
+  "lat": 34.090773,
+  "lon": -118.341686,
+  "score": 100
+ },
+ "7001 W Santa Monica Blvd": {
   "address": "7001 W SANTA MONICA BLVD, 90038",
   "lat": 34.090773,
   "lon": -118.341686,
@@ -2297,6 +2363,7 @@
  },
  "City Hall": null,
  "Debris Basin No. 69": null,
+ "Donald Bruce Kaufman Brentwood Branch Library": null,
  "Doran Street": null,
  "East San Fernando Valley": null,
  "El Pueblo de Los Angeles Historical Monument": null,
@@ -2312,6 +2379,7 @@
  "Granada Hills": null,
  "Grant Lake Reservoir": null,
  "Greek Theatre, Griffith Park": null,
+ "Green Acres Farm": null,
  "Griffith Park": null,
  "Griffith Park Golf Complex": null,
  "Hansen Dam Horse Park": null,
@@ -2591,5 +2659,6 @@
  "Wilshire Boulevard & UCLA": null,
  "Wilshire Boulevard & VA Medical Center": null,
  "Winward Plaza": null,
+ "Woodland Hills Branch Library": null,
  "Ziegler Estate": null
 }

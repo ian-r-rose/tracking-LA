@@ -8,5 +8,32 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81605",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/10-28-2026/ZA_Commission_Packet_ZA_2024_1560_CU1_1A.pdf"
-  ]
+  ],
+  "summary": "An appeal of the approval of a 3,560 sq ft single-family home at 4849-4853 North Mount Royal Drive, with a zero-foot front setback, a 45-foot height and removal of two protected coast live oak trees (eight new oaks would be planted).",
+  "topics": [
+    "land_use",
+    "housing",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "4849 N Mount Royal Dr, Los Angeles, CA",
+      "lat": 34.13442,
+      "lon": -118.204091,
+      "neighborhood": "Eagle Rock"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2024-1560-CU1-1A",
+      "ENV-2024-1561-CE"
+    ],
+    "council_district": 14,
+    "plan_area": "Northeast Los Angeles",
+    "applicant": "Amir Kazerani and Jaqueline Lopez",
+    "action": "Appeal of Class 1 conditional use permit approval for hillside single-family home"
+  },
+  "flag": {
+    "reason": "Appeal over removal of protected oaks for a hillside home in Eagle Rock, a watched neighborhood."
+  }
 }

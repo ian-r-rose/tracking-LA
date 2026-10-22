@@ -9,5 +9,15 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92023",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1330",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2c2e7065-d771-46a3-a6da-2ab997acb44d"
-  ]
+  ],
+  "summary": "A motion asking the Fire Department, with the CAO and other departments, to report by November 3, 2026 with initial recommendations for a Measure FD implementation and fire department expansion plan covering staffing, stations, apparatus, funding and accountability.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1330",
+    "action": "Instruct LAFD to report with Measure FD implementation and expansion recommendations by November 3, 2026"
+  }
 }

@@ -8,5 +8,26 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2016-2412-CUB-PA1",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5439-EAF"
-  ]
+  ],
+  "summary": "A newly filed planning application, not yet decided, for 6233 West Hollywood Boulevard in Hollywood. The filing record does not describe the request.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6233 W Hollywood Blvd, Los Angeles, CA",
+      "lat": 34.101706,
+      "lon": -118.325467,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2016-2412-CUB-PA1",
+      "ENV-2026-5439-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "New case filing (not yet decided)"
+  }
 }

@@ -8,5 +8,21 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25198",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7190cc30-a963-4878-b9d5-96c5bcf5792a"
-  ]
+  ],
+  "summary": "The Board of Public Works will authorize the Bureau of Sanitation to advertise a request for proposals for managing the city's biosolids at Green Acres Farm, then evaluate proposals and negotiate contracts, returning to the board for final award.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Green Acres Farm"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0545"
+    ],
+    "bureau": "Bureau of Sanitation",
+    "action": "Advertise RFP, evaluate proposals and negotiate contracts for biosolids management"
+  }
 }

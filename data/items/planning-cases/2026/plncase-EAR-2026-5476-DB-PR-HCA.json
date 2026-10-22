@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: EAR-2026-5476-DB-PR-HCA\nAddress: 6407 W SUNSET BLVD\nFiled: 2026-10-21\nCouncil district: 13\nCommunity plan area: Hollywood\nDescription: Demolition of existing com building and construction, use, and maintenance of a 27-story tower with 239 dwelling units and 5,951 square feet of ground floor retail. Including 227 parking spaces.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/EAR-2026-5476-DB-PR-HCA"
-  ]
+  ],
+  "summary": "A newly filed application, not yet decided, to demolish a commercial building at 6407 West Sunset Boulevard in Hollywood and build a 27-story tower with 239 homes and ground-floor retail.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "6407 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.098063,
+      "lon": -118.329079,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "EAR-2026-5476-DB-PR-HCA"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "New application for demolition and 27-story tower with 239 dwelling units"
+  },
+  "flag": {
+    "reason": "A 27-story, 239-home tower proposed on Sunset Boulevard in Hollywood, a watched neighborhood."
+  }
 }

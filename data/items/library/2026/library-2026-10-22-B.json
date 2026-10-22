@@ -8,5 +8,18 @@
   "urls": [
     "https://www.lapl.org/board-library-commissioners/meetings/blc-meeting-2026-10-22",
     "https://www.lapl.org/sites/default/files/media/document/2026-10/exhibit-b_0.pdf"
-  ]
+  ],
+  "summary": "The Board of Library Commissioners will consider accepting a $4,000 gift from the Friends group for library materials at the Donald Bruce Kaufman Brentwood Branch Library.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Donald Bruce Kaufman Brentwood Branch Library"
+    }
+  ],
+  "details": {
+    "action": "Accept gift for library materials",
+    "amount": "$4,000"
+  }
 }

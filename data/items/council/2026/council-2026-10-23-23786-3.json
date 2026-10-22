@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92023",
     "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1367",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fb764ee9-5d8c-4f34-95fd-3003a9e9e50e"
-  ]
+  ],
+  "summary": "The Council will close out, without further action, a Personnel Department report reviewing the LAwell employee benefits trust fund for fiscal year 2025-26.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1367",
+    "action": "Note and file Personnel Department report"
+  }
 }

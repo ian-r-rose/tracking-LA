@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5418-CDO",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5419-EAF"
-  ]
+  ],
+  "summary": "A newly filed application, not yet decided, for a new 932 sq ft patio and a structurally separate steel pergola at 1309 North Logan Street.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1309 N Logan St, Los Angeles, CA",
+      "lat": 34.077399,
+      "lon": -118.258389,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5418-CDO",
+      "ENV-2026-5419-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "New application for patio and pergola (not yet decided)"
+  },
+  "flag": {
+    "reason": "New filing in Echo Park, a watched neighborhood."
+  }
 }

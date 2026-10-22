@@ -13,5 +13,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=57d685e3-5556-4bd1-8056-7705cce2e1fc",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=47d11336-64a3-48b3-8301-1e324f45b6c6",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7157f836-dfd2-43cd-9848-5a9cf5c780e0"
-  ]
+  ],
+  "summary": "The Council will close out, without further action, Personnel Department reports on succession plans submitted by City departments.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "17-1098",
+    "action": "Note and file Personnel Department reports"
+  }
 }

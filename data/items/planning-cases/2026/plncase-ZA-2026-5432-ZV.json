@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5432-ZV",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5433-EAF"
-  ]
+  ],
+  "summary": "A newly filed variance application, not yet decided, to allow two illuminated wall signs larger than 80 sq ft each at 1003 East 4th Place in the Downtown plan area.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1003 E 4th Pl, Los Angeles, CA",
+      "lat": 34.04211,
+      "lon": -118.23389,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5432-ZV",
+      "ENV-2026-5433-EAF"
+    ],
+    "council_district": 14,
+    "plan_area": "Downtown",
+    "action": "New variance application for two illuminated wall signs over 80 sq ft"
+  },
+  "flag": {
+    "reason": "New filing in Downtown, a watched neighborhood."
+  }
 }

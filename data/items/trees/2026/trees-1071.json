@@ -7,5 +7,27 @@
   "text": "[Proposed street tree removal posted by StreetsLA Urban Forestry]\nPosting ID: 1071\nAddress or Location: 4900-5200 Vineland Ave. North Hollywood and 1500-2700 W. Colorado\nPosting Date: 10/16/2026\nRemoval Reason: Other: North Hollywood to Pasadena Bus Rapid Transit Project\nNo. of Trees: 34\nTree Species: 1 Sweetgum, 20 Crape Myrtle, 11 Southern Magnolia, 2 Western Redbud",
   "urls": [
     "https://permits.streets.lacity.gov/treepostings/public/posting.cfm?posting_id=1071"
-  ]
+  ],
+  "summary": "StreetsLA has posted a proposal to remove 34 street trees along Vineland Avenue and West Colorado Boulevard to make way for the North Hollywood to Pasadena Bus Rapid Transit project.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "4900 Vineland Ave, North Hollywood, CA"
+    },
+    {
+      "text": "1500 W Colorado Blvd, Los Angeles, CA",
+      "lat": 34.139121,
+      "lon": -118.19823,
+      "neighborhood": "Eagle Rock"
+    }
+  ],
+  "details": {
+    "action": "Removal of 34 street trees"
+  },
+  "flag": {
+    "reason": "Removal of 34 street trees for the North Hollywood to Pasadena BRT project, which reaches Eagle Rock, a watched neighborhood."
+  }
 }
