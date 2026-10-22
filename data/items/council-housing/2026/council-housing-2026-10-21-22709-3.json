@@ -29,5 +29,11 @@
     "council_district": 2,
     "action": "removal from Rent Escrow Account Program",
     "council_file": "26-0005-S184"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee approved item(s) (Oct 21, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S184",
+    "recorded": "2026-10-22"
   }
 }

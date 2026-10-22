@@ -26,5 +26,12 @@
     "council_district": 14,
     "action": "revocable permit to encroach into public way",
     "bureau": "Bureau of Engineering and Bureau of Street Services"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25223",
+    "vote": "5-0",
+    "recorded": "2026-10-22"
   }
 }

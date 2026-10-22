@@ -24,8 +24,9 @@
   },
   "outcome": {
     "status": "approved",
-    "text": "Transportation Committee approved as amended (Oct 7, 2026)",
+    "text": "Transportation Committee approved as amended (Oct 7, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 21, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1278",
-    "recorded": "2026-10-10"
+    "vote": "11-0-4",
+    "recorded": "2026-10-22"
   }
 }

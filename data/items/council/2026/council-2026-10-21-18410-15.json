@@ -12,10 +12,19 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=58ddb1bc-584d-4b06-bf6b-df8dad1b45d8"
   ],
   "summary": "Council is asked to continue the local emergency declared after the January 2025 windstorms and wildfires, and to keep emergency purchases exempt from competitive bidding while it lasts.",
-  "topics": ["public_safety"],
+  "topics": [
+    "public_safety"
+  ],
   "locations": [],
   "details": {
     "council_file": "25-0030",
     "action": "continuation of local emergency declaration"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 21, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=25-0030",
+    "vote": "14-0-1",
+    "recorded": "2026-10-22"
   }
 }

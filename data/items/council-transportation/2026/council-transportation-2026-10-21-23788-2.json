@@ -21,5 +21,11 @@
   },
   "flag": {
     "reason": "Citywide street-safety barrier policy affecting protected street design."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee approved item(s) (Oct 21, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1424",
+    "recorded": "2026-10-22"
   }
 }

@@ -20,5 +20,12 @@
     "action": "construction budget and change order authority",
     "amount": "$223,816",
     "bureau": "Bureau of Engineering"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25223",
+    "vote": "4-0",
+    "recorded": "2026-10-22"
   }
 }

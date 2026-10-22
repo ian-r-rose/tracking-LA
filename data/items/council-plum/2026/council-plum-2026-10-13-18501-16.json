@@ -43,10 +43,10 @@
     "reason": "Appeal involving LA River open space."
   },
   "outcome": {
-    "status": "continued",
-    "text": "Planning and Land Use Management Committee denied appeal(s) ; and thereby sustained the determination of the Los Angeles City Planning Commission (Oct 13, 2026); Council continued item to October 21, 2026 (Oct 20, 2026)",
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee denied appeal(s) ; and thereby sustained the determination of the Los Angeles City Planning Commission (Oct 13, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 21, 2026)",
     "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1081-S1",
-    "vote": "12-0-3",
-    "recorded": "2026-10-21"
+    "vote": "11-0-4",
+    "recorded": "2026-10-22"
   }
 }

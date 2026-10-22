@@ -34,5 +34,12 @@
     "council_district": 15,
     "action": "establishment of JEDI zone",
     "council_file": "23-0957-S1"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 21, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-0957-S1",
+    "vote": "11-0-4",
+    "recorded": "2026-10-22"
   }
 }

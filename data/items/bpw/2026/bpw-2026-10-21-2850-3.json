@@ -22,5 +22,12 @@
     "council_district": 13,
     "action": "approval of proposed Walk of Fame names",
     "bureau": "Bureau of Engineering"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25223",
+    "vote": "4-0",
+    "recorded": "2026-10-22"
   }
 }

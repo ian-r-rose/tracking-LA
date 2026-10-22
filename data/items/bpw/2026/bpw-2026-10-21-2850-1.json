@@ -18,5 +18,12 @@
     "council_district": 9,
     "action": "bid rejection",
     "bureau": "Bureau of Engineering"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25223",
+    "vote": "4-0",
+    "recorded": "2026-10-22"
   }
 }

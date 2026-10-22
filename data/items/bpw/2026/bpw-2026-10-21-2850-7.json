@@ -23,5 +23,12 @@
     "action": "contract acceptance and penalty waiver",
     "amount": "$126,144",
     "bureau": "Bureau of Contract Administration; Bureau of Engineering"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25223",
+    "vote": "5-0",
+    "recorded": "2026-10-22"
   }
 }

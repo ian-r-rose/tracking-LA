@@ -18,5 +18,12 @@
     "council_district": 15,
     "action": "EIR certification and project approval",
     "bureau": "Bureau of Engineering"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED - REFERRED TO CITY COUNCIL, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25223",
+    "vote": "5-0",
+    "recorded": "2026-10-22"
   }
 }

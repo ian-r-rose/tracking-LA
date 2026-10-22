@@ -23,6 +23,12 @@
   "lon": -118.23389,
   "score": 100
  },
+ "10100 W CONSTELLATION BLVD": {
+  "address": "10100 W CONSTELLATION BLVD, 90067",
+  "lat": 34.059373,
+  "lon": -118.414825,
+  "score": 100
+ },
  "10144 N SUNLAND BLVD": {
   "address": "10144 N SUNLAND BLVD, 91040",
   "lat": 34.259939,
@@ -413,6 +419,12 @@
   "address": "140 N JUDGE JOHN AISO ST, 90012",
   "lat": 34.050741,
   "lon": -118.240498,
+  "score": 100
+ },
+ "140 S VISTA ST": {
+  "address": "140 S VISTA ST, 90036",
+  "lat": 34.072838,
+  "lon": -118.352159,
   "score": 100
  },
  "1400 North Vista Moraga": {
@@ -1629,6 +1641,12 @@
   "lon": -118.44332,
   "score": 100
  },
+ "5761 E HUNTINGTON DR NORTH": {
+  "address": "5761 E HUNTINGTON DR NORTH, 90032",
+  "lat": 34.097907,
+  "lon": -118.155586,
+  "score": 100
+ },
  "5779 W WILSHIRE BLVD": {
   "address": "5779 W WILSHIRE BLVD, 90036",
   "lat": 34.062558,
@@ -1793,6 +1811,12 @@
   "lon": -118.32784,
   "score": 100
  },
+ "6407 W SUNSET BLVD": {
+  "address": "6407 W SUNSET BLVD, 90028",
+  "lat": 34.098063,
+  "lon": -118.329079,
+  "score": 100
+ },
  "6419 West Selma Ave": {
   "address": "6419 W SELMA AVE, 90028",
   "lat": 34.099845,
@@ -1881,6 +1905,12 @@
   "address": "7001 S TROLLEYWAY, 90293",
   "lat": 33.956025,
   "lon": -118.449264,
+  "score": 100
+ },
+ "7001 W SANTA MONICA BLVD": {
+  "address": "7001 W SANTA MONICA BLVD, 90038",
+  "lat": 34.090773,
+  "lon": -118.341686,
   "score": 100
  },
  "7075 W FOOTHILL BLVD": {

@@ -27,5 +27,12 @@
   },
   "flag": {
     "reason": "Public street fixture removal in Downtown, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25223",
+    "vote": "5-0",
+    "recorded": "2026-10-22"
   }
 }

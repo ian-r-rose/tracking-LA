@@ -12,11 +12,22 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7ade47e1-925d-449f-9172-4bfbb8967dcc"
   ],
   "summary": "Directs several city departments to report on how a federal executive order making federal resources English-only affects residents with limited English, including whether city websites could add translations.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
   "details": {
-    "case_numbers": ["26-1386"],
+    "case_numbers": [
+      "26-1386"
+    ],
     "action": "report back request",
     "council_file": "26-1386"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 21, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1386",
+    "vote": "11-0-4",
+    "recorded": "2026-10-22"
   }
 }
