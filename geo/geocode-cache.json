@@ -65,6 +65,12 @@
   "lon": -118.420672,
   "score": 100
  },
+ "10255 W PENROSE ST": {
+  "address": "10255 W PENROSE ST, 91352",
+  "lat": 34.232225,
+  "lon": -118.354341,
+  "score": 100
+ },
  "10336 N DE SOTO AVE": {
   "address": "10336 N DE SOTO AVE, 91311",
   "lat": 34.257945,
@@ -143,6 +149,12 @@
   "address": "11245 N PORTER RANCH DR, 91311",
   "lat": 34.273056,
   "lon": -118.569676,
+  "score": 100
+ },
+ "1132 N HYPERION AVE": {
+  "address": "1132 N HYPERION AVE, 90029",
+  "lat": 34.092347,
+  "lon": -118.279153,
   "score": 100
  },
  "1135 N WESTMORELAND AVE": {
@@ -233,6 +245,12 @@
   "address": "11973 W SAN VICENTE BLVD, 90049",
   "lat": 34.052535,
   "lon": -118.472064,
+  "score": 100
+ },
+ "12222 W VENICE BLVD": {
+  "address": "12222 W VENICE BLVD, 90066",
+  "lat": 34.004787,
+  "lon": -118.43158,
   "score": 100
  },
  "1223 S CABRILLO AVE": {
@@ -373,6 +391,7 @@
   "lon": -118.424408,
   "score": 89.66
  },
+ "13400 W WASHINGTON BLVD": null,
  "13456 W VAN NUYS BLVD": {
   "address": "13456 W VAN NUYS BLVD, 91331",
   "lat": 34.263005,
@@ -702,6 +721,12 @@
   "address": "19020 W MIRANDA ST, 91356",
   "lat": 34.175149,
   "lon": -118.54878,
+  "score": 100
+ },
+ "1915 S PENMAR AVE": {
+  "address": "1915 S PENMAR AVE, 90291",
+  "lat": 34.000711,
+  "lon": -118.455696,
   "score": 100
  },
  "1932 S ARMACOST AVE": {
@@ -1051,6 +1076,12 @@
   "lon": -118.326043,
   "score": 100
  },
+ "2810 N HYPERION AVE": {
+  "address": "2810 N HYPERION AVE, 90027",
+  "lat": 34.10808,
+  "lon": -118.271759,
+  "score": 100
+ },
  "2845 North Casiano Road": {
   "address": "2845 N CASIANO ROAD, 90077",
   "lat": 34.125225,
@@ -1268,11 +1299,23 @@
   "lon": -118.264655,
   "score": 100
  },
+ "365 N FULLER AVE": {
+  "address": "365 N FULLER AVE, 90036",
+  "lat": 34.077503,
+  "lon": -118.34988,
+  "score": 100
+ },
  "3700 Wilshire Boulevard": {
   "address": "3700 W WILSHIRE BLVD, 90010",
   "lat": 34.061645,
   "lon": -118.306671,
   "score": 99.06
+ },
+ "3701 S INGLEWOOD BLVD": {
+  "address": "3701 S INGLEWOOD BLVD, 90066",
+  "lat": 34.008106,
+  "lon": -118.430556,
+  "score": 100
  },
  "3703 N Hellman Ave": {
   "address": "3703 N HELLMAN AVE, 90032",
@@ -1918,6 +1961,12 @@
   "lat": 34.088853,
   "lon": -118.332356,
   "score": 99.06
+ },
+ "662 E VERNON AVE": {
+  "address": "662 E VERNON AVE, 90011",
+  "lat": 34.003828,
+  "lon": -118.264137,
+  "score": 100
  },
  "676 E MARR ST": {
   "address": "676 E MARR ST, 90291",
