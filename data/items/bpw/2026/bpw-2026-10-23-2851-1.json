@@ -24,5 +24,12 @@
     ],
     "bureau": "Bureau of Sanitation",
     "action": "Advertise RFP, evaluate proposals and negotiate contracts for biosolids management"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25245",
+    "vote": "3-0",
+    "recorded": "2026-10-24"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "council-2026-10-27-23794-14",
+  "body": "council",
+  "meeting_date": "2026-10-27",
+  "item_number": "14",
+  "title": "TRANSPORTATION COMMITTEE REPORT relative to updating the guidelines for signal phasing and timing.",
+  "text": "[Council File 23-1210]\n[Items for which Public Hearings Have Been Held]\nTRANSPORTATION COMMITTEE REPORT relative to updating the guidelines for signal phasing and timing.\nRecommendations for Council action:\nNOTE and FILE the August 17, 2026 Los Angeles Department of Transportation report.\nINSTRUCT the Los Angeles Department of Transportation (LADOT) to report back to Council in 90 days with updated guidelines for signal operations, leading pedestrian intervals, scramble crosswalks, and No Turn On Red restrictions.\nFiscal Impact Statement:\nThe LADOT reports that there is no impact to the General Fund since the August 17, 2026 LADOT report is informational.\nCommunity Impact Statement:\nYes\nFor: North Westwood Neighborhood Council\nAgainst, unless amended: Studio City Neighborhood Council",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1210",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=370cdfe3-8ade-4b4a-9d4f-73c50fce9426",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a8b3fd1a-fc35-416f-bcd0-e63782d41188"
+  ],
+  "follows": "council-transportation-2026-10-21-23788-9",
+  "summary": "LADOT's report would update the city's guidelines for traffic signal phasing and timing.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-1210",
+    "action": "report on signal phasing and timing guidelines"
+  }
+}

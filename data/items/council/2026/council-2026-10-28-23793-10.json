@@ -1,0 +1,30 @@
+{
+  "id": "council-2026-10-28-23793-10",
+  "body": "council",
+  "meeting_date": "2026-10-28",
+  "item_number": "10",
+  "title": "TRANSPORTATION and BUDGET AND FINANCE COMMITTEES’ REPORT and RESOLUTION relative to applying for, and accepting, grant funding from the California…",
+  "text": "[Council File 17-0739-S4]\n[Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)]\nTRANSPORTATION and BUDGET AND FINANCE COMMITTEES’ REPORT and RESOLUTION relative to applying for, and accepting, grant funding from the California Department of Transportation (Caltrans) to purchase and install electrical infrastructure for bus electrification at the City-owned Sylmar Bus Maintenance Yard located at 12776 Foothill Boulevard in connection with the Fiscal Year (FY) 2026-27 State of Good Repair (SGR) Program.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nAUTHORIZE the General Manager, LADOT, or designee, to apply for and accept funds in the amount of $922,191, or the final amount as determined by the State Controller’s Office, for the SGR Program on behalf of the City of Los Angeles (City) for bus electrification at the Sylmar Bus Maintenance Yard.\nPRESENT and ADOPT the accompanying RESOLUTION, as required by Caltrans, to authorize the execution of the certifications and assurances for the SGR Program project Electrical Infrastructure for Bus Charging at Sylmar Bus Maintenance Yard (SGR Project ID 2021-5006-005).\nFiscal Impact Statement:\nThe LADOT reports that there is no impact to the City of Los Angeles General Fund since the grant does not require a local match. The LADOT will rely on Proposition A currently budgeted for this purpose as front funding to be reimbursed by the FY 2026-27 SGR funds.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92285",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=17-0739-S4",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1e1623d-3989-4c5e-818c-955e6737db30"
+  ],
+  "follows": "council-transportation-2026-10-07-22716-4",
+  "summary": "Applying for and accepting grant funding to purchase and install electrical infrastructure for bus electrification at the City-owned Sylmar Bus Maintenance Yard.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "12776 Foothill Boulevard, Los Angeles, CA",
+      "lat": 34.291566,
+      "lon": -118.413255,
+      "neighborhood": "Pacoima"
+    }
+  ],
+  "details": {
+    "council_file": "17-0739-S4",
+    "action": "apply for and accept grant funding for bus electrification"
+  }
+}

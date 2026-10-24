@@ -1,0 +1,31 @@
+{
+  "id": "council-2026-10-27-23794-10",
+  "body": "council",
+  "meeting_date": "2026-10-27",
+  "item_number": "10",
+  "title": "TRANSPORTATION COMMITTEE REPORT relative to reconfiguring the NoHo DASH line as NoHo2BUR Connect, a direct transit connection between North Hollywood…",
+  "text": "[Council File 26-1428; CD 2]\n[Items for which Public Hearings Have Been Held]\nTRANSPORTATION COMMITTEE REPORT relative to reconfiguring the NoHo DASH line as NoHo2BUR Connect, a direct transit connection between North Hollywood Station and Hollywood Burbank Airport.\nRecommendations for Council action, pursuant to Motion (Nazarian – Padilla):\nDIRECT the Los Angeles Department of Transportation (LADOT) to report within 90 days with recommendations to reconfigure the NoHo DASH line as NoHo2BUR Connect, a direct transit connection between North Hollywood Station and Hollywood Burbank Airport, redeploying the line's existing vehicles and service hours, including:\nAlignment and stop options developed at LADOT's discretion, with estimated travel times compared against existing transit, rideshare, and driving.\nHow the service would use the new terminal's transit facilities and connect with Airport Authority shuttles, BurbankBus, Metro, Metrolink, and planned high-speed rail without duplicating existing service.\nService span and frequency options suited to air travel, including weekend service.\nOperating costs relative to the current NoHo DASH budget, any additional resources needed, and confirmation of Local Return eligibility for service outside City limits.\nAccommodation of the service in the planned North Hollywood Station transit center.\nINSTRUCT the LADOT, in collaboration with the City of Burbank and the Burbank-Glendale-Pasadena Airport Authority, to report on the estimated demand for DASH BUR in comparison with the existing NoHo DASH ridership.\nINSTRUCT the LADOT, with the assistance of the City Attorney, to initiate discussions with the City of Burbank and the Burbank-Glendale-Pasadena Airport Authority on the agreements needed for City-operated service within Burbank and on airport property, including access to the terminal's transit loading area.\nREQUEST the Los Angeles County Metropolitan Transportation Authority to coordinate with the Bureau of Engineering and the Bureau of Street Services on this service, including its integration with the North Hollywood LA28 mobility hub, and report on the status of any planning for a permanent high-capacity transit connection between North Hollywood Station and the airport.\nINSTRUCT the LADOT to report back with any anticipated timeline that would place the service in operation, including any resources and funding required to effectuate this service by the start of the 2028 Olympic and Paralympic Games.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1428",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=119d177b-ce50-4540-8c5c-1a29f249c466"
+  ],
+  "follows": "council-transportation-2026-10-21-23788-5",
+  "summary": "Motion to reconfigure the NoHo DASH line as a direct NoHo2BUR Connect service between North Hollywood Station and Hollywood Burbank Airport.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "North Hollywood Station"
+    },
+    {
+      "text": "Hollywood Burbank Airport"
+    }
+  ],
+  "details": {
+    "council_district": 2,
+    "council_file": "26-1428",
+    "action": "transit route reconfiguration"
+  }
+}

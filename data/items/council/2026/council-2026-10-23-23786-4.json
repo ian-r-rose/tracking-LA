@@ -18,5 +18,12 @@
   "details": {
     "council_file": "26-1429",
     "action": "Note and file Personnel Department report"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 23, 2026)",
+    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1429",
+    "vote": "12-0-3",
+    "recorded": "2026-10-24"
   }
 }

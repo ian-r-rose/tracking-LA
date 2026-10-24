@@ -567,6 +567,12 @@
   "lon": -118.468976,
   "score": 99.06
  },
+ "1556 N CAHUENGA BLVD": {
+  "address": "1556 N CAHUENGA BLVD, 90028",
+  "lat": 34.099005,
+  "lon": -118.329471,
+  "score": 100
+ },
  "1600 East Lomita Boulevard": {
   "address": "1600 E LOMITA BLVD, 90744",
   "lat": 33.800043,
@@ -583,6 +589,12 @@
   "address": "16142 W ROYAL OAK ROAD, 91436",
   "lat": 34.142132,
   "lon": -118.483302,
+  "score": 100
+ },
+ "1617 S CRESCENT PL": {
+  "address": "1617 S CRESCENT PL, 90291",
+  "lat": 33.991048,
+  "lon": -118.462478,
   "score": 100
  },
  "1620 West 30th Street": {
@@ -923,6 +935,12 @@
   "address": "2304 S STRONG'S DR, 90291",
   "lat": 33.984168,
   "lon": -118.468774,
+  "score": 100
+ },
+ "2315 S OAKWOOD AVE": {
+  "address": "2315 S OAKWOOD AVE, 90291",
+  "lat": 33.991399,
+  "lon": -118.456375,
   "score": 100
  },
  "23200 West Mulholland Drive": {
@@ -1299,6 +1317,12 @@
   "lon": -118.264655,
   "score": 100
  },
+ "3623 S GRAND AVE": {
+  "address": "3623 S GRAND AVE, 90007",
+  "lat": 34.01746,
+  "lon": -118.277953,
+  "score": 100
+ },
  "365 N FULLER AVE": {
   "address": "365 N FULLER AVE, 90036",
   "lat": 34.077503,
@@ -1653,6 +1677,12 @@
   "lat": 34.054727,
   "lon": -118.261625,
   "score": 100
+ },
+ "5214 E MONTE VISTA ST": {
+  "address": "5214 N MONTE VISTA ST, 90042",
+  "lat": 34.108554,
+  "lon": -118.200838,
+  "score": 92.78
  },
  "523 East 66th Street": {
   "address": "523 E 66TH ST, 90003",

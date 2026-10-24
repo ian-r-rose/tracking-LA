@@ -1,0 +1,43 @@
+{
+  "id": "council-2026-10-27-23794-8",
+  "body": "council",
+  "meeting_date": "2026-10-27",
+  "item_number": "8",
+  "title": "PREVIOUSLY CERTIFIED ENVIRONMENTAL IMPACT REPORT NO. ENV-2017-438-EIR [STATE CLEARINGHOUSE (SCH) NO. 2018051050], ERRATUM, FIRST ADDENDUM, SECOND ADDENDUM,…",
+  "text": "[Council File 21-0784-S1; CD 14]\n[Items for which Public Hearings Have Been Held]\nPREVIOUSLY CERTIFIED ENVIRONMENTAL IMPACT REPORT NO. ENV-2017-438-EIR [STATE CLEARINGHOUSE (SCH) NO. 2018051050], ERRATUM, FIRST ADDENDUM, SECOND ADDENDUM, and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS; PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT and ORDINANCE FIRST CONSIDERATION relative to a Vesting Zone Change for the properties located at 2117 – 2147 East Violet Street; and 2118 – 2142 East 7th Place.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\nFIND, based on the independent judgement of the decision-maker, after consideration of the whole of the administrative record, that the project was assessed in the previously certified Environmental Impact Report No. ENV-2017-438-EIR (SCH No. 2018051050) and Erratum, dated February 2021, and the First Addendum, dated August 2021, certified on September 15, 2021; and pursuant to CEQA Guidelines Sections 15162 and 15164, and the Second Addendum, dated March 2026, no major revisions are required to the EIR and no subsequent EIR is required for approval of the project.\nADOPT the FINDINGS of the Los Angeles City Planning Commission (LACPC) as the Findings of Council.\nPRESENT and ADOPT the accompanying ORDINANCE, dated June 11, 2026, to effectuate a Vesting Zone Change to amend the Qualified “Q” Conditions of Zone Change Ordinance No. 187209; for a new mixed-use, two-tower development with 474 live/work units (including 77 affordable units) and 2,034 square feet of ground floor commercial space, totaling 512,990 square feet of floor area on a 2.2 acre site, Building 1 would provide 324 units and 1,066 square feet of commercial space within a 30-story building, and Building 2 would provide 150 units and 968 square feet of commercial space within a 20-story building, five existing buildings, comprising 56,686 square feet of office, restaurant, warehouse, and six live/work units, would remain, and at completion, the project would result in a total of 480 live/work units and 36,865 square feet of commercial space, for a total of 569,676 square feet of floor area; for the property located at 2117 – 2147 East Violet Street; and 2118 – 2142 East 7th Place, subject to Conditions of Approval.\nApplicant: Mark Spector, ONNI Capital, LLC\nRepresentative: Matt Dzurec, Armbruster Goldsmith & Delvac, LLP\nCase No. CPC-2025-2329-VZC-PR-HCA\nEnvironmental No. ENV-2017-438-EIR-ADD2\nRelated Case Nos.: VTT-74890-CN; VTT-74890-CN-M1; CPC-2017-437-GPAJ-ZVC-HD-VCU-MCUP-SPR\nFiscal Impact Statement:\nThe LACPC reports that there is no General Fund impact as administrative costs are recovered through fees.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - NOVEMBER 17, 2026\n(LAST DAY FOR COUNCIL ACTION - NOVEMBER 17, 2026)",
+  "urls": [
+    "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
+    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-0784-S1",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8579ae5a-0393-4ddd-aa0e-fad5e7f290e7",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=30180356-8b9a-4f06-9dba-c13722022816",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cacac630-aa0e-4aef-a788-6d4da9ca4478",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d356c096-3a4a-4727-a959-9b685a15f45d",
+    "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=10479ae0-6dd4-4090-a579-86db41144d4c"
+  ],
+  "follows": "council-plum-2026-10-13-18501-1",
+  "summary": "Vesting zone change and environmental review for a two-tower mixed-use project at 2117 to 2147 East Violet Street and 2118 to 2142 East 7th Place, adding 474 live/work units (77 affordable) in 30- and 20-story buildings.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "2117 East Violet Street, Los Angeles, CA",
+      "lat": 34.032637,
+      "lon": -118.229669,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-2329-VZC-PR-HCA",
+      "VTT-74890-CN",
+      "VTT-74890-CN-M1",
+      "CPC-2017-437-GPAJ-ZVC-HD-VCU-MCUP-SPR"
+    ],
+    "council_district": 14,
+    "council_file": "21-0784-S1",
+    "applicant": "Mark Spector, ONNI Capital, LLC",
+    "action": "vesting zone change"
+  }
+}

@@ -18,5 +18,11 @@
       "BPW-2026-0547"
     ],
     "action": "Receive quarterly report"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25245",
+    "recorded": "2026-10-24"
   }
 }
