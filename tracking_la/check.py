@@ -13,7 +13,7 @@ from tracking_la import reportbacks
 from tracking_la.store import DATA, SOURCE_FIELDS
 
 OUTCOME_STATUSES = {"approved", "denied", "continued", "withdrawn", "filed", "other"}
-TOPICS = {"parks", "transportation", "land_use", "housing", "environment", "budget", "public_safety", "other"}
+TOPICS = {"parks", "transportation", "land_use", "housing", "environment", "budget", "public_safety", "zoo_animals", "other"}
 
 
 def committed_version(path: Path) -> dict | None:

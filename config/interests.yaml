@@ -6,6 +6,7 @@ topics:
   parks: 3
   transportation: 3
   land_use: 1
+  zoo_animals: 4  # LA Zoo arrivals, departures, births and exhibit changes
 
 # Neighborhood names as they appear in geo/neighborhoods.geojson
 # (LA Times "Mapping L.A." boundaries via LA GeoHub, CC BY 4.0).
