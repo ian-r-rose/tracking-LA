@@ -1,28 +1,31 @@
 """Board of Zoo Commissioners (advisory).
 
-Agendas come from ens.lacity.org, which keeps past ones too. The Zoo's own page,
-https://lazoo.org/about/zoo-commission/, shows only the next or latest meeting's agenda, but
-it links the supporting documents, including the General Manager's "Animal Updates" report
-(animals arriving, leaving, born and died), which becomes an item of its own.
+Agendas come from ens.lacity.org, which keeps past ones too. The General Manager's
+"Animal Updates" report (animals arriving, leaving, born and died) becomes an item of its
+own. It's only on lazoo.org, linked from the Zoo Commission page, whose firewall refuses
+scripts; the site's WordPress media listing isn't behind it, so the report is found there:
+the newest "Animal Transaction" PDF uploaded in the weeks before the meeting (file names
+vary month to month, and a corrected report is uploaded again with "-1" added).
 
-lazoo.org's firewall refuses GitHub's runners on some days. Then the agenda items are still
-fetched, and the report is tried again on later fetches until it comes through.
+When the report isn't up yet or lazoo.org refuses, the agenda items are still fetched, and
+the report is tried again on later fetches until it comes through.
 """
 
 import re
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import httpx
-from bs4 import BeautifulSoup
-
 from tracking_la import http_client
 from tracking_la.pdf import normalize_space, pdf_text
 from tracking_la.sources import ens
 from tracking_la.store import DATA, item_path
 
 LISTING = ens.Format(body="zoo", listing_url="https://ens.lacity.org/zoo/ens_zoo_agenda.htm", item_start=re.compile(""))
-PAGE = "https://lazoo.org/about/zoo-commission/"
+MEDIA = "https://lazoo.org/wp-json/wp/v2/media"
+# A meeting's report is uploaded about a week before it (sometimes revised the day before).
+REPORT_UPLOADED = (timedelta(days=21), timedelta(days=3))  # before, after the meeting
+REPORT_FILE = re.compile(r"Animal-Transaction", re.I)
 CONTEXT = "[Los Angeles Zoo, 5333 Zoo Drive, in Griffith Park]"
 
 # The agenda PDF has a sidebar (address, commissioners) left of the agenda; the agenda
@@ -30,11 +33,6 @@ CONTEXT = "[Los Angeles Zoo, 5333 Zoo Drive, in Griffith Park]"
 FIRST_ITEM = re.compile(r"^(.*?\s)1\.\s+CALL TO ORDER")
 ITEM = re.compile(r"^\s{0,3}(\d{1,2})\.\s+(\S.*)$")
 STANDING = re.compile(r"^(CALL TO ORDER|APPROVAL OF MINUTES|PUBLIC COMMENT|ADJOURNMENT)")
-
-# On the Zoo's page. The month is sometimes lowercase ("TUESDAY, october 20, 2026").
-MEETING_DATE = re.compile(r"(?:MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY),\s+([A-Z]+ \d{1,2}, \d{4})", re.I)
-# Under General Manager Reports: "Animal Updates" on one line, its PDF link on the next.
-ANIMAL_UPDATES = re.compile(r"^Animal Updates$", re.I)
 
 
 def list_meetings(start: date, end: date, client: httpx.Client, root: Path = DATA) -> list[dict]:
@@ -93,31 +91,27 @@ def animal_updates_item(meeting: dict, url: str, text: str) -> dict:
     }
 
 
-def _page_lines(html: str) -> tuple[date | None, list[str]]:
-    """The Zoo page's meeting date and agenda lines, with document links kept as <url>."""
-    soup = BeautifulSoup(html, "html.parser")
-    for a in soup.select("a[href]"):
-        a.append(f" <{a['href']}>")
-    text = soup.get_text("\n")
-    lines = [re.sub(r"\s+", " ", line).strip() for line in text.splitlines()]
-    lines = [line for line in lines if line]
-    start = next((i for i, line in enumerate(lines) if MEETING_DATE.search(line)), None)
-    if start is None:
-        return None, []
-    when = datetime.strptime(MEETING_DATE.search(lines[start]).group(1).title(), "%B %d, %Y").date()
-    end = next((i for i in range(start, len(lines)) if lines[i].startswith("ADJOURNMENT")), len(lines))
-    return when, lines[start:end + 1]
+def animal_updates_url(media: list[dict], when: date) -> str | None:
+    """The Animal Updates report for the meeting on `when`, from lazoo.org's media listing:
+    the newest upload of a transaction report around the meeting."""
+    uploads = [
+        (datetime.fromisoformat(m["date"]), m["source_url"]) for m in media
+        if REPORT_FILE.search(m["source_url"]) and m["source_url"].lower().endswith(".pdf")
+    ]
+    near = [(at, url) for at, url in uploads if when - REPORT_UPLOADED[0] <= at.date() <= when + REPORT_UPLOADED[1]]
+    return max(near)[1] if near else None
 
 
-def animal_updates_url(page_html: str, when: date) -> str | None:
-    """The Animal Updates report's URL, if the Zoo page still shows the meeting on `when`."""
-    page_when, lines = _page_lines(page_html)
-    if page_when != when:
-        return None
-    for line, following in zip(lines, lines[1:]):
-        if ANIMAL_UPDATES.match(line) and (link := re.fullmatch(r"<(https?://[^>]+)>", following)):
-            return link.group(1)
-    return None
+def report_uploads(when: date, client: httpx.Client) -> list[dict]:
+    resp = client.get(MEDIA, params={
+        "search": "transaction",
+        "after": (when - REPORT_UPLOADED[0]).isoformat() + "T00:00:00",
+        "before": (when + REPORT_UPLOADED[1] + timedelta(days=1)).isoformat() + "T00:00:00",
+        "per_page": 100,
+        "_fields": "date,source_url",
+    })
+    resp.raise_for_status()
+    return resp.json()
 
 
 def meeting_items(meeting: dict, agenda_pdf: bytes) -> list[dict]:
@@ -127,12 +121,12 @@ def meeting_items(meeting: dict, agenda_pdf: bytes) -> list[dict]:
         return items
     try:
         with http_client(timeout=60) as client:
-            resp = client.get(PAGE)
-            resp.raise_for_status()
-            if url := animal_updates_url(resp.text, meeting["date"]):
+            if url := animal_updates_url(report_uploads(meeting["date"], client), meeting["date"]):
                 resp = client.get(url)
                 resp.raise_for_status()
                 items.append(animal_updates_item(meeting, url, normalize_space(pdf_text(resp.content))))
+            else:
+                print(f"  pending: zoo Animal Updates for {meeting['date']} isn't on lazoo.org yet, tried again next fetch")
     except httpx.HTTPError as e:
         print(f"  pending: zoo Animal Updates for {meeting['date']}, tried again next fetch ({e})")
     return items

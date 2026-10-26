@@ -1,3 +1,4 @@
+import json
 from datetime import date
 from pathlib import Path
 
@@ -38,12 +39,13 @@ def test_agenda_items_with_a_sidebar_line_beside_an_item():
     assert "Chief Executive" not in items[3]["text"]
 
 
-def test_animal_updates_url_only_for_the_meeting_the_page_shows():
-    page = (FIXTURES / "commission-2026-10-20.html").read_text()  # its date has a lowercase month
-    assert zoo.animal_updates_url(page, date(2026, 10, 20)) == REPORT_URL
-    assert zoo.animal_updates_url(page, date(2026, 9, 15)) is None
-    september = (FIXTURES / "commission.html").read_text()
-    assert zoo.animal_updates_url(september, date(2026, 9, 15)).endswith("Animal-Transaction-Report-9.18.2026.pdf")
+def test_animal_updates_url_is_the_newest_upload_around_the_meeting():
+    media = json.loads((FIXTURES / "media-2026-10-20.json").read_text())  # the report, then its revision
+    assert zoo.animal_updates_url(media, date(2026, 10, 20)) == REPORT_URL
+    assert zoo.animal_updates_url(media, date(2026, 9, 15)) is None
+    assert zoo.animal_updates_url(media, date(2026, 11, 17)) is None
+    other = [{"date": "2026-10-14T09:00:00", "source_url": "https://lazoo.org/wp-content/uploads/2026/10/4-Zoo-Commission-Data-10.20.2026.pdf"}]
+    assert zoo.animal_updates_url(other, date(2026, 10, 20)) is None
 
 
 def mock_fetch(monkeypatch, respond):
@@ -54,8 +56,8 @@ def mock_fetch(monkeypatch, respond):
 
 def test_animal_updates_report_becomes_its_own_item(monkeypatch):
     def respond(request):
-        if str(request.url) == zoo.PAGE:
-            return httpx.Response(200, content=(FIXTURES / "commission-2026-10-20.html").read_bytes())
+        if request.url.path == "/wp-json/wp/v2/media":
+            return httpx.Response(200, content=(FIXTURES / "media-2026-10-20.json").read_bytes())
         assert str(request.url) == REPORT_URL
         return httpx.Response(200, content=b"report")
 
@@ -71,6 +73,12 @@ def test_refused_report_leaves_the_agenda_items(monkeypatch, capsys):
     items = zoo.meeting_items(OCTOBER, b"agenda")
     assert len(items) == 4 and items[-1]["item_number"] == "old-business"
     assert "pending: zoo Animal Updates for 2026-10-20" in capsys.readouterr().out
+
+
+def test_report_not_up_yet_is_pending(monkeypatch, capsys):
+    mock_fetch(monkeypatch, lambda request: httpx.Response(200, json=[]))
+    assert len(zoo.meeting_items(OCTOBER, b"agenda")) == 4
+    assert "pending: zoo Animal Updates for 2026-10-20 isn't on lazoo.org yet" in capsys.readouterr().out
 
 
 def test_meetings_are_fetched_again_until_their_report_comes_through(tmp_path):
