@@ -77,14 +77,21 @@ def test_items_carry_council_file_district_and_links():
 def test_council_file_outcome_is_the_latest_action():
     html = (FIXTURES / "cf-25-0843.html").read_text()
     url = council.council_file_url("25-0843")
-    # Scheduled for Council Oct 6 (not an action), so PLUM's approval is the latest.
+    # Council's adoption comes after what PLUM recommended; "City Council" keeps Clerk Connect's "Council".
     assert council.council_file_outcome(html, url) == {
         "status": "approved",
-        "text": "Planning and Land Use Management Committee approved item(s) (Sep 22, 2026)",
+        "text": "Planning and Land Use Management Committee approved item(s) (Sep 22, 2026); "
+        "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 6, 2026); "
+        "Council action final",
         "source": url,
+        "vote": "13-1-1",
     }
     text = BeautifulSoup(html, "html.parser").get_text(" ")
     assert council.council_votes(text)[date(2025, 12, 12)] == "14-1-0"
+    # Scheduling isn't an action, and the timeline's two views don't repeat activities.
+    activities = council.file_activities(BeautifulSoup(html, "html.parser"))
+    assert len(activities) == len(set(activities)) == 36
+    assert activities[0] == (date(2026, 10, 7), "Council action final.")
     assert council.follow_url({"urls": ["a", url]}) == url
 
 
@@ -92,7 +99,8 @@ def test_council_file_outcome_ignores_actions_before_the_meeting():
     html = (FIXTURES / "cf-25-0843.html").read_text()
     url = council.council_file_url("25-0843")
     assert council.council_file_outcome(html, url, since=date(2026, 9, 22))["text"].startswith("Planning and Land Use")
-    assert council.council_file_outcome(html, url, since=date(2026, 9, 23)) is None
+    assert council.council_file_outcome(html, url, since=date(2026, 9, 23))["text"].startswith("Council adopted")
+    assert council.council_file_outcome(html, url, since=date(2026, 10, 8)) is None
 
 
 def test_council_action_says_what_the_committee_recommended():

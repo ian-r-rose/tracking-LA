@@ -7,7 +7,7 @@
   "text": "[Council File 23-1210]\nLos Angeles Department of Transportation report relative to updating the guidelines for signal phasing and timing and related matters.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nYes\nFor:\nNorth Westwood Neighborhood Council\nAgainst, unless amended:\nStudio City Neighborhood Council",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91797",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1210",
+    "https://lms.lacity.gov/files/23-1210",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2d8515ca-e69e-486e-a5b9-ba036f41a98b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a6f5a535-ecda-4c19-9f8b-a22c68b5c055"
   ],
@@ -23,7 +23,7 @@
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved as amended (Oct 21, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1210",
+    "source": "https://lms.lacity.gov/files/23-1210",
     "recorded": "2026-10-22"
   }
 }

@@ -101,7 +101,7 @@ FOLLOW_AT_MOST = timedelta(days=365)
 
 def followed_outcomes(client: httpx.Client, counts: Counter, failed: list) -> None:
     """Decisions for items that each have a page to follow (Source.follow_url): a Planning
-    case's PDIS page, a Council File's Clerk Connect page. Each page is fetched once per
+    case's PDIS page, a Council File's LMS page. Each page is fetched once per
     run, even when several items share it (a Council File on several agendas)."""
     today = date.today()
     followers = [s for s in SOURCES if s.follow_url]

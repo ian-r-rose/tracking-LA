@@ -7,7 +7,7 @@
   "text": "[Council File 26-1269]\nBoard of Recreation and Park Commissioners report and Resolution relative to a transfer of appropriation in the amount of $500,000 from the Department of Recreation and Parks and Information Technology Agency for the reimbursement of communication services.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted.",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1269",
+    "https://lms.lacity.gov/files/26-1269",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6c62770d-ecd8-4ce3-b1d7-90b316a83eee"
   ],
   "summary": "Resolution to transfer $500,000 between the Department of Recreation and Parks and Information Technology Agency for communication services reimbursement.",
@@ -22,7 +22,7 @@
   "outcome": {
     "status": "approved",
     "text": "Arts, Parks, and City Facilities Committee approved item(s) (Oct 7, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1269",
+    "source": "https://lms.lacity.gov/files/26-1269",
     "vote": "12-0-3",
     "recorded": "2026-10-21"
   }

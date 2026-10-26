@@ -7,7 +7,7 @@
   "text": "[Council File 26-1418; CD 5]\n[Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)]\nCOMMUNICATION FROM THE CITY ENGINEER relative to the final map of Parcel Map L.A. No. 2025-3285 located at 7262 West Waring Avenue, westerly of Alta Vista Boulevard.\nRecommendation for Council action:\nAPPROVE the final map of Parcel Map L.A. No. 2025-3285, located at 7262 West Waring Avenue, westerly of Alta Vista Boulevard.\nOwner: Shabse Twerski and Leah Miller (A)(O); Surveyor: Peter Riechers\nFiscal Impact Statement:\nThe City Engineer reports that the subdivider has paid a fee of $16,500.00 for the processing of this final tract map pursuant to Section 19.02(B)(3) of the Los Angeles Municipal Code. No additional City funds are needed.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1418",
+    "https://lms.lacity.gov/files/26-1418",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3edb1b1a-759f-4354-91f9-0ec612aeb390",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1ba5cd0-c6ac-4997-8618-654170a05831",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=97ba9011-ec81-4ecf-991e-d8eaa5d37fa7"
@@ -33,7 +33,7 @@
   "outcome": {
     "status": "approved",
     "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 13, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1418",
+    "source": "https://lms.lacity.gov/files/26-1418",
     "vote": "15-0-0",
     "recorded": "2026-10-17"
   }

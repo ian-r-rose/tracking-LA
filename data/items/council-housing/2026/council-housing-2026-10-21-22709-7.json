@@ -7,7 +7,7 @@
   "text": "[Council File 26-1461]\nMotion (Hernandez – Padilla, et al.) relative to policy recommendations related to the regulation of algorithmic rent-setting and artificial intelligence technologies utilized by multifamily residential housing providers operating within the City.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91905",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1461",
+    "https://lms.lacity.gov/files/26-1461",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1511f080-4dc0-49ef-aefe-596f3d4a59c1"
   ],
   "summary": "Council motion asking for policy recommendations on regulating algorithmic rent-setting and AI tools used by apartment landlords.",
@@ -22,7 +22,7 @@
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved as amended (Oct 21, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1461",
+    "source": "https://lms.lacity.gov/files/26-1461",
     "recorded": "2026-10-22"
   }
 }

@@ -7,7 +7,7 @@
   "text": "[Council File 24-0472; CD 10]\nBoard of Transportation Commissioners report and Resolution relative to the establishment of Preferential Parking District No. 338 in Council District Ten.\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91470",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0472",
+    "https://lms.lacity.gov/files/24-0472",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b77ec184-9468-4817-9e81-23b85efdffe0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f8a9da39-9cf7-4e9b-b73e-c9e8f935aecc",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=48a30aca-ff6a-4412-9060-f97ee12e30c3"
@@ -25,7 +25,7 @@
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved item(s) (Oct 7, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 16, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=24-0472",
+    "source": "https://lms.lacity.gov/files/24-0472",
     "vote": "11-0-4",
     "recorded": "2026-10-17"
   }

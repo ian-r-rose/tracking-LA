@@ -99,7 +99,7 @@ These make recommendations to the Mayor, Council or a General Manager. They can 
 
 ## City Council and its committees
 
-The committees are where Council matters are worked out before a Council vote. A committee's action is a recommendation to Council. Agendas are on the City Clerk's [PrimeGov portal](https://lacity.primegov.com/public/portal); each item's Council File, with its full history and Council votes, is on [Clerk Connect](https://cityclerk.lacity.org/lacityclerkconnect/). Full Council agendas are watched too, except closed sessions, nuisance-abatement liens and motions funding a district's events or recognitions. A Council File that came through a watched committee isn't summarized again: its Council agenda item carries the committee item's summary, and Council's vote is recorded on the committee item.
+The committees are where Council matters are worked out before a Council vote. A committee's action is a recommendation to Council. Agendas are on the City Clerk's [PrimeGov portal](https://lacity.primegov.com/public/portal); each item's Council File, with its full history and Council votes, is in the Clerk's [Legislative Management System](https://lms.lacity.gov/). Full Council agendas are watched too, except closed sessions, nuisance-abatement liens and motions funding a district's events or recognitions. A Council File that came through a watched committee isn't summarized again: its Council agenda item carries the committee item's summary, and Council's vote is recorded on the committee item.
 
 | Committee | Covers | Watched |
 |---|---|---|

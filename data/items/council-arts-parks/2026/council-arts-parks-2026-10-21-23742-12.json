@@ -7,7 +7,7 @@
   "text": "[Council File 26-0916]\nMotion (Price – Rodriguez) relative to the declaration of the City-owned property located adjacent to and west of the corner of 39th Street and Flower Drive, and the City-owned property adjacent to 3947 South Figueroa Street near 3900 South Figueroa Street, as Exempt Surplus Land.\nCommunity Impact Statement:\nNone submitted.",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91886",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0916",
+    "https://lms.lacity.gov/files/26-0916",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6206d093-c9c5-48a2-bc32-04b875bf61f1"
   ],
   "summary": "A motion to declare two city-owned properties, one near 39th Street and Flower Drive and one next to 3947 South Figueroa Street, as Exempt Surplus Land.",
@@ -38,7 +38,7 @@
   "outcome": {
     "status": "approved",
     "text": "Arts, Parks, and City Facilities Committee approved item(s) (Oct 21, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0916",
+    "source": "https://lms.lacity.gov/files/26-0916",
     "recorded": "2026-10-22"
   }
 }

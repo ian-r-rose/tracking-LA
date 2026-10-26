@@ -15,10 +15,10 @@ committee id, because their names change (Housing and Homelessness split in two 
 2026; Arts and Parks has been renamed twice).
 
 Each item belongs to a Council File, the City's id for a matter as it moves between
-committees and Council. Decisions come from the file's page in Clerk Connect
-(https://cityclerk.lacity.org/lacityclerkconnect/), whose File Activities record
-every step, including what full Council did after the committee, and whose Council
-Vote Information has roll calls by member.
+committees and Council. Decisions come from the file's page in the Clerk's Legislative
+Management System (https://lms.lacity.gov/, which replaced Clerk Connect in October
+2026), whose Timeline records every step, including what full Council did after the
+committee, and whose Votes have roll calls by member.
 """
 
 import json
@@ -34,7 +34,7 @@ from tracking_la.sources import primegov
 from tracking_la.store import DATA
 
 PORTAL = "https://lacity.primegov.com"
-CLERK_CONNECT = "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber={}"
+LMS_FILE = "https://lms.lacity.gov/files/{}"
 
 COMMITTEES = {
     12: "council-plum",  # Planning and Land Use Management
@@ -50,7 +50,7 @@ COMMITTEES = {
 }
 
 # Full Council has met with a regular agenda plus supplemental, special or continuation
-# ones; only a few days back, since what it did comes from Clerk Connect, not agendas.
+# ones; only a few days back, since what it did comes from the LMS, not agendas.
 COUNCIL_LOOKBACK = timedelta(days=3)
 
 SKIP_COUNCIL_ITEM = re.compile(
@@ -71,7 +71,7 @@ MAX_DOCUMENTS = 5
 
 
 def council_file_url(number: str) -> str:
-    return CLERK_CONNECT.format(number)
+    return LMS_FILE.format(number)
 
 
 def agenda_documents(m: dict, body: str) -> list[tuple[str | None, dict]]:
@@ -172,21 +172,37 @@ ACTION = re.compile(
 )
 
 
+DATE = re.compile(r"[A-Z][a-z]{2} \d{1,2}, \d{4}")  # "Oct 7, 2026"
+
+
+def tab(soup: BeautifulSoup, name: str):
+    """One of an LMS file page's tabs (timeline, documents, votes), all on the page."""
+    return soup.find(id=re.compile(rf"-content-{name}$"))
+
+
 def file_activities(soup: BeautifulSoup) -> list[tuple[date, str]]:
-    """(date, activity) from a Clerk Connect page's File Activities table, newest first."""
-    activities = []
-    for row in soup.select("tr"):
-        cells = [c.get_text(" ", strip=True) for c in row.find_all("td")]
-        if len(cells) >= 2 and re.fullmatch(r"\d\d/\d\d/\d{4}", cells[0]) and cells[1]:
-            activities.append((datetime.strptime(cells[0], "%m/%d/%Y").date(), re.sub(r"\s+", " ", cells[1]).strip()))
-    return activities
+    """(date, activity) from an LMS file page's Timeline, newest first. The page lists
+    them twice (major events and all activity), so each is kept once. The LMS says
+    "City Council" where Clerk Connect said "Council"; activities keep Clerk Connect's
+    wording, so outcomes recorded from it don't change."""
+    activities = {}
+    for row in tab(soup, "timeline").find_all("li") if tab(soup, "timeline") else []:
+        when = row.find("span", string=DATE)
+        text = row.find("p")
+        if when and text:
+            text = re.sub(r"^City Council\b", "Council", re.sub(r"\s+", " ", text.get_text(" ", strip=True)))
+            activities.setdefault((datetime.strptime(when.get_text(strip=True), "%b %d, %Y").date(), text), None)
+    return list(activities)
 
 
 def council_votes(text: str) -> dict[date, str]:
-    """Council roll-call tallies by meeting date, e.g. {2025-12-12: "14-1-0"}."""
+    """Council roll-call tallies (ayes-noes-absent) by meeting date, e.g. {2025-12-12: "14-1-0"},
+    from the text of an LMS file page's Votes."""
     votes = {}
-    for when, tally in re.findall(r"Meeting Date:\s*(\d\d/\d\d/\d{4}).*?Vote Given:\s*\((\d+\s*-\s*\d+\s*-\s*\d+)\)", text, re.S):
-        votes.setdefault(datetime.strptime(when, "%m/%d/%Y").date(), re.sub(r"\s", "", tally))
+    for when, ayes, noes, absent in re.findall(
+        r"meeting of (\w+ \d{1,2}, \d{4})(?:(?!meeting of).)*?Ayes (\d+), Noes (\d+), Absent (\d+)", text, re.S
+    ):
+        votes.setdefault(datetime.strptime(when, "%B %d, %Y").date(), f"{ayes}-{noes}-{absent}")
     return votes
 
 
@@ -210,7 +226,7 @@ def council_file_outcome(html: str, url: str, since: date | None = None) -> dict
     if any(w >= when and "Council action final" in t for w, t in activities):
         text += "; Council action final"  # past the Mayor's and Council's reconsideration windows
     outcome = {"status": normalize_status(text), "text": text, "source": url}
-    if when in (votes := council_votes(soup.get_text(" "))):
+    if (votes_tab := tab(soup, "votes")) and when in (votes := council_votes(votes_tab.get_text(" "))):
         outcome["vote"] = votes[when]
     return outcome
 
@@ -218,4 +234,4 @@ def council_file_outcome(html: str, url: str, since: date | None = None) -> dict
 def follow_url(item: dict) -> str | None:
     if item.get("follows"):  # the committee item it follows records Council's action
         return None
-    return next((u for u in item["urls"] if u.startswith(CLERK_CONNECT.split("?")[0])), None)
+    return next((u for u in item["urls"] if u.startswith(LMS_FILE.format(""))), None)

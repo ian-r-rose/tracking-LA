@@ -7,7 +7,7 @@
   "text": "[Council File 26-1151]\nMotion (Raman, et al. - Hernandez) relative to a strategy to address Transitional Aged Youth homelessness.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91641",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1151",
+    "https://lms.lacity.gov/files/26-1151",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a295e8de-badd-4505-b5be-a95ed2aad64b"
   ],
   "summary": "Motion asking for a strategy to address homelessness among transitional aged youth.",
@@ -22,7 +22,7 @@
   "outcome": {
     "status": "approved",
     "text": "Homelessness and Health Committee approved item(s) (Oct 14, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1151",
+    "source": "https://lms.lacity.gov/files/26-1151",
     "recorded": "2026-10-16"
   }
 }

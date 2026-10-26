@@ -7,7 +7,7 @@
   "text": "[Council File 26-0005-S159; CD 9]\nHousing Department report relative to removing the property at 4322 South Honduras Street (Case No. 863288), Assessor I.D. No. 5116-021-017, from the Rent Escrow Account Program.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S159",
+    "https://lms.lacity.gov/files/26-0005-S159",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d7e504dc-117f-4542-8a0a-a8c1f5881b0f"
   ],
   "summary": "The city will remove 4322 South Honduras Street from the Rent Escrow Account Program, allowing the property owner to regain control.",
@@ -32,7 +32,7 @@
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S159",
+    "source": "https://lms.lacity.gov/files/26-0005-S159",
     "recorded": "2026-10-05"
   }
 }

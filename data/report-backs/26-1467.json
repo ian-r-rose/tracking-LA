@@ -2,13 +2,15 @@
   "council_file": "26-1467",
   "title": "General Services Department / Prioritize Building Maintenance Request / Improving Turnaround Time",
   "introduced": "2026-10-14",
-  "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1467_misc_10-14-26.pdf",
+  "motion_url": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2026/26-1467_misc_10-14-26.pdf",
   "adopted": null,
   "documents": [],
   "motion": "I THEREFORE MOVE that Council DIRECTS the General Services Department (GSD) to report on how they prioritize building maintenance requests from departments and the timeline for completing the work. They should also include recommendations for improving the turnaround time for work orders, and further utilization of contracted vendors for certain services. PRESENTED BY: SECONDED BY: Eisen Sa2 Eurenn / ( //. MONICA RODRIGUEZ 0 Councilwoman, 7th District OCT 14%",
   "requests": [
     {
-      "departments": ["General Services Department"],
+      "departments": [
+        "General Services Department"
+      ],
       "asks": "How General Services prioritizes building maintenance requests and the timelines for completing them, with recommendations to improve work order turnaround and use of contracted vendors.",
       "deadline": null
     }

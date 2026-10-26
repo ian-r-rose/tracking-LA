@@ -2,13 +2,15 @@
   "council_file": "26-1420",
   "title": "Art Deaccession Policy / City of Los Angeles Art Collection / Appropriate Profession Review and Documentation / Transparent Process for Removing Artwork",
   "introduced": "2026-10-07",
-  "motion_url": "https://cityclerk.lacity.org/onlinedocs/2026/26-1420_misc_10-07-26.pdf",
+  "motion_url": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2026/26-1420_misc_10-07-26.pdf",
   "adopted": null,
   "documents": [],
   "motion": "I THEREFORE MOVE that City Council instruct the Office of the Chief Legislative Analyst, in coordination with the Department of Cultural Affairs and other necessary departments, to report­ on a proposed deaccession policy that mirrors what other municipalities and museums have created, or includes other industry best practices • PRESENTED BY: SECONDED BY: MONICA RODRIGUEZ () Councilwoman, 7th District N OCT 0 7 2026",
   "requests": [
     {
-      "departments": ["Chief Legislative Analyst"],
+      "departments": [
+        "Chief Legislative Analyst"
+      ],
       "asks": "A proposed art deaccession policy modeled on the policies of other municipalities and museums or on industry best practices.",
       "deadline": null
     }

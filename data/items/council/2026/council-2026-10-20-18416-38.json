@@ -7,7 +7,7 @@
   "text": "[Council File 26-0159; CD 9]\n[Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)]\nMOTION (PRICE - HUTT) relative to amending Council Action of March 13, 2026 (C.F. 26-0159).\nRecommendation for Council action:\nAMEND the Council Action of March 13, 2026 (C.F. 26-0159) relative to designating the intersection of 23ʳᵈ Street and Central Avenue as \"Lincoln Theater Square\" to designate the intersection of 23ʳᵈ Street and Central Avenue as \"Quincy Jones Lincoln Theater Square.\"",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91925",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0159",
+    "https://lms.lacity.gov/files/26-0159",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c076aab8-0949-420a-b6dc-243042e1ef10",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b41f55d3-220c-4a9e-9d23-43d34ea81971",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3bfc4a97-0371-4c00-93cf-a52a4c4a4589"
@@ -32,7 +32,7 @@
   "outcome": {
     "status": "approved",
     "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0159",
+    "source": "https://lms.lacity.gov/files/26-0159",
     "vote": "15-0-0",
     "recorded": "2026-10-24"
   }

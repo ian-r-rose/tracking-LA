@@ -7,7 +7,7 @@
   "text": "[Council File 26-0005-S187; CD 10]\nHousing Department report relative to removing the property at 1307 South Ridgeley Drive (Case No. 844138), Assessor I.D. No. 5085-032-044, from the Rent Escrow Account Program.\nFiscal Impact Statement:\nNo\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91905",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S187",
+    "https://lms.lacity.gov/files/26-0005-S187",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e400bf29-684d-421f-b228-1db86c8c9821"
   ],
   "summary": "Housing Department proposal to take 1307 South Ridgeley Drive in Council District 10 off the Rent Escrow Account Program.",
@@ -33,7 +33,7 @@
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Oct 21, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S187",
+    "source": "https://lms.lacity.gov/files/26-0005-S187",
     "recorded": "2026-10-22"
   }
 }

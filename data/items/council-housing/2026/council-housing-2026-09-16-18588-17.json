@@ -7,7 +7,7 @@
   "text": "[Council File 26-0005-S168; CD 8]\nHousing Department report relative to removing the property at 4105 South Muirfield Road (Case No. 919325), Assessor I.D. No. 5031-001-003, from the Rent Escrow Account Program.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=87854",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S168",
+    "https://lms.lacity.gov/files/26-0005-S168",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f75ebc97-59dc-457e-99bc-1a5b1e19c4b3"
   ],
   "summary": "Remove property from Rent Escrow Account Program at 4105 South Muirfield Road.",
@@ -32,7 +32,7 @@
   "outcome": {
     "status": "approved",
     "text": "Housing Committee approved item(s) (Sep 16, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0005-S168",
+    "source": "https://lms.lacity.gov/files/26-0005-S168",
     "recorded": "2026-10-05"
   }
 }

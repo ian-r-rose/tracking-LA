@@ -7,7 +7,7 @@
   "text": "[Council File 26-0111; CD 15]\nCity Engineer report relative to the vacation of an alley westerly of Figueroa Street, south of Pacific Coast Highway (VAC- E1401447).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=85072",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0111",
+    "https://lms.lacity.gov/files/26-0111",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=69e8dacb-cc33-41a8-b793-d0f3ee192ac0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5d1ce1cc-d3be-43c2-9938-320c48a4bc61",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e1e1ff77-cead-4020-9590-850b3e2ba98c",
@@ -33,7 +33,7 @@
   "outcome": {
     "status": "approved",
     "text": "Public Works Committee approved item(s) (Aug 26, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Sep 29, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-0111",
+    "source": "https://lms.lacity.gov/files/26-0111",
     "vote": "13-0-2",
     "recorded": "2026-10-04"
   }

@@ -7,7 +7,7 @@
   "text": "[Council File 26-1427]\nMotion (Rodriguez – Padilla, et al.) relative to establishing a Citywide data privacy policy and supporting policies with standards and safeguards governing data collection, storage, retention, access, sharing, disclosure, cybersecurity, and protection of individual privacy.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91886",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1427",
+    "https://lms.lacity.gov/files/26-1427",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5308692d-c625-4972-8050-62f2a556f950"
   ],
   "summary": "A motion to establish a citywide data privacy policy, with supporting standards and safeguards for how city data is collected, stored, kept, accessed, shared and secured, and for protecting individual privacy.",
@@ -25,7 +25,7 @@
   "outcome": {
     "status": "approved",
     "text": "Arts, Parks, and City Facilities Committee approved item(s) (Oct 21, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1427",
+    "source": "https://lms.lacity.gov/files/26-1427",
     "recorded": "2026-10-22"
   }
 }

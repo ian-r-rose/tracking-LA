@@ -7,7 +7,7 @@
   "text": "[Council File 18-0195; CD 14]\nCity Engineer report relative to the vacation of Turner Street from Alameda Street to Temple Street - Re-Initiation (VAC- E1401333).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=86444",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0195",
+    "https://lms.lacity.gov/files/18-0195",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5745e459-11ca-4db6-87f3-63508375b1bf",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=db2f70c1-2423-47ad-9740-f188dfce1dfa",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4a843845-1c76-45d3-bfd2-f559708b5e94",
@@ -39,7 +39,7 @@
   "outcome": {
     "status": "approved",
     "text": "Public Works Committee approved item(s) (Sep 8, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 13, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=18-0195",
+    "source": "https://lms.lacity.gov/files/18-0195",
     "vote": "15-0-0",
     "recorded": "2026-10-17"
   }

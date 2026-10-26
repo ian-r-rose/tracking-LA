@@ -7,7 +7,7 @@
   "text": "[Council File 21-0458; CD 9]\nDraft and Final Environmental Impact Report and City Engineer report relative to the vacation of portions of Pico Boulevard, and LA Live Way (Subsurface Space, Air Space, and Street Vacation) (VAC- E1401376).\nFiscal Impact Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91685",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-0458",
+    "https://lms.lacity.gov/files/21-0458",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d3eb72c0-3be4-4481-a4ec-b10cc3c270b5",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8aba6fab-7486-4ef0-900a-1d18716d0f39",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bef32053-e71b-40dc-bff4-73a8e8edd7c4",
@@ -42,7 +42,7 @@
   "outcome": {
     "status": "approved",
     "text": "Public Works Committee approved item(s) (Oct 13, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=21-0458",
+    "source": "https://lms.lacity.gov/files/21-0458",
     "recorded": "2026-10-15"
   }
 }

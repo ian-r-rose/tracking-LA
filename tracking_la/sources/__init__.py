@@ -25,7 +25,7 @@ class Source:
     # (meeting, agenda bytes) -> items before filtering.
     canary_items: Callable | None = None
     # Sources whose items each have a page to follow for decisions (a Planning case in
-    # PDIS, a Council File in Clerk Connect): item -> page URL or None, (page html, URL,
+    # PDIS, a Council File in the LMS): item -> page URL or None, (page html, URL,
     # item) -> outcome or None, and how many days to keep re-checking after a decision.
     follow_url: Callable | None = None
     follow_outcome: Callable | None = None

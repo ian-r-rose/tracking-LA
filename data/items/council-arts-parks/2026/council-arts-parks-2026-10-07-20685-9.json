@@ -7,7 +7,7 @@
   "text": "[Council File 26-1315; CD 1]\nCity Administrative Officer report relative to a proposed Right-of-Entry License Agreement between the Department of Animal Services and betterTogether Forever to provide animal intervention services at the North Central Animal Services Center, located at 3201 Lacy Street.\nFiscal Impact Statement:\nYes\nFinancial Policies Statement:\nYes\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91448",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1315",
+    "https://lms.lacity.gov/files/26-1315",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fd050adc-f81d-4697-ac03-6cb55268346e"
   ],
   "summary": "License agreement with betterTogether Forever to provide animal intervention services at the North Central Animal Services Center.",
@@ -29,7 +29,7 @@
   "outcome": {
     "status": "approved",
     "text": "Arts, Parks, and City Facilities Committee approved item(s) (Oct 7, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 20, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1315",
+    "source": "https://lms.lacity.gov/files/26-1315",
     "vote": "12-0-3",
     "recorded": "2026-10-23"
   }

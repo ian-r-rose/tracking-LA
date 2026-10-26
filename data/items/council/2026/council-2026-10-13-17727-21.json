@@ -7,7 +7,7 @@
   "text": "[Council File 26-1430; CD 13]\n[Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)]\nCOMMUNICATION FROM THE CITY ENGINEER relative to the final map of Parcel Map L.A. No. 2025-3923, located at 3760 North Dover Street, easterly of Boyce Avenue.\nRecommendation for Council action:\nAPPROVE the final map of Parcel Map L.A. No. 2025-3923, located at 3760 North Dover Street, easterly of Boyce Avenue and accompanying Subdivision Improvement Agreement and Contract with security documents.\nOwner: Margaret P. Goddard; Surveyor: Frank J. Sobecki\nFiscal Impact Statement:\nThe City Engineer reports that the subdivider has paid a fee of $16,500 for the processing of this final parcel map pursuant to Section 19.02(B)(3) of the Los Angeles Municipal Code. No additional City funds are needed.\nCommunity Impact Statement:\nNone submitted.",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1430",
+    "https://lms.lacity.gov/files/26-1430",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dcbe9541-2bf3-4c92-898c-958b4ea8b634",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=722fd9db-a928-400a-82a6-3eb25e8f1b88"
   ],
@@ -32,7 +32,7 @@
   "outcome": {
     "status": "approved",
     "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 13, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1430",
+    "source": "https://lms.lacity.gov/files/26-1430",
     "vote": "15-0-0",
     "recorded": "2026-10-17"
   }

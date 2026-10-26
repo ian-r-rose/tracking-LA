@@ -3,7 +3,7 @@ back, and whether the report has come in.
 
 The instructions are in the motions on watched committees' Council Files ("I THEREFORE
 MOVE that the Council instruct the Department of Transportation to report back within
-30 days on ..."). Clerk Connect has a "Report Back" activity type, but it is almost
+30 days on ..."). Clerk Connect had a "Report Back" activity type, but it was almost
 never used, so the motions themselves are read: the fetch keeps each motion's operative
 paragraphs, and the routine's review (ROUTINE.md) records the requests in them. The
 clock starts when Council adopts the motion.
@@ -63,7 +63,7 @@ def council_files(root: Path = DATA) -> set[str]:
     files = set()
     for path in (root / "items").glob("council-*/*/*.json"):
         if url := council.follow_url(json.loads(path.read_text())):
-            files.add(url.rsplit("cfnumber=", 1)[1])
+            files.add(url.rsplit("/", 1)[1])
     return files
 
 
@@ -75,21 +75,23 @@ def operative_text(text: str) -> str:
 
 
 def online_documents(soup: BeautifulSoup) -> list[tuple[date, str, str]]:
-    """(doc date, title, URL) from a Clerk Connect page's Online Documents list, newest first.
-    The page repeats the list (once per tab), so each URL is kept once."""
+    """(doc date, title, URL) from an LMS file page's Documents, newest first. The page
+    repeats the list (all documents, then by type), so each URL is kept once."""
     docs = {}
-    for row in soup.select("tr"):
-        cells = row.find_all("td")
-        link = cells[0].find("a", href=True) if len(cells) == 2 else None
-        when = cells[1].get_text(strip=True) if link else ""
-        if re.fullmatch(r"\d\d/\d\d/\d{4}", when) and link["href"] not in docs:
-            docs[link["href"]] = (datetime.strptime(when, "%m/%d/%Y").date(), link.get_text(" ", strip=True), link["href"])
+    for link in council.tab(soup, "documents").find_all("a", href=True) if council.tab(soup, "documents") else []:
+        title, when = link.select_one("span > span"), link.find("span", string=council.DATE)
+        if title and when and link["href"] not in docs:
+            docs[link["href"]] = (
+                datetime.strptime(when.get_text(strip=True), "%b %d, %Y").date(),
+                re.sub(r"\s+", " ", title.get_text(" ", strip=True)),
+                link["href"],
+            )
     return list(docs.values())
 
 
 def parse_page(html: str) -> dict:
     soup = BeautifulSoup(html, "html.parser")
-    title = next((l.find_next(class_="rectext") for l in soup.select(".reclabel") if l.get_text(strip=True) == "Title"), None)
+    title = soup.find("h1")
     docs = online_documents(soup)
     motions = [url for _, name, url in docs if re.match(r"Motion\b", name)]
     activities = sorted(council.file_activities(soup), key=lambda a: a[0])  # oldest first
@@ -171,7 +173,7 @@ def update(client: httpx.Client, counts, failed: list, today: date | None = None
                 counts["report-back records updated"] += 1
 
 
-# Clerk Connect names departments in full; motions often abbreviate. Boards and
+# The Clerk names departments in full; motions often abbreviate. Boards and
 # commissions file their departments' reports.
 ALIASES = {
     "ladot": "department of transportation", "dot": "department of transportation",

@@ -7,7 +7,7 @@
   "text": "[Council File 26-1051; CD 10]\nMotion (Hutt - Park) relative to installing parking meters on West Adams Boulevard between Buckingham Road and Hillcrest Drive.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=84424",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1051",
+    "https://lms.lacity.gov/files/26-1051",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7eacaba4-0105-4f70-ad0f-93b248af2bfc"
   ],
   "summary": "Install parking meters on West Adams Boulevard between Buckingham Road and Hillcrest Drive in Council District 10.",
@@ -36,7 +36,7 @@
   "outcome": {
     "status": "approved",
     "text": "Transportation Committee approved item(s) (Aug 12, 2026); Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Aug 28, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1051",
+    "source": "https://lms.lacity.gov/files/26-1051",
     "vote": "10-0-5",
     "recorded": "2026-10-04"
   }

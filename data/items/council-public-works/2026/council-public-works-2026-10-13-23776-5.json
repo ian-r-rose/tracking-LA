@@ -7,7 +7,7 @@
   "text": "[Council File 26-1332]\nMotion (Padilla - Blumenfield) relative to the City’s compliance with Assembly Bill 1572 prohibiting the use of potable water to irrigate non-functional turf on most local government properties.\n(This item was referred to the Public Works Committee and Energy and Environment Committee)\nCommunity Impact Statement:\nYes\nFor:\nSylmar Neighborhood Council",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91685",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1332",
+    "https://lms.lacity.gov/files/26-1332",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f1abb90b-1028-4365-a210-9c3ca518f486"
   ],
   "summary": "Council asks whether the City complies with state law AB 1572, which bars using drinking water to irrigate non-functional turf on most government properties.",
@@ -22,7 +22,7 @@
   "outcome": {
     "status": "approved",
     "text": "Public Works Committee approved item(s) (Oct 13, 2026)",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1332",
+    "source": "https://lms.lacity.gov/files/26-1332",
     "recorded": "2026-10-15"
   }
 }

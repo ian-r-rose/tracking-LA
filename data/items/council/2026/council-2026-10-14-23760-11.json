@@ -7,7 +7,7 @@
   "text": "[Council File 26-1323]\n[Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)]\nBUDGET AND FINANCE COMMITTEE REPORT relative to a transfer of funds to cover a projected deficit in the Los Angeles Fire Department (LAFD) sworn overtime salary account.\nRecommendations for Council action, pursuant to Motion (Lee – Yaroslavsky), SUBJECT TO THE APPROVAL OF THE MAYOR:\nREQUEST the Controller to transfer $20 million from within Fund No. 100/38, LAFD, including $10 million from Account No. 001012, Salaries Sworn, and $10 million from Account No. 1093, Overtime Constant Staffing, to Account No. 001092, Overtime Sworn, to cover a projected deficit in this account.\nAUTHORIZE and INSTRUCT the City Administrative Officer (CAO) and Controller to take any necessary actions and make any technical corrections to the above instructions in order to effectuate the intent of this Motion.\nFiscal Impact Statement:\nNeither the CAO nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91679",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1323",
+    "https://lms.lacity.gov/files/26-1323",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=892f603c-249c-4073-86ff-2cfa2409d913",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3492eadf-6bb0-4e94-be59-8234ea8d69da"
   ],
@@ -25,7 +25,7 @@
   "outcome": {
     "status": "approved",
     "text": "Council adopted item forthwith (Oct 14, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1323",
+    "source": "https://lms.lacity.gov/files/26-1323",
     "vote": "13-0-2",
     "recorded": "2026-10-15"
   }

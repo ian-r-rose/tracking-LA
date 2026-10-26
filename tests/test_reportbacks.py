@@ -5,7 +5,7 @@ from pathlib import Path
 from tracking_la import reportbacks
 
 FIXTURES = Path(__file__).parent / "fixtures" / "council"
-DOT = "https://cityclerk.lacity.org/onlinedocs/2026/26-0251_rpt_dot_07-31-26.pdf"
+DOT = "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2026/26-0251_rpt_dot_07-31-26.pdf"
 
 
 def test_page_gives_motion_adoption_and_documents_since():

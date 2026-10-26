@@ -7,7 +7,7 @@
   "text": "[Council File 26-1396]\n[Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)]\nMOTION (HUTT - HERNANDEZ) relative to updating the List of Citywide Special Events.\nRecommendation for Council action:\nINSTRUCT the Chief Legislative Analyst to include the following changes / amounts in the List of Citywide Special Events for Council District 10:\nDELETE MINC Music & Arts Festival - $75,000\nADD Mid City Music & Arts Festival - $75,000",
   "urls": [
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=91658",
-    "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1396",
+    "https://lms.lacity.gov/files/26-1396",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5ae7a34e-9d44-4f16-8af6-77d86479f7c0"
   ],
   "summary": "Council motion swapping the $75,000 citywide special event allocation for Council District 10 from the MINC Music & Arts Festival to the Mid City Music & Arts Festival.",
@@ -24,7 +24,7 @@
   "outcome": {
     "status": "approved",
     "text": "Council adopted item, subject to reconsideration, pursuant to Council Rule 51 (Oct 13, 2026); Council action final",
-    "source": "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=26-1396",
+    "source": "https://lms.lacity.gov/files/26-1396",
     "vote": "15-0-0",
     "recorded": "2026-10-17"
   }
