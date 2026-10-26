@@ -49,8 +49,9 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
             except httpx.HTTPError as e:
                 failed.append(f"{source.name}: {e}")
                 continue
-            # Upcoming agendas can still be revised, so always re-fetch those.
-            new = [m for m in meetings if refetch or m["date"] >= today or m["agenda_url"] not in seen]
+            # Upcoming agendas can still be revised, so always re-fetch those, and those a
+            # source asks for again (one of their documents didn't come through).
+            new = [m for m in meetings if refetch or m["date"] >= today or m.get("refetch") or m["agenda_url"] not in seen]
             counts["skipped"] += len(meetings) - len(new)
             todo += [(source, m) for m in new]
 
@@ -69,7 +70,11 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
                 for source, meeting, content in pool.map(download, todo):
                     if content is None:
                         continue
-                    items = source.meeting_items(meeting, content)
+                    try:
+                        items = source.meeting_items(meeting, content)  # some fetch linked documents
+                    except httpx.HTTPError as e:
+                        failed.append(f"{meeting['agenda_url']}: {e}")
+                        continue
                     if not items and not source.canary_items:  # a filtering source can come up empty
                         empty.append(meeting["agenda_url"])
                     for item in items:
