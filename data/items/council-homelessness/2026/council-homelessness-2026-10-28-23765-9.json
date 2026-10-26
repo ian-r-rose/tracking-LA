@@ -9,5 +9,26 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92198",
     "https://lms.lacity.gov/files/23-1022-S41",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3595f023-5b23-4523-865e-3a34355f5f9f"
-  ]
+  ],
+  "summary": "A lease with Hope the Mission to operate a tiny home village at 7500-7570 North Figueroa Street.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "7500 N Figueroa St, Los Angeles, CA",
+      "lat": 34.140396,
+      "lon": -118.186899,
+      "neighborhood": "Eagle Rock"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "council_file": "23-1022-S41",
+    "applicant": "Hope the Mission",
+    "action": "lease agreement"
+  },
+  "flag": {
+    "reason": "Tiny home village in Eagle Rock, a watched neighborhood."
+  }
 }

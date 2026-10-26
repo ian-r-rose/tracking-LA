@@ -9,5 +9,18 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92198",
     "https://lms.lacity.gov/files/26-1445",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0916c571-1807-4414-b103-0ae389b14507"
-  ]
+  ],
+  "summary": "A motion asking for a report on how residents in Skid Row are notified before Operation Healthy Streets operations, with recommendations to improve that notice process.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Skid Row, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-1445",
+    "action": "motion"
+  }
 }

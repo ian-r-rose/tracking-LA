@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25233",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a638020f-9d51-444f-b742-75e870f5c639"
-  ]
+  ],
+  "summary": "Adopts specifications and authorizes bid advertising for the Central Avenue pedestrian and streetscape improvements in Council District 9, estimated at $5,451,780, with bids due December 9, 2026.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 9,
+    "action": "authority to advertise invitation for bids",
+    "amount": "$5,451,780"
+  }
 }

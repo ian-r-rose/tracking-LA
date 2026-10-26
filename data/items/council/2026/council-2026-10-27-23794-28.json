@@ -11,5 +11,24 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4d25422c-e3ef-43d3-814d-d5fd179149df",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=36d45d35-62e7-4249-9bbe-a603b21e53ca",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c235c2a9-ebad-4326-911b-24122a725b47"
-  ]
+  ],
+  "summary": "Council will approve the final subdivision map for a property at 9702-9800 South Grape Street, south of 97th Street, owned by the Housing Authority of the City of Los Angeles.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "9702 S Grape St, Los Angeles, CA",
+      "lat": 33.948138,
+      "lon": -118.236696,
+      "neighborhood": "Watts"
+    }
+  ],
+  "details": {
+    "council_file": "13-0174-S4",
+    "council_district": 15,
+    "applicant": "Housing Authority of the City of Los Angeles",
+    "action": "final map approval",
+    "amount": "$9,064"
+  }
 }

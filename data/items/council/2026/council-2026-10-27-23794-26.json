@@ -9,5 +9,30 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
     "https://lms.lacity.gov/files/26-0011-S22",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0357fc64-3245-42b3-aef8-8ed29c1500d4"
-  ]
+  ],
+  "summary": "Council will move $5,400 from a Council District 3 street furniture fund to the Bureau of Street Services to pay for weed removal in the Ventura Boulevard median in Woodland Hills.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Ventura Blvd & Oakdale Ave, Los Angeles, CA",
+      "lat": 34.17228,
+      "lon": -118.565879,
+      "neighborhood": "Woodland Hills"
+    },
+    {
+      "text": "Ventura Blvd & Jumilla Ave, Los Angeles, CA",
+      "lat": 34.17246,
+      "lon": -118.563831,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-0011-S22",
+    "council_district": 3,
+    "action": "funding transfer for weed abatement",
+    "amount": "$5,400",
+    "bureau": "Bureau of Street Services"
+  }
 }

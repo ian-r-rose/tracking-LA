@@ -10,5 +10,17 @@
     "https://lms.lacity.gov/files/26-0628",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=aa3f09ba-6b91-45a8-bb27-5635ddb769af",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fc1ba15a-f9bb-4af8-85e5-1641eb749e0a"
-  ]
+  ],
+  "summary": "Council will allocate $42,263.86 from a Council District 10 street furniture fund to Happy Village for printing and hanging street banners for a 2026 FIFA World Cup watch party festival in the district.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0628",
+    "council_district": 10,
+    "action": "funding allocation for street banners",
+    "amount": "$42,263.86",
+    "bureau": "Bureau of Street Services"
+  }
 }

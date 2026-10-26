@@ -9,5 +9,12 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92198",
     "https://lms.lacity.gov/files/26-1285",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ef043e7a-7b2f-42f8-bab3-7ffa30268c6f"
-  ]
+  ],
+  "summary": "A motion asking for a review of the insurance rules that homeless service providers must meet, including what those insurance costs add to their budgets.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "council_file": "26-1285",
+    "action": "motion"
+  }
 }

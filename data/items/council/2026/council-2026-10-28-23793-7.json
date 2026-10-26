@@ -10,5 +10,15 @@
     "https://lms.lacity.gov/files/26-1093",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ac6e5f05-148c-4045-a707-72d744d1effc",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b992594f-a632-419b-b9df-51b8f4e824bd"
-  ]
+  ],
+  "summary": "Approves restructuring the Fire Department's fee categories for aboveground petroleum storage under the state act, with no change in total revenue, and asks the City Attorney to draft the ordinance changes.",
+  "topics": [
+    "public_safety",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1093",
+    "action": "fee category restructuring and ordinance"
+  }
 }

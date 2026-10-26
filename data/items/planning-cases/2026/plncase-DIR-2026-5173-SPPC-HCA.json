@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: DIR-2026-5173-SPPC-HCA\nAddress: 1155 N HELIOTROPE DR\nFiled: 2026-10-06\nCouncil district: 13\nCommunity plan area: Hollywood\nDescription: SB 684 PARCEL MAP FOR THE SUBDIVISION OF 1 RD1.5 LOT INTO 4 STARTER HOME LOTS LOCATED WITHIN THE SNAP.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5173-SPPC-HCA"
-  ]
+  ],
+  "summary": "A filed application would split one RD1.5 lot at 1155 North Heliotrope Drive into four starter-home lots through the state SB 684 parcel map process.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1155 N Heliotrope Dr, Los Angeles, CA",
+      "lat": 34.092269,
+      "lon": -118.295045,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5173-SPPC-HCA"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "SB 684 parcel map"
+  },
+  "flag": {
+    "reason": "SB 684 lot split in East Hollywood, a watched neighborhood."
+  }
 }

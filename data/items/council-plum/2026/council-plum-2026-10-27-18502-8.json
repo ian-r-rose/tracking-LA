@@ -13,5 +13,29 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6481a087-15f0-4dab-847b-ba70bc98b4f4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a0726408-68f6-4a87-9121-310d8e2467bd",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f5cf4519-cf99-4865-b34a-4dbf849bfbf0"
-  ]
+  ],
+  "summary": "Zone and height district change for the same self-storage project at 4802–4828 West San Vicente Boulevard, raising the allowed floor area ratio from 1.5:1 to 6:1 and waiving a 2.5-foot alley widening.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "4802 W San Vicente Blvd, Los Angeles, CA",
+      "lat": 34.048819,
+      "lon": -118.340847,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-5194-HD-CU2-PR-ZC",
+      "ENV-2025-5195-MND",
+      "CPC-2025-5194-HD-CU2-PR-ZC-1A"
+    ],
+    "council_district": 10,
+    "applicant": "David Kelly, Westport Properties Inc",
+    "action": "zone and height district change",
+    "council_file": "26-1289"
+  }
 }

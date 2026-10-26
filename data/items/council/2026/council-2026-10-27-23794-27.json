@@ -11,5 +11,23 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b1759b75-fe28-478c-b4a5-bdf6f690eedd",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0357aa29-8ad9-44b7-ab6a-a368103a63a0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=58d5ab16-7cd6-4f00-bcf2-55977c9347a9"
-  ]
+  ],
+  "summary": "Approves the final tract map for a subdivision at 10010-10018 South Grape Street, along with its improvement agreement and bond.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "10010 South Grape Street, Los Angeles, CA",
+      "lat": 33.945578,
+      "lon": -118.236701,
+      "neighborhood": "Watts"
+    }
+  ],
+  "details": {
+    "council_file": "20-1549-S1",
+    "council_district": 15,
+    "action": "final tract map approval",
+    "amount": "$9,064"
+  }
 }

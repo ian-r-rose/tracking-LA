@@ -13,5 +13,33 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd6148f5-8d5d-4ad4-a208-3eaa5006c720",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cf299835-1253-4916-adcd-ebcef087c579",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=068a213d-2187-4a4d-8c09-37ee2a0607ca"
-  ]
+  ],
+  "summary": "Appeal of conditions for the existing Denny's Car Wash on North Balboa Boulevard, which would keep it operating with new outdoor shade structures, a small equipment room addition, and a vehicle queuing lane behind the lot.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "10125 N Balboa Blvd, Los Angeles, CA",
+      "lat": 34.254342,
+      "lon": -118.502436,
+      "neighborhood": "Northridge"
+    },
+    {
+      "text": "17022 W Romar St, Los Angeles, CA",
+      "lat": 34.254661,
+      "lon": -118.503875,
+      "neighborhood": "Northridge"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCNV-2023-8011-ZC-ZV-CU-WDI-SPP-DRB-1A",
+      "ENV-2023-8012-CE"
+    ],
+    "council_district": 12,
+    "applicant": "Dennis Metcalf, Balboa Car Washes, Inc. dba Denny’s Car Wash",
+    "action": "appeal of North Valley Area Planning Commission determination",
+    "council_file": "26-1288"
+  }
 }

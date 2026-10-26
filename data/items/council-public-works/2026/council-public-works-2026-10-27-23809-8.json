@@ -9,5 +9,21 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92294",
     "https://lms.lacity.gov/files/25-1355",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=854bf0b4-b8cf-4898-8a48-590f4c45b50e"
-  ]
+  ],
+  "summary": "Council would start street vacation proceedings to close four alleys along Gramercy Place.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Gramercy Pl, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "25-1355",
+    "action": "initiate street vacation proceedings"
+  },
+  "flag": {
+    "reason": "Street vacation proceedings for four alleys."
+  }
 }

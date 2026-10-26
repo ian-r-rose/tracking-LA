@@ -13,5 +13,28 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c0e31f19-ed0a-43c7-9a72-d4e5b7ed5b74",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f970f34b-67f1-49ee-b066-17088d60fa1f",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4d2c2071-5ebf-4328-bddc-331522f59b0d"
-  ]
+  ],
+  "summary": "The city engineer recommends naming the private driveway on Sunset Blvd between Carolwood Dr and Ladera Dr as Carolwood Place.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Sunset Blvd & Carolwood Dr, Los Angeles, CA",
+      "lat": 34.08084,
+      "lon": -118.425987,
+      "neighborhood": "Beverly Crest"
+    },
+    {
+      "text": "Sunset Blvd & Ladera Dr, Los Angeles, CA",
+      "lat": 34.079805,
+      "lon": -118.422905,
+      "neighborhood": null
+    }
+  ],
+  "details": {
+    "council_file": "26-1267",
+    "council_district": 5,
+    "action": "naming of private driveway"
+  }
 }

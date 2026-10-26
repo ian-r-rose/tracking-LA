@@ -13,5 +13,31 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e99e0e28-4c6a-4a48-92e4-7bb8677f7e0a",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b6ac6cdc-de2f-4a19-95b6-3b61f20ccc01",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a979aa87-4cf2-4be8-94db-81ba1e623d2f"
-  ]
+  ],
+  "summary": "Appeal of approval for 76 new residential units in three new buildings at 2413–2499 North Silver Lake Boulevard, six of them reserved for very low-income households, alongside the 48 units already on the site.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2413 N Silver Lake Blvd, Los Angeles, CA",
+      "lat": 34.100917,
+      "lon": -118.258071,
+      "neighborhood": "Silver Lake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2024-5534-DB-PR-VHCA-1A",
+      "ENV-2024-5535-SE"
+    ],
+    "council_district": 13,
+    "applicant": "Fang Qian Morgan, Fang Qian Morgan EGST Trust & Seth, James Morgan EGST Trust",
+    "action": "appeal of Los Angeles City Planning Commission approval",
+    "council_file": "26-1207"
+  },
+  "flag": {
+    "reason": "76 new homes in Silver Lake, a watched neighborhood."
+  }
 }

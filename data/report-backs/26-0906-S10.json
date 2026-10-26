@@ -29,5 +29,10 @@
       "asks": "Recommendations for applying discretionary review to future land use projects at 1400 S. Los Palos Street for public safety protection and environmental review compliance.",
       "deadline": null
     }
-  ]
+  ],
+  "document_reviews": {
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2026/26-0906-S10_RPT_dcp_10-23-26.pdf": [
+      1
+    ]
+  }
 }

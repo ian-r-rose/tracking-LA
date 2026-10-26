@@ -13,5 +13,23 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=50fad8b4-1723-4b21-863f-64f28403a936",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0f60c8f7-236a-4168-989f-2729824757e0",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b9556991-4b81-4aec-aefb-47169b4e7da9"
-  ]
+  ],
+  "summary": "Adoption of the environmental impact report findings and an urgency ordinance amending the Cornfield Arroyo Seco Specific Plan to require conditional use permits for warehousing, distribution and storage uses over 15,000 square feet.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "ENV-2021-2643-EIR"
+    ],
+    "council_district": 1,
+    "plan_area": "Cornfield Arroyo Seco Specific Plan",
+    "action": "specific plan amendment and EIR findings",
+    "council_file": "13-0078-S2"
+  },
+  "flag": {
+    "reason": "Specific plan covering the Cornfield Arroyo Seco area near Chinatown and Downtown."
+  }
 }

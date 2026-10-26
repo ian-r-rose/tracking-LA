@@ -9,5 +9,17 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
     "https://lms.lacity.gov/files/26-1500",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ace66054-05c6-4458-9900-9d8311185faa"
-  ]
+  ],
+  "summary": "Transfers $25,000 from a Council District 3 redevelopment account to the Animal Welfare Trust Fund to support the community pet food pantry in the San Fernando Valley.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1500",
+    "council_district": 3,
+    "action": "fund transfer for pet food pantry",
+    "amount": "$25,000"
+  }
 }

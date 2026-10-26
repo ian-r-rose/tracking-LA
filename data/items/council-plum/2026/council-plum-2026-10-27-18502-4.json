@@ -13,5 +13,32 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3eb932e4-62cf-416a-a220-d9a22f262781",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b77f1121-c174-4642-8432-4c1eb2c3a2fa",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2587179-2e43-46eb-b382-3f61b7dcae93"
-  ]
+  ],
+  "summary": "A zone change and approvals to upgrade and keep operating Denny's Car Wash on North Balboa Boulevard, with new shade structures and a vehicle queuing lane on a lot on Romar Street.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "10125 N Balboa Blvd, Los Angeles, CA",
+      "lat": 34.254342,
+      "lon": -118.502436,
+      "neighborhood": "Northridge"
+    },
+    {
+      "text": "17022 W Romar St, Los Angeles, CA",
+      "lat": 34.254661,
+      "lon": -118.503875,
+      "neighborhood": "Northridge"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCNV-2023-8011-ZC-ZV-CU-WDI-SPP-DRB"
+    ],
+    "council_district": 12,
+    "council_file": "26-1288-S1",
+    "applicant": "Karen Metcalf c/o Steve Tolopilo, Balboa Car Washes, Inc., dba Denny's Car Wash",
+    "action": "zone change"
+  }
 }

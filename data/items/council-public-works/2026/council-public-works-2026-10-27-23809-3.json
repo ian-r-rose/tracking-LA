@@ -9,5 +9,16 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92294",
     "https://lms.lacity.gov/files/26-1351",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ab65456a-ce40-4d73-b95d-ba8011cf0399"
-  ]
+  ],
+  "summary": "Motion on funding illegal dumping enforcement for fiscal year 2026-27. It is in committee, and the Public Safety Committee approved it on October 6, 2026.",
+  "topics": [
+    "environment",
+    "public_safety",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1351",
+    "action": "motion on illegal dumping enforcement funding"
+  }
 }

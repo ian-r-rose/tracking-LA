@@ -5,5 +5,24 @@
   "motion_url": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2026/26-1346_misc_9-22-26.pdf",
   "adopted": null,
   "documents": [],
-  "motion": "I THEREFORE MOVE that the City Council INSTRUCT the Emergency Management Department, the City Administrative Officer, the Los Angeles Housing Department, and the Department of Recreation and Parks in coordination with the Los Angeles Homeless Services Authority, to report within the next 21 days on how the City is preparing to address the impacts of the super El Niño predicted by the National Oceanic and Atmospheric Administration on people experiencing homelessness. This report should include: An assessment of previous efforts conducted to protect unsheltered People Experiencing Homelessness (PEH) in the city during emergency extreme weather events; Protocol and timeline for activating emergency shelters; An outline for conducting early notification and, if needed, evacuation of PEH living in high flood zones, including the LA River Bed area; A list of proactive measures that can be implemented before the start of the El Niño season; • A list of any currently City-funded programs that can be used to support these efforts; A status update on the current capacity or number of beds and vouchers available for emergency shelter. I FURTHER MOVE that the City Council INSTRUCT the City Administrative Officer to report on potential utilization of Homeless, Housing, Assistance and Prevention Program funds that have been saved due to reprogramming or any other savings in homelessness funds to fund the implementation of these recommendations. ORIGINAL PREDIE YSABEL JURADO SECONDED BY Councilmember, 14th District SEP 22 2026"
+  "motion": "I THEREFORE MOVE that the City Council INSTRUCT the Emergency Management Department, the City Administrative Officer, the Los Angeles Housing Department, and the Department of Recreation and Parks in coordination with the Los Angeles Homeless Services Authority, to report within the next 21 days on how the City is preparing to address the impacts of the super El Niño predicted by the National Oceanic and Atmospheric Administration on people experiencing homelessness. This report should include: An assessment of previous efforts conducted to protect unsheltered People Experiencing Homelessness (PEH) in the city during emergency extreme weather events; Protocol and timeline for activating emergency shelters; An outline for conducting early notification and, if needed, evacuation of PEH living in high flood zones, including the LA River Bed area; A list of proactive measures that can be implemented before the start of the El Niño season; • A list of any currently City-funded programs that can be used to support these efforts; A status update on the current capacity or number of beds and vouchers available for emergency shelter. I FURTHER MOVE that the City Council INSTRUCT the City Administrative Officer to report on potential utilization of Homeless, Housing, Assistance and Prevention Program funds that have been saved due to reprogramming or any other savings in homelessness funds to fund the implementation of these recommendations. ORIGINAL PREDIE YSABEL JURADO SECONDED BY Councilmember, 14th District SEP 22 2026",
+  "requests": [
+    {
+      "departments": [
+        "Emergency Management Department",
+        "City Administrative Officer",
+        "Los Angeles Housing Department",
+        "Department of Recreation and Parks"
+      ],
+      "asks": "How the City is preparing for the predicted super El Nino's impacts on people experiencing homelessness, including past efforts, shelter activation protocols, flood-zone notification and evacuation, proactive measures, City-funded programs, and shelter bed and voucher capacity.",
+      "deadline": 21
+    },
+    {
+      "departments": [
+        "City Administrative Officer"
+      ],
+      "asks": "Potential use of Homeless, Housing, Assistance and Prevention Program funds saved through reprogramming or other homelessness savings to implement the El Nino recommendations.",
+      "deadline": null
+    }
+  ]
 }

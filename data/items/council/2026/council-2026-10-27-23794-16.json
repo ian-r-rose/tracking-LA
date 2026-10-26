@@ -13,5 +13,25 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a9887491-e323-4247-9955-ce67723de5da",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=55376301-85ee-40ea-a4e6-05baae8cb2b2",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1bdb6c56-37d2-4100-9faa-be453335fce2"
-  ]
+  ],
+  "summary": "Council will use up to $182,821 in interest from a homelessness grant (HHAP-5) to pay Bureau of Engineering costs for repairs at the Navigation Center at 729 West Manchester Avenue.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "729 W Manchester Ave, Los Angeles, CA",
+      "lat": 33.960132,
+      "lon": -118.286584,
+      "neighborhood": "Vermont Knolls"
+    }
+  ],
+  "details": {
+    "council_file": "17-0090-S6",
+    "council_district": 8,
+    "action": "funding and appropriation for repairs",
+    "amount": "$182,821",
+    "bureau": "Bureau of Engineering"
+  }
 }

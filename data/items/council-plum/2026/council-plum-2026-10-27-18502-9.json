@@ -13,5 +13,12 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2f78a132-1a12-4bf0-ae20-c09cff5961f4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=164af3f2-c519-4c05-a7fb-7e694a55ef18",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a891a1b3-f415-4087-bffc-1c00cb8f9c34"
-  ]
+  ],
+  "summary": "A verbal update from City Planning on citywide sign regulations, a file that had expired under council policy and was reactivated by the council.",
+  "topics": ["land_use"],
+  "locations": [],
+  "details": {
+    "council_file": "11-1705",
+    "action": "verbal report and update"
+  }
 }

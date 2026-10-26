@@ -11,5 +11,16 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bf1d3bb9-7287-4932-8440-0ceef93f997e",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5572df35-4dde-456c-a53d-4495115d1f95",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e6ff0076-0863-492a-9e25-9bf23d42afdd"
-  ]
+  ],
+  "summary": "The Bureau of Sanitation is to report on how to fund illegal dumping investigations and enforcement by the Watershed Protection Division.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-1178",
+    "bureau": "Bureau of Sanitation",
+    "action": "report on funding"
+  }
 }

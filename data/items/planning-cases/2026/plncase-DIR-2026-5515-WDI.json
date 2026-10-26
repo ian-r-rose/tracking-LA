@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5515-WDI",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5516-EAF"
-  ]
+  ],
+  "summary": "A filed request would waive a 2-foot street dedication along Hyperion Avenue at 2810 North Hyperion Avenue, tied to a density bonus development.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2810 N Hyperion Ave, Los Angeles, CA",
+      "lat": 34.10808,
+      "lon": -118.271759,
+      "neighborhood": "Silver Lake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5515-WDI",
+      "ENV-2026-5516-EAF"
+    ],
+    "council_district": 4,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "waiver of dedication request"
+  },
+  "flag": {
+    "reason": "Dedication waiver for the Hyperion Ave density-bonus project in Silver Lake."
+  }
 }

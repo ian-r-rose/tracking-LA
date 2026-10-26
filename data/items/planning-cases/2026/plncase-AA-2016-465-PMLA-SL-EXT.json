@@ -7,5 +7,24 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: AA-2016-465-PMLA-SL-EXT\nAddress: 1132 N HYPERION AVE\nFiled: 2026-10-22\nCouncil district: 13\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2016-465-PMLA-SL-EXT"
-  ]
+  ],
+  "summary": "A filed application for 1132 North Hyperion Avenue; the filing gives a case number but no description of the request.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1132 N Hyperion Ave, Los Angeles, CA",
+      "lat": 34.092347,
+      "lon": -118.279153,
+      "neighborhood": "Silver Lake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2016-465-PMLA-SL-EXT"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley"
+  }
 }

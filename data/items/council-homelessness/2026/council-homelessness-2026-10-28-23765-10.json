@@ -9,5 +9,12 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92198",
     "https://lms.lacity.gov/files/17-0090-S33",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=13212225-8e5a-4b15-aa7a-8bae0043829a"
-  ]
+  ],
+  "summary": "Quarterly reports from the Prop HHH oversight committee covering April 2025 through December 2025, for council review.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "council_file": "17-0090-S33",
+    "action": "quarterly reports"
+  }
 }

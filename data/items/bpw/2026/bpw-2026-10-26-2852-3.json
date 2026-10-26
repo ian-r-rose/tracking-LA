@@ -8,5 +8,19 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25206",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3844dd27-ec64-4d6d-afc3-05c30e3e88ad"
-  ]
+  ],
+  "summary": "Karcher Environmental has filed a $12,160 stop notice claiming labor and materials for abatement work at the Hollywood Sanitation Yard.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Sanitation Yard"
+    }
+  ],
+  "details": {
+    "applicant": "Karcher Environmental, Inc.",
+    "action": "stop notice",
+    "amount": "$12,160"
+  }
 }

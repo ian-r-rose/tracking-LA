@@ -13,5 +13,15 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5e75747b-9cc0-4dc6-9123-fa39192f8210",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d63db702-7be3-4d74-916c-ea097330e252",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=21598cdf-e893-4dae-b551-05c213e3c672"
-  ]
+  ],
+  "summary": "Council will consider an ordinance creating a free Micro-Shoot permit for small public-space film shoots, and direct Public Works to report within 60 days on a permit plan modeled on New York City's letter-in-lieu system.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1498",
+    "action": "ordinance first consideration for no-fee micro-shoot permit",
+    "bureau": "Board of Public Works"
+  }
 }

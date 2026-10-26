@@ -9,5 +9,12 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92198",
     "https://lms.lacity.gov/files/26-1468",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c68edf8c-9ada-41a8-9d0c-e50c4666ee62"
-  ]
+  ],
+  "summary": "A motion asking for a strategy to pursue federal funding and use federally funded clinics for mental health, substance use and crisis care for people experiencing homelessness.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "council_file": "26-1468",
+    "action": "motion"
+  }
 }

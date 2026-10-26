@@ -11,5 +11,27 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c2d21494-29c3-4892-91da-e54028e7c703",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=088c80ab-6906-4f35-a85d-358d2f0b90f8",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3f3f6fe5-c39f-4fdf-a2ef-4a3914a37d37"
-  ]
+  ],
+  "summary": "Council will approve the final subdivision map for 5601 West Santa Monica Boulevard, east of Wilton Place, owned by Santa Monica Boulevard LLC.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5601 W Santa Monica Blvd, Los Angeles, CA",
+      "lat": 34.090844,
+      "lon": -118.310974,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "23-1329-S2",
+    "council_district": 13,
+    "applicant": "Santa Monica Boulevard LLC",
+    "action": "final map approval",
+    "amount": "$14,740"
+  },
+  "flag": {
+    "reason": "Final map in Hollywood, a watched neighborhood."
+  }
 }

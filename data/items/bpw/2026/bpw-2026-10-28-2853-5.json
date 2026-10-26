@@ -8,5 +8,21 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25233",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=891bdc48-5224-4385-a5c0-6c3a9cd6acfa"
-  ]
+  ],
+  "summary": "Awards Royal Construction, the lowest responsible bidder, a $20,007,000 contract for Phase 2 of the Asphalt Plant No. 1 project, after finding Transmittal No. 2 unmerited.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Asphalt Plant No. 1"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "applicant": "Royal Construction, Inc.",
+    "action": "contract award",
+    "amount": "$20,007,000.00",
+    "bureau": "Bureau of Engineering and Bureau of Contract Administration"
+  }
 }

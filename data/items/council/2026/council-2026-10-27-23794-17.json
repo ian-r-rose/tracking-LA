@@ -9,5 +9,44 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
     "https://lms.lacity.gov/files/26-4118-S9",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a8fb5918-f50b-4253-8cee-01e5725c4dbc"
-  ]
+  ],
+  "summary": "Designates Council District 11 parks, a beach dune area and two pedestrian tunnels, including Vista del Mar Park and Temescal Canyon Park, for enforcement against sitting, lying, sleeping and storing personal property in the public right-of-way.",
+  "topics": [
+    "parks",
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "Vista del Mar Park, Playa del Rey, CA 90293",
+      "lat": 33.944368,
+      "lon": -118.441544,
+      "neighborhood": "Playa del Rey"
+    },
+    {
+      "text": "Dockweiler Beach Sand Dunes along Vista del Mar, Los Angeles, CA"
+    },
+    {
+      "text": "Asilomar View Park, 15900 Asilomar Boulevard, Pacific Palisades, CA 90272"
+    },
+    {
+      "text": "Temescal Canyon Park, 15900 Pacific Coast Highway, Los Angeles, CA",
+      "lat": 34.040817,
+      "lon": -118.533356,
+      "neighborhood": "Pacific Palisades"
+    },
+    {
+      "text": "Roosevelt Pedestrian Tunnel, 100 West Channel Road, Pacific Palisades, CA 90402"
+    },
+    {
+      "text": "Little Pedestrian Tunnel, 97 Ocean Way, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-4118-S9",
+    "council_district": 11,
+    "action": "designation of enforcement locations"
+  },
+  "flag": {
+    "reason": "Designates public parks and tunnels for sleeping and property-storage enforcement."
+  }
 }

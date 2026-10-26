@@ -10,5 +10,12 @@
     "https://lms.lacity.gov/files/24-1479",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1b299081-5d6c-44fa-8d79-503ce8551121",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=90f4d5f6-bd16-4bb9-8dc8-0dc28818d908"
-  ]
+  ],
+  "summary": "A City Chief Legislative Analyst report on how the County is carrying out Measure A and on the policy and executive working groups tied to it. No fiscal impact is stated.",
+  "topics": ["other"],
+  "locations": [],
+  "details": {
+    "council_file": "24-1479",
+    "action": "Chief Legislative Analyst report"
+  }
 }

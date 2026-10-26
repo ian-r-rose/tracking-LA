@@ -13,5 +13,28 @@
     "text": "ENV action: Terminated (Oct 7, 2026)",
     "source": "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5199-EAF",
     "recorded": "2026-10-23"
+  },
+  "summary": "Restoration of three wall signs and one ledge sign at 6230 W Sunset Blvd within the Hollywood signage district. The environmental case was terminated Oct 7, 2026.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6230 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.097945,
+      "lon": -118.324818,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5199-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "sign restoration"
+  },
+  "flag": {
+    "reason": "Sign restoration in Hollywood, a watched neighborhood; environmental case terminated."
   }
 }

@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5245-EAF\nAddress: 4209 N SCANDIA WAY\nFiled: 2026-10-08\nCouncil district: 1\nCommunity plan area: Northeast Los Angeles\nDescription: Construction, use, and maintenance of a new 2422 SQ FT SFD w/ an attached 2-car garage located within the Mt. Washington/Glassell Park Specific Plan zoned RE11-1-HCR.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5245-EAF"
-  ]
+  ],
+  "summary": "A filed application to build a new 2,422-square-foot single-family house with an attached two-car garage at 4209 North Scandia Way.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "4209 N Scandia Way, Los Angeles, CA",
+      "lat": 34.119915,
+      "lon": -118.223928,
+      "neighborhood": "Glassell Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5245-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles"
+  },
+  "flag": {
+    "reason": "New house in Glassell Park, a watched neighborhood."
+  }
 }

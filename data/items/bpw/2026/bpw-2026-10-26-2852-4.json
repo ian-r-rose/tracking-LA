@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25206",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=58db44f5-e6fe-436b-9e90-bde5ce4d3e7d"
-  ]
+  ],
+  "summary": "Awards a $2,040,000 Bureau of Sanitation task order to Hazen and Sawyer to plan odor sampling, collect odor data and build a hydrogen sulfide model, over a 24-month term.",
+  "topics": [
+    "budget",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Hazen and Sawyer",
+    "action": "task order award",
+    "amount": "$2,040,000",
+    "bureau": "Bureau of Sanitation"
+  }
 }

@@ -9,5 +9,18 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92285",
     "https://lms.lacity.gov/files/26-1512",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a88a5bdd-3207-40e4-9c6e-8289717ac3bf"
-  ]
+  ],
+  "summary": "Provides $200,000 to Homies Unidos Inc. for homeless outreach at encampments in Council District 10, extending the funding through December 2027.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1512",
+    "council_district": 10,
+    "applicant": "Homies Unidos Inc.",
+    "action": "funding extension for homeless outreach",
+    "amount": "$200,000"
+  }
 }

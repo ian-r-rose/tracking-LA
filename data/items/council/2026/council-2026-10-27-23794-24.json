@@ -9,5 +9,15 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
     "https://lms.lacity.gov/files/26-1502",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9334359b-717a-4700-ab2c-9f8e0b0bd500"
-  ]
+  ],
+  "summary": "Authorizes City staff to negotiate and sign contracts with the NFL and/or the Super Bowl Host Committee so the organizers reimburse the City for supplemental services, including police, for the Super Bowl Experience and related events.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1502",
+    "action": "negotiate and execute contracts for supplemental City services"
+  }
 }

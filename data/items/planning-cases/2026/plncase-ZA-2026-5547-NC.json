@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5547-NC",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5548-EAF"
-  ]
+  ],
+  "summary": "A request to let a retail and office use at 5214 E Monte Vista St continue in a residential zone, where it is now nonconforming. Filed Oct 23, 2026.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5214 E Monte Vista St, Los Angeles, CA",
+      "lat": 34.108554,
+      "lon": -118.200838,
+      "neighborhood": "Highland Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5547-NC",
+      "ENV-2026-5548-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "action": "continuation of nonconforming use"
+  },
+  "flag": {
+    "reason": "Nonconforming-use request in Highland Park, a watched neighborhood."
+  }
 }

@@ -8,5 +8,16 @@
   "urls": [
     "https://ens.lacity.org/zoo/zooagendas/zoozooagendas1504200801_10202026.pdf",
     "https://lazoo.org/wp-content/uploads/2026/10/4-Zoo-Commission-Animal-Transaction-Report-10.20.2026-1.pdf"
-  ]
+  ],
+  "summary": "Information report to the Zoo Commission on September 2026 animal transfers: outgoing donations to zoos in several states, an incoming loan and donation from Sedgwick County Zoo, and September deaths.",
+  "topics": [
+    "zoo_animals"
+  ],
+  "locations": [],
+  "details": {
+    "action": "for information only"
+  },
+  "flag": {
+    "reason": "Animals arriving at and leaving the LA Zoo in Griffith Park."
+  }
 }

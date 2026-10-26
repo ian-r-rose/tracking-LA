@@ -10,5 +10,24 @@
     "https://lms.lacity.gov/files/23-1408-S1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b2e41355-1a4f-4f06-b280-2d3ea64dd77d",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3142c91c-91c4-4cb5-b564-b193376812e5"
-  ]
+  ],
+  "summary": "Council will amend an earlier action so a $3 million HUD grant can pay all construction costs, not only construction contingencies, for the Studio City/Beeman Recreation Center capital project.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Studio City/Beeman Recreation Center"
+    }
+  ],
+  "details": {
+    "council_file": "23-1408-S1",
+    "action": "amend prior funding action",
+    "amount": "$3,000,000",
+    "bureau": "Bureau of Engineering"
+  },
+  "flag": {
+    "reason": "Capital funding for a public recreation center."
+  }
 }

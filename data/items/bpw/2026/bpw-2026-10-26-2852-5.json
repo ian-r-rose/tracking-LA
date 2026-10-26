@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25206",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=65bf733b-a343-4152-a722-21cf765ee4d0"
-  ]
+  ],
+  "summary": "Awards a $2,659,692 Bureau of Sanitation task order to Stantec for model development, maintenance and refinement of the Conveyance System and Water Reclamation Plants, over a 24-month term.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Stantec Consulting Services, Inc.",
+    "action": "task order award",
+    "amount": "$2,659,692",
+    "bureau": "Bureau of Sanitation"
+  }
 }

@@ -13,5 +13,35 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4b40132e-d3aa-417f-908e-7f067e310ed4",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a4a3c445-9b7d-420d-9b8d-a0d515916426",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=30022583-00a1-4ba8-82c9-9a63afd7e1bb"
-  ]
+  ],
+  "summary": "An appeal of the approval to build two single-family homes on a vacant lot at 1236 North Cliff Drive under Senate Bill 9, within the Mount Washington-Glassell Park Specific Plan area.",
+  "topics": [
+    "land_use",
+    "housing",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "1236 N Cliff Dr, Los Angeles, CA",
+      "lat": 34.098303,
+      "lon": -118.224035,
+      "neighborhood": "Mount Washington"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2025-2856-CU1-SPPC-HCA",
+      "ZA-2025-2856-CU1-SPPC-HCA-1A",
+      "ADM-2024-7983-PMUL",
+      "ENV-2025-2857-CE"
+    ],
+    "council_district": 1,
+    "council_file": "26-1311",
+    "plan_area": "Mount Washington - Glassell Park Specific Plan",
+    "applicant": "Hallie Black, As the Crow, LLC",
+    "action": "appeal of East Los Angeles Area Planning Commission approval"
+  },
+  "flag": {
+    "reason": "Appeal over two homes in Mount Washington, a watched neighborhood."
+  }
 }

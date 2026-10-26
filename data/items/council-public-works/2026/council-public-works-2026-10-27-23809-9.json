@@ -13,5 +13,25 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2a85507d-22aa-4292-8aac-85f66d171d37",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b08b9526-38b1-4309-aa65-9c1b8e2596eb",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8e20b4df-d75b-49b4-aaa8-327f60a8ef20"
-  ]
+  ],
+  "summary": "Vacates the alley south of Florence Avenue that runs west from Brynhurst Avenue to its western end.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Brynhurst Ave & Florence Ave, Los Angeles, CA",
+      "lat": 33.974514,
+      "lon": -118.334178,
+      "neighborhood": "Hyde Park"
+    }
+  ],
+  "details": {
+    "council_file": "25-0682",
+    "council_district": 8,
+    "case_numbers": [
+      "VAC-E1401462"
+    ],
+    "action": "alley vacation"
+  }
 }

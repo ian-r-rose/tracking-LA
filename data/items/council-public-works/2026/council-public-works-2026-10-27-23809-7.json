@@ -12,5 +12,22 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2c392980-553d-4ca3-8927-be84e1d38c6b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f6a04e0c-b9f5-4822-b083-efbca4677530",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bd37a472-e15e-4d4a-ae40-7318f8d6450c"
-  ]
+  ],
+  "summary": "Names the private driveway off 6th Street, east of Harbor Boulevard, Sampson Circle.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "6th St & Harbor Blvd, Los Angeles, CA",
+      "lat": 33.738732,
+      "lon": -118.279953,
+      "neighborhood": "San Pedro"
+    }
+  ],
+  "details": {
+    "council_file": "26-0976",
+    "council_district": 15,
+    "action": "naming of private driveway"
+  }
 }

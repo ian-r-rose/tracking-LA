@@ -13,5 +13,29 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=72a3d6a3-f332-4486-a2c1-1deaf3fedd5b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=99380ce6-aed9-46fe-9804-19099e2d4e2b",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=671bb6a5-c982-402f-b9b0-bd83eaf49b9b"
-  ]
+  ],
+  "summary": "Five appeals challenge the approval of a seven-story, 161,645 sq ft self-storage facility that would replace a warehouse and parking lots at 4802–4828 West San Vicente Boulevard. The council decides whether to uphold or overturn the Planning Commission's approval.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "4802 W San Vicente Blvd, Los Angeles, CA",
+      "lat": 34.048819,
+      "lon": -118.340847,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-5194-HD-CU2-PR-ZC-1A",
+      "ENV-2025-5195-MND",
+      "CPC-2025-5194-HD-CU2-PR-ZC"
+    ],
+    "council_district": 10,
+    "applicant": "David Kelly, Westport Properties Inc.",
+    "action": "appeals of Los Angeles City Planning Commission approval",
+    "council_file": "26-1289-S1"
+  }
 }

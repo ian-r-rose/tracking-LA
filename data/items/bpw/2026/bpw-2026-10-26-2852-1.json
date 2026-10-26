@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25206",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4fdf9b32-a9ed-44e6-a97f-b4bd037b8d51"
-  ]
+  ],
+  "summary": "Approves a three-year agreement with the California Association of Sanitation Agencies to share the cost of a pooled air toxics emissions study needed to meet state air board regulations, capped at $1,440,336.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "memorandum of agreement",
+    "amount": "$1,440,336",
+    "bureau": "Bureau of Sanitation"
+  }
 }

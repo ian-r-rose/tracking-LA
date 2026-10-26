@@ -7,5 +7,22 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-5537-RBPA\nAddress: 13400 W WASHINGTON BLVD\nFiled: 2026-10-22\nCouncil district: 11\nCommunity plan area: Palms - Mar Vista - Del Rey\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5537-RBPA"
-  ]
+  ],
+  "summary": "An application for administrative approval to allow alcohol sales for on-site drinking at a restaurant at 13400 W Washington Blvd under the city's Restaurant Beverage Program. Filed Oct 22, 2026; not yet decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "13400 W Washington Blvd, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-5537-RBPA"
+    ],
+    "council_district": 11,
+    "plan_area": "Palms - Mar Vista - Del Rey",
+    "action": "administrative clearance (Restaurant Beverage Program)"
+  }
 }

@@ -13,5 +13,42 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=26716525-84b0-4b38-901f-17f308d04685",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=513a80c3-1bfb-445a-b633-b75093160883",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e5866b85-046a-417a-ae21-1b8d45d65ddb"
-  ]
+  ],
+  "summary": "An appeal by Kenya Lee of City Planning Commission approvals for a new two-story wastewater pumping plant and surface parking lot in Venice. The project also changes the site's land use designation from residential to public facility.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "128 E Hurricane St, Los Angeles, CA",
+      "lat": 33.975782,
+      "lon": -118.461491,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "3813 S Esplanade, Los Angeles, CA",
+      "lat": 33.976268,
+      "lon": -118.461133,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "3913 S Esplanade W, Los Angeles, CA",
+      "lat": 33.975694,
+      "lon": -118.461251,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2024-2010-GPA-ZC-CU3-SPPC-1A",
+      "CPC-2024-2010-GPA-ZC-CU3-SPPC"
+    ],
+    "council_district": 11,
+    "council_file": "26-0734-S1",
+    "plan_area": "Venice Coastal Zone Specific Plan (Ballona Lagoon West Subarea)",
+    "applicant": "Department of Public Works (DPW) and LA Sanitation and Environment",
+    "bureau": "Bureau of Engineering",
+    "action": "appeal of City Planning Commission approval"
+  }
 }

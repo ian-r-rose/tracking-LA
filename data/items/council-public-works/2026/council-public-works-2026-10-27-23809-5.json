@@ -9,5 +9,15 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92294",
     "https://lms.lacity.gov/files/26-1340",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b38eb086-4992-4df5-a715-89b67b075cfc"
-  ]
+  ],
+  "summary": "A council motion asks that permitting for disaster-planning and resilience programs, including rules for natural gas infrastructure, be streamlined so compliance and timely implementation are easier.",
+  "topics": [
+    "land_use",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1340",
+    "action": "motion"
+  }
 }

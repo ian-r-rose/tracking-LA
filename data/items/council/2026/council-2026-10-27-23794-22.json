@@ -9,5 +9,27 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
     "https://lms.lacity.gov/files/26-1501",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c186139e-afc7-4a0d-8be0-70e0886e9d73"
-  ]
+  ],
+  "summary": "Council will approve a TEFRA resolution authorizing up to $130 million in bonds to finance Flats on Sunset, a 237-unit affordable rental project at 1150 Sunset Boulevard in Council District 1.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "1150 Sunset Blvd, Los Angeles, CA",
+      "lat": 34.066794,
+      "lon": -118.249812,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-1501",
+    "council_district": 1,
+    "action": "TEFRA approval of bond issuance",
+    "amount": "$130,000,000"
+  },
+  "flag": {
+    "reason": "237 affordable homes at 1150 Sunset Blvd in Echo Park, a watched neighborhood."
+  }
 }

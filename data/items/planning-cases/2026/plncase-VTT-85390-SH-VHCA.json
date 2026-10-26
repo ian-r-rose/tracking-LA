@@ -7,5 +7,26 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: VTT-85390-SH-VHCA\nAddress: 365 N FULLER AVE\nFiled: 2026-10-22\nCouncil district: 5\nCommunity plan area: Wilshire\nDescription: PROPOSED (N) SEVEN LOT SUBDIVISION PER SB 1123, WITH (N) SEVEN SINGLE FAMILY DWELLINGS",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/VTT-85390-SH-VHCA"
-  ]
+  ],
+  "summary": "An application would split 365 N Fuller Ave into seven lots, each with a single-family home, under SB 1123. Filed Oct 22, 2026; not yet decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "365 N Fuller Ave, Los Angeles, CA",
+      "lat": 34.077503,
+      "lon": -118.34988,
+      "neighborhood": "Fairfax"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "VTT-85390-SH-VHCA"
+    ],
+    "council_district": 5,
+    "plan_area": "Wilshire",
+    "action": "seven-lot subdivision"
+  }
 }

@@ -9,5 +9,16 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
     "https://lms.lacity.gov/files/14-1174-S117",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9e9eca22-d311-4e77-828c-14ddfaa96601"
-  ]
+  ],
+  "summary": "Council will rescind $20,980 previously approved for a San Pedro business facade project and return it to its source, and approve $21,617 more for the San Pedro Gateway Sign project, bringing that project's total to $41,617.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "14-1174-S117",
+    "council_district": 15,
+    "action": "reprogram redevelopment funds",
+    "amount": "$21,617"
+  }
 }

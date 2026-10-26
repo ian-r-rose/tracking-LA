@@ -7,5 +7,24 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ZA-2016-1683-CUB-LEOX\nAddress: 1556 N CAHUENGA BLVD\nFiled: 2026-10-23\nCouncil district: 13\nCommunity plan area: Hollywood",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2016-1683-CUB-LEOX"
-  ]
+  ],
+  "summary": "A Zoning Administrator case for 1556 N Cahuenga Blvd in Hollywood, filed Oct 23, 2026. The filing does not describe the request.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1556 N Cahuenga Blvd, Los Angeles, CA",
+      "lat": 34.099005,
+      "lon": -118.329471,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2016-1683-CUB-LEOX"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood"
+  }
 }

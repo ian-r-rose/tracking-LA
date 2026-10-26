@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25206",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=bdf4d77d-2f77-47c2-8b2a-61853f03f70a"
-  ]
+  ],
+  "summary": "Releases a $49,973.79 stop notice that WGJ Enterprises (dba PCI) filed over striping and signage work on the Highway Safety Improvement Program Cycle 7 left-turn signal modifications.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "WGJ Enterprises Inc dba PCI",
+    "action": "release of stop notice",
+    "amount": "$49,973.79"
+  }
 }

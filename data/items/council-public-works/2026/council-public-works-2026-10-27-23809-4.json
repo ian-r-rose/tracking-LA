@@ -12,5 +12,14 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0c77c102-3db8-4aa3-a556-a6ecc12857a8",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5483ba58-c4f5-4b15-8467-22c7432d9567",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8cf85812-f4da-47a7-a7bd-a50bba8c09a0"
-  ]
+  ],
+  "summary": "The City Attorney will report on options and code changes to streamline nuisance abatement proceedings under city law.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "24-0196",
+    "action": "City Attorney report"
+  }
 }

@@ -7,5 +7,20 @@
   "text": "[K. Filed Items]\nElysian Reservoir Community Parks Enhancement Fund Los Angeles\n  Department of Recreation and Parks Quarterly Report – April 1, 2026\n  through June 30, 2026",
   "urls": [
     "https://ens.lacity.org/dwp/agendas/dwpagendas202201035_10272026.pdf"
-  ]
+  ],
+  "summary": "The Recreation and Parks department's quarterly report on the Elysian Reservoir Community Parks Enhancement Fund, covering April 1 to June 30, 2026.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Elysian Reservoir"
+    }
+  ],
+  "details": {
+    "action": "quarterly report"
+  },
+  "flag": {
+    "reason": "Parks enhancement fund tied to the Elysian Reservoir."
+  }
 }

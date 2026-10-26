@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5275-EAF\nAddress: 1135 N WESTMORELAND AVE\nFiled: 2026-10-09\nCouncil district: 13\nCommunity plan area: Hollywood\nDescription: Construction of a 4-story, 23-unit, 12,790 sf. 100% affordable residential building.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5275-EAF"
-  ]
+  ],
+  "summary": "A four-story, 23-unit, 100% affordable apartment building at 1135 N Westmoreland Ave. Filed Oct 9, 2026; not yet decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "1135 N Westmoreland Ave, Los Angeles, CA",
+      "lat": 34.091791,
+      "lon": -118.287845,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5275-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "construction of affordable residential building"
+  },
+  "flag": {
+    "reason": "23 affordable homes in East Hollywood, a watched neighborhood."
+  }
 }

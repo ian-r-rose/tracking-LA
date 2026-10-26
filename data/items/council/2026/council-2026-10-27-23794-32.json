@@ -11,5 +11,24 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1185819e-e94b-4afe-a387-0822f564ec51",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=79289772-fb7e-4159-bf51-f45c7499e9f1",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0829ad9f-149d-46aa-9d72-4b1e0b56a4cc"
-  ]
+  ],
+  "summary": "Council will approve the final subdivision map for the properties at 6853-6859 North Hazeltine Avenue, south of Hart Street, owned by Hazeltine Parkway, LLC.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6853 N Hazeltine Ave, Los Angeles, CA",
+      "lat": 34.194914,
+      "lon": -118.440057,
+      "neighborhood": "Van Nuys"
+    }
+  ],
+  "details": {
+    "council_file": "26-1531",
+    "council_district": 6,
+    "applicant": "Hazeltine Parkway, LLC",
+    "action": "final map approval",
+    "amount": "$9,064"
+  }
 }

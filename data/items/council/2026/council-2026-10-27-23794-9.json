@@ -19,5 +19,8 @@
   "details": {
     "council_file": "26-1424",
     "action": "feasibility study"
+  },
+  "flag": {
+    "reason": "Transportation item on protected-lane barriers for City streets."
   }
 }

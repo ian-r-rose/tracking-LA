@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: EAR-2026-5513-DB-VHCA\nAddress: 2810 N HYPERION AVE\nFiled: 2026-10-22\nCouncil district: 4\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley\nDescription: Construction, use, and maintenance of a 5-story, approx. 59-ft high, mixed-use bldg w/ 28 D.U.s, 23,740 sq ft of RFA & 2,500 sq ft of commercial floor area located in the [Q]C2-1VL Zone.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/EAR-2026-5513-DB-VHCA"
-  ]
+  ],
+  "summary": "A proposed five-story, roughly 59-foot mixed-use building at 2810 N Hyperion Ave with 28 dwelling units and commercial space. Filed Oct 22, 2026; not yet decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "2810 N Hyperion Ave, Los Angeles, CA",
+      "lat": 34.10808,
+      "lon": -118.271759,
+      "neighborhood": "Silver Lake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "EAR-2026-5513-DB-VHCA"
+    ],
+    "council_district": 4,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "construction of mixed-use building"
+  },
+  "flag": {
+    "reason": "28-unit mixed-use building in Silver Lake, a watched neighborhood."
+  }
 }

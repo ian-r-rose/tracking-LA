@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25233",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c6b8904-f815-442b-8b58-1a3ebb69f589"
-  ]
+  ],
+  "summary": "A Bureau of Engineering report on the Los Angeles Convention Center Expansion; the agenda text states no specific action.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Convention Center"
+    }
+  ],
+  "details": {
+    "bureau": "Bureau of Engineering",
+    "action": "report"
+  }
 }

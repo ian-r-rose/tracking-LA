@@ -15,7 +15,7 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e7f585a1-a29a-41fb-80c7-309d9cf9784a"
   ],
   "follows": "council-plum-2026-10-13-18501-13",
-  "summary": "Ordinance to locally carry out state Senate Bill 79 (the Abundant and Affordable Home Near Transit Act) by amending the city's low-rise rules and updating the Mixed Income Incentive Program.",
+  "summary": "Ordinance correcting an error in the city's Low-Rise Ordinance, the rules the city adopted to carry out state SB 79 for housing near transit.",
   "topics": [
     "housing",
     "land_use"
@@ -24,5 +24,8 @@
   "details": {
     "council_file": "25-1083-S3",
     "action": "ordinance adoption"
+  },
+  "flag": {
+    "reason": "Citywide housing-near-transit rules, a land use and housing item."
   }
 }

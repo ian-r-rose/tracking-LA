@@ -11,5 +11,24 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5f85db5b-d379-4cbc-b936-076d3596dc23",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3c3583b5-15f2-4cae-b492-542412ffe916",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=182e73da-d98a-413b-baaa-73774531cde9"
-  ]
+  ],
+  "summary": "Council will meet in closed session with its lawyers about a lawsuit over a 2020 automobile-motorcycle crash at Amestoy Avenue and Rinaldi Street in Granada Hills.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Amestoy Ave & Rinaldi St, Los Angeles, CA",
+      "lat": 34.279308,
+      "lon": -118.504877,
+      "neighborhood": "Granada Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "21STCV29583"
+    ],
+    "council_file": "25-0903",
+    "action": "closed session on litigation"
+  }
 }

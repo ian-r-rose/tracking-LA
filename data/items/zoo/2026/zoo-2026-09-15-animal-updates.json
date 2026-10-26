@@ -8,5 +8,16 @@
   "urls": [
     "https://ens.lacity.org/zoo/zooagendas/zoozooagendas1504200017_09152026.pdf",
     "https://lazoo.org/wp-content/uploads/2026/09/3-Zoo-Commission-Animal-Transaction-Report-9.18.2026.pdf"
-  ]
+  ],
+  "summary": "Information report to the Zoo Commission on completed animal transfers, with outgoing donations to zoos in several states and no incoming transfers, plus August births and deaths.",
+  "topics": [
+    "zoo_animals"
+  ],
+  "locations": [],
+  "details": {
+    "action": "for information only"
+  },
+  "flag": {
+    "reason": "Births at the LA Zoo in Griffith Park."
+  }
 }

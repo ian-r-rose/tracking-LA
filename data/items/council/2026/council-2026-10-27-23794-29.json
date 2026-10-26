@@ -11,5 +11,23 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b7f377ae-4338-4345-97d9-957c75430565",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=31e00180-9425-4010-9fa7-a49031d1dcfc",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a1ceae91-b19d-4f1e-926c-67831292bc57"
-  ]
+  ],
+  "summary": "Approves the final parcel map for a subdivision at 1924 Federal Avenue, along with its improvement agreement and security documents.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1924 Federal Avenue, Los Angeles, CA",
+      "lat": 34.039334,
+      "lon": -118.449278,
+      "neighborhood": "Sawtelle"
+    }
+  ],
+  "details": {
+    "council_file": "26-1522",
+    "council_district": 11,
+    "action": "final parcel map approval",
+    "amount": "$16,500"
+  }
 }

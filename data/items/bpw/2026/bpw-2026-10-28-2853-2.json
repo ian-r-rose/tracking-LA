@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25233",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=80efb509-e25f-46d2-b637-e4dbec81b27f"
-  ]
+  ],
+  "summary": "Bids open at 10 a.m. on the Venoco Pipeline Abandonment Project, which has a $145,000 estimate and is in Council District 5.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 5,
+    "action": "bid opening",
+    "amount": "$145,000"
+  }
 }

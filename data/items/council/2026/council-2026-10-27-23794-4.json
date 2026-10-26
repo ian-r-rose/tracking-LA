@@ -9,5 +9,14 @@
     "https://lacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=92281",
     "https://lms.lacity.gov/files/25-1508",
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=220beac8-7525-45dd-9b87-2065f12e0a71"
-  ]
+  ],
+  "summary": "Directs City departments to report on letting film and TV productions use non-specialized City-owned parking lots, yards and civic properties for a nominal fee of $1 per day, with exceptions for exclusive use, City staffing and safety conflicts.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1508",
+    "action": "report on $1 per day film access to City property"
+  }
 }
