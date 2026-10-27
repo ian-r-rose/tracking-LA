@@ -29,5 +29,12 @@
     "council_district": 14,
     "plan_area": "Northeast Los Angeles",
     "action": "Density Bonus for 13-unit apartment building with 2 very low-income units"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "MOTION PASSED: Approve, pursuant to Chapter 1 Section 12.22 A.25(g) of the Los Angeles Municipal Code (LAMC), a Density Bonus for a Housing Development Project totaling 13 units, reserving two units for Very Low- Income Household occupancy for a period of",
+    "source": "https://planning.lacity.gov/dcpapi2/meetings/document/81633",
+    "vote": "6-0",
+    "recorded": "2026-10-27"
   }
 }

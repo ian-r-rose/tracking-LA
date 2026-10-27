@@ -119,6 +119,12 @@
   "lon": -118.426699,
   "score": 99.06
  },
+ "10540 N JOHANNA AVE": {
+  "address": "10540 N JOHANNA AVE, 91040",
+  "lat": 34.261016,
+  "lon": -118.34678,
+  "score": 100
+ },
  "10740 W VENTURA BLVD": {
   "address": "10740 W VENTURA BLVD, 91604",
   "lat": 34.138403,
@@ -282,6 +288,12 @@
   "lat": 34.052535,
   "lon": -118.472064,
   "score": 100
+ },
+ "1211 S SHERBOURNE DR 1-4": {
+  "address": "1211 S SHERBOURNE DR, 90035",
+  "lat": 34.055393,
+  "lon": -118.379527,
+  "score": 93.68
  },
  "12222 W VENICE BLVD": {
   "address": "12222 W VENICE BLVD, 90066",
@@ -550,6 +562,12 @@
   "lon": -118.445942,
   "score": 100
  },
+ "1442 S WESTWOOD BLVD": {
+  "address": "1442 S WESTWOOD BLVD, 90024",
+  "lat": 34.054834,
+  "lon": -118.441248,
+  "score": 100
+ },
  "146 N BERENDO ST": {
   "address": "146 N BERENDO ST, 90004",
   "lat": 34.073559,
@@ -722,6 +740,12 @@
   "address": "1749 S ENSLEY AVE, 90024",
   "lat": 34.060371,
   "lon": -118.420853,
+  "score": 100
+ },
+ "1754 N MANDEVILLE CANYON ROAD": {
+  "address": "1754 N MANDEVILLE CANYON ROAD, 90049",
+  "lat": 34.065695,
+  "lon": -118.493011,
   "score": 100
  },
  "17570 Posetano Road": {
