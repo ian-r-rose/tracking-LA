@@ -19,5 +19,12 @@
     "action": "memorandum of agreement",
     "amount": "$1,440,336",
     "bureau": "Bureau of Sanitation"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25269",
+    "vote": "5-0",
+    "recorded": "2026-10-28"
   }
 }

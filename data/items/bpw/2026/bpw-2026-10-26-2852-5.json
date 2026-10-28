@@ -19,5 +19,12 @@
     "action": "task order award",
     "amount": "$2,659,692",
     "bureau": "Bureau of Sanitation"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25269",
+    "vote": "5-0",
+    "recorded": "2026-10-28"
   }
 }

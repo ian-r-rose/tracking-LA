@@ -17,9 +17,17 @@
     "https://metro.legistar1.com/metro/attachments/5a5337b0-26a7-440d-998d-bebca55b5659.pdf"
   ],
   "summary": "Metro board receives an annual report on its 48 by '28 small business plan and raises the contract size cap for its small business set-aside program from $4.99 million to $10 million for non-federally funded contracts.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
   "details": {
     "action": "annual status report and contract threshold increase"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED",
+    "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3549&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
+    "recorded": "2026-10-28"
   }
 }

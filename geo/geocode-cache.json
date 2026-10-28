@@ -538,6 +538,12 @@
   "lon": -118.440493,
   "score": 100
  },
+ "1420 S POINT VIEW ST": {
+  "address": "1420 S POINT VIEW ST, 90035",
+  "lat": 34.051482,
+  "lon": -118.370047,
+  "score": 100
+ },
  "14205 W HAYNES ST": {
   "address": "14205 W HAYNES ST, 91401",
   "lat": 34.189759,
@@ -1889,6 +1895,12 @@
   "lon": -118.37346,
   "score": 100
  },
+ "5757 N HALBRENT AVE": {
+  "address": "5757 N HALBRENT AVE, 91411",
+  "lat": 34.175063,
+  "lon": -118.465032,
+  "score": 100
+ },
  "5757 N KATHERINE AVE": {
   "address": "5757 N KATHERINE AVE, 91401",
   "lat": 34.174967,
@@ -2419,6 +2431,12 @@
   "lat": 33.961173,
   "lon": -118.291407,
   "score": 97.59
+ },
+ "8560 W RIDPATH DR": {
+  "address": "8560 W RIDPATH DR, 90046",
+  "lat": 34.105491,
+  "lon": -118.378401,
+  "score": 100
  },
  "8611 Kester Avenue": {
   "address": "8611 N KESTER AVE, 91402",

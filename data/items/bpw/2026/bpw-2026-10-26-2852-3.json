@@ -22,5 +22,12 @@
     "applicant": "Karcher Environmental, Inc.",
     "action": "stop notice",
     "amount": "$12,160"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25269",
+    "vote": "5-0",
+    "recorded": "2026-10-28"
   }
 }

@@ -18,5 +18,12 @@
     "applicant": "WGJ Enterprises Inc dba PCI",
     "action": "release of stop notice",
     "amount": "$49,973.79"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25269",
+    "vote": "5-0",
+    "recorded": "2026-10-28"
   }
 }

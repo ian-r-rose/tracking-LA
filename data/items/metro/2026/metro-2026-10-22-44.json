@@ -26,5 +26,11 @@
   },
   "flag": {
     "reason": "Renames a Downtown station, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED",
+    "source": "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3549&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
+    "recorded": "2026-10-28"
   }
 }
