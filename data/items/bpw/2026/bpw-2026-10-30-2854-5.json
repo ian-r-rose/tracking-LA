@@ -8,5 +8,14 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25253",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6d36ca43-8f71-4aa2-80b8-54edebbb9e60"
-  ]
+  ],
+  "summary": "The board is asked to approve an amended joint build agreement with the California Department of Technology for a joint-use fiber optics project adjacent to the 110 Corridor.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Street Lighting",
+    "action": "Approve amended joint build agreement"
+  }
 }

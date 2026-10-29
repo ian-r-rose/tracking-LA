@@ -8,5 +8,24 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5635-TOC-PR-WDI-CCMP-HCA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5636-EAF"
-  ]
+  ],
+  "summary": "A new application would demolish a commercial building at 902 W Washington Blvd in South Los Angeles and build 30 townhomes and a 93-unit multi-family building. No decision has been made yet.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "902 W Washington Blvd, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5635-TOC-PR-WDI-CCMP-HCA",
+      "ENV-2026-5636-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "South Los Angeles",
+    "action": "New application filed, not yet decided"
+  }
 }

@@ -8,5 +8,24 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25253",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e6955092-cee7-49ee-9bfc-846be43a7d9f"
-  ]
+  ],
+  "summary": "The board would terminate the city's construction contract with Access Pacific, Inc. for pedestrian improvements on Broadway between 4th and 6th streets. It would also approve a settlement change order and a final close-out change order that deletes unused work.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Broadway & 4th St, Los Angeles, CA"
+    },
+    {
+      "text": "Broadway & 6th St, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "bureau": "Bureau of Engineering",
+    "amount": "$623,154.16 (Change Order No. 8); $8,487,647.44 deductive net (Change Order No. 9)",
+    "action": "Terminate construction contract and issue change orders 8 and 9"
+  }
 }

@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25253",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=65eb0981-dffa-4eb9-9dcc-c1035abf787c"
-  ]
+  ],
+  "summary": "The board is set to execute personal services contracts with four firms for landscaping and site services for the Bureau of Sanitation, for up to nine years and $14.4 million across all agreements, and to reopen the qualifications request for 2021 pre-proposal attendees.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Sanitation",
+    "amount": "$14.4 million",
+    "action": "Execute personal services contracts for landscaping and site services"
+  }
 }

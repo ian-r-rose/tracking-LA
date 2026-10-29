@@ -7,5 +7,22 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: VTT-83745-SL-HCA-EXT\nAddress: 2346 W RIDGEVIEW AVE\nFiled: 2026-10-28\nCouncil district: 14\nCommunity plan area: Northeast Los Angeles",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/VTT-83745-SL-HCA-EXT"
-  ]
+  ],
+  "summary": "A new application was filed on October 28, 2026 for 2346 W Ridgeview Ave in Northeast Los Angeles. The filing has no project description and no decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2346 W Ridgeview Ave, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "VTT-83745-SL-HCA-EXT"
+    ],
+    "council_district": 14,
+    "plan_area": "Northeast Los Angeles",
+    "action": "New application filed, not yet decided"
+  }
 }

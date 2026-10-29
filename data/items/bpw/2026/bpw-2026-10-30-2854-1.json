@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25253",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0020a82-130c-4a30-a6d9-a4ecb48f42d3"
-  ]
+  ],
+  "summary": "The board is set to execute the Measure W Safe, Clean Water Program regional transfer agreement with the Los Angeles County Flood Control District for the city's annual Measure W funds for the Round 6 project.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Sanitation",
+    "action": "Execute Measure W regional program transfer agreement"
+  }
 }

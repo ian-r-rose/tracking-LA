@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25253",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a84e74da-4ee4-46a9-8a97-1069e7e7a7da"
-  ]
+  ],
+  "summary": "The board would forward a request to the Mayor to authorize a 2026 agreement sharing the cost of monitoring equipment and monitoring under the harbor toxic pollutant limits program.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Sanitation",
+    "action": "Approve and forward request for authority to execute cost-sharing agreement"
+  }
 }

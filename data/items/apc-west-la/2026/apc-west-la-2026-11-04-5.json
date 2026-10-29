@@ -8,5 +8,24 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81637",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/11-04-2026/APCW_2025_4181.pdf"
-  ]
+  ],
+  "summary": "The West Los Angeles Area Planning Commission is considering a coastal development permit and related approvals to convert part of a software manufacturing campus on East Venice Boulevard into a commercial center with retail, offices, fitness and restaurants. The project keeps at least 3,690 square feet of manufacturing use and provides 90 parking spaces.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "606 E Venice Blvd, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCW-2025-4181-CDP-SPPE-SPPC",
+      "ENV-2025-4182-CE"
+    ],
+    "council_district": 11,
+    "plan_area": "Venice",
+    "applicant": "Carolwood Venice, LLC; Venice ARE Venture, LLC",
+    "action": "Coastal development permit and related approvals"
+  }
 }

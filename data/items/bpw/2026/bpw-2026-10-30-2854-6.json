@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25253",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b35f58fb-56a4-4bed-b99b-320d40c7e02e"
-  ]
+  ],
+  "summary": "The board is asked to approve a master agreement and two indefeasible right of use agreements with LADWP for a three-year term, letting Street Lighting use LADWP dark fiber between the Public Works Building and the Crenshaw Corridor and Canoga Park.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Public Works Building"
+    }
+  ],
+  "details": {
+    "bureau": "Bureau of Street Lighting",
+    "action": "Approve master agreement and IRU-01 and IRU-02 with LADWP"
+  }
 }

@@ -7,5 +7,14 @@
   "text": "[REPORT(S)]\nBPW-2026-0566\nBureau Heads Update\n- Bureau of Engineering",
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25253"
-  ]
+  ],
+  "summary": "This is a report-only item: the Bureau of Engineering gives an update as part of the Bureau Heads Update, and the item lists no specific recommendation.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Engineering",
+    "action": "Bureau heads update (report)"
+  }
 }
