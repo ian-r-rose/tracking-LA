@@ -18,5 +18,11 @@
   "details": {
     "council_file": "26-1287",
     "action": "service agreement"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Chair approved extension of time limit from (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1287",
+    "recorded": "2026-10-29"
   }
 }
