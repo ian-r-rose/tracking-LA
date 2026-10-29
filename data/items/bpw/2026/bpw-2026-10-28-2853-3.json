@@ -20,5 +20,12 @@
     "action": "revised task order and budget increase",
     "amount": "$1,080,000",
     "bureau": "Bureau of Engineering"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25305",
+    "vote": "5-0",
+    "recorded": "2026-10-29"
   }
 }

@@ -19,5 +19,12 @@
     "action": "task order amendment and budget increase",
     "amount": "$4,842,747",
     "bureau": "Bureau of Sanitation"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25305",
+    "vote": "5-0",
+    "recorded": "2026-10-29"
   }
 }

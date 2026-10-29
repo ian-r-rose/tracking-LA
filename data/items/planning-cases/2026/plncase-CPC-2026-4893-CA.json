@@ -21,5 +21,11 @@
   },
   "flag": {
     "reason": "Citywide code amendments and a list of rezoning sites for the Housing Element, which affect where housing can be built in every neighborhood."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "CPC action: APPROVED (Oct 28, 2026)",
+    "source": "https://planning.lacity.gov/pdiscaseinfo/caseNumber/CPC-2026-4893-CA",
+    "recorded": "2026-10-29"
   }
 }

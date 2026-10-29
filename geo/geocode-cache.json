@@ -778,6 +778,12 @@
   "lon": -118.303304,
   "score": 100
  },
+ "1808 N CANYON DR": {
+  "address": "1808 N CANYON DR, 90028",
+  "lat": 34.103749,
+  "lon": -118.316852,
+  "score": 100
+ },
  "1817 South Orange Grove Avenue": {
   "address": "1817 S ORANGE GROVE AVE, 90019",
   "lat": 34.042725,
@@ -1062,6 +1068,12 @@
   "address": "2335 W 20TH ST, 90018",
   "lat": 34.039039,
   "lon": -118.315965,
+  "score": 100
+ },
+ "2346 W RIDGEVIEW AVE": {
+  "address": "2346 W RIDGEVIEW AVE, 90041",
+  "lat": 34.130917,
+  "lon": -118.21751,
   "score": 100
  },
  "2351 Wilshire Boulevard": {
@@ -1695,6 +1707,12 @@
   "lat": 34.080099,
   "lon": -118.185599,
   "score": 99.06
+ },
+ "4645 N LEDGE AVE": {
+  "address": "4645 N LEDGE AVE, 91602",
+  "lat": 34.154846,
+  "lon": -118.357192,
+  "score": 100
  },
  "4802 W San Vicente Blvd": {
   "address": "4802 W SAN VICENTE BLVD, 90019",
@@ -2490,6 +2508,12 @@
   "address": "900 S HILL ST, 90015",
   "lat": 34.042943,
   "lon": -118.257135,
+  "score": 100
+ },
+ "902 W WASHINGTON BLVD": {
+  "address": "902 W WASHINGTON BLVD, 90015",
+  "lat": 34.036938,
+  "lon": -118.277837,
   "score": 100
  },
  "910 South Alandele Ave": {

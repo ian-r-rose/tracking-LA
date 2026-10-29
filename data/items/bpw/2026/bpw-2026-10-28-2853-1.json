@@ -18,5 +18,12 @@
     "council_district": 9,
     "action": "authority to advertise invitation for bids",
     "amount": "$5,451,780"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25305",
+    "vote": "5-0",
+    "recorded": "2026-10-29"
   }
 }

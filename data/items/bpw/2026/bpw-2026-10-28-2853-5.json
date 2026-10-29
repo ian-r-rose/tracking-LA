@@ -24,5 +24,12 @@
     "action": "contract award",
     "amount": "$20,007,000.00",
     "bureau": "Bureau of Engineering and Bureau of Contract Administration"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25305",
+    "vote": "5-0",
+    "recorded": "2026-10-29"
   }
 }
