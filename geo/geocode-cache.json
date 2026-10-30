@@ -125,6 +125,12 @@
   "lon": -118.34678,
   "score": 100
  },
+ "1061 S BROXTON AVE": {
+  "address": "1061 S BROXTON AVE, 90024",
+  "lat": 34.061403,
+  "lon": -118.44626,
+  "score": 100
+ },
  "10740 W VENTURA BLVD": {
   "address": "10740 W VENTURA BLVD, 91604",
   "lat": 34.138403,
@@ -251,6 +257,12 @@
   "address": "1160 N LAS PALMAS AVE, 90038",
   "lat": 34.09185,
   "lon": -118.336248,
+  "score": 100
+ },
+ "11628 W SANTA MONICA BLVD": {
+  "address": "11628 W SANTA MONICA BLVD, 90025",
+  "lat": 34.044357,
+  "lon": -118.454541,
   "score": 100
  },
  "1165 N HELIOTROPE DR": {
@@ -1594,6 +1606,12 @@
   "lon": -118.347821,
   "score": 100
  },
+ "411 E CAMPDELL ST": {
+  "address": "411 E CAMPDELL ST, 90293",
+  "lat": 33.956892,
+  "lon": -118.444207,
+  "score": 100
+ },
  "412 East Brooks Avenue": {
   "address": "412 E BROOKS AVE, 90291",
   "lat": 33.993826,
@@ -2034,6 +2052,12 @@
   "lon": -118.206595,
   "score": 100
  },
+ "611 N VERMONT AVE": {
+  "address": "611 N VERMONT AVE, 90004",
+  "lat": 34.082007,
+  "lon": -118.291774,
+  "score": 100
+ },
  "612 N HOOVER ST": {
   "address": "612 N HOOVER ST, 90004",
   "lat": 34.081991,
@@ -2159,6 +2183,12 @@
   "address": "662 E VERNON AVE, 90011",
   "lat": 34.003828,
   "lon": -118.264137,
+  "score": 100
+ },
+ "6622 N TYRONE AVE": {
+  "address": "6622 N TYRONE AVE, 91405",
+  "lat": 34.191077,
+  "lon": -118.444308,
   "score": 100
  },
  "676 E MARR ST": {
@@ -2309,6 +2339,12 @@
   "address": "7556 N WOODLAKE AVE, 91304",
   "lat": 34.207234,
   "lon": -118.63211,
+  "score": 100
+ },
+ "757 S ALAMEDA ST": {
+  "address": "757 S ALAMEDA ST, 90021",
+  "lat": 34.031541,
+  "lon": -118.238897,
   "score": 100
  },
  "7639 N TOPANGA CANYON BLVD": {
@@ -2563,6 +2599,12 @@
   "address": "9702 S GRAPE ST, 90002",
   "lat": 33.948138,
   "lon": -118.236696,
+  "score": 100
+ },
+ "9767 W BLANTYRE DR": {
+  "address": "9767 W BLANTYRE DR, 90210",
+  "lat": 34.126425,
+  "lon": -118.423503,
   "score": 100
  },
  "9830 West Wanda Park Drive": {

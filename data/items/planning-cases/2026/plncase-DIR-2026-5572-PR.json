@@ -4,11 +4,11 @@
   "meeting_date": "2026-10-26",
   "item_number": "DIR-2026-5572-PR",
   "title": "6407 W SUNSET BLVD: Demolition of existing com building and construction, use, and maintenance of a 27-story tower with 239 dwelling units and 5,951 square…",
-  "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: DIR-2026-5572-PR, ENV-2026-5573-EAF, EAR-2026-5476-DB-HCA\nAddress: 6407 W SUNSET BLVD\nFiled: 2026-10-26\nCouncil district: 13\nCommunity plan area: Hollywood\nDescription: Demolition of existing com building and construction, use, and maintenance of a 27-story tower with 239 dwelling units and 5,951 square feet of ground floor retail. Including 227 parking spaces.",
+  "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: DIR-2026-5572-PR, EAR-2026-5476-DB-PR-HCA, ENV-2026-5573-EAF\nAddress: 6407 W SUNSET BLVD\nFiled: 2026-10-26\nCouncil district: 13\nCommunity plan area: Hollywood\nDescription: Demolition of existing com building and construction, use, and maintenance of a 27-story tower with 239 dwelling units and 5,951 square feet of ground floor retail. Including 227 parking spaces.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5572-PR",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5573-EAF",
-    "https://planning.lacity.gov/pdiscaseinfo/caseNumber/EAR-2026-5476-DB-HCA"
+    "https://planning.lacity.gov/pdiscaseinfo/caseNumber/EAR-2026-5476-DB-PR-HCA"
   ],
   "summary": "A new application would demolish an existing building at 6407 W Sunset Blvd in Hollywood and replace it with a 27-story tower of 239 dwelling units and 5,951 square feet of ground-floor retail. No decision has been made yet.",
   "topics": [
@@ -29,5 +29,11 @@
     "council_district": 13,
     "plan_area": "Hollywood",
     "action": "New application filed, not yet decided"
+  },
+  "outcome": {
+    "status": "withdrawn",
+    "text": "DIR action: ADMINISTRATIVE CLOSURE (Oct 29, 2026)",
+    "source": "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5572-PR",
+    "recorded": "2026-10-30"
   }
 }
