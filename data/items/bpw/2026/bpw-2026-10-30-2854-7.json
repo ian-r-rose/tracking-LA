@@ -16,5 +16,11 @@
   "details": {
     "bureau": "Bureau of Engineering",
     "action": "Bureau heads update (report)"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25317",
+    "recorded": "2026-10-31"
   }
 }

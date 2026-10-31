@@ -18,5 +18,12 @@
     "bureau": "Bureau of Sanitation",
     "amount": "$14.4 million",
     "action": "Execute personal services contracts for landscaping and site services"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25317",
+    "vote": "5-0",
+    "recorded": "2026-10-31"
   }
 }

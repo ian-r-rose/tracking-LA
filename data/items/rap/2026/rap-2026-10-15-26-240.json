@@ -26,5 +26,11 @@
   },
   "flag": {
     "reason": "Agreement at the Equestrian Center in Griffith Park, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "withdrawn",
+    "text": "WITHDRAWN",
+    "source": "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/101526mintelephonicregular.pdf",
+    "recorded": "2026-10-31"
   }
 }

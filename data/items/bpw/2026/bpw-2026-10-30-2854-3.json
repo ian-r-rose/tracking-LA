@@ -27,5 +27,11 @@
     "bureau": "Bureau of Engineering",
     "amount": "$623,154.16 (Change Order No. 8); $8,487,647.44 deductive net (Change Order No. 9)",
     "action": "Terminate construction contract and issue change orders 8 and 9"
+  },
+  "outcome": {
+    "status": "continued",
+    "text": "CONTINUED TO FRIDAY, NOVEMBER 6, 2026",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25317",
+    "recorded": "2026-10-31"
   }
 }

@@ -27,5 +27,12 @@
   },
   "flag": {
     "reason": "Park project in Echo Park, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED",
+    "source": "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/oct15/101526mintelephonicregular.pdf",
+    "vote": "4-0",
+    "recorded": "2026-10-31"
   }
 }

@@ -18,5 +18,12 @@
   "details": {
     "bureau": "Bureau of Sanitation",
     "action": "Approve and forward request for authority to execute cost-sharing agreement"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED - SUBJECT TO CONDITIONS, REFERRED TO MAYOR",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25317",
+    "vote": "5-0",
+    "recorded": "2026-10-31"
   }
 }

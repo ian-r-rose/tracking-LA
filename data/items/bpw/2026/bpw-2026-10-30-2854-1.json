@@ -18,5 +18,12 @@
   "details": {
     "bureau": "Bureau of Sanitation",
     "action": "Execute Measure W regional program transfer agreement"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25317",
+    "vote": "5-0",
+    "recorded": "2026-10-31"
   }
 }

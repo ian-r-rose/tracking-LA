@@ -295,6 +295,12 @@
   "lon": -118.273325,
   "score": 100
  },
+ "11911 W SAN VICENTE BLVD": {
+  "address": "11911 W SAN VICENTE BLVD, 90049",
+  "lat": 34.052923,
+  "lon": -118.47002,
+  "score": 100
+ },
  "11973 W San Vicente Blvd": {
   "address": "11973 W SAN VICENTE BLVD, 90049",
   "lat": 34.052535,

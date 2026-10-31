@@ -17,5 +17,12 @@
   "details": {
     "bureau": "Bureau of Street Lighting",
     "action": "Approve amended joint build agreement"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25317",
+    "vote": "5-0",
+    "recorded": "2026-10-31"
   }
 }
