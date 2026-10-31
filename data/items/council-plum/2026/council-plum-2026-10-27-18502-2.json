@@ -50,5 +50,12 @@
     "applicant": "Department of Public Works (DPW) and LA Sanitation and Environment",
     "bureau": "Bureau of Engineering",
     "action": "appeal of City Planning Commission approval"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee Chair approved extension of time limit from November 6, 2026 to November 20, 2026 (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/26-0734-S1",
+    "vote": "3-0-2",
+    "recorded": "2026-10-31"
   }
 }
