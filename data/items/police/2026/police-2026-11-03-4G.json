@@ -7,5 +7,22 @@
   "text": "[4. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated October 19, 2026, relative to donations valued at $2,000.00 to\n  support Hollywood Community Police Station’s Baker to Vegas, as set forth.  [BPC #26-326]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261201202_11032026.pdf"
-  ]
+  ],
+  "summary": "The commission is asked to approve a report on $2,000 in donations that support the Hollywood Community Police Station's Baker to Vegas effort.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Community Police Station"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-326"
+    ],
+    "amount": "$2,000.00",
+    "action": "approve report on donations"
+  }
 }

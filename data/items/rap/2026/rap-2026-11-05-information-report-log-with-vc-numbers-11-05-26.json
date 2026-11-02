@@ -8,5 +8,40 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/rap-meeting-agenda-11-5-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/information-report-log-vc-numbers-11-05-26.pdf"
-  ]
+  ],
+  "summary": "An informational log of 19 public comments sent to the Board, most about specific parks and recreation facilities. All of them were referred to the General Manager for response.",
+  "topics": [
+    "parks",
+    "public_safety",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Coldwater Canyon Park"
+    },
+    {
+      "text": "Spring Street Park"
+    },
+    {
+      "text": "Griffith Observatory"
+    },
+    {
+      "text": "MacArthur Park"
+    },
+    {
+      "text": "Pan Pacific Park"
+    },
+    {
+      "text": "Westwood Recreation Center"
+    },
+    {
+      "text": "Downey Rec Center"
+    },
+    {
+      "text": "Van Nuys Sherman Oaks Aquatic Center"
+    }
+  ],
+  "details": {
+    "action": "referred to General Manager"
+  }
 }

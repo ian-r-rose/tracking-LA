@@ -7,5 +7,22 @@
   "text": "[4. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated October 13, 2026, relative to donations valued at $14,714.00 to\n  support Topanga Community Police Station’s Baker to Vegas team and Command Post, as set forth.\n  [BPC #26-329]\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261201202_11032026.pdf"
-  ]
+  ],
+  "summary": "The commission is asked to approve a report on donations valued at $14,714 that support the Topanga Community Police Station's Baker to Vegas team and Command Post.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Topanga Community Police Station"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-329"
+    ],
+    "amount": "$14,714.00",
+    "action": "approve report on donations"
+  }
 }

@@ -7,5 +7,13 @@
   "text": "[DEPARTMENT ORAL UPDATES (20 minutes)]\nRecreation & Parks - Apekshya Bajracharya - Update on MacArthur Park fencing",
   "urls": [
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13981&compileOutputType=1"
-  ]
+  ],
+  "summary": "Recreation and Parks staff will give an oral update on fencing at MacArthur Park. No vote is listed.",
+  "topics": ["parks"],
+  "locations": [
+    {"text": "MacArthur Park"}
+  ],
+  "details": {
+    "action": "department oral update"
+  }
 }

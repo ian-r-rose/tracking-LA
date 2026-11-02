@@ -7,5 +7,22 @@
   "text": "[4. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated October 13, 2026, relative to a donation valued at $2,883.00 to\n  fund Van Nuys Community Police Station training, as set forth.  [BPC #26-328]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261201202_11032026.pdf"
-  ]
+  ],
+  "summary": "The commission is asked to approve a report on a $2,883 donation to fund training at the Van Nuys Community Police Station.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Van Nuys Community Police Station"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-328"
+    ],
+    "amount": "$2,883.00",
+    "action": "approve report on donation"
+  }
 }

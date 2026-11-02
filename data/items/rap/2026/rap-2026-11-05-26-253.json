@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/rap-meeting-agenda-11-5-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/26-253.pdf"
-  ]
+  ],
+  "summary": "Approves assigning the existing contract for the Echo Park Boathouse Café concession to VanillaBlack LLC, which will operate and manage the café.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Echo Park Boathouse Café"
+    }
+  ],
+  "details": {
+    "action": "assignment and assumption of contract"
+  }
 }

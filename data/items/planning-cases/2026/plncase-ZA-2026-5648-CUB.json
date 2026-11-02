@@ -8,5 +8,16 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5648-CUB",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5649-EAF"
-  ]
+  ],
+  "summary": "A conditional use permit would let the parcel delivery branch at 757 S Alameda St sell a full line of alcoholic beverages. The branch operates 24 hours a day, 7 days a week. It has been filed and is not yet decided.",
+  "topics": ["land_use"],
+  "locations": [
+    {"text": "757 S Alameda St, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["ZA-2026-5648-CUB", "ENV-2026-5649-EAF"],
+    "council_district": 14,
+    "plan_area": "Downtown",
+    "action": "conditional use permit for alcohol sales"
+  }
 }

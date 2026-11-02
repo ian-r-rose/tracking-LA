@@ -7,5 +7,15 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5408-EAF\nAddress: 19821 W RINALDI ST\nFiled: 2026-10-16\nCouncil district: 12\nCommunity plan area: Chatsworth - Porter Ranch\nDescription: Addition of approx. 9,717 sf. to existing 129,567 sf. Walmart building for storage, staging and dispensing of retail merchandise.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5408-EAF"
-  ]
+  ],
+  "summary": "An addition of about 9,717 square feet to the existing Walmart building at 19821 W Rinaldi St would add space for storage, staging and dispensing of retail merchandise. It has been filed and is not yet decided.",
+  "topics": ["land_use"],
+  "locations": [
+    {"text": "19821 W Rinaldi St, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["ENV-2026-5408-EAF"],
+    "council_district": 12,
+    "plan_area": "Chatsworth - Porter Ranch"
+  }
 }

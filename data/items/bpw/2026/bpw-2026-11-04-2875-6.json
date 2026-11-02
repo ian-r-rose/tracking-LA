@@ -8,5 +8,22 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25301",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=84ae1363-ba5d-487c-984a-281843739771"
-  ]
+  ],
+  "summary": "Increases the budget for Arcadis U.S., Inc.'s design and construction-support contract for the San Pascual Pumping Plant No. 605 rehabilitation in Council District 14, from $849,342 to $1,054,000.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "San Pascual Pumping Plant No. 605"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "bureau": "Bureau of Engineering",
+    "action": "revised task order budget increase",
+    "amount": "$1,054,000",
+    "applicant": "Arcadis U.S., Inc."
+  }
 }

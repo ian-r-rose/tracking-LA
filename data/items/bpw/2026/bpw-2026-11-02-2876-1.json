@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25292",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4ed1ebe1-d4c5-4790-9128-56311b1fb703"
-  ]
+  ],
+  "summary": "Citywide: updates the pre-qualified list of solar and energy storage design-build contractors to reflect Engie Services U.S., Inc.'s name change to Opterra Energy Services, LLC, and has the Controller update payment records to match.",
+  "topics": [
+    "environment",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Engineering",
+    "action": "update pre-qualified contractor list",
+    "applicant": "Opterra Energy Services, LLC"
+  }
 }

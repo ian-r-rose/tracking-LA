@@ -7,5 +7,22 @@
   "text": "[4. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated October 13, 2026, relative to a donation valued at $22,000.00 for\n  Mission Community Police Station’s holiday party, as set forth.  [BPC #26-327]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261201202_11032026.pdf"
-  ]
+  ],
+  "summary": "The commission is asked to approve a report on a $22,000 donation for the Mission Community Police Station's holiday party.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Mission Community Police Station"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-327"
+    ],
+    "amount": "$22,000.00",
+    "action": "approve report on donation"
+  }
 }

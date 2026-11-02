@@ -7,5 +7,15 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5304-EAF\nAddress: 549 S CERES AVE\nFiled: 2026-10-13\nCouncil district: 14\nCommunity plan area: Downtown\nDescription: Tenant improvements (new thrash chute and stairs) to an existing Residential Hotel located within the Downtown CPIO zoned [MB2-G1-5][IX1-FA][CPIO].",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5304-EAF"
-  ]
+  ],
+  "summary": "Tenant improvements at 549 S Ceres Ave, an existing residential hotel, would add a new trash chute and stairs. It has been filed and is not yet decided.",
+  "topics": ["land_use"],
+  "locations": [
+    {"text": "549 S Ceres Ave, Los Angeles, CA"}
+  ],
+  "details": {
+    "case_numbers": ["ENV-2026-5304-EAF"],
+    "council_district": 14,
+    "plan_area": "Downtown"
+  }
 }

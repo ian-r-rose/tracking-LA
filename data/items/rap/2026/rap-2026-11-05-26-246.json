@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/rap-meeting-agenda-11-5-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/26-246.pdf"
-  ]
+  ],
+  "summary": "Commits park fees to replace the synthetic fields at the Sepulveda Basin Sports Complex.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Sepulveda Basin Sports Complex"
+    }
+  ],
+  "details": {
+    "action": "commitment of park fees"
+  }
 }

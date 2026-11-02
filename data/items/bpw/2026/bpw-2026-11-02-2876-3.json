@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25292",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c59a9fbd-f9d9-4e52-9689-613559b6d514"
-  ]
+  ],
+  "summary": "Citywide Sidewalk Repair Program: raises the budget for two engineering contracts, with HDR Engineering, Inc. and HNTB Corporation, from $4.25 million to $13.8 million each for design, construction support, survey and construction management.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Engineering",
+    "action": "revised task order budget increase",
+    "amount": "$13,800,000 each",
+    "applicant": "HDR Engineering, Inc.; HNTB Corporation"
+  }
 }

@@ -8,5 +8,13 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/rap-meeting-agenda-11-5-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/26-255.pdf"
-  ]
+  ],
+  "summary": "Moves money from the Department's unreserved fund balance in Fund 302 into various Recreation and Parks accounts.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "appropriation from fund balance"
+  }
 }

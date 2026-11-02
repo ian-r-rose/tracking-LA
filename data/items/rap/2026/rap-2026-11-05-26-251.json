@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/rap-meeting-agenda-11-5-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/26-251.pdf"
-  ]
+  ],
+  "summary": "Accepts the completed restroom renovation at Hermon Park as finished, closing out the project. The Board's action is final acceptance of the work.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Hermon Park"
+    }
+  ],
+  "details": {
+    "action": "final acceptance"
+  }
 }

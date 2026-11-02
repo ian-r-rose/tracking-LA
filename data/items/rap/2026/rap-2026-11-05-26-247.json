@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/rap-meeting-agenda-11-5-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/26-247.pdf"
-  ]
+  ],
+  "summary": "Gives conceptual approval to the proposed Green Meadows Pavilion at Green Meadows Recreation Center and approves a lease agreement with Heart of Los Angeles Youth, Inc.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Green Meadows Recreation Center"
+    }
+  ],
+  "details": {
+    "action": "conceptual approval of pavilion project and lease agreement"
+  }
 }

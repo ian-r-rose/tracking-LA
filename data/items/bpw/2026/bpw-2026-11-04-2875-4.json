@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25301",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=2200a8cb-6236-4ee2-8d88-dc1b58015915"
-  ]
+  ],
+  "summary": "Asks the Board to approve $229,063 from sewer funds for the annual NPDES and storm water fees paid to the State Water Resources Control Board for July 2026 through June 2027.",
+  "topics": [
+    "budget",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 13,
+    "bureau": "Bureau of Sanitation",
+    "action": "authority for expenditure for permit fees",
+    "amount": "$229,063"
+  }
 }

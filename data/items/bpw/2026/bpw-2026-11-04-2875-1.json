@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25301",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d61bc516-0b64-4515-b5f4-55f31d42d9de"
-  ]
+  ],
+  "summary": "Asks the Board to approve the specifications and advertise bids for Sidewalk Repair Program Package No. 88, with an estimate of $3,156,769 and bids due December 9, 2026, covering sidewalks in seven council districts.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "approve specifications and advertise for bids",
+    "amount": "$3,156,769"
+  }
 }

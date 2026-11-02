@@ -8,5 +8,22 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25292",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7a73d8cd-c1ea-47b3-8216-5a84d851ab25"
-  ]
+  ],
+  "summary": "Authorizes a sole-source contract with Andy Ness for neutral alternate services on the Los Angeles Convention Center expansion, up to $600,000 split evenly between the city and Plenary Americas Conventions Los Angeles, LLC.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Convention Center"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "bureau": "Bureau of Engineering and Bureau of Contract Administration",
+    "action": "sole source contract authorization",
+    "amount": "$600,000",
+    "applicant": "Andy Ness"
+  }
 }

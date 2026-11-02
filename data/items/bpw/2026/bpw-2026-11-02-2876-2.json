@@ -8,5 +8,22 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25292",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=760636cf-f106-4f36-8692-2ac0a5a53dc7"
-  ]
+  ],
+  "summary": "Revises the funding table for the Rosecrans Park Child Care Center project in Council District 15: the $200,000 Proposition K line moves from an unassigned account to a specific appropriation, with the $1.2 million total unchanged.",
+  "topics": [
+    "budget",
+    "parks",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Rosecrans Park Child Care Center"
+    }
+  ],
+  "details": {
+    "council_district": 15,
+    "bureau": "Bureau of Engineering",
+    "action": "revised funding table",
+    "amount": "$1,200,000"
+  }
 }

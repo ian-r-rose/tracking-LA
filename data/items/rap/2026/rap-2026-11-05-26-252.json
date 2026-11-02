@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/rap-meeting-agenda-11-5-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/26-252.pdf"
-  ]
+  ],
+  "summary": "Approves a second amendment to the existing agreement for the Los Angeles Equestrian Center.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Equestrian Center"
+    }
+  ],
+  "details": {
+    "action": "approval of amendment No. 2 to agreement"
+  }
 }

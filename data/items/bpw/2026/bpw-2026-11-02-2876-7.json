@@ -8,5 +8,22 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25292",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=490ddded-3765-45f0-ad33-b000f5d86ca0"
-  ]
+  ],
+  "summary": "Authorizes a sole-source contract with Mary Salamone for neutral alternate services on the Los Angeles Convention Center expansion, up to $600,000 split evenly between the city and Plenary Americas Conventions Los Angeles, LLC.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Convention Center"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "bureau": "Bureau of Engineering and Bureau of Contract Administration",
+    "action": "sole source contract authorization",
+    "amount": "$600,000",
+    "applicant": "Mary Salamone"
+  }
 }

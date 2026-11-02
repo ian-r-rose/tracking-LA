@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/rap-meeting-agenda-11-5-2026.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/26-249.pdf"
-  ]
+  ],
+  "summary": "Changes the scope of work for the Stoner Recreation Center park improvement project, which is funded by a commitment of supplemental park fees.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Stoner Recreation Center"
+    }
+  ],
+  "details": {
+    "action": "modification of scope of work for commitment of supplemental park fees"
+  }
 }

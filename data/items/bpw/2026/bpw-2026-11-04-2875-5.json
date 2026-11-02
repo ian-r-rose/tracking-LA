@@ -8,5 +8,22 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25301",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=0bf83244-5d3b-4e94-9028-14ab99e5cb68"
-  ]
+  ],
+  "summary": "Opens bids for the Avalon Boulevard improvements between Martin Luther King Jr. Boulevard and 56th Street, a Vision Zero safety project with a $6.8 million estimate.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Avalon Blvd & Martin Luther King Jr. Blvd, Los Angeles, CA"
+    },
+    {
+      "text": "Avalon Blvd & 56th St, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "bids",
+    "council_district": 8,
+    "amount": "$6,844,197"
+  }
 }

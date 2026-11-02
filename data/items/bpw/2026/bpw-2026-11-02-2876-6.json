@@ -8,5 +8,22 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25292",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d7fa47c2-0f06-4442-87a4-a8ff19cbc5e8"
-  ]
+  ],
+  "summary": "Authorizes a sole-source contract with David P. Dapper for neutral services on the Los Angeles Convention Center expansion and modernization, up to $600,000 split evenly between the city and Plenary Americas Conventions Los Angeles, LLC.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Convention Center"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "bureau": "Bureau of Engineering and Bureau of Contract Administration",
+    "action": "sole source contract authorization",
+    "amount": "$600,000",
+    "applicant": "David P. Dapper"
+  }
 }

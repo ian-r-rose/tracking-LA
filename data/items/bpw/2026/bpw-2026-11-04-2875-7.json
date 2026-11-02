@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25301",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b8d3d99c-8f02-4214-a7de-6524416c43e3"
-  ]
+  ],
+  "summary": "Receives a report from the Bureau of Street Services with an update on the City's trees.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Street Services"
+  }
 }
