@@ -1046,6 +1046,12 @@
   "lon": -118.274859,
   "score": 98.18
  },
+ "230 N OCEAN WAY": {
+  "address": "230 N OCEAN AVE, 90402",
+  "lat": 34.027629,
+  "lon": -118.514905,
+  "score": 95.99
+ },
  "2304 S STRONGS DR": {
   "address": "2304 S STRONG'S DR, 90291",
   "lat": 33.984168,
@@ -1092,6 +1098,12 @@
   "address": "2346 W RIDGEVIEW AVE, 90041",
   "lat": 34.130917,
   "lon": -118.21751,
+  "score": 100
+ },
+ "23475 W LONG VALLEY ROAD": {
+  "address": "23475 W LONG VALLEY ROAD, 91302",
+  "lat": 34.159176,
+  "lon": -118.639088,
   "score": 100
  },
  "2351 Wilshire Boulevard": {
