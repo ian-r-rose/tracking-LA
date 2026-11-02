@@ -22,5 +22,12 @@
     "applicant": "Homies Unidos Inc.",
     "action": "funding extension for homeless outreach",
     "amount": "$200,000"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 28, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-1512",
+    "vote": "14-1-0",
+    "recorded": "2026-11-02"
   }
 }

@@ -33,5 +33,12 @@
     "action": "funding and appropriation for repairs",
     "amount": "$182,821",
     "bureau": "Bureau of Engineering"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/17-0090-S6",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

@@ -41,5 +41,11 @@
     "applicant": "Dennis Metcalf, Balboa Car Washes, Inc. dba Denny’s Car Wash",
     "action": "appeal of North Valley Area Planning Commission determination",
     "council_file": "26-1288"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee action: Approved (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1288",
+    "recorded": "2026-11-02"
   }
 }

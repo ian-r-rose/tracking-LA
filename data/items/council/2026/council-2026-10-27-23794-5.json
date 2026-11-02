@@ -23,5 +23,12 @@
     "council_file": "25-1498",
     "action": "ordinance first consideration for no-fee micro-shoot permit",
     "bureau": "Board of Public Works"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/25-1498",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

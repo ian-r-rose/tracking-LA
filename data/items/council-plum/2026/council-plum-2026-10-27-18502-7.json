@@ -37,5 +37,11 @@
     "applicant": "David Kelly, Westport Properties Inc.",
     "action": "appeals of Los Angeles City Planning Commission approval",
     "council_file": "26-1289-S1"
+  },
+  "outcome": {
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee action: Disapproved: DENIED the appeals, and thereby SUSTAINED the determination of the Los Angeles City Planning Commission (LACPC) as detailed in the LACPC report dated September 8, 2026 (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1289-S1",
+    "recorded": "2026-11-02"
   }
 }

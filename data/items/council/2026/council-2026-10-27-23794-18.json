@@ -20,5 +20,12 @@
     "council_district": 15,
     "action": "reprogram redevelopment funds",
     "amount": "$21,617"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted as Amended (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/14-1174-S117",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

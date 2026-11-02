@@ -34,5 +34,12 @@
     "action": "funding transfer for weed abatement",
     "amount": "$5,400",
     "bureau": "Bureau of Street Services"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/26-0011-S22",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

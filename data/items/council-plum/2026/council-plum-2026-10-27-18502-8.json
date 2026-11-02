@@ -37,5 +37,11 @@
     "applicant": "David Kelly, Westport Properties Inc",
     "action": "zone and height district change",
     "council_file": "26-1289"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee action: Approved: Approved the Los Angeles City Planning Commission report and draft Ordinance dated September 8, 2026 (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1289",
+    "recorded": "2026-11-02"
   }
 }

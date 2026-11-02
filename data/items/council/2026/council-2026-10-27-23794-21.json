@@ -21,5 +21,12 @@
     "council_district": 3,
     "action": "fund transfer for pet food pantry",
     "amount": "$25,000"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1500",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

@@ -29,5 +29,12 @@
   },
   "flag": {
     "reason": "Capital funding for a public recreation center."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted, Forthwith (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/23-1408-S1",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

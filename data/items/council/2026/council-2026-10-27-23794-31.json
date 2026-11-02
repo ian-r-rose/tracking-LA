@@ -33,5 +33,12 @@
   },
   "flag": {
     "reason": "Final map in Hollywood, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted, Forthwith (Oct 27, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/23-1329-S2",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

@@ -30,5 +30,12 @@
     "applicant": "Housing Authority of the City of Los Angeles",
     "action": "final map approval",
     "amount": "$9,064"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted, Forthwith (Oct 27, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/13-0174-S4",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

@@ -20,5 +20,12 @@
     "council_district": 3,
     "action": "amend List of Citywide Special Events",
     "amount": "$15,000"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 27, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-1503",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

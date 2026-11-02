@@ -15,10 +15,18 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a891a1b3-f415-4087-bffc-1c00cb8f9c34"
   ],
   "summary": "A verbal update from City Planning on citywide sign regulations, a file that had expired under council policy and was reactivated by the council.",
-  "topics": ["land_use"],
+  "topics": [
+    "land_use"
+  ],
   "locations": [],
   "details": {
     "council_file": "11-1705",
     "action": "verbal report and update"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee action: Approved: APPROVED the recommendations of Council District 3, as amended by Council District 2 (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/11-1705",
+    "recorded": "2026-11-02"
   }
 }

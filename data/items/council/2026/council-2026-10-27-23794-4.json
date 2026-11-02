@@ -18,5 +18,12 @@
   "details": {
     "council_file": "25-1508",
     "action": "report on $1 per day film access to City property"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 27, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/25-1508",
+    "vote": "13-0-2",
+    "recorded": "2026-11-02"
   }
 }

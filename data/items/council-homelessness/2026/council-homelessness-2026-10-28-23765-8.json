@@ -22,5 +22,12 @@
   "details": {
     "council_file": "26-1445",
     "action": "motion"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Homelessness and Health Committee action: Approved (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1445",
+    "vote": "3-0-2",
+    "recorded": "2026-11-02"
   }
 }

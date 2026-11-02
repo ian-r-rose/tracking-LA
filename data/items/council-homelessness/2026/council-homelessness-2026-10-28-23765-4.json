@@ -12,10 +12,19 @@
     "https://lacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=90f4d5f6-bd16-4bb9-8dc8-0dc28818d908"
   ],
   "summary": "A City Chief Legislative Analyst report on how the County is carrying out Measure A and on the policy and executive working groups tied to it. No fiscal impact is stated.",
-  "topics": ["other"],
+  "topics": [
+    "other"
+  ],
   "locations": [],
   "details": {
     "council_file": "24-1479",
     "action": "Chief Legislative Analyst report"
+  },
+  "outcome": {
+    "status": "continued",
+    "text": "Homelessness and Health Committee action: Continued (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/24-1479",
+    "vote": "3-0-2",
+    "recorded": "2026-11-02"
   }
 }

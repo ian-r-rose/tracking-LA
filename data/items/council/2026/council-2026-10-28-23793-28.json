@@ -30,5 +30,12 @@
     ],
     "council_file": "25-0903",
     "action": "closed session on litigation"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted: Motion (Yaroslavsky - McOsker) (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/25-0903",
+    "vote": "14-0-1",
+    "recorded": "2026-11-02"
   }
 }

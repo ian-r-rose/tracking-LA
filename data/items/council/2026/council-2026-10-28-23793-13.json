@@ -31,5 +31,12 @@
   },
   "flag": {
     "reason": "Linkage fee refund at a Los Feliz address, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1472",
+    "vote": "14-1-0",
+    "recorded": "2026-11-02"
   }
 }

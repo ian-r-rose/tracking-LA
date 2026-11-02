@@ -40,5 +40,11 @@
     "council_file": "26-1288-S1",
     "applicant": "Karen Metcalf c/o Steve Tolopilo, Balboa Car Washes, Inc., dba Denny's Car Wash",
     "action": "zone change"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Planning and Land Use Management Committee action: Approved: Approved the North Valley Area Planning Commission report and draft Ordinance dated September 8, 2026 (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1288-S1",
+    "recorded": "2026-11-02"
   }
 }

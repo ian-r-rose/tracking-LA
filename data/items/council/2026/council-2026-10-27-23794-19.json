@@ -22,5 +22,12 @@
     "action": "funding allocation for street banners",
     "amount": "$42,263.86",
     "bureau": "Bureau of Street Services"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/26-0628",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

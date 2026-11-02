@@ -21,5 +21,12 @@
   "details": {
     "council_file": "24-0196",
     "action": "City Attorney report"
+  },
+  "outcome": {
+    "status": "continued",
+    "text": "Public Works Committee action: Continued (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/24-0196",
+    "vote": "3-0-0",
+    "recorded": "2026-11-02"
   }
 }

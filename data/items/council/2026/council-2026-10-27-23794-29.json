@@ -29,5 +29,12 @@
     "council_district": 11,
     "action": "final parcel map approval",
     "amount": "$16,500"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted, Forthwith (Oct 27, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-1522",
+    "vote": "15-0-0",
+    "recorded": "2026-11-02"
   }
 }

@@ -43,5 +43,11 @@
   },
   "flag": {
     "reason": "Appeal over two homes in Mount Washington, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee action: Disapproved: DENIED the appeal, and thereby SUSTAINED the determination of the East Los Angeles Area Planning Commission (ELAAPC) as detailed in the ELAAPC report dated September 10, 2026 (Oct 28, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1311",
+    "recorded": "2026-11-02"
   }
 }

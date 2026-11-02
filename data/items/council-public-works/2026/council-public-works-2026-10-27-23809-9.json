@@ -33,5 +33,12 @@
       "VAC-E1401462"
     ],
     "action": "alley vacation"
+  },
+  "outcome": {
+    "status": "continued",
+    "text": "Public Works Committee action: Continued (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/25-0682",
+    "vote": "3-0-0",
+    "recorded": "2026-11-02"
   }
 }

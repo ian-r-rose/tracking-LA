@@ -48,5 +48,12 @@
   },
   "flag": {
     "reason": "Designates public parks and tunnels for sleeping and property-storage enforcement."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Oct 27, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-4118-S9",
+    "vote": "11-4-0",
+    "recorded": "2026-11-02"
   }
 }

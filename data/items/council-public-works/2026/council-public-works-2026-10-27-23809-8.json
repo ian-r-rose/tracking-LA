@@ -25,5 +25,12 @@
   },
   "flag": {
     "reason": "Street vacation proceedings for four alleys."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Public Works Committee action: Approved (Oct 27, 2026)",
+    "source": "https://lms.lacity.gov/files/25-1355",
+    "vote": "3-0-0",
+    "recorded": "2026-11-02"
   }
 }

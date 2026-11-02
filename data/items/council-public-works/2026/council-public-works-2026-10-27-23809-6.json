@@ -36,5 +36,12 @@
     "council_file": "26-1267",
     "council_district": 5,
     "action": "naming of private driveway"
+  },
+  "outcome": {
+    "status": "continued",
+    "text": "Public Works Committee action: Approved (Oct 27, 2026); Council action: Continued: to November 6, 2026 (Oct 30, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1267",
+    "vote": "12-0-3",
+    "recorded": "2026-11-02"
   }
 }
