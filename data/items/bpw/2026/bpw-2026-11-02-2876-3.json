@@ -20,5 +20,8 @@
     "action": "revised task order budget increase",
     "amount": "$13,800,000 each",
     "applicant": "HDR Engineering, Inc.; HNTB Corporation"
+  },
+  "flag": {
+    "reason": "More than triples the design and management budget for the citywide Sidewalk Repair Program's two engineering firms."
   }
 }

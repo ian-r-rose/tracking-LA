@@ -22,5 +22,8 @@
   ],
   "details": {
     "action": "department oral update"
+  },
+  "flag": {
+    "reason": "Update on the fencing at MacArthur Park in Westlake."
   }
 }

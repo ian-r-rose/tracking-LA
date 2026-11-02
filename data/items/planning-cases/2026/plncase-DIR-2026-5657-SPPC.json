@@ -29,5 +29,8 @@
     "council_district": 13,
     "plan_area": "Wilshire",
     "action": "minor project permit compliance"
+  },
+  "flag": {
+    "reason": "New medical clinic on Vermont Ave in East Hollywood."
   }
 }

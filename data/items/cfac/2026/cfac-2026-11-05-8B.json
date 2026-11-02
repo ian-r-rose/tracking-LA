@@ -9,9 +9,14 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13981&compileOutputType=1"
   ],
   "summary": "The Urban Forestry Division proposes raising the number of tree removals that require a Board of Public Works hearing from three or more to six or more. The CFAC may send comments to the board.",
-  "topics": ["environment"],
+  "topics": [
+    "environment"
+  ],
   "locations": [],
   "details": {
     "action": "possible motion to send comments to BPW"
+  },
+  "flag": {
+    "reason": "Would halve how often street tree removals get a public Board of Public Works hearing, citywide."
   }
 }

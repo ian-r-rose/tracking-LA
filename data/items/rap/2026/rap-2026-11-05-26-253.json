@@ -15,10 +15,16 @@
   ],
   "locations": [
     {
-      "text": "Echo Park Boathouse Café"
+      "text": "751 Echo Park Ave, Los Angeles, CA",
+      "lat": 34.071944,
+      "lon": -118.259945,
+      "neighborhood": "Echo Park"
     }
   ],
   "details": {
     "action": "assignment and assumption of contract"
+  },
+  "flag": {
+    "reason": "New operator for the Echo Park Boathouse café on Echo Park Lake."
   }
 }

@@ -30,5 +30,8 @@
     "council_district": 1,
     "plan_area": "South Los Angeles",
     "action": "New application filed, not yet decided"
+  },
+  "flag": {
+    "reason": "123 new homes on Washington Blvd just south of Pico-Union."
   }
 }

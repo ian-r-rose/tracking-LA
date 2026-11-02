@@ -802,6 +802,12 @@
   "lon": -118.316852,
   "score": 100
  },
+ "1808 N Canyon Dr": {
+  "address": "1808 N CANYON DR, 90028",
+  "lat": 34.103749,
+  "lon": -118.316852,
+  "score": 100
+ },
  "1817 South Orange Grove Avenue": {
   "address": "1817 S ORANGE GROVE AVE, 90019",
   "lat": 34.042725,
@@ -818,6 +824,12 @@
   "address": "18477 W VENTURA BLVD, 91356",
   "lat": 34.168697,
   "lon": -118.535634,
+  "score": 100
+ },
+ "1851 N Ivar Ave": {
+  "address": "1851 N IVAR AVE, 90028",
+  "lat": 34.104535,
+  "lon": -118.328244,
   "score": 100
  },
  "1851 North Ivar Avenue": {
@@ -1100,6 +1112,12 @@
   "lon": -118.21751,
   "score": 100
  },
+ "2346 W Ridgeview Ave": {
+  "address": "2346 W RIDGEVIEW AVE, 90041",
+  "lat": 34.130917,
+  "lon": -118.21751,
+  "score": 100
+ },
  "23475 W LONG VALLEY ROAD": {
   "address": "23475 W LONG VALLEY ROAD, 91302",
   "lat": 34.159176,
@@ -1268,6 +1286,12 @@
   "address": "2912 S HOBART BLVD, 90018",
   "lat": 34.028833,
   "lon": -118.307758,
+  "score": 100
+ },
+ "2921 S Budlong Ave": {
+  "address": "2921 S BUDLONG AVE, 90007",
+  "lat": 34.028513,
+  "lon": -118.295967,
   "score": 100
  },
  "2921 South Budlong Avenue": {
@@ -2046,6 +2070,12 @@
   "lon": -118.389878,
   "score": 100
  },
+ "606 E Venice Blvd": {
+  "address": "606 E VENICE BLVD, 90291",
+  "lat": 33.990072,
+  "lon": -118.460927,
+  "score": 100
+ },
  "60th St & 8th Ave": {
   "address": "W 60TH ST & S 8TH AVE, 90043",
   "lat": 33.985431,
@@ -2071,6 +2101,12 @@
   "score": 100
  },
  "611 N VERMONT AVE": {
+  "address": "611 N VERMONT AVE, 90004",
+  "lat": 34.082007,
+  "lon": -118.291774,
+  "score": 100
+ },
+ "611 N Vermont Ave": {
   "address": "611 N VERMONT AVE, 90004",
   "lat": 34.082007,
   "lon": -118.291774,
@@ -2162,6 +2198,12 @@
   "score": 100
  },
  "642 W ATHENS BLVD": {
+  "address": "642 W ATHENS BLVD, 90044",
+  "lat": 33.921716,
+  "lon": -118.286169,
+  "score": 100
+ },
+ "642 W Athens Blvd": {
   "address": "642 W ATHENS BLVD, 90044",
   "lat": 33.921716,
   "lon": -118.286169,
@@ -2347,6 +2389,12 @@
   "lon": -118.186899,
   "score": 100
  },
+ "751 Echo Park Ave": {
+  "address": "751 N ECHO PARK AVE, 90026",
+  "lat": 34.071944,
+  "lon": -118.259945,
+  "score": 99.06
+ },
  "7528 Bellaire Avenue": {
   "address": "7528 N BELLAIRE AVE, 91605",
   "lat": 34.207547,
@@ -2360,6 +2408,12 @@
   "score": 100
  },
  "757 S ALAMEDA ST": {
+  "address": "757 S ALAMEDA ST, 90021",
+  "lat": 34.031541,
+  "lon": -118.238897,
+  "score": 100
+ },
+ "757 S Alameda St": {
   "address": "757 S ALAMEDA ST, 90021",
   "lat": 34.031541,
   "lon": -118.238897,
@@ -2570,6 +2624,12 @@
   "lon": -118.277837,
   "score": 100
  },
+ "902 W Washington Blvd": {
+  "address": "902 W WASHINGTON BLVD, 90015",
+  "lat": 34.036938,
+  "lon": -118.277837,
+  "score": 100
+ },
  "910 South Alandele Ave": {
   "address": "910 S ALANDELE AVE, 90036",
   "lat": 34.058941,
@@ -2655,6 +2715,18 @@
  "Arroyo Seco": null,
  "Asilomar View Park, 15900 Asilomar Boulevard, Pacific Palisades": null,
  "Asphalt Plant No. 1": null,
+ "Avalon Blvd & 56th St": {
+  "address": "S AVALON BLVD & E 56TH ST, 90011",
+  "lat": 33.991569,
+  "lon": -118.265202,
+  "score": 98.18
+ },
+ "Avalon Blvd & Martin Luther King Jr. Blvd": {
+  "address": "S AVALON BLVD & E MARTIN LUTHER KING, JR BLVD, 90011",
+  "lat": 34.011081,
+  "lon": -118.265261,
+  "score": 98.18
+ },
  "Avalon Boulevard & 56th Street": {
   "address": "S AVALON BLVD & E 56TH ST, 90011",
   "lat": 33.991569,
@@ -2676,6 +2748,18 @@
   "address": "S BROADWAY & W 112TH ST, 90061",
   "lat": 33.932952,
   "lon": -118.278621,
+  "score": 98.14
+ },
+ "Broadway & 4th St": {
+  "address": "S BROADWAY & W 4TH ST, 90013",
+  "lat": 34.049529,
+  "lon": -118.249371,
+  "score": 98.14
+ },
+ "Broadway & 6th St": {
+  "address": "S BROADWAY & W 6TH ST, 90014",
+  "lat": 34.046649,
+  "lon": -118.252044,
   "score": 98.14
  },
  "Broadway & 87th St": {
@@ -2724,7 +2808,9 @@
  "Dockweiler Beach Sand Dunes along Vista del Mar": null,
  "Donald Bruce Kaufman Brentwood Branch Library": null,
  "Doran Street": null,
+ "Downey Rec Center": null,
  "East San Fernando Valley": null,
+ "Echo Park Boathouse Café": null,
  "El Pueblo de Los Angeles Historical Monument": null,
  "El Pueblo de Los Angeles Historical Monument (Olvera Street)": null,
  "Elysian Reservoir": null,
@@ -2831,6 +2917,7 @@
   "lon": -118.338597,
   "score": 98.18
  },
+ "Mission Community Police Station": null,
  "Mount Carmel Park": null,
  "N Spring St & Ann St": {
   "address": "N NORTH SPRING ST & W ANN ST, 90012",
@@ -2879,15 +2966,19 @@
  "Pomona-Downtown Metrolink Station": null,
  "Port of Los Angeles": null,
  "Porter Ranch": null,
+ "Public Works Building": null,
  "Rampart Community Police Station": null,
  "Rancho Cienega Park": null,
  "Rancho Park Golf Course": null,
  "Roosevelt Pedestrian Tunnel, 100 West Channel Road, Pacific Palisades": null,
+ "Rosecrans Park Child Care Center": null,
  "SYLMAR FIRE STATION No. 31": null,
  "San Bernardino Line, Los Angeles County": null,
  "San Fernando Valley": null,
+ "San Pascual Pumping Plant No. 605": null,
  "Santa Barbara": null,
  "Sepulveda Basin": null,
+ "Sepulveda Basin Sports Complex": null,
  "Sepulveda Boulevard Tunnel near Mulholland Drive": null,
  "Sepulveda House": null,
  "Shoreline Drive, Long Beach": null,
@@ -2922,6 +3013,7 @@
   "lon": -118.344789,
   "score": 98.18
  },
+ "Sunland McGroarty Corridor": null,
  "Sunset Blvd & Carolwood Dr": {
   "address": "W SUNSET BLVD & N CAROLWOOD DR, 90077",
   "lat": 34.08084,
@@ -2956,6 +3048,7 @@
   "lon": -118.443515,
   "score": 98.18
  },
+ "Topanga Community Police Station": null,
  "Turner Street & Alameda Street": {
   "address": "E TURNER ST & N ALAMEDA ST, 90012",
   "lat": 34.050546,
@@ -2983,6 +3076,7 @@
   "score": 98.18
  },
  "Van Nuys Community Police Station": null,
+ "Van Nuys Sherman Oaks Aquatic Center": null,
  "Van Nuys Sherman Oaks War Memorial Park": null,
  "Vanalden Avenue & Balboa Boulevard": null,
  "Venice Beach": null,
