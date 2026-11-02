@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "2346 W Ridgeview Ave, Los Angeles, CA"
+      "text": "2346 W Ridgeview Ave, Los Angeles, CA",
+      "lat": 34.130917,
+      "lon": -118.21751,
+      "neighborhood": "Eagle Rock"
     }
   ],
   "details": {

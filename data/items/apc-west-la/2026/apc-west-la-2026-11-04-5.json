@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "606 E Venice Blvd, Los Angeles, CA"
+      "text": "606 E Venice Blvd, Los Angeles, CA",
+      "lat": 33.990072,
+      "lon": -118.460927,
+      "neighborhood": "Venice"
     }
   ],
   "details": {

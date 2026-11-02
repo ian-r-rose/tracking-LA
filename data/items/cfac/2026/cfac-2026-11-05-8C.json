@@ -9,9 +9,13 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13981&compileOutputType=1"
   ],
   "summary": "The CFAC is considering whether to send a letter opposing the Sunland McGroarty Corridor development as it stands now. The hearing on the project has been delayed.",
-  "topics": ["land_use"],
+  "topics": [
+    "land_use"
+  ],
   "locations": [
-    {"text": "Sunland McGroarty Corridor"}
+    {
+      "text": "Sunland McGroarty Corridor"
+    }
   ],
   "details": {
     "action": "hearing delayed; possible motion to send letter in opposition"

@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "1808 N Canyon Dr, Los Angeles, CA"
+      "text": "1808 N Canyon Dr, Los Angeles, CA",
+      "lat": 34.103749,
+      "lon": -118.316852,
+      "neighborhood": "Hollywood"
     }
   ],
   "details": {

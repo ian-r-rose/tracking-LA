@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "Fairfax Senior Citizens Center"
+      "text": "Fairfax Senior Citizens Center",
+      "lat": 34.084031,
+      "lon": -118.362354,
+      "neighborhood": "Beverly Grove"
     }
   ],
   "details": {

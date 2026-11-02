@@ -10,12 +10,22 @@
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5658-EAF"
   ],
   "summary": "A permit application would convert an existing commercial building at 611 N Vermont Ave into an outpatient medical clinic. It has been filed and is not yet decided.",
-  "topics": ["land_use"],
+  "topics": [
+    "land_use"
+  ],
   "locations": [
-    {"text": "611 N Vermont Ave, Los Angeles, CA"}
+    {
+      "text": "611 N Vermont Ave, Los Angeles, CA",
+      "lat": 34.082007,
+      "lon": -118.291774,
+      "neighborhood": "East Hollywood"
+    }
   ],
   "details": {
-    "case_numbers": ["DIR-2026-5657-SPPC", "ENV-2026-5658-EAF"],
+    "case_numbers": [
+      "DIR-2026-5657-SPPC",
+      "ENV-2026-5658-EAF"
+    ],
     "council_district": 13,
     "plan_area": "Wilshire",
     "action": "minor project permit compliance"

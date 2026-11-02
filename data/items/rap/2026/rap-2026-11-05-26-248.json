@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "Algin Sutton Recreation Center"
+      "text": "Algin Sutton Recreation Center",
+      "lat": 33.956788,
+      "lon": -118.285829,
+      "neighborhood": "Vermont Vista"
     }
   ],
   "details": {

@@ -16,7 +16,10 @@
   ],
   "locations": [
     {
-      "text": "902 W Washington Blvd, Los Angeles, CA"
+      "text": "902 W Washington Blvd, Los Angeles, CA",
+      "lat": 34.036938,
+      "lon": -118.277837,
+      "neighborhood": "University Park"
     }
   ],
   "details": {

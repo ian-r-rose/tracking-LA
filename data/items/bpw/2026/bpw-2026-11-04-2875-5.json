@@ -15,10 +15,16 @@
   ],
   "locations": [
     {
-      "text": "Avalon Blvd & Martin Luther King Jr. Blvd, Los Angeles, CA"
+      "text": "Avalon Blvd & Martin Luther King Jr. Blvd, Los Angeles, CA",
+      "lat": 34.011081,
+      "lon": -118.265261,
+      "neighborhood": "Historic South-Central"
     },
     {
-      "text": "Avalon Blvd & 56th St, Los Angeles, CA"
+      "text": "Avalon Blvd & 56th St, Los Angeles, CA",
+      "lat": 33.991569,
+      "lon": -118.265202,
+      "neighborhood": "South Park"
     }
   ],
   "details": {

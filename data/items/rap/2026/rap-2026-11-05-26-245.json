@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "Downey Recreation Center"
+      "text": "Downey Recreation Center",
+      "lat": 34.070365,
+      "lon": -118.222813,
+      "neighborhood": "Lincoln Heights"
     }
   ],
   "details": {

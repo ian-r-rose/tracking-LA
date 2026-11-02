@@ -17,22 +17,40 @@
   ],
   "locations": [
     {
-      "text": "Coldwater Canyon Park"
+      "text": "Coldwater Canyon Park",
+      "lat": 34.129051,
+      "lon": -118.402062,
+      "neighborhood": "Studio City"
     },
     {
-      "text": "Spring Street Park"
+      "text": "Spring Street Park",
+      "lat": 34.047972,
+      "lon": -118.2486,
+      "neighborhood": "Downtown"
     },
     {
-      "text": "Griffith Observatory"
+      "text": "Griffith Observatory",
+      "lat": 34.118578,
+      "lon": -118.300565,
+      "neighborhood": "Griffith Park"
     },
     {
-      "text": "MacArthur Park"
+      "text": "MacArthur Park",
+      "lat": 34.058083,
+      "lon": -118.278103,
+      "neighborhood": "Westlake"
     },
     {
-      "text": "Pan Pacific Park"
+      "text": "Pan Pacific Park",
+      "lat": 34.073269,
+      "lon": -118.354972,
+      "neighborhood": "Fairfax"
     },
     {
-      "text": "Westwood Recreation Center"
+      "text": "Westwood Recreation Center",
+      "lat": 34.053597,
+      "lon": -118.446536,
+      "neighborhood": "Westwood"
     },
     {
       "text": "Downey Rec Center"

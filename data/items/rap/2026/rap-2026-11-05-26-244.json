@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "Rosecrans Recreation Center"
+      "text": "Rosecrans Recreation Center",
+      "lat": 33.895628,
+      "lon": -118.290413,
+      "neighborhood": "Harbor Gateway"
     }
   ],
   "details": {

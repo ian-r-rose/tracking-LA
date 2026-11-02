@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "Stoner Recreation Center"
+      "text": "Stoner Recreation Center",
+      "lat": 34.038125,
+      "lon": -118.454083,
+      "neighborhood": "Sawtelle"
     }
   ],
   "details": {

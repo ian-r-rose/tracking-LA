@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "642 W Athens Blvd, Los Angeles, CA"
+      "text": "642 W Athens Blvd, Los Angeles, CA",
+      "lat": 33.921716,
+      "lon": -118.286169,
+      "neighborhood": "Harbor Gateway"
     }
   ],
   "details": {

@@ -9,9 +9,16 @@
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=13981&compileOutputType=1"
   ],
   "summary": "Recreation and Parks staff will give an oral update on fencing at MacArthur Park. No vote is listed.",
-  "topics": ["parks"],
+  "topics": [
+    "parks"
+  ],
   "locations": [
-    {"text": "MacArthur Park"}
+    {
+      "text": "MacArthur Park",
+      "lat": 34.058083,
+      "lon": -118.278103,
+      "neighborhood": "Westlake"
+    }
   ],
   "details": {
     "action": "department oral update"

@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "Hermon Park"
+      "text": "Hermon Park",
+      "lat": 34.1058,
+      "lon": -118.186729,
+      "neighborhood": "Montecito Heights"
     }
   ],
   "details": {

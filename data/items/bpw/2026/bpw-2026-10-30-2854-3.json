@@ -16,10 +16,16 @@
   ],
   "locations": [
     {
-      "text": "Broadway & 4th St, Los Angeles, CA"
+      "text": "Broadway & 4th St, Los Angeles, CA",
+      "lat": 34.049529,
+      "lon": -118.249371,
+      "neighborhood": "Downtown"
     },
     {
-      "text": "Broadway & 6th St, Los Angeles, CA"
+      "text": "Broadway & 6th St, Los Angeles, CA",
+      "lat": 34.046649,
+      "lon": -118.252044,
+      "neighborhood": "Downtown"
     }
   ],
   "details": {

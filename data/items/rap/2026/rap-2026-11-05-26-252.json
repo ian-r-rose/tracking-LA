@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "Los Angeles Equestrian Center"
+      "text": "Los Angeles Equestrian Center",
+      "lat": 34.158736,
+      "lon": -118.307983,
+      "neighborhood": "Griffith Park"
     }
   ],
   "details": {

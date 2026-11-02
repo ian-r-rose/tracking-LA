@@ -15,7 +15,10 @@
   ],
   "locations": [
     {
-      "text": "Green Meadows Recreation Center"
+      "text": "Green Meadows Recreation Center",
+      "lat": 33.955978,
+      "lon": -118.267332,
+      "neighborhood": "Green Meadows"
     }
   ],
   "details": {

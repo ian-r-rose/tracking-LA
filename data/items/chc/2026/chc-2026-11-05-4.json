@@ -14,7 +14,10 @@
   ],
   "locations": [
     {
-      "text": "2921 S Budlong Ave, Los Angeles, CA"
+      "text": "2921 S Budlong Ave, Los Angeles, CA",
+      "lat": 34.028513,
+      "lon": -118.295967,
+      "neighborhood": "Adams-Normandie"
     }
   ],
   "details": {

@@ -9,12 +9,21 @@
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5304-EAF"
   ],
   "summary": "Tenant improvements at 549 S Ceres Ave, an existing residential hotel, would add a new trash chute and stairs. It has been filed and is not yet decided.",
-  "topics": ["land_use"],
+  "topics": [
+    "land_use"
+  ],
   "locations": [
-    {"text": "549 S Ceres Ave, Los Angeles, CA"}
+    {
+      "text": "549 S Ceres Ave, Los Angeles, CA",
+      "lat": 34.04074,
+      "lon": -118.240635,
+      "neighborhood": "Downtown"
+    }
   ],
   "details": {
-    "case_numbers": ["ENV-2026-5304-EAF"],
+    "case_numbers": [
+      "ENV-2026-5304-EAF"
+    ],
     "council_district": 14,
     "plan_area": "Downtown"
   }
