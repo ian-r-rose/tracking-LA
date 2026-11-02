@@ -20,9 +20,10 @@
     "action": "service agreement"
   },
   "outcome": {
-    "status": "approved",
-    "text": "Chair approved extension of time limit from (Oct 28, 2026); Council action final",
+    "status": "denied",
+    "text": "Public Works Committee action: Disapproved: Disapproved without prejudice because the contract attached to the report is incorrect (Oct 27, 2026); Council action: Adopted as Amended, Forthwith: by Amending Motion (Hernandez - Hutt) to adopt the City Administrative Officer report dated October 22, 2026 (Oct 30, 2026); Council action final",
     "source": "https://lms.lacity.gov/files/26-1287",
+    "vote": "10-0-5",
     "recorded": "2026-11-02"
   }
 }

@@ -25,10 +25,10 @@
     "council_file": "26-1394"
   },
   "outcome": {
-    "status": "continued",
-    "text": "Council continued item to October 27, 2026 (Oct 21, 2026)",
+    "status": "denied",
+    "text": "Council action: Disapproved Reconsidered: Motion (Harris-Dawson - Hutt) Disapproved (Oct 27, 2026)",
     "source": "https://lms.lacity.gov/files/26-1394",
-    "vote": "10-0-5",
-    "recorded": "2026-10-22"
+    "vote": "9-6-0",
+    "recorded": "2026-11-02"
   }
 }

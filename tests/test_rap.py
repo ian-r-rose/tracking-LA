@@ -3,6 +3,7 @@ from datetime import date
 from pathlib import Path
 
 import httpx
+import pytest
 
 from tracking_la.sources import rap
 
@@ -87,3 +88,17 @@ def test_refusals_are_retried(capsys, monkeypatch):
     with httpx.Client(transport=httpx.MockTransport(respond)) as client:
         assert rap.get(client, rap.SITE + "/page").text == "ok"
     assert "answered https://recreation.parks.lacity.gov/page after 30s of 403s" in capsys.readouterr().out
+
+
+def test_next_years_page_isnt_there_until_its_first_meeting():
+    this_year = date.today().year
+
+    def respond(request):
+        if request.url.path.endswith(str(this_year)):
+            return httpx.Response(200, text=(FIXTURES / "year-2026.html").read_text())
+        return httpx.Response(404)
+
+    with httpx.Client(transport=httpx.MockTransport(respond)) as client:
+        assert rap.site_meetings(date(this_year, 12, 1), date(this_year + 1, 1, 31), client) is not None
+        with pytest.raises(httpx.HTTPStatusError):  # a past year's page should be there
+            rap.site_meetings(date(this_year - 1, 12, 1), date(this_year, 1, 31), client)

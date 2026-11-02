@@ -180,17 +180,39 @@ def tab(soup: BeautifulSoup, name: str):
     return soup.find(id=re.compile(rf"-content-{name}$"))
 
 
+class NotAFilePage(ValueError):
+    """A page that isn't an LMS file page, such as an error or maintenance page served
+    with status 200. Reading it as a file with no activity would blank what's recorded."""
+
+
+def file_page(html: str) -> BeautifulSoup:
+    soup = BeautifulSoup(html, "html.parser")
+    if not soup.find("h1") or not tab(soup, "timeline"):
+        raise NotAFilePage("not a Council File page (no title or timeline)")
+    return soup
+
+
+# A committee's own action, not Council's ("Council action: Adopted Planning and Land Use
+# Committee Report").
+COMMITTEE_ACTION = re.compile(r"^(?!Council\b)[^:]*\bCommittee\b")
+
+
 def file_activities(soup: BeautifulSoup) -> list[tuple[date, str]]:
     """(date, activity) from an LMS file page's Timeline, newest first. The page lists
-    them twice (major events and all activity), so each is kept once. The LMS says
-    "City Council" where Clerk Connect said "Council"; activities keep Clerk Connect's
-    wording, so outcomes recorded from it don't change."""
+    them twice (major events and all activity), so each is kept once. Some activities
+    say what was done in a second paragraph ("City Council action:" / "Adopted"), which
+    is joined to the first. The LMS says "City Council" where Clerk Connect
+    said "Council"; activities keep Clerk Connect's wording, so outcomes recorded from
+    it don't change."""
     activities = {}
     for row in tab(soup, "timeline").find_all("li") if tab(soup, "timeline") else []:
         when = row.find("span", string=DATE)
         text = row.find("p")
         if when and text:
-            text = re.sub(r"^City Council\b", "Council", re.sub(r"\s+", " ", text.get_text(" ", strip=True)))
+            text = text.get_text(" ", strip=True)
+            if text.endswith(":") and (detail := row.find("p").find_next_sibling("p")):
+                text += " " + detail.get_text(" ", strip=True)
+            text = re.sub(r"^City Council\b", "Council", re.sub(r"\s+", " ", text))
             activities.setdefault((datetime.strptime(when.get_text(strip=True), "%b %d, %Y").date(), text), None)
     return list(activities)
 
@@ -211,8 +233,8 @@ def council_file_outcome(html: str, url: str, since: date | None = None) -> dict
     item's meeting date: a Council File can have been decided before, on an earlier motion.
     When Council acted on a committee's report, the committee's action comes first, since
     "Council adopted item" alone doesn't say what the committee recommended (e.g. whether
-    PLUM granted or denied an appeal)."""
-    soup = BeautifulSoup(html, "html.parser")
+    PLUM granted or denied an appeal). Raises NotAFilePage for anything but a file page."""
+    soup = file_page(html)
     activities = [(when, text.rstrip(" .")) for when, text in file_activities(soup) if not since or when >= since]
     actions = [(when, text) for when, text in activities if ACTION.search(text) and "transmitted" not in text.lower()]
     if not actions:
@@ -220,7 +242,7 @@ def council_file_outcome(html: str, url: str, since: date | None = None) -> dict
     when, text = max(actions, key=lambda a: a[0])  # File Activities are newest first; max keeps the first on a tie
     text = f"{text} ({when:%b %-d, %Y})"
     if text.startswith("Council ") and (
-        committee := next(((w, t) for w, t in actions if w <= when and "Committee" in t), None)
+        committee := next(((w, t) for w, t in actions if w <= when and COMMITTEE_ACTION.match(t)), None)
     ):
         text = f"{committee[1]} ({committee[0]:%b %-d, %Y}); {text}"
     if any(w >= when and "Council action final" in t for w, t in activities):

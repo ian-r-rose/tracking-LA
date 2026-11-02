@@ -23,7 +23,7 @@ Find item files under `data/items/` that have no `summary` field, leaving out th
 >
 > Don't run any git commands, and don't edit any file other than the item files listed.
 
-Then run `uv run tracking-la carry`, which gives each item with `follows` the extraction of the item it follows, and `uv run tracking-la check`. Check must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent).
+Then run `uv run tracking-la carry`, which gives each item with `follows` the extraction of the item it follows, and `uv run tracking-la check`. Check must pass before you continue. Agents sometimes report success after writing malformed files, so fix any file it flags (by hand, or by sending it back to a subagent). If it flags fetched data instead (a report-back record the Fetch workflow changed, or scraper-owned fields), don't edit those fields and don't skip the digest: a skipped digest means Ian hears nothing. Write and commit the digest anyway, leaving out what the bad data affects (e.g. the Report backs section), and start it with a one-line note naming the problem and the Fetch commit that caused it.
 
 ### Report backs
 

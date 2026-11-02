@@ -21,9 +21,10 @@
     "action": "motion instructing report on ordinance"
   },
   "outcome": {
-    "status": "filed",
-    "text": "Planning and Land Use Management Committee noted and filed item(s) (Oct 13, 2026)",
+    "status": "continued",
+    "text": "Planning and Land Use Management Committee noted and filed item(s) (Oct 13, 2026); Council action: Continued: to November 17, 2026 (Oct 30, 2026)",
     "source": "https://lms.lacity.gov/files/25-1083-S1",
-    "recorded": "2026-10-15"
+    "vote": "12-0-3",
+    "recorded": "2026-11-02"
   }
 }

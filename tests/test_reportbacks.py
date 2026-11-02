@@ -1,8 +1,12 @@
 import json
+from collections import Counter
 from datetime import date
 from pathlib import Path
 
+import httpx
+
 from tracking_la import reportbacks
+from tracking_la.sources import council
 
 FIXTURES = Path(__file__).parent / "fixtures" / "council"
 DOT = "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2026/26-0251_rpt_dot_07-31-26.pdf"
@@ -92,3 +96,20 @@ def test_check_record(tmp_path):
     assert reportbacks.check_record(path)
     path.write_text(json.dumps({"motion": "..."}))  # not reviewed yet
     assert reportbacks.check_record(path) == []
+
+
+def test_a_page_that_isnt_a_file_page_leaves_the_record(tmp_path):
+    # An error page served with status 200 once blanked every followed record.
+    path = tmp_path / "report-backs" / "26-0251.json"
+    path.parent.mkdir()
+    record = {"council_file": "26-0251", "title": "Gaffey Street", "motion_url": "m", "adopted": "2026-03-25", "documents": []}
+    path.write_text(json.dumps(record))
+    (tmp_path / "items" / "council-transportation" / "2026").mkdir(parents=True)
+    (tmp_path / "items" / "council-transportation" / "2026" / "item.json").write_text(
+        json.dumps({"text": "[Council File 26-0251]", "urls": ["agenda", council.council_file_url("26-0251")]})
+    )
+    client = httpx.Client(transport=httpx.MockTransport(lambda request: httpx.Response(200, text="<html><body>Error</body></html>")))
+    failed, counts = [], Counter()
+    reportbacks.update(client, counts, failed, date(2026, 11, 2), tmp_path)
+    assert json.loads(path.read_text()) == record
+    assert failed and "not a Council File page" in failed[0]

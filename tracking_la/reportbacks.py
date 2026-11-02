@@ -90,7 +90,7 @@ def online_documents(soup: BeautifulSoup) -> list[tuple[date, str, str]]:
 
 
 def parse_page(html: str) -> dict:
-    soup = BeautifulSoup(html, "html.parser")
+    soup = council.file_page(html)  # raises NotAFilePage rather than read a page with nothing on it
     title = soup.find("h1")
     docs = online_documents(soup)
     motions = [url for _, name, url in docs if re.match(r"Motion\b", name)]
@@ -161,7 +161,7 @@ def update(client: httpx.Client, counts, failed: list, today: date | None = None
         path, record = path_record
         try:
             return path, record, refresh(record, client, today)
-        except httpx.HTTPError as e:
+        except (httpx.HTTPError, council.NotAFilePage) as e:
             failed.append(f"{council.council_file_url(record['council_file'])}: {e}")
             return path, record, None
 

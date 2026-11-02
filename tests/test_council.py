@@ -3,6 +3,7 @@ import re
 from datetime import date
 from pathlib import Path
 
+import pytest
 from bs4 import BeautifulSoup
 
 from tracking_la.sources import council
@@ -122,3 +123,31 @@ def test_dashes_standing_in_for_a_council_file_are_dropped(monkeypatch):
     monkeypatch.setattr(council.primegov, "html_items", lambda meeting, html: [("1", text, [])])
     item = council.meeting_items(MEETING, b"")[0]
     assert item["title"].startswith("Verbal report") and item["text"].startswith("Verbal report")
+
+
+def test_council_action_reads_what_council_did():
+    # Since the switch to the LMS, Council's action is a second paragraph under "City Council action:".
+    html = (FIXTURES / "cf-26-1424.html").read_text()
+    url = council.council_file_url("26-1424")
+    assert council.council_file_outcome(html, url, since=date(2026, 10, 21)) == {
+        "status": "approved",
+        "text": "Transportation Committee approved item(s) (Oct 21, 2026); "
+        "Council action: Adopted (Oct 27, 2026); Council action final",
+        "source": url,
+        "vote": "13-0-2",
+    }
+
+
+def test_a_page_that_isnt_a_file_page_is_refused():
+    html = "<html><body><main>Something went wrong. Please try again.</main></body></html>"
+    with pytest.raises(council.NotAFilePage):
+        council.council_file_outcome(html, council.council_file_url("26-1424"))
+
+
+def test_a_committee_named_in_councils_action_isnt_the_committees_action():
+    activities = [
+        "Council action final.",
+        "Council action: Adopted, Forthwith: Adopted Planning and Land Use Committee Report and Ordinance",
+        "Planning and Land Use Management Committee approved item(s).",
+    ]
+    assert [bool(council.COMMITTEE_ACTION.match(a)) for a in activities] == [False, False, True]

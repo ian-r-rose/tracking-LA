@@ -117,7 +117,13 @@ def get(client: httpx.Client, url: str) -> httpx.Response:
 def site_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
     meetings = []
     for year in range(start.year, end.year + 1):
-        resp = get(client, YEAR_PAGE.format(year=year))
+        try:
+            resp = get(client, YEAR_PAGE.format(year=year))
+        except httpx.HTTPStatusError as e:
+            # Next year's page is only made once its first meeting is posted.
+            if e.response.status_code == 404 and year > date.today().year:
+                continue
+            raise
         meetings += [m for m in parse_year_page(resp.text) if start <= m["date"] <= end]
     return meetings
 

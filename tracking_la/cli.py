@@ -134,7 +134,11 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list) -> No
             counts["pages followed"] += 1
             source, paths = pages[url]
             for path in paths if html else []:
-                outcome = source.follow_outcome(html, url, json.loads(path.read_text()))
+                try:
+                    outcome = source.follow_outcome(html, url, json.loads(path.read_text()))
+                except ValueError as e:  # e.g. an error page served with status 200
+                    failed.append(f"{url}: {e}")
+                    break
                 if outcome and record(path, outcome):
                     counts["followed decisions recorded"] += 1
 
