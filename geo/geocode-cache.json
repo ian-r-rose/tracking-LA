@@ -652,6 +652,12 @@
   "lon": -118.468976,
   "score": 99.06
  },
+ "15468 W CABRITO ROAD": {
+  "address": "15468 W CABRITO ROAD, 91406",
+  "lat": 34.216913,
+  "lon": -118.470124,
+  "score": 100
+ },
  "1556 N CAHUENGA BLVD": {
   "address": "1556 N CAHUENGA BLVD, 90028",
   "lat": 34.099005,
@@ -2539,6 +2545,12 @@
   "lat": 34.111299,
   "lon": -118.217821,
   "score": 92.78
+ },
+ "8385 W BEVERLY BLVD": {
+  "address": "8385 W BEVERLY BLVD, 90048",
+  "lat": 34.07613,
+  "lon": -118.372762,
+  "score": 100
  },
  "8400 S VERMONT AVE": {
   "address": "8400 S VERMONT AVE, 90044",
