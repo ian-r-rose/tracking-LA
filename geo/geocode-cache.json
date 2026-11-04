@@ -301,6 +301,12 @@
   "lon": -118.47002,
   "score": 100
  },
+ "11920 W SAN VICENTE BLVD": {
+  "address": "11920 W SAN VICENTE BLVD, 90049",
+  "lat": 34.052404,
+  "lon": -118.470638,
+  "score": 100
+ },
  "11973 W San Vicente Blvd": {
   "address": "11973 W SAN VICENTE BLVD, 90049",
   "lat": 34.052535,
@@ -413,6 +419,12 @@
   "address": "12952 W RATNER ST, 91605",
   "lat": 34.21677,
   "lon": -118.415967,
+  "score": 100
+ },
+ "130 S OLIVE ST": {
+  "address": "130 S OLIVE ST, 90012",
+  "lat": 34.054595,
+  "lon": -118.247982,
   "score": 100
  },
  "13050 W SAN VICENTE BLVD": {
@@ -718,6 +730,12 @@
   "lon": -118.485975,
   "score": 100
  },
+ "1639 N SILVER LAKE BLVD": {
+  "address": "1639 N SILVER LAKE BLVD, 90026",
+  "lat": 34.088636,
+  "lon": -118.269058,
+  "score": 100
+ },
  "16425 Hart Street": {
   "address": "16425 W HART ST, 91406",
   "lat": 34.197603,
@@ -936,6 +954,12 @@
   "lon": -118.291623,
   "score": 97.59
  },
+ "20140 W RINALDI ST": {
+  "address": "20140 W RINALDI ST, 91326",
+  "lat": 34.274901,
+  "lon": -118.572984,
+  "score": 100
+ },
  "2027 South Colby Avenue": {
   "address": "2027 S COLBY AVE, 90025",
   "lat": 34.038323,
@@ -1147,6 +1171,12 @@
   "lat": 34.049289,
   "lon": -118.413777,
   "score": 99.06
+ },
+ "2367 S WESTWOOD BLVD": {
+  "address": "2367 S WESTWOOD BLVD, 90064",
+  "lat": 34.040842,
+  "lon": -118.429204,
+  "score": 100
  },
  "23717 West Victory Boulevard": {
   "address": "23717 W VICTORY BLVD, 91307",
@@ -1718,6 +1748,12 @@
   "address": "4230 N SALTILLO ST, 91364",
   "lat": 34.146399,
   "lon": -118.593468,
+  "score": 100
+ },
+ "4255 W 3RD ST": {
+  "address": "4255 W 3RD ST, 90020",
+  "lat": 34.069047,
+  "lon": -118.306972,
   "score": 100
  },
  "4322 South Honduras Street": {
@@ -2520,6 +2556,12 @@
   "address": "818 W 7TH ST, 90731",
   "lat": 33.737948,
   "lon": -118.294995,
+  "score": 100
+ },
+ "819 E MILWOOD AVE": {
+  "address": "819 E MILWOOD AVE, 90291",
+  "lat": 33.994877,
+  "lon": -118.461905,
   "score": 100
  },
  "8200 N WEBB AVE": {
