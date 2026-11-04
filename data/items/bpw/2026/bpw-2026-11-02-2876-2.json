@@ -25,5 +25,12 @@
     "bureau": "Bureau of Engineering",
     "action": "revised funding table",
     "amount": "$1,200,000"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25346",
+    "vote": "5-0",
+    "recorded": "2026-11-04"
   }
 }

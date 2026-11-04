@@ -21,5 +21,12 @@
     "action": "task order ceiling increase",
     "amount": "$12,585,409",
     "applicant": "Carollo Engineers, Inc."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25346",
+    "vote": "5-0",
+    "recorded": "2026-11-04"
   }
 }

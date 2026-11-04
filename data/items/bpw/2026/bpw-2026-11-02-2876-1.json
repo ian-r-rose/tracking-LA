@@ -19,5 +19,12 @@
     "bureau": "Bureau of Engineering",
     "action": "update pre-qualified contractor list",
     "applicant": "Opterra Energy Services, LLC"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25346",
+    "vote": "5-0",
+    "recorded": "2026-11-04"
   }
 }

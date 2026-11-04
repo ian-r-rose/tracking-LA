@@ -25,5 +25,12 @@
     "action": "sole source contract authorization",
     "amount": "$600,000",
     "applicant": "David P. Dapper"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25346",
+    "vote": "5-0",
+    "recorded": "2026-11-04"
   }
 }
