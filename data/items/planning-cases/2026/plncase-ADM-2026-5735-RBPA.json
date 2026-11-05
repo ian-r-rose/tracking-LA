@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-5735-RBPA\nAddress: 1639 N SILVER LAKE BLVD\nFiled: 2026-11-03\nCouncil district: 13\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5735-RBPA"
-  ]
+  ],
+  "summary": "Administrative clearance under the city's Restaurant Beverage Program so a restaurant at 1639 N Silver Lake Blvd can sell and serve alcohol for on-site consumption. It has not been decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1639 N Silver Lake Blvd, Los Angeles, CA",
+      "lat": 34.088636,
+      "lon": -118.269058,
+      "neighborhood": "Silver Lake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-5735-RBPA"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "administrative clearance under the Restaurant Beverage Program"
+  },
+  "flag": {
+    "reason": "Alcohol clearance for a restaurant in Silver Lake, a watched neighborhood."
+  }
 }

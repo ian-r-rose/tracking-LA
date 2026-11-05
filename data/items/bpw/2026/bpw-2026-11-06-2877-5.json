@@ -8,5 +8,23 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25320",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3dcad90c-f515-4c05-8abd-72818284f9f2"
-  ]
+  ],
+  "summary": "The Board would approve a $57,000 standalone agreement with Key Code Media to finish professional services for phase 2 of the Madrid Theatre renovation in Council District 3, and approve revisions to a related spending authorization.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Madrid Theatre"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0584"
+    ],
+    "council_district": 3,
+    "action": "letter of agreement",
+    "amount": "$57,000",
+    "bureau": "Bureau of Engineering"
+  }
 }

@@ -8,5 +8,19 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25320",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=58f422e0-3cfc-465f-9312-431cebd3c946"
-  ]
+  ],
+  "summary": "The Board would authorize $20,200 for a construction-period servicing fee tied to the U.S. Environmental Protection Agency, covering October 2026 through September 2027 and paid from the sewer construction fund.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0581"
+    ],
+    "council_district": 6,
+    "action": "authority for expenditure",
+    "amount": "$20,200",
+    "bureau": "Bureau of Sanitation"
+  }
 }

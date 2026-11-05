@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5733-ZV-DD-ADJ",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5734-EAF"
-  ]
+  ],
+  "summary": "Application for supergraphic signage and over-height fencing at a school under construction at 130 S Olive St downtown. The use, floor area and intensity would not change. It has not been decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "130 S Olive St, Los Angeles, CA",
+      "lat": 34.054595,
+      "lon": -118.247982,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5733-ZV-DD-ADJ",
+      "ENV-2026-5734-EAF"
+    ],
+    "council_district": 14,
+    "plan_area": "Downtown",
+    "action": "case filing (application, not yet decided)"
+  },
+  "flag": {
+    "reason": "Signage and fencing at a school under construction in Downtown, a watched neighborhood."
+  }
 }

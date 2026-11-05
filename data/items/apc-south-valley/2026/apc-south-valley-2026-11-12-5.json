@@ -8,5 +8,31 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81669",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/11-12-2026/APCSV_2023_647.pdf"
-  ]
+  ],
+  "summary": "Zone change at 12243 West Riverside Drive in Valley Village to drop outdated interim-ordinance conditions, plus approvals for six small-lot single-family homes and a height increase to 33 feet.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "12243 W Riverside Dr, Los Angeles, CA",
+      "lat": 34.157688,
+      "lon": -118.399934,
+      "neighborhood": "Valley Village"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCSV-2023-647-ZC-SPP-SPPA-HCA",
+      "ENV-2023-648-CE"
+    ],
+    "council_district": 2,
+    "plan_area": "North Hollywood – Valley Village",
+    "applicant": "Yossef Aviv and Sigal Aviv",
+    "action": "zone change, project compliance and project adjustment"
+  },
+  "flag": {
+    "reason": "Six small-lot homes and a height increase in Valley Village; a routine zone change and subdivision."
+  }
 }

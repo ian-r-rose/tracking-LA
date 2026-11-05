@@ -8,5 +8,22 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81670",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/11-12-2026/CPC_2025_4421_CA__CPC_2025_4430_CA__CPC_2026_4383_CA.pdf"
-  ]
+  ],
+  "summary": "The City Planning Commission would recommend citywide changes to accessory dwelling unit rules, including allowing qualifying ADUs to be sold as condominiums, and codifying state SB 9 rules for two-unit projects and urban lot splits.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-4421-CA"
+    ],
+    "plan_area": "Citywide",
+    "applicant": "City of Los Angeles",
+    "action": "code amendment"
+  },
+  "flag": {
+    "reason": "Citywide ADU and SB 9 rules that change where and how small homes can be built, including in the watched neighborhoods."
+  }
 }

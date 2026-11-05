@@ -8,5 +8,22 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81670",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/11-12-2026/CPC_2025_4421_CA__CPC_2025_4430_CA__CPC_2026_4383_CA.pdf"
-  ]
+  ],
+  "summary": "The City Planning Commission would recommend citywide zoning changes that update small lot subdivision rules, create a Starter Home ordinance with an optional bonus program, and set related design and subdivision standards to allow more smaller-scale homes.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-4430-CA"
+    ],
+    "plan_area": "Citywide",
+    "applicant": "City of Los Angeles",
+    "action": "code amendment"
+  },
+  "flag": {
+    "reason": "Citywide small lot and Starter Home rules that could change what gets built in the watched neighborhoods."
+  }
 }

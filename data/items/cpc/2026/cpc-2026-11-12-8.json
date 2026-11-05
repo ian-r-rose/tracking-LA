@@ -8,5 +8,21 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81670",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/11-12-2026/CPC_2025_4421_CA__CPC_2025_4430_CA__CPC_2026_4383_CA.pdf"
-  ]
+  ],
+  "summary": "The City Planning Commission would recommend citywide rules requiring lot amenity space for developments of fewer than six units and extending outdoor amenity area standards to single-family zones.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "CPC-2026-4383-CA"
+    ],
+    "plan_area": "Citywide",
+    "applicant": "City of Los Angeles",
+    "action": "code amendment"
+  },
+  "flag": {
+    "reason": "Citywide amenity-space rules for small developments and single-family zones."
+  }
 }

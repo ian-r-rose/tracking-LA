@@ -8,5 +8,30 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25320",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1fb5d88e-bd27-4bd8-9b41-10e8b35325aa"
-  ]
+  ],
+  "summary": "The Board would authorize a task order to Gruen Associates, with a budget of $7,933,409 including contingency, for design and construction-administration services on the Los Angeles River Greenway East San Fernando Valley gap closure from Whitsett Avenue to Lankershim Boulevard.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles River Greenway",
+      "lat": 34.143996,
+      "lon": -118.400937,
+      "neighborhood": "Studio City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0582"
+    ],
+    "council_district": 4,
+    "action": "task order award",
+    "amount": "$7,933,409",
+    "bureau": "Bureau of Engineering"
+  },
+  "flag": {
+    "reason": "A $7.9 million design task order for a Los Angeles River Greenway gap closure, a public park and trail project."
+  }
 }

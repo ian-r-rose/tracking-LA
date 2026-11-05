@@ -8,5 +8,30 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5635-NSO-TOC-PR-WDI-CCMP-HCA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5636-EAF"
-  ]
+  ],
+  "summary": "Application to demolish the commercial building at 902 W Washington Blvd and build 30 townhomes and a 93-unit multifamily building. It was filed October 28 and has not been decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "902 W Washington Blvd, Los Angeles, CA",
+      "lat": 34.036938,
+      "lon": -118.277837,
+      "neighborhood": "University Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5635-NSO-TOC-PR-WDI-CCMP-HCA",
+      "ENV-2026-5636-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "South Los Angeles",
+    "action": "case filing (application, not yet decided)"
+  },
+  "flag": {
+    "reason": "The same 902 W Washington Blvd project, near the watched Downtown and Pico-Union neighborhoods."
+  }
 }

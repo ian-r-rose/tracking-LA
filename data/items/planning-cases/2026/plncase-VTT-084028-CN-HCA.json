@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: VTT-084028-CN-HCA\nAddress: 902 W WASHINGTON BLVD\nFiled: 2026-11-02\nCouncil district: 1\nCommunity plan area: South Los Angeles\nDescription: Demolition of an existing commercial building and the construction of 30-town homes and a 93 unit multi-family Condo. 123 condominiums total.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/VTT-084028-CN-HCA"
-  ]
+  ],
+  "summary": "Application to demolish a commercial building at 902 W Washington Blvd in South Los Angeles and build 30 townhomes plus a 93-unit condominium building, 123 condos in total. It has not been decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "902 W Washington Blvd, Los Angeles, CA",
+      "lat": 34.036938,
+      "lon": -118.277837,
+      "neighborhood": "University Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "VTT-084028-CN-HCA"
+    ],
+    "council_district": 1,
+    "plan_area": "South Los Angeles",
+    "action": "case filing (application, not yet decided)"
+  },
+  "flag": {
+    "reason": "123 new condos replacing a commercial building at 902 W Washington Blvd, near the watched Downtown and Pico-Union neighborhoods."
+  }
 }

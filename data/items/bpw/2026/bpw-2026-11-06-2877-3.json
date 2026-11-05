@@ -9,5 +9,36 @@
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25320",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=58313659-d721-46a3-8aae-b0f2caa8bf6f",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=a170dbe3-594d-4d42-a649-c4ea9d3335f7"
-  ]
+  ],
+  "summary": "The Board would terminate the Broadway pedestrian improvements contract with Access Pacific between 4th and 6th streets in Council District 14, approve a $623,154.16 settlement change order, and approve a closeout change order with a net deduction of $8,487,647.44 for unused bid items.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Broadway & 4th St, Los Angeles, CA",
+      "lat": 34.049529,
+      "lon": -118.249371,
+      "neighborhood": "Downtown"
+    },
+    {
+      "text": "Broadway & 6th St, Los Angeles, CA",
+      "lat": 34.046649,
+      "lon": -118.252044,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0561"
+    ],
+    "council_district": 14,
+    "action": "contract termination and change orders",
+    "amount": "$623,154.16",
+    "bureau": "Bureau of Engineering"
+  },
+  "flag": {
+    "reason": "Ends the Broadway pedestrian improvements contract on Broadway between 4th and 6th streets in Downtown, a watched neighborhood."
+  }
 }

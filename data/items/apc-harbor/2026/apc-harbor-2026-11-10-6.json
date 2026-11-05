@@ -8,5 +8,28 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81667",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/11-10-2026/DIR_2024_4351_BSA_1A.pdf"
-  ]
+  ],
+  "summary": "The Harbor Area Planning Commission will rehear a neighborhood group's appeal of permits for open truck and trailer storage and parking at 832 North Dominguez Avenue in Wilmington, after a court ordered it to deny the appeal and reinstate the permits.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "832 North Dominguez Avenue, Los Angeles, CA",
+      "lat": 33.781066,
+      "lon": -118.251381,
+      "neighborhood": "Wilmington"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2024-4351-BSA-1A"
+    ],
+    "council_district": 15,
+    "plan_area": "Wilmington – Harbor City",
+    "action": "appeal of Planning Director determination"
+  },
+  "flag": {
+    "reason": "A rehearing ordered by a court on an appeal over truck storage in Wilmington."
+  }
 }

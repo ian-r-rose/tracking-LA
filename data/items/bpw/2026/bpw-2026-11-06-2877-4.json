@@ -8,5 +8,19 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25320",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=054e928a-f37f-47da-8b47-8a076924fcdc"
-  ]
+  ],
+  "summary": "The Board of Public Works is selecting five contractors for urgent pedestrian facility repairs citywide under a three-year on-call contract with a $30 million ceiling. The City Engineer could assign individual repair orders of up to $300,000.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "BOE + BCA",
+    "action": "selection of qualified contractors",
+    "amount": "$30,000,000"
+  },
+  "flag": {
+    "reason": "A $30 million citywide on-call contract for urgent sidewalk and pedestrian repairs, which touches public streets."
+  }
 }

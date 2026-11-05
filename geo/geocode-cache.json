@@ -337,6 +337,12 @@
   "lon": -118.294628,
   "score": 100
  },
+ "12243 W Riverside Dr": {
+  "address": "12243 W RIVERSIDE DR, 91607",
+  "lat": 34.157688,
+  "lon": -118.399934,
+  "score": 100
+ },
  "123 South Robertson Boulevard, Suite 1": {
   "address": "123 S ROBERTSON BLVD, 90048",
   "lat": 34.074874,
@@ -433,6 +439,12 @@
   "lon": -118.247982,
   "score": 100
  },
+ "130 S Olive St": {
+  "address": "130 S OLIVE ST, 90012",
+  "lat": 34.054595,
+  "lon": -118.247982,
+  "score": 100
+ },
  "13050 W SAN VICENTE BLVD": {
   "address": "13050 W SAN VICENTE BLVD, 90049",
   "lat": 34.048427,
@@ -476,6 +488,12 @@
   "score": 100
  },
  "1332 W COLORADO BLVD": {
+  "address": "1332 W COLORADO BLVD, 90041",
+  "lat": 34.138896,
+  "lon": -118.193788,
+  "score": 100
+ },
+ "1332 W Colorado Blvd": {
   "address": "1332 W COLORADO BLVD, 90041",
   "lat": 34.138896,
   "lon": -118.193788,
@@ -743,6 +761,12 @@
   "score": 100
  },
  "1639 N SILVER LAKE BLVD": {
+  "address": "1639 N SILVER LAKE BLVD, 90026",
+  "lat": 34.088636,
+  "lon": -118.269058,
+  "score": 100
+ },
+ "1639 N Silver Lake Blvd": {
   "address": "1639 N SILVER LAKE BLVD, 90026",
   "lat": 34.088636,
   "lon": -118.269058,
@@ -1768,6 +1792,12 @@
   "lon": -118.306972,
   "score": 100
  },
+ "4255 W 3rd St": {
+  "address": "4255 W 3RD ST, 90020",
+  "lat": 34.069047,
+  "lon": -118.306972,
+  "score": 100
+ },
  "4322 South Honduras Street": {
   "address": "4322 S HONDURAS ST, 90011",
   "lat": 34.005137,
@@ -2600,6 +2630,12 @@
   "lon": -118.217821,
   "score": 92.78
  },
+ "832 North Dominguez Avenue": {
+  "address": "832 N DOMINGUEZ AVE, 90744",
+  "lat": 33.781066,
+  "lon": -118.251381,
+  "score": 100
+ },
  "8385 W BEVERLY BLVD": {
   "address": "8385 W BEVERLY BLVD, 90048",
   "lat": 34.07613,
@@ -2963,6 +2999,7 @@
  "Los Angeles Zoo, 5333 Zoo Drive": null,
  "MacArthur Lake": null,
  "MacArthur Park": null,
+ "Madrid Theatre": null,
  "Magnolia Boulevard & Woodman Avenue": {
   "address": "W MAGNOLIA BLVD & N WOODMAN AVE, 91423",
   "lat": 34.164873,

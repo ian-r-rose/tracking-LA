@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-5736-RBPA\nAddress: 4255 W 3RD ST\nFiled: 2026-11-03\nCouncil district: 10\nCommunity plan area: Wilshire\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5736-RBPA"
-  ]
+  ],
+  "summary": "Administrative clearance under the city's Restaurant Beverage Program so a restaurant at 4255 W 3rd St in Wilshire can sell and serve alcohol for on-site consumption. It has not been decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "4255 W 3rd St, Los Angeles, CA",
+      "lat": 34.069047,
+      "lon": -118.306972,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-5736-RBPA"
+    ],
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "action": "administrative clearance under the Restaurant Beverage Program"
+  },
+  "flag": {
+    "reason": "Alcohol clearance for a restaurant at 4255 W 3rd St, within the watched Koreatown area."
+  }
 }

@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25320",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=daab4c6b-f0d2-47dd-b305-c3a7ff18d552"
-  ]
+  ],
+  "summary": "The Board of Public Works will receive a status report on all contracts across its bureaus and an update to Policy No. 793.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0565"
+    ],
+    "action": "status report",
+    "bureau": "All Bureaus"
+  }
 }

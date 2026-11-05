@@ -7,5 +7,16 @@
   "text": "CLOSED SESSION\n\n  The Commission may recess to Closed Session, pursuant to Government Code Section 54956.9(d)(1), to\n  confer with its legal counsel relative to the case entitled JE Real Estate Holding Company, LLC v. City of\n  Los Angeles, Los Angeles Superior Court Case No. 25STCP02924.",
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81667"
-  ]
+  ],
+  "summary": "The commission may meet in closed session with its lawyers about a lawsuit brought by JE Real Estate Holding Company, LLC against the City of Los Angeles.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "25STCP02924"
+    ],
+    "action": "closed session with legal counsel"
+  }
 }

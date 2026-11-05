@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5419-EAF\nAddress: 1309 N LOGAN ST\nFiled: 2026-10-19\nCouncil district: 13\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley\nDescription: A new 932 sf patio and structurally separate steel pergola",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5419-EAF"
-  ]
+  ],
+  "summary": "Application to build a new 932-square-foot patio and a separate steel pergola at 1309 N Logan St in Silver Lake. It was filed October 19 and has not been decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1309 N Logan St, Los Angeles, CA",
+      "lat": 34.077399,
+      "lon": -118.258389,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5419-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "case filing (application, not yet decided)"
+  },
+  "flag": {
+    "reason": "A new patio and pergola at 1309 N Logan St, in Echo Park, a watched neighborhood."
+  }
 }
