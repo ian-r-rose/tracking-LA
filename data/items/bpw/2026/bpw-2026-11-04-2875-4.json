@@ -20,5 +20,12 @@
     "bureau": "Bureau of Sanitation",
     "action": "authority for expenditure for permit fees",
     "amount": "$229,063"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25358",
+    "vote": "5-0",
+    "recorded": "2026-11-05"
   }
 }

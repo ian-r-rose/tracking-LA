@@ -193,6 +193,12 @@
   "lon": -118.279153,
   "score": 100
  },
+ "11334 W ALLEGHENY ST": {
+  "address": "11334 W ALLEGHENY ST, 91352",
+  "lat": 34.248234,
+  "lon": -118.377782,
+  "score": 100
+ },
  "1135 N WESTMORELAND AVE": {
   "address": "1135 N WESTMORELAND AVE, 90029",
   "lat": 34.091791,
@@ -467,6 +473,12 @@
   "address": "133 E HURRICANE ST, 90292",
   "lat": 33.976016,
   "lon": -118.461336,
+  "score": 100
+ },
+ "1332 W COLORADO BLVD": {
+  "address": "1332 W COLORADO BLVD, 90041",
+  "lat": 34.138896,
+  "lon": -118.193788,
   "score": 100
  },
  "13375-13413 West Mulholland Drive": {

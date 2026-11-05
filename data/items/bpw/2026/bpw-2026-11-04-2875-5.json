@@ -31,5 +31,12 @@
     "action": "bids",
     "council_district": 8,
     "amount": "$6,844,197"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "BIDS RECEIVED, OPENED AND DECLARED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25358",
+    "vote": "5-0",
+    "recorded": "2026-11-05"
   }
 }

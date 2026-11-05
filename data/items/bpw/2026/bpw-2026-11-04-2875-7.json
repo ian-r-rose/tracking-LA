@@ -16,5 +16,11 @@
   "locations": [],
   "details": {
     "bureau": "Bureau of Street Services"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25358",
+    "recorded": "2026-11-05"
   }
 }

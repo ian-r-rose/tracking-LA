@@ -25,5 +25,12 @@
     "action": "revised task order budget increase",
     "amount": "$1,054,000",
     "applicant": "Arcadis U.S., Inc."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25358",
+    "vote": "5-0",
+    "recorded": "2026-11-05"
   }
 }
