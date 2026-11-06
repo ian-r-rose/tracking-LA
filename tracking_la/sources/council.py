@@ -180,9 +180,47 @@ def tab(soup: BeautifulSoup, name: str):
     return soup.find(id=re.compile(rf"-content-{name}$"))
 
 
+class Challenged(httpx.HTTPError):
+    """The LMS's firewall (AWS WAF) wants a browser to prove itself: status 202, an empty
+    body and an x-amzn-waf-action header. We don't try to get past it. The page stays as
+    recorded and a later fetch reads it, if the firewall lets that one through."""
+
+
+class FilePages:
+    """LMS file pages for one run. Outcomes and report backs share them, so each page is
+    requested once, and nothing more is requested once the firewall has challenged us."""
+
+    def __init__(self, client: httpx.Client):
+        self.client = client
+        self.pages: dict[str, str] = {}
+        self.unread: set[str] = set()
+
+    def get(self, url: str) -> str:
+        if url in self.pages:
+            return self.pages[url]
+        if self.unread:
+            self.unread.add(url)
+            raise Challenged(f"not requested after a challenge: {url}")
+        resp = self.client.get(url)
+        if resp.status_code == 202 or "x-amzn-waf-action" in resp.headers:
+            self.unread.add(url)
+            raise Challenged(f"challenged: {url}")
+        resp.raise_for_status()
+        self.pages[url] = resp.text
+        return resp.text
+
+    def report(self, failed: list) -> None:
+        if self.unread:
+            failed.append(
+                f"lms.lacity.gov: its firewall challenged the fetch (AWS WAF), so {len(self.unread)} Council File "
+                "page(s) weren't read; what's recorded stands until a later fetch reads them"
+            )
+
+
 class NotAFilePage(ValueError):
-    """A page that isn't an LMS file page, such as an error or maintenance page served
-    with status 200. Reading it as a file with no activity would blank what's recorded."""
+    """A page that isn't an LMS file page, such as an error or maintenance page. Reading it
+    as a file with no activity would blank what's recorded, as a firewall challenge's empty
+    page once did to every followed report back."""
 
 
 def file_page(html: str) -> BeautifulSoup:

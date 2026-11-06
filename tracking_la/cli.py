@@ -20,7 +20,7 @@ from tracking_la.outcomes import PROCESSED, normalize_status, record
 from tracking_la.geo import Geocoder, Neighborhoods, Places, build_places
 from tracking_la.score import candidates
 from tracking_la.site import build as build_site
-from tracking_la.sources import SOURCES, Source
+from tracking_la.sources import SOURCES, Source, council
 from tracking_la.store import DATA, carry_over, upsert_item
 
 # The Planning server takes ~9s per request regardless of size, so download a few at a time.
@@ -99,7 +99,7 @@ FINAL = re.compile(r"Council action final", re.I)
 FOLLOW_AT_MOST = timedelta(days=365)
 
 
-def followed_outcomes(client: httpx.Client, counts: Counter, failed: list) -> None:
+def followed_outcomes(client: httpx.Client, counts: Counter, failed: list, lms: council.FilePages) -> None:
     """Decisions for items that each have a page to follow (Source.follow_url): a Planning
     case's PDIS page, a Council File's LMS page. Each page is fetched once per
     run, even when several items share it (a Council File on several agendas)."""
@@ -122,9 +122,13 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list) -> No
 
     def fetch_page(url):
         try:
+            if url.startswith(council.LMS_FILE.format("")):
+                return url, lms.get(url)
             resp = client.get(url)
             resp.raise_for_status()
             return url, resp.text
+        except council.Challenged:  # reported once, by lms.report
+            return url, None
         except httpx.HTTPError as e:
             failed.append(f"{url}: {e}")
             return url, None
@@ -133,7 +137,7 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list) -> No
         for url, html in pool.map(fetch_page, list(pages)):
             counts["pages followed"] += 1
             source, paths = pages[url]
-            for path in paths if html else []:
+            for path in paths if html is not None else []:
                 try:
                     outcome = source.follow_outcome(html, url, json.loads(path.read_text()))
                 except ValueError as e:  # e.g. an error page served with status 200
@@ -172,8 +176,10 @@ def outcomes(since_days: int) -> None:
                     counts["records read"] += 1
             except httpx.HTTPError as e:
                 failed.append(f"{source.name}: {e}")
-        followed_outcomes(client, counts, failed)
-        reportbacks.update(client, counts, failed)
+        lms = council.FilePages(client)
+        followed_outcomes(client, counts, failed, lms)
+        reportbacks.update(client, counts, failed, pages=lms)
+        lms.report(failed)
     PROCESSED.write_text(json.dumps(processed, indent=1, sort_keys=True) + "\n")
     print(", ".join(f"{k}: {v}" for k, v in counts.items()) or "no new journals or minutes")
     for failure in failed:

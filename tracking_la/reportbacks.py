@@ -124,11 +124,10 @@ def following(record: dict, today: date) -> bool:
     return record.get("requests") is None or any(not confirmed(record, i) for i in range(len(record["requests"])))
 
 
-def refresh(record: dict, client: httpx.Client, today: date) -> dict:
+def refresh(record: dict, client: httpx.Client, today: date, pages: council.FilePages | None = None) -> dict:
     """The record with the Council File's page (and, when new, its motion) read again."""
-    resp = client.get(council.council_file_url(record["council_file"]))
-    resp.raise_for_status()
-    page = parse_page(resp.text)
+    pages = pages or council.FilePages(client)
+    page = parse_page(pages.get(council.council_file_url(record["council_file"])))
     if "introduced" not in record and page["introduced"] and date.fromisoformat(page["introduced"]) < today - TRACK_FOR:
         page["motion_url"] = None  # too old to track; the record just says so
     if page["motion_url"] and page["motion_url"] != record.get("motion_url"):
@@ -143,12 +142,22 @@ def refresh(record: dict, client: httpx.Client, today: date) -> dict:
             resp = client.get(doc["url"])
             resp.raise_for_status()
             doc["excerpt"] = re.sub(r"\s+", " ", pdf_text(resp.content)).strip()[:EXCERPT_CHARS]
+    # The Clerk replaces a document's URL at times. A review of the old URL no longer
+    # applies, and the new one comes up to check.
+    if page["documents"] and "document_reviews" in record:
+        urls = {doc["url"] for doc in page["documents"]}
+        page["document_reviews"] = {url: answers for url, answers in record["document_reviews"].items() if url in urls}
     return {**record, **page}
 
 
-def update(client: httpx.Client, counts, failed: list, today: date | None = None, root: Path = DATA) -> None:
+def update(
+    client: httpx.Client, counts, failed: list, today: date | None = None, root: Path = DATA,
+    pages: council.FilePages | None = None,
+) -> None:
     """Create or refresh the record of each followed Council File."""
     today = today or date.today()
+    own_pages = pages is None
+    pages = pages or council.FilePages(client)
     (root / "report-backs").mkdir(exist_ok=True)
     todo = []
     for council_file in sorted(council_files(root)):
@@ -160,7 +169,9 @@ def update(client: httpx.Client, counts, failed: list, today: date | None = None
     def job(path_record):
         path, record = path_record
         try:
-            return path, record, refresh(record, client, today)
+            return path, record, refresh(record, client, today, pages)
+        except council.Challenged:  # reported once, by pages.report
+            return path, record, None
         except (httpx.HTTPError, council.NotAFilePage) as e:
             failed.append(f"{council.council_file_url(record['council_file'])}: {e}")
             return path, record, None
@@ -171,6 +182,8 @@ def update(client: httpx.Client, counts, failed: list, today: date | None = None
             if new and (new != record or not path.exists()):
                 path.write_text(json.dumps(new, indent=2, ensure_ascii=False) + "\n")
                 counts["report-back records updated"] += 1
+    if own_pages:
+        pages.report(failed)
 
 
 # The Clerk names departments in full; motions often abbreviate. Boards and

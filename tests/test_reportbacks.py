@@ -99,7 +99,6 @@ def test_check_record(tmp_path):
 
 
 def test_a_page_that_isnt_a_file_page_leaves_the_record(tmp_path):
-    # An error page served with status 200 once blanked every followed record.
     path = tmp_path / "report-backs" / "26-0251.json"
     path.parent.mkdir()
     record = {"council_file": "26-0251", "title": "Gaffey Street", "motion_url": "m", "adopted": "2026-03-25", "documents": []}
@@ -113,3 +112,12 @@ def test_a_page_that_isnt_a_file_page_leaves_the_record(tmp_path):
     reportbacks.update(client, counts, failed, date(2026, 11, 2), tmp_path)
     assert json.loads(path.read_text()) == record
     assert failed and "not a Council File page" in failed[0]
+
+
+def test_a_replaced_documents_review_is_dropped_so_the_new_one_comes_up():
+    html = (Path(__file__).parent / "fixtures" / "council" / "cf-26-0251.html").read_text()
+    current = reportbacks.parse_page(html)["documents"][0]["url"]
+    client = httpx.Client(transport=httpx.MockTransport(lambda request: httpx.Response(200, text=html)))
+    record = {"council_file": "26-0251", "motion_url": reportbacks.parse_page(html)["motion_url"],
+              "document_reviews": {current: [], "https://example.org/replaced.pdf": [0]}}
+    assert reportbacks.refresh(record, client, date(2026, 11, 5))["document_reviews"] == {current: []}
