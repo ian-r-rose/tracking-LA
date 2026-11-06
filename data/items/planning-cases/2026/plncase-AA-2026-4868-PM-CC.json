@@ -30,5 +30,11 @@
     "council_district": 14,
     "plan_area": "Northeast Los Angeles",
     "action": "condo conversion"
+  },
+  "outcome": {
+    "status": "withdrawn",
+    "text": "AA action: WITHDRAWN (Nov 5, 2026)",
+    "source": "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-4868-PM-CC",
+    "recorded": "2026-11-06"
   }
 }

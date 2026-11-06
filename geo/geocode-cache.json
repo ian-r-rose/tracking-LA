@@ -415,6 +415,12 @@
   "lon": -118.461491,
   "score": 100
  },
+ "12831 W MACLAY ST": {
+  "address": "12831 W MACLAY ST, 91342",
+  "lat": 34.304329,
+  "lon": -118.412662,
+  "score": 100
+ },
  "12904 W PALMS BLVD": {
   "address": "12904 W PALMS BLVD, 90066",
   "lat": 34.006244,
@@ -1237,6 +1243,12 @@
   "lat": 33.98619,
   "lon": -118.461044,
   "score": 100
+ },
+ "2411 N BROADWAY": {
+  "address": "2411 N NORTH BROADWAY, 90031",
+  "lat": 34.073703,
+  "lon": -118.21676,
+  "score": 99.02
  },
  "2413 N Silver Lake Blvd": {
   "address": "2413 N SILVER LAKE BLVD, 90039",
@@ -2666,6 +2678,12 @@
   "lon": -118.378401,
   "score": 100
  },
+ "8601 S VERMONT AVE": {
+  "address": "8601 S VERMONT AVE, 90044",
+  "lat": 33.959983,
+  "lon": -118.291956,
+  "score": 100
+ },
  "8611 Kester Avenue": {
   "address": "8611 N KESTER AVE, 91402",
   "lat": 34.226919,
@@ -2767,6 +2785,12 @@
   "address": "9537 N LEMONA AVE, 91343",
   "lat": 34.243444,
   "lon": -118.458849,
+  "score": 100
+ },
+ "9671 N SUNLAND BLVD": {
+  "address": "9671 N SUNLAND BLVD, 91040",
+  "lat": 34.247126,
+  "lon": -118.357406,
   "score": 100
  },
  "970 S GAYLEY AVE": {
