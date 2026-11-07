@@ -33,5 +33,12 @@
   },
   "flag": {
     "reason": "A $7.9 million design task order for a Los Angeles River Greenway gap closure, a public park and trail project."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25375",
+    "vote": "5-0",
+    "recorded": "2026-11-07"
   }
 }

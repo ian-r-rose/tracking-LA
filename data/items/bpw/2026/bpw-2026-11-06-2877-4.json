@@ -22,5 +22,12 @@
   },
   "flag": {
     "reason": "A $30 million citywide on-call contract for urgent sidewalk and pedestrian repairs, which touches public streets."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25375",
+    "vote": "5-0",
+    "recorded": "2026-11-07"
   }
 }

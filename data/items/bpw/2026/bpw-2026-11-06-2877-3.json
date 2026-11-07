@@ -40,5 +40,11 @@
   },
   "flag": {
     "reason": "Ends the Broadway pedestrian improvements contract on Broadway between 4th and 6th streets in Downtown, a watched neighborhood."
+  },
+  "outcome": {
+    "status": "continued",
+    "text": "CONTINUED TO FRIDAY, DECEMBER 4, 2026.",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25375",
+    "recorded": "2026-11-07"
   }
 }

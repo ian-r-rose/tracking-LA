@@ -20,5 +20,11 @@
     ],
     "action": "status report",
     "bureau": "All Bureaus"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "RECEIVED",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25375",
+    "recorded": "2026-11-07"
   }
 }

@@ -26,5 +26,12 @@
     "action": "letter of agreement",
     "amount": "$57,000",
     "bureau": "Bureau of Engineering"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, REFERRED TO MAYOR, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25375",
+    "vote": "5-0",
+    "recorded": "2026-11-07"
   }
 }

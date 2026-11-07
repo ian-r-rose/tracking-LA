@@ -1396,6 +1396,12 @@
   "lon": -118.479882,
   "score": 94.24
  },
+ "2930 W COLORADO BLVD": {
+  "address": "2930 W COLORADO BLVD, 90041",
+  "lat": 34.142701,
+  "lon": -118.228718,
+  "score": 100
+ },
  "300 S Ferry St": {
   "address": "300 S FERRY ST, 90731",
   "lat": 33.747464,
@@ -2569,6 +2575,12 @@
   "lon": -118.370184,
   "score": 100
  },
+ "806 N WATERLOO ST": {
+  "address": "806 N WATERLOO ST, 90026",
+  "lat": 34.075755,
+  "lon": -118.268129,
+  "score": 100
+ },
  "808 N Oneonta Dr": {
   "address": "808 W ONEONTA DR, 90065",
   "lat": 34.111362,
@@ -2708,6 +2720,7 @@
   "lon": -118.262562,
   "score": 100
  },
+ "8750 W GRACIE ALLEN DR": null,
  "8901 S SEPULVEDA BLVD": {
   "address": "8901 S SEPULVEDA BLVD, 90045",
   "lat": 33.955863,
