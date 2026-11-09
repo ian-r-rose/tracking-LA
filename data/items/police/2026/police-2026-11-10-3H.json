@@ -7,5 +7,18 @@
   "text": "[3. CONSENT AGENDA ITEMS]\nDEPARTMENT’S REPORT dated October 19, 2026, relative to donations valued at $18,817.50 to\n  support Hollywood Community Police Station’s holiday party, as set forth.  [BPC #26-338]\n\n  Recommendation(s) for Board action:\n\n  APPROVE the Department’s report.",
   "urls": [
     "https://ens.lacity.org/lapd/agendas/lapdagendas261201341_11102026.pdf"
-  ]
+  ],
+  "summary": "Donations valued at $18,817.50 to support the Hollywood Community Police Station's holiday party. The Police Commission is asked to approve the report.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Community Police Station"
+    }
+  ],
+  "details": {
+    "action": "donation report",
+    "amount": "$18,817.50"
+  }
 }

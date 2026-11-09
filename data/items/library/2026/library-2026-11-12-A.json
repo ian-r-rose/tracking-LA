@@ -8,5 +8,14 @@
   "urls": [
     "https://www.lapl.org/board-library-commissioners/meetings/blc-meeting-2026-11-12",
     "https://www.lapl.org/sites/default/files/media/document/2026-11/exhibit.pdf"
-  ]
+  ],
+  "summary": "The Board of Library Commissioners will consider approving the Library Department's proposed budget for fiscal year 2027-28, totaling $292,801,679.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "budget approval",
+    "amount": "$292,801,679"
+  }
 }

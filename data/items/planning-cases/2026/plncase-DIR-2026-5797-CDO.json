@@ -8,5 +8,25 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5797-CDO",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5798-EAF"
-  ]
+  ],
+  "summary": "An application would install one illuminated wall sign of about 19 square feet on an existing community health center at 2411 N Broadway in Lincoln Heights. No decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2411 N Broadway, Los Angeles, CA",
+      "lat": 34.073703,
+      "lon": -118.21676,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5797-CDO",
+      "ENV-2026-5798-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles"
+  }
 }

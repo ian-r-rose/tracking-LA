@@ -7,5 +7,27 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5439-EAF\nAddress: 6233 W HOLLYWOOD BLVD\nFiled: 2026-10-20\nCouncil district: 13\nCommunity plan area: Hollywood",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5439-EAF"
-  ]
+  ],
+  "summary": "A planning case was filed for 6233 W Hollywood Blvd in Hollywood. The filing does not describe the project, and no decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6233 W Hollywood Blvd, Los Angeles, CA",
+      "lat": 34.101706,
+      "lon": -118.325467,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5439-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood"
+  },
+  "flag": {
+    "reason": "Planning filing on Hollywood Blvd in Hollywood, a watched neighborhood."
+  }
 }

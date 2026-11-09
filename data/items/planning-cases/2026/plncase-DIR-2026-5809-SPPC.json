@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5809-SPPC",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5810-EAF"
-  ]
+  ],
+  "summary": "An application would change the use of a restaurant at 2930 W Colorado Blvd to a new retail grocery market within the Colorado Blvd Specific Plan. No decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2930 W Colorado Blvd, Los Angeles, CA",
+      "lat": 34.142701,
+      "lon": -118.228718,
+      "neighborhood": "Eagle Rock"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5809-SPPC",
+      "ENV-2026-5810-EAF"
+    ],
+    "council_district": 14,
+    "plan_area": "Northeast Los Angeles",
+    "action": "change of use"
+  },
+  "flag": {
+    "reason": "Change of use on Colorado Blvd in Eagle Rock, a watched neighborhood."
+  }
 }

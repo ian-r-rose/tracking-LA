@@ -1250,6 +1250,12 @@
   "lon": -118.21676,
   "score": 99.02
  },
+ "2411 N Broadway": {
+  "address": "2411 N NORTH BROADWAY, 90031",
+  "lat": 34.073703,
+  "lon": -118.21676,
+  "score": 99.02
+ },
  "2413 N Silver Lake Blvd": {
   "address": "2413 N SILVER LAKE BLVD, 90039",
   "lat": 34.100917,
@@ -1397,6 +1403,12 @@
   "score": 94.24
  },
  "2930 W COLORADO BLVD": {
+  "address": "2930 W COLORADO BLVD, 90041",
+  "lat": 34.142701,
+  "lon": -118.228718,
+  "score": 100
+ },
+ "2930 W Colorado Blvd": {
   "address": "2930 W COLORADO BLVD, 90041",
   "lat": 34.142701,
   "lon": -118.228718,
@@ -2581,6 +2593,12 @@
   "lon": -118.268129,
   "score": 100
  },
+ "806 N Waterloo St": {
+  "address": "806 N WATERLOO ST, 90026",
+  "lat": 34.075755,
+  "lon": -118.268129,
+  "score": 100
+ },
  "808 N Oneonta Dr": {
   "address": "808 W ONEONTA DR, 90065",
   "lat": 34.111362,
@@ -2721,6 +2739,7 @@
   "score": 100
  },
  "8750 W GRACIE ALLEN DR": null,
+ "8750 W Gracie Allen Dr": null,
  "8901 S SEPULVEDA BLVD": {
   "address": "8901 S SEPULVEDA BLVD, 90045",
   "lat": 33.955863,
@@ -2944,6 +2963,7 @@
  },
  "City Hall": null,
  "Debris Basin No. 69": null,
+ "Devonshire Community Police Station": null,
  "Dockweiler Beach Sand Dunes along Vista del Mar": null,
  "Donald Bruce Kaufman Brentwood Branch Library": null,
  "Doran Street": null,
@@ -3136,6 +3156,7 @@
   "lon": -118.389344,
   "score": 99.09
  },
+ "South Traffic Division": null,
  "Southeast Community Police Station": null,
  "Spring Street & Alameda Street": {
   "address": "N NORTH SPRING ST & N ALAMEDA ST, 90012",

@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5490-EAF\nAddress: 7001 W SANTA MONICA BLVD\nFiled: 2026-10-21\nCouncil district: 13\nCommunity plan area: Hollywood\nDescription: A CUP TO ALLOW THE SALE OF A FULL-LINE OF ALCOHOLIC BEVERAGES IN  CONJUNCTION WITH EXISTING RESTAURANT AND EV CHARGING FACILITY OPERATING 24 HOURS.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5490-EAF"
-  ]
+  ],
+  "summary": "A conditional use permit request would allow full-line alcohol sales at the existing restaurant and EV charging facility at 7001 W Santa Monica Blvd, which operates 24 hours. No decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "7001 W Santa Monica Blvd, Los Angeles, CA",
+      "lat": 34.090773,
+      "lon": -118.341686,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5490-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "conditional use permit"
+  },
+  "flag": {
+    "reason": "Alcohol sales request in Hollywood, a watched neighborhood."
+  }
 }

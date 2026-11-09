@@ -7,5 +7,30 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5516-EAF\nAddress: 2810 N HYPERION AVE\nFiled: 2026-10-22\nCouncil district: 4\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley\nDescription: Waiver of Dedication request to waive a 2-foot wide dedication along Hyperion Ave in conjunction with an Expanded Admin Review Density Bonus development in the [Q]C2-1VL.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5516-EAF"
-  ]
+  ],
+  "summary": "A request would waive a 2-foot-wide street dedication along Hyperion Ave at 2810 N Hyperion Ave, filed with a density bonus development reviewed administratively. No decision has been made.",
+  "topics": [
+    "land_use",
+    "housing",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "2810 N Hyperion Ave, Los Angeles, CA",
+      "lat": 34.10808,
+      "lon": -118.271759,
+      "neighborhood": "Silver Lake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5516-EAF"
+    ],
+    "council_district": 4,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "waiver of dedication"
+  },
+  "flag": {
+    "reason": "Street-widening waiver on Hyperion Ave in Silver Lake, a watched neighborhood."
+  }
 }

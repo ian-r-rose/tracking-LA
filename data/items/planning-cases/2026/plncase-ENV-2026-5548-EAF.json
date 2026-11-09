@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ENV-2026-5548-EAF\nAddress: 5214 E MONTE VISTA ST\nFiled: 2026-10-23\nCouncil district: 1\nCommunity plan area: Northeast Los Angeles\nDescription: CU1 to continue non-conforming retail/office use in a residential zone",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5548-EAF"
-  ]
+  ],
+  "summary": "A conditional use request would let an existing retail and office use at 5214 E Monte Vista St continue in a residential zone, where the use does not conform to zoning. No decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5214 E Monte Vista St, Los Angeles, CA",
+      "lat": 34.108554,
+      "lon": -118.200838,
+      "neighborhood": "Highland Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2026-5548-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "action": "conditional use"
+  },
+  "flag": {
+    "reason": "Nonconforming use permit in Highland Park, a watched neighborhood."
+  }
 }

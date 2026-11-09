@@ -8,5 +8,30 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25323",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dfd9e7a7-43b4-4ad0-a631-f3d09bea26f3"
-  ]
+  ],
+  "summary": "The Board of Public Works is asked to award American Integrated Services, Inc. an $11,511,200 contract to build a stormwater capture project at Valley Village Park in Council District 2. The Board would also find two of three contractor transmittals unmerited and receive and file the third.",
+  "topics": [
+    "parks",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Valley Village Park",
+      "lat": 34.161681,
+      "lon": -118.382284,
+      "neighborhood": "Valley Village"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0586"
+    ],
+    "council_district": 2,
+    "action": "contract award",
+    "amount": "$11,511,200",
+    "bureau": "BOE + BCA"
+  },
+  "flag": {
+    "reason": "Contract for a stormwater project at a public park (Valley Village Park)."
+  }
 }

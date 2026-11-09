@@ -7,5 +7,27 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: AA-2025-121-VPM-SL-HCA-1A\nAddress: 806 N WATERLOO ST\nFiled: 2026-11-06\nCouncil district: 13\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2025-121-VPM-SL-HCA-1A"
-  ]
+  ],
+  "summary": "A planning application was filed for 806 N Waterloo St in the Silver Lake - Echo Park - Elysian Valley area. The filing does not describe the project, and no decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "806 N Waterloo St, Los Angeles, CA",
+      "lat": 34.075755,
+      "lon": -118.268129,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2025-121-VPM-SL-HCA-1A"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley"
+  },
+  "flag": {
+    "reason": "Planning filing at 806 N Waterloo St in Echo Park, a watched neighborhood."
+  }
 }
