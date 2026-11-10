@@ -101,6 +101,12 @@
   "lon": -118.447345,
   "score": 100
  },
+ "10460 W TUXFORD ST": {
+  "address": "10460 W TUXFORD ST, 91352",
+  "lat": 34.235468,
+  "lon": -118.358747,
+  "score": 100
+ },
  "1052 West 60th Street": {
   "address": "1052 W 60TH ST, 90044",
   "lat": 33.985803,
@@ -159,6 +165,12 @@
   "address": "10853 N SHARP AVE, 91345",
   "lat": 34.267348,
   "lon": -118.446488,
+  "score": 100
+ },
+ "10949 N BURNET AVE": {
+  "address": "10949 N BURNET AVE, 91345",
+  "lat": 34.268289,
+  "lon": -118.461261,
   "score": 100
  },
  "110 W College St": {
@@ -425,6 +437,12 @@
   "address": "12904 W PALMS BLVD, 90066",
   "lat": 34.006244,
   "lon": -118.44628,
+  "score": 100
+ },
+ "12910 W CULVER BLVD": {
+  "address": "12910 W CULVER BLVD, 90066",
+  "lat": 33.98305,
+  "lon": -118.427231,
   "score": 100
  },
  "12910 W Culver Boulevard": {
@@ -724,6 +742,12 @@
   "lon": -118.244675,
   "score": 100
  },
+ "1612 N GILCREST DR": {
+  "address": "1612 N GILCREST DR, 90210",
+  "lat": 34.100169,
+  "lon": -118.402135,
+  "score": 100
+ },
  "1612 North Blinn Avenue": {
   "address": "1612 N BLINN AVE, 90744",
   "lat": 33.796011,
@@ -818,6 +842,12 @@
   "address": "1710 N CHEROKEE AVE, 90028",
   "lat": 34.102039,
   "lon": -118.334706,
+  "score": 100
+ },
+ "17100 W LABRADOR ST": {
+  "address": "17100 W LABRADOR ST, 91325",
+  "lat": 34.249767,
+  "lon": -118.505315,
   "score": 100
  },
  "17317 West Ventura Boulevard": {
@@ -2014,6 +2044,12 @@
   "lat": 33.979798,
   "lon": -118.265822,
   "score": 100
+ },
+ "5340 E ALDAMA ST": {
+  "address": "5340 N ALDAMA ST, 90042",
+  "lat": 34.113339,
+  "lon": -118.200244,
+  "score": 92.78
  },
  "5345 South Ascot Avenue": {
   "address": "5345 S ASCOT AVE, 90011",
