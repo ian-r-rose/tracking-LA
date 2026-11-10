@@ -105,7 +105,7 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list, lms: 
     run, even when several items share it (a Council File on several agendas).
 
     The LMS's pages are read in a run of their own (`council-files`), since its firewall
-    challenges the Fetch workflow: with `lms`, only they are followed; without, the rest."""
+    challenges most runs: with `lms`, only they are followed; without, the rest."""
     today = date.today()
     followers = [s for s in SOURCES if s.follow_url]
     pages: dict[str, tuple[Source, list[Path]]] = {}
@@ -188,8 +188,8 @@ def outcomes(since_days: int) -> None:
 
 def council_files() -> None:
     """Council Files' pages in the Clerk's LMS: Council's decisions on followed committee
-    items, and report backs. Apart from `outcomes` so it can run somewhere the LMS's
-    firewall doesn't challenge (the routine, not the Fetch workflow)."""
+    items, and report backs. Apart from `outcomes` so that both the Fetch workflow and the
+    routine can run it: the LMS's firewall challenges most runs from either."""
     counts = Counter()
     failed = []
     with http_client(timeout=60) as client:

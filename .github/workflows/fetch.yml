@@ -6,8 +6,9 @@ name: Fetch
 # Claude routine (Mon/Thu 14:00 UTC); the second usually finds nothing new. This runs
 # here rather than in the
 # routine because the routine's sandbox proxy can't reach ens.lacity.org (LADOT, DWP).
-# Council Files' pages in the Clerk's LMS are the exception: its firewall challenges
-# most runs from here, so the routine reads them (tracking-la council-files).
+# Council Files' pages in the Clerk's LMS (tracking-la council-files) are read both here
+# and by the routine: its firewall challenges most runs from either, a challenged run
+# costs one request, and whichever gets through records the data.
 
 on:
   schedule:
@@ -38,6 +39,10 @@ jobs:
         shell: bash
         run: uv run tracking-la outcomes --since 60 2>&1 | tee outcomes.log
         continue-on-error: true
+      - id: council-files
+        shell: bash
+        run: uv run tracking-la council-files 2>&1 | tee council-files.log
+        continue-on-error: true
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
@@ -49,12 +54,12 @@ jobs:
             {
               echo "Fetch $(TZ=America/Los_Angeles date +%F)"
               echo
-              grep -h "failed:\|empty:\|fallback:\|waited:\|pending:" fetch.log outcomes.log || true
+              grep -h "failed:\|empty:\|fallback:\|waited:\|pending:" fetch.log outcomes.log council-files.log || true
             } > msg.txt
             git commit -q -F msg.txt
             git push
           fi
-      - if: steps.fetch.outcome == 'failure' || steps.outcomes.outcome == 'failure'
+      - if: steps.fetch.outcome == 'failure' || steps.outcomes.outcome == 'failure' || steps.council-files.outcome == 'failure'
         run: |
-          grep -h "failed:" fetch.log outcomes.log || true
+          grep -h "failed:" fetch.log outcomes.log council-files.log || true
           exit 1
