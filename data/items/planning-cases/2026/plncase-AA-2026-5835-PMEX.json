@@ -7,5 +7,25 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: AA-2026-5835-PMEX\nAddress: 5340 E ALDAMA ST\nFiled: 2026-11-09\nCouncil district: 1\nCommunity plan area: Northeast Los Angeles\nDescription: Lot Line Adjustment to enlarge Parcel 1 (5346 Aldama) by taking approx. 8,100 sf from the rear of Parcel 2 (5340 Aldama). New area of Parcel 1 is approx. 22,200 sf. New area of Parcel 2 is 6,000 sf.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-5835-PMEX"
-  ]
+  ],
+  "summary": "A lot line adjustment is proposed at 5340 E Aldama St in Northeast Los Angeles. It would move about 8,100 square feet from the rear of 5340 Aldama to enlarge the neighboring lot at 5346 Aldama, and the application, filed November 9, 2026, has not been decided yet.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5340 E Aldama St, Los Angeles, CA",
+      "lat": 34.113339,
+      "lon": -118.200244,
+      "neighborhood": "Highland Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2026-5835-PMEX"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "action": "Lot line adjustment"
+  }
 }
