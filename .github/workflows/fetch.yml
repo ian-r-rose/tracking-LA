@@ -6,6 +6,8 @@ name: Fetch
 # Claude routine (Mon/Thu 14:00 UTC); the second usually finds nothing new. This runs
 # here rather than in the
 # routine because the routine's sandbox proxy can't reach ens.lacity.org (LADOT, DWP).
+# Council Files' pages in the Clerk's LMS are the exception: its firewall challenges
+# most runs from here, so the routine reads them (tracking-la council-files).
 
 on:
   schedule:

@@ -99,10 +99,13 @@ FINAL = re.compile(r"Council action final", re.I)
 FOLLOW_AT_MOST = timedelta(days=365)
 
 
-def followed_outcomes(client: httpx.Client, counts: Counter, failed: list, lms: council.FilePages) -> None:
+def followed_outcomes(client: httpx.Client, counts: Counter, failed: list, lms: council.FilePages | None = None) -> None:
     """Decisions for items that each have a page to follow (Source.follow_url): a Planning
     case's PDIS page, a Council File's LMS page. Each page is fetched once per
-    run, even when several items share it (a Council File on several agendas)."""
+    run, even when several items share it (a Council File on several agendas).
+
+    The LMS's pages are read in a run of their own (`council-files`), since its firewall
+    challenges the Fetch workflow: with `lms`, only they are followed; without, the rest."""
     today = date.today()
     followers = [s for s in SOURCES if s.follow_url]
     pages: dict[str, tuple[Source, list[Path]]] = {}
@@ -113,6 +116,8 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list, lms: 
         for source in followers:
             if not (url := source.follow_url(item)):
                 continue
+            if url.startswith(council.LMS_FILE.format("")) != (lms is not None):
+                break
             o = item.get("outcome")
             final = o and FINAL.search(o["text"])
             stale = o and date.fromisoformat(o["recorded"]) < today - timedelta(days=source.follow_days)
@@ -122,7 +127,7 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list, lms: 
 
     def fetch_page(url):
         try:
-            if url.startswith(council.LMS_FILE.format("")):
+            if lms is not None:
                 return url, lms.get(url)
             resp = client.get(url)
             resp.raise_for_status()
@@ -176,12 +181,27 @@ def outcomes(since_days: int) -> None:
                     counts["records read"] += 1
             except httpx.HTTPError as e:
                 failed.append(f"{source.name}: {e}")
+        followed_outcomes(client, counts, failed)
+    PROCESSED.write_text(json.dumps(processed, indent=1, sort_keys=True) + "\n")
+    finish(counts, failed, "no new journals or minutes")
+
+
+def council_files() -> None:
+    """Council Files' pages in the Clerk's LMS: Council's decisions on followed committee
+    items, and report backs. Apart from `outcomes` so it can run somewhere the LMS's
+    firewall doesn't challenge (the routine, not the Fetch workflow)."""
+    counts = Counter()
+    failed = []
+    with http_client(timeout=60) as client:
         lms = council.FilePages(client)
         followed_outcomes(client, counts, failed, lms)
         reportbacks.update(client, counts, failed, pages=lms)
         lms.report(failed)
-    PROCESSED.write_text(json.dumps(processed, indent=1, sort_keys=True) + "\n")
-    print(", ".join(f"{k}: {v}" for k, v in counts.items()) or "no new journals or minutes")
+    finish(counts, failed, "no Council Files to read")
+
+
+def finish(counts: Counter, failed: list, nothing: str) -> None:
+    print(", ".join(f"{k}: {v}" for k, v in counts.items()) or nothing)
     for failure in failed:
         print(f"  failed: {failure}")
     if failed:
@@ -314,6 +334,7 @@ def main() -> None:
     p.add_argument("--source", choices=[s.name for s in SOURCES], help="Fetch only this source")
     p = sub.add_parser("outcomes", help="Record decisions from journals and minutes of past meetings")
     p.add_argument("--since", type=int, default=60, metavar="DAYS")
+    sub.add_parser("council-files", help="Record Council's decisions and report backs from Council Files' pages in the Clerk's LMS")
     p = sub.add_parser("decisions", help="List recorded outcomes not yet reported in a digest")
     p.add_argument("--date", default=la_today(), help="Digest date; outcomes already in it are listed too (default: today in LA)")
     sub.add_parser("check", help="Validate item files (run after extraction)")
@@ -344,6 +365,8 @@ def main() -> None:
         mark_digested(args.date)
     elif args.command == "outcomes":
         outcomes(args.since)
+    elif args.command == "council-files":
+        council_files()
     elif args.command == "decisions":
         decisions(args.date)
     elif args.command == "report-backs":

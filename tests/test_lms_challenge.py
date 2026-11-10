@@ -80,3 +80,22 @@ def test_a_challenge_leaves_report_backs_alone(tmp_path):
     reportbacks.update(client(lambda request: challenge()), Counter(), failed, date(2026, 11, 2), tmp_path)
     assert json.loads(path.read_text()) == record
     assert len(failed) == 1 and "firewall" in failed[0]
+
+
+def test_the_fetch_workflows_outcomes_leave_the_lms_alone(tmp_path, monkeypatch):
+    # Council File pages are read by `council-files`, where the firewall doesn't challenge.
+    path = tmp_path / "items" / "council-plum" / "2026" / "item.json"
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps({"id": "item", "body": "council-plum", "meeting_date": date.today().isoformat(), "text": "", "urls": ["agenda", URL]}))
+    monkeypatch.setattr(cli, "DATA", tmp_path)
+    requests = []
+
+    def respond(request):
+        requests.append(request)
+        return httpx.Response(200, text=PAGE)
+
+    with client(respond) as http:
+        cli.followed_outcomes(http, Counter(), [])
+        assert not requests
+        cli.followed_outcomes(http, Counter(), [], council.FilePages(http))
+        assert [str(r.url) for r in requests] == [URL]

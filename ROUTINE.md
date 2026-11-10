@@ -4,9 +4,21 @@ Instructions for the scheduled Claude Code routine that keeps `data/` up to date
 
 ## 1. Fetched data
 
-The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (02:17 and 06:43 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some City sites. Don't run `tracking-la fetch` or `tracking-la outcomes` here. If `uv run` hangs (it can, reaching for the package index from this sandbox), use `uv run --offline`.
+The **Fetch** GitHub workflow (`.github/workflows/fetch.yml`) fetches agendas and records outcomes from journals and minutes, then commits them as `Fetch YYYY-MM-DD`. It runs daily in the early morning (02:17 and 06:43 UTC), hours before this routine. It runs there because this routine's sandbox can't reach some City sites. Don't run `tracking-la fetch` or `tracking-la outcomes` here; the one fetch this routine does itself is Council Files, below. If `uv run` hangs (it can, reaching for the package index from this sandbox), use `uv run --offline`.
 
 Check the Fetch commits since the last `Digest` commit (`git log --format='%h %s%n%b' <last digest commit>..HEAD`). If any lists failed sources, name them in the digest's intro (a source that failed once and then succeeded doesn't need a mention). If there's no Fetch commit from today, the workflow either failed or found nothing new; mention it in your final summary. An `empty:` line means an agenda produced no items, which can be a changed agenda format; mention those in your final summary too, not in the digest. A `pending:` line means the Zoo's Animal Updates report wasn't on lazoo.org yet, or lazoo.org refused the fetch; later fetches retry it, so mention it in your final summary only if it has repeated for a week. A `fallback:` line means Rec & Parks' site refused the fetch and its agendas came from ens.lacity.org, without minutes or extra documents; mention it in your final summary.
+
+### Council Files
+
+Council's decisions on committee items, and report backs, come from each Council File's page in the City Clerk's Legislative Management System (lms.lacity.gov). Its firewall challenges most requests from the Fetch workflow, so this routine reads those pages, before anything else touches `data/`:
+
+```
+uv run tracking-la council-files
+```
+
+It needs `pdftotext`; if that's missing, install it first (`apt-get install -y poppler-utils`). Run the command once. Then commit whatever it changed under `data/` as `Fetch YYYY-MM-DD (Council Files)`, with its `failed:` lines in the commit body, before going on: `tracking-la check` compares against the last commit, so fetched data has to be committed before you edit anything.
+
+If it prints a `failed:` line saying the firewall challenged the fetch, the pages weren't read and what's recorded stands. Don't run it again, and don't try to reach the LMS any other way (another tool, another User-Agent, a browser). Go on with the digest and say in its intro that Council decisions and report backs may be out of date. Other `failed:` lines (a document that couldn't be downloaded, a page that isn't a Council File page) go in your final summary.
 
 ## 2. Extract (Haiku subagents)
 
