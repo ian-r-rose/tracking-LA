@@ -676,6 +676,12 @@
   "lon": -118.453366,
   "score": 92.94
  },
+ "1489 W SUNSET BLVD 1-5": {
+  "address": "1489 W SUNSET BLVD, 90026",
+  "lat": 34.075732,
+  "lon": -118.254807,
+  "score": 92.94
+ },
  "1500 North Vermont": {
   "address": "1500 N VERMONT AVE, 90027",
   "lat": 34.098214,
@@ -1297,6 +1303,12 @@
   "lat": 34.09164,
   "lon": -118.232789,
   "score": 99.06
+ },
+ "25 W WESTWIND ST": {
+  "address": "25 E WESTWIND ST, 90292",
+  "lat": 33.967083,
+  "lon": -118.456356,
+  "score": 93.72
  },
  "2500 South Vermont": {
   "address": "2500 S VERMONT AVE, 90007",
@@ -2038,6 +2050,12 @@
   "lat": 34.108554,
   "lon": -118.200838,
   "score": 92.78
+ },
+ "5214 N VAN NUYS BLVD": {
+  "address": "5214 N VAN NUYS BLVD, 91401",
+  "lat": 34.165217,
+  "lon": -118.448655,
+  "score": 100
  },
  "523 East 66th Street": {
   "address": "523 E 66TH ST, 90003",
