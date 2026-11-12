@@ -33,5 +33,12 @@
   },
   "flag": {
     "reason": "Contract for a stormwater project at a public park (Valley Village Park)."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25395",
+    "vote": "4-0",
+    "recorded": "2026-11-12"
   }
 }
