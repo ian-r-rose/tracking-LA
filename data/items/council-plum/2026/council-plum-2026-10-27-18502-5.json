@@ -46,8 +46,9 @@
   },
   "outcome": {
     "status": "denied",
-    "text": "Planning and Land Use Management Committee action: Disapproved: DENIED the appeal, and thereby SUSTAINED the determination of the East Los Angeles Area Planning Commission (ELAAPC) as detailed in the ELAAPC report dated September 10, 2026 (Oct 28, 2026)",
+    "text": "Planning and Land Use Management Committee action: Disapproved: DENIED the appeal, and thereby SUSTAINED the determination of the East Los Angeles Area Planning Commission (ELAAPC) as detailed in the ELAAPC report dated September 10, 2026 (Oct 28, 2026); Council action: Adopted (Nov 6, 2026); Council action final",
     "source": "https://lms.lacity.gov/files/26-1311",
-    "recorded": "2026-11-02"
+    "vote": "13-0-2",
+    "recorded": "2026-11-12"
   }
 }

@@ -44,8 +44,9 @@
   },
   "outcome": {
     "status": "approved",
-    "text": "Planning and Land Use Management Committee action: Approved (Oct 28, 2026)",
+    "text": "Planning and Land Use Management Committee action: Approved (Oct 28, 2026); Council action: Adopted (Nov 6, 2026); Council action final",
     "source": "https://lms.lacity.gov/files/26-1288",
-    "recorded": "2026-11-02"
+    "vote": "13-0-2",
+    "recorded": "2026-11-12"
   }
 }
