@@ -8,5 +8,19 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25371",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e37b3e78-b847-49d5-9015-77892b7e06a4"
-  ]
+  ],
+  "summary": "The Board of Public Works is recommending that the Mayor and City Council authorize new exclusive recycLA 2.0 franchise contracts for commercial and some multifamily trash and recycling collection, awarding six haulers service zones in specified parts of the city. It also asks the City to accept an environmental addendum and directs the Bureau of Sanitation to manage the switch from current recycLA agreements.",
+  "topics": [
+    "environment",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Sanitation",
+    "applicant": "Arakelian Enterprises, Inc. (dba Athens Services); NASA Services, Inc.; Consolidated Disposal Service, LLC (dba Republic Services); Ware Disposal, Inc.; Universal Waste Systems, Inc.; USA Waste of California, Inc. (dba Waste Management)",
+    "action": "Approve recycLA 2.0 exclusive franchise contract awards"
+  },
+  "flag": {
+    "reason": "Citywide change in who collects commercial and multifamily trash and recycling."
+  }
 }

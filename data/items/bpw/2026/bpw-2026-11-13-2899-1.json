@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25371",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=4c3304c1-32bf-4b3a-a073-176c04cb9f35"
-  ]
+  ],
+  "summary": "The Board of Public Works is asking to advertise bids for traffic signal improvements under Vision Zero Phase 2H, Backlog Reduction Phase 3 and Reap 2.0, covering nine council districts. The estimate is $17,759,497, and bids are due December 16, 2026.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "amount": "$17,759,497",
+    "action": "Authorize invitation for bids on traffic signal improvements"
+  }
 }

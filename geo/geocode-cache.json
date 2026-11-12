@@ -173,6 +173,12 @@
   "lon": -118.461261,
   "score": 100
  },
+ "10990 West Pico Boulevard": {
+  "address": "10990 W PICO BLVD, 90064",
+  "lat": 34.038345,
+  "lon": -118.432082,
+  "score": 100
+ },
  "110 W College St": {
   "address": "110 W COLLEGE ST, 90012",
   "lat": 34.062772,
@@ -307,6 +313,12 @@
   "lon": -118.234928,
   "score": 100
  },
+ "11725 West Sunset Boulevard": {
+  "address": "11725 W SUNSET BLVD, 90049",
+  "lat": 34.064721,
+  "lon": -118.470642,
+  "score": 100
+ },
  "119 West Jefferson Boulevard": {
   "address": "119 W JEFFERSON BLVD, 90007",
   "lat": 34.019033,
@@ -434,6 +446,12 @@
   "score": 100
  },
  "12904 W PALMS BLVD": {
+  "address": "12904 W PALMS BLVD, 90066",
+  "lat": 34.006244,
+  "lon": -118.44628,
+  "score": 100
+ },
+ "12904 West Palms Boulevard": {
   "address": "12904 W PALMS BLVD, 90066",
   "lat": 34.006244,
   "lon": -118.44628,
@@ -676,11 +694,23 @@
   "lon": -118.453366,
   "score": 92.94
  },
+ "1481 North Blue Jay Way": {
+  "address": "1481 N BLUE JAY WAY, 90069",
+  "lat": 34.09904,
+  "lon": -118.386548,
+  "score": 100
+ },
  "1489 W SUNSET BLVD 1-5": {
   "address": "1489 W SUNSET BLVD, 90026",
   "lat": 34.075732,
   "lon": -118.254807,
   "score": 92.94
+ },
+ "1489 West Sunset Boulevard": {
+  "address": "1489 W SUNSET BLVD, 90026",
+  "lat": 34.075732,
+  "lon": -118.254807,
+  "score": 100
  },
  "1500 North Vermont": {
   "address": "1500 N VERMONT AVE, 90027",
@@ -1304,6 +1334,18 @@
   "lon": -118.232789,
   "score": 99.06
  },
+ "2445 North Beverly Glen Boulevard": {
+  "address": "2445 N BEVERLY GLEN BLVD, 90077",
+  "lat": 34.113425,
+  "lon": -118.446572,
+  "score": 100
+ },
+ "2461 North Beverly Glen Boulevard": {
+  "address": "2461 N BEVERLY GLEN BLVD, 90077",
+  "lat": 34.113733,
+  "lon": -118.446555,
+  "score": 100
+ },
  "25 W WESTWIND ST": {
   "address": "25 E WESTWIND ST, 90292",
   "lat": 33.967083,
@@ -1338,6 +1380,12 @@
   "address": "261 S KENMORE AVE, 90004",
   "lat": 34.0699,
   "lon": -118.296726,
+  "score": 100
+ },
+ "2621 North Johnston Street": {
+  "address": "2621 N JOHNSTON ST, 90031",
+  "lat": 34.077433,
+  "lon": -118.210511,
   "score": 100
  },
  "2658 South Harvard Boulevard": {
@@ -1665,6 +1713,12 @@
   "lat": 34.061645,
   "lon": -118.306671,
   "score": 99.06
+ },
+ "3701 North Glenridge Drive": {
+  "address": "3701 N GLENRIDGE DR, 91423",
+  "lat": 34.138395,
+  "lon": -118.432312,
+  "score": 100
  },
  "3701 S INGLEWOOD BLVD": {
   "address": "3701 S INGLEWOOD BLVD, 90066",
@@ -2015,6 +2069,12 @@
   "lon": -118.302415,
   "score": 100
  },
+ "516 North Carmelina Avenue": {
+  "address": "516 N CARMELINA AVE, 90049",
+  "lat": 34.06461,
+  "lon": -118.48626,
+  "score": 100
+ },
  "520 W 120TH ST": {
   "address": "520 W 120TH ST, 90044",
   "lat": 33.923649,
@@ -2236,6 +2296,12 @@
   "address": "6023 W RODGERTON DR, 90068",
   "lat": 34.125701,
   "lon": -118.318128,
+  "score": 100
+ },
+ "603 West Pacific Coast Highway": {
+  "address": "603 W PACIFIC COAST HWY, 90744",
+  "lat": 33.791046,
+  "lon": -118.286553,
   "score": 100
  },
  "6033 West Century Boulevard": {
@@ -2575,6 +2641,12 @@
   "lon": -118.409793,
   "score": 99.06
  },
+ "7550 Bellaire Avenue": {
+  "address": "7550 N BELLAIRE AVE, 91605",
+  "lat": 34.20784,
+  "lon": -118.409856,
+  "score": 99.06
+ },
  "7556 North Woodlake Avenue": {
   "address": "7556 N WOODLAKE AVE, 91304",
   "lat": 34.207234,
@@ -2828,6 +2900,12 @@
   "address": "900 S HILL ST, 90015",
   "lat": 34.042943,
   "lon": -118.257135,
+  "score": 100
+ },
+ "9000 West Hopen Place": {
+  "address": "9000 W HOPEN PL, 90069",
+  "lat": 34.099373,
+  "lon": -118.386731,
   "score": 100
  },
  "902 W WASHINGTON BLVD": {

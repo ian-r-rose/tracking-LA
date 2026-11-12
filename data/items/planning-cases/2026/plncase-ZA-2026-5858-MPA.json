@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-5858-MPA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5859-EAF"
-  ]
+  ],
+  "summary": "A new application to sell beer and wine for on-site drinking at a planned restaurant at 1489 West Sunset Boulevard in the Silver Lake – Echo Park – Elysian Valley area. This is a filing only, and no decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1489 West Sunset Boulevard, Los Angeles, CA",
+      "lat": 34.075732,
+      "lon": -118.254807,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-5858-MPA",
+      "ENV-2026-5859-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "Beer and wine sales for on-site consumption (MPA)"
+  },
+  "flag": {
+    "reason": "New alcohol application in Echo Park, a watched neighborhood."
+  }
 }

@@ -7,5 +7,23 @@
   "text": "[C. PUBLIC NUISANCE HEARINGS regarding the abatement of vacant buildings or structures that are]\n2621 NORTH JOHNSTON STREET; BOARD FILE NO. 260081\n  C.D.: 1 (Councilmember Eunisses Hernandez); North East Los Angeles Planning Area\n\n  STAFF MEMBER:  Zeydi Stewart\n  BUREAU/DIVISION:  Code Enforcement/Vacant Building Abatement\n\n  OWNER:  Francisco Gonzalez & Kathy Dominguez\n\n  SUBJECT:\n\n  The Department of Building and Safety (LADBS) requests that the Board of Building and\n  Safety Commissioners (BBSC) determine that the subject property, a fire-damaged, one-story,\n  single-family, that is continually breached and left open to unauthorized entry, constitutes a public\n  nuisance.\n\n  ACTION BY THE BBSC IS NOT APPEALABLE.",
   "urls": [
     "https://ens.lacity.org/ladbs/commagendas/ladbscommagendas253201422_11172026.pdf"
-  ]
+  ],
+  "summary": "The Board of Building and Safety Commissioners will decide whether a fire-damaged, vacant single-family house at 2621 North Johnston Street in the North East Los Angeles area, which is continually breached and left open to unauthorized entry, is a public nuisance. The board's decision is not appealable.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "2621 North Johnston Street, Los Angeles, CA",
+      "lat": 34.077433,
+      "lon": -118.210511,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "council_district": 1,
+    "plan_area": "North East Los Angeles",
+    "action": "Determination of public nuisance for vacant fire-damaged house",
+    "bureau": "Code Enforcement/Vacant Building Abatement"
+  }
 }

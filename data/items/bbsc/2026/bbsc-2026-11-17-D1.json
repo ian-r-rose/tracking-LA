@@ -7,5 +7,34 @@
   "text": "[D. PUBLIC HEARINGS regarding EXPORT-IMPORT applications pursuant to Section 91.7006.7.5]\n9000 WEST HOPEN PLACE & 1481 NORTH BLUE JAY WAY; BOARD FILE NO. 250902\n  C.D.: 4 (Councilmember Nithya Raman); Hollywood Planning Area\n  **(Continued from October 20, 2026 Hearing)**\n\n  STAFF MEMBER:  Joaquin Greenough\n  BUREAU/DIVISION:  Inspection/Grading\n\n  APPLICANT:  Jimmy Toetz\n\n  Consideration of Application to export 3,619.2 cubic yards of earth from the project site; and\n  consideration whether the project is categorically exempt under CEQA pursuant to Sections 15301\n  (Class 1) and 15303 (Class 3) of the California Environmental Quality Act (CEQA) Guidelines (Case\n  No. ENV-2025-878-CE), and there is no substantial evidence demonstrating that an exception to a\n  categorical exemption pursuant to CEQA Guidelines, Section 15300.2 applies.\n\n  ACTION BY THE BBSC IS APPEALABLE TO THE CITY COUNCIL WITHIN TEN DAYS PURSUANT TO\n  SECTION 91.7006.7.5.",
   "urls": [
     "https://ens.lacity.org/ladbs/commagendas/ladbscommagendas253201422_11172026.pdf"
-  ]
+  ],
+  "summary": "The Board of Building and Safety Commissioners will consider an application to export 3,619.2 cubic yards of earth from 9000 West Hopen Place and 1481 North Blue Jay Way in the Hollywood area, and whether the project is exempt from environmental review.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "9000 West Hopen Place, Los Angeles, CA",
+      "lat": 34.099373,
+      "lon": -118.386731,
+      "neighborhood": "Hollywood Hills West"
+    },
+    {
+      "text": "1481 North Blue Jay Way, Los Angeles, CA",
+      "lat": 34.09904,
+      "lon": -118.386548,
+      "neighborhood": "Hollywood Hills West"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2025-878-CE"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood",
+    "applicant": "Jimmy Toetz",
+    "action": "Export of earth from project site",
+    "amount": "3,619.2 cubic yards",
+    "bureau": "Inspection/Grading"
+  }
 }

@@ -8,5 +8,27 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81710",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/11-18-2026/ZA_2026_1432_Compiled_Agenda_Packet.pdf"
-  ]
+  ],
+  "summary": "The West Los Angeles Area Planning Commission will hear appeals of a Zoning Administrator approval that lets a restaurant at 12904–12910 West Palms Boulevard in Palms serve a full line of alcohol for on-site drinking. The appellants challenge that approval and the environmental exemption that went with it.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "12904 West Palms Boulevard, Los Angeles, CA",
+      "lat": 34.006244,
+      "lon": -118.44628,
+      "neighborhood": "Mar Vista"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-1432-CUB-1A",
+      "ENV-2026-1433-CE"
+    ],
+    "council_district": 11,
+    "plan_area": "Palms – Mar Vista – Del Rey",
+    "applicant": "Jeremy Adler, 3rd Place, LLC, Beethoven Market",
+    "action": "Appeal of conditional use for full-line alcohol sales for on-site consumption"
+  }
 }

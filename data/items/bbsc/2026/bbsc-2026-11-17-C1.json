@@ -7,5 +7,23 @@
   "text": "[C. PUBLIC NUISANCE HEARINGS regarding the abatement of vacant buildings or structures that are]\n603 WEST PACIFIC COAST HIGHWAY; BOARD FILE NO. 260080\n  C.D.: 15 (Councilmember Tim McOsker); Wilmington – Harbor City Planning Area\n\n  STAFF MEMBER:  Zeydi Stewart\n  BUREAU/DIVISION:  Code Enforcement/Vacant Building Abatement\n\n  OWNER:  Inchu and Taesuk Mun\n\n  SUBJECT:\n\n  The Department of Building and Safety (LADBS) requests that the Board of Building and\n  Safety Commissioners (BBSC) determine that the subject property, a one-story, commercial\n  building that is continually breached and left open to unauthorized entry, constitutes a public\n  nuisance.\n\n  ACTION BY THE BBSC IS NOT APPEALABLE.",
   "urls": [
     "https://ens.lacity.org/ladbs/commagendas/ladbscommagendas253201422_11172026.pdf"
-  ]
+  ],
+  "summary": "The Board of Building and Safety Commissioners will decide whether a one-story commercial building at 603 West Pacific Coast Highway in Wilmington, which is continually breached and left open to unauthorized entry, is a public nuisance. The board's decision is not appealable.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "603 West Pacific Coast Highway, Los Angeles, CA",
+      "lat": 33.791046,
+      "lon": -118.286553,
+      "neighborhood": "Harbor City"
+    }
+  ],
+  "details": {
+    "council_district": 15,
+    "plan_area": "Wilmington – Harbor City",
+    "action": "Determination of public nuisance for vacant commercial building",
+    "bureau": "Code Enforcement/Vacant Building Abatement"
+  }
 }

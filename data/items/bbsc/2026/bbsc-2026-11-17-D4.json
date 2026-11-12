@@ -7,5 +7,26 @@
   "text": "[D. PUBLIC HEARINGS regarding EXPORT-IMPORT applications pursuant to Section 91.7006.7.5]\n11725 & 11731 WEST SUNSET BOULEVARD, 141 NORTH BARRINGTON AVENUE & 11728-11820\n  WEST CHAPARAL STREET; BOARD FILE NO. 260054\n  C.D.: 11 (Councilmember Traci Park); Brentwood – Pacific Palisades Planning Area\n\n  STAFF MEMBER:  Joaquin Greenough\n  BUREAU/DIVISION:  Inspection/Grading\n\n  APPLICANT:  Kimberlina Whettam & Associates\n\n  Consideration of Application to export 12,500 cubic yards of earth from the project site; and\n  consideration of whether to accept the associated Environmental Impact Report (EIR) No. ENV-\n  2011-2689-EIR, SCH No. 2012011001, certified on April 23, 2015; and pursuant to the State\n  California Environmental Quality Act (CEQA) Guidelines Sections 15162 and 15164, no subsequent\n  EIR or addendum is required for approval of the Project.\n\n  ACTION BY THE BBSC IS APPEALABLE TO THE CITY COUNCIL WITHIN TEN DAYS PURSUANT TO\n  SECTION 91.7006.7.5.",
   "urls": [
     "https://ens.lacity.org/ladbs/commagendas/ladbscommagendas253201422_11172026.pdf"
-  ]
+  ],
+  "summary": "The Board of Building and Safety Commissioners will consider an export of 12,500 cubic yards of earth from properties at 11725 and 11731 West Sunset Boulevard and nearby sites in Brentwood – Pacific Palisades. It will also decide whether an existing environmental impact report covers the project, so no new environmental review is needed.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "11725 West Sunset Boulevard, Los Angeles, CA",
+      "lat": 34.064721,
+      "lon": -118.470642,
+      "neighborhood": "Brentwood"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "plan_area": "Brentwood – Pacific Palisades",
+    "applicant": "Kimberlina Whettam & Associates",
+    "action": "Earth export and acceptance of existing EIR",
+    "amount": "12,500 cubic yards",
+    "bureau": "Inspection/Grading"
+  }
 }

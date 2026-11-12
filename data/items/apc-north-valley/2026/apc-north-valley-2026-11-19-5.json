@@ -8,5 +8,28 @@
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81709",
     "https://planning.lacity.gov/plndoc/Staff_Reports/2026/11-19-2026/APCNV_2024_3631.pdf"
-  ]
+  ],
+  "summary": "The North Valley Area Planning Commission will consider rezoning 7550–7554 Bellaire Avenue in Sun Valley from RA-1 to (T)R1-1 and splitting the property into two lots. The plan allows two homes with detached accessory dwelling units on the Bellaire Avenue lot, and the other lot would stay vacant.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "7550 Bellaire Avenue, Los Angeles, CA",
+      "lat": 34.20784,
+      "lon": -118.409856,
+      "neighborhood": "Sun Valley"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCNV-2024-3631-ZC-HCA",
+      "ENV-2024-3633-CE"
+    ],
+    "council_district": 2,
+    "plan_area": "Sun Valley – La Tuna Canyon",
+    "applicant": "Zhirayr Vandanyan and Artur Martirosyan",
+    "action": "Zone change and parcel map to split one lot into two"
+  }
 }

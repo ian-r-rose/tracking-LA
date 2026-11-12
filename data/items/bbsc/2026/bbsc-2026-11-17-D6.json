@@ -7,5 +7,30 @@
   "text": "[D. PUBLIC HEARINGS regarding EXPORT-IMPORT applications pursuant to Section 91.7006.7.5]\n2445-2459 NORTH BEVERLY GLEN BOULEVARD & 2464 NORTH LATIMER LANE; BOARD FILE\n  NO. 260067\n  C.D.: 5 (Councilmember Katy Young Yaroslavsky); Bel Air – Beverly Crest Planning Area\n\n  STAFF MEMBER:  Justin Brand\n  BUREAU/DIVISION:  Inspection/Grading\n\n  APPLICANT:  Austin Chavira – Salt & Timber Consulting\n\n  Consideration of Application to export 2,461 cubic yards of earth from the project site;\n  and determine in the independent judgment of the decisionmaker, pursuant to CEQA Guidelines\n  Section 15168(c), based on the whole of the administrative record, including the Housing Element\n  Checklist, and all its appendices, prepared for this Proposed Housing Project, the Proposed\n  Housing Project is within the scope of the program approved with the 2021-2029 Housing Element\n  for which the 2021-2029 Housing Element Environmental Impact Report No. ENV-2020-6762-EIR;\n  SCH No. 2021010130 (EIR), was certified on November 24, 2021, and Addendum No. ENV-2020-\n  6762-EIR-ADD1 was adopted on June 14, 2022 and the Addendum No. ENV-2020-6762-EIR-ADD2\n  was adopted on December 10, 2024, the Proposed Housing Development project was adequately\n  described in the EIR, and the impacts of the Proposed Housing Project are within the scope of the\n  EIR and the Addendum; and ADOPT the Mitigation Monitoring Program (MMP) for the Proposed\n  Housing Project.\n\n  ACTION BY THE BBSC IS APPEALABLE TO THE CITY COUNCIL WITHIN TEN DAYS PURSUANT TO\n  SECTION 91.7006.7.5.",
   "urls": [
     "https://ens.lacity.org/ladbs/commagendas/ladbscommagendas253201422_11172026.pdf"
-  ]
+  ],
+  "summary": "The Board of Building and Safety Commissioners will consider an export of 2,461 cubic yards of earth from 2445–2459 North Beverly Glen Boulevard in Bel Air – Beverly Crest, and whether a proposed housing project there falls within the city's 2021–2029 Housing Element environmental review. It will also consider adopting the project's mitigation monitoring program.",
+  "topics": [
+    "land_use",
+    "housing",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "2445 North Beverly Glen Boulevard, Los Angeles, CA",
+      "lat": 34.113425,
+      "lon": -118.446572,
+      "neighborhood": "Beverly Crest"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2020-6762-EIR"
+    ],
+    "council_district": 5,
+    "plan_area": "Bel Air – Beverly Crest",
+    "applicant": "Austin Chavira – Salt & Timber Consulting",
+    "action": "Earth export and CEQA review for proposed housing project",
+    "amount": "2,461 cubic yards",
+    "bureau": "Inspection/Grading"
+  }
 }
