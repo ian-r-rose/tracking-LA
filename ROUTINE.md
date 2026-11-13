@@ -16,9 +16,9 @@ Council's decisions on committee items, and report backs, come from each Council
 uv run tracking-la council-files
 ```
 
-It needs `pdftotext`; if that's missing, install it first (`apt-get install -y poppler-utils`). Run the command once. Then commit whatever it changed under `data/` as `Fetch YYYY-MM-DD (Council Files)`, with its `failed:` lines in the commit body, before going on: `tracking-la check` compares against the last commit, so fetched data has to be committed before you edit anything.
+It needs `pdftotext`; if that's missing, install it first (`apt-get install -y poppler-utils`). Run the command once. Then commit whatever it changed under `data/` as `Fetch YYYY-MM-DD (Council Files)`, with its `failed:` and `challenged:` lines in the commit body, before going on: `tracking-la check` compares against the last commit, so fetched data has to be committed before you edit anything.
 
-If it prints a `failed:` line saying the firewall challenged the fetch, the pages weren't read and what's recorded stands. Don't run it again, and don't try to reach the LMS any other way (another tool, another User-Agent, a browser). Go on with the digest and say in its intro that Council decisions and report backs may be out of date. Other `failed:` lines (a document that couldn't be downloaded, a page that isn't a Council File page) go in your final summary.
+If it prints a `challenged:` line (or, once no run has got through for a week, a `failed:` line saying the firewall challenged the fetch), the pages weren't read and what's recorded stands. Don't run it again, and don't try to reach the LMS any other way (another tool, another User-Agent, a browser). Go on with the digest and say in its intro that Council decisions and report backs may be out of date. Other `failed:` lines (a document that couldn't be downloaded, a page that isn't a Council File page) go in your final summary.
 
 ## 2. Extract (Haiku subagents)
 

@@ -8,7 +8,8 @@ name: Fetch
 # routine because the routine's sandbox proxy can't reach ens.lacity.org (LADOT, DWP).
 # Council Files' pages in the Clerk's LMS (tracking-la council-files) are read both here
 # and by the routine: its firewall challenges most runs from either, a challenged run
-# costs one request, and whichever gets through records the data.
+# costs one request, and whichever gets through records the data. A challenged run
+# doesn't fail the job unless none has got through for a week (data/lms-read.json).
 
 on:
   schedule:
@@ -54,7 +55,7 @@ jobs:
             {
               echo "Fetch $(TZ=America/Los_Angeles date +%F)"
               echo
-              grep -h "failed:\|empty:\|fallback:\|waited:\|pending:" fetch.log outcomes.log council-files.log || true
+              grep -h "failed:\|empty:\|fallback:\|waited:\|pending:\|challenged:" fetch.log outcomes.log council-files.log || true
             } > msg.txt
             git commit -q -F msg.txt
             git push

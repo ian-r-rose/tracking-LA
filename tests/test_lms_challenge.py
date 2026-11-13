@@ -3,7 +3,7 @@ body and an x-amzn-waf-action header."""
 
 import json
 from collections import Counter
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import httpx
@@ -99,3 +99,34 @@ def test_the_fetch_workflows_outcomes_leave_the_lms_alone(tmp_path, monkeypatch)
         assert not requests
         cli.followed_outcomes(http, Counter(), [], council.FilePages(http))
         assert [str(r.url) for r in requests] == [URL]
+
+
+def run_council_files(tmp_path, monkeypatch, respond, capsys):
+    (tmp_path / "items").mkdir(exist_ok=True)
+    path = tmp_path / "items" / "council-plum" / "2026" / "item.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"id": "item", "body": "council-plum", "meeting_date": date.today().isoformat(), "text": "", "urls": ["agenda", URL]}))
+    monkeypatch.setattr(cli, "DATA", tmp_path)
+    monkeypatch.setattr(cli.reportbacks, "update", lambda client, counts, failed, pages: None)
+    monkeypatch.setattr(cli, "http_client", lambda **kwargs: client(respond))
+    cli.council_files()
+    return capsys.readouterr().out
+
+
+def test_a_challenged_run_is_a_warning_while_runs_still_get_through(tmp_path, monkeypatch, capsys):
+    (tmp_path / "lms-read.json").write_text(json.dumps({"read": (date.today() - timedelta(days=3)).isoformat()}))
+    out = run_council_files(tmp_path, monkeypatch, lambda request: challenge(), capsys)
+    assert "challenged: lms.lacity.gov" in out and "failed:" not in out
+
+
+def test_a_week_of_challenges_is_a_failure(tmp_path, monkeypatch, capsys):
+    last = (date.today() - timedelta(days=8)).isoformat()
+    (tmp_path / "lms-read.json").write_text(json.dumps({"read": last}))
+    with pytest.raises(SystemExit):
+        run_council_files(tmp_path, monkeypatch, lambda request: challenge(), capsys)
+    assert f"none have been read since {last}" in capsys.readouterr().out
+
+
+def test_a_run_that_gets_through_is_remembered(tmp_path, monkeypatch, capsys):
+    run_council_files(tmp_path, monkeypatch, lambda request: httpx.Response(200, text=PAGE), capsys)
+    assert json.loads((tmp_path / "lms-read.json").read_text()) == {"read": date.today().isoformat()}

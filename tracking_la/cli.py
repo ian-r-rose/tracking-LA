@@ -186,22 +186,39 @@ def outcomes(since_days: int) -> None:
     finish(counts, failed, "no new journals or minutes")
 
 
+# How long the LMS's firewall can keep Council File pages back before it's a failure.
+LMS_PATIENCE = timedelta(days=7)
+
+
 def council_files() -> None:
     """Council Files' pages in the Clerk's LMS: Council's decisions on followed committee
     items, and report backs. Apart from `outcomes` so that both the Fetch workflow and the
-    routine can run it: the LMS's firewall challenges most runs from either."""
+    routine can run it: the LMS's firewall challenges most runs from either.
+
+    A challenged run is the usual one, so it's reported (`challenged:`) without failing,
+    as long as some run got through lately: data/lms-read.json has the last day one did."""
     counts = Counter()
-    failed = []
+    failed, challenged = [], []
     with http_client(timeout=60) as client:
         lms = council.FilePages(client)
         followed_outcomes(client, counts, failed, lms)
         reportbacks.update(client, counts, failed, pages=lms)
-        lms.report(failed)
-    finish(counts, failed, "no Council Files to read")
+        lms.report(challenged)
+    last_read = DATA / "lms-read.json"
+    today = date.today()
+    if not challenged:
+        last_read.write_text(json.dumps({"read": today.isoformat()}) + "\n")
+    else:
+        last = date.fromisoformat(json.loads(last_read.read_text())["read"]) if last_read.exists() else None
+        if not last or today - last > LMS_PATIENCE:
+            failed.append(f"{challenged.pop()}; none have been read since {last or 'this started keeping track'}")
+    finish(counts, failed, "no Council Files to read", challenged)
 
 
-def finish(counts: Counter, failed: list, nothing: str) -> None:
+def finish(counts: Counter, failed: list, nothing: str, challenged: tuple | list = ()) -> None:
     print(", ".join(f"{k}: {v}" for k, v in counts.items()) or nothing)
+    for challenge in challenged:
+        print(f"  challenged: {challenge}")
     for failure in failed:
         print(f"  failed: {failure}")
     if failed:
