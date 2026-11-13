@@ -1,0 +1,906 @@
+{
+ "upcoming": [
+  {
+   "name": "Civil Rights, Immigration, Social Services, and Neighborhoods Committee",
+   "body": "civil-rights-immigration-social-services-and-neighborhoods-committee",
+   "startsAt": "2026-11-13T16:30:00.000Z",
+   "date": "2026-11-13",
+   "time": "8:30 AM",
+   "meetingType": "regular",
+   "status": "cancelled",
+   "statusLabels": [
+    "Cancelled"
+   ],
+   "agendaTitle": null,
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-13-civil-rights-immigration-social-services-and-neighborhoods-committee",
+   "agendaPdfUrl": null,
+   "agendas": [
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-11-13-civil-rights-immigration-social-services-and-neighborhoods-committee",
+     "meetingType": "regular",
+     "agendaStyle": "standard",
+     "agendaTitle": null,
+     "agendaPdfUrl": null
+    },
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-11-13-civil-rights-immigration-social-services-and-neighborhoods-committee-2",
+     "meetingType": "cancellation",
+     "agendaStyle": "standard",
+     "agendaTitle": "NOTICE OF CANCELLATION",
+     "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-civil-rights-immigration-social-services-and-neighborhoods-committee-2-v1.pdf"
+    }
+   ],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Ad Hoc Committee on Charter Review",
+   "body": "ad-hoc-charter-review",
+   "startsAt": "2026-11-13T17:00:00.000Z",
+   "date": "2026-11-13",
+   "time": "9:00 AM",
+   "meetingType": "special",
+   "status": "published",
+   "statusLabels": [
+    "Special"
+   ],
+   "agendaTitle": "SPECIAL MEETING AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-13-ad-hoc-charter-review",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-ad-hoc-charter-review-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=kBgCdA_Lakc"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=0PTL07BhX14"
+    }
+   ],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-11-13T18:00:00.000Z",
+   "date": "2026-11-13",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "published",
+   "statusLabels": [
+    "Regular"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-13-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
+   "agendas": [],
+   "isLive": true,
+   "liveStreams": [
+    {
+     "label": "English",
+     "url": "https://www.youtube.com/watch?v=VZw99P1Y6J8"
+    },
+    {
+     "label": "Spanish",
+     "url": "https://www.youtube.com/watch?v=0a_3IrhHfNU"
+    }
+   ],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=VZw99P1Y6J8"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=0a_3IrhHfNU"
+    }
+   ],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Trade, Travel, and Tourism Committee",
+   "body": "trade-travel-tourism",
+   "startsAt": "2026-11-13T21:00:00.000Z",
+   "date": "2026-11-13",
+   "time": "1:00 PM",
+   "meetingType": "regular",
+   "status": "published",
+   "statusLabels": [
+    "Regular"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-13-trade-travel-tourism",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-trade-travel-tourism-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Energy and Environment Committee",
+   "body": "energy-and-environment",
+   "startsAt": "2026-11-13T22:00:00.000Z",
+   "date": "2026-11-13",
+   "time": "2:00 PM",
+   "meetingType": "regular",
+   "status": "published",
+   "statusLabels": [
+    "Regular"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-13-energy-and-environment",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-energy-and-environment-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Ad Hoc Committee on the 2028 Olympics and Paralympic Games",
+   "body": "ad-hoc-2028-olympics",
+   "startsAt": "2026-11-16T22:00:00.000Z",
+   "date": "2026-11-16",
+   "time": "2:00 PM",
+   "meetingType": "special",
+   "status": "published",
+   "statusLabels": [
+    "Special"
+   ],
+   "agendaTitle": "SPECIAL MEETING AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-16-ad-hoc-2028-olympics",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-16-ad-hoc-2028-olympics-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Transportation Committee",
+   "body": "transportation",
+   "startsAt": "2026-11-18T16:30:00.000Z",
+   "date": "2026-11-18",
+   "time": "8:30 AM",
+   "meetingType": "regular",
+   "status": "published",
+   "statusLabels": [
+    "Regular"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-04-transportation",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-transportation-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Arts, Parks, and City Facilities Committee",
+   "body": "arts-parks-and-city-facilities-committee",
+   "startsAt": "2026-11-18T22:00:00.000Z",
+   "date": "2026-11-18",
+   "time": "2:00 PM",
+   "meetingType": "cancellation",
+   "status": "cancelled",
+   "statusLabels": [
+    "Cancelled"
+   ],
+   "agendaTitle": "NOTICE OF CANCELLATION",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-18-arts-parks-and-city-facilities-committee",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-arts-parks-and-city-facilities-committee-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Personnel and Hiring Committee",
+   "body": "personnel-and-hiring",
+   "startsAt": "2026-11-25T16:30:00.000Z",
+   "date": "2026-11-25",
+   "time": "8:30 AM",
+   "meetingType": "cancellation",
+   "status": "cancelled",
+   "statusLabels": [
+    "Cancelled"
+   ],
+   "agendaTitle": "NOTICE OF CANCELLATION",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-25-personnel-and-hiring",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-25-personnel-and-hiring-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  }
+ ],
+ "past": [
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-11-11T18:00:00.000Z",
+   "date": "2026-11-11",
+   "time": "10:00 AM",
+   "meetingType": "cancellation",
+   "status": "cancelled",
+   "statusLabels": [
+    "Cancelled"
+   ],
+   "agendaTitle": "NOTICE OF CANCELLATION",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-11-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-11-council-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-11-10T18:00:00.000Z",
+   "date": "2026-11-10",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned",
+    "Revised"
+   ],
+   "agendaTitle": "REVISED AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-10-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-council-v2.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=cyRd-KpBdS4"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=s6399_EmYag"
+    }
+   ],
+   "documentCount": 10,
+   "documents": [
+    "Presented Motions"
+   ]
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-11-06T18:00:00.000Z",
+   "date": "2026-11-06",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-03-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=BseGLefnkvE"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=7y37a1O0n04"
+    }
+   ],
+   "documentCount": 8,
+   "documents": [
+    "Journal",
+    "Presented Motions"
+   ]
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-11-04T18:00:00.000Z",
+   "date": "2026-11-04",
+   "time": "10:00 AM",
+   "meetingType": "cancellation",
+   "status": "cancelled",
+   "statusLabels": [
+    "Cancelled"
+   ],
+   "agendaTitle": "NOTICE OF CANCELLATION",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-04-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-council-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-11-03T18:00:00.000Z",
+   "date": "2026-11-03",
+   "time": "10:00 AM",
+   "meetingType": "cancellation",
+   "status": "cancelled",
+   "statusLabels": [
+    "Cancelled"
+   ],
+   "agendaTitle": "NOTICE OF CANCELLATION",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-03-council-2",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-2-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-10-30T17:15:00.000Z",
+   "date": "2026-10-30",
+   "time": "10:15 AM",
+   "meetingType": "special",
+   "status": "held",
+   "statusLabels": [
+    "Special",
+    "Adjourned"
+   ],
+   "agendaTitle": "SPECIAL MEETING AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-30-council-3",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-30-council-3-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=v2TlwZxct30"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=E8l7dyW8pQI"
+    }
+   ],
+   "documentCount": 3,
+   "documents": [
+    "Journal"
+   ]
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-10-30T17:00:00.000Z",
+   "date": "2026-10-30",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-30-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-30-council-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=v2TlwZxct30"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=E8l7dyW8pQI"
+    }
+   ],
+   "documentCount": 3,
+   "documents": [
+    "Journal",
+    "Presented Motions"
+   ]
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-10-28T17:45:00.000Z",
+   "date": "2026-10-28",
+   "time": "10:45 AM",
+   "meetingType": "special",
+   "status": "held",
+   "statusLabels": [
+    "Special",
+    "Adjourned"
+   ],
+   "agendaTitle": "SPECIAL MEETING AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-30-council-2",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-30-council-2-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 2,
+   "documents": []
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-10-28T17:00:00.000Z",
+   "date": "2026-10-28",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-28-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-28-council-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=rP6OpSgMpRY"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=BirBq3Np72Q"
+    }
+   ],
+   "documentCount": 22,
+   "documents": [
+    "Journal",
+    "Presented Motions"
+   ]
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-10-27T17:00:00.000Z",
+   "date": "2026-10-27",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-27-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-27-council-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=PmrdG5rjWDU"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=Fq-IeQGzmV8"
+    }
+   ],
+   "documentCount": 5,
+   "documents": [
+    "Journal",
+    "Presented Motions"
+   ]
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-10-23T17:00:00.000Z",
+   "date": "2026-10-23",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-23-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-23-council-imported-92008.pdf",
+   "agendas": [
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-10-23-council",
+     "meetingType": "regular",
+     "agendaStyle": "standard",
+     "agendaTitle": "AGENDA",
+     "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-23-council-imported-92008.pdf"
+    },
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-10-23-council-2",
+     "meetingType": "regular",
+     "agendaStyle": "continuation",
+     "agendaTitle": "AGENDA",
+     "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-23-council-continuation-imported-92099.pdf"
+    },
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-10-23-council-3",
+     "meetingType": "special",
+     "agendaStyle": "standard",
+     "agendaTitle": "SPECIAL AGENDA",
+     "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-23-council-special-imported-92290.pdf"
+    }
+   ],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://youtube.com/watch?v=rzdSGTDRRxI"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://youtube.com/watch?v=08lggOV2Sks"
+    }
+   ],
+   "documentCount": 4,
+   "documents": [
+    "Presented Motions"
+   ]
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-10-21T17:00:00.000Z",
+   "date": "2026-10-21",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-21-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-21-council-imported-91953.pdf",
+   "agendas": [
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-10-21-council",
+     "meetingType": "regular",
+     "agendaStyle": "standard",
+     "agendaTitle": "AGENDA",
+     "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-21-council-imported-91953.pdf"
+    },
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-10-21-council-2",
+     "meetingType": "regular",
+     "agendaStyle": "continuation",
+     "agendaTitle": "AGENDA",
+     "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-21-council-continuation-imported-92034.pdf"
+    }
+   ],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://youtube.com/watch?v=byBa-j7vrUc"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://youtube.com/watch?v=N1wkoM4VZMI"
+    }
+   ],
+   "documentCount": 4,
+   "documents": [
+    "Journal",
+    "Presented Motions"
+   ]
+  },
+  {
+   "name": "City Council",
+   "body": "council",
+   "startsAt": "2026-10-20T17:00:00.000Z",
+   "date": "2026-10-20",
+   "time": "10:00 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-20-council",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-20-council-imported-91923.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://youtube.com/watch?v=RmhXeARED3A"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://youtube.com/watch?v=tGaWJp1yIF0"
+    }
+   ],
+   "documentCount": 3,
+   "documents": [
+    "Journal",
+    "Presented Motions"
+   ]
+  },
+  {
+   "name": "Transportation Committee",
+   "body": "transportation",
+   "startsAt": "2026-11-04T16:30:00.000Z",
+   "date": "2026-11-04",
+   "time": "8:30 AM",
+   "meetingType": "regular",
+   "status": "cancelled",
+   "statusLabels": [
+    "Cancelled"
+   ],
+   "agendaTitle": null,
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-04-transportation-2",
+   "agendaPdfUrl": null,
+   "agendas": [
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-11-04-transportation-2",
+     "meetingType": "regular",
+     "agendaStyle": "standard",
+     "agendaTitle": null,
+     "agendaPdfUrl": null
+    },
+    {
+     "url": "https://lms.lacity.gov/meetings/2026-11-04-transportation-3",
+     "meetingType": "cancellation",
+     "agendaStyle": "standard",
+     "agendaTitle": "NOTICE OF CANCELLATION",
+     "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-transportation-3-v1.pdf"
+    }
+   ],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Transportation Committee",
+   "body": "transportation",
+   "startsAt": "2026-10-21T15:30:00.000Z",
+   "date": "2026-10-21",
+   "time": "8:30 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-21-transportation",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-21-transportation-imported-91796.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://youtube.com/watch?v=1GD1W9VdGMw"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://youtube.com/watch?v=SmH3Gr0JLEM"
+    }
+   ],
+   "documentCount": 2,
+   "documents": [
+    "Journal"
+   ]
+  },
+  {
+   "name": "Transportation Committee",
+   "body": "transportation",
+   "startsAt": "2026-10-07T15:30:00.000Z",
+   "date": "2026-10-07",
+   "time": "8:30 AM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-07-transportation",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-07-transportation-imported-91469.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://youtube.com/watch?v=Ym-XnrJ1WlM"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://youtube.com/watch?v=htsnpdi9j78"
+    }
+   ],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Planning and Land Use Management Committee",
+   "body": "planning-and-land-use-management",
+   "startsAt": "2026-11-10T22:00:00.000Z",
+   "date": "2026-11-10",
+   "time": "2:00 PM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-11-10-planning-and-land-use-management",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-planning-and-land-use-management-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=hTl86INLxJ4"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=8_JbsrbpD_k"
+    }
+   ],
+   "documentCount": 1,
+   "documents": []
+  },
+  {
+   "name": "Planning and Land Use Management Committee",
+   "body": "planning-and-land-use-management",
+   "startsAt": "2026-10-27T21:15:00.000Z",
+   "date": "2026-10-27",
+   "time": "2:15 PM",
+   "meetingType": "special",
+   "status": "held",
+   "statusLabels": [
+    "Special",
+    "Adjourned"
+   ],
+   "agendaTitle": "SPECIAL MEETING AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-27-planning-and-land-use-management-2",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-27-planning-and-land-use-management-2-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=hMqcxdkKh_k"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=OujP7YSm_VE"
+    }
+   ],
+   "documentCount": 3,
+   "documents": [
+    "Journal"
+   ]
+  },
+  {
+   "name": "Planning and Land Use Management Committee",
+   "body": "planning-and-land-use-management",
+   "startsAt": "2026-10-27T21:00:00.000Z",
+   "date": "2026-10-27",
+   "time": "2:00 PM",
+   "meetingType": "regular",
+   "status": "held",
+   "statusLabels": [
+    "Adjourned"
+   ],
+   "agendaTitle": "AGENDA",
+   "agendaPosted": true,
+   "url": "https://lms.lacity.gov/meetings/2026-10-27-planning-and-land-use-management",
+   "agendaPdfUrl": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-27-planning-and-land-use-management-v1.pdf",
+   "agendas": [],
+   "isLive": false,
+   "liveStreams": [],
+   "media": [
+    {
+     "kind": "video",
+     "label": "Video \u2014 English",
+     "url": "https://www.youtube.com/watch?v=hMqcxdkKh_k"
+    },
+    {
+     "kind": "video",
+     "label": "Video \u2014 Espa\u00f1ol",
+     "url": "https://www.youtube.com/watch?v=OujP7YSm_VE"
+    }
+   ],
+   "documentCount": 1,
+   "documents": []
+  }
+ ]
+}

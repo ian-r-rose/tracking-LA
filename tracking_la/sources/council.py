@@ -1,4 +1,4 @@
-"""City Council and its committees, from the City Clerk's PrimeGov portal.
+"""City Council and its committees, from the City Clerk's Legislative Management System.
 
 Committees are where Council matters are discussed before going to full Council; a
 committee's action is a recommendation to Council.
@@ -9,16 +9,23 @@ closed sessions, nuisance-abatement liens (the -0160-S series of Council Files) 
 motions funding a district's events and recognitions. An item whose Council File was
 on a watched committee's agenda `follows` that committee item: it carries over the
 committee item's extraction instead of being extracted again, and isn't followed for
-a decision itself, since the committee item records Council's action. Agendas use the same PrimeGov HTML
-as Public Works (tracking_la.sources.primegov). Committees are selected by PrimeGov's
-committee id, because their names change (Housing and Homelessness split in two in
-2026; Arts and Parks has been renamed twice).
+a decision itself, since the committee item records Council's action.
+
+The LMS (https://lms.lacity.gov/) replaced both the Clerk's PrimeGov portal and Clerk
+Connect in October 2026; the portal's last agendas are for October 28. Its pages sit
+behind a firewall (AWS WAF) that challenges most requests, but two things don't:
+
+- the public list of meetings, as JSON (/api/public/meetings?format=json), which has
+  each meeting's body, date, status and agenda PDF;
+- the agenda PDFs themselves, on the Clerk's CloudFront domain.
+
+So meetings and agendas come from those. An agenda PDF heads each item "Item 7 · CF
+26-0742 ... CD 10", from which come the item's number, Council File and district.
 
 Each item belongs to a Council File, the City's id for a matter as it moves between
-committees and Council. Decisions come from the file's page in the Clerk's Legislative
-Management System (https://lms.lacity.gov/, which replaced Clerk Connect in October
-2026), whose Timeline records every step, including what full Council did after the
-committee, and whose Votes have roll calls by member.
+committees and Council. Decisions come from the file's page in the LMS, whose Timeline
+records every step, including what full Council did after the committee, and whose
+Votes have roll calls by member. Those pages are behind the firewall (see FilePages).
 """
 
 import json
@@ -30,27 +37,29 @@ import httpx
 from bs4 import BeautifulSoup
 
 from tracking_la.outcomes import normalize_status
-from tracking_la.sources import primegov
+from tracking_la.pdf import pdf_text
 from tracking_la.store import DATA
 
-PORTAL = "https://lacity.primegov.com"
+LMS_MEETINGS = "https://lms.lacity.gov/api/public/meetings"
 LMS_FILE = "https://lms.lacity.gov/files/{}"
 
-COMMITTEES = {
-    12: "council-plum",  # Planning and Land Use Management
-    17: "council-transportation",
-    108: "council-arts-parks",  # Arts, Parks, Libraries, and Community Enrichment
-    119: "council-arts-parks",  # Arts, Parks, and City Facilities (renamed Oct 2026)
-    36: "council-public-works",
-    104: "council-housing",  # Housing and Homelessness, until it split in 2026
-    2: "council-housing",
-    121: "council-homelessness",  # Homelessness and Health
-    49: "council-environment",  # Energy and Environment
-    1: "council",  # full City Council
+# The LMS's name for each body we watch. It lists meetings from before it launched too,
+# imported from PrimeGov; those are already recorded from PrimeGov, under other ids.
+BODIES = {
+    "planning-and-land-use-management": "council-plum",
+    "transportation": "council-transportation",
+    "arts-parks-and-city-facilities-committee": "council-arts-parks",
+    "public-works": "council-public-works",
+    "housing-committee": "council-housing",
+    "homelessness-and-health-committee": "council-homelessness",
+    "energy-and-environment": "council-environment",
+    "council": "council",  # full City Council
 }
+LMS_SINCE = date(2026, 10, 29)
+MAX_PAGES = 40  # of ten past meetings each; a year of full Council
 
-# Full Council has met with a regular agenda plus supplemental, special or continuation
-# ones; only a few days back, since what it did comes from the LMS, not agendas.
+# Full Council has met with a regular agenda plus special ones; only a few days back,
+# since what it did comes from the LMS's file pages, not agendas.
 COUNCIL_LOOKBACK = timedelta(days=3)
 
 SKIP_COUNCIL_ITEM = re.compile(
@@ -60,59 +69,80 @@ SKIP_COUNCIL_ITEM = re.compile(
 )
 LIEN_FILE = re.compile(r"^\d{2}-0160-S\d+$")  # nuisance-abatement liens
 
-# A meeting's HTML agenda, by the name PrimeGov gives its template; a revision replaces the original.
-AGENDA_TEMPLATES = ("HTML Revised Special Agenda", "HTML Revised Agenda", "HTML Agenda", "HTML Special Agenda")
-COUNCIL_EXTRA_AGENDAS = ("Supplemental", "Special", "Continuation")
-
-COUNCIL_FILE = re.compile(r"^\d{2}-\d{4}(-S\d+)?$")
-# Of an item's attachments (the whole Council File's documents, often dozens), link these.
-KEY_DOCUMENT = re.compile(r"^(Report|Motion|Resolution|Draft Ordinance|Attachment to Report)", re.I)
-MAX_DOCUMENTS = 5
-
 
 def council_file_url(number: str) -> str:
     return LMS_FILE.format(number)
 
 
-def agenda_documents(m: dict, body: str) -> list[tuple[str | None, dict]]:
-    """(kind, document) for a meeting's HTML agendas: one, plus full Council's extra ones."""
-    templates = {d["templateName"].strip(): d for d in m["documentList"]}
-    main = next((templates[t] for t in AGENDA_TEMPLATES if t in templates), None)
-    documents = [(None, main)] if main else []
-    if body == "council":
-        for kind in COUNCIL_EXTRA_AGENDAS:
-            doc = templates.get(f"HTML Revised {kind} Agenda") or templates.get(f"HTML {kind} Agenda")
-            if doc and doc is not main:
-                documents.append((kind.lower(), doc))
-    return documents
+class Challenged(httpx.HTTPError):
+    """The LMS's firewall (AWS WAF) wants a browser to prove itself: status 202, an empty
+    body and an x-amzn-waf-action header. We don't try to get past it. The page stays as
+    recorded and a later fetch reads it, if the firewall lets that one through."""
+
+
+def challenged(resp: httpx.Response) -> bool:
+    return resp.status_code == 202 or "x-amzn-waf-action" in resp.headers
+
+
+def meeting_id(slug: str, lms_body: str) -> str:
+    """A short id from an LMS meeting's slug, which is the date it was first scheduled
+    for, its body, and a number when the body has several that day: "2026-10-30-council-3"
+    is "20261030-3". A rescheduled meeting keeps its slug."""
+    return slug.replace(f"-{lms_body}", "", 1).replace("-", "", 2)
 
 
 def parse_meetings(raw: list[dict]) -> list[dict]:
+    """Meetings of watched bodies with an agenda, from the LMS's records. A meeting that
+    was imported from PrimeGov lists its extra agendas (continuation, special) under
+    `agendas`; the LMS's own are separate meetings."""
     meetings, seen = [], set()
     for m in raw:
-        body = COMMITTEES.get(m.get("committeeId"))
-        title = m["title"].upper()
-        # "SAP" meetings are the Spanish-language duplicates of each agenda.
-        if not body or "CANCEL" in title or re.search(r"\bSAP\b", title) or m["id"] in seen:
+        body = BODIES.get(m["body"])
+        if not body or m["status"] == "cancelled":
             continue
-        seen.add(m["id"])
-        for kind, doc in agenda_documents(m, body):
+        for agenda in m.get("agendas") or [m]:
+            slug = agenda["url"].rsplit("/", 1)[-1]
+            if agenda["meetingType"] == "cancellation" or not agenda.get("agendaPdfUrl") or slug in seen:
+                continue
+            seen.add(slug)
             meetings.append(
                 {
                     "body": body,
-                    "date": datetime.fromisoformat(m["dateTime"]).date(),
-                    "meeting_id": f"{m['id']}-{kind}" if kind else m["id"],
-                    "portal": PORTAL,
-                    "agenda_url": f"{PORTAL}/Portal/Meeting?compiledMeetingDocumentFileId={doc['id']}",
+                    "name": m["name"],
+                    "date": date.fromisoformat(m["date"]),
+                    "meeting_id": meeting_id(slug, m["body"]),
+                    "agenda_url": agenda["agendaPdfUrl"],  # a revision is a new PDF, so it's fetched again
+                    "page_url": agenda["url"],
                 }
             )
     return meetings
 
 
+def lms_meetings(lms_body: str, start: date, client: httpx.Client) -> list[dict]:
+    """The LMS's records of a body's meetings back to `start`, and every body's upcoming
+    ones (`body` only narrows the past ones, which come ten to a page, newest first)."""
+    raw = []
+    for page in range(1, MAX_PAGES + 1):
+        resp = client.get(LMS_MEETINGS, params={"format": "json", "body": lms_body, "page": page})
+        if challenged(resp):
+            raise Challenged(f"the LMS's firewall challenged its list of meetings ({resp.url})")
+        resp.raise_for_status()
+        data = resp.json()
+        past = data["past"]["meetings"]
+        raw += past + (data["upcoming"]["meetings"] if page == 1 else [])
+        if not past or not data["past"]["nextUrl"] or min(m["date"] for m in past) < start.isoformat():
+            break
+    return raw
+
+
 def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
+    start = max(start, LMS_SINCE)
     council_start = max(start, date.today() - COUNCIL_LOOKBACK)
+    raw = []
+    for lms_body, body in BODIES.items():
+        raw += lms_meetings(lms_body, council_start if body == "council" else start, client)
     return [
-        m for m in parse_meetings(primegov.portal_meetings(PORTAL, start, end, client))
+        m for m in parse_meetings(raw)
         if (council_start if m["body"] == "council" else start) <= m["date"] <= end
     ]
 
@@ -132,29 +162,112 @@ def committee_items(root: Path = DATA) -> dict[str, list[tuple[str, str]]]:
     return found
 
 
-def meeting_items(meeting: dict, agenda_html: bytes, root: Path = DATA) -> list[dict]:
+# "Item 7 · CF 26-0742          CD 10" (or "Citywide"); an item can lack a Council File.
+ITEM = re.compile(r"^\s*Item (\w+) ·\s*(?:CF (\d{2}-\d{4}(?:-S\d+)?))?\s*(.*?)\s*$")
+# "Items for which Public Hearings Have Been Held        19 items"
+SECTION = re.compile(r"^(\S.*?)\s{3,}\d+ items?\s*$")
+# "City Council      - November 10, 2026 -      Page 4 of 28", at the foot of each page.
+PAGE_FOOTER = re.compile(r"^(\S.*?)\s+- [A-Z][a-z]+ \d{1,2}, \d{4} -\s+Page \d+ of \d+\s*$")
+# What follows the last item: Council's closing business, or a committee's notices.
+END_OF_ITEMS = re.compile(
+    r"^(MOTIONS FOR POSTING AND REFERRAL|COUNCIL MEMBERS' REQUESTS FOR EXCUSE|ADJOURNING MOTIONS|COUNCIL ADJOURNMENT"
+    r"|ADJOURNMENT|Notice to Paid Representatives|Reasonable Modifications? or Acc|Council Process)"
+)
+# An item's two-column fields: the label on the left (wrapped: "Community impact" /
+# "statement"), the value on the right.
+FIELD = re.compile(r"^(Fiscal impact statement|Community impact)\s{2,}(\S.*)$")
+FIELD_LABELS = {"Fiscal impact statement": "Fiscal Impact Statement:", "Community impact": "Community Impact Statement:"}
+# Lines that start a new line of an item even without a blank line before them.
+NEW_LINE = re.compile(r"^(\d{1,2}\.\s|[a-z]\.\s|(Applicant|Representative|Owner|Appellant|Case Nos?\.|Environmental|Related Cases?)\b)")
+
+
+def agenda_lines(text: str, name: str) -> list[str]:
+    """An agenda's lines without the page footers, which fall in the middle of items, and
+    the blank lines around them, unless the page ended with a sentence: a paragraph that
+    runs over the page stays whole. A long body name wraps onto a second footer line
+    ("Planning and Land Use Management", then "Committee")."""
+    lines, rest, after_footer = [], None, False
+    for line in text.replace("\f", "\n").splitlines():
+        if m := PAGE_FOOTER.match(line):
+            rest = name[len(m.group(1)):].strip() if name.startswith(m.group(1)) else None
+            while lines and not lines[-1].strip():
+                lines.pop()
+            if not lines or lines[-1].rstrip().endswith((".", ":", ";", ")")):
+                lines.append("")
+            after_footer = True
+        elif after_footer and (not line.strip() or line.strip() == rest):
+            continue
+        else:
+            after_footer = False
+            lines.append(line)
+    return lines
+
+
+def reflow(lines: list[str]) -> list[str]:
+    """An item's wrapped lines as paragraphs, numbered recommendations and labelled fields."""
+    out, paragraph = [], []
+
+    def flush():
+        if paragraph:
+            out.append(" ".join(paragraph))
+            paragraph.clear()
+
+    for raw in lines:
+        line = re.sub(r"\s+", " ", raw).strip()
+        if not line:
+            flush()
+        elif m := FIELD.match(raw.strip()):
+            flush()
+            out.append(FIELD_LABELS[m.group(1)])
+            paragraph.append(re.sub(r"\s+", " ", m.group(2)))
+        elif line != "statement":  # the rest of "Community impact statement"
+            if NEW_LINE.match(line):
+                flush()
+            paragraph.append(line)
+            if line.endswith(":"):
+                flush()
+    flush()
+    return out
+
+
+def agenda_items(text: str, name: str = "") -> list[tuple[str, str | None, str | None, str | None, list[str]]]:
+    """(item number, Council File, district, section, lines) for each item of an agenda PDF's text."""
+    items, section, current, lines = [], None, None, agenda_lines(text, name)
+    for n, line in enumerate(lines):
+        if m := ITEM.match(line):
+            number, council_file, where = m.groups()
+            current = []
+            items.append((number, council_file, where if re.fullmatch(r"CDs? [\d, ]+", where) else None, section, current))
+        elif m := SECTION.match(line):
+            heading, current = m.group(1), None
+            for more in lines[n + 1:]:  # a long heading wraps
+                if not more.strip() or ITEM.match(more):
+                    break
+                heading += " " + more.strip()
+            section = None if heading == "Item(s)" else heading  # most committee agendas' only section
+        elif items and END_OF_ITEMS.match(line):
+            break
+        elif current is not None:
+            current.append(line)
+    return [(number, council_file, district, section, reflow(body)) for number, council_file, district, section, body in items]
+
+
+def meeting_items(meeting: dict, agenda_pdf: bytes, root: Path = DATA) -> list[dict]:
     council = meeting["body"] == "council"
     followed = committee_items(root) if council else {}
     items = []
-    for number, text, attachments in primegov.html_items(meeting, agenda_html):
-        lines = [l for l in text.splitlines() if not re.fullmatch(r"-+", l)]  # stands in for a missing Council File
-        section = lines.pop(0) if lines and lines[0].startswith("[") else None
-        if section == "[ITEM(S)]":  # the heading of most committee agendas' only section
-            section = None
-        council_file = lines.pop(0) if lines and COUNCIL_FILE.match(lines[0]) else None
-        district = lines.pop(0) if lines and re.fullmatch(r"CDs? [\d, ]+", lines[0]) else None
-        if council and (SKIP_COUNCIL_ITEM.search(lines[0] if lines else text) or LIEN_FILE.match(council_file or "")):
+    for number, council_file, district, section, lines in agenda_items(pdf_text(agenda_pdf), meeting.get("name", "")):
+        if council and (SKIP_COUNCIL_ITEM.search(lines[0] if lines else "") or LIEN_FILE.match(council_file or "")):
             continue
         header = "; ".join(p for p in (f"Council File {council_file}" if council_file else None, district) if p)
-        documents = [url for name, url in attachments if KEY_DOCUMENT.match(name)][:MAX_DOCUMENTS]
         item = {
             "id": f"{meeting['body']}-{meeting['date'].isoformat()}-{meeting['meeting_id']}-{number}",
             "body": meeting["body"],
             "meeting_date": meeting["date"].isoformat(),
             "item_number": number,
-            "title": _short(lines[0] if lines else text),
-            "text": "\n".join(p for p in (f"[{header}]" if header else None, section, *lines) if p),
-            "urls": [meeting["agenda_url"], *([council_file_url(council_file)] if council_file else []), *documents],
+            "title": _short(lines[0] if lines else f"Item {number}"),
+            "text": "\n".join(p for p in (f"[{header}]" if header else None, f"[{section}]" if section else None, *lines) if p),
+            "urls": [meeting["agenda_url"], *([council_file_url(council_file)] if council_file else [])],
         }
         earlier = [c for c in followed.get(council_file, []) if c[0] <= item["meeting_date"]]
         if earlier:
@@ -180,12 +293,6 @@ def tab(soup: BeautifulSoup, name: str):
     return soup.find(id=re.compile(rf"-content-{name}$"))
 
 
-class Challenged(httpx.HTTPError):
-    """The LMS's firewall (AWS WAF) wants a browser to prove itself: status 202, an empty
-    body and an x-amzn-waf-action header. We don't try to get past it. The page stays as
-    recorded and a later fetch reads it, if the firewall lets that one through."""
-
-
 class FilePages:
     """LMS file pages for one run. Outcomes and report backs share them, so each page is
     requested once, and nothing more is requested once the firewall has challenged us."""
@@ -202,7 +309,7 @@ class FilePages:
             self.unread.add(url)
             raise Challenged(f"not requested after a challenge: {url}")
         resp = self.client.get(url)
-        if resp.status_code == 202 or "x-amzn-waf-action" in resp.headers:
+        if challenged(resp):
             self.unread.add(url)
             raise Challenged(f"challenged: {url}")
         resp.raise_for_status()

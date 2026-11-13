@@ -2,8 +2,10 @@
 
 The tests run against saved copies of agendas, so they can't notice a commission
 redesigning its site. A redesign usually shows up as a listing with no meetings,
-or agendas that download fine but split into no items. For each source this checks
-that meetings are listed in a recent window and that one of the newest few
+or agendas that download fine but split into no items. A site that was replaced
+keeps listing its old meetings and just stops adding new ones. For each source this
+checks that meetings are listed in a recent window, that the newest isn't older than
+the source ever normally goes between meetings, and that one of the newest few
 agendas yields items.
 """
 
@@ -23,6 +25,11 @@ def check_source(source: Source, client: httpx.Client, today: date) -> str | Non
     if not meetings:
         return f"no meetings listed since {today - WINDOW}"
     newest = sorted(meetings, key=lambda m: m["date"], reverse=True)[:TRIES]
+    if (quiet := (today - newest[0]["date"]).days) > source.quiet_days:
+        return (
+            f"no meetings listed since {newest[0]['date']}, {quiet} days ago (it normally lists one at least "
+            f"every {source.quiet_days} days); its listing may have moved or stopped being updated"
+        )
     parse = source.canary_items or source.meeting_items
     for meeting in newest:
         resp = client.get(meeting["agenda_url"])

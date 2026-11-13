@@ -30,6 +30,10 @@ class Source:
     follow_url: Callable | None = None
     follow_outcome: Callable | None = None
     follow_days: int = 30
+    # For tracking-la canary: the longest the source normally goes without a meeting,
+    # recesses and holidays included. Past that, its listing has probably moved or stopped
+    # being updated (as the Clerk's PrimeGov portal did when Council moved to the LMS).
+    quiet_days: int = 120  # the default allows for bodies that meet every other month
 
 
 SOURCES = [
@@ -37,11 +41,13 @@ SOURCES = [
         "planning", planning.list_meetings, planning.meeting_items,
         outcome_url=lambda m: m.get("minutes_url"),
         meeting_outcomes=lambda m, pdf: planning.minutes_outcomes(m, pdf_text(pdf)),
+        quiet_days=35,
     ),
     Source(
         "public works", primegov.list_meetings, primegov.meeting_items,
         outcome_url=lambda m: m.get("journal_url"),
         meeting_outcomes=primegov.journal_outcomes,
+        quiet_days=21,  # the Board meets three times a week
     ),
     Source(
         "rec and parks", rap.list_meetings, rap.meeting_items,
@@ -62,6 +68,7 @@ SOURCES = [
         follow_url=council.follow_url,
         follow_outcome=lambda html, url, item: council.council_file_outcome(html, url, date.fromisoformat(item["meeting_date"])),
         follow_days=90,
+        quiet_days=35,  # Council's recesses run about three weeks
     ),
     Source("cultural affairs", cultural.list_meetings, cultural.meeting_items),
     Source("el pueblo", elpueblo.list_meetings, elpueblo.meeting_items),

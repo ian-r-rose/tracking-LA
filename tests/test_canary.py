@@ -29,6 +29,14 @@ def test_no_meetings_listed():
     assert "no meetings listed" in canary.check_source(source([], []), Client(), TODAY)
 
 
+def test_a_listing_that_stopped_being_updated():
+    quiet = Source("test", lambda start, end, client: [meeting(1), meeting(15)], lambda meeting, content: [{"id": "x"}], quiet_days=14)
+    problem = canary.check_source(quiet, Client(), TODAY)
+    assert problem.startswith("no meetings listed since 2026-09-15, 18 days ago")
+    quiet.quiet_days = 21
+    assert canary.check_source(quiet, Client(), TODAY) is None
+
+
 def test_agendas_that_parse_to_nothing():
     problem = canary.check_source(source([meeting(d) for d in (1, 8, 15, 22)], []), Client(), TODAY)
     assert problem.startswith("the newest 3 agenda(s) produced no items")
