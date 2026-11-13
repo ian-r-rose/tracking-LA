@@ -1062,6 +1062,12 @@
   "lon": -118.291623,
   "score": 97.59
  },
+ "201 N CARONDELET ST": {
+  "address": "201 N CARONDELET ST, 90026",
+  "lat": 34.070257,
+  "lon": -118.274073,
+  "score": 100
+ },
  "20140 W RINALDI ST": {
   "address": "20140 W RINALDI ST, 91326",
   "lat": 34.274901,
@@ -1357,6 +1363,12 @@
   "lat": 34.033524,
   "lon": -118.291496,
   "score": 97.59
+ },
+ "2511 N DALY ST": {
+  "address": "2511 N DALY ST, 90031",
+  "lat": 34.075295,
+  "lon": -118.215751,
+  "score": 100
  },
  "2532 North Eastlake Avenue": {
   "address": "2532 N EASTLAKE AVE, 90031",
@@ -2057,6 +2069,12 @@
   "lon": -118.309645,
   "score": 100
  },
+ "5035 W COLISEUM ST": {
+  "address": "5035 W COLISEUM ST, 90016",
+  "lat": 34.018359,
+  "lon": -118.354336,
+  "score": 100
+ },
  "5158 W HOLLYWOOD BLVD": {
   "address": "5158 W HOLLYWOOD BLVD, 90027",
   "lat": 34.101687,
@@ -2417,6 +2435,12 @@
   "address": "6360 W SUNSET BLVD, 90028",
   "lat": 34.097925,
   "lon": -118.32784,
+  "score": 100
+ },
+ "639 S BROADWAY": {
+  "address": "639 S BROADWAY, 90014",
+  "lat": 34.046126,
+  "lon": -118.252616,
   "score": 100
  },
  "6407 W SUNSET BLVD": {
