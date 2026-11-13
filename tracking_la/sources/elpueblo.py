@@ -23,6 +23,12 @@ CONTEXT = "[El Pueblo de Los Angeles Historical Monument (Olvera Street), 125 Pa
 # Action items are numbered within a section: "3.8 Recommendation to Approve ..."
 ITEM_START = re.compile(r"^\s{0,8}(\d\.\d{1,2})\s+(\S.*)$")
 ITEM_END = re.compile(r"^\s*(COMMISSION BUSINESS|ADJOURNMENT|\d\.\s{2,}[A-Z])")
+# Since October 2026 they're bullets under the section instead ("3.   DISCUSSION AND
+# POSSIBLE ACTION ITEMS", then "•   Recommendation to Approve ..."), numbered here by
+# their order. Bullets under the other sections (the General Manager's report, committee
+# reports) are standing updates.
+SECTION = re.compile(r"^\s*(\d)\.\s{2,}([A-Z].*)$")
+BULLET = re.compile(r"^\s*[•●▪]\s+(\S.*)$")
 STOPWORDS = {"the", "and", "for", "with", "approval", "recommendation", "approve", "lease", "report", "authorize"}
 
 
@@ -53,13 +59,20 @@ def list_meetings(start: date, end: date, client: httpx.Client) -> list[dict]:
 
 def split_agenda(text: str) -> list[tuple[str, str]]:
     items: list[tuple[str, list[str]]] = []
-    current = None
+    current = action_section = None
+    bullets = 0
     for line in text.splitlines():
         if m := ITEM_START.match(line):
             current = [m.group(2)]
             items.append((m.group(1), current))
+        elif action_section and (m := BULLET.match(line)):
+            bullets += 1
+            current = [m.group(1)]
+            items.append((f"{action_section}.{bullets}", current))
         elif ITEM_END.match(line):
             current = None
+            section = SECTION.match(line)
+            action_section, bullets = (section.group(1) if section and "ACTION" in section.group(2) else None), 0
         elif current is not None and line.strip():
             current.append(line)
     return [(number, normalize_space("\n".join(lines))) for number, lines in items]

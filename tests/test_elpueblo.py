@@ -30,3 +30,12 @@ def test_action_items_and_matched_documents():
     assert any("UNAM" in u for u in by_number["3.2"]["urls"])
     # Items stop before commission business.
     assert "COMMISSION BUSINESS" not in by_number["3.8"]["text"]
+
+
+def test_action_items_as_bullets_under_their_section():
+    # Since October 2026 the agenda bullets its action items instead of numbering them.
+    meeting = {"date": date(2026, 11, 12), "agenda_url": "A", "documents": []}
+    found = elpueblo.items_from_text(meeting, (FIXTURES / "agenda-2026-11-12.txt").read_text())
+    assert [i["id"] for i in found] == ["elpueblo-2026-11-12-3.1"]  # not the General Manager's report's bullets
+    assert found[0]["title"].startswith("Recommendation to Approve the Design of Wrought Iron Entrance Security Gates")
+    assert "Olvera Street" in found[0]["text"] and "COMMISSION BUSINESS" not in found[0]["text"]
