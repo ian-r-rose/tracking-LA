@@ -1,0 +1,36 @@
+{
+  "id": "council-2026-11-06-20261103-25",
+  "body": "council",
+  "meeting_date": "2026-11-06",
+  "item_number": "25",
+  "title": "PUBLIC WORKS COMMITTEE REPORT and CATEGORICAL EXEMPTION relative to the name of the private driveway at Sunset Boulevard between Carolwood Drive and Ladera…",
+  "text": "[Council File 26-1267; CD 5]\n[Items for which Public Hearings Have Been Held]\nPUBLIC WORKS COMMITTEE REPORT and CATEGORICAL EXEMPTION relative to the name of the private driveway at Sunset Boulevard between Carolwood Drive and Ladera Drive being established as Carolwood Place.\nRecommendation(s) for Council action:\n1. FIND that the name establishment is exempt from the California Environmental Quality Act of 1970, pursuant to Article III, Class 5(4) of the City’s Environmental Guidelines.\n2. FIND that the name of the private driveway at Sunset Boulevard between Carolwood Drive and Ladera Drive, shown on Exhibit A of the City Engineer report dated September 3, 2026, attached to the Council file, be established as Carolwood Place (Private Driveway).\n3. INSTRUCT the City Clerk to transmit the following:\na. A copy of the Council’s action on this matter to the Board of Supervisors of the County of Los Angeles pursuant to Section 34092 of the Government Code.\nb. A copy of the Council’s action on this matter to the Department of Transportation, Bureau of Development Services, West Los Angeles and Coastal Development Review, 100 South Main Street, 10th floor, CALTRANS BUILDING, Los Angeles, CA 90012, ladot.devreview.wla@lacity.org.\nc. A copy of the Council’s action on this matter to the Department of Transportation, Sign Manufacturing Shop, 555 Ramirez Street, Los Angeles, CA 90012, Sign Shop Supervisor, Dale Cruz.\nFiscal Impact Statement:\nThe City Engineer reports that a fee of $4,628.82 was collected pursuant to Section 18.09 of the Los Angeles Municipal Code. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted\n(Continued from Council meeting date of October 30, 2026.)",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1267"
+  ],
+  "follows": "council-public-works-2026-10-27-23809-6",
+  "summary": "The city engineer recommends naming the private driveway on Sunset Blvd between Carolwood Dr and Ladera Dr as Carolwood Place.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Sunset Blvd & Carolwood Dr, Los Angeles, CA",
+      "lat": 34.08084,
+      "lon": -118.425987,
+      "neighborhood": "Beverly Crest"
+    },
+    {
+      "text": "Sunset Blvd & Ladera Dr, Los Angeles, CA",
+      "lat": 34.079805,
+      "lon": -118.422905,
+      "neighborhood": null
+    }
+  ],
+  "details": {
+    "council_file": "26-1267",
+    "council_district": 5,
+    "action": "naming of private driveway"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "council-2026-11-06-20261103-6",
+  "body": "council",
+  "meeting_date": "2026-11-06",
+  "item_number": "6",
+  "title": "HOUSING COMMITTEE REPORT relative to regulating algorithmic rent-setting and artificial intelligence technologies utilized by multifamily residential…",
+  "text": "[Council File 26-1461]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT relative to regulating algorithmic rent-setting and artificial intelligence technologies utilized by multifamily residential housing providers.\nRecommendation for Council action, as initiated by Motion (Hernandez – Padilla, et al.):\nINSTRUCT the Housing Department, with the assistance of the Chief Legislative Analyst (CLA), City Attorney, City Administrative Officer (CAO), and any other relevant departments, to report with policy recommendations related to the regulation of algorithmic rent-setting and artificial intelligence technologies utilized by multifamily residential housing providers operating within the City of Los Angeles. The report should include recommendations and information regarding:\na. A registration and disclosure program for multifamily housing providers utilizing algorithmic rent-setting or revenue management software.\nb. Notification requirements for prospective and current tenants when rental rates, lease renewals, or occupancy decisions are influenced by artificial intelligence or algorithmic pricing systems.\nc. The City's legal authority to regulate, restrict, or prohibit the use of algorithmic rentsetting technologies that rely upon nonpublic competitor information.\nd. The establishment of annual registration, licensing, or administrative fees associated with the use of algorithmic rent-setting systems, including projected revenues and implementation costs.\ne. The creation of a special fund, to receive revenues generated through any adopted registration, licensing, or enforcement program.\nf. Eligible uses of such funds, including eviction prevention services, emergency rental assistance, tenant legal services, fair housing enforcement, tenant outreach and education, housing navigation services, homelessness prevention programs, affordable housing preservation efforts, and administrative costs necessary to implement and enforce any adopted ordinance.\ng. The potential for such algorithms to violate fair housing laws.\nh. Enforcement mechanisms, auditing procedures, penalties, and reporting requirements necessary to ensure transparency, accountability, and compliance with any adopted regulations.\ni. An analysis of current regulatory practices in other jurisdictions, including the City of Berkeley and West Hollywood’s pertinent ordinances; the status of the Department of Justice lawsuit; RealPage’s settlement with the State of Nevada, and how these inform the report’s recommendations.\nFiscal Impact Statement:\nNeither the CAO nor the CLA has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1461"
+  ],
+  "follows": "council-housing-2026-10-21-22709-7",
+  "summary": "Council motion asking for policy recommendations on regulating algorithmic rent-setting and AI tools used by apartment landlords.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "action": "policy recommendations motion",
+    "council_file": "26-1461"
+  }
+}

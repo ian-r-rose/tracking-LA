@@ -1,0 +1,33 @@
+{
+  "id": "council-2026-11-10-20261110-19",
+  "body": "council",
+  "meeting_date": "2026-11-10",
+  "item_number": "19",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 5951 North Fulcher Avenue (Case No. 845755), Assessor I.D. No. 2337-019-036,…",
+  "text": "[Council File 26-0005-S184; CD 2]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 5951 North Fulcher Avenue (Case No. 845755), Assessor I.D. No. 2337-019-036, from the Rent Escrow Account Program (REAP).\nRecommendation(s) for Council action:\nAPPROVE the Housing Department (LAHD) report dated October 9, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 5951 North Fulcher Avenue (Case No. 845755), Assessor I.D. No. 2337-019-036, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-council-v2.pdf",
+    "https://lms.lacity.gov/files/26-0005-S184"
+  ],
+  "follows": "council-housing-2026-10-21-22709-3",
+  "summary": "Housing Department proposal to take 5951 North Fulcher Avenue in Council District 2 off the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "5951 North Fulcher Avenue, Los Angeles, CA",
+      "lat": 34.178798,
+      "lon": -118.373144,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "845755"
+    ],
+    "council_district": 2,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S184"
+  }
+}

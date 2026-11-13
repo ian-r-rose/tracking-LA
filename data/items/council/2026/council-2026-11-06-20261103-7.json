@@ -1,0 +1,40 @@
+{
+  "id": "council-2026-11-06-20261103-7",
+  "body": "council",
+  "meeting_date": "2026-11-06",
+  "item_number": "7",
+  "title": "PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT , CATEGORICAL EXEMPTION relative to a California Environmental Quality Act (CEQA) appeal filed for the…",
+  "text": "[Council File 26-1311; CD 1]\n[Items for which Public Hearings Have Been Held]\nPLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT , CATEGORICAL EXEMPTION relative to a California Environmental Quality Act (CEQA) appeal filed for the property located at 1236 North Cliff Drive.\nRecommendation(s) for Council action:\n1. DETERMINE, based on the whole administrative record, that the Project is exempt from CEQA pursuant to CEQA Guidelines, Sections 15303, Class 3 and there is no substantial evidence demonstrating that any exceptions contained in Section 15300.2 of the state CEQA Guidelines regarding location, cumulative impacts significant effects or unusual circumstances, scenic Highways, or hazardous waste site, or historical resources applies.\n2. ADOPT the FINDINGS of the East Los Angeles Area Planning Commission (ELAAPC) as the Findings of Council.\n3. RESOLVE TO DENY THE APPEAL filed by Brianna MacGillivray (Representative: Robert Glushon, Luna & Glushon), and THEREBY SUSTAIN the ELAAPC’s determination in approving a Categorical Exemption as the environmental clearance for the construction, use, and maintenance of two new single-family dwellings measuring approximately 3,693.83 square feet total, Cliff Residence South measures approximately 2,380.78 square feet, including an attached parking area, and Cliff Residence North measures approximately 1,313.05 square feet, including a detached parking area, on a 9,305.80 square foot vacant lot (pursuant to Senate Bill 9 approved per ADM-2024-7983-PMUL) that is within the Mount Washington – Glassell Park Specific Plan area; for the property located 1236 North Cliff Drive.\nApplicant: Hallie Black, As the Crow, LLC\nCase No. ZA-2025-2856-CU1-SPPC-HCA\nEnvironmental No. ENV-2025-2857-CE-1A\nRelated Case Nos.: ZA-2025-2856-CU1-SPPC-HCA-1A; ADM-2024-7983-PMUL; ENV-2025-2857-CE\nFiscal Impact Statement:\nThe ELAAPC reports that there is no General Fund impact as administrative costs are recovered through fees.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - NOVEMBER 10, 2026",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1311"
+  ],
+  "follows": "council-plum-2026-10-27-18502-5",
+  "summary": "An appeal of the approval to build two single-family homes on a vacant lot at 1236 North Cliff Drive under Senate Bill 9, within the Mount Washington-Glassell Park Specific Plan area.",
+  "topics": [
+    "land_use",
+    "housing",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "1236 N Cliff Dr, Los Angeles, CA",
+      "lat": 34.098303,
+      "lon": -118.224035,
+      "neighborhood": "Mount Washington"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2025-2856-CU1-SPPC-HCA",
+      "ZA-2025-2856-CU1-SPPC-HCA-1A",
+      "ADM-2024-7983-PMUL",
+      "ENV-2025-2857-CE"
+    ],
+    "council_district": 1,
+    "council_file": "26-1311",
+    "plan_area": "Mount Washington - Glassell Park Specific Plan",
+    "applicant": "Hallie Black, As the Crow, LLC",
+    "action": "appeal of East Los Angeles Area Planning Commission approval"
+  }
+}

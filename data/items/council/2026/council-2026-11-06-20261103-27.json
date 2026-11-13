@@ -1,0 +1,40 @@
+{
+  "id": "council-2026-11-06-20261103-27",
+  "body": "council",
+  "meeting_date": "2026-11-06",
+  "item_number": "27",
+  "title": "PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT CATEGORICAL EXEMPTION and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS, PLANNING AND LAND…",
+  "text": "[Council File 26-1288-S1; CD 12]\n[Items for which Public Hearings Have Been Held]\nPLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT CATEGORICAL EXEMPTION and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS, PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT and ORDINANCE FIRST CONSIDERATION relative to a Zone Change for the properties located at 10125 and 10113 North Balboa Boulevard; and 17022 West Romar Street.\nRecommendations for Council action, SUBJECT TO THE APPROVAL OF THE MAYOR:\n1. DETERMINE, based on the whole of the administrative record, the Project is exempt from CEQA pursuant to CEQA Guidelines, Section 15301, Class 1 (Existing Facilities) and Class 3 (New construction or conversion of small structures), and that there is no substantial evidence demonstrating that an exception to a categorical exemption pursuant to CEQA Guidelines, Section 15300.2 applies.\n2. ADOPT the FINDINGS of the North Valley Area Planning Commission (NVAPC) as the Findings of Council.\n3. PRESENT and ADOPT the accompanying ORDINANCE, dated May 7, 2025, to effectuate a Zone Change from P-1VL and C2-1VL to (T)(Q)C2-1VL; for the upgrade and continued use of an existing car wash (Denny's Car Wash) which currently consists of five self-service wash bays, one automated car wash tunnel, and six vacuum stations, the proposed Project includes: replacing existing fabric shade covers with outdoor shade structures over the vacuum cleaner stations, demolition of a 400 square foot office/storage area and the addition of a 495 square foot equipment housing area, demolition and replacement of a 300 square foot equipment housing area, the automatic car wash tunnel and self-serve vacuum stations operate between the hours of 8:00 a.m. and 7:00 p.m., daily, the self-serve wash bay stations operate between the hours of 7:00 a.m. and 9:00 p.m., daily, the project also includes a vehicle queuing lane on the rear portion of the lot located at 17022 Romar Street, across the alley to the west from the car wash; for the properties located at 10125 and 10113 North Balboa Boulevard; and 17022 West Romar Street, subject to modified Conditions of Approval, as further modified by the Committee, attached to the Council file.\nApplicant: Karen Metcalf c/o Steve Tolopilo, Balboa Car Washes, Inc., dba Denny’s Car Wash\nRepresentative: Kevin K. McDonnell, Esq., Jeffer Mangels Butler & Mitchell LLP\nCase No. APCNV-2023-8011-ZC-ZV-CU-WDI-SPP-DRB\nEnvironmental No. ENV-2023-8012-CE\nFiscal Impact Statement:\nThe NVAPC reports that there is no General Fund impact as administrative costs are recovered through fees.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - DECEMBER 7, 2026 LAST DAY FOR COUNCIL ACTION - DECEMBER 4, 2026",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1288-S1"
+  ],
+  "follows": "council-plum-2026-10-27-18502-4",
+  "summary": "A zone change and approvals to upgrade and keep operating Denny's Car Wash on North Balboa Boulevard, with new shade structures and a vehicle queuing lane on a lot on Romar Street.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "10125 N Balboa Blvd, Los Angeles, CA",
+      "lat": 34.254342,
+      "lon": -118.502436,
+      "neighborhood": "Northridge"
+    },
+    {
+      "text": "17022 W Romar St, Los Angeles, CA",
+      "lat": 34.254661,
+      "lon": -118.503875,
+      "neighborhood": "Northridge"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCNV-2023-8011-ZC-ZV-CU-WDI-SPP-DRB"
+    ],
+    "council_district": 12,
+    "council_file": "26-1288-S1",
+    "applicant": "Karen Metcalf c/o Steve Tolopilo, Balboa Car Washes, Inc., dba Denny's Car Wash",
+    "action": "zone change"
+  }
+}

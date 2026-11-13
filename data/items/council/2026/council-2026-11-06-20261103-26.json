@@ -1,0 +1,41 @@
+{
+  "id": "council-2026-11-06-20261103-26",
+  "body": "council",
+  "meeting_date": "2026-11-06",
+  "item_number": "26",
+  "title": "PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT , CATEGORICAL EXEMPTION and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS relative to an…",
+  "text": "[Council File 26-1288; CD 12]\n[Items for which Public Hearings Have Been Held]\nPLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT , CATEGORICAL EXEMPTION and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS relative to an appeal for the properties located at 10125 and 10113 North Balboa Boulevard; and 17022 West Romar Street.\nRecommendation(s) for Council action:\n1. DETERMINE, based on the whole of the administrative record, the Project is exempt from the California\nEnvironmental Quality Act (CEQA) pursuant to CEQA Guidelines, Section 15301, Class 1 (Existing Facilities) and Class 3 (New construction or conversion of small structures), and that there is no substantial evidence demonstrating that an exception to a categorical exemption pursuant to CEQA Guidelines, Section 15300.2 applies.\n2. ADOPT the FINDINGS of the North Valley Area Planning Commission (NVAPC) as the Findings of Council.\n3. RESOLVE TO DENY IN PART and GRANT IN PART THE APPEAL filed by Kevin K. McDonnell, Esq., Jeffer Mangels Butler & Mitchell LLP, relative to the NVAPC’s approval of the T-Condition No. 4a associated with the Zone Change; and the Conditions of Approval Nos. 3a, 3b, 6, and 12 associated with the Conditional Use; for the upgrade and continued use of an existing car wash (Denny's Car Wash), for the properties located at 10125 and 10113 North Balboa Boulevard and 17022 West Romar Street, subject to the Modified Conditions of Approval, as further modified by the Committee, attached to the Council file.\n4. INSTRUCT the Department of City Planning (DCP) to prepare Findings to grant in part the appeal, including environmental findings if necessary.\nApplicant: Dennis Metcalf, Balboa Car Washes, Inc. dba Denny’s Car Wash\nRepresentative: Kevin K. McDonnell, Esq., Jeffer Mangels Butler & Mitchell LLP\nCase No. APCNV-2023-8011-ZC-ZV-CU-WDI-SPP-DRB-1A\nEnvironmental No. ENV-2023-8012-CE\nRelated Case No. APCNV-2023-8011-ZC-ZV-CU-WDI-SPP-DRB\nFiscal Impact Statement:\nThe NVAPC reports that there is no General Fund impact as administrative costs are recovered through fees.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - NOVEMBER 6, 2026",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1288"
+  ],
+  "follows": "council-plum-2026-10-27-18502-3",
+  "summary": "Appeal of conditions for the existing Denny's Car Wash on North Balboa Boulevard, which would keep it operating with new outdoor shade structures, a small equipment room addition, and a vehicle queuing lane behind the lot.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "10125 N Balboa Blvd, Los Angeles, CA",
+      "lat": 34.254342,
+      "lon": -118.502436,
+      "neighborhood": "Northridge"
+    },
+    {
+      "text": "17022 W Romar St, Los Angeles, CA",
+      "lat": 34.254661,
+      "lon": -118.503875,
+      "neighborhood": "Northridge"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCNV-2023-8011-ZC-ZV-CU-WDI-SPP-DRB-1A",
+      "ENV-2023-8012-CE"
+    ],
+    "council_district": 12,
+    "applicant": "Dennis Metcalf, Balboa Car Washes, Inc. dba Denny’s Car Wash",
+    "action": "appeal of North Valley Area Planning Commission determination",
+    "council_file": "26-1288"
+  }
+}

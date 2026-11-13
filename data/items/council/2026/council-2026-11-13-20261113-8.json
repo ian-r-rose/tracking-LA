@@ -1,0 +1,30 @@
+{
+  "id": "council-2026-11-13-20261113-8",
+  "body": "council",
+  "meeting_date": "2026-11-13",
+  "item_number": "8",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to temporarily closing the alley adjacent to 1014 West 60th Street between 60th Street and 60th Place, pursuant to…",
+  "text": "[Council File 26-1152; CD 9]\n[Items for which Public Hearings Have Been Held]\nPUBLIC WORKS COMMITTEE REPORT relative to temporarily closing the alley adjacent to 1014 West 60th Street between 60th Street and 60th Place, pursuant to State Vehicle Code Section 21101.4.\nRecommendations for Council action, pursuant to Motion (Price - Padilla):\nINSTRUCT the City Engineer to report with recommendations to temporarily close the alley adjacent to 1014 West 60th Street between 60th Street and 60th Place, pursuant to State Vehicle Code Section 21101.4.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1152"
+  ],
+  "follows": "council-public-works-2026-10-27-23809-10",
+  "summary": "Temporarily closes the alley next to 1014 West 60th Street, between 60th Street and 60th Place.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "1014 West 60th Street, Los Angeles, CA",
+      "lat": 33.985803,
+      "lon": -118.291853,
+      "neighborhood": "Vermont-Slauson"
+    }
+  ],
+  "details": {
+    "council_file": "26-1152",
+    "council_district": 9,
+    "action": "temporary alley closure"
+  }
+}

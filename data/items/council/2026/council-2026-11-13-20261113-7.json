@@ -1,0 +1,30 @@
+{
+  "id": "council-2026-11-13-20261113-7",
+  "body": "council",
+  "meeting_date": "2026-11-13",
+  "item_number": "7",
+  "title": "PUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Hauser Boulevard and Obama Boulevard as “Nat Hutton Jr. Square.\"",
+  "text": "[Council File 26-1148; CD 10]\n[Items for which Public Hearings Have Been Held]\nPUBLIC WORKS COMMITTEE REPORT relative to designating the intersection at Hauser Boulevard and Obama Boulevard as “Nat Hutton Jr. Square.\"\nRecommendations for Council action, pursuant to Motion (Hutt - Harris-Dawson):\n1. DESIGNATE the intersection at Hauser Boulevard and Obama Boulevard as “Nat Hutton Jr. Square.\"\n2. DIRECT the Department of Transportation to erect permanent ceremonial sign(s) to this effect at this location.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1148"
+  ],
+  "follows": "council-public-works-2026-10-27-23809-12",
+  "summary": "Council would designate the intersection of Hauser Blvd and Obama Blvd as \"Nat Hutton Jr. Square.\"",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Hauser Blvd & Obama Blvd, Los Angeles, CA",
+      "lat": 34.021566,
+      "lon": -118.365885,
+      "neighborhood": "Baldwin Hills/Crenshaw"
+    }
+  ],
+  "details": {
+    "council_file": "26-1148",
+    "council_district": 10,
+    "action": "intersection designation"
+  }
+}

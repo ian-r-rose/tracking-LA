@@ -1,0 +1,31 @@
+{
+  "id": "council-2026-11-10-20261110-11",
+  "body": "council",
+  "meeting_date": "2026-11-10",
+  "item_number": "11",
+  "title": "HOMELESSNESS AND HEALTH COMMITTEE REPORT and STATUTORY EXEMPTION, relative to a lease agreement between Hope the Mission and the City of Los Angeles for the…",
+  "text": "[Council File 23-1022-S41; CD 14]\n[Items for which Public Hearings Have Been Held]\nHOMELESSNESS AND HEALTH COMMITTEE REPORT and STATUTORY EXEMPTION, relative to a lease agreement between Hope the Mission and the City of Los Angeles for the operation of a Tiny Home Village site at 7500-7570 North Figueroa Street in Council District 14.\nRecommendation(s) for Council action:\n1. DETERMINE that the funding allocation, lease, and continued use for a period of approximately one year for the Eagle Rock Recreation Center Tiny Home Village (THV)/low barrier navigation center at 7570 North Figueroa Street for those experiencing homelessness, are statutorily exempt from the California\nEnvironmental Quality Act under PRC Section 21080.27.5, applicable to low barrier navigation centers; and Government Code Section 8698.4(a)(4) governing homeless shelter projects under a shelter crisis declaration.\n2. AUTHORIZE the General Services Department (GSD) to negotiate and execute the license agreement with Hope the Mission at 7500 - 7570 North Figueroa Street, Los Angeles, CA 90041 for an interim housing site under the terms and conditions substantially outlined in the GSD report dated August 27, 2026, attached to the Council file.\nFiscal Impact Statement:\nThe MFC reports that there is no impact to the General Fund as a result of the recommendations in its report. The Fiscal Year 2025-26 Fourth Homelessness Funding Report (Council file No. 23-1022-S29), approved by the Mayor and Council on May 8, 2026, allocated a total of approximately $3 million in Measure A - Local Solutions Fund to support services at this site. No funding was provided for leasing since the site is controlled by Department of Recreation and Parks (RAP). RAP pays an annual licensing fee to SoCal Edison under its agreement with SoCal Edison, while no payment is required to the County for use of the County-owned portion of the property. This is a no-cost lease agreement with the service provider. The GSD reports that there is no impact to the General Fund as a result of the recommendations in its report. Current operational funding is supported with the Measure A Local Solutions Fund.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-council-v2.pdf",
+    "https://lms.lacity.gov/files/23-1022-S41"
+  ],
+  "follows": "council-homelessness-2026-10-28-23765-9",
+  "summary": "A lease with Hope the Mission to operate a tiny home village at 7500-7570 North Figueroa Street.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "7500 N Figueroa St, Los Angeles, CA",
+      "lat": 34.140396,
+      "lon": -118.186899,
+      "neighborhood": "Eagle Rock"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "council_file": "23-1022-S41",
+    "applicant": "Hope the Mission",
+    "action": "lease agreement"
+  }
+}

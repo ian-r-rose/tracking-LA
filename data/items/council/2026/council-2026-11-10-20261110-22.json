@@ -1,0 +1,33 @@
+{
+  "id": "council-2026-11-10-20261110-22",
+  "body": "council",
+  "meeting_date": "2026-11-10",
+  "item_number": "22",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 1307 South Ridgeley Drive (Case No. 844138), Assessor I.D. No. 5085-032-044,…",
+  "text": "[Council File 26-0005-S187; CD 10]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 1307 South Ridgeley Drive (Case No. 844138), Assessor I.D. No. 5085-032-044, from the Rent Escrow Account Program (REAP).\nRecommendation(s) for Council action:\nAPPROVE the Housing Department (LAHD) report dated October 9, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 1307 South Ridgeley Drive (Case No. 844138), Assessor I.D. No. 5085-032-044, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-council-v2.pdf",
+    "https://lms.lacity.gov/files/26-0005-S187"
+  ],
+  "follows": "council-housing-2026-10-21-22709-6",
+  "summary": "Housing Department proposal to take 1307 South Ridgeley Drive in Council District 10 off the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "1307 South Ridgeley Drive, Los Angeles, CA",
+      "lat": 34.05083,
+      "lon": -118.354981,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "844138"
+    ],
+    "council_district": 10,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S187"
+  }
+}
