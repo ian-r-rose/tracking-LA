@@ -20,10 +20,11 @@
     "action": "establish moratorium"
   },
   "outcome": {
-    "status": "continued",
-    "text": "Energy and Environment Committee continued item to a date to be determined (Oct 1, 2026)",
+    "status": "approved",
+    "text": "Energy and Environment Committee action: Approved as Amended (Nov 13, 2026)",
     "source": "https://lms.lacity.gov/files/26-1284",
-    "recorded": "2026-10-04"
+    "vote": "1-0-2",
+    "recorded": "2026-11-14"
   },
   "flag": {
     "reason": "Citywide moratorium proposal on large data centers; the committee put it off with no new date."

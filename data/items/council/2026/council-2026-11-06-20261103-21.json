@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1380"
-  ]
+  ],
+  "outcome": {
+    "status": "continued",
+    "text": "Council action: Adopted: the Ordinance for this item will be held over to November 13, 2026, for second reading (Nov 6, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-1380",
+    "vote": "12-1-2",
+    "recorded": "2026-11-14"
+  }
 }

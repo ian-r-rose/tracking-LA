@@ -8,5 +8,11 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-planning-and-land-use-management-v1.pdf",
     "https://lms.lacity.gov/files/26-1415"
-  ]
+  ],
+  "outcome": {
+    "status": "denied",
+    "text": "Planning and Land Use Management Committee action: Disapproved: DENIED the appeal; and thereby SUSTAINED the determination of the Central Los Angeles Area Planning Commission (CLAAPC), as detailed in the CLAAPC Report dated October 5, 2026 (Nov 12, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1415",
+    "recorded": "2026-11-14"
+  }
 }

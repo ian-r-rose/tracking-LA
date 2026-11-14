@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-arts-parks-and-city-facilities-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-1453"
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "Arts, Parks, and City Facilities Committee action: Approved: Approved El Pueblo de Los Angeles Historical Monument Department report dated 10-9-26 (Nov 4, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1453",
+    "vote": "2-0-1",
+    "recorded": "2026-11-14"
+  }
 }

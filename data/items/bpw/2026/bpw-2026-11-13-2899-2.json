@@ -22,5 +22,12 @@
   },
   "flag": {
     "reason": "Citywide change in who collects commercial and multifamily trash and recycling."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED - SUBJECT TO CONDITIONS, REFERRED TO MAYOR AND CITY COUNCIL, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25413",
+    "vote": "5-0",
+    "recorded": "2026-11-14"
   }
 }

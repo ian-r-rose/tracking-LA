@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-homelessness-and-health-committee-v1.pdf",
     "https://lms.lacity.gov/files/23-0529"
-  ]
+  ],
+  "outcome": {
+    "status": "continued",
+    "text": "Homelessness and Health Committee action: Continued (Nov 10, 2026)",
+    "source": "https://lms.lacity.gov/files/23-0529",
+    "vote": "4-0-1",
+    "recorded": "2026-11-14"
+  }
 }

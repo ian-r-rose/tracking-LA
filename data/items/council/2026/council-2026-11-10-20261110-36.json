@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1176"
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 10, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1176",
+    "vote": "13-0-2",
+    "recorded": "2026-11-14"
+  }
 }

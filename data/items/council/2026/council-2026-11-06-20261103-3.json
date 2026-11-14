@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-03-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1546"
-  ]
+  ],
+  "outcome": {
+    "status": "continued",
+    "text": "Council action: Continued: to November 10, 2026 (Nov 6, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1546",
+    "vote": "12-0-3",
+    "recorded": "2026-11-14"
+  }
 }

@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-energy-and-environment-v1.pdf",
     "https://lms.lacity.gov/files/26-0367"
-  ]
+  ],
+  "outcome": {
+    "status": "filed",
+    "text": "Energy and Environment Committee action: Noted and Filed (Nov 13, 2026)",
+    "source": "https://lms.lacity.gov/files/26-0367",
+    "vote": "1-0-2",
+    "recorded": "2026-11-14"
+  }
 }

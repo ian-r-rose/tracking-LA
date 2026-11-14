@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-10-30-council-v1.pdf",
     "https://lms.lacity.gov/files/17-0193-S10"
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted, Forthwith Urgent Forthwith (Oct 30, 2026)",
+    "source": "https://lms.lacity.gov/files/17-0193-S10",
+    "vote": "10-0-5",
+    "recorded": "2026-11-14"
+  }
 }

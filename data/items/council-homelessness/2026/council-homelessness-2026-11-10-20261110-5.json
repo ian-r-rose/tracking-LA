@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-homelessness-and-health-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-1347"
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "Homelessness and Health Committee action: Approved as Amended: ADOPTED Motion (Harris-Dawson – Jurado) dated September 22, 2026 AS AMENDED BY Motion (Jurado - Padilla) (Nov 10, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1347",
+    "vote": "4-0-1",
+    "recorded": "2026-11-14"
+  }
 }

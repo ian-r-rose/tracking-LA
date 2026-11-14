@@ -1,0 +1,36 @@
+{
+  "id": "council-2026-11-17-20261117-3",
+  "body": "council",
+  "meeting_date": "2026-11-17",
+  "item_number": "3",
+  "title": "PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT , CATEGORICAL EXEMPTION and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS relative to a…",
+  "text": "[Council File 26-1207; CD 13]\n[Items for which Public Hearings Have Been Held]\nPLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT , CATEGORICAL EXEMPTION and RELATED CALIFORNIA ENVIRONMENTAL QUALITY ACT (CEQA) FINDINGS relative to a CEQA appeal filed for the properties located at 2413 – 2499 North Silver Lake Boulevard.\nRecommendation(s) for Council action:\n1. DETERMINE, based on the whole of the administrative record, that the Project is exempt from CEQA pursuant to California Public Resource Code Section 21080.66.\n2. ADOPT the FINDINGS of the Los Angeles City Planning Commission (LACPC) as the Findings of Council.\n3. RESOLVE TO DENY THE APPEAL filed by Pat Hadnagy, and THEREBY SUSTAIN the LACPC’s determination in approving, pursuant to Los Angeles Municipal Code Chapter 1 Section 16.05 and Chapter 1A Section 13B.2.4, a Project Review for a project that results in an increase of 50 or more residential dwelling units; for the demolition of five existing carports and accessory structures in an existing residential development with seven residential buildings including 48 existing units on a site spanning 11 lots with 88,773 square feet of lot area, and the construction, use, and maintenance of three new residential buildings, including one four-story building and two five-story buildings, adding a total of 76 new dwelling units, of which six are reserved for very low-income households, the Project will add 71,269 square feet of new floor area for a total Floor Area Ratio of 1.44:1 and 124 dwelling units, the Project will provide 119 parking spaces across three two-level subterranean parking lots in addition to 59 long-term bicycle parking spaces and six short-term bicycle parking spaces, the Project is removing four non-protected on-site trees and will provide 144 trees, and proposes the export of approximately 35,600 cubic yards of soil; for the properties located at 2413 – 2499 North Silver Lake Boulevard, subject to Modified Conditions of Approval.\nApplicant: Fang Qian Morgan, Fang Qian Morgan EGST Trust & Seth, James Morgan EGST Trust\nRepresentative: Gary Benjamin, Alchemy Planning + Land Use Case No. CPC-2024-5534-DB-PR-VHCA-1A\nEnvironmental No. ENV-2024-5535-SE\nFiscal Impact Statement:\nThe LACPC reports that there is no General Fund impact as administrative costs are recovered through fees.\nCommunity Impact Statement:\nNone submitted\nTIME LIMIT FILE - NOVEMBER 20, 2026",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1207"
+  ],
+  "follows": "council-plum-2026-10-27-18502-6",
+  "summary": "Appeal of approval for 76 new residential units in three new buildings at 2413–2499 North Silver Lake Boulevard, six of them reserved for very low-income households, alongside the 48 units already on the site.",
+  "topics": [
+    "housing",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2413 N Silver Lake Blvd, Los Angeles, CA",
+      "lat": 34.100917,
+      "lon": -118.258071,
+      "neighborhood": "Silver Lake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2024-5534-DB-PR-VHCA-1A",
+      "ENV-2024-5535-SE"
+    ],
+    "council_district": 13,
+    "applicant": "Fang Qian Morgan, Fang Qian Morgan EGST Trust & Seth, James Morgan EGST Trust",
+    "action": "appeal of Los Angeles City Planning Commission approval",
+    "council_file": "26-1207"
+  }
+}

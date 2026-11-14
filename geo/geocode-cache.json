@@ -283,6 +283,12 @@
   "lon": -118.336248,
   "score": 100
  },
+ "11600 N INDIAN HILLS ROAD": {
+  "address": "11600 N INDIAN HILLS ROAD, 91345",
+  "lat": 34.280219,
+  "lon": -118.45889,
+  "score": 100
+ },
  "11628 W SANTA MONICA BLVD": {
   "address": "11628 W SANTA MONICA BLVD, 90025",
   "lat": 34.044357,
@@ -1990,6 +1996,12 @@
   "lon": -118.185599,
   "score": 99.06
  },
+ "4600 W WILSHIRE BLVD": {
+  "address": "4600 W WILSHIRE BLVD, 90010",
+  "lat": 34.061873,
+  "lon": -118.329177,
+  "score": 100
+ },
  "4645 N LEDGE AVE": {
   "address": "4645 N LEDGE AVE, 91602",
   "lat": 34.154846,
@@ -2199,6 +2211,12 @@
   "address": "549 S CERES AVE, 90013",
   "lat": 34.04074,
   "lon": -118.240635,
+  "score": 100
+ },
+ "5545 W PICO BLVD": {
+  "address": "5545 W PICO BLVD, 90019",
+  "lat": 34.049418,
+  "lon": -118.358696,
   "score": 100
  },
  "5566 West 2nd Street": {
@@ -2423,6 +2441,12 @@
   "address": "625 E CRESTMOORE PL, 90291",
   "lat": 33.988504,
   "lon": -118.45668,
+  "score": 100
+ },
+ "635 N LACHMAN LANE": {
+  "address": "635 N LACHMAN LANE, 90272",
+  "lat": 34.047827,
+  "lon": -118.54681,
   "score": 100
  },
  "636 E VERNON AVE": {

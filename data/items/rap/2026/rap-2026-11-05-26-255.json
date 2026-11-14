@@ -16,5 +16,12 @@
   "locations": [],
   "details": {
     "action": "appropriation from fund balance"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED",
+    "source": "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov05/110526mintelephonicregular.pdf",
+    "vote": "4-0",
+    "recorded": "2026-11-14"
   }
 }

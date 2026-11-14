@@ -8,5 +8,11 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-housing-committee-v2.pdf",
     "https://lms.lacity.gov/files/22-0623"
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee action: Approved: Approved Housing Department report dated October 8, 2026 (Nov 5, 2026)",
+    "source": "https://lms.lacity.gov/files/22-0623",
+    "recorded": "2026-11-14"
+  }
 }

@@ -18,5 +18,12 @@
   "details": {
     "amount": "$17,759,497",
     "action": "Authorize invitation for bids on traffic signal improvements"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25413",
+    "vote": "5-0",
+    "recorded": "2026-11-14"
   }
 }
