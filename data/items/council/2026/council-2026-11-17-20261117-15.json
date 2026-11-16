@@ -8,5 +8,18 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1599"
-  ]
+  ],
+  "summary": "Direction to General Services to set up a donated Christmas tree and an unlit Menorah in the City Hall Rotunda for the December holidays, along with displays for other holiday observances such as Kwanzaa and Las Posadas.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "City Hall Rotunda"
+    }
+  ],
+  "details": {
+    "council_file": "26-1599",
+    "action": "direction to erect holiday displays"
+  }
 }

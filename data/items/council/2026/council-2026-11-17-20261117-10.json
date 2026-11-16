@@ -8,5 +8,23 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1592"
-  ]
+  ],
+  "summary": "Council approval of up to $40 million in multifamily housing revenue bonds to finance a new 96-unit multifamily housing project, Valleris on Ventura, at 23022 Ventura Blvd in Council District 3.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "23022 Ventura Blvd, Los Angeles, CA",
+      "lat": 34.164582,
+      "lon": -118.627329,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "action": "TEFRA approval of multifamily housing revenue bonds",
+    "amount": "$40,000,000",
+    "council_file": "26-1592"
+  }
 }

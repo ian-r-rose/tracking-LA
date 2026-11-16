@@ -15,5 +15,26 @@
     "source": "https://lms.lacity.gov/files/26-1492",
     "vote": "2-0-1",
     "recorded": "2026-11-14"
+  },
+  "summary": "A 15-year renewal option for the cooperative agreement covering La Plaza United Methodist Church and the Museum of Social Justice at 115 Paseo de la Plaza in El Pueblo.",
+  "topics": [
+    "parks",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "115 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057072,
+      "lon": -118.238742,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "26-1492",
+    "applicant": "United Methodist Ministries – Los Angeles District",
+    "action": "15-year renewal option for cooperative agreement"
+  },
+  "flag": {
+    "reason": "Agreement in El Pueblo, Downtown, a watched neighborhood."
   }
 }

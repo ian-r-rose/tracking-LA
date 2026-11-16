@@ -11,6 +11,18 @@
   "lon": -118.346817,
   "score": 100
  },
+ "1001 East 27th Street": {
+  "address": "1001 E 27TH ST, 90011",
+  "lat": 34.018458,
+  "lon": -118.256766,
+  "score": 100
+ },
+ "1001 S Vermont Ave": {
+  "address": "1001 S VERMONT AVE, 90006",
+  "lat": 34.052485,
+  "lon": -118.291682,
+  "score": 100
+ },
  "10010 GRAPE ST": {
   "address": "10010 S GRAPE ST, 90002",
   "lat": 33.945578,
@@ -71,6 +83,7 @@
   "lon": -118.234656,
   "score": 98.18
  },
+ "1025 Elysian Park Dr": null,
  "1025 North Vermont": {
   "address": "1025 N VERMONT AVE, 90029",
   "lat": 34.089968,
@@ -100,6 +113,12 @@
   "lat": 34.106075,
   "lon": -118.447345,
   "score": 100
+ },
+ "10453 Sandal Lane": {
+  "address": "10453 W SANDAL LANE, 90077",
+  "lat": 34.099045,
+  "lon": -118.44459,
+  "score": 99.06
  },
  "10460 W TUXFORD ST": {
   "address": "10460 W TUXFORD ST, 91352",
@@ -135,6 +154,12 @@
   "address": "1061 S BROXTON AVE, 90024",
   "lat": 34.061403,
   "lon": -118.44626,
+  "score": 100
+ },
+ "1062 West 253rd Street": {
+  "address": "1062 W 253RD ST, 90710",
+  "lat": 33.794652,
+  "lon": -118.294839,
   "score": 100
  },
  "10740 W VENTURA BLVD": {
@@ -191,12 +216,30 @@
   "lon": -118.29169,
   "score": 97.59
  },
+ "111 West 7th Street": {
+  "address": "111 W 7TH ST, 90731",
+  "lat": 33.737763,
+  "lon": -118.280597,
+  "score": 100
+ },
  "11100 W CHALON ROAD": null,
  "11100 W Chalon Road": null,
+ "11151 West Camarillo Street": {
+  "address": "11151 W CAMARILLO ST, 91602",
+  "lat": 34.157715,
+  "lon": -118.373814,
+  "score": 100
+ },
  "11245 N PORTER RANCH DR": {
   "address": "11245 N PORTER RANCH DR, 91311",
   "lat": 34.273056,
   "lon": -118.569676,
+  "score": 100
+ },
+ "11314 West Emelita Street": {
+  "address": "11314 W EMELITA ST, 91601",
+  "lat": 34.17663,
+  "lon": -118.377179,
   "score": 100
  },
  "1132 N HYPERION AVE": {
@@ -325,6 +368,12 @@
   "lon": -118.470642,
   "score": 100
  },
+ "11800 Foothill Blvd": {
+  "address": "11800 W FOOTHILL BLVD, 91342",
+  "lat": 34.273066,
+  "lon": -118.392829,
+  "score": 99.06
+ },
  "119 West Jefferson Boulevard": {
   "address": "119 W JEFFERSON BLVD, 90007",
   "lat": 34.019033,
@@ -347,6 +396,19 @@
   "address": "11973 W SAN VICENTE BLVD, 90049",
   "lat": 34.052535,
   "lon": -118.472064,
+  "score": 100
+ },
+ "12 Olvera St": null,
+ "1200 South Crescent Heights Boulevard": {
+  "address": "1200 S CRESCENT HEIGHTS BLVD, 90035",
+  "lat": 34.054301,
+  "lon": -118.371212,
+  "score": 100
+ },
+ "1200 West 42nd Street": {
+  "address": "1200 W 42ND ST, 90037",
+  "lat": 34.007251,
+  "lon": -118.295958,
   "score": 100
  },
  "1211 S SHERBOURNE DR 1-4": {
@@ -421,6 +483,12 @@
   "lon": -118.405667,
   "score": 100
  },
+ "1254 West Exposition Boulevard": {
+  "address": "1254 W EXPOSITION BLVD (S/R), 90007",
+  "lat": 34.018109,
+  "lon": -118.298946,
+  "score": 99.08
+ },
  "12621 Rye St": {
   "address": "12621 W RYE ST, 91604",
   "lat": 34.151415,
@@ -444,6 +512,18 @@
   "lat": 33.975782,
   "lon": -118.461491,
   "score": 100
+ },
+ "128 East Hurricane Street": {
+  "address": "128 E HURRICANE ST, 90292",
+  "lat": 33.975782,
+  "lon": -118.461491,
+  "score": 100
+ },
+ "12811 W Sherman Way Blvd": {
+  "address": "12811 W SHERMAN WAY, 91605",
+  "lat": 34.201266,
+  "lon": -118.411853,
+  "score": 88
  },
  "12831 W MACLAY ST": {
   "address": "12831 W MACLAY ST, 91342",
@@ -535,6 +615,12 @@
   "lon": -118.461336,
   "score": 100
  },
+ "133 East Hurricane Street": {
+  "address": "133 E HURRICANE ST, 90292",
+  "lat": 33.976016,
+  "lon": -118.461336,
+  "score": 100
+ },
  "1332 W COLORADO BLVD": {
   "address": "1332 W COLORADO BLVD, 90041",
   "lat": 34.138896,
@@ -555,6 +641,12 @@
  },
  "13400 W WASHINGTON BLVD": null,
  "13400 W Washington Blvd": null,
+ "1341 North Fries Avenue": {
+  "address": "1341 N FRIES AVE, 90744",
+  "lat": 33.789654,
+  "lon": -118.265675,
+  "score": 100
+ },
  "13456 W VAN NUYS BLVD": {
   "address": "13456 W VAN NUYS BLVD, 91331",
   "lat": 34.263005,
@@ -603,6 +695,12 @@
   "lon": -118.461311,
   "score": 100
  },
+ "139 East Hurricane Street": {
+  "address": "139 E HURRICANE ST, 90292",
+  "lat": 33.976031,
+  "lon": -118.461311,
+  "score": 100
+ },
  "1391 N TOWER GROVE DR": {
   "address": "1391 N TOWER GROVE DR, 90210",
   "lat": 34.096856,
@@ -644,6 +742,12 @@
   "address": "14117 W HUBBARD ST, 91342",
   "lat": 34.298448,
   "lon": -118.440493,
+  "score": 100
+ },
+ "1416 West 35th Street": {
+  "address": "1416 W 35TH ST, 90018",
+  "lat": 34.024542,
+  "lon": -118.300795,
   "score": 100
  },
  "1420 S POINT VIEW ST": {
@@ -694,11 +798,35 @@
   "lon": -118.294124,
   "score": 100
  },
+ "14701 Friar St": {
+  "address": "14701 W FRIAR ST, 91411",
+  "lat": 34.185741,
+  "lon": -118.45316,
+  "score": 99.06
+ },
+ "14701 Friar Street": {
+  "address": "14701 W FRIAR ST, 91411",
+  "lat": 34.185741,
+  "lon": -118.45316,
+  "score": 99.06
+ },
  "14703 W RINALDI ST A-C": {
   "address": "14703 W RINALDI ST, 91340",
   "lat": 34.280806,
   "lon": -118.453366,
   "score": 92.94
+ },
+ "14704 Victory Blvd": {
+  "address": "14704 W VICTORY BLVD, 91411",
+  "lat": 34.186593,
+  "lon": -118.453248,
+  "score": 99.06
+ },
+ "14704 Victory Boulevard": {
+  "address": "14704 W VICTORY BLVD, 91411",
+  "lat": 34.186593,
+  "lon": -118.453248,
+  "score": 99.06
  },
  "1481 North Blue Jay Way": {
   "address": "1481 N BLUE JAY WAY, 90069",
@@ -844,6 +972,12 @@
   "lon": -118.269058,
   "score": 100
  },
+ "16425 Hart St": {
+  "address": "16425 W HART ST, 91406",
+  "lat": 34.197603,
+  "lon": -118.49138,
+  "score": 99.06
+ },
  "16425 Hart Street": {
   "address": "16425 W HART ST, 91406",
   "lat": 34.197603,
@@ -950,6 +1084,12 @@
   "address": "1817 S ORANGE GROVE AVE, 90019",
   "lat": 34.042725,
   "lon": -118.368298,
+  "score": 100
+ },
+ "1818 S Clyde Ave": {
+  "address": "1818 S CLYDE AVE, 90019",
+  "lat": 34.042653,
+  "lon": -118.36345,
   "score": 100
  },
  "1838 S THAYER AVE": {
@@ -1074,6 +1214,12 @@
   "lon": -118.274073,
   "score": 100
  },
+ "201 N Carondelet St": {
+  "address": "201 N CARONDELET ST, 90026",
+  "lat": 34.070257,
+  "lon": -118.274073,
+  "score": 100
+ },
  "20140 W RINALDI ST": {
   "address": "20140 W RINALDI ST, 91326",
   "lat": 34.274901,
@@ -1108,6 +1254,12 @@
   "address": "2069 N ARGYLE AVE, 90068",
   "lat": 34.108297,
   "lon": -118.325297,
+  "score": 100
+ },
+ "2100 N Cahuenga Blvd": {
+  "address": "2100 N CAHUENGA BLVD, 90068",
+  "lat": 34.107522,
+  "lon": -118.330656,
   "score": 100
  },
  "2100 N Laurel Canyon Blvd": {
@@ -1214,6 +1366,12 @@
   "lon": -118.514905,
   "score": 95.99
  },
+ "23022 Ventura Blvd": {
+  "address": "23022 W VENTURA BLVD, 91364",
+  "lat": 34.164582,
+  "lon": -118.627329,
+  "score": 99.06
+ },
  "2304 S STRONGS DR": {
   "address": "2304 S STRONG'S DR, 90291",
   "lat": 33.984168,
@@ -1237,6 +1395,12 @@
   "lat": 34.152632,
   "lon": -118.630952,
   "score": 78.92
+ },
+ "2322 South Carmona Avenue": {
+  "address": "2322 S CARMONA AVE, 90016",
+  "lat": 34.036155,
+  "lon": -118.36243,
+  "score": 100
  },
  "2331 South 6th Avenue": {
   "address": "2331 S 6TH AVE, 90018",
@@ -1376,6 +1540,12 @@
   "lon": -118.215751,
   "score": 100
  },
+ "2511 N Daly St": {
+  "address": "2511 N DALY ST, 90031",
+  "lat": 34.075295,
+  "lon": -118.215751,
+  "score": 100
+ },
  "2532 North Eastlake Avenue": {
   "address": "2532 N EASTLAKE AVE, 90031",
   "lat": 34.076409,
@@ -1387,6 +1557,12 @@
   "lat": 34.046485,
   "lon": -118.407845,
   "score": 99.06
+ },
+ "25926 S Western Ave": {
+  "address": "25926 S WESTERN AVE, 90710",
+  "lat": 33.787457,
+  "lon": -118.307544,
+  "score": 100
  },
  "2600 Fletcher Drive": {
   "address": "2600 N FLETCHER DR, 90039",
@@ -1411,6 +1587,12 @@
   "lat": 34.031632,
   "lon": -118.306622,
   "score": 100
+ },
+ "2662 East Loosmore Street": {
+  "address": "2662 N LOOSMORE ST, 90065",
+  "lat": 34.092902,
+  "lon": -118.226638,
+  "score": 92.78
  },
  "2700 W WILSHIRE BLVD": {
   "address": "2700 W WILSHIRE BLVD, 90057",
@@ -1606,6 +1788,12 @@
   "lon": -118.217731,
   "score": 99.06
  },
+ "3224 East 4th Street": {
+  "address": "3224 E 4TH ST, 90063",
+  "lat": 34.035105,
+  "lon": -118.199586,
+  "score": 100
+ },
  "3224 N GLENDALE BLVD": {
   "address": "3224 N GLENDALE BLVD, 90039",
   "lat": 34.117822,
@@ -1768,7 +1956,19 @@
   "lon": -118.461133,
   "score": 100
  },
+ "3813 South Esplanade": {
+  "address": "3813 S ESPLANADE, 90292",
+  "lat": 33.976268,
+  "lon": -118.461133,
+  "score": 100
+ },
  "3817 S Esplanade": {
+  "address": "3817 S ESPLANADE, 90292",
+  "lat": 33.976155,
+  "lon": -118.461046,
+  "score": 100
+ },
+ "3817 South Esplanade": {
   "address": "3817 S ESPLANADE, 90292",
   "lat": 33.976155,
   "lon": -118.461046,
@@ -1786,6 +1986,12 @@
   "lon": -118.287883,
   "score": 100
  },
+ "3907 South Budlong Avenue": {
+  "address": "3907 S BUDLONG AVE, 90037",
+  "lat": 34.015129,
+  "lon": -118.295973,
+  "score": 100
+ },
  "3911 W Adams Blvd": {
   "address": "3911 W ADAMS BLVD, 90018",
   "lat": 34.032678,
@@ -1799,6 +2005,12 @@
   "score": 100
  },
  "3913 S Esplanade W": {
+  "address": "3913 S ESPLANADE WEST, 90292",
+  "lat": 33.975694,
+  "lon": -118.461251,
+  "score": 100
+ },
+ "3913 South Esplanade West": {
   "address": "3913 S ESPLANADE WEST, 90292",
   "lat": 33.975694,
   "lon": -118.461251,
@@ -1954,6 +2166,18 @@
   "lon": -118.346121,
   "score": 100
  },
+ "4416 South San Pedro Street": {
+  "address": "4416 S SAN PEDRO ST, 90011",
+  "lat": 34.003377,
+  "lon": -118.269559,
+  "score": 100
+ },
+ "444 South Harbor Boulevard, San Pedro": {
+  "address": "444 S HARBOR BLVD, 90731",
+  "lat": 33.740768,
+  "lon": -118.279554,
+  "score": 84.52
+ },
  "4466 E Florizel Ave": {
   "address": "4466 N FLORIZEL ST, 90032",
   "lat": 34.087032,
@@ -2002,6 +2226,18 @@
   "lon": -118.329177,
   "score": 100
  },
+ "4600 W Wilshire Blvd": {
+  "address": "4600 W WILSHIRE BLVD, 90010",
+  "lat": 34.061873,
+  "lon": -118.329177,
+  "score": 100
+ },
+ "4641 West Santa Monica Boulevard": {
+  "address": "4641 W SANTA MONICA BLVD, 90029",
+  "lat": 34.090944,
+  "lon": -118.290311,
+  "score": 100
+ },
  "4645 N LEDGE AVE": {
   "address": "4645 N LEDGE AVE, 91602",
   "lat": 34.154846,
@@ -2032,6 +2268,12 @@
   "lon": -118.209734,
   "score": 92.78
  },
+ "4811 North Ben Avenue": {
+  "address": "4811 N BEN AVE, 91607",
+  "lat": 34.157845,
+  "lon": -118.39434,
+  "score": 100
+ },
  "4849 N Mount Royal Dr": {
   "address": "4849 N MT ROYAL DR, 90041",
   "lat": 34.13442,
@@ -2061,6 +2303,12 @@
   "lat": 34.159661,
   "lon": -118.370188,
   "score": 81.19
+ },
+ "4901 West 20th Street": {
+  "address": "4901 W 20TH ST, 90016",
+  "lat": 34.039142,
+  "lon": -118.346418,
+  "score": 100
  },
  "5000 South Beethoven Street": null,
  "5003 N KESTER AVE": {
@@ -2237,6 +2485,18 @@
   "lon": -118.310974,
   "score": 100
  },
+ "5653 East Irvington Place": {
+  "address": "5653 N IRVINGTON PL, 90042",
+  "lat": 34.115271,
+  "lon": -118.19612,
+  "score": 92.78
+ },
+ "5724 West Clemson Street": {
+  "address": "5724 W CLEMSON ST, 90016",
+  "lat": 34.023989,
+  "lon": -118.37,
+  "score": 100
+ },
  "5741 West Jefferson Boulevard": {
   "address": "5741 W JEFFERSON BLVD, 90016",
   "lat": 34.026711,
@@ -2340,6 +2600,12 @@
   "lon": -118.286553,
   "score": 100
  },
+ "6033 W Century Blvd": {
+  "address": "6033 W CENTURY BLVD, 90045",
+  "lat": 33.945638,
+  "lon": -118.389878,
+  "score": 100
+ },
  "6033 West Century Boulevard": {
   "address": "6033 W CENTURY BLVD, 90045",
   "lat": 33.945638,
@@ -2388,6 +2654,12 @@
   "lon": -118.291774,
   "score": 100
  },
+ "6112 West Romaine Street": {
+  "address": "6112 W ROMAINE ST, 90038",
+  "lat": 34.088862,
+  "lon": -118.324768,
+  "score": 100
+ },
  "612 N HOOVER ST": {
   "address": "612 N HOOVER ST, 90004",
   "lat": 34.081991,
@@ -2410,6 +2682,12 @@
   "address": "6155 W RODGERTON DR, 90068",
   "lat": 34.125276,
   "lon": -118.320546,
+  "score": 100
+ },
+ "620 South Lincoln Boulevard": {
+  "address": "620 S LINCOLN BLVD, 90291",
+  "lat": 34.000055,
+  "lon": -118.465046,
   "score": 100
  },
  "6200 W Burnside Ave": null,
@@ -2462,6 +2740,12 @@
   "score": 100
  },
  "639 S BROADWAY": {
+  "address": "639 S BROADWAY, 90014",
+  "lat": 34.046126,
+  "lon": -118.252616,
+  "score": 100
+ },
+ "639 S Broadway": {
   "address": "639 S BROADWAY, 90014",
   "lat": 34.046126,
   "lon": -118.252616,
@@ -2635,6 +2919,12 @@
   "lon": -118.257912,
   "score": 100
  },
+ "7150 Hayvenhurst Ave": {
+  "address": "7150 N HAYVENHURST AVE, 91406",
+  "lat": 34.200223,
+  "lon": -118.492345,
+  "score": 99.06
+ },
  "720 N VIRGIL AVE": {
   "address": "720 N VIRGIL AVE, 90029",
   "lat": 34.084032,
@@ -2663,6 +2953,12 @@
   "address": "729 W MANCHESTER AVE, 90044",
   "lat": 33.960132,
   "lon": -118.286584,
+  "score": 100
+ },
+ "730 S Western Ave": {
+  "address": "730 S WESTERN AVE, 90732",
+  "lat": 33.737753,
+  "lon": -118.315836,
   "score": 100
  },
  "7323 North Remmet Ave": {
@@ -2719,6 +3015,12 @@
   "lon": -118.606109,
   "score": 100
  },
+ "7646 Hayvenhurst Ave": {
+  "address": "7646 N HAYVENHURST AVE, 91406",
+  "lat": 34.209218,
+  "lon": -118.492356,
+  "score": 99.06
+ },
  "7685 W WILLOW GLEN ROAD": {
   "address": "7685 W WILLOW GLEN ROAD, 90046",
   "lat": 34.11868,
@@ -2731,10 +3033,22 @@
   "lon": -118.368503,
   "score": 100
  },
+ "7701 Woodley Ave": {
+  "address": "7701 N WOODLEY AVE, 91406",
+  "lat": 34.210247,
+  "lon": -118.483739,
+  "score": 99.06
+ },
  "7701 Woodley Avenue": {
   "address": "7701 N WOODLEY AVE, 91406",
   "lat": 34.210247,
   "lon": -118.483739,
+  "score": 99.06
+ },
+ "7800 Hayvenhurst Ave": {
+  "address": "7800 N HAYVENHURST AVE, 91406",
+  "lat": 34.211654,
+  "lon": -118.49236,
   "score": 99.06
  },
  "7820 North Lindley Avenue": {
@@ -2798,6 +3112,12 @@
   "lon": -118.300253,
   "score": 98.18
  },
+ "8100 Mulholland Drive": {
+  "address": "8100 W MULHOLLAND DR, 90046",
+  "lat": 34.123457,
+  "lon": -118.375349,
+  "score": 99.06
+ },
  "8100 West McGroarty Street": {
   "address": "8100 W MCGROARTY ST, 91040",
   "lat": 34.252351,
@@ -2840,6 +3160,12 @@
   "lon": -118.218044,
   "score": 92.78
  },
+ "825 South Crocker Street": {
+  "address": "825 S CROCKER ST, 90021",
+  "lat": 34.037399,
+  "lon": -118.248568,
+  "score": 100
+ },
  "828 N Oneonta Dr": {
   "address": "828 W ONEONTA DR, 90065",
   "lat": 34.111299,
@@ -2858,6 +3184,12 @@
   "lon": -118.251381,
   "score": 100
  },
+ "8350 Reseda Blvd": {
+  "address": "8350 N RESEDA BLVD, 91324",
+  "lat": 34.221864,
+  "lon": -118.536036,
+  "score": 99.06
+ },
  "8385 W BEVERLY BLVD": {
   "address": "8385 W BEVERLY BLVD, 90048",
   "lat": 34.07613,
@@ -2868,6 +3200,12 @@
   "address": "8400 S VERMONT AVE, 90044",
   "lat": 33.962378,
   "lon": -118.291402,
+  "score": 100
+ },
+ "8413 W Blackburn Ave": {
+  "address": "8413 W BLACKBURN AVE, 90048",
+  "lat": 34.07221,
+  "lon": -118.373741,
   "score": 100
  },
  "846 E SUPERBA AVE": {
@@ -2992,6 +3330,7 @@
   "lon": -118.448132,
   "score": 100
  },
+ "9301 S Jetway Blvd": null,
  "941 Temescal Canyon Road, Pacific Palisades": null,
  "943 N Main St": {
   "address": "943 N NORTH MAIN ST, 90012",
@@ -3047,15 +3386,29 @@
   "lon": -118.536872,
   "score": 98.18
  },
+ "Alameda St & Anaheim St": {
+  "address": "N ALAMEDA ST & E ANAHEIM ST, 90744",
+  "lat": 33.780906,
+  "lon": -118.245173,
+  "score": 98.18
+ },
  "Alameda Street & 18th Street": null,
+ "Alley east of Coil Ave and west of Alameda St, between Colon St and Pacific Coast Hwy": {
+  "address": "E COLON ST & E PACIFIC COAST HWY, 90744",
+  "lat": 33.791261,
+  "lon": -118.251759,
+  "score": 91.97
+ },
  "Amestoy Ave & Rinaldi St": {
   "address": "N AMESTOY AVE & W RINALDI ST, 91344",
   "lat": 34.279308,
   "lon": -118.504877,
   "score": 98.18
  },
+ "Angeles National Forest": null,
  "Angels Gate Park": null,
  "Animal Shelter": null,
+ "Ardmore Avenue": null,
  "Arroyo Seco": null,
  "Asilomar View Park, 15900 Asilomar Boulevard, Pacific Palisades": null,
  "Asphalt Plant No. 1": null,
@@ -3080,6 +3433,8 @@
  "Badger Avenue Bridge, Port of Los Angeles": null,
  "Balboa Sports Complex": null,
  "Balboa Sports Complex, Sepulveda Basin Recreation Area": null,
+ "Bartlett Hill Manor": null,
+ "Berths 195-200A, Port of": null,
  "Berths 195-200A, Port of Los Angeles": null,
  "Boyle Heights": null,
  "Branford Park, 13306 Branford Street": {
@@ -3147,26 +3502,96 @@
   "lon": -118.205825,
   "score": 98.18
  },
+ "Chandler Blvd & Cahuenga Blvd": {
+  "address": "W CHANDLER BLVD & N CAHUENGA BLVD, 91601",
+  "lat": 34.168716,
+  "lon": -118.361556,
+  "score": 98.18
+ },
  "City Hall": null,
+ "City Hall Forecourt": null,
+ "City Hall Rotunda": null,
+ "Colfax Avenue Bridge": null,
+ "Council Chambers": null,
+ "DeGarmo Park": null,
  "Debris Basin No. 69": null,
+ "Densmore Ave & Moorpark St": {
+  "address": "N DENSMORE AVE & W MOORPARK ST, 91436",
+  "lat": 34.15671,
+  "lon": -118.477085,
+  "score": 98.18
+ },
+ "Densmore Ave & Ventura Blvd": {
+  "address": "N DENSMORE AVE & W VENTURA BLVD, 91436",
+  "lat": 34.15554,
+  "lon": -118.477521,
+  "score": 98.18
+ },
+ "Destination Crenshaw Project": null,
  "Devonshire Community Police Station": null,
+ "Dixie Canyon Ave & Moorpark St": {
+  "address": "N DIXIE CANYON AVE & W MOORPARK ST, 91423",
+  "lat": 34.150356,
+  "lon": -118.424885,
+  "score": 98.18
+ },
+ "Dixie Canyon Ave & Ventura Blvd": {
+  "address": "N DIXIE CANYON AVE & W VENTURA BLVD, 91423",
+  "lat": 34.146972,
+  "lon": -118.424889,
+  "score": 98.18
+ },
  "Dockweiler Beach Sand Dunes along Vista del Mar": null,
  "Donald Bruce Kaufman Brentwood Branch Library": null,
  "Doran Street": null,
  "Downey Rec Center": null,
+ "Dublin Ave": null,
  "East San Fernando Valley": null,
  "Echo Park Boathouse Café": null,
  "El Pueblo de Los Angeles Historical Monument": null,
  "El Pueblo de Los Angeles Historical Monument (Olvera Street)": null,
+ "El Sobrante Landfill": null,
  "Elysian Reservoir": null,
  "Figueroa Junction-Halldale Receiving Station": null,
+ "Figueroa St & Alondra Blvd": {
+  "address": "S FIGUEROA ST & W ALONDRA BLVD, 90248",
+  "lat": 33.885468,
+  "lon": -118.282743,
+  "score": 98.18
+ },
  "Figueroa Street & Pacific Coast Highway": {
   "address": "N FIGUEROA ST & W PACIFIC COAST HWY, 90744",
   "lat": 33.790464,
   "lon": -118.281087,
   "score": 98.18
  },
+ "Flint Ave & G St": {
+  "address": "N FLINT AVE & E G ST, 90744",
+  "lat": 33.779232,
+  "lon": -118.249317,
+  "score": 98.18
+ },
+ "Flint Ave & Pioneer Ave": null,
+ "Franklin Ave & Las Palmas Ave": {
+  "address": "W FRANKLIN AVE & N LAS PALMAS AVE, 90028",
+  "lat": 34.105185,
+  "lon": -118.336082,
+  "score": 98.18
+ },
  "Franklin Fields": null,
+ "Gaffey St & Channel St": {
+  "address": "N GAFFEY ST & W CHANNEL ST, 90731",
+  "lat": 33.753789,
+  "lon": -118.292265,
+  "score": 98.18
+ },
+ "Gaffey St & Westmont Dr": {
+  "address": "N GAFFEY ST & W WESTMONT DR, 90731",
+  "lat": 33.763905,
+  "lon": -118.293408,
+  "score": 98.18
+ },
+ "Garth Avenue": null,
  "Gramercy Pl": null,
  "Granada Hills": null,
  "Grant Lake Reservoir": null,
@@ -3177,6 +3602,12 @@
  "Hansen Dam Horse Park": null,
  "Harbor Animal Services Center": null,
  "Harmony Place Apartments": null,
+ "Harry Bridges Blvd & Alameda St": {
+  "address": "E HARRY BRIDGES BLVD & N ALAMEDA ST, 90744",
+  "lat": 33.771609,
+  "lon": -118.255725,
+  "score": 98.18
+ },
  "Hauser Blvd & Obama Blvd": {
   "address": "S HAUSER BLVD & W OBAMA BLVD, 90016",
   "lat": 34.021566,
@@ -3189,6 +3620,7 @@
  "Hollywood Community Police Station": null,
  "Hollywood Sanitation Yard": null,
  "Hollywood Walk of Fame": null,
+ "Hollywood welcome sign": null,
  "Holt Ave & Cadillac Ave": {
   "address": "S HOLT AVE & W CADILLAC AVE, 90034",
   "lat": 34.039503,
@@ -3215,12 +3647,28 @@
   "lon": -118.240574,
   "score": 98.18
  },
+ "Intermodal Container Transfer Facility": null,
  "James M. Wood Boulevard & 11th Street": null,
  "Jane and Bert Boeckmann Park": null,
+ "Jefferson Blvd & Van Buren Pl": {
+  "address": "W JEFFERSON BLVD & S VAN BUREN PL, 90007",
+  "lat": 34.025517,
+  "lon": -118.296999,
+  "score": 98.18
+ },
+ "Jefferson Blvd & Vermont Ave": {
+  "address": "W JEFFERSON BLVD & S VERMONT AVE, 90007",
+  "lat": 34.025499,
+  "lon": -118.29155,
+  "score": 98.18
+ },
  "John S. Gibson Boulevard, Wilmington": null,
  "Jordan Downs": null,
+ "Keswick Pocket Park": null,
+ "Kingsley Drive": null,
  "Kinney Street": null,
  "LA Live Way": null,
+ "LADWP Water Quality Lab": null,
  "Lafayette Park": null,
  "Lake Balboa": null,
  "Las Palmas Senior Center": null,
@@ -3250,6 +3698,7 @@
   "score": 98.18
  },
  "Main Street": null,
+ "Martin Luther King Jr Blvd": null,
  "Marvin Braude Bike Trail": null,
  "Melrose Avenue & Fairfax Avenue": {
   "address": "W MELROSE AVE & N FAIRFAX AVE, 90046",
@@ -3279,9 +3728,27 @@
  },
  "N/A N/A": null,
  "NO ADDRESSES WERE FOUND": null,
+ "North Cabrillo Avenue & Channel Street": {
+  "address": "N CABRILLO AVE & W CHANNEL ST, 90731",
+  "lat": 33.753789,
+  "lon": -118.295523,
+  "score": 99.09
+ },
+ "North Cabrillo Avenue & Miraflores Avenue": {
+  "address": "N CABRILLO AVE & W MIRAFLORES AVE, 90731",
+  "lat": 33.752853,
+  "lon": -118.295568,
+  "score": 99.09
+ },
  "North Hollywood Station": null,
  "Northeast Community Police Station": null,
  "Northridge Recreation Center": null,
+ "Obama Blvd & Coliseum St": {
+  "address": "W OBAMA BLVD & W COLISEUM ST, 90018",
+  "lat": 34.019136,
+  "lon": -118.325174,
+  "score": 98.18
+ },
  "Ohio Avenue & Sepulveda Boulevard": {
   "address": "W OHIO AVE & S SEPULVEDA BLVD, 90025",
   "lat": 34.050393,
@@ -3290,6 +3757,24 @@
  },
  "Olvera Street": null,
  "Outer Cabrillo Beach": null,
+ "Oxnard St & Lindley Ave": {
+  "address": "W OXNARD ST & N LINDLEY AVE, 91356",
+  "lat": 34.180236,
+  "lon": -118.5273,
+  "score": 98.18
+ },
+ "Oxnard St & White Oak Ave": {
+  "address": "W OXNARD ST & N WHITE OAK AVE, 91316",
+  "lat": 34.180137,
+  "lon": -118.518516,
+  "score": 98.18
+ },
+ "Oxnard St & Zelzah Ave": {
+  "address": "W OXNARD ST & N ZELZAH AVE, 91316",
+  "lat": 34.180245,
+  "lon": -118.522971,
+  "score": 98.18
+ },
  "Pacific Avenue": null,
  "Pacific Blvd & 22nd St": {
   "address": "S PACIFIC AVE & W 22ND ST, 90731",
@@ -3299,6 +3784,7 @@
  },
  "Pacific Blvd & I-110": null,
  "Pacific Community Police Station": null,
+ "Pacoima Lifestyle Center": null,
  "Pacoima Metrolink Station and Mobility Hub": null,
  "Palisades Recreation Park": null,
  "Palisades Tennis Center": null,
@@ -3308,6 +3794,12 @@
  "Pico Rivera Regional Rail Station": null,
  "Pico/Genessee Community Pocket Park": null,
  "Pio Pico Library": null,
+ "Pioneer Ave & G St": {
+  "address": "N PIONEER AVE & E G ST, 90744",
+  "lat": 33.779295,
+  "lon": -118.248017,
+  "score": 98.18
+ },
  "Poinsettia Park": null,
  "Pomona-Downtown Metrolink Station": null,
  "Port of Los Angeles": null,
@@ -3323,6 +3815,7 @@
  "San Fernando Valley": null,
  "San Pascual Pumping Plant No. 605": null,
  "Santa Barbara": null,
+ "Senator Bill Greene Memorial Park": null,
  "Sepulveda Basin": null,
  "Sepulveda Basin Sports Complex": null,
  "Sepulveda Boulevard Tunnel near Mulholland Drive": null,
@@ -3330,6 +3823,7 @@
  "Shoreline Drive, Long Beach": null,
  "Sixth Street Viaduct": null,
  "Skid Row": null,
+ "Slauson Connect Center": null,
  "South Robertson Blvd & Cadillac Ave": {
   "address": "S ROBERTSON BLVD & W CADILLAC AVE, 90034",
   "lat": 34.041114,
@@ -3388,6 +3882,7 @@
  "Sylmar Metrolink Station": null,
  "Sylmar Park": null,
  "Terminal 4, Los Angeles International Airport": null,
+ "Terminal 6, Los Angeles International Airport": null,
  "Terminal 7, Los Angeles International Airport": null,
  "Terra Bella Street & Woodman Avenue": {
   "address": "W TERRA BELLA ST & N WOODMAN AVE, 91331",
@@ -3395,6 +3890,7 @@
   "lon": -118.443515,
   "score": 98.18
  },
+ "Tom Bradley Tower": null,
  "Topanga Community Police Station": null,
  "Turner Street & Alameda Street": {
   "address": "E TURNER ST & N ALAMEDA ST, 90012",
@@ -3408,6 +3904,7 @@
   "lon": -118.236632,
   "score": 98.18
  },
+ "Vacant parcel across Friar St, APN 2241-007-027": null,
  "Valley Glen": null,
  "Van Nuys Airport": null,
  "Van Nuys Boulevard & Foothill Boulevard": {
@@ -3453,9 +3950,11 @@
   "score": 98.18
  },
  "Vermont Transit Corridor": null,
+ "Vincent Thomas Bridge": null,
  "Warner Center": null,
  "Warner Grand Theatre": null,
  "Watts Towers": null,
+ "Weiland Ave": null,
  "West 130th Street": null,
  "West 132nd Street": null,
  "West Adams Boulevard & Buckingham Road": {
@@ -3477,9 +3976,12 @@
   "score": 99.09
  },
  "West Los Angeles Community Police Station": null,
+ "West Valley Community Police Station": null,
  "Westchester Park": null,
  "Westwood Park": null,
+ "Whitnall Dog Park": null,
  "Whitsett Soccer Fields": null,
+ "Wilcox Triangle": null,
  "Wilshire Boulevard & Hoover Street": {
   "address": "W WILSHIRE BLVD & S HOOVER ST, 90057",
   "lat": 34.061778,

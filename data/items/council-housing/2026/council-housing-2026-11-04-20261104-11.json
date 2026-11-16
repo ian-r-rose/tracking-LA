@@ -14,5 +14,25 @@
     "text": "Housing Committee action: Approved: Approved Housing Department report dated October 23, 2026 (Nov 5, 2026)",
     "source": "https://lms.lacity.gov/files/26-0005-S196",
     "recorded": "2026-11-14"
+  },
+  "summary": "Removal of 1200 West 42nd Street from the city's Rent Escrow Account Program, which the Housing Committee approved.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1200 West 42nd Street, Los Angeles, CA",
+      "lat": 34.007251,
+      "lon": -118.295958,
+      "neighborhood": "Vermont Square"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "857503"
+    ],
+    "council_district": 9,
+    "council_file": "26-0005-S196",
+    "action": "removal from Rent Escrow Account Program"
   }
 }

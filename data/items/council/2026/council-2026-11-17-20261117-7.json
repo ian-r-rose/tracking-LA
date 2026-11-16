@@ -9,5 +9,17 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1321"
   ],
-  "follows": "council-public-works-2026-11-10-20261110-4"
+  "follows": "council-public-works-2026-11-10-20261110-4",
+  "summary": "City Attorney draft ordinance changing how licenses to conduct commercial cannabis activity are renewed under the Municipal Code.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "26-1321"
+    ],
+    "action": "ordinance amending license renewal rules",
+    "council_file": "26-1321"
+  }
 }

@@ -14,5 +14,25 @@
     "text": "Housing Committee action: Approved: Approved Housing Department report dated October 23, 2026 (Nov 5, 2026)",
     "source": "https://lms.lacity.gov/files/20-0005-S197",
     "recorded": "2026-11-14"
+  },
+  "summary": "Removal of 1416 West 35th Street from the city's Rent Escrow Account Program, which the Housing Committee approved.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1416 West 35th Street, Los Angeles, CA",
+      "lat": 34.024542,
+      "lon": -118.300795,
+      "neighborhood": "Exposition Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "923803"
+    ],
+    "council_district": 8,
+    "council_file": "20-0005-S197",
+    "action": "removal from Rent Escrow Account Program"
   }
 }

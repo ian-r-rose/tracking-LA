@@ -14,5 +14,25 @@
     "text": "Housing Committee action: Approved: Approved Housing Department report dated October 23, 2026 (Nov 5, 2026)",
     "source": "https://lms.lacity.gov/files/26-0005-S194",
     "recorded": "2026-11-14"
+  },
+  "summary": "Housing Department request to take 11151 West Camarillo Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "11151 West Camarillo Street, Los Angeles, CA",
+      "lat": 34.157715,
+      "lon": -118.373814,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "928455"
+    ],
+    "council_district": 2,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S194"
   }
 }

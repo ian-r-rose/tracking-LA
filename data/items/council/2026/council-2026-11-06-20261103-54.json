@@ -15,5 +15,18 @@
     "source": "https://lms.lacity.gov/files/26-1575",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Instructs General Services to rename the Slauson Connect Center the \"Curren D. Price, Jr. Youth and Community Center\" and install signage.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Slauson Connect Center"
+    }
+  ],
+  "details": {
+    "council_file": "26-1575",
+    "action": "facility renaming"
   }
 }

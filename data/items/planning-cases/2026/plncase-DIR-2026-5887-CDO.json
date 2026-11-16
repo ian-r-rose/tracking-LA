@@ -8,5 +8,26 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5887-CDO",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5888-EAF"
-  ]
+  ],
+  "summary": "An application for an illuminated wall sign measuring 27 3/8 by 19 feet 2 1/2 inches at 2511 N Daly St in Northeast Los Angeles. The application was filed November 12, 2026 and has not been decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2511 N Daly St, Los Angeles, CA",
+      "lat": 34.075295,
+      "lon": -118.215751,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5887-CDO",
+      "ENV-2026-5888-EAF"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "action": "illuminated wall sign installation"
+  }
 }

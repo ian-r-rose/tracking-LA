@@ -8,5 +8,19 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1594"
-  ]
+  ],
+  "summary": "Setting Senator Bill Greene Memorial Park at 5800 South Figueroa Street in Council District 9 to open at sunrise and close at sunset, enforced daily by Park Rangers, and adding it to the city's list of parks with set closing times.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Senator Bill Greene Memorial Park"
+    }
+  ],
+  "details": {
+    "council_file": "26-1594",
+    "council_district": 9,
+    "action": "set park operating hours"
+  }
 }

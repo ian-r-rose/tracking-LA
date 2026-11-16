@@ -26,5 +26,8 @@
     "council_file": "26-1276",
     "council_district": 4,
     "action": "intersection designation"
+  },
+  "flag": {
+    "reason": "Street naming in Los Feliz, a watched neighborhood."
   }
 }

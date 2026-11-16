@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S198"
-  ]
+  ],
+  "summary": "Housing Department request to take 1062 West 253rd Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1062 West 253rd Street, Los Angeles, CA",
+      "lat": 33.794652,
+      "lon": -118.294839,
+      "neighborhood": "Harbor City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "717023"
+    ],
+    "council_district": 15,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S198"
+  }
 }

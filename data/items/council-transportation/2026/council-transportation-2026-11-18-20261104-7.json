@@ -8,5 +8,28 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-transportation-v1.pdf",
     "https://lms.lacity.gov/files/26-0008-S19"
-  ]
+  ],
+  "summary": "Resolution to ban parking of vehicles over 22 feet long or 84 inches tall at all hours on the east side of Gaffey Street between Channel Street and Westmont Drive.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Gaffey St & Channel St, Los Angeles, CA",
+      "lat": 33.753789,
+      "lon": -118.292265,
+      "neighborhood": "Wilmington"
+    },
+    {
+      "text": "Gaffey St & Westmont Dr, Los Angeles, CA",
+      "lat": 33.763905,
+      "lon": -118.293408,
+      "neighborhood": "San Pedro"
+    }
+  ],
+  "details": {
+    "council_file": "26-0008-S19",
+    "council_district": 15,
+    "action": "parking restriction resolution"
+  }
 }

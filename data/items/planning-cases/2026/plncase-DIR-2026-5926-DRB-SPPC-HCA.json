@@ -8,5 +8,27 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5926-DRB-SPPC-HCA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5927-EAF"
-  ]
+  ],
+  "summary": "Application for a 16-home small-lot subdivision at 4600 W Wilshire Blvd, with 10 single-family homes in one zone and 6 in another. Filed November 13, 2026 and not yet decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "4600 W Wilshire Blvd, Los Angeles, CA",
+      "lat": 34.061873,
+      "lon": -118.329177,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5926-DRB-SPPC-HCA",
+      "ENV-2026-5927-EAF"
+    ],
+    "council_district": 5,
+    "plan_area": "Wilshire",
+    "action": "new application"
+  }
 }

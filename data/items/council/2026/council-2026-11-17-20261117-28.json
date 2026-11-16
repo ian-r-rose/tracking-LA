@@ -8,5 +8,18 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1625"
-  ]
+  ],
+  "summary": "Council motion to move $206,000 from a homeless services account into the Sanitation Fund so one CARE operation day in Council District 8 becomes a CARE+ operation day.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 8,
+    "council_file": "26-1625",
+    "action": "funding motion",
+    "amount": "$206,000",
+    "bureau": "Bureau of Sanitation"
+  }
 }

@@ -9,5 +9,19 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/13-0285-S2"
   ],
-  "follows": "council-plum-2026-11-10-20261110-10"
+  "follows": "council-plum-2026-11-10-20261110-10",
+  "summary": "Council action on an ordinance to amend and restate the sign district rules at Los Angeles International Airport.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "action": "amend and restate sign district ordinance",
+    "council_file": "13-0285-S2"
+  }
 }

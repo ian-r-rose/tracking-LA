@@ -15,5 +15,60 @@
     "source": "https://lms.lacity.gov/files/23-0304-S1",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is moving $76,000 from its District 4 street furniture fund for speed humps or tables on Densmore Avenue, Dixie Canyon Avenue and Oxnard Street near several schools and places of worship, plus a crosswalk safety fix at Oxnard Street and Zelzah Avenue.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Densmore Ave & Ventura Blvd, Los Angeles, CA",
+      "lat": 34.15554,
+      "lon": -118.477521,
+      "neighborhood": "Encino"
+    },
+    {
+      "text": "Densmore Ave & Moorpark St, Los Angeles, CA",
+      "lat": 34.15671,
+      "lon": -118.477085,
+      "neighborhood": "Encino"
+    },
+    {
+      "text": "Dixie Canyon Ave & Ventura Blvd, Los Angeles, CA",
+      "lat": 34.146972,
+      "lon": -118.424889,
+      "neighborhood": "Sherman Oaks"
+    },
+    {
+      "text": "Dixie Canyon Ave & Moorpark St, Los Angeles, CA",
+      "lat": 34.150356,
+      "lon": -118.424885,
+      "neighborhood": "Sherman Oaks"
+    },
+    {
+      "text": "Oxnard St & Lindley Ave, Los Angeles, CA",
+      "lat": 34.180236,
+      "lon": -118.5273,
+      "neighborhood": "Tarzana"
+    },
+    {
+      "text": "Oxnard St & White Oak Ave, Los Angeles, CA",
+      "lat": 34.180137,
+      "lon": -118.518516,
+      "neighborhood": "Encino"
+    },
+    {
+      "text": "Oxnard St & Zelzah Ave, Los Angeles, CA",
+      "lat": 34.180245,
+      "lon": -118.522971,
+      "neighborhood": "Encino"
+    }
+  ],
+  "details": {
+    "council_file": "23-0304-S1",
+    "council_district": 4,
+    "action": "funding transfer for speed humps and crosswalk safety",
+    "amount": "$76,000"
   }
 }

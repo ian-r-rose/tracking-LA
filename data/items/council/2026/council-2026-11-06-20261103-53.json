@@ -15,5 +15,21 @@
     "source": "https://lms.lacity.gov/files/20-0439-S3",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Extends Air Canada's lease for space in Terminal 6 at LAX through June 30, 2035, and sets rent credits for other airlines that use its preferential gates.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Terminal 6, Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "20-0439-S3",
+    "applicant": "Air Canada",
+    "action": "lease amendment",
+    "amount": "$8.7 million"
   }
 }

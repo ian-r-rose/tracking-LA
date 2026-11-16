@@ -15,5 +15,17 @@
     "source": "https://lms.lacity.gov/files/26-1553",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Motion to move $6,000 of Council District 4 redevelopment funds to the Sherman Oaks Neighborhood Council for its summer Movies in the Park series and a back-to-school backpack drive.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1553",
+    "council_district": 4,
+    "action": "funding transfer motion",
+    "amount": "$6,000"
   }
 }

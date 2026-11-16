@@ -9,5 +9,14 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1200-S61"
   ],
-  "follows": "council-housing-2026-11-04-20261104-16"
+  "follows": "council-housing-2026-11-04-20261104-16",
+  "summary": "Mayor's appointment of Adelina Camilla McCloud to the Housing Authority of the City of Los Angeles Board of Commissioners, for a term ending June 30, 2031. The Housing Committee approved it.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1200-S61",
+    "action": "appointment to Housing Authority Board of Commissioners"
+  }
 }

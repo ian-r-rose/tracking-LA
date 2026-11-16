@@ -14,5 +14,26 @@
     "text": "Planning and Land Use Management Committee action: Approved: APPROVED the South Valley Area Planning Commission Report and draft Ordinance dated October 5, 2026 (Nov 12, 2026)",
     "source": "https://lms.lacity.gov/files/26-1414",
     "recorded": "2026-11-14"
+  },
+  "summary": "Zone change at 17317-17323 West Ventura Boulevard to lift a restriction on medical clinic and office uses, allowing 11,911 square feet of general office space to convert to medical clinic or office use.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "17317 West Ventura Boulevard, Los Angeles, CA",
+      "lat": 34.160984,
+      "lon": -118.510139,
+      "neighborhood": "Encino"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCSV-2025-6834-ZV-SPPC"
+    ],
+    "council_district": 4,
+    "applicant": "17323 Ventura Prop, LLC",
+    "action": "zone change",
+    "council_file": "26-1414"
   }
 }

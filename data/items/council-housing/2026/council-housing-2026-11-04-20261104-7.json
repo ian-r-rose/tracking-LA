@@ -14,5 +14,25 @@
     "text": "Housing Committee action: Approved: Approved Housing Department report dated October 23, 2026 (Nov 5, 2026)",
     "source": "https://lms.lacity.gov/files/26-0005-S192",
     "recorded": "2026-11-14"
+  },
+  "summary": "Housing Department request to take 11314 West Emelita Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "11314 West Emelita Street, Los Angeles, CA",
+      "lat": 34.17663,
+      "lon": -118.377179,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "845742"
+    ],
+    "council_district": 2,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S192"
   }
 }

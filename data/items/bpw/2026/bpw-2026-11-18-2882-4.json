@@ -7,5 +7,13 @@
   "text": "[REPORT(S)]\nBPW-2026-0600\nLandfill Closures Update\n- Bureau of Sanitation",
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25405"
-  ]
+  ],
+  "summary": "Bureau of Sanitation gives the Board an informational update on closing city landfills.",
+  "topics": ["environment"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["BPW-2026-0600"],
+    "bureau": "Bureau of Sanitation",
+    "action": "informational update"
+  }
 }

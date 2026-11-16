@@ -15,5 +15,20 @@
     "source": "https://lms.lacity.gov/files/26-1542",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is authorizing the Bureau of Engineering to extend a contract with the Destination Crenshaw nonprofit to March 31, 2028 so design and construction of the Destination Crenshaw Project can continue.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Destination Crenshaw Project"
+    }
+  ],
+  "details": {
+    "council_file": "26-1542",
+    "council_district": 8,
+    "action": "contract supplemental agreement",
+    "bureau": "Bureau of Engineering"
   }
 }

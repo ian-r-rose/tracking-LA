@@ -15,5 +15,16 @@
     "source": "https://lms.lacity.gov/files/26-1569",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council motion to approve a personal services contract of up to $33,000 for communications consulting for the Thirteenth Council District, running November 2026 through October 2027.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 13,
+    "council_file": "26-1569",
+    "action": "personal services contract",
+    "amount": "$33,000"
   }
 }

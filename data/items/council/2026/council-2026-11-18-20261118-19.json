@@ -9,5 +9,25 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0005-S190"
   ],
-  "follows": "council-housing-2026-11-04-20261104-5"
+  "follows": "council-housing-2026-11-04-20261104-5",
+  "summary": "Housing Department request to take 111 West 7th Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "111 West 7th Street, Los Angeles, CA",
+      "lat": 33.737763,
+      "lon": -118.280597,
+      "neighborhood": "San Pedro"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "893207"
+    ],
+    "council_district": 14,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S190"
+  }
 }

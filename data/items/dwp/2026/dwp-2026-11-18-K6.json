@@ -7,5 +7,13 @@
   "text": "[K. Filed Items]\nWater System Monthly Report – August and September 2026",
   "urls": [
     "https://ens.lacity.org/dwp/agendas/dwpagendas202201502_11182026.pdf"
-  ]
+  ],
+  "summary": "Receives the Water System's monthly report covering August and September 2026.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "monthly report"
+  }
 }

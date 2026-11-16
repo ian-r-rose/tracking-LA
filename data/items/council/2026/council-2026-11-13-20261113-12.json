@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1380"
-  ]
+  ],
+  "summary": "Council final adoption of an ordinance raising the salary of the City Ethics Commission's Executive Director, as the commission approved.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "salary adjustment ordinance",
+    "council_file": "26-1380"
+  }
 }

@@ -15,5 +15,25 @@
     "source": "https://lms.lacity.gov/files/26-1479",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Approves a 10-year lease with Paramount Global Corporate Aviation for a general aviation facility at 7150 Hayvenhurst Avenue at Van Nuys Airport, bringing about $8.3 million in revenue.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "7150 Hayvenhurst Ave, Los Angeles, CA",
+      "lat": 34.200223,
+      "lon": -118.492345,
+      "neighborhood": "Van Nuys"
+    }
+  ],
+  "details": {
+    "council_file": "26-1479",
+    "council_district": 6,
+    "applicant": "Paramount Global Corporate Aviation LLC",
+    "action": "lease approval",
+    "amount": "$8,313,168"
   }
 }

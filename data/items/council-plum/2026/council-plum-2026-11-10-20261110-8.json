@@ -14,5 +14,29 @@
     "text": "Planning and Land Use Management Committee action: Disapproved: DENIED the appeal; and thereby SUSTAINED the determination of the Central Los Angeles Area Planning Commission (CLAAPC), as detailed in the CLAAPC Report dated October 5, 2026 (Nov 12, 2026)",
     "source": "https://lms.lacity.gov/files/26-1415",
     "recorded": "2026-11-14"
+  },
+  "summary": "Appeal challenging the approval of an AT&T wireless facility on the rooftop of an apartment building at 2069 North Argyle Avenue, including new screen walls, antennas and equipment cabinets.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2069 North Argyle Avenue, Los Angeles, CA",
+      "lat": 34.108297,
+      "lon": -118.325297,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2024-6024-CUW"
+    ],
+    "council_district": 4,
+    "applicant": "Gary Bodenwieser, AT&T Mobility",
+    "action": "appeal of Planning Commission approval of wireless facility",
+    "council_file": "26-1415"
+  },
+  "flag": {
+    "reason": "Wireless facility appeal in Hollywood Hills, a watched neighborhood."
   }
 }

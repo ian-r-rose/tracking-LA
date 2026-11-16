@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S203"
-  ]
+  ],
+  "summary": "Housing Department request to take 3907 South Budlong Avenue out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "3907 South Budlong Avenue, Los Angeles, CA",
+      "lat": 34.015129,
+      "lon": -118.295973,
+      "neighborhood": "Exposition Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "881015"
+    ],
+    "council_district": 8,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S203"
+  }
 }

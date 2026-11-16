@@ -8,5 +8,25 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov19/rap-meeting-agenda-11-19-2026-1.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov19/26-266.pdf"
-  ]
+  ],
+  "summary": "Granting a right to build, operate and maintain a bike and pedestrian path with an adjacent equestrian trail as the fourth phase of the Los Angeles River bike path through Griffith Park, after the board considers the project's final environmental study.",
+  "topics": [
+    "parks",
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Griffith Park",
+      "lat": 34.13199,
+      "lon": -118.296791,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "grant of right"
+  },
+  "flag": {
+    "reason": "Bike path through Griffith Park, a watched neighborhood."
+  }
 }

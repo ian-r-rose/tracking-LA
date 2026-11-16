@@ -8,5 +8,28 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0011-S27"
-  ]
+  ],
+  "summary": "Council District 4 funding of $59,601 to install wooden railing along a stretch of Mulholland Drive beside Laurel Canyon Mulholland Park.",
+  "topics": [
+    "parks",
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "8100 Mulholland Drive, Los Angeles, CA",
+      "lat": 34.123457,
+      "lon": -118.375349,
+      "neighborhood": "Hollywood Hills West"
+    }
+  ],
+  "details": {
+    "council_file": "26-0011-S27",
+    "council_district": 4,
+    "action": "funding for railing installation",
+    "amount": "$59,601"
+  },
+  "flag": {
+    "reason": "Park-adjacent road work on Mulholland Drive beside Laurel Canyon Mulholland Park."
+  }
 }

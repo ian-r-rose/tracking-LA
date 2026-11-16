@@ -9,5 +9,25 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0005-S191"
   ],
-  "follows": "council-housing-2026-11-04-20261104-6"
+  "follows": "council-housing-2026-11-04-20261104-6",
+  "summary": "Housing Department request to take 5653 East Irvington Place out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "5653 East Irvington Place, Los Angeles, CA",
+      "lat": 34.115271,
+      "lon": -118.19612,
+      "neighborhood": "Highland Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "753054"
+    ],
+    "council_district": 1,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S191"
+  }
 }

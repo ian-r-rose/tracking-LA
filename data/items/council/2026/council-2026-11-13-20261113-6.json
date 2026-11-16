@@ -22,5 +22,8 @@
   "details": {
     "council_file": "25-1355",
     "action": "initiate street vacation proceedings"
+  },
+  "flag": {
+    "reason": "Street vacation proceedings for four alleys."
   }
 }

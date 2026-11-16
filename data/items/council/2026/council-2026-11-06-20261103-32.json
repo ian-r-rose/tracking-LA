@@ -15,5 +15,18 @@
     "source": "https://lms.lacity.gov/files/26-1545",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is directing $1 million from redevelopment project funds to the Board of Public Works to pay the Los Angeles Neighborhood Initiative for community beautification and sidewalk improvement services in Council District 2.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1545",
+    "council_district": 2,
+    "action": "funding transfer for services",
+    "amount": "$1,000,000",
+    "bureau": "Board of Public Works"
   }
 }

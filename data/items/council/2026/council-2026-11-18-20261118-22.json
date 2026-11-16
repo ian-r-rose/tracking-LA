@@ -9,5 +9,25 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0005-S193"
   ],
-  "follows": "council-housing-2026-11-04-20261104-8"
+  "follows": "council-housing-2026-11-04-20261104-8",
+  "summary": "Housing Department request to take 2322 South Carmona Avenue out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "2322 South Carmona Avenue, Los Angeles, CA",
+      "lat": 34.036155,
+      "lon": -118.36243,
+      "neighborhood": "Mid-City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "849036"
+    ],
+    "council_district": 10,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S193"
+  }
 }

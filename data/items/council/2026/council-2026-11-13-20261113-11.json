@@ -9,5 +9,16 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0906-S10"
   ],
-  "follows": "council-plum-2026-11-10-20261110-7"
+  "follows": "council-plum-2026-11-10-20261110-7",
+  "summary": "Interim control ordinance that would bar permits and utility connections for large cold storage and distribution warehouses on industrial-zoned properties in the Boyle Heights Community Plan area.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 14,
+    "plan_area": "Boyle Heights Community Plan",
+    "action": "interim control ordinance",
+    "council_file": "26-0906-S10"
+  }
 }

@@ -15,5 +15,34 @@
     "source": "https://lms.lacity.gov/files/26-1219",
     "vote": "3-0-0",
     "recorded": "2026-11-14"
+  },
+  "summary": "Motion to temporarily close Flint Avenue and Pioneer Avenue between G Street, plus a Y-shaped alley beside Pioneer Avenue.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Flint Ave & G St, Los Angeles, CA",
+      "lat": 33.779232,
+      "lon": -118.249317,
+      "neighborhood": "Wilmington"
+    },
+    {
+      "text": "Flint Ave & Pioneer Ave, Los Angeles, CA"
+    },
+    {
+      "text": "Pioneer Ave & G St, Los Angeles, CA",
+      "lat": 33.779295,
+      "lon": -118.248017,
+      "neighborhood": "Wilmington"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-1219"
+    ],
+    "council_district": 15,
+    "action": "temporary street closure",
+    "council_file": "26-1219"
   }
 }

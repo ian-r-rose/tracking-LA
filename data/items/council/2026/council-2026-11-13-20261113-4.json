@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
     "https://lms.lacity.gov/files/25-0601"
-  ]
+  ],
+  "summary": "Council notes and files a September 16 joint Personnel Department and CLA report on the Los Angeles Police Department hiring process, taking no further action.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "action": "note and file report on LAPD hiring process",
+    "council_file": "25-0601"
+  }
 }

@@ -9,5 +9,26 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0005-S188"
   ],
-  "follows": "council-housing-2026-11-04-20261104-3"
+  "follows": "council-housing-2026-11-04-20261104-3",
+  "summary": "Removal of 1200 South Crescent Heights Boulevard from the city's Rent Escrow Account Program, which the Housing Committee approved.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1200 South Crescent Heights Boulevard, Los Angeles, CA",
+      "lat": 34.054301,
+      "lon": -118.371212,
+      "neighborhood": "Carthay"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "889544",
+      "890162"
+    ],
+    "council_district": 5,
+    "council_file": "26-0005-S188",
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

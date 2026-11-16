@@ -9,5 +9,28 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/14-0005-S239"
   ],
-  "follows": "council-housing-2026-11-04-20261104-1"
+  "follows": "council-housing-2026-11-04-20261104-1",
+  "summary": "Removal of 3224 East 4th Street from the city's Rent Escrow Account Program, which the Housing Committee approved.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "3224 East 4th Street, Los Angeles, CA",
+      "lat": 34.035105,
+      "lon": -118.199586,
+      "neighborhood": "Boyle Heights"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "705975",
+      "813108",
+      "839467",
+      "910257"
+    ],
+    "council_district": 14,
+    "council_file": "14-0005-S239",
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

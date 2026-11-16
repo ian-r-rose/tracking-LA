@@ -15,5 +15,22 @@
     "source": "https://lms.lacity.gov/files/26-0011-S25",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is moving $38,000 from its District 4 street furniture revenue fund to the Bureau of Street Services to install security fencing to protect the Colfax Avenue Bridge and other improvements.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Colfax Avenue Bridge"
+    }
+  ],
+  "details": {
+    "council_file": "26-0011-S25",
+    "council_district": 4,
+    "action": "funding transfer for security fencing",
+    "amount": "$38,000",
+    "bureau": "Bureau of Street Services"
   }
 }

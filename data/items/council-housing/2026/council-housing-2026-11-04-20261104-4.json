@@ -14,5 +14,25 @@
     "text": "Housing Committee action: Continued: Continued to Date to be Determined (Nov 5, 2026)",
     "source": "https://lms.lacity.gov/files/26-0005-S189",
     "recorded": "2026-11-14"
+  },
+  "summary": "Proposed removal of 4811 North Ben Avenue from the city's Rent Escrow Account Program. The Housing Committee continued the item to a date to be determined.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "4811 North Ben Avenue, Los Angeles, CA",
+      "lat": 34.157845,
+      "lon": -118.39434,
+      "neighborhood": "Valley Village"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "959208"
+    ],
+    "council_district": 2,
+    "council_file": "26-0005-S189",
+    "action": "removal from Rent Escrow Account Program"
   }
 }

@@ -14,5 +14,26 @@
     "text": "Planning and Land Use Management Committee action: Continued: The Planning and Land Use Committee discussed the matter in closed session and no action was taken (Nov 12, 2026)",
     "source": "https://lms.lacity.gov/files/26-0486",
     "recorded": "2026-11-14"
+  },
+  "summary": "Closed session with the City Attorney on a lawsuit over fire-safe road rules and building permits at 10453 Sandal Lane in the Bel Air-Beverly Crest area.",
+  "topics": [
+    "land_use",
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "10453 Sandal Lane, Los Angeles, CA",
+      "lat": 34.099045,
+      "lon": -118.44459,
+      "neighborhood": "Beverly Crest"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "25STCP04981"
+    ],
+    "council_district": 5,
+    "action": "closed session on pending litigation",
+    "council_file": "26-0486"
   }
 }

@@ -5,5 +5,15 @@
   "motion_url": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2026/26-1612_7bebd5cc-6287-4bdc-b062-b163ead21294.pdf",
   "adopted": null,
   "documents": [],
-  "motion": "I THEREFORE MOVE that the City Council instruct the Office of Finance, and request the City Attorney, to take the necessary administrative actions to implement Proposition TE upon of the election results confirming its passage, and report back to the City Council certification with recommendations for any additional Council actions necessary to ensure its effective implementation. PRESENTED BY: TRACI Irau Park PARK Councilwoman, 11th District TnmeshTIM McOSKER Councilmember, 15th District SECONDED BY: m Mr NOV 06 2026"
+  "motion": "I THEREFORE MOVE that the City Council instruct the Office of Finance, and request the City Attorney, to take the necessary administrative actions to implement Proposition TE upon of the election results confirming its passage, and report back to the City Council certification with recommendations for any additional Council actions necessary to ensure its effective implementation. PRESENTED BY: TRACI Irau Park PARK Councilwoman, 11th District TnmeshTIM McOSKER Councilmember, 15th District SECONDED BY: m Mr NOV 06 2026",
+  "requests": [
+    {
+      "departments": [
+        "Office of Finance",
+        "City Attorney"
+      ],
+      "asks": "Recommendations for any additional Council actions needed to implement Proposition TE, reported back at certification of the election results.",
+      "deadline": null
+    }
+  ]
 }

@@ -8,5 +8,14 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov19/rap-meeting-agenda-11-19-2026-1.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/nov19/information-report-log-vc-numbers-11-19-26.pdf"
-  ]
+  ],
+  "summary": "An informational log of 20 public comments and letters received by the Board's office, each referred to the General Manager, covering parks maintenance, facility incidents and policies such as tennis ball machines and off-leash dogs.",
+  "topics": [
+    "parks",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "informational report of received communications"
+  }
 }

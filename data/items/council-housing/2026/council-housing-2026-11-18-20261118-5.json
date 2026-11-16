@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S201"
-  ]
+  ],
+  "summary": "Housing Department request to take 4416 South San Pedro Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "4416 South San Pedro Street, Los Angeles, CA",
+      "lat": 34.003377,
+      "lon": -118.269559,
+      "neighborhood": "South Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "971725"
+    ],
+    "council_district": 9,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S201"
+  }
 }

@@ -14,5 +14,25 @@
     "text": "Housing Committee action: Approved: Approved Housing Department report dated October 23, 2026 (Nov 5, 2026)",
     "source": "https://lms.lacity.gov/files/26-0005-S193",
     "recorded": "2026-11-14"
+  },
+  "summary": "Housing Department request to take 2322 South Carmona Avenue out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "2322 South Carmona Avenue, Los Angeles, CA",
+      "lat": 34.036155,
+      "lon": -118.36243,
+      "neighborhood": "Mid-City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "849036"
+    ],
+    "council_district": 10,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S193"
   }
 }

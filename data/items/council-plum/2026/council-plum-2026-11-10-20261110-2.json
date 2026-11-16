@@ -14,5 +14,21 @@
     "text": "Planning and Land Use Management Committee action: Approved: APPROVED Motion (Blumenfield - Hernandez) (Nov 12, 2026)",
     "source": "https://lms.lacity.gov/files/26-1571",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council motion asking city planners to draft rules requiring a wildlife habitat and recreation review before unimproved city-owned paper streets and narrow walkways are improved, vacated or converted.",
+  "topics": [
+    "land_use",
+    "environment",
+    "parks",
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "plan_area": "Girard Tract Specific Plan",
+    "action": "motion to prepare ordinance or land use policy",
+    "council_file": "26-1571"
+  },
+  "flag": {
+    "reason": "Citywide policy on public paper streets with park and habitat value."
   }
 }

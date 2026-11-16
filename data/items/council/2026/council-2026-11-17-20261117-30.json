@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/23-0704"
-  ]
+  ],
+  "summary": "Amends an earlier Council action on traffic detours for the Vincent Thomas Bridge deck replacement and asks LADOT to expedite an emergency plan to restripe Alameda and Anaheim streets for two right-turn lanes during the detour.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Alameda St & Anaheim St, Los Angeles, CA",
+      "lat": 33.780906,
+      "lon": -118.245173,
+      "neighborhood": "Wilmington"
+    },
+    {
+      "text": "Vincent Thomas Bridge, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 15,
+    "council_file": "23-0704",
+    "action": "motion to amend prior Council action"
+  }
 }

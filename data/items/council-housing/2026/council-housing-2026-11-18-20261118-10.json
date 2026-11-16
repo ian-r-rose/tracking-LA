@@ -8,5 +8,20 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-1581"
-  ]
+  ],
+  "summary": "Authority for the city to enter loan and regulatory agreements with Bartlett Hill Association to pay for accessibility retrofitting at Bartlett Hill Manor, an existing affordable housing development.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Bartlett Hill Manor"
+    }
+  ],
+  "details": {
+    "council_district": 1,
+    "applicant": "Bartlett Hill Association",
+    "action": "authority to enter loan and regulatory agreements",
+    "council_file": "26-1581"
+  }
 }

@@ -8,5 +8,18 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/25-1174-S1"
-  ]
+  ],
+  "summary": "Council District 14 transfer of $1.2 million from redevelopment funds to create a dedicated streetlight repair crew, with the Bureau of Street Lighting reporting repair status to the councilmember's office weekly.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1174-S1",
+    "council_district": 14,
+    "action": "funding for dedicated streetlight repair crew",
+    "amount": "$1,200,000",
+    "bureau": "Bureau of Street Lighting"
+  }
 }

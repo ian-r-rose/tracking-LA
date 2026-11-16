@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-transportation-v1.pdf",
     "https://lms.lacity.gov/files/23-0600-S121"
-  ]
+  ],
+  "summary": "Council is receiving reports from LADOT, the Police Commission and the City Attorney on an independent review of the Vision Zero traffic safety program and pedestrian safety laws.",
+  "topics": [
+    "transportation",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "23-0600-S121",
+    "action": "report"
+  }
 }

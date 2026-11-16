@@ -9,5 +9,14 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1247"
   ],
-  "follows": "council-plum-2026-11-10-20261110-9"
+  "follows": "council-plum-2026-11-10-20261110-9",
+  "summary": "Zoning code amendments to align with Ballot Measure PL, which would create a Neighborhood Appeals Commission to replace the Area Planning Commissions and change how the Council reviews planning decisions.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "action": "code amendment conforming to Ballot Measure PL",
+    "council_file": "26-1247"
+  }
 }

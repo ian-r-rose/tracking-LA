@@ -15,5 +15,20 @@
     "source": "https://lms.lacity.gov/files/26-1567",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council motion to move $270,000 of Council District 7 redevelopment funds to fire recovery, maintenance and repairs at the Pacoima Lifestyle Center. It also raises the center's operations contract to $318,000 and extends it through June 2027.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Pacoima Lifestyle Center"
+    }
+  ],
+  "details": {
+    "council_district": 7,
+    "council_file": "26-1567",
+    "action": "funding transfer and contract amendment",
+    "amount": "$270,000"
   }
 }

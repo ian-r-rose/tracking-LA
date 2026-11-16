@@ -9,5 +9,25 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0005-S195"
   ],
-  "follows": "council-housing-2026-11-04-20261104-10"
+  "follows": "council-housing-2026-11-04-20261104-10",
+  "summary": "Removal of 4901 West 20th Street from the city's Rent Escrow Account Program, which the Housing Committee approved.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "4901 West 20th Street, Los Angeles, CA",
+      "lat": 34.039142,
+      "lon": -118.346418,
+      "neighborhood": "Mid-City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "887120"
+    ],
+    "council_district": 10,
+    "council_file": "26-0005-S195",
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

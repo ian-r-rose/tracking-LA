@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5898-CDO",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5899-EAF"
-  ]
+  ],
+  "summary": "Application to convert the garage and basement area of a retail space at 639 S Broadway into a parking garage. Filed November 12, 2026 and not yet decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "639 S Broadway, Los Angeles, CA",
+      "lat": 34.046126,
+      "lon": -118.252616,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5898-CDO",
+      "ENV-2026-5899-EAF"
+    ],
+    "council_district": 14,
+    "plan_area": "Downtown",
+    "action": "new application"
+  },
+  "flag": {
+    "reason": "Application in Downtown, a watched neighborhood."
+  }
 }

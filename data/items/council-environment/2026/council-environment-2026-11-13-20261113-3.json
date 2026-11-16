@@ -15,5 +15,18 @@
     "source": "https://lms.lacity.gov/files/26-1477",
     "vote": "1-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Asks the council to set alternative project delivery criteria for the Grant Lake Program at Grant Lake Reservoir, a Water and Power project.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Grant Lake Reservoir"
+    }
+  ],
+  "details": {
+    "council_file": "26-1477",
+    "action": "alternative project delivery criteria"
   }
 }

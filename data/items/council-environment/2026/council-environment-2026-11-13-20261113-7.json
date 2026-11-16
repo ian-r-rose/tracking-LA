@@ -15,5 +15,17 @@
     "source": "https://lms.lacity.gov/files/26-1284",
     "vote": "1-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Asks for a study of the impacts of data centers and a temporary moratorium on new data centers that need more than 100 megawatts, while the study is completed.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1284",
+    "action": "motion"
+  },
+  "flag": {
+    "reason": "Citywide data center moratorium proposal."
   }
 }

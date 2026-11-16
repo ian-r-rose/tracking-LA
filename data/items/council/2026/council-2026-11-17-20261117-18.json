@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1602"
-  ]
+  ],
+  "summary": "Council District 4 use of $153,127 in Hollywood redevelopment funds for General Services to repair the landscaping, civil and structural elements of Wilcox Triangle and the lighted Hollywood welcome sign.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Wilcox Triangle"
+    },
+    {
+      "text": "Hollywood welcome sign"
+    }
+  ],
+  "details": {
+    "council_file": "26-1602",
+    "council_district": 4,
+    "action": "funding for repairs",
+    "amount": "$153,127"
+  }
 }

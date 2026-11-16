@@ -8,5 +8,23 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1597"
-  ]
+  ],
+  "summary": "Council approval of a TEFRA resolution allowing up to $650 million in bonds to finance capital projects at The Livelle elder care facility at 23200 West Mulholland Drive in Council District 3.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "23200 West Mulholland Drive, Los Angeles, CA",
+      "lat": 34.152632,
+      "lon": -118.630952,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-1597",
+    "council_district": 3,
+    "action": "TEFRA approval of bond issuance",
+    "amount": "$650,000,000"
+  }
 }

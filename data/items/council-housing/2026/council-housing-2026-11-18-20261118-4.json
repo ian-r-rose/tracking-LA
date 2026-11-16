@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S200"
-  ]
+  ],
+  "summary": "Housing Department request to take 5724 West Clemson Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "5724 West Clemson Street, Los Angeles, CA",
+      "lat": 34.023989,
+      "lon": -118.37,
+      "neighborhood": "Baldwin Hills/Crenshaw"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "884625"
+    ],
+    "council_district": 10,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S200"
+  }
 }

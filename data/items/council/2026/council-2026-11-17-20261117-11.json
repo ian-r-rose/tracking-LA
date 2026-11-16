@@ -8,5 +8,26 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-4118-S10"
-  ]
+  ],
+  "summary": "Council designates three Council District 2 parks, Keswick Pocket Park, DeGarmo Park and Whitnall Dog Park, for enforcement against sitting, lying, sleeping, storing property or blocking the public right-of-way, and directs departments to post notices and begin enforcement.",
+  "topics": [
+    "parks",
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "Keswick Pocket Park"
+    },
+    {
+      "text": "DeGarmo Park"
+    },
+    {
+      "text": "Whitnall Dog Park"
+    }
+  ],
+  "details": {
+    "council_district": 2,
+    "action": "designation of locations for enforcement under LAMC 41.18",
+    "council_file": "26-4118-S10"
+  }
 }

@@ -14,5 +14,21 @@
     "text": "Planning and Land Use Management Committee action: Approved: APPROVED the Revised Recommendations in the Department of City Planning Report dated November 5, 2026 (Nov 12, 2026)",
     "source": "https://lms.lacity.gov/files/26-1355",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council action to adopt the San Pedro Community Plan update, which rezones every parcel in the community to the city's new zoning code and repeals the existing implementation overlay district.",
+  "topics": [
+    "land_use",
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "CPC-2025-7122-GPA-ZC-CPIO-SP-CA"
+    ],
+    "council_district": 15,
+    "plan_area": "San Pedro Community Plan",
+    "applicant": "City of Los Angeles",
+    "action": "community plan update and zoning ordinances",
+    "council_file": "26-1355"
   }
 }

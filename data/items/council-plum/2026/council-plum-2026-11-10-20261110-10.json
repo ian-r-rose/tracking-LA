@@ -14,5 +14,19 @@
     "text": "Planning and Land Use Management Committee action: Approved: APPROVED the City Attorney report and draft Ordinance dated November 4, 2026 (Nov 12, 2026)",
     "source": "https://lms.lacity.gov/files/13-0285-S2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council action on an ordinance to amend and restate the sign district rules at Los Angeles International Airport.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "action": "amend and restate sign district ordinance",
+    "council_file": "13-0285-S2"
   }
 }

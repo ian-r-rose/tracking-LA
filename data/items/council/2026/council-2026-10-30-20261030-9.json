@@ -15,5 +15,22 @@
     "source": "https://lms.lacity.gov/files/14-0185-S1",
     "vote": "10-0-5",
     "recorded": "2026-11-14"
+  },
+  "summary": "Amending the Port of Los Angeles permit with Wallenius Wilhelmsen for its Berths 195-200A property, extending the term through 2031 and suspending the 2026 CPI increase in compensation.",
+  "topics": [
+    "land_use",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Berths 195-200A, Port of Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "14-0185-S1",
+    "council_district": 15,
+    "applicant": "Wallenius Wilhelmsen Logistics (WWL) Vehicle Services America, Inc.",
+    "action": "permit amendment and compensation reset",
+    "amount": "$104.2 million"
   }
 }

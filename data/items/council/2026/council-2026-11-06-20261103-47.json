@@ -15,5 +15,24 @@
     "source": "https://lms.lacity.gov/files/26-1475",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Approves a 10-year lease for the Condor Squadron officers' and airmen's association to use aviation land and office space at Van Nuys Airport, bringing about $307,000 in revenue.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "7800 Hayvenhurst Ave, Los Angeles, CA",
+      "lat": 34.211654,
+      "lon": -118.49236,
+      "neighborhood": "Van Nuys"
+    }
+  ],
+  "details": {
+    "council_file": "26-1475",
+    "applicant": "The Condor Squadron Officer's and Airmen's Association Inc.",
+    "action": "lease approval",
+    "amount": "$307,000"
   }
 }

@@ -9,5 +9,14 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1228"
   ],
-  "follows": "council-arts-parks-2026-11-04-20261104-2"
+  "follows": "council-arts-parks-2026-11-04-20261104-2",
+  "summary": "Reports on the employment status of former LA CityView Channel 35 contract workers and how the city's Worker Retention Ordinance applies and would be enforced.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1228",
+    "action": "ITA and City Attorney reports"
+  }
 }

@@ -10,5 +10,19 @@
     "https://kentico.portoflosangeles.org/getmedia/93b410e6-bb5e-4d73-a963-1327014d9ec1/02_Cargo-Real-Estate_So-Cal-Edison-Permit-932_Board-Report",
     "https://kentico.portoflosangeles.org/getmedia/f5c6750a-f514-4b37-bb4d-63739c69018b/02_Cargo-Real-Estate_So-Cal-Edison-Permit-932_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/ca037b3c-7a77-4525-b9a0-fc72a9c551a0/02_Cargo-Real-Estate_So-Cal-Edison-Permit-932_Transmittal-2"
-  ]
+  ],
+  "summary": "The Harbor Board is asked to approve a rent increase, retroactive to September 2025, for Southern California Edison's permit to run an overhead 220kV power line over the Intermodal Container Transfer Facility, to $96,864 a year.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Intermodal Container Transfer Facility"
+    }
+  ],
+  "details": {
+    "applicant": "Southern California Edison Company",
+    "action": "compensation reset under permit",
+    "amount": "$96,864.00"
+  }
 }

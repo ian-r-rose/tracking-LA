@@ -8,5 +8,22 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-transportation-v1.pdf",
     "https://lms.lacity.gov/files/25-0712"
-  ]
+  ],
+  "summary": "Motion addressing the impacts of the Vincent Thomas Bridge closure.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Vincent Thomas Bridge, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "25-0712"
+    ],
+    "council_district": 15,
+    "action": "motion on impacts of bridge closure",
+    "council_file": "25-0712"
+  }
 }

@@ -31,5 +31,8 @@
       "VAC-E1401376"
     ],
     "action": "street vacation (EIR and City Engineer report)"
+  },
+  "flag": {
+    "reason": "Street vacation in Downtown, a watched neighborhood."
   }
 }

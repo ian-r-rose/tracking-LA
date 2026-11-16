@@ -15,5 +15,16 @@
     "source": "https://lms.lacity.gov/files/26-1568",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council motion to move $50,000 of Council District 10 redevelopment funds to the Street Services budget for tree trimming.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 10,
+    "council_file": "26-1568",
+    "action": "funding transfer",
+    "amount": "$50,000"
   }
 }

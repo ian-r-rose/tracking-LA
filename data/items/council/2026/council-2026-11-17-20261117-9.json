@@ -8,5 +8,17 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1591"
-  ]
+  ],
+  "summary": "Allocates $55,000 from the Sunshine Canyon Community Amenities Trust Fund for the efforts, operations and expenses of several organizations and schools, with the recipients listed in an attachment to the motion.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 12,
+    "council_file": "26-1591",
+    "action": "funding motion",
+    "amount": "$55,000"
+  }
 }

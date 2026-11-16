@@ -15,5 +15,17 @@
     "source": "https://lms.lacity.gov/files/26-1570",
     "vote": "10-3-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council motion to move $75,000 from homeless services funding to police overtime for preventing crimes and aggravated assaults at homeless encampments in Council District 11.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 11,
+    "council_file": "26-1570",
+    "action": "funding transfer",
+    "amount": "$75,000"
   }
 }

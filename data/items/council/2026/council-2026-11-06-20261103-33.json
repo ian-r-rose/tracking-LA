@@ -15,5 +15,24 @@
     "source": "https://lms.lacity.gov/files/26-0011-S24",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is moving $15,400 from its District 15 street furniture fund into a new account for street safety improvements at Figueroa Street and Alondra Boulevard.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Figueroa St & Alondra Blvd, Los Angeles, CA",
+      "lat": 33.885468,
+      "lon": -118.282743,
+      "neighborhood": null
+    }
+  ],
+  "details": {
+    "council_file": "26-0011-S24",
+    "council_district": 15,
+    "action": "funding transfer for street safety improvements",
+    "amount": "$15,400"
   }
 }

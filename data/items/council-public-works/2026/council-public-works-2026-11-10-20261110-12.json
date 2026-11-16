@@ -15,5 +15,25 @@
     "source": "https://lms.lacity.gov/files/26-1556",
     "vote": "3-0-0",
     "recorded": "2026-11-14"
+  },
+  "summary": "Motion to name the Chandler Boulevard and Cahuenga Boulevard intersection in North Hollywood \"Mary Garcia Square.\"",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Chandler Blvd & Cahuenga Blvd, Los Angeles, CA",
+      "lat": 34.168716,
+      "lon": -118.361556,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-1556"
+    ],
+    "council_district": 2,
+    "action": "intersection naming",
+    "council_file": "26-1556"
   }
 }

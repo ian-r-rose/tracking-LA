@@ -15,5 +15,23 @@
     "source": "https://lms.lacity.gov/files/26-1342",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council hearing on whether a liquor license letting Trader Joe's Store 255 sell alcohol for off-site consumption on South Lincoln Boulevard serves public convenience.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "620 South Lincoln Boulevard, Los Angeles, CA",
+      "lat": 34.000055,
+      "lon": -118.465046,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "council_file": "26-1342",
+    "council_district": 11,
+    "applicant": "Trader Joe's Company",
+    "action": "public convenience or necessity determination"
   }
 }

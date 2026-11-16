@@ -15,5 +15,20 @@
     "source": "https://lms.lacity.gov/files/15-1207-S8",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council authorization to move $27.8 million in MICLA bond appropriations to pay city staff, consultant and administrative costs for the Los Angeles Convention Center expansion and modernization project, and to reimburse the General Fund for that work.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Convention Center"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "action": "MICLA appropriation transfer and General Fund reimbursement",
+    "amount": "$27,766,000",
+    "council_file": "15-1207-S8"
   }
 }

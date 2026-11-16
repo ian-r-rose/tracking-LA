@@ -15,5 +15,16 @@
     "source": "https://lms.lacity.gov/files/26-0438",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council motion to shift $225,000 of Council District 8 community-events funding from Purpose Driven Solutions Consulting to Asian American Drug Abuse Program, which will manage the events.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 8,
+    "council_file": "26-0438",
+    "action": "amendment to prior Council action on community event contract",
+    "amount": "$225,000"
   }
 }

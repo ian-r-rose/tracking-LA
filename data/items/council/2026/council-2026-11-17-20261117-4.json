@@ -9,5 +9,25 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/25-0712-S1"
   ],
-  "follows": "council-public-works-2026-11-10-20261110-11"
+  "follows": "council-public-works-2026-11-10-20261110-11",
+  "summary": "Motion to add immediate flood-mitigation steps and speed up emergency repairs where Harry Bridges Boulevard meets Alameda Street in Wilmington.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "Harry Bridges Blvd & Alameda St, Los Angeles, CA",
+      "lat": 33.771609,
+      "lon": -118.255725,
+      "neighborhood": "Wilmington"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "25-0712-S1"
+    ],
+    "council_district": 15,
+    "action": "motion for flood mitigation and emergency repairs",
+    "council_file": "25-0712-S1"
+  }
 }

@@ -15,5 +15,26 @@
     "source": "https://lms.lacity.gov/files/26-1366",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council hearing on a request to find that off-site alcohol sales at Viva LA Beer Market, 1001 South Vermont Avenue, serve public convenience or necessity.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1001 S Vermont Ave, Los Angeles, CA",
+      "lat": 34.052485,
+      "lon": -118.291682,
+      "neighborhood": "Pico-Union"
+    }
+  ],
+  "details": {
+    "council_district": 10,
+    "council_file": "26-1366",
+    "applicant": "Xiomara Menjivar - Viva La Beer Market, LLC",
+    "action": "public convenience or necessity determination for off-site alcohol sales"
+  },
+  "flag": {
+    "reason": "Alcohol finding in Pico-Union, a watched neighborhood."
   }
 }

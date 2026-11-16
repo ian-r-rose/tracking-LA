@@ -15,5 +15,28 @@
     "source": "https://lms.lacity.gov/files/26-1539",
     "vote": "3-0-0",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council motion to temporarily close the alley on North Cabrillo Avenue between Channel Street and Miraflores Avenue.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "North Cabrillo Avenue & Channel Street, Los Angeles, CA",
+      "lat": 33.753789,
+      "lon": -118.295523,
+      "neighborhood": "San Pedro"
+    },
+    {
+      "text": "North Cabrillo Avenue & Miraflores Avenue, Los Angeles, CA",
+      "lat": 33.752853,
+      "lon": -118.295568,
+      "neighborhood": "San Pedro"
+    }
+  ],
+  "details": {
+    "council_district": 15,
+    "action": "temporary alley closure",
+    "council_file": "26-1539"
   }
 }

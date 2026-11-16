@@ -15,5 +15,22 @@
     "source": "https://lms.lacity.gov/files/24-1429-S1",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council approval of a second amendment to a LAWA office lease with HNTB Corporation that expands its space at the Skyview Center on W Century Blvd, expected to bring the airport about $3.2 million in net revenue over 88 months.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "6033 W Century Blvd, Los Angeles, CA",
+      "lat": 33.945638,
+      "lon": -118.389878,
+      "neighborhood": "Westchester"
+    }
+  ],
+  "details": {
+    "action": "second amendment to airport lease",
+    "amount": "$3,196,105",
+    "council_file": "24-1429-S1"
   }
 }

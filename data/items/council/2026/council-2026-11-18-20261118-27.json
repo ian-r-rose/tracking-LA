@@ -9,5 +9,14 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/22-0623"
   ],
-  "follows": "council-housing-2026-11-04-20261104-18"
+  "follows": "council-housing-2026-11-04-20261104-18",
+  "summary": "Approval for the city to submit its Prohousing Designation application to the State of California Department of Housing and Community Development. The Housing Committee approved it.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "22-0623",
+    "action": "approval to submit Prohousing Designation application"
+  }
 }

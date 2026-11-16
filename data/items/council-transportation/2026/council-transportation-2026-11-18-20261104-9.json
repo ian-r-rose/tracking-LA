@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-transportation-v1.pdf",
     "https://lms.lacity.gov/files/25-1232"
-  ]
+  ],
+  "summary": "LADOT report on putting a Smart Loading Zones pilot program into place.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-1232",
+    "action": "report"
+  }
 }

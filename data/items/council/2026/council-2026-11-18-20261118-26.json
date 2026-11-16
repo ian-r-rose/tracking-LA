@@ -9,5 +9,25 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0005-S197"
   ],
-  "follows": "council-housing-2026-11-04-20261104-12"
+  "follows": "council-housing-2026-11-04-20261104-12",
+  "summary": "Removal of three units at 1341, 1343 and 1345 North Fries Avenue from the Rent Escrow Account Program, with the rest of the property staying in the program. The Housing Committee approved it.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1341 North Fries Avenue, Los Angeles, CA",
+      "lat": 33.789654,
+      "lon": -118.265675,
+      "neighborhood": "Wilmington"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "894798"
+    ],
+    "council_district": 15,
+    "council_file": "26-0005-S197",
+    "action": "removal of units from Rent Escrow Account Program"
+  }
 }

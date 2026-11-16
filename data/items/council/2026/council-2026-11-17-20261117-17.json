@@ -8,5 +8,18 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/16-0149-S3"
-  ]
+  ],
+  "summary": "Council District 3 funding of about $3.6 million, from two transfers, for sidewalk repairs and other street improvements tied to the Reimagine Ventura Boulevard Streetscape Project.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "16-0149-S3",
+    "council_district": 3,
+    "action": "funding for street and sidewalk improvements",
+    "amount": "$2,546,560",
+    "bureau": "Bureau of Street Services"
+  }
 }

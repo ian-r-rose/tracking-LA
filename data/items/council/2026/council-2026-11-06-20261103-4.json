@@ -15,5 +15,15 @@
     "source": "https://lms.lacity.gov/files/26-0600-S114",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is asked to set the City's 2026-27 appropriations limit at $10,026,603,100, using a -0.87 percent city population change and a 9.55 percent nonresidential new construction factor.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0600-S114",
+    "action": "adopt appropriations limit",
+    "amount": "$10,026,603,100"
   }
 }

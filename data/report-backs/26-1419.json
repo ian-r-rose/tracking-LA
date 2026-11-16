@@ -5,5 +5,21 @@
   "motion_url": "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/2026/26-1419_misc_10-07-26.pdf",
   "adopted": null,
   "documents": [],
-  "motion": "I THEREFORE MOVE that the Council instruct the Los Angeles Housing Department (LAHD), in collaboration with Council District 14, Housing Authority of the City of Los Angeles, and the Southern California Association of Non Profit Housing, to report within 120 days, on a strategy to stabilize and preserve all Single Room Occupancy units located in Downtown Los Angeles that are subject to the City’s Residential Hotel Ordinance and the Development Guidelines for Residential Hotels in the City Center and Central Industrial Redevelopment Project areas. I FURTHER MOVE that the Council instruct LAHD, in consultation with the City Attorney, to report on the feasibility of entering into a sole-source contract with a qualified consultant to support the development of the preservation strategy with potential funding options, including but not limited to, Los Angeles County Affordable Housing Solutions Agency funds. PRESENTED BY: YSABELJURADO/ Councilmember, 14th District SECONDED BY: 62_ K/ OCT 0 7 2026"
+  "motion": "I THEREFORE MOVE that the Council instruct the Los Angeles Housing Department (LAHD), in collaboration with Council District 14, Housing Authority of the City of Los Angeles, and the Southern California Association of Non Profit Housing, to report within 120 days, on a strategy to stabilize and preserve all Single Room Occupancy units located in Downtown Los Angeles that are subject to the City’s Residential Hotel Ordinance and the Development Guidelines for Residential Hotels in the City Center and Central Industrial Redevelopment Project areas. I FURTHER MOVE that the Council instruct LAHD, in consultation with the City Attorney, to report on the feasibility of entering into a sole-source contract with a qualified consultant to support the development of the preservation strategy with potential funding options, including but not limited to, Los Angeles County Affordable Housing Solutions Agency funds. PRESENTED BY: YSABELJURADO/ Councilmember, 14th District SECONDED BY: 62_ K/ OCT 0 7 2026",
+  "requests": [
+    {
+      "departments": [
+        "Los Angeles Housing Department"
+      ],
+      "asks": "Strategy to stabilize and preserve all Single Room Occupancy units in Downtown Los Angeles subject to the Residential Hotel Ordinance and related development guidelines.",
+      "deadline": 120
+    },
+    {
+      "departments": [
+        "Los Angeles Housing Department"
+      ],
+      "asks": "Feasibility of a sole-source consultant contract to develop the preservation strategy, with potential funding options including Los Angeles County Affordable Housing Solutions Agency funds.",
+      "deadline": null
+    }
+  ]
 }

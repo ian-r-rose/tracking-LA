@@ -8,5 +8,18 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1598"
-  ]
+  ],
+  "summary": "Authorization for the Department of Neighborhood Empowerment to use several City Hall spaces, including the Rotunda and Council Chamber, for the annual Neighborhood Council Budget Day on June 26, 2027, with DONE reimbursing General Services for its costs.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "City Hall"
+    }
+  ],
+  "details": {
+    "council_file": "26-1598",
+    "action": "authorization to use City Hall spaces for event"
+  }
 }

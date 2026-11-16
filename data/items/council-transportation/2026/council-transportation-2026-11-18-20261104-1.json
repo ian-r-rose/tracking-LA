@@ -8,5 +8,18 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-04-transportation-v1.pdf",
     "https://lms.lacity.gov/files/22-0659"
-  ]
+  ],
+  "summary": "CAO asks Council to approve Amendment One to a partnership agreement with community partners running the South LA Eco-Lab, tied to the EV carshare expansion.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "22-0659"
+    ],
+    "action": "amendment to stakeholder partnership agreement",
+    "council_file": "22-0659"
+  }
 }

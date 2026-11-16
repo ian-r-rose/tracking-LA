@@ -9,5 +9,15 @@
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1419"
   ],
-  "follows": "council-housing-2026-11-04-20261104-15"
+  "follows": "council-housing-2026-11-04-20261104-15",
+  "summary": "Council motion to stabilize Single Room Occupancy properties and preserve their long-term affordability to protect residents from displacement and prevent homelessness. The Housing Committee adopted it.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 14,
+    "council_file": "26-1419",
+    "action": "motion"
+  }
 }

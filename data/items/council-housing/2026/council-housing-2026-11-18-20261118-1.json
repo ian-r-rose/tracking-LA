@@ -8,5 +8,26 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/13-0005-S638"
-  ]
+  ],
+  "summary": "Housing Department request to take 825 South Crocker Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "825 South Crocker Street, Los Angeles, CA",
+      "lat": 34.037399,
+      "lon": -118.248568,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "868370",
+      "878859"
+    ],
+    "council_district": 14,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "13-0005-S638"
+  }
 }

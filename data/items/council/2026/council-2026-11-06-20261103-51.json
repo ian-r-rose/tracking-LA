@@ -15,5 +15,24 @@
     "source": "https://lms.lacity.gov/files/26-1481",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Approves a lease, up to 32 years including extensions, with a Sky Harbour Group subsidiary for a general aviation facility at 7701 Woodley Avenue at Van Nuys Airport, bringing about $83.4 million in revenue.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "7701 Woodley Ave, Los Angeles, CA",
+      "lat": 34.210247,
+      "lon": -118.483739,
+      "neighborhood": "Van Nuys"
+    }
+  ],
+  "details": {
+    "council_file": "26-1481",
+    "applicant": "VNY Development LLC, a subsidiary of Sky Harbour Group Corporation",
+    "action": "lease approval",
+    "amount": "$83.4 million"
   }
 }

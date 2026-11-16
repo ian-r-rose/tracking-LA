@@ -15,5 +15,25 @@
     "source": "https://lms.lacity.gov/files/26-1478",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Approves a 10-year lease with Joby Aero for aviation land and building space at 7646 Hayvenhurst Avenue at Van Nuys Airport, bringing about $1.75 million in revenue.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "7646 Hayvenhurst Ave, Los Angeles, CA",
+      "lat": 34.209218,
+      "lon": -118.492356,
+      "neighborhood": "Van Nuys"
+    }
+  ],
+  "details": {
+    "council_file": "26-1478",
+    "council_district": 6,
+    "applicant": "Joby Aero Inc.",
+    "action": "lease approval",
+    "amount": "$1,750,000"
   }
 }

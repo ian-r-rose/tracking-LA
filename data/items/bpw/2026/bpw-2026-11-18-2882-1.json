@@ -8,5 +8,23 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25405",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3830f9a1-bc01-4015-9dac-27a28922910e"
-  ]
+  ],
+  "summary": "Board approval of a $454,500 payment covering the Solid Waste Management Fee for trash tonnage sent to the Waste Management El Sobrante Landfill in fiscal 2026-27.",
+  "topics": [
+    "budget",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "El Sobrante Landfill"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0597"
+    ],
+    "bureau": "Bureau of Sanitation",
+    "action": "authority for expenditure",
+    "amount": "$454,500"
+  }
 }

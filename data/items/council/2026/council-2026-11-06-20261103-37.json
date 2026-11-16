@@ -15,5 +15,27 @@
     "source": "https://lms.lacity.gov/files/26-1537",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is authorizing the Community Investment Department's Office of Youth Development to hold its annual Youth Summit in City Hall spaces on April 3, 2027, with the department reimbursing the City for any costs.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Council Chambers"
+    },
+    {
+      "text": "City Hall Rotunda"
+    },
+    {
+      "text": "Tom Bradley Tower"
+    },
+    {
+      "text": "City Hall Forecourt"
+    }
+  ],
+  "details": {
+    "council_file": "26-1537",
+    "action": "authorization to use City Hall spaces"
   }
 }

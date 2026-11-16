@@ -15,5 +15,23 @@
     "source": "https://lms.lacity.gov/files/26-1378",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council hearing on a request to find that off-site alcohol sales at Royal Fresh Market on West Sherman Way Boulevard serve public convenience or necessity.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "12811 W Sherman Way Blvd, Los Angeles, CA",
+      "lat": 34.201266,
+      "lon": -118.411853,
+      "neighborhood": "Valley Glen"
+    }
+  ],
+  "details": {
+    "council_district": 2,
+    "council_file": "26-1378",
+    "applicant": "Royal Marketplace, Inc",
+    "action": "public convenience or necessity determination for off-site alcohol sales"
   }
 }

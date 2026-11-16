@@ -15,5 +15,23 @@
     "source": "https://lms.lacity.gov/files/26-1356",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council hearing on whether a liquor license allowing on-site and off-site alcohol sales at Island Pacific Supermarket on West Santa Monica Boulevard serves public convenience.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "4641 West Santa Monica Boulevard, Los Angeles, CA",
+      "lat": 34.090944,
+      "lon": -118.290311,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "26-1356",
+    "council_district": 13,
+    "applicant": "Herman Chiu - Abacus Business Capital, Inc.",
+    "action": "public convenience or necessity determination"
   }
 }

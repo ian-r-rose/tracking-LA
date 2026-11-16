@@ -8,5 +8,30 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-5895-PM-SL-HCA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5948-EAF"
-  ]
+  ],
+  "summary": "A small lot subdivision would create four units at 201 N Carondelet St in Westlake after demolishing two existing units. The application was filed November 12, 2026 and has not been decided.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "201 N Carondelet St, Los Angeles, CA",
+      "lat": 34.070257,
+      "lon": -118.274073,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2026-5895-PM-SL-HCA",
+      "ENV-2026-5948-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Westlake",
+    "action": "small lot subdivision"
+  },
+  "flag": {
+    "reason": "Housing project in Westlake, a watched neighborhood."
+  }
 }

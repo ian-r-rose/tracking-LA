@@ -15,5 +15,28 @@
     "source": "https://lms.lacity.gov/files/26-1550",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is authorizing $30,000 in Council District 4 redevelopment funds for speed humps, speed tables or other speed mitigation at or near Franklin Avenue and Las Palmas Avenue, including the marked crosswalk there.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Franklin Ave & Las Palmas Ave, Los Angeles, CA",
+      "lat": 34.105185,
+      "lon": -118.336082,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "26-1550",
+    "council_district": 4,
+    "action": "funding for speed mitigation",
+    "amount": "$30,000",
+    "bureau": "Bureau of Street Services"
+  },
+  "flag": {
+    "reason": "Speed mitigation in Hollywood, a watched neighborhood."
   }
 }

@@ -7,5 +7,13 @@
   "text": "[K. Filed Items]\nPower System Monthly Report – October 2026",
   "urls": [
     "https://ens.lacity.org/dwp/agendas/dwpagendas202201502_11182026.pdf"
-  ]
+  ],
+  "summary": "Receives the Power System's monthly report for October 2026.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "monthly report"
+  }
 }

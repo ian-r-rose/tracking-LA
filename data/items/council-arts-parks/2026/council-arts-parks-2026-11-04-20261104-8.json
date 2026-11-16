@@ -15,5 +15,20 @@
     "source": "https://lms.lacity.gov/files/26-1161",
     "vote": "2-0-1",
     "recorded": "2026-11-14"
+  },
+  "summary": "A proposed agreement letting Northeast LA Forest School run an outdoor, nature-based recreational child development program in Elysian Park.",
+  "topics": [
+    "parks",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1025 Elysian Park Dr, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-1161",
+    "applicant": "Northeast LA Forest School",
+    "action": "proposed operating agreement"
   }
 }

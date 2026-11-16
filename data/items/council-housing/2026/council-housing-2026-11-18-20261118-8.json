@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S204"
-  ]
+  ],
+  "summary": "Council is asked to remove the property at 2662 East Loosmore Street from the city's Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "2662 East Loosmore Street, Los Angeles, CA",
+      "lat": 34.092902,
+      "lon": -118.226638,
+      "neighborhood": "Cypress Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "908574"
+    ],
+    "council_district": 1,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S204"
+  }
 }

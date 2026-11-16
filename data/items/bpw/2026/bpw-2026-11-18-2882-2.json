@@ -8,5 +8,21 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25405",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e7fe025f-7eb9-4ae5-b4d6-449202d61993"
-  ]
+  ],
+  "summary": "Board action on a no-fee permit to remove 386 street trees for the East San Fernando Valley light rail project, finding no new environmental review is needed; replacement trees are required.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "case_numbers": [
+      "BPW-2026-0598"
+    ],
+    "bureau": "Bureau of Street Services",
+    "action": "no-fee tree removal permit"
+  },
+  "flag": {
+    "reason": "Tree removals for a light rail project."
+  }
 }

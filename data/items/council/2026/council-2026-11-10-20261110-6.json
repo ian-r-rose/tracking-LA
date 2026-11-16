@@ -8,5 +8,32 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-10-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1546"
-  ]
+  ],
+  "summary": "Council adoption of a TEFRA resolution that lets the California Enterprise Development Authority issue up to $16 million in conduit revenue bonds to finance educational facilities at 14701 Friar St and 14704 Victory Blvd and a nearby vacant parcel in Council District 6.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "14701 Friar St, Los Angeles, CA",
+      "lat": 34.185741,
+      "lon": -118.45316,
+      "neighborhood": "Van Nuys"
+    },
+    {
+      "text": "14704 Victory Blvd, Los Angeles, CA",
+      "lat": 34.186593,
+      "lon": -118.453248,
+      "neighborhood": "Van Nuys"
+    },
+    {
+      "text": "Vacant parcel across Friar St, APN 2241-007-027, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 6,
+    "action": "TEFRA resolution for conduit revenue bonds",
+    "amount": "$16,000,000",
+    "council_file": "26-1546"
+  }
 }

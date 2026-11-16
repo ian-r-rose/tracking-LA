@@ -8,5 +8,23 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1595"
-  ]
+  ],
+  "summary": "Waives or reimburses $3,629.61 in administrative and lien fees for the property at 1001 East 27th Street, subject to verified full compliance with outstanding corrective orders.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1001 East 27th Street, Los Angeles, CA",
+      "lat": 34.018458,
+      "lon": -118.256766,
+      "neighborhood": "Historic South-Central"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "council_file": "26-1595",
+    "action": "fee waiver motion",
+    "amount": "$3,629.61"
+  }
 }

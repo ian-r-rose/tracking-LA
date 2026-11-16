@@ -15,5 +15,16 @@
     "source": "https://lms.lacity.gov/files/17-0193-S10",
     "vote": "10-0-5",
     "recorded": "2026-11-14"
+  },
+  "summary": "Transferring about $4.42 million from city departments into the Engineering Special Services Fund to make the annual payment for the Esri geographic information system software agreement.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "17-0193-S10",
+    "amount": "$4,420,833.00",
+    "bureau": "Bureau of Engineering",
+    "action": "fund transfer"
   }
 }

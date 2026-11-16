@@ -15,5 +15,24 @@
     "source": "https://lms.lacity.gov/files/26-1541",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is asked to adopt a TEFRA resolution letting the California Municipal Finance Authority issue up to $35 million in bonds for a 70-unit affordable housing project at 2100 North Cahuenga Boulevard in Council District 4.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "2100 N Cahuenga Blvd, Los Angeles, CA",
+      "lat": 34.107522,
+      "lon": -118.330656,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-1541",
+    "council_district": 4,
+    "action": "TEFRA hearing and bond resolution",
+    "applicant": "Circle of Hope Housing Hollywood",
+    "amount": "$35,000,000"
   }
 }

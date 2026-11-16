@@ -14,5 +14,60 @@
     "text": "Planning and Land Use Management Committee action: Continued: CONTINUED TO DECEMBER 8, 2026 (Nov 12, 2026)",
     "source": "https://lms.lacity.gov/files/26-0734-S1",
     "recorded": "2026-11-14"
+  },
+  "summary": "Appeal by Kenya Lee of approvals for a two-story, 2,283 square-foot wastewater pumping plant and surface parking lot in Venice, which would also change the site's land use designation to public facility.",
+  "topics": [
+    "land_use",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "128 East Hurricane Street, Los Angeles, CA",
+      "lat": 33.975782,
+      "lon": -118.461491,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "133 East Hurricane Street, Los Angeles, CA",
+      "lat": 33.976016,
+      "lon": -118.461336,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "139 East Hurricane Street, Los Angeles, CA",
+      "lat": 33.976031,
+      "lon": -118.461311,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "3813 South Esplanade, Los Angeles, CA",
+      "lat": 33.976268,
+      "lon": -118.461133,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "3817 South Esplanade, Los Angeles, CA",
+      "lat": 33.976155,
+      "lon": -118.461046,
+      "neighborhood": "Venice"
+    },
+    {
+      "text": "3913 South Esplanade West, Los Angeles, CA",
+      "lat": 33.975694,
+      "lon": -118.461251,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2024-2010-GPA-ZC-CU3-SPPC-1A",
+      "CPC-2024-2010-GPA-ZC-CU3-SPPC"
+    ],
+    "council_district": 11,
+    "plan_area": "Venice Coastal Zone Specific Plan (Ballona Lagoon West Subarea)",
+    "applicant": "Department of Public Works (DPW) and LA Sanitation and Environment",
+    "action": "appeal of Planning Commission approval",
+    "bureau": "Bureau of Engineering",
+    "council_file": "26-0734-S1"
   }
 }

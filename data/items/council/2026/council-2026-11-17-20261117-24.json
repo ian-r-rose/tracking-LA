@@ -8,5 +8,23 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1622"
-  ]
+  ],
+  "summary": "Approval of the final map for Tract No. 73184 at 8413-8421 West Blackburn Avenue in Council District 5, along with its subdivision improvement agreement.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "8413 W Blackburn Ave, Los Angeles, CA",
+      "lat": 34.07221,
+      "lon": -118.373741,
+      "neighborhood": "Beverly Grove"
+    }
+  ],
+  "details": {
+    "council_file": "26-1622",
+    "council_district": 5,
+    "action": "approval of final tract map",
+    "amount": "$18,150"
+  }
 }

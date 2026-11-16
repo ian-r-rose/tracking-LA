@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25405",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=5971822f-8b15-497d-905e-6eb49740b2ea"
-  ]
+  ],
+  "summary": "Contract award of $3,108,681 to International Line Builders (dba ILB Electric) for the Main Street Lighting Improvement Unit 2 capital project.",
+  "topics": ["budget"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["BPW-2026-0599"],
+    "bureau": "Bureau of Street Lighting",
+    "applicant": "International Line Builders, Inc. dba ILB Electric",
+    "action": "contract award",
+    "amount": "$3,108,681"
+  }
 }

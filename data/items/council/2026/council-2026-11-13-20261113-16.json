@@ -8,5 +8,31 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1113"
-  ]
+  ],
+  "summary": "Council vote to raise funding for streetlight repairs on Jefferson Blvd in Council District 8, after streetlights were vandalized during the Jefferson Beautiful Active Transportation project, from $485,320 to $729,056.60 and set a total project budget of $753,301.52 from Measure M and a CD 8 trust fund.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Jefferson Blvd & Van Buren Pl, Los Angeles, CA",
+      "lat": 34.025517,
+      "lon": -118.296999,
+      "neighborhood": null
+    },
+    {
+      "text": "Jefferson Blvd & Vermont Ave, Los Angeles, CA",
+      "lat": 34.025499,
+      "lon": -118.29155,
+      "neighborhood": "University Park"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "action": "amendment of streetlight repair funding",
+    "amount": "$753,301.52",
+    "bureau": "Bureau of Street Lighting",
+    "council_file": "26-1113"
+  }
 }

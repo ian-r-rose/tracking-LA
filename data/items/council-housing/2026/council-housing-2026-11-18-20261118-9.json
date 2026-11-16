@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-1612"
-  ]
+  ],
+  "summary": "Council motion to implement Proposition TE, a proposed one-time exemption from the city's Measure ULA transfer tax for properties hit by the January 2025 wildfires.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 11,
+    "action": "motion to implement Proposition TE",
+    "council_file": "26-1612"
+  }
 }

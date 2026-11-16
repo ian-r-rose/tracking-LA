@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-13-council-v1.pdf",
     "https://lms.lacity.gov/files/25-0073-S1"
-  ]
+  ],
+  "summary": "Council asks the CAO to report on funding options, including a voluntary or involuntary contribution from Workday, for a new LAFD staff scheduling system that works with the city's new payroll system.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "report on funding options for LAFD scheduling system",
+    "council_file": "25-0073-S1"
+  }
 }

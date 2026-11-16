@@ -8,5 +8,24 @@
   "urls": [
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-11/El%20Pueblo%20Commission%20Agenda%2011-12-26.pdf",
     "https://elpueblo.lacity.gov/sites/g/files/wph1641/files/2026-11/Olvera%20Street%20Gates%20Recomendation%2011-12-26.pdf"
-  ]
+  ],
+  "summary": "El Pueblo commission is asked to approve the design of new wrought-iron security gates at the Olvera Street entrances.",
+  "topics": [
+    "land_use",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "125 Paseo de la Plaza, Los Angeles, CA",
+      "lat": 34.057043,
+      "lon": -118.238693,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "action": "design approval"
+  },
+  "flag": {
+    "reason": "Gates at Olvera Street in Downtown, a watched neighborhood."
+  }
 }

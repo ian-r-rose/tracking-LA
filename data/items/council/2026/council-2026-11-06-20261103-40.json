@@ -15,5 +15,20 @@
     "source": "https://lms.lacity.gov/files/26-1551",
     "vote": "13-0-2",
     "recorded": "2026-11-14"
+  },
+  "summary": "Council is funding $2,924 in services for the passing of civil rights leader Dolores Huerta, including illuminating City Hall from October 28 to October 29, 2026.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "City Hall"
+    }
+  ],
+  "details": {
+    "council_file": "26-1551",
+    "action": "funding for services",
+    "amount": "$2,924"
   }
 }

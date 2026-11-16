@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1238"
-  ]
+  ],
+  "summary": "Chief Legislative Analyst report on deadlines, procedures and pending matters for possible City Charter amendments to go before voters in future elections.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1238",
+    "action": "CLA communication"
+  }
 }

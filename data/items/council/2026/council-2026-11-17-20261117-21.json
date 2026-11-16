@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1604"
-  ]
+  ],
+  "summary": "Council approval of a TEFRA resolution letting the California Municipal Finance Authority issue up to $45 million in bonds for a 206-unit affordable housing project at 8350 Reseda Boulevard in Council District 12.",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "8350 Reseda Blvd, Los Angeles, CA",
+      "lat": 34.221864,
+      "lon": -118.536036,
+      "neighborhood": "Northridge"
+    }
+  ],
+  "details": {
+    "council_file": "26-1604",
+    "council_district": 12,
+    "action": "TEFRA approval of bond issuance",
+    "amount": "$45,000,000"
+  }
 }

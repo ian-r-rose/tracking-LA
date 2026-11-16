@@ -8,5 +8,16 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-17-council-v1.pdf",
     "https://lms.lacity.gov/files/14-1411-S5"
-  ]
+  ],
+  "summary": "Reprograms Transfer of Floor Area Ratio trust fund money in Council District 9: $1 million is moved out of a first-time homebuyer down payment program back to the TFAR fund, and $1 million is sent from that fund to a Heart of Los Angeles youth program and a community grants account.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 9,
+    "council_file": "14-1411-S5",
+    "action": "trust fund reprogramming"
+  }
 }
