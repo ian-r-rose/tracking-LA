@@ -633,6 +633,12 @@
   "lon": -118.193788,
   "score": 100
  },
+ "1334 S CENTRAL AVE": {
+  "address": "1334 S CENTRAL AVE, 90021",
+  "lat": 34.028979,
+  "lon": -118.246277,
+  "score": 100
+ },
  "13375-13413 West Mulholland Drive": {
   "address": "13413 W MULHOLLAND DR, 90210",
   "lat": 34.130228,
@@ -874,6 +880,18 @@
   "address": "1512 W PICO BLVD, 90015",
   "lat": 34.04388,
   "lon": -118.275388,
+  "score": 100
+ },
+ "15202 W WEDDINGTON ST": {
+  "address": "15202 W WEDDINGTON ST, 91411",
+  "lat": 34.167225,
+  "lon": -118.463937,
+  "score": 100
+ },
+ "15206 W WEDDINGTON ST": {
+  "address": "15206 W WEDDINGTON ST, 91411",
+  "lat": 34.167225,
+  "lon": -118.464018,
   "score": 100
  },
  "15355 W SHERMAN WAY": {
@@ -1256,6 +1274,12 @@
   "lon": -118.325297,
   "score": 100
  },
+ "20855 W VENTURA BLVD": {
+  "address": "20855 W VENTURA BLVD, 91364",
+  "lat": 34.1664,
+  "lon": -118.587122,
+  "score": 100
+ },
  "2100 N Cahuenga Blvd": {
   "address": "2100 N CAHUENGA BLVD, 90068",
   "lat": 34.107522,
@@ -1414,6 +1438,12 @@
   "lon": -118.301161,
   "score": 100
  },
+ "23340 W COLLINS ST": {
+  "address": "23340 W COLLINS ST, 91367",
+  "lat": 34.173652,
+  "lon": -118.635156,
+  "score": 100
+ },
  "2335 West 20th Street": {
   "address": "2335 W 20TH ST, 90018",
   "lat": 34.039039,
@@ -1478,6 +1508,12 @@
   "address": "240 N ROBINSON ST, 90026",
   "lat": 34.07475,
   "lon": -118.282626,
+  "score": 100
+ },
+ "2400 S BARRINGTON AVE": {
+  "address": "2400 S BARRINGTON AVE, 90064",
+  "lat": 34.0316,
+  "lon": -118.445629,
   "score": 100
  },
  "2404 S CLEMENT AVE": {
@@ -2490,6 +2526,12 @@
   "lat": 34.115271,
   "lon": -118.19612,
   "score": 92.78
+ },
+ "5718 W HOLLYWOOD BLVD": {
+  "address": "5718 W HOLLYWOOD BLVD, 90028",
+  "lat": 34.101637,
+  "lon": -118.314216,
+  "score": 100
  },
  "5724 West Clemson Street": {
   "address": "5724 W CLEMSON ST, 90016",
