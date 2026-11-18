@@ -1,0 +1,30 @@
+{
+  "id": "council-2026-11-20-20261120-6",
+  "body": "council",
+  "meeting_date": "2026-11-20",
+  "item_number": "6",
+  "title": "ARTS, PARKS, AND CITY FACILITIES COMMITTEE REPORT and CATEGORICAL EXEMPTION relative to a Lease Amendment with Discovery Science Center of Los Angeles for…",
+  "text": "[Council File 26-1205]\n[Items for which Public Hearings Have Been Held]\nARTS, PARKS, AND CITY FACILITIES COMMITTEE REPORT and CATEGORICAL EXEMPTION relative to a Lease Amendment with Discovery Science Center of Los Angeles for the Discovery Cube Los Angeles facility expansion within the Hansen Dam Recreation Area located at 11800 Foothill Boulevard.\nRecommendation(s) for Council action:\n1. DETERMINE that the proposed action is categorically exempt from the provisions of the California\nEnvironmental Quality Act (CEQA) pursuant to Article 19, Section 15301 [Permitting, leasing, licensing, or minor alteration of existing public or private structures, facilities, mechanical equipment, or topographical features, involving negligible or no expansion of existing or former use] of the California CEQA Guidelines; and, Article III, Section 1, Class 1(14) of the City CEQA Guidelines.\n2. APPROVE the proposed Lease Amendment as to form, substantially in the form included as Attachment 1 in the Board of Recreation and Park Commissioners (Board) report dated August 25, 2026, attached to the Council file, allowing the Discovery Cube Los Angeles facility expansion under the Lease Agreement between the City and the Discovery Science Center of Los Angeles, and subject to the master lease agreement between the City and the United States Army Corps of Engineers (USACE), and the approval of the City Attorney as to form.\n3. AUTHORIZE the Department of Recreation and Parks (RAP) to make technical corrections as necessary to carry out the intent of said Board report.\nFiscal Impact Statement:\nThe Board reports that approval of the Lease Amendment will have no impact to the RAP's General Fund.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1205"
+  ],
+  "follows": "council-arts-parks-2026-11-04-20261104-7",
+  "summary": "Amendment to the Discovery Science Center's lease to allow an expansion of Discovery Cube Los Angeles inside Hansen Dam Recreation Area.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "11800 Foothill Blvd, Los Angeles, CA",
+      "lat": 34.273066,
+      "lon": -118.392829,
+      "neighborhood": "Hansen Dam"
+    }
+  ],
+  "details": {
+    "council_file": "26-1205",
+    "applicant": "Discovery Science Center",
+    "action": "lease amendment"
+  }
+}

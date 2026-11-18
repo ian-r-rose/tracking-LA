@@ -230,6 +230,12 @@
   "lon": -118.373814,
   "score": 100
  },
+ "1124 S SAN JULIAN ST": {
+  "address": "1124 S SAN JULIAN ST, 90015",
+  "lat": 34.035436,
+  "lon": -118.253421,
+  "score": 100
+ },
  "11245 N PORTER RANCH DR": {
   "address": "11245 N PORTER RANCH DR, 91311",
   "lat": 34.273056,
@@ -876,6 +882,12 @@
   "lon": -118.460519,
   "score": 100
  },
+ "1510 SAN PABLO ST": {
+  "address": "1510 N SAN PABLO ST, 90033",
+  "lat": 34.062869,
+  "lon": -118.202895,
+  "score": 99.06
+ },
  "1512 W Pico Blvd": {
   "address": "1512 W PICO BLVD, 90015",
   "lat": 34.04388,
@@ -1244,6 +1256,12 @@
   "lon": -118.572984,
   "score": 100
  },
+ "2020 N MORGAN HILL DR": {
+  "address": "2020 N MORGAN HILL DR, 90068",
+  "lat": 34.107528,
+  "lon": -118.314296,
+  "score": 100
+ },
  "2027 South Colby Avenue": {
   "address": "2027 S COLBY AVE, 90025",
   "lat": 34.038323,
@@ -1254,6 +1272,12 @@
   "address": "2029 E 101ST ST, 90002",
   "lat": 33.944979,
   "lon": -118.236192,
+  "score": 100
+ },
+ "2040 N HILLHURST AVE": {
+  "address": "2040 N HILLHURST AVE, 90027",
+  "lat": 34.108846,
+  "lon": -118.28738,
   "score": 100
  },
  "2069 N ARGYLE AVE": {
@@ -1376,6 +1400,12 @@
   "address": "22525 W DEL VALLE ST, 91364",
   "lat": 34.167134,
   "lon": -118.616751,
+  "score": 100
+ },
+ "2254 S WELLESLEY AVE": {
+  "address": "2254 S WELLESLEY AVE, 90064",
+  "lat": 34.030259,
+  "lon": -118.454006,
   "score": 100
  },
  "22nd Street & Harbor Boulevard": {
