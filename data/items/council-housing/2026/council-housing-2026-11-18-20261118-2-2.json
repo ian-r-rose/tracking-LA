@@ -8,5 +8,12 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-18-housing-committee-2-v2.pdf",
     "https://lms.lacity.gov/files/26-1652"
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee action: Approved as Amended (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1652",
+    "vote": "3-0-0",
+    "recorded": "2026-11-19"
+  }
 }

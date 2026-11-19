@@ -20,5 +20,12 @@
     "council_file": "26-1591",
     "action": "funding motion",
     "amount": "$55,000"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-1591",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

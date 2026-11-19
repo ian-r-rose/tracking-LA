@@ -21,5 +21,12 @@
     ],
     "action": "contract amendments",
     "council_file": "20-1041-S7"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee action: Approved (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/20-1041-S7",
+    "vote": "4-0-1",
+    "recorded": "2026-11-19"
   }
 }

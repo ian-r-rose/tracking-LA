@@ -19,5 +19,12 @@
     "council_district": 9,
     "council_file": "14-1411-S5",
     "action": "trust fund reprogramming"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026)",
+    "source": "https://lms.lacity.gov/files/14-1411-S5",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

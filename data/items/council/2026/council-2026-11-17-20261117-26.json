@@ -19,5 +19,12 @@
     "council_district": 14,
     "action": "contract amendments and funding transfer for emergency assistance",
     "amount": "$350,000"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1623",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

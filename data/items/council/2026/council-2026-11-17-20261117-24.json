@@ -26,5 +26,12 @@
     "council_district": 5,
     "action": "approval of final tract map",
     "amount": "$18,150"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-1622",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

@@ -20,5 +20,12 @@
     "action": "funding transfer for community beautification",
     "amount": "$937,908",
     "bureau": "Board of Public Works (Office of Community Beautification)"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1596",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

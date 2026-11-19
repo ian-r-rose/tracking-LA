@@ -21,5 +21,12 @@
     "action": "funding motion",
     "amount": "$206,000",
     "bureau": "Bureau of Sanitation"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1625",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

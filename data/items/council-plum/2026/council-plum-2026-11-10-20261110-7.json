@@ -11,9 +11,10 @@
   ],
   "outcome": {
     "status": "approved",
-    "text": "Planning and Land Use Management Committee action: Approved: APPROVED the Los Angeles City Planning Commission Report dated November 4, 2026; and REQUESTED the City Attorney to prepare and present a draft Ordinance (Nov 12, 2026)",
+    "text": "Planning and Land Use Management Committee action: Approved: APPROVED the Los Angeles City Planning Commission Report dated November 4, 2026; and REQUESTED the City Attorney to prepare and present a draft Ordinance (Nov 12, 2026); Council action: Adopted: Adopted Motion (Blumenfield - Jurado) to move the Planning and Land Use Management Committee Report (Nov 13, 2026); Council action final",
     "source": "https://lms.lacity.gov/files/26-0906-S10",
-    "recorded": "2026-11-14"
+    "vote": "10-0-5",
+    "recorded": "2026-11-19"
   },
   "summary": "Interim control ordinance that would bar permits and utility connections for large cold storage and distribution warehouses on industrial-zoned properties in the Boyle Heights Community Plan area.",
   "topics": [

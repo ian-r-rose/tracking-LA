@@ -21,5 +21,12 @@
     "action": "funding for street and sidewalk improvements",
     "amount": "$2,546,560",
     "bureau": "Bureau of Street Services"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026)",
+    "source": "https://lms.lacity.gov/files/16-0149-S3",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

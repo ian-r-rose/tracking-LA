@@ -19,5 +19,12 @@
     "council_district": 9,
     "action": "funding transfer to community grants program",
     "amount": "$613,085.10"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1601",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

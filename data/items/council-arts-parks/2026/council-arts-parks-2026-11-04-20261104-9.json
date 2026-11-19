@@ -11,13 +11,14 @@
   ],
   "outcome": {
     "status": "approved",
-    "text": "Arts, Parks, and City Facilities Committee action: Approved: Approved City Administrative Officer report dated 10-29-26 (Nov 4, 2026)",
+    "text": "Budget and Finance Committee action: Approved: Concurred with the Arts, Parks, and Facilities Committee's action of November 4, 2026 to approve the City Administrative Officer report dated October 29, 2026 (Nov 18, 2026)",
     "source": "https://lms.lacity.gov/files/26-1124-S2",
-    "vote": "2-0-1",
-    "recorded": "2026-11-14"
+    "recorded": "2026-11-19"
   },
   "summary": "The City Administrative Officer's third construction projects report for fiscal 2026-27, which is also referred to the Budget and Finance Committee.",
-  "topics": ["budget"],
+  "topics": [
+    "budget"
+  ],
   "locations": [],
   "details": {
     "council_file": "26-1124-S2",

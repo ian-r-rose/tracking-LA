@@ -17,5 +17,12 @@
   "details": {
     "action": "note and file report on LAPD hiring process",
     "council_file": "25-0601"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 13, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/25-0601",
+    "vote": "10-0-5",
+    "recorded": "2026-11-19"
   }
 }

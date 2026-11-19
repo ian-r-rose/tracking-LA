@@ -17,5 +17,12 @@
   "details": {
     "action": "loan amendments and/or new loans",
     "council_file": "25-0400"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee action: Approved (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/25-0400",
+    "vote": "3-0-0",
+    "recorded": "2026-11-19"
   }
 }

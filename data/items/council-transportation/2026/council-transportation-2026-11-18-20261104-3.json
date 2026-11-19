@@ -25,5 +25,12 @@
     "council_district": 15,
     "action": "motion on impacts of bridge closure",
     "council_file": "25-0712"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee action: Approved (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/25-0712",
+    "vote": "4-0-1",
+    "recorded": "2026-11-19"
   }
 }

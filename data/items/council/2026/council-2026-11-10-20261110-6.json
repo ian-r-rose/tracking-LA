@@ -35,5 +35,12 @@
     "action": "TEFRA resolution for conduit revenue bonds",
     "amount": "$16,000,000",
     "council_file": "26-1546"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Whether to Substitute Adopted: Substitute Motion (Padilla - Nazarian) (Nov 10, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-1546",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

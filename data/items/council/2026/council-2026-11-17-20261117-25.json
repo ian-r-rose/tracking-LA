@@ -21,5 +21,12 @@
     "action": "funding for dedicated streetlight repair crew",
     "amount": "$1,200,000",
     "bureau": "Bureau of Street Lighting"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026)",
+    "source": "https://lms.lacity.gov/files/25-1174-S1",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

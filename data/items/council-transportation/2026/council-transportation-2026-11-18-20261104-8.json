@@ -18,5 +18,12 @@
   "details": {
     "council_file": "23-0600-S121",
     "action": "report"
+  },
+  "outcome": {
+    "status": "filed",
+    "text": "Transportation Committee action: Noted and Filed: Note & File the 9/24/26 LADOT and 6/3/26 Board of Police Commissioners reports (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/23-0600-S121",
+    "vote": "4-0-1",
+    "recorded": "2026-11-19"
   }
 }

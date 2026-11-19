@@ -28,5 +28,12 @@
     "council_district": 15,
     "council_file": "23-0704",
     "action": "motion to amend prior Council action"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/23-0704",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

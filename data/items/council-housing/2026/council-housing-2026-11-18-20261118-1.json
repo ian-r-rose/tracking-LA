@@ -29,5 +29,12 @@
     "council_district": 14,
     "action": "removal from Rent Escrow Account Program",
     "council_file": "13-0005-S638"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Housing Committee action: Approved (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/13-0005-S638",
+    "vote": "3-0-0",
+    "recorded": "2026-11-19"
   }
 }

@@ -17,5 +17,12 @@
   "details": {
     "council_file": "25-1232",
     "action": "report"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee action: Approved as Amended: Options 1 & 4 detailed in the 10/29/26 LADOT report (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/25-1232",
+    "vote": "3-1-1",
+    "recorded": "2026-11-19"
   }
 }

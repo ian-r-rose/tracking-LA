@@ -29,5 +29,12 @@
     "council_district": 2,
     "action": "designation of locations for enforcement under LAMC 41.18",
     "council_file": "26-4118-S10"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-4118-S10",
+    "vote": "11-2-2",
+    "recorded": "2026-11-19"
   }
 }

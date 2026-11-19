@@ -17,5 +17,12 @@
   "details": {
     "council_file": "15-0989-S75",
     "action": "committee report"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/15-0989-S75",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

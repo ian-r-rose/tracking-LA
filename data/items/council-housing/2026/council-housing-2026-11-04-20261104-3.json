@@ -10,10 +10,11 @@
     "https://lms.lacity.gov/files/26-0005-S188"
   ],
   "outcome": {
-    "status": "approved",
-    "text": "Housing Committee action: Approved: Approved Housing Department reports dated October 23, 2026 (Nov 5, 2026)",
+    "status": "continued",
+    "text": "Housing Committee action: Approved: Approved Housing Department reports dated October 23, 2026 (Nov 5, 2026); Council action: Continued: to January 20, 2027 (Nov 18, 2026)",
     "source": "https://lms.lacity.gov/files/26-0005-S188",
-    "recorded": "2026-11-14"
+    "vote": "12-0-3",
+    "recorded": "2026-11-19"
   },
   "summary": "Removal of 1200 South Crescent Heights Boulevard from the city's Rent Escrow Account Program, which the Housing Committee approved.",
   "topics": [

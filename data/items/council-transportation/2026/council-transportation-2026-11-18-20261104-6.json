@@ -17,5 +17,12 @@
   "details": {
     "council_file": "26-1607",
     "action": "fund transfers"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Transportation Committee action: Approved as Amended: Per substitute Motion submitted by the CLA (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1607",
+    "vote": "4-0-1",
+    "recorded": "2026-11-19"
   }
 }

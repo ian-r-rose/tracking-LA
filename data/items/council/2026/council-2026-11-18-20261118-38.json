@@ -17,5 +17,12 @@
   "details": {
     "council_file": "26-1564",
     "action": "ordinance first consideration"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted, Forthwith (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1564",
+    "vote": "12-0-3",
+    "recorded": "2026-11-19"
   }
 }

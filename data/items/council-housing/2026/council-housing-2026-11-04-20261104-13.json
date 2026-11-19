@@ -10,10 +10,11 @@
     "https://lms.lacity.gov/files/26-1465"
   ],
   "outcome": {
-    "status": "approved",
-    "text": "Housing Committee action: Approved: Approved Housing Authority of the City of Los Angeles report dated October 12, 2026 (Nov 5, 2026)",
+    "status": "continued",
+    "text": "Housing Committee action: Approved: Approved Housing Authority of the City of Los Angeles report dated October 12, 2026 (Nov 5, 2026); Council action: Continued: to December 1, 2026 (Nov 18, 2026)",
     "source": "https://lms.lacity.gov/files/26-1465",
-    "recorded": "2026-11-14"
+    "vote": "12-0-3",
+    "recorded": "2026-11-19"
   },
   "summary": "Authority for the Housing Authority of the City of Los Angeles to use Payment in Lieu of Taxes funds for resident services programs at its public housing developments for calendar years 2027 through 2029. The Housing Committee approved it.",
   "topics": [

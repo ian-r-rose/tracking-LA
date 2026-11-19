@@ -17,5 +17,12 @@
   "details": {
     "council_file": "26-1238",
     "action": "CLA communication"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 17, 2026); Council action final",
+    "source": "https://lms.lacity.gov/files/26-1238",
+    "vote": "13-0-2",
+    "recorded": "2026-11-19"
   }
 }

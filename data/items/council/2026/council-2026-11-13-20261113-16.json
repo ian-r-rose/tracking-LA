@@ -34,5 +34,12 @@
     "amount": "$753,301.52",
     "bureau": "Bureau of Street Lighting",
     "council_file": "26-1113"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 13, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1113",
+    "vote": "10-0-5",
+    "recorded": "2026-11-19"
   }
 }
