@@ -1612,6 +1612,12 @@
   "lon": -118.215751,
   "score": 100
  },
+ "2512 S OCEAN AVE": {
+  "address": "2512 S OCEAN AVE, 90291",
+  "lat": 33.985684,
+  "lon": -118.463717,
+  "score": 100
+ },
  "2532 North Eastlake Avenue": {
   "address": "2532 N EASTLAKE AVE, 90031",
   "lat": 34.076409,
@@ -1640,6 +1646,12 @@
   "address": "261 S KENMORE AVE, 90004",
   "lat": 34.0699,
   "lon": -118.296726,
+  "score": 100
+ },
+ "2612 S PACIFIC AVE": {
+  "address": "2612 S PACIFIC AVE, 90731",
+  "lat": 33.720459,
+  "lon": -118.287912,
   "score": 100
  },
  "2621 North Johnston Street": {
@@ -2750,6 +2762,12 @@
   "lon": -118.471733,
   "score": 100
  },
+ "6155 W RODGERTON DR": {
+  "address": "6155 W RODGERTON DR, 90068",
+  "lat": 34.125276,
+  "lon": -118.320546,
+  "score": 100
+ },
  "6155 West Rodgerton Drive": {
   "address": "6155 W RODGERTON DR, 90068",
   "lat": 34.125276,
@@ -3438,6 +3456,12 @@
   "address": "9767 W BLANTYRE DR, 90210",
   "lat": 34.126425,
   "lon": -118.423503,
+  "score": 100
+ },
+ "9776 W PEAVINE DR": {
+  "address": "9776 W PEAVINE DR, 90210",
+  "lat": 34.102659,
+  "lon": -118.424036,
   "score": 100
  },
  "9830 West Wanda Park Drive": {

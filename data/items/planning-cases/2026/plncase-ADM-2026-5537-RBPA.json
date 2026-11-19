@@ -24,5 +24,11 @@
     "council_district": 11,
     "plan_area": "Palms - Mar Vista - Del Rey",
     "action": "administrative clearance (Restaurant Beverage Program)"
+  },
+  "outcome": {
+    "status": "other",
+    "text": "ADM action: AUTHORIZED (Nov 18, 2026)",
+    "source": "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-5537-RBPA",
+    "recorded": "2026-11-19"
   }
 }

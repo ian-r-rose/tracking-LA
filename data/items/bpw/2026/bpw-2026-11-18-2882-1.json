@@ -26,5 +26,12 @@
     "bureau": "Bureau of Sanitation",
     "action": "authority for expenditure",
     "amount": "$454,500"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "APPROVED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25465",
+    "vote": "3-0",
+    "recorded": "2026-11-19"
   }
 }
