@@ -25,5 +25,8 @@
     "council_district": 14,
     "applicant": "Universidad Nacional Autonoma de Mexico, USA",
     "action": "proposed lease"
+  },
+  "flag": {
+    "reason": "Lease of a historic building in El Pueblo, in Downtown, a watched neighborhood."
   }
 }

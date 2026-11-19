@@ -8,5 +8,24 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25410",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ff626b3a-6ad3-4ee9-afd3-3db4a2a01cee"
-  ]
+  ],
+  "summary": "Sets a $3.06 million construction budget for an emergency sewer repair on Fickett Street and authorizes the City Engineer to award it to Mike Bubalo Construction Company, Inc. and issue construction orders up to that budget.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "800 Fickett St, Los Angeles, CA",
+      "lat": 34.050357,
+      "lon": -118.202951,
+      "neighborhood": "Boyle Heights"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "applicant": "Mike Bubalo Construction Company, Inc.",
+    "action": "construction budget and contract award",
+    "amount": "$3,057,087"
+  }
 }

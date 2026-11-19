@@ -7,5 +7,24 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: APCC-2020-1011-ZAA-ZAD-DRB-SPP-SPE-SPPA-1A\nAddress: 6155 W RODGERTON DR\nFiled: 2026-11-18\nCouncil district: 4\nCommunity plan area: Hollywood",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/APCC-2020-1011-ZAA-ZAD-DRB-SPP-SPE-SPPA-1A"
-  ]
+  ],
+  "summary": "A newly filed City Planning application for 6155 W Rodgerton Dr in Hollywood. The filing does not describe the project, and no decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6155 W Rodgerton Dr, Los Angeles, CA",
+      "lat": 34.125276,
+      "lon": -118.320546,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "APCC-2020-1011-ZAA-ZAD-DRB-SPP-SPE-SPPA-1A"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood"
+  }
 }

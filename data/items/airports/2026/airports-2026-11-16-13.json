@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81428"
-  ]
+  ],
+  "summary": "One-year lease with Signature Flight Support LLC for aviation land at Van Nuys Airport for commercial hangar operations, aircraft storage and maintenance, with estimated minimum revenue of $3,280,000 over the potential two-year term.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "action": "lease approval",
+    "amount": "$3,280,000",
+    "applicant": "Signature Flight Support LLC"
+  }
 }

@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81406"
-  ]
+  ],
+  "summary": "Accepts federal Transportation Security Administration funding for LAX: $1,515,000 for the National Explosives Detection Canine Team Program and $1,916,250 for the Law Enforcement Officer Reimbursement Program.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "acceptance of federal funding",
+    "amount": "$1,515,000 and $1,916,250"
+  }
 }

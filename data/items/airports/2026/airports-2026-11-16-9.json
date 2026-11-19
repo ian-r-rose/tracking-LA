@@ -8,5 +8,15 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81420"
-  ]
+  ],
+  "summary": "Three-year photocopier leasing, software licensing and support contract with Sharp Electronics Corporation for LAWA, with two one-year extension options, up to $3,750,000.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "contract award",
+    "amount": "$3,750,000",
+    "applicant": "Sharp Electronics Corporation"
+  }
 }

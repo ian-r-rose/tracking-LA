@@ -8,5 +8,34 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1642"
-  ]
+  ],
+  "summary": "Council would transfer and appropriate $456,500 from a Ventura/Cahuenga Boulevard corridor fund to design and build ADA-compliant curb ramps and related engineering at two Cahuenga Boulevard intersections.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Cahuenga Blvd & Broadlawn Dr, Los Angeles, CA",
+      "lat": 34.132878,
+      "lon": -118.355895,
+      "neighborhood": "Studio City"
+    },
+    {
+      "text": "Cahuenga Blvd & Oakshire Dr, Los Angeles, CA",
+      "lat": 34.130313,
+      "lon": -118.349987,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "council_district": 4,
+    "council_file": "26-1642",
+    "action": "funding transfer and appropriation",
+    "bureau": "Bureau of Street Services",
+    "amount": "$456,500"
+  },
+  "flag": {
+    "reason": "Transportation project at an intersection in Hollywood Hills, a watched neighborhood."
+  }
 }

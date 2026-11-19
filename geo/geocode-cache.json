@@ -230,7 +230,19 @@
   "lon": -118.373814,
   "score": 100
  },
+ "11201 Aviation Boulevard": {
+  "address": "11201 S AVIATION BLVD, 90045",
+  "lat": 33.932772,
+  "lon": -118.378515,
+  "score": 99.06
+ },
  "1124 S SAN JULIAN ST": {
+  "address": "1124 S SAN JULIAN ST, 90015",
+  "lat": 34.035436,
+  "lon": -118.253421,
+  "score": 100
+ },
+ "1124 S San Julian St": {
   "address": "1124 S SAN JULIAN ST, 90015",
   "lat": 34.035436,
   "lon": -118.253421,
@@ -640,6 +652,12 @@
   "score": 100
  },
  "1334 S CENTRAL AVE": {
+  "address": "1334 S CENTRAL AVE, 90021",
+  "lat": 34.028979,
+  "lon": -118.246277,
+  "score": 100
+ },
+ "1334 S Central Ave": {
   "address": "1334 S CENTRAL AVE, 90021",
   "lat": 34.028979,
   "lon": -118.246277,
@@ -1262,6 +1280,12 @@
   "lon": -118.314296,
   "score": 100
  },
+ "2020 N Morgan Hill Dr": {
+  "address": "2020 N MORGAN HILL DR, 90068",
+  "lat": 34.107528,
+  "lon": -118.314296,
+  "score": 100
+ },
  "2027 South Colby Avenue": {
   "address": "2027 S COLBY AVE, 90025",
   "lat": 34.038323,
@@ -1275,6 +1299,12 @@
   "score": 100
  },
  "2040 N HILLHURST AVE": {
+  "address": "2040 N HILLHURST AVE, 90027",
+  "lat": 34.108846,
+  "lon": -118.28738,
+  "score": 100
+ },
+ "2040 N Hillhurst Ave": {
   "address": "2040 N HILLHURST AVE, 90027",
   "lat": 34.108846,
   "lon": -118.28738,
@@ -1727,6 +1757,7 @@
   "lon": -118.271759,
   "score": 100
  },
+ "2825 East Avenue P, Palmdale": null,
  "2845 North Casiano Road": {
   "address": "2845 N CASIANO ROAD, 90077",
   "lat": 34.125225,
@@ -2256,6 +2287,12 @@
   "lon": -118.279554,
   "score": 84.52
  },
+ "4457 South Berryman Avenue": {
+  "address": "4457 S BERRYMAN AVE, 90230",
+  "lat": 33.999586,
+  "lon": -118.4121,
+  "score": 100
+ },
  "4466 E Florizel Ave": {
   "address": "4466 N FLORIZEL ST, 90032",
   "lat": 34.087032,
@@ -2551,6 +2588,12 @@
   "lon": -118.34117,
   "score": 100
  },
+ "5600 West Century Boulevard": {
+  "address": "5600 W CENTURY BLVD, 90045",
+  "lat": 33.945413,
+  "lon": -118.37852,
+  "score": 100
+ },
  "5601 N SEPULVEDA BLVD": {
   "address": "5601 N SEPULVEDA BLVD, 91411",
   "lat": 34.172166,
@@ -2570,6 +2613,12 @@
   "score": 92.78
  },
  "5718 W HOLLYWOOD BLVD": {
+  "address": "5718 W HOLLYWOOD BLVD, 90028",
+  "lat": 34.101637,
+  "lon": -118.314216,
+  "score": 100
+ },
+ "5718 W Hollywood Blvd": {
   "address": "5718 W HOLLYWOOD BLVD, 90028",
   "lat": 34.101637,
   "lon": -118.314216,
@@ -2768,6 +2817,12 @@
   "lon": -118.320546,
   "score": 100
  },
+ "6155 W Rodgerton Dr": {
+  "address": "6155 W RODGERTON DR, 90068",
+  "lat": 34.125276,
+  "lon": -118.320546,
+  "score": 100
+ },
  "6155 West Rodgerton Drive": {
   "address": "6155 W RODGERTON DR, 90068",
   "lat": 34.125276,
@@ -2931,6 +2986,12 @@
   "lon": -118.304242,
   "score": 100
  },
+ "6851 West Imperial Highway": {
+  "address": "6851 W IMPERIAL HWY, 90045",
+  "lat": 33.931536,
+  "lon": -118.409523,
+  "score": 100
+ },
  "6853 N Hazeltine Ave": {
   "address": "6853 N HAZELTINE AVE, 91405",
   "lat": 34.194914,
@@ -3075,6 +3136,12 @@
   "lon": -118.409793,
   "score": 99.06
  },
+ "755 South Los Angeles Street": {
+  "address": "755 S LOS ANGELES ST, 90014",
+  "lat": 34.042562,
+  "lon": -118.251486,
+  "score": 100
+ },
  "7550 Bellaire Avenue": {
   "address": "7550 N BELLAIRE AVE, 91605",
   "lat": 34.20784,
@@ -3158,6 +3225,12 @@
   "lat": 34.214878,
   "lon": -118.576862,
   "score": 100
+ },
+ "800 Fickett St": {
+  "address": "800 N FICKETT ST, 90033",
+  "lat": 34.050357,
+  "lon": -118.202951,
+  "score": 99.06
  },
  "800 N Broadway": {
   "address": "800 N NORTH BROADWAY, 90012",
@@ -3526,6 +3599,7 @@
   "lon": -118.265202,
   "score": 98.18
  },
+ "Aviation Plaza, Van Nuys": null,
  "Badger Avenue Bridge, Port of Los Angeles": null,
  "Balboa Sports Complex": null,
  "Balboa Sports Complex, Sepulveda Basin Recreation Area": null,
@@ -3589,6 +3663,18 @@
  },
  "Burbank Airport-South Metrolink Station": null,
  "Cabrillo Beach Aquatic Community Center": null,
+ "Cahuenga Blvd & Broadlawn Dr": {
+  "address": "N CAHUENGA BLVD WEST & N BROADLAWN DR, 90068",
+  "lat": 34.132878,
+  "lon": -118.355895,
+  "score": 97.33
+ },
+ "Cahuenga Blvd & Oakshire Dr": {
+  "address": "N CAHUENGA BLVD WEST & N OAKSHIRE DR, 90068",
+  "lat": 34.130313,
+  "lon": -118.349987,
+  "score": 97.33
+ },
  "Canoga Park Arts Hub": null,
  "Carlin G. Smith City Park": null,
  "Carson": null,
@@ -3668,6 +3754,12 @@
   "score": 98.18
  },
  "Flint Ave & Pioneer Ave": null,
+ "Florence Avenue & South Gramercy Place": {
+  "address": "W FLORENCE AVE & S GRAMERCY PL, 90047",
+  "lat": 33.974577,
+  "lon": -118.31337,
+  "score": 99.09
+ },
  "Franklin Ave & Las Palmas Ave": {
   "address": "W FRANKLIN AVE & N LAS PALMAS AVE, 90028",
   "lat": 34.105185,
@@ -3904,7 +3996,9 @@
  "Rampart Community Police Station": null,
  "Rancho Cienega Park": null,
  "Rancho Park Golf Course": null,
+ "Reseda Theatre": null,
  "Roosevelt Pedestrian Tunnel, 100 West Channel Road, Pacific Palisades": null,
+ "Rose Avenue": null,
  "Rosecrans Park Child Care Center": null,
  "SYLMAR FIRE STATION No. 31": null,
  "San Bernardino Line, Los Angeles County": null,
@@ -4074,6 +4168,7 @@
  "West Los Angeles Community Police Station": null,
  "West Valley Community Police Station": null,
  "Westchester Park": null,
+ "Westlake Relief Drain": null,
  "Westwood Park": null,
  "Whitnall Dog Park": null,
  "Whitsett Soccer Fields": null,

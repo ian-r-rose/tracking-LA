@@ -8,5 +8,26 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1593"
-  ]
+  ],
+  "summary": "Council would adopt a TEFRA resolution approving up to $17 million in bonds to build a 190-space parking lot at 755 South Los Angeles Street.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "755 South Los Angeles Street, Los Angeles, CA",
+      "lat": 34.042562,
+      "lon": -118.251486,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "council_file": "26-1593",
+    "action": "bond issuance approval (TEFRA resolution)",
+    "amount": "$17,000,000"
+  },
+  "flag": {
+    "reason": "Bond financing for a parking lot in Downtown, a watched neighborhood."
+  }
 }

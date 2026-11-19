@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25410",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8d53bc11-4c40-4d07-9ad4-330fdb9ffd91"
-  ]
+  ],
+  "summary": "Awards Legion Contractors an $8.9 million contract to install fiber upgrades for an advanced transportation system and coordination network under the LA 28 project.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Legion Contractors, Inc. dba Legion Builders Group",
+    "action": "contract award",
+    "amount": "$8,932,517.50"
+  }
 }

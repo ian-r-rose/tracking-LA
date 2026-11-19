@@ -8,5 +8,30 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-5979-SPPC-SH-HCA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-5980-EAF"
-  ]
+  ],
+  "summary": "Project compliance review for eight subdivided homes on a 7,500 square-foot lot at 146 N Berendo St in the R3-1 zone, filed under SB 684.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "146 N Berendo St, Los Angeles, CA",
+      "lat": 34.073559,
+      "lon": -118.294124,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-5979-SPPC-SH-HCA",
+      "ENV-2026-5980-EAF"
+    ],
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "action": "project compliance major"
+  },
+  "flag": {
+    "reason": "Koreatown is a watched neighborhood and the project adds eight homes."
+  }
 }

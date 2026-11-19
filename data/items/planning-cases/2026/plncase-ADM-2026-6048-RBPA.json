@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-6048-RBPA\nAddress: 2040 N HILLHURST AVE\nFiled: 2026-11-17\nCouncil district: 4\nCommunity plan area: Hollywood\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-6048-RBPA"
-  ]
+  ],
+  "summary": "Administrative clearance under the Restaurant Beverage Program to let a restaurant at 2040 N Hillhurst Ave sell and serve alcoholic beverages for on-site consumption.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2040 N Hillhurst Ave, Los Angeles, CA",
+      "lat": 34.108846,
+      "lon": -118.28738,
+      "neighborhood": "Los Feliz"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-6048-RBPA"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood",
+    "action": "administrative clearance under the Restaurant Beverage Program"
+  },
+  "flag": {
+    "reason": "Los Feliz is a watched neighborhood."
+  }
 }

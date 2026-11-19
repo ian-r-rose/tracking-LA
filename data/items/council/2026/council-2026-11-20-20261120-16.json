@@ -8,5 +8,19 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/14-1174-S89"
-  ]
+  ],
+  "summary": "Council would decline to extend the Reseda Theatre development agreement past its December 31, 2026 close of escrow, begin terminating it, and direct related funds to the theatre's restoration.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Reseda Theatre"
+    }
+  ],
+  "details": {
+    "council_file": "14-1174-S89",
+    "action": "decline to extend development agreement"
+  }
 }

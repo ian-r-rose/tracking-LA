@@ -8,5 +8,16 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0011-S28"
-  ]
+  ],
+  "summary": "Council would move $260,000 from a Council District 12 street furniture fund and $180,000 from a Sunshine Canyon trust fund to pay the Conservation Corps for median, graffiti, alley and street cleanup, and bulky item pickup.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 12,
+    "council_file": "26-0011-S28",
+    "action": "funding transfer and appropriation",
+    "bureau": "Board of Public Works"
+  }
 }

@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-6023-CU1",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-6024-EAF"
-  ]
+  ],
+  "summary": "Request to legalize improvements already built on an existing two-story single-family home at 2020 N Morgan Hill Dr, plus a class 1 conditional use for excess lot coverage and a deck more than 6 feet above grade.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2020 N Morgan Hill Dr, Los Angeles, CA",
+      "lat": 34.107528,
+      "lon": -118.314296,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-6023-CU1",
+      "ENV-2026-6024-EAF"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood",
+    "action": "class 1 conditional use"
+  },
+  "flag": {
+    "reason": "Hollywood Hills is a watched neighborhood."
+  }
 }

@@ -8,5 +8,14 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81422"
-  ]
+  ],
+  "summary": "Task order to MTX Group Inc., under an existing city IT master agreement, for up to $1,449,568.89 to design, build and implement a Salesforce-based eSourcing solution for LAWA, with the term ending by November 16, 2027.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "task order issuance",
+    "amount": "$1,449,568.89"
+  }
 }

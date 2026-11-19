@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25410",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b370d540-8905-4049-8ba0-c938c7e0e5e8"
-  ]
+  ],
+  "summary": "Approves a program of temporary full street closures at 65 cross streets for the East San Fernando Valley light rail project, with individual closures handled administratively by the City Engineer rather than by separate board reports.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Engineering",
+    "action": "temporary full street closures program approval"
+  },
+  "flag": {
+    "reason": "Street closures for the East San Fernando Valley light rail project."
+  }
 }

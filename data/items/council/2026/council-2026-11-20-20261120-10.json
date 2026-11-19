@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1582"
-  ]
+  ],
+  "summary": "Council would approve a one-year lease, with a one-year extension option, for Huntleigh USA Corporation cargo space at 5600 West Century Boulevard at LAX.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "5600 West Century Boulevard, Los Angeles, CA",
+      "lat": 33.945413,
+      "lon": -118.37852,
+      "neighborhood": "Westchester"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "council_file": "26-1582",
+    "applicant": "Huntleigh USA Corporation",
+    "action": "lease approval",
+    "amount": "$12,470"
+  }
 }

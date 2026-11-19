@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81408"
-  ]
+  ],
+  "summary": "Amendment to a Van Nuys lease with Emily’s Home Health Care Inc. changing the permitted office use clause for its space in the airport-owned Aviation Plaza.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Aviation Plaza, Van Nuys, CA"
+    }
+  ],
+  "details": {
+    "action": "lease amendment",
+    "applicant": "Emily’s Home Health Care Inc."
+  }
 }

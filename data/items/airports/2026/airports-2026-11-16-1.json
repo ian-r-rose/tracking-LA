@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81403"
-  ]
+  ],
+  "summary": "Accepting a $963,000 federal Department of Justice grant, from Community Project Funding and Congressionally Directed Spending funds, to buy police vehicles, upgrades and equipment for the Airport Police Division at LAX.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "grant acceptance",
+    "amount": "$963,000"
+  }
 }

@@ -8,5 +8,20 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81424"
-  ]
+  ],
+  "summary": "Approves a task order amendment with Austin Commercial LP for Gateway 1 construction at LAX, not to exceed $99.4 million, and appropriates up to $117,586,656 for the LAX Gateway Project.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "applicant": "Austin Commercial LP",
+    "action": "task order amendment and appropriation",
+    "amount": "$99,400,000"
+  }
 }

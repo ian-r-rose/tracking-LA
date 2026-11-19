@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1578"
-  ]
+  ],
+  "summary": "Council would approve a one-year lease, with a one-year extension option, for Aerovias Empresa De Cargo cargo facilities at 6851 West Imperial Highway at LAX.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "6851 West Imperial Highway, Los Angeles, CA",
+      "lat": 33.931536,
+      "lon": -118.409523,
+      "neighborhood": "Westchester"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "council_file": "26-1578",
+    "applicant": "Aerovias Empresa De Cargo SA De CV",
+    "action": "lease approval",
+    "amount": "$3,087,403"
+  }
 }

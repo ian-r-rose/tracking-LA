@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0600-S117"
-  ]
+  ],
+  "summary": "Council is considering the City Administrative Officer's first financial status report on the city budget for fiscal year 2026-27.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0600-S117",
+    "action": "financial status report"
+  }
 }

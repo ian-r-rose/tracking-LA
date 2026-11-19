@@ -8,5 +8,21 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25410",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=c8acab33-b3e7-40c1-85be-e71fc94bd4d1"
-  ]
+  ],
+  "summary": "Awards Spiniello Infrastructure West, Inc. a $14.75 million contract to rehabilitate a unit of the Westlake Relief Drain from Ferndale to Obama.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Westlake Relief Drain"
+    }
+  ],
+  "details": {
+    "council_district": 10,
+    "applicant": "Spiniello Infrastructure West, Inc.",
+    "action": "contract award",
+    "amount": "$14,754,322"
+  }
 }

@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0675"
-  ]
+  ],
+  "summary": "Council would ask the City Attorney to draft a November 2026 charter amendment letting a two-thirds Council vote change or overturn the mayor's Executive Directives.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0675",
+    "action": "ballot measure request (Charter amendment)"
+  }
 }

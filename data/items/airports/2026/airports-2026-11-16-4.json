@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81410"
-  ]
+  ],
+  "summary": "One-year lease of Building 702 at 2825 East Avenue P in Palmdale to United Parcel Service Inc., with estimated revenue of $772,480 over the term.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "2825 East Avenue P, Palmdale, CA"
+    }
+  ],
+  "details": {
+    "action": "lease approval",
+    "amount": "$772,480",
+    "applicant": "United Parcel Service Inc."
+  }
 }

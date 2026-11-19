@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25410",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d4540943-de3f-4d8a-af8d-040c8cecb6ea"
-  ]
+  ],
+  "summary": "Authorizes the City Engineer to advertise a request for qualifications to wastewater and environmental engineering consultants, pre-qualify respondents, and negotiate contracts with the highest-rated firms.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "request for qualifications and personal services contracts"
+  }
 }

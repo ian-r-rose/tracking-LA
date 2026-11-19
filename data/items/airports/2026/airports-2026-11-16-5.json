@@ -8,5 +8,15 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81412"
-  ]
+  ],
+  "summary": "Two-year extension of an outline agreement with Montgomery Hardware Company for doors, frames and hardware, through April 29, 2029, adding $300,000 for a new total of $750,000.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "contract amendment",
+    "amount": "$300,000",
+    "applicant": "Montgomery Hardware Company"
+  }
 }

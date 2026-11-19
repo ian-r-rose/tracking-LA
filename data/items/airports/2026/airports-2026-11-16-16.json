@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81434"
-  ]
+  ],
+  "summary": "One-year extensions of ten rental car concession agreements at LAX, covering Hertz, Avis, Budget, Alamo, National, Dollar, Enterprise, Fox, Thrifty and Sixt.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "action": "concession amendment",
+    "applicant": "The Hertz Corporation; Avis Rent-A-Car System LLC; Budget Rent-A-Car System Inc.; Alamo Rental (US) LLC; National Rental (US) LLC; DTG Operations Inc. dba Dollar Rent-A-Car; Enterprise Rent-A-Car Company of Los Angeles LLC; Fox Rent-A-Car Inc.; DTG Operations Inc. dba Thrifty Car Rental; Sixt Rent-A-Car LLC"
+  }
 }

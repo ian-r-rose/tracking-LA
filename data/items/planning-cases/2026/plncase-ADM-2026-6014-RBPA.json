@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-6014-RBPA\nAddress: 5718 W HOLLYWOOD BLVD\nFiled: 2026-11-16\nCouncil district: 13\nCommunity plan area: Hollywood\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-6014-RBPA"
-  ]
+  ],
+  "summary": "Administrative clearance under the Restaurant Beverage Program to let a restaurant at 5718 W Hollywood Blvd sell and serve alcoholic beverages for on-site consumption.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5718 W Hollywood Blvd, Los Angeles, CA",
+      "lat": 34.101637,
+      "lon": -118.314216,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-6014-RBPA"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "administrative clearance under the Restaurant Beverage Program"
+  },
+  "flag": {
+    "reason": "Hollywood is a watched neighborhood."
+  }
 }

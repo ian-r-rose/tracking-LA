@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-6043-CUB-CUX",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-6044-EAF"
-  ]
+  ],
+  "summary": "Conditional use permit request to combine an existing brewery and restaurant at 1124 S San Julian St into one operation, with on- and off-site sales of a full line of alcoholic beverages. Not yet decided.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1124 S San Julian St, Los Angeles, CA",
+      "lat": 34.035436,
+      "lon": -118.253421,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-6043-CUB-CUX",
+      "ENV-2026-6044-EAF"
+    ],
+    "council_district": 14,
+    "plan_area": "Downtown",
+    "action": "conditional use permit"
+  },
+  "flag": {
+    "reason": "Downtown is a watched neighborhood."
+  }
 }

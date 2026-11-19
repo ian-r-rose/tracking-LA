@@ -7,5 +7,24 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: TT-32304-M1\nAddress: 1334 S CENTRAL AVE\nFiled: 2026-11-16\nCouncil district: 14\nCommunity plan area: Downtown",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/TT-32304-M1"
-  ]
+  ],
+  "summary": "A new City Planning filing (case TT-32304-M1) for 1334 S Central Ave, the same site as case TT-32304. The filing does not describe its request, and no decision has been made.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1334 S Central Ave, Los Angeles, CA",
+      "lat": 34.028979,
+      "lon": -118.246277,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "TT-32304-M1"
+    ],
+    "council_district": 14,
+    "plan_area": "Downtown"
+  }
 }

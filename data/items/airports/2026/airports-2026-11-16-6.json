@@ -8,5 +8,15 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81414"
-  ]
+  ],
+  "summary": "Two-year extension of the pipe insulation services contract with D2 (Squared) Industrial Services LLC, through August 8, 2029, adding $1,400,000 for a new total cap of $1,850,000.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "contract amendment",
+    "amount": "$1,400,000",
+    "applicant": "D2 (Squared) Industrial Services LLC"
+  }
 }

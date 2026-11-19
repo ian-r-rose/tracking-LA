@@ -8,5 +8,14 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25410",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=dc91b9db-18d0-4f87-84db-9c6e2ad21913"
-  ]
+  ],
+  "summary": "Lets the City Engineer approve variances to above-ground facility volume, height and density limits, grant hardship waivers, and conditionally issue permits for facilities with open appeals when they are state-mandated safety retrofits.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "bureau": "Bureau of Engineering",
+    "action": "approval of above ground facility variances"
+  }
 }

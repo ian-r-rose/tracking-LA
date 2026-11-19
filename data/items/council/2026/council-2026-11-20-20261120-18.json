@@ -8,5 +8,22 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1608"
-  ]
+  ],
+  "summary": "Council motion to designate the intersection of Florence Avenue and South Gramercy Place as “Bishop Miquail M. Broadous, Sr. Square” and have the Department of Transportation install ceremonial signs there.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Florence Avenue & South Gramercy Place, Los Angeles, CA",
+      "lat": 33.974577,
+      "lon": -118.31337,
+      "neighborhood": "Manchester Square"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "council_file": "26-1608",
+    "action": "ceremonial designation motion"
+  }
 }

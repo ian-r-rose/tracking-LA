@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&event_id=1794",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&event_id=1794&meta_id=81430"
-  ]
+  ],
+  "summary": "Awards Host International Inc. a 12-year food and beverage concession for Terminal 4 at LAX, with a three-year extension option and estimated minimum revenue of $30 million over the potential 15-year term.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Terminal 4, Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "applicant": "Host International Inc.",
+    "action": "concession agreement award",
+    "amount": "$30,000,000"
+  }
 }

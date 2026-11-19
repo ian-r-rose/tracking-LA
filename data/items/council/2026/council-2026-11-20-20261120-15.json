@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-11-20-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1643"
-  ]
+  ],
+  "summary": "Council would transfer and appropriate Coastal Transportation Corridor funds to design, manage and build the Revitalize Rose Avenue pedestrian connectivity and beautification project.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Rose Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "council_file": "26-1643",
+    "action": "funding transfer and appropriation",
+    "bureau": "Bureau of Street Services and Bureau of Street Lighting"
+  }
 }
