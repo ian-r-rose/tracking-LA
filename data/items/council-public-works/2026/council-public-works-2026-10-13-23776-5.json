@@ -21,8 +21,9 @@
   },
   "outcome": {
     "status": "approved",
-    "text": "Public Works Committee approved item(s) (Oct 13, 2026)",
+    "text": "Public Works Committee approved item(s) (Oct 13, 2026); Council action: Adopted (Nov 18, 2026)",
     "source": "https://lms.lacity.gov/files/26-1332",
-    "recorded": "2026-10-15"
+    "vote": "12-0-3",
+    "recorded": "2026-11-20"
   }
 }

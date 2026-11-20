@@ -11,9 +11,10 @@
   ],
   "outcome": {
     "status": "approved",
-    "text": "Housing Committee action: Approved: Approved Housing Department report dated October 23, 2026 (Nov 5, 2026)",
+    "text": "Housing Committee action: Approved: Approved Housing Department report dated October 23, 2026 (Nov 5, 2026); Council action: Adopted (Nov 18, 2026)",
     "source": "https://lms.lacity.gov/files/26-0005-S192",
-    "recorded": "2026-11-14"
+    "vote": "12-0-3",
+    "recorded": "2026-11-20"
   },
   "summary": "Housing Department request to take 11314 West Emelita Street out of the Rent Escrow Account Program.",
   "topics": [

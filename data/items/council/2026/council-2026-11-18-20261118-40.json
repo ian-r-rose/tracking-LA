@@ -26,5 +26,12 @@
     "council_file": "26-1595",
     "action": "fee waiver motion",
     "amount": "$3,629.61"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "Council action: Adopted (Nov 18, 2026)",
+    "source": "https://lms.lacity.gov/files/26-1595",
+    "vote": "12-0-3",
+    "recorded": "2026-11-20"
   }
 }
