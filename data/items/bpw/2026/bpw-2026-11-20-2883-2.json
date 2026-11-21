@@ -20,5 +20,12 @@
   },
   "flag": {
     "reason": "Street closures for the East San Fernando Valley light rail project."
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25492",
+    "vote": "3-0",
+    "recorded": "2026-11-21"
   }
 }

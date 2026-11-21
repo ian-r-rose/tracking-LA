@@ -24,5 +24,12 @@
     "applicant": "Spiniello Infrastructure West, Inc.",
     "action": "contract award",
     "amount": "$14,754,322"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25492",
+    "vote": "5-0",
+    "recorded": "2026-11-21"
   }
 }

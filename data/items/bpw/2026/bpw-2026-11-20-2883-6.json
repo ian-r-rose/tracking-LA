@@ -27,5 +27,12 @@
     "applicant": "Mike Bubalo Construction Company, Inc.",
     "action": "construction budget and contract award",
     "amount": "$3,057,087"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25492",
+    "vote": "3-0",
+    "recorded": "2026-11-21"
   }
 }

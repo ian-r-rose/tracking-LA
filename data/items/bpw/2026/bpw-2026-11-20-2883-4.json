@@ -19,5 +19,12 @@
     "applicant": "Legion Contractors, Inc. dba Legion Builders Group",
     "action": "contract award",
     "amount": "$8,932,517.50"
+  },
+  "outcome": {
+    "status": "approved",
+    "text": "REPORT ADOPTED, SUBJECT TO CONDITIONS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25492",
+    "vote": "5-0",
+    "recorded": "2026-11-21"
   }
 }
