@@ -33,6 +33,14 @@ def test_meetings_of_watched_bodies_without_cancellations():
     assert all(m["agenda_url"].endswith(".pdf") for m in meetings)
 
 
+def test_a_recess_notice_isnt_an_agenda():
+    url = "https://lms.lacity.gov/meetings/2026-11-24-council"
+    notice = {"name": "City Council", "body": "council", "date": "2026-11-24", "meetingType": "recess", "status": "recessed",
+              "url": url, "agendaPdfUrl": "https://example.org/2026-11-24-council-v1.pdf", "agendas": []}
+    assert council.parse_meetings([notice]) == []
+    assert len(council.parse_meetings([notice | {"meetingType": "regular", "status": "published"}])) == 1
+
+
 def test_a_rescheduled_meeting_keeps_its_id():
     [moved] = [m for m in lms_meetings() if m["body"] == "council-transportation" and m["date"] == date(2026, 11, 18)]
     assert moved["meeting_id"] == "20261104"  # first scheduled for November 4

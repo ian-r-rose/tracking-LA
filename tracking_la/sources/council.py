@@ -102,7 +102,7 @@ def parse_meetings(raw: list[dict]) -> list[dict]:
             continue
         for agenda in m.get("agendas") or [m]:
             slug = agenda["url"].rsplit("/", 1)[-1]
-            if agenda["meetingType"] == "cancellation" or not agenda.get("agendaPdfUrl") or slug in seen:
+            if agenda["meetingType"] in ("cancellation", "recess") or not agenda.get("agendaPdfUrl") or slug in seen:
                 continue
             seen.add(slug)
             meetings.append(
