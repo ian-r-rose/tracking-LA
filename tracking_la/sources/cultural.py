@@ -24,6 +24,8 @@ def _view_data(client: httpx.Client) -> dict:
     embed.raise_for_status()
     text = embed.text.replace("\\u002F", "/")
     url = html.unescape(re.search(r'(/v0\.3/view/[^"\\]+readSharedViewData\?[^"\\]+)', text).group(1))
+    # The embed asks for MessagePack (since November 2026); JSON is still there for the asking.
+    url = url.replace("allowMsgpackOfResult%22%3Atrue", "allowMsgpackOfResult%22%3Afalse")
     app = re.search(r'"x-airtable-application-id":"(\w+)"', text).group(1)
     resp = client.get(
         "https://airtable.com" + url,
