@@ -33,6 +33,14 @@ AGENDAS = DATA / "agendas.json"
 LOOKAHEAD = timedelta(days=60)
 
 
+def describe(e: Exception) -> str:
+    """For a `failed:` line, on one line. Any exception is reported there, not only HTTP
+    errors: a site that changes shows up as whatever its parser raises, and one source's
+    crash once stopped every source from being fetched for four days."""
+    text = str(e) if isinstance(e, httpx.HTTPError) else f"{type(e).__name__}: {e}"
+    return " ".join(text.split())
+
+
 def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> None:
     today = date.today()
     start, end = today - timedelta(days=since_days), today + LOOKAHEAD
@@ -46,8 +54,8 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
                 continue
             try:
                 meetings = source.list_meetings(start, end, client)
-            except httpx.HTTPError as e:
-                failed.append(f"{source.name}: {e}")
+            except Exception as e:
+                failed.append(f"{source.name}: {describe(e)}")
                 continue
             # Upcoming agendas can still be revised, so always re-fetch those, and those a
             # source asks for again (one of their documents didn't come through).
@@ -61,8 +69,8 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
                 resp = client.get(meeting["agenda_url"])
                 resp.raise_for_status()
                 return source, meeting, resp.content
-            except httpx.HTTPError as e:
-                failed.append(f"{meeting['agenda_url']}: {e}")
+            except Exception as e:
+                failed.append(f"{meeting['agenda_url']}: {describe(e)}")
                 return source, meeting, None
 
         try:
@@ -72,8 +80,8 @@ def fetch(since_days: int, refetch: bool = False, only: str | None = None) -> No
                         continue
                     try:
                         items = source.meeting_items(meeting, content)  # some fetch linked documents
-                    except httpx.HTTPError as e:
-                        failed.append(f"{meeting['agenda_url']}: {e}")
+                    except Exception as e:
+                        failed.append(f"{meeting['agenda_url']}: {describe(e)}")
                         continue
                     if not items and not source.canary_items:  # a filtering source can come up empty
                         empty.append(meeting["agenda_url"])
@@ -134,8 +142,8 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list, lms: 
             return url, resp.text
         except council.Challenged:  # reported once, by lms.report
             return url, None
-        except httpx.HTTPError as e:
-            failed.append(f"{url}: {e}")
+        except Exception as e:
+            failed.append(f"{url}: {describe(e)}")
             return url, None
 
     with ThreadPoolExecutor(CONCURRENT_DOWNLOADS) as pool:
@@ -145,8 +153,8 @@ def followed_outcomes(client: httpx.Client, counts: Counter, failed: list, lms: 
             for path in paths if html is not None else []:
                 try:
                     outcome = source.follow_outcome(html, url, json.loads(path.read_text()))
-                except ValueError as e:  # e.g. an error page served with status 200
-                    failed.append(f"{url}: {e}")
+                except Exception as e:  # e.g. an error page served with status 200
+                    failed.append(f"{url}: {e if isinstance(e, council.NotAFilePage) else describe(e)}")
                     break
                 if outcome and record(path, outcome):
                     counts["followed decisions recorded"] += 1
@@ -179,8 +187,8 @@ def outcomes(since_days: int) -> None:
                             counts["unchanged"] += 1
                     processed[url] = meeting["date"].isoformat()
                     counts["records read"] += 1
-            except httpx.HTTPError as e:
-                failed.append(f"{source.name}: {e}")
+            except Exception as e:
+                failed.append(f"{source.name}: {describe(e)}")
         followed_outcomes(client, counts, failed)
     PROCESSED.write_text(json.dumps(processed, indent=1, sort_keys=True) + "\n")
     finish(counts, failed, "no new journals or minutes")

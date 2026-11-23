@@ -44,6 +44,15 @@ jobs:
         shell: bash
         run: uv run tracking-la council-files 2>&1 | tee council-files.log
         continue-on-error: true
+      # Each command reports its sources' failures itself; a crash of the whole command
+      # reports nothing, so say so in the same form for the commit message and the routine.
+      - if: steps.fetch.outcome == 'failure' || steps.outcomes.outcome == 'failure' || steps.council-files.outcome == 'failure'
+        run: |
+          for log in fetch.log outcomes.log council-files.log; do
+            if grep -q "^Traceback" "$log"; then
+              echo "  failed: ${log%.log} crashed: $(tail -n 1 "$log")" >> "$log"
+            fi
+          done
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
