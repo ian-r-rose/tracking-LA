@@ -1,4 +1,5 @@
 {
+ "": null,
  "1000 South Vermont": {
   "address": "1000 S VERMONT AVE, 90006",
   "lat": 34.052488,
@@ -144,10 +145,22 @@
   "lon": -118.426699,
   "score": 99.06
  },
+ "10535 W MISSOURI AVE": {
+  "address": "10535 W MISSOURI AVE, 90025",
+  "lat": 34.053489,
+  "lon": -118.426699,
+  "score": 100
+ },
  "10540 N JOHANNA AVE": {
   "address": "10540 N JOHANNA AVE, 91040",
   "lat": 34.261016,
   "lon": -118.34678,
+  "score": 100
+ },
+ "10604 W TUXFORD ST": {
+  "address": "10604 W TUXFORD ST, 91352",
+  "lat": 34.235798,
+  "lon": -118.361902,
   "score": 100
  },
  "1061 S BROXTON AVE": {
@@ -391,6 +404,12 @@
   "lat": 34.273066,
   "lon": -118.392829,
   "score": 99.06
+ },
+ "11823 W ART ST": {
+  "address": "11823 W ART ST, 91352",
+  "lat": 34.234847,
+  "lon": -118.389963,
+  "score": 100
  },
  "119 West Jefferson Boulevard": {
   "address": "119 W JEFFERSON BLVD, 90007",
@@ -954,6 +973,12 @@
   "lon": -118.329471,
   "score": 100
  },
+ "1562 S FAIRFAX AVE": {
+  "address": "1562 S FAIRFAX AVE, 90019",
+  "lat": 34.048348,
+  "lon": -118.367302,
+  "score": 100
+ },
  "1600 East Lomita Boulevard": {
   "address": "1600 E LOMITA BLVD, 90744",
   "lat": 33.800043,
@@ -1080,6 +1105,12 @@
   "lon": -118.510139,
   "score": 100
  },
+ "17401 W VENTURA BLVD": {
+  "address": "17401 W VENTURA BLVD, 91316",
+  "lat": 34.161198,
+  "lon": -118.511622,
+  "score": 100
+ },
  "1749 South Ensley Avenue": {
   "address": "1749 S ENSLEY AVE, 90024",
   "lat": 34.060371,
@@ -1108,6 +1139,12 @@
   "address": "18009 W SHERMAN WAY, 91335",
   "lat": 34.20132,
   "lon": -118.52549,
+  "score": 100
+ },
+ "1801 E 4TH ST": {
+  "address": "1801 E 4TH ST, 90033",
+  "lat": 34.04313,
+  "lon": -118.219574,
   "score": 100
  },
  "1804 South Kingsley Drive": {
@@ -1144,6 +1181,12 @@
   "address": "1838 S THAYER AVE, 90025",
   "lat": 34.054476,
   "lon": -118.425799,
+  "score": 100
+ },
+ "18440 W VENTURA BLVD": {
+  "address": "18440 W VENTURA BLVD, 91356",
+  "lat": 34.168278,
+  "lon": -118.534951,
   "score": 100
  },
  "18477 W VENTURA BLVD": {
@@ -1987,6 +2030,12 @@
   "lon": -118.20213,
   "score": 99.06
  },
+ "354 N ENTRADA DR": {
+  "address": "354 E ENTRADA DR, 90402",
+  "lat": 34.030332,
+  "lon": -118.513915,
+  "score": 92.78
+ },
  "3612 11th Avenue": {
   "address": "3612 S 11TH AVE, 90018",
   "lat": 34.022583,
@@ -2057,6 +2106,12 @@
   "address": "3760 N DOVER ST, 90039",
   "lat": 34.123594,
   "lon": -118.262819,
+  "score": 100
+ },
+ "3775 N AMESBURY ROAD": {
+  "address": "3775 N AMESBURY ROAD, 90027",
+  "lat": 34.117674,
+  "lon": -118.281033,
   "score": 100
  },
  "3813 S Esplanade": {
@@ -2576,6 +2631,12 @@
   "lon": -118.240635,
   "score": 100
  },
+ "5520 W SANTA MONICA BLVD": {
+  "address": "5520 W SANTA MONICA BLVD, 90038",
+  "lat": 34.090707,
+  "lon": -118.309944,
+  "score": 100
+ },
  "5545 W PICO BLVD": {
   "address": "5545 W PICO BLVD, 90019",
   "lat": 34.049418,
@@ -2665,6 +2726,12 @@
   "lat": 34.176621,
   "lon": -118.368181,
   "score": 99.06
+ },
+ "5923 N CORBIN AVE": {
+  "address": "5923 N CORBIN AVE, 91356",
+  "lat": 34.177939,
+  "lon": -118.562279,
+  "score": 100
  },
  "5923 North Monterey Road": null,
  "5951 North Fulcher Avenue": {
@@ -3116,6 +3183,12 @@
   "address": "7323 N REMMET AVE, 91303",
   "lat": 34.203291,
   "lon": -118.600353,
+  "score": 100
+ },
+ "7500 N CHAMINADE AVE": {
+  "address": "7500 N CHAMINADE AVE, 91304",
+  "lat": 34.206034,
+  "lon": -118.636917,
   "score": 100
  },
  "7500 N Figueroa St": {
@@ -3662,6 +3735,7 @@
   "score": 98.18
  },
  "Burbank Airport-South Metrolink Station": null,
+ "CITYWIDE": null,
  "Cabrillo Beach Aquatic Community Center": null,
  "Cahuenga Blvd & Broadlawn Dr": {
   "address": "N CAHUENGA BLVD WEST & N BROADLAWN DR, 90068",
