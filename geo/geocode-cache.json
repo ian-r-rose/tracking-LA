@@ -454,6 +454,12 @@
   "lon": -118.379527,
   "score": 93.68
  },
+ "12136 W KESWICK ST": {
+  "address": "12136 W KESWICK ST, 91605",
+  "lat": 34.210272,
+  "lon": -118.397791,
+  "score": 100
+ },
  "12222 W VENICE BLVD": {
   "address": "12222 W VENICE BLVD, 90066",
   "lat": 34.004787,
@@ -1205,6 +1211,12 @@
   "address": "1851 N IVAR AVE, 90028",
   "lat": 34.104535,
   "lon": -118.328244,
+  "score": 100
+ },
+ "18611 W EDDY ST": {
+  "address": "18611 W EDDY ST, 91324",
+  "lat": 34.230035,
+  "lon": -118.538946,
   "score": 100
  },
  "18818 W VENTURA BLVD": {
@@ -2672,6 +2684,12 @@
   "lat": 34.115271,
   "lon": -118.19612,
   "score": 92.78
+ },
+ "5700 N CANOGA AVE": {
+  "address": "5700 N CANOGA AVE, 91367",
+  "lat": 34.173288,
+  "lon": -118.597356,
+  "score": 100
  },
  "5718 W HOLLYWOOD BLVD": {
   "address": "5718 W HOLLYWOOD BLVD, 90028",
