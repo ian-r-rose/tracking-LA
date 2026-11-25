@@ -1189,6 +1189,12 @@
   "lon": -118.316852,
   "score": 100
  },
+ "1811 N MAGENTA LANE": {
+  "address": "1811 N MAGENTA LANE, 90077",
+  "lat": 34.103848,
+  "lon": -118.444106,
+  "score": 100
+ },
  "1817 South Orange Grove Avenue": {
   "address": "1817 S ORANGE GROVE AVE, 90019",
   "lat": 34.042725,
