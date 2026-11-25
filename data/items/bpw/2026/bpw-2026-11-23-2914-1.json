@@ -8,5 +8,12 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25517",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6a95c519-2836-49ea-a401-28692ff8356c"
-  ]
+  ],
+  "outcome": {
+    "status": "approved",
+    "text": "ADOPTED, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25526",
+    "vote": "4-0",
+    "recorded": "2026-11-25"
+  }
 }

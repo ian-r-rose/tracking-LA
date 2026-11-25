@@ -429,6 +429,12 @@
   "lon": -118.470638,
   "score": 100
  },
+ "11954 W VENTURA BLVD": {
+  "address": "11954 W VENTURA BLVD, 91604",
+  "lat": 34.14316,
+  "lon": -118.391983,
+  "score": 100
+ },
  "11973 W San Vicente Blvd": {
   "address": "11973 W SAN VICENTE BLVD, 90049",
   "lat": 34.052535,
@@ -446,6 +452,12 @@
   "address": "1200 W 42ND ST, 90037",
   "lat": 34.007251,
   "lon": -118.295958,
+  "score": 100
+ },
+ "121 N ROBINSON ST": {
+  "address": "121 N ROBINSON ST, 90026",
+  "lat": 34.073003,
+  "lon": -118.283882,
   "score": 100
  },
  "1211 S SHERBOURNE DR 1-4": {
@@ -1067,6 +1079,12 @@
   "address": "16500 W NORDHOFF ST, 91343",
   "lat": 34.23562,
   "lon": -118.491681,
+  "score": 100
+ },
+ "1700 W SUNSET BLVD": {
+  "address": "1700 W SUNSET BLVD, 90026",
+  "lat": 34.077196,
+  "lon": -118.258513,
   "score": 100
  },
  "1702 W SUNSET BLVD": {
@@ -3059,6 +3077,12 @@
   "lon": -118.444308,
   "score": 100
  },
+ "675 S CRENSHAW BLVD": {
+  "address": "675 S CRENSHAW BLVD, 90005",
+  "lat": 34.061265,
+  "lon": -118.319419,
+  "score": 100
+ },
  "676 E MARR ST": {
   "address": "676 E MARR ST, 90291",
   "lat": 33.987636,
@@ -3865,6 +3889,7 @@
   "score": 98.18
  },
  "Franklin Fields": null,
+ "GOA RESTAURANT": null,
  "Gaffey St & Channel St": {
   "address": "N GAFFEY ST & W CHANNEL ST, 90731",
   "lat": 33.753789,
