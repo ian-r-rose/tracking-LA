@@ -1,0 +1,34 @@
+{
+  "id": "council-2026-12-01-20261201-14",
+  "body": "council",
+  "meeting_date": "2026-12-01",
+  "item_number": "14",
+  "title": "PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT and CATEGORICAL EXEMPTION relative to a California Environmental Quality Act (CEQA) appeal filed for the…",
+  "text": "[Council File 26-1415; CD 4]\n[Items for which Public Hearings Have Been Held]\nPLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT and CATEGORICAL EXEMPTION relative to a California Environmental Quality Act (CEQA) appeal filed for the property located at 2069 North Argyle Avenue (6261 West Holly Mount Drive).\nRecommendation(s) for Council action:\n1. DETERMINE, based on the whole of the administrative record, that the Project is exempt from CEQA pursuant to CEQA Guidelines, Section 15303, and Class 3 (New Construction or Conversion of Small Structures), and there is no substantial evidence demonstrating that any exceptions contained in Section 15300.2 of the CEQA Guidelines regarding location, cumulative impacts, significant effects or unusual circumstances, scenic highways, or hazardous waste sites, or historical resources applies.\n2. ADOPT the FINDINGS of the Central Los Angeles Area Planning Commission (CLAAPC) as the Findings of Council.\n3. RESOLVE TO DENY THE APPEAL filed by Catherine J. Ripp, and THEREBY SUSTAIN the CLAAPC’s determination in approving a Categorical Exemption as the environmental clearance for the installation of a new unmanned wireless telecommunications facility on the rooftop of an existing 54-foot tall, five-story apartment building, the Project includes the installation of new Fiber-Reinforced Polymer (FRP) screen walls, nine panel antennas, 14 remote radio units, one surge suppressor, one power plant cabinet, one data cabinet, one battery cabinet, one TELCO box, and one electrical panel on the rooftop, the Project also includes the installation of a new generator connector, and an MTS disconnect switch at grade level, as well as a meter bank on the P3 level, the new FRP screen walls will be eight feet eight inches in height and will not extend above the existing 54-foot-tall apartment building; for the property located at 2069 North Argyle Avenue (6261 West Holly Mount Drive).\nApplicant: Gary Bodenwieser, AT&T Mobility\nRepresentative: Jerry Ambrose, Eukon Group\nCase No. ZA-2024-6024-CUW\nEnvironmental No. ENV-2024-6025-CE-1A\nRelated Case Nos.: ZA-2024-6024-CUW-1A; ENV-2024-6025-CE\nFiscal Impact Statement:\nThe CLAAPC reports that there is no General Fund impact as administrative costs are recovered through fees.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1415"
+  ],
+  "follows": "council-plum-2026-11-10-20261110-8",
+  "summary": "Appeal challenging the approval of an AT&T wireless facility on the rooftop of an apartment building at 2069 North Argyle Avenue, including new screen walls, antennas and equipment cabinets.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2069 North Argyle Avenue, Los Angeles, CA",
+      "lat": 34.108297,
+      "lon": -118.325297,
+      "neighborhood": "Hollywood Hills"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2024-6024-CUW"
+    ],
+    "council_district": 4,
+    "applicant": "Gary Bodenwieser, AT&T Mobility",
+    "action": "appeal of Planning Commission approval of wireless facility",
+    "council_file": "26-1415"
+  }
+}

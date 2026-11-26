@@ -1,0 +1,33 @@
+{
+  "id": "council-2026-12-01-20261201-30",
+  "body": "council",
+  "meeting_date": "2026-12-01",
+  "item_number": "30",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 1062 West 253rd Street (Case No. 717023), Assessor I.D. No. 7413-013-006, from…",
+  "text": "[Council File 26-0005-S198; CD 15]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 1062 West 253rd Street (Case No. 717023), Assessor I.D. No. 7413-013-006, from the Rent Escrow Account Program (REAP).\nRecommendation(s) for Council action:\nAPPROVE the Housing Department (LAHD) report dated November 6, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 1062 West 253rd Street (Case No. 717023), Assessor I.D. No. 7413-013-006, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-0005-S198"
+  ],
+  "follows": "council-housing-2026-11-18-20261118-2",
+  "summary": "Housing Department request to take 1062 West 253rd Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1062 West 253rd Street, Los Angeles, CA",
+      "lat": 33.794652,
+      "lon": -118.294839,
+      "neighborhood": "Harbor City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "717023"
+    ],
+    "council_district": 15,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S198"
+  }
+}

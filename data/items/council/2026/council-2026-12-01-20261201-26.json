@@ -1,0 +1,33 @@
+{
+  "id": "council-2026-12-01-20261201-26",
+  "body": "council",
+  "meeting_date": "2026-12-01",
+  "item_number": "26",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 4416 South San Pedro Street (Case No. 971725), Assessor I.D. No. 5109-012-006,…",
+  "text": "[Council File 26-0005-S201; CD 9]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 4416 South San Pedro Street (Case No. 971725), Assessor I.D. No. 5109-012-006, from the Rent Escrow Account Program (REAP).\nRecommendation(s) for Council action:\nAPPROVE the Housing Department (LAHD) report dated November 6, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 4416 South San Pedro Street (Case No. 971725), Assessor I.D. No. 5109-012-006, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-0005-S201"
+  ],
+  "follows": "council-housing-2026-11-18-20261118-5",
+  "summary": "Housing Department request to take 4416 South San Pedro Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "4416 South San Pedro Street, Los Angeles, CA",
+      "lat": 34.003377,
+      "lon": -118.269559,
+      "neighborhood": "South Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "971725"
+    ],
+    "council_district": 9,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S201"
+  }
+}

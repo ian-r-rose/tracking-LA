@@ -1,0 +1,34 @@
+{
+  "id": "council-2026-12-01-20261201-29",
+  "body": "council",
+  "meeting_date": "2026-12-01",
+  "item_number": "29",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTIONS relative to removing the property at 825 South Crocker Street (Case Nos. 868370, 878859), Assessor I.D. No.…",
+  "text": "[Council File 13-0005-S638; CD 14]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTIONS relative to removing the property at 825 South Crocker Street (Case Nos. 868370, 878859), Assessor I.D. No. 5146-025-030, from the Rent Escrow Account Program (REAP).\nRecommendation(s) for Council action:\nAPPROVE the Housing Department (LAHD) reports dated November 9, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTIONS removing the property at 825 South Crocker Street (Case Nos. 868370, 878859), Assessor I.D. No. 5146-025-030, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
+    "https://lms.lacity.gov/files/13-0005-S638"
+  ],
+  "follows": "council-housing-2026-11-18-20261118-1",
+  "summary": "Housing Department request to take 825 South Crocker Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "825 South Crocker Street, Los Angeles, CA",
+      "lat": 34.037399,
+      "lon": -118.248568,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "868370",
+      "878859"
+    ],
+    "council_district": 14,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "13-0005-S638"
+  }
+}

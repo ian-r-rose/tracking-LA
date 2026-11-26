@@ -1,0 +1,22 @@
+{
+  "id": "council-2026-12-01-20261201-12",
+  "body": "council",
+  "meeting_date": "2026-12-01",
+  "item_number": "12",
+  "title": "PLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT relative to creating a clear and comprehensive definition of “Data Center”; and establishing appropriate…",
+  "text": "[Council File 26-0262]\n[Items for which Public Hearings Have Been Held]\nPLANNING AND LAND USE MANAGEMENT COMMITTEE REPORT relative to creating a clear and comprehensive definition of “Data Center”; and establishing appropriate use classifications and zoning permissions for Data Centers.\nRecommendations for Council action, as initiated by Motion (Rodriguez - Blumenfield):\n1. INSTRUCT the Department of City Planning (DCP), to report back with recommended amendments to Chapter 1 and Chapter 1A, and any other relevant sections, to:\na. Create a clear and comprehensive definition of “Data Center” and any related or accessory uses (including but not limited to server farms, cloud computing facilities, cryptocurrency mining operations, and large-scale digital storage facilities).\nb. Establish appropriate use classifications and zoning permissions for Data Centers, including identification of the zones in which such uses are permitted by right, permitted conditionally, or prohibited.\n2. INSTRUCT the DCP that the report back also include recommendations for additional measures to better regulate Data Centers in a manner that protects the health and safety of residents and the environment, based on an analysis of best practices from other major jurisdictions.\n3. REQUEST the Department of Water and Power (LADWP) to prepare a standalone assessment of potential impacts Data Centers may have on the City’s power grid, water resources, and climate goals, and policy recommendations to address those impacts.\n4. REQUEST the DWP to:\na. Include in the aforementioned report, the existing regulations that are specific to the State of California context, and those unique to DWP as a municipal utility, that are relevant to understanding the landscape of water and power provision in Los Angeles as they relate to data centers and other large-scale users. This should also include the September 2026 bills signed by the Governor [Assembly Bill (AB) 1577, AB 2383, AB 2469, AB 2619, Senate Bill (SB) 866, SB 877, and SB 1186].\nb. Include recommendations for establishing:\ni. An overall project wattage cap based on system capacity data.\nii. A comprehensive capacity tracking mechanism that monitors system-wide generation and transmission against aggregate data center demand. This monitoring framework should evaluate current and queued large-load interconnection requests to ensure future data center approvals do not exceed reliable grid capacity or jeopardize system reliability.\nFiscal Impact Statement:\nNeither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nYes For:\nPalms Neighborhood Council",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-0262"
+  ],
+  "follows": "council-plum-2026-11-10-20261110-3",
+  "summary": "Council motion asking planners to define data centers in the zoning code and set which zones allow them and under what permissions.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [],
+  "details": {
+    "action": "motion to amend zoning code",
+    "council_file": "26-0262"
+  }
+}

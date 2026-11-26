@@ -8,5 +8,12 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25468",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fcefd9a4-7b40-4c08-a86f-cd56f6d84fe4"
-  ]
+  ],
+  "outcome": {
+    "status": "other",
+    "text": "NO PROTESTS - RECOMMEND COUNCIL CONFIRM PROPOSED ASSESSMENTS, FORTHWITH",
+    "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25573",
+    "vote": "3-0",
+    "recorded": "2026-11-26"
+  }
 }

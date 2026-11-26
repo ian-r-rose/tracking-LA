@@ -12,6 +12,12 @@
   "lon": -118.346817,
   "score": 100
  },
+ "10003 W WASHINGTON BLVD": {
+  "address": "10003 W WASHINGTON BLVD, 90232",
+  "lat": 34.021185,
+  "lon": -118.398392,
+  "score": 100
+ },
  "1001 East 27th Street": {
   "address": "1001 E 27TH ST, 90011",
   "lat": 34.018458,
@@ -1021,6 +1027,12 @@
   "lon": -118.483302,
   "score": 100
  },
+ "1615 N CAHUENGA BLVD": {
+  "address": "1615 N CAHUENGA BLVD, 90028",
+  "lat": 34.100079,
+  "lon": -118.329593,
+  "score": 100
+ },
  "1617 S CRESCENT PL": {
   "address": "1617 S CRESCENT PL, 90291",
   "lat": 33.991048,
@@ -1157,6 +1169,12 @@
   "address": "17917 W CHASE ST, 91325",
   "lat": 34.224675,
   "lon": -118.523566,
+  "score": 100
+ },
+ "1800 N MAGENTA LANE": {
+  "address": "1800 N MAGENTA LANE, 90077",
+  "lat": 34.10378,
+  "lon": -118.44401,
   "score": 100
  },
  "18009 West Sherman Way": {
@@ -2066,6 +2084,12 @@
   "lon": -118.298417,
   "score": 100
  },
+ "3440 W WILSHIRE BLVD": {
+  "address": "3440 W WILSHIRE BLVD, 90010",
+  "lat": 34.061687,
+  "lon": -118.298969,
+  "score": 100
+ },
  "3501 Valley Boulevard": {
   "address": "3501 N VALLEY BLVD, 90031",
   "lat": 34.065577,
@@ -2142,6 +2166,12 @@
   "address": "3712 S 7TH AVE, 90018",
   "lat": 34.019627,
   "lon": -118.324946,
+  "score": 100
+ },
+ "3755 N CAZADOR ST": {
+  "address": "3755 N CAZADOR ST, 90065",
+  "lat": 34.110145,
+  "lon": -118.225852,
   "score": 100
  },
  "3760 N Dover St": {
@@ -2677,6 +2707,12 @@
   "address": "5520 W SANTA MONICA BLVD, 90038",
   "lat": 34.090707,
   "lon": -118.309944,
+  "score": 100
+ },
+ "5521 N RESEDA BLVD": {
+  "address": "5521 N RESEDA BLVD, 91356",
+  "lat": 34.17042,
+  "lon": -118.536069,
   "score": 100
  },
  "5545 W PICO BLVD": {
@@ -4200,6 +4236,8 @@
  },
  "Sylmar Metrolink Station": null,
  "Sylmar Park": null,
+ "TRACT: TR 8254 BLOCK: LOT: 96": null,
+ "TRACT: TR 8254 BLOCK: LOT: 97 ARB: 2": null,
  "Terminal 4, Los Angeles International Airport": null,
  "Terminal 6, Los Angeles International Airport": null,
  "Terminal 7, Los Angeles International Airport": null,

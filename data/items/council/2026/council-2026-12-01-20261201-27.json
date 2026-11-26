@@ -1,0 +1,33 @@
+{
+  "id": "council-2026-12-01-20261201-27",
+  "body": "council",
+  "meeting_date": "2026-12-01",
+  "item_number": "27",
+  "title": "HOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 5724 West Clemson Street (Case No. 884625), Assessor I.D. No. 5047-021-021,…",
+  "text": "[Council File 26-0005-S200; CD 10]\n[Items for which Public Hearings Have Been Held]\nHOUSING COMMITTEE REPORT and RESOLUTION relative to removing the property at 5724 West Clemson Street (Case No. 884625), Assessor I.D. No. 5047-021-021, from the Rent Escrow Account Program (REAP).\nRecommendation(s) for Council action:\nAPPROVE the Housing Department (LAHD) report dated November 6, 2026, attached to the Council file, and ADOPT the accompanying RESOLUTION removing the property at 5724 West Clemson Street (Case No. 884625), Assessor I.D. No. 5047-021-021, from the REAP.\nFiscal Impact Statement:\nNone submitted by the LAHD. Neither the City Administrative Officer nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-0005-S200"
+  ],
+  "follows": "council-housing-2026-11-18-20261118-4",
+  "summary": "Housing Department request to take 5724 West Clemson Street out of the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "5724 West Clemson Street, Los Angeles, CA",
+      "lat": 34.023989,
+      "lon": -118.37,
+      "neighborhood": "Baldwin Hills/Crenshaw"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "884625"
+    ],
+    "council_district": 10,
+    "action": "removal from Rent Escrow Account Program",
+    "council_file": "26-0005-S200"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "council-2026-12-01-20261201-62",
+  "body": "council",
+  "meeting_date": "2026-12-01",
+  "item_number": "62",
+  "title": "COMMUNICATION FROM THE CHAIR, ENERGY AND ENVIRONMENT COMMITTEE, relative to the feasibility of transitioning residential customers from bi-monthly to…",
+  "text": "[Council File 26-1555]\n[Items for which Public Hearings Have Not Been Held - (10 Votes Required for Consideration)]\nCOMMUNICATION FROM THE CHAIR, ENERGY AND ENVIRONMENT COMMITTEE, relative to the feasibility of transitioning residential customers from bi-monthly to monthly utility billing using Advanced Metering Infrastructure (AMI), including a potential pilot program.\nRecommendation(s) for Council action, pursuant to Motion (Nazarian – Rodriguez):\n1. REQUEST the DWP to report in 60 days on how the Department's ongoing AMI deployment can support a transition from bi-monthly to monthly billing for residential customers, including the feasibility of a pilot program in areas with sufficient AMI coverage. This should include the proposed pilot's duration, implementation timeline, customer eligibility, and metrics for evaluating its effectiveness, such as customer understanding and satisfaction, bill predictability, payment timeliness, delinquencies and arrearages, customer service inquiries, operational costs, and impacts on low- and moderate-income households. The report should also include an assessment of the potential benefits of monthly billing for customers and opportunities to leverage AMI technology to improve transparency and predictability, particularly in light of the higher utility bills Angelenos have experienced in recent months, including:\na. Opportunities to improve bill predictability, provide more timely information about electricity and water consumption, along with historical consumption comparisons, identify unusual usage and potential leaks sooner, and help customers manage their utility expenses and avoid the accumulation of unexpectedly high bills.\nb. Developing proactive alerts for instances involving abnormal usage, such as malfunctioning equipment and leaks, and before significant increases in projected utility bills to allow customers to adjust consumption, investigate potential problems, or seek available financial assistance.\nc. Improving the availability and accessibility of usage and billing information to help customers make informed decisions about conservation and household budgeting.\nd. Opportunities to integrate monthly billing and enhanced AMI-enabled customer information with existing bill assistance, payment plan, and level-pay programs, with the goal of helping customers better anticipate utility expenses, identify emerging financial hardship, and access available assistance before falling behind on payments.\n2. INSTRUCT or REQUEST, when appropriate, the DWP, Bureau of Sanitation, and City Administrative Officer (CAO) to report on identifying the operational, technological, financial, and policy considerations necessary to implement monthly billing, including AMI deployment timelines and coverage for electricity and water meters; billing system modifications; staffing and customer service requirements; printing, mailing, and payment processing costs; potential operational and financial savings; and coordination regarding sewer and solid waste charges included on DWP bills.\nFiscal Impact Statement:\nNeither the CAO nor the Chief Legislative Analyst has completed a financial analysis of this report.\nCommunity Impact Statement:\nNone submitted",
+  "urls": [
+    "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
+    "https://lms.lacity.gov/files/26-1555"
+  ],
+  "follows": "council-environment-2026-11-13-20261113-11",
+  "summary": "Asks for a study of whether residential utility customers could move from bimonthly to monthly billing using smart meters (AMI), including a possible pilot program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1555",
+    "action": "motion"
+  }
+}
