@@ -8,5 +8,20 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-264.pdf"
-  ]
+  ],
+  "summary": "The commission will consider replacing the existing childcare sign with a Headstart sign on the Victory Valley Childcare building at Valley Plaza Recreation Center.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Valley Plaza Recreation Center",
+      "lat": 34.194313,
+      "lon": -118.401453,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "action": "sign replacement"
+  }
 }

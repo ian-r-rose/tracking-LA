@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1561"
-  ]
+  ],
+  "summary": "Council would extend the AECOM design contract for the Port's Goods Movement Workforce Training Facility by five years, to 2031, and add $4,363,157 for a total of $14,140,298.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Port of Los Angeles Goods Movement Workforce Training Facility"
+    }
+  ],
+  "details": {
+    "council_file": "26-1561",
+    "council_district": 15,
+    "action": "contract amendment extending term and adding compensation",
+    "amount": "$4,363,157",
+    "applicant": "AECOM Technical Services, Inc."
+  }
 }

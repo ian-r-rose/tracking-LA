@@ -8,5 +8,17 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-271.pdf"
-  ]
+  ],
+  "summary": "Approves a sports lighting and power upgrade at the Jackie Tatum Harvard Recreation Center, with a CEQA categorical exemption for the work.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Jackie Tatum Harvard Recreation Center"
+    }
+  ],
+  "details": {
+    "action": "project approval with CEQA categorical exemption"
+  }
 }

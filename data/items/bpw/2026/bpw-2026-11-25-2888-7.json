@@ -15,5 +15,22 @@
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25573",
     "vote": "3-0",
     "recorded": "2026-11-26"
+  },
+  "summary": "Hearing on the proposed street lighting maintenance assessments for the St. George Street and Rowena Avenue district, headed to City Council on December 1, 2026.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "St George St & Rowena Ave, Los Angeles, CA",
+      "lat": 34.110468,
+      "lon": -118.272947,
+      "neighborhood": "Los Feliz"
+    }
+  ],
+  "details": {
+    "council_district": 4,
+    "action": "assessment hearing",
+    "council_file": "26-0900-S14"
   }
 }

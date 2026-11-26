@@ -8,5 +8,18 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-269.pdf"
-  ]
+  ],
+  "summary": "The commission will consider an agreement with the Foundation for Early Childhood Education to continue a recreational child development and preschool program on park property at Park Place Head Start Center.",
+  "topics": [
+    "parks",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Park Place Head Start Center"
+    }
+  ],
+  "details": {
+    "action": "agreement for continued operation of program"
+  }
 }

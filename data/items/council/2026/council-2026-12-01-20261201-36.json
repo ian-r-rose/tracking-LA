@@ -8,5 +8,16 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0327"
-  ]
+  ],
+  "summary": "Council replaces the Boyle Heights WorkSource Center operator with the Asian American Drug Abuse Program, approves second-round operator results, extends three operator contracts through June 2027, and updates the replacement operator list for Boyle Heights and South Los Angeles.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0327",
+    "action": "operator selection and contract extensions",
+    "plan_area": "Boyle Heights; South Los Angeles",
+    "applicant": "Asian American Drug Abuse Program (AADAP)"
+  }
 }

@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: AA-2026-6097-PMEX\nAddress: 3775 N AMESBURY ROAD\nFiled: 2026-11-19\nCouncil district: 4\nCommunity plan area: Hollywood\nDescription: PMEX in the R1-1zone, to adjust the existing property lines between 4 parcels. No new parcels created.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-6097-PMEX"
-  ]
+  ],
+  "summary": "Application to adjust the property lines among four parcels at 3775 N Amesbury Road in Hollywood's R1 zone. No new lots would be created.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3775 N Amesbury Road, Los Angeles, CA",
+      "lat": 34.117674,
+      "lon": -118.281033,
+      "neighborhood": "Los Feliz"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2026-6097-PMEX"
+    ],
+    "council_district": 4,
+    "plan_area": "Hollywood",
+    "action": "parcel map exemption (lot line adjustment)"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
+  }
 }

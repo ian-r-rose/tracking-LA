@@ -15,5 +15,22 @@
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25573",
     "vote": "3-0",
     "recorded": "2026-11-26"
+  },
+  "summary": "Hearing on the proposed street lighting maintenance assessments for the Ventura Boulevard and Rigoletto Street district, headed to City Council on December 1, 2026.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Ventura Blvd & Rigoletto St, Los Angeles, CA",
+      "lat": 34.165728,
+      "lon": -118.624302,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "action": "assessment hearing",
+    "council_file": "26-0900-S15"
   }
 }

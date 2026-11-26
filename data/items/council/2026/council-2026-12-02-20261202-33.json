@@ -8,5 +8,16 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/16-0678-S1"
-  ]
+  ],
+  "summary": "Council is approving a five-year extension, through May 31, 2032, of the Office of Finance's contract with Electronic Output Solutions for bill printing, mailing and electronic billing, with no dollar ceiling.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Electronic Output Solutions, Inc.",
+    "action": "fifth amendment extending contract term",
+    "amount": "$300,000",
+    "council_file": "16-0678-S1"
+  }
 }

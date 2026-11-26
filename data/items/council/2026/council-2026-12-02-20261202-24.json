@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0906"
-  ]
+  ],
+  "summary": "Council is ratifying and continuing the local emergency declared after a major fire at a cold-storage warehouse in Boyle Heights, and asking departments to track response costs.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "action": "continuation of local emergency declaration",
+    "council_file": "26-0906"
+  }
 }

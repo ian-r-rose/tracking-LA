@@ -8,5 +8,24 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-259.pdf"
-  ]
+  ],
+  "summary": "The commission will commit park fees to replace the synthetic field at Griffith Park.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Griffith Park",
+      "lat": 34.13199,
+      "lon": -118.296791,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "commitment of park fees"
+  },
+  "flag": {
+    "reason": "Griffith Park field work."
+  }
 }

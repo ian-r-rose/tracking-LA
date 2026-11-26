@@ -8,5 +8,14 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81593"
-  ]
+  ],
+  "summary": "Authorizes a task order with MTX Group to design, build and roll out a Salesforce-based e-sourcing system for LAWA, through November 2027 and up to $1,449,568.89.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "task order agreement issuance",
+    "amount": "$1,449,568.89"
+  }
 }

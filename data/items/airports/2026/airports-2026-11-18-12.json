@@ -8,5 +8,18 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81598"
-  ]
+  ],
+  "summary": "Awards a five-year contract to ServiceTec to maintain the automated biometric boarding gates and related systems at LAX, capped at $6,642,979.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$6,642,979"
+  }
 }

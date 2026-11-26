@@ -8,5 +8,16 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1466"
-  ]
+  ],
+  "summary": "Accepts a $2.4 million county grant for a juvenile re-entry program and authorizes contracts with five community groups, a university evaluator and a training provider.",
+  "topics": [
+    "budget",
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-1466",
+    "action": "grant acceptance and contract authorization",
+    "amount": "$2,400,000"
+  }
 }

@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-1617"
-  ]
+  ],
+  "summary": "Council would approve tax-exempt and taxable multifamily conduit revenue bonds, through a TEFRA resolution, to finance the Adda and Paul Safran Senior Housing Apartments, a supportive housing project in Council District 11.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 11,
+    "council_file": "26-1617",
+    "action": "TEFRA resolution and conduit revenue bond issuance"
+  }
 }

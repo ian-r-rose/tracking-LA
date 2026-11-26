@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/25-0400-S2"
-  ]
+  ],
+  "summary": "The Housing Department asks council to authorize a memorandum of understanding with the Housing Authority of the City of Los Angeles to run a Social Housing Pilot program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "25-0400-S2",
+    "action": "memorandum of understanding"
+  }
 }

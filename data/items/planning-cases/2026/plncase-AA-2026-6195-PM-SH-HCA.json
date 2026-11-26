@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: AA-2026-6195-PM-SH-HCA\nAddress: 121 N ROBINSON ST\nFiled: 2026-11-24\nCouncil district: 13\nCommunity plan area: Westlake\nDescription: DEMO (E) BUILDING AND PROPOSED SUBDIVISION PURSUANT TO SB 1123 TO CREATE 2-LOTS  WITH 1-SFD ON EACH LOT.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-6195-PM-SH-HCA"
-  ]
+  ],
+  "summary": "Application to demolish the existing building at 121 N Robinson St and split the lot in two under SB 1123, with one single-family home planned on each new lot.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "121 N Robinson St, Los Angeles, CA",
+      "lat": 34.073003,
+      "lon": -118.283882,
+      "neighborhood": "Westlake"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2026-6195-PM-SH-HCA"
+    ],
+    "council_district": 13,
+    "plan_area": "Westlake",
+    "action": "subdivision under SB 1123 with demolition"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
+  }
 }

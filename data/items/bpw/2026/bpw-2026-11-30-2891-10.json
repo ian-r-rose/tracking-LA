@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a510a31-6109-47df-8895-862e127d12bf"
-  ]
+  ],
+  "summary": "Awards Sully-Miller Contracting Company a $65.6 million contract to build the Broadway-Manchester Active Transportation Equity Project, after finding the third-lowest bidder non-responsive.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Sully-Miller Contracting Company",
+    "council_district": 8,
+    "action": "contract award",
+    "amount": "$65,595,771",
+    "bureau": "Bureau of Street Services"
+  }
 }

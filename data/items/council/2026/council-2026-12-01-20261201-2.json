@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0900-S11"
-  ]
+  ],
+  "summary": "Council holds the required protest hearing on a proposed Mission Mile street lighting district in Council District 7, which would pay for the district's improvement and upkeep under Proposition 218. Ballots are counted December 2, 2026, and the final ordinance is set for January 12, 2027.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 7,
+    "council_file": "26-0900-S11",
+    "action": "protest hearing on proposed street lighting district"
+  }
 }

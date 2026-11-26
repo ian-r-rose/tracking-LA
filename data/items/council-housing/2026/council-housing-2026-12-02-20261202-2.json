@@ -8,5 +8,29 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S205"
-  ]
+  ],
+  "summary": "The Housing Department asks council to remove the property at 1747 North Kingsley Drive from the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1747 N Kingsley Dr, Los Angeles, CA",
+      "lat": 34.102633,
+      "lon": -118.30357,
+      "neighborhood": "Los Feliz"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "950624",
+      "961479"
+    ],
+    "council_file": "26-0005-S205",
+    "council_district": 4,
+    "action": "removal from Rent Escrow Account Program"
+  },
+  "flag": {
+    "reason": "Property in Los Feliz, a watched neighborhood."
+  }
 }

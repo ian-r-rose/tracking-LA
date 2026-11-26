@@ -8,5 +8,22 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/23-0838"
-  ]
+  ],
+  "summary": "Project Restore asks for Fiscal Year 2027-28 funding to restore Los Angeles City Hall and hold a centennial celebration marking the building's 100th anniversary.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles City Hall"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "23-0838"
+    ],
+    "action": "funding request",
+    "council_file": "23-0838"
+  }
 }

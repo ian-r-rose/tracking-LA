@@ -7,5 +7,18 @@
   "text": "[OLD BUSINESS - DISCUSSION AND POSSIBLE MOTIONS]\nSunland McGroarty Corridor Development - Karla Ramos (5 minutes) Discussion and possible motion\nto send a letter in support of an EIR. Link",
   "urls": [
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=14102&compileOutputType=1"
-  ]
+  ],
+  "summary": "The committee is deciding whether to send a letter supporting an environmental impact report for development along the Sunland McGroarty corridor.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Sunland McGroarty Corridor, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "letter of support for an environmental impact report"
+  }
 }

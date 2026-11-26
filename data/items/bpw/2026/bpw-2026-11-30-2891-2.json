@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=86d2581e-b8cf-412a-ba6f-6a254b941ea2"
-  ]
+  ],
+  "summary": "Approves a $100,000 payment to the California Product Stewardship Council to help the Bureau of Sanitation's Recycling Market Development Zone recruit manufacturers that could use recycled feedstock, for July 2026 through June 2027.",
+  "topics": [
+    "environment",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "California Product Stewardship Council (CPSC)",
+    "action": "authority for expenditure",
+    "amount": "$100,000",
+    "bureau": "Bureau of Sanitation"
+  }
 }

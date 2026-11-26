@@ -8,5 +8,34 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-4118-S12"
-  ]
+  ],
+  "summary": "Council is designating three more Council District 6 sites, including a civic center, a recuperative care facility and a church, for enforcement against sitting, lying, sleeping or storing personal property in the public right-of-way after posted notice.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "14410 Sylvan St, Los Angeles, CA 91401",
+      "lat": 34.184593,
+      "lon": -118.44682,
+      "neighborhood": "Van Nuys"
+    },
+    {
+      "text": "9120 Woodman Ave, Los Angeles, CA 91331",
+      "lat": 34.235814,
+      "lon": -118.440698,
+      "neighborhood": "Arleta"
+    },
+    {
+      "text": "8424 Ventura Canyon Ave, Los Angeles, CA 91402",
+      "lat": 34.223493,
+      "lon": -118.429597,
+      "neighborhood": "Arleta"
+    }
+  ],
+  "details": {
+    "council_district": 6,
+    "action": "designation of enforcement locations under LAMC 41.18",
+    "council_file": "26-4118-S12"
+  }
 }

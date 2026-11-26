@@ -11,5 +11,22 @@
     "https://kentico.portoflosangeles.org/getmedia/70ef8213-48fd-4599-a5de-0bd6d120c777/02_Cargo-Marketing_FTZ-Brinks-Site-73_First-Amendment_-Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/2deb02ee-0d50-4ce0-b2a9-3c99fd330801/02_Cargo-Marketing_FTZ-Brinks-Site-73_First-Amendment_-Transmittal-2",
     "https://kentico.portoflosangeles.org/getmedia/e1c42534-4a6c-407c-a8c4-024301143356/02_Cargo-Marketing_FTZ-Brinks-Site-73_First-Amendment_-Transmittal-3"
-  ]
+  ],
+  "summary": "Amends the Foreign-Trade Zone operating agreement for the Brink's site at 1821 South Soto Street to change its operations from multi-usage to single-usage, with the Harbor Department still receiving $10,000 a year.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1821 South Soto Street, Los Angeles, CA 90023",
+      "lat": 34.016256,
+      "lon": -118.220057,
+      "neighborhood": "Boyle Heights"
+    }
+  ],
+  "details": {
+    "applicant": "Brink's Global Services USA, Inc.",
+    "action": "first amendment to Foreign-Trade Zone operating agreement",
+    "amount": "$10,000"
+  }
 }

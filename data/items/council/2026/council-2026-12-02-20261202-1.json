@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1638"
-  ]
+  ],
+  "summary": "Council would give up the city's sanitary sewer easement on 9080 West Pico Boulevard in Council District 5 at the petitioner's request, with the authorizing ordinance taking its first consideration.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "9080 West Pico Boulevard, Los Angeles, CA",
+      "lat": 34.055202,
+      "lon": -118.389547,
+      "neighborhood": "Pico-Robertson"
+    }
+  ],
+  "details": {
+    "council_file": "26-1638",
+    "council_district": 5,
+    "action": "quitclaim of sanitary sewer easement",
+    "bureau": "Bureau of Engineering",
+    "amount": "$7,075.91"
+  }
 }

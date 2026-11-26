@@ -8,5 +8,15 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ad94c4f9-4cc8-4c83-80ca-79f51e447ca5"
-  ]
+  ],
+  "summary": "Sends a personal services contract with Samsara, Inc. for a fleet telematics and service confirmation platform for Solid Resources to the Mayor for approval.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Samsara, Inc.",
+    "action": "personal services contract",
+    "bureau": "Bureau of Sanitation"
+  }
 }

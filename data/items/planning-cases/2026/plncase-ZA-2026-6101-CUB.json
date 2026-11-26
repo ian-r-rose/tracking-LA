@@ -14,5 +14,29 @@
     "text": "ZA action: ADMINISTRATIVE CLOSURE (Nov 19, 2026)",
     "source": "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-6101-CUB",
     "recorded": "2026-11-23"
+  },
+  "summary": "Conditional use permit request to sell full-line alcohol with an existing restaurant at 5520 W Santa Monica Blvd, open 8 a.m. to 2 a.m. The Zoning Administrator administratively closed this request on Nov 19, 2026.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5520 W Santa Monica Blvd, Los Angeles, CA",
+      "lat": 34.090707,
+      "lon": -118.309944,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-6101-CUB",
+      "ENV-2026-6102-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "conditional use permit for alcohol sales"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
   }
 }

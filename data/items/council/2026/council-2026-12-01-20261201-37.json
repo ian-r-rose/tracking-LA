@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/15-0989-S37"
-  ]
+  ],
+  "summary": "Council directs the Recreation and Parks Department and other agencies to develop a City Activation Zone Program for the 2028 Olympic and Paralympic Games, including activations for smaller neighborhood parks and public spaces, with budget, funding, procurement and sponsorship reports.",
+  "topics": [
+    "parks",
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "15-0989-S37",
+    "action": "report back instruction on activation zones"
+  }
 }

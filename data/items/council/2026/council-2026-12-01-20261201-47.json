@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/24-0213-S1"
-  ]
+  ],
+  "summary": "Council would authorize the Bureau of Street Services to apply for state Extreme Heat and Community Resilience grant funding for the Broadway Sur green corridor, with a nonprofit co-applicant, and to return before accepting any grant.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Broadway-Manchester Active Transportation Project (Broadway Sur)"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "council_file": "24-0213-S1",
+    "action": "grant application authority",
+    "bureau": "Bureau of Street Services"
+  }
 }

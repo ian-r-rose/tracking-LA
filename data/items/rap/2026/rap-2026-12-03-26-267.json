@@ -8,5 +8,21 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-267.pdf"
-  ]
+  ],
+  "summary": "The commission will approve revised on-site signage proposed by Children's Collective for the Van Ness Child Care Center at Van Ness Recreation Center.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Van Ness Recreation Center",
+      "lat": 33.990093,
+      "lon": -118.318245,
+      "neighborhood": "Hyde Park"
+    }
+  ],
+  "details": {
+    "action": "signage approval",
+    "applicant": "Children's Collective, Inc."
+  }
 }

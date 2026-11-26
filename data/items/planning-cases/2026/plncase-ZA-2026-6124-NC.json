@@ -8,5 +8,26 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-6124-NC",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-6125-EAF"
-  ]
+  ],
+  "summary": "Request to let an existing mechanic and repair building at 1801 E 4th St keep operating as a nonconforming use, with no changes to the building or its use.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1801 E 4th St, Los Angeles, CA",
+      "lat": 34.04313,
+      "lon": -118.219574,
+      "neighborhood": "Boyle Heights"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-6124-NC",
+      "ENV-2026-6125-EAF"
+    ],
+    "council_district": 14,
+    "plan_area": "Boyle Heights",
+    "action": "continuation of nonconforming use"
+  }
 }

@@ -8,5 +8,24 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-261.pdf"
-  ]
+  ],
+  "summary": "The commission will modify the scope of work for a youth soccer multi-purpose field at Hollywood Recreation Center and commit park fees to it.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Hollywood Recreation Center",
+      "lat": 34.091754,
+      "lon": -118.329381,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "action": "modification of scope of work and commitment of park fees"
+  },
+  "flag": {
+    "reason": "Park project in Hollywood, a watched neighborhood."
+  }
 }

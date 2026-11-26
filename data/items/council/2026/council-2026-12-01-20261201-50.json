@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1677"
-  ]
+  ],
+  "summary": "Council would move $25,000 in redevelopment funds to the Recreation and Parks Department to add programming at Lanark Park in Canoga Park after a fundraiser was canceled.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Lanark Park"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "council_file": "26-1677",
+    "action": "fund transfer for park programming",
+    "amount": "$25,000"
+  }
 }

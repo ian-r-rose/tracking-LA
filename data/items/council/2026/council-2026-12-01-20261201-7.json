@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0900-S16"
-  ]
+  ],
+  "summary": "Hearing on protests against a proposed street lighting district for Selma and Argyle avenues in Council District 13, covering its improvement and maintenance under Proposition 218. Ballots are tabulated December 2, with the final ordinance set for January 12, 2027.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Selma Ave & Argyle Ave, Los Angeles, CA",
+      "lat": 34.099803,
+      "lon": -118.325174,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_file": "26-0900-S16",
+    "council_district": 13,
+    "action": "protest hearing on proposed street lighting district"
+  },
+  "flag": {
+    "reason": "Lighting district in Hollywood, a watched neighborhood."
+  }
 }

@@ -8,5 +8,23 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25550",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=d0453aee-6886-4503-a521-8a2277f7d2ee"
-  ]
+  ],
+  "summary": "Board of Public Works is being asked to approve bid specifications and authorize advertising for a sewer rehabilitation in the Central Business District along Jefferson Boulevard to Exposition Boulevard, with an estimate of $27,822,275 and bids due January 13, 2027.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Jefferson Blvd & Exposition Blvd, Los Angeles, CA",
+      "lat": 34.025511,
+      "lon": -118.362419,
+      "neighborhood": "West Adams"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "action": "bid specification and advertising authorization",
+    "amount": "$27,822,275"
+  }
 }

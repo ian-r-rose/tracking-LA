@@ -15,5 +15,22 @@
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25573",
     "vote": "3-0",
     "recorded": "2026-11-26"
+  },
+  "summary": "Street lighting maintenance assessment hearing for Catamaran Street and Pacific Avenue; no protests were filed, and the board recommends the council confirm the proposed assessment at its December 1 hearing.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Catamaran St & Pacific Ave, Los Angeles, CA",
+      "lat": 33.978123,
+      "lon": -118.46439,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "council_file": "26-0900-S18",
+    "action": "street lighting assessment hearing"
   }
 }

@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1651"
-  ]
+  ],
+  "summary": "Council would approve the final parcel map for 6607 North Newcastle Avenue in Council District 4, along with its subdivision improvement agreement and security documents.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6607 North Newcastle Avenue, Los Angeles, CA",
+      "lat": 34.190403,
+      "lon": -118.52536,
+      "neighborhood": "Reseda"
+    }
+  ],
+  "details": {
+    "council_district": 4,
+    "council_file": "26-1651",
+    "action": "final parcel map approval",
+    "applicant": "David Dequa (owner)",
+    "amount": "$9,064.00"
+  }
 }

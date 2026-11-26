@@ -8,5 +8,21 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-260.pdf"
-  ]
+  ],
+  "summary": "The commission will commit park fees to park improvements at Mar Vista Recreation Center.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Mar Vista Recreation Center",
+      "lat": 34.017567,
+      "lon": -118.42844,
+      "neighborhood": "Mar Vista"
+    }
+  ],
+  "details": {
+    "action": "commitment of park fees"
+  }
 }

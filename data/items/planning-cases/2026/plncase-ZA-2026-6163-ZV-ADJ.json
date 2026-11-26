@@ -9,5 +9,14 @@
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-6163-ZV-ADJ",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-6162-EAF",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-6161-PM"
-  ]
+  ],
+  "summary": "Preliminary parcel map to split a Sun Valley-La Tuna Canyon property into four lots plus a remainder lot, with requests to waive the map hearing, reduce lot widths by adjustment and reduce the remainder lot's required width by zone variance.",
+  "topics": ["land_use"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["ZA-2026-6163-ZV-ADJ", "AA-2026-6161-PM", "ENV-2026-6162-EAF"],
+    "council_district": 2,
+    "plan_area": "Sun Valley - La Tuna Canyon",
+    "action": "preliminary parcel map with adjustment and zone variance"
+  }
 }

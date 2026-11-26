@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1574"
-  ]
+  ],
+  "summary": "Gives up the city's street light easement on the property at 1321 North Mission Road, with the petitioner paying the recording fee.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1321 N Mission Rd, Los Angeles, CA",
+      "lat": 34.063214,
+      "lon": -118.210694,
+      "neighborhood": "Lincoln Heights"
+    }
+  ],
+  "details": {
+    "council_file": "26-1574",
+    "council_district": 14,
+    "action": "quitclaim of street light easement",
+    "amount": "$7,075.91",
+    "bureau": "Bureau of Engineering"
+  }
 }

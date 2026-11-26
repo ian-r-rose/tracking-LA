@@ -8,5 +8,29 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-275.pdf"
-  ]
+  ],
+  "summary": "Grants the Department of Public Works a portion of land at the northwest corner of Ohio Avenue and Sepulveda Boulevard for right-of-way, part of the Westwood Park Ohio Avenue safety and mobility project, with a CEQA categorical exemption.",
+  "topics": [
+    "parks",
+    "transportation",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Ohio Avenue & Sepulveda Blvd, Los Angeles, CA",
+      "lat": 34.050393,
+      "lon": -118.446665,
+      "neighborhood": null
+    },
+    {
+      "text": "Westwood Park"
+    }
+  ],
+  "details": {
+    "action": "grant of right-of-way",
+    "bureau": "Department of Public Works"
+  },
+  "flag": {
+    "reason": "Park land used for a street safety and mobility project."
+  }
 }

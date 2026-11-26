@@ -8,5 +8,15 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81591"
-  ]
+  ],
+  "summary": "Approval of a three-year contract with Sharp Electronics, plus two one-year extension options, for Los Angeles World Airports photocopier leasing, software licensing and maintenance, at a cost not to exceed $3.75 million.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Sharp Electronics Corporation",
+    "action": "contract award",
+    "amount": "$3,750,000"
+  }
 }

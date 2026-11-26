@@ -8,5 +8,23 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1484"
-  ]
+  ],
+  "summary": "Council would approve a five-year contract, with two one-year renewal options, for A to Z Glass & Mirror Inc. to supply and install glass and storefront systems at LAX and Van Nuys Airport, capped at $2,345,000.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    },
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "council_file": "26-1484",
+    "action": "contract award",
+    "amount": "$2,345,000",
+    "applicant": "A to Z Glass & Mirror Inc."
+  }
 }

@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: AA-2026-6234-PMEX\nAddress: 3440 W WILSHIRE BLVD\nFiled: 2026-11-25\nCouncil district: 10\nCommunity plan area: Wilshire\nDescription: Lot Line Adjustment to merge four parcels into one.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/AA-2026-6234-PMEX"
-  ]
+  ],
+  "summary": "Application to merge four parcels at 3440 W Wilshire Blvd into a single lot through a lot line adjustment.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "3440 W Wilshire Blvd, Los Angeles, CA",
+      "lat": 34.061687,
+      "lon": -118.298969,
+      "neighborhood": "Koreatown"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "AA-2026-6234-PMEX"
+    ],
+    "council_district": 10,
+    "plan_area": "Wilshire",
+    "action": "lot line adjustment (merger of four parcels)"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
+  }
 }

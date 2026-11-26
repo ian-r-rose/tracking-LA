@@ -7,5 +7,23 @@
   "text": "MONUMENT:  FOX VILLAGE THEATRE, HISTORIC-CULTURAL MONUMENT #362\n\n  Plan Area: Westwood  Council District: 5 – Yaroslavsky\n\n  PROPERTY ADDRESS:  945 – 961 South Broxton Avenue; 10955 West Weyburn Avenue\n\n  Informational presentation on the proposed rehabilitation project. Commission review and comment.\n\n  Owner:  Village Directors Circle LLC\n\n  Presenters:  Jason Reitman, Owner’s Representative; John LoCascio, Historic Resources Group;\n  Wayne Thomas, Gensler",
   "urls": [
     "https://planning.lacity.gov/dcpapi2/meetings/document/81803"
-  ]
+  ],
+  "summary": "The Cultural Heritage Commission will hear an informational presentation on a proposed rehabilitation of the Fox Village Theatre, a historic-cultural monument in Westwood, and will comment on it.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "945 S Broxton Ave, Los Angeles, CA",
+      "lat": 34.063147,
+      "lon": -118.447112,
+      "neighborhood": "Westwood"
+    }
+  ],
+  "details": {
+    "council_district": 5,
+    "plan_area": "Westwood",
+    "applicant": "Village Directors Circle LLC",
+    "action": "informational presentation on rehabilitation project"
+  }
 }

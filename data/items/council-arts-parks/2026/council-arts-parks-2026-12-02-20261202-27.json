@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1400"
-  ]
+  ],
+  "summary": "Motion to explicitly ban buying and selling animals on the Ocean Front Walk at Venice Beach, restart an illegal animal sales task force, and fund related signage.",
+  "topics": [
+    "parks",
+    "public_safety",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Ocean Front Walk of Venice Beach"
+    }
+  ],
+  "details": {
+    "council_file": "26-1400",
+    "council_district": 11,
+    "action": "amendment to Los Angeles Municipal Code Sections 53.42(a), 53.42(f) and 53.42(h), plus resources"
+  }
 }

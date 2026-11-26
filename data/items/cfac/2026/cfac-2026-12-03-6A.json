@@ -7,5 +7,28 @@
   "text": "[NEW BUSINESS- DISCUSSION AND POSSIBLE MOTION]\nProject at 3593 N. Multiview Dr. - Sarah Hunt (10 Minutes) - Discussion and possible motion to send\na letter. Hearing Dec. 4th. Large residence proposed with pool and extensive grading. Removal of 21\nProtected Trees on approx. 5 acre parcel; 2.38 wildlife conservation easement proposed; Mitigated Neg.\nDeclaration issued. Brodin Residence (ENV-2021-4440-MND)",
   "urls": [
     "https://dpwlacity.primegov.com/Public/CompiledDocument?meetingTemplateId=14102&compileOutputType=1"
-  ]
+  ],
+  "summary": "The committee is deciding whether to send a letter on a proposed large home with a pool and heavy grading at 3593 N. Multiview Dr, which would remove 21 protected trees on about five acres before a December 4 hearing.",
+  "topics": [
+    "land_use",
+    "housing",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "3593 N Multiview Dr, Los Angeles, CA",
+      "lat": 34.129912,
+      "lon": -118.363291,
+      "neighborhood": "Studio City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ENV-2021-4440-MND"
+    ],
+    "action": "discussion and possible motion to send a letter"
+  },
+  "flag": {
+    "reason": "Tree removals in the Hollywood Hills area, a watched neighborhood."
+  }
 }

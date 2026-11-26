@@ -8,5 +8,22 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0900-S17"
-  ]
+  ],
+  "summary": "Hearing on protests against a proposed street lighting district for 96th Street and Bellanca Avenue in Council District 11, covering its improvement and maintenance under Proposition 218. Ballots are tabulated December 2, with the final ordinance set for January 12, 2027.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "96th St & Bellanca Ave, Los Angeles, CA",
+      "lat": 33.949377,
+      "lon": -118.380245,
+      "neighborhood": "Westchester"
+    }
+  ],
+  "details": {
+    "council_file": "26-0900-S17",
+    "council_district": 11,
+    "action": "protest hearing on proposed street lighting district"
+  }
 }

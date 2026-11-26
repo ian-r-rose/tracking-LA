@@ -8,5 +8,16 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/14-0955-S11"
-  ]
+  ],
+  "summary": "Council is accepting a $1,393,000 county grant for LAPD real estate fraud prosecution work, which funds four detective positions through June 30, 2027 with no city match.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "acceptance of grant award and authorization of positions",
+    "amount": "$1,393,000",
+    "council_file": "14-0955-S11"
+  }
 }

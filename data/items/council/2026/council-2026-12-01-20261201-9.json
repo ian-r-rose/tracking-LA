@@ -8,5 +8,22 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0900-S18"
-  ]
+  ],
+  "summary": "Hearing on protests against a proposed street lighting district for Catamaran Street and Pacific Avenue in Council District 11, covering its improvement and maintenance under Proposition 218. Ballots are tabulated December 2, with the final ordinance set for January 12, 2027.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Catamaran St & Pacific Ave, Los Angeles, CA",
+      "lat": 33.978123,
+      "lon": -118.46439,
+      "neighborhood": "Venice"
+    }
+  ],
+  "details": {
+    "council_file": "26-0900-S18",
+    "council_district": 11,
+    "action": "protest hearing on proposed street lighting district"
+  }
 }

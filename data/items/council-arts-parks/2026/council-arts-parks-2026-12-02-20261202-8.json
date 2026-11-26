@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1641"
-  ]
+  ],
+  "summary": "Authorization for General Services to sign a no-cost, revocable license with Palisades Village Co., LLC for LAPD drone equipment on rooftop space at 15279 Sunset Boulevard.",
+  "topics": [
+    "public_safety",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "15279 Sunset Boulevard, Los Angeles, CA",
+      "lat": 34.046986,
+      "lon": -118.525442,
+      "neighborhood": "Pacific Palisades"
+    }
+  ],
+  "details": {
+    "council_file": "26-1641",
+    "council_district": 11,
+    "applicant": "Palisades Village Co., LLC",
+    "action": "no-cost revocable license agreement"
+  }
 }

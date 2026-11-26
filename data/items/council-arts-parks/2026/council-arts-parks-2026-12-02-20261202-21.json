@@ -8,5 +8,26 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1486"
-  ]
+  ],
+  "summary": "Expands the design work for Segment 8 of the LARiverWay Valley Completion Project to study Whitsett Avenue and add a new crossing, with a contribution from Harvard-Westlake School.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Whitsett Avenue, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 4,
+    "case_numbers": [
+      "26-1486"
+    ],
+    "action": "motion to expand design scope",
+    "council_file": "26-1486"
+  },
+  "flag": {
+    "reason": "LA River greenway segment affecting public open space and crossings."
+  }
 }

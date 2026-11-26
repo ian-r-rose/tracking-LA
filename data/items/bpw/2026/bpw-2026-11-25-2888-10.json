@@ -15,5 +15,22 @@
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25573",
     "vote": "3-0",
     "recorded": "2026-11-26"
+  },
+  "summary": "Street lighting maintenance assessment hearing for 96th Street and Bellanca Avenue; no protests were filed, and the board recommends the council confirm the proposed assessment at its December 1 hearing.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "96th St & Bellanca Ave, Los Angeles, CA",
+      "lat": 33.949377,
+      "lon": -118.380245,
+      "neighborhood": "Westchester"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "council_file": "26-0900-S17",
+    "action": "street lighting assessment hearing"
   }
 }

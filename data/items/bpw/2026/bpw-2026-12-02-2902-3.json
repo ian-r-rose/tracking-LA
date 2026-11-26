@@ -8,5 +8,20 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25550",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=ff2fdeb8-cefc-4cf2-8a96-0eff6b78c450"
-  ]
+  ],
+  "summary": "Award of a $5,468,295 contract to Toro Enterprises, the lowest responsive bidder, for neighborhood safety improvements around Alexandria Avenue Elementary School under the Active Transportation Program.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Alexandria Avenue Elementary School, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$5,468,295",
+    "bureau": "Bureau of Engineering"
+  }
 }

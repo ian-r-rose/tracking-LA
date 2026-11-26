@@ -8,5 +8,22 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-263.pdf"
-  ]
+  ],
+  "summary": "The commission will consider a grant of right letting Public Works carry out sidewalk repairs at Stoner Recreation Center under the city's Sidewalk Repair Program.",
+  "topics": [
+    "parks",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Stoner Recreation Center",
+      "lat": 34.038125,
+      "lon": -118.454083,
+      "neighborhood": "Sawtelle"
+    }
+  ],
+  "details": {
+    "action": "grant of right",
+    "bureau": "Department of Public Works"
+  }
 }

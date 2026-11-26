@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81606"
-  ]
+  ],
+  "summary": "Extends the terms of ten rental car concession agreements at LAX by 12 months, including those held by Hertz, Avis, Enterprise and Sixt.",
+  "topics": [
+    "land_use",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "amendments to concession agreements (12-month term extension)",
+    "applicant": "Hertz Corporation and nine other rental car concessionaires"
+  }
 }

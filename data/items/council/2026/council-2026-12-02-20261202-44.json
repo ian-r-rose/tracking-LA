@@ -8,5 +8,19 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/21-1188-S16"
-  ]
+  ],
+  "summary": "Raises the legal services contract with Beveridge & Diamond over the 2021 Hyperion flooding incident by $1.5 million, bringing the total to $7.45 million.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Hyperion Water Reclamation Plant"
+    }
+  ],
+  "details": {
+    "council_file": "21-1188-S16",
+    "action": "contract amendment",
+    "amount": "$1.5 million"
+  }
 }

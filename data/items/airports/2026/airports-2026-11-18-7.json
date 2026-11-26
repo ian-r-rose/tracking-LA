@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81587"
-  ]
+  ],
+  "summary": "Awards a five-year on-call contract to Traffic Loops Crackfilling for installing and maintaining traffic loop detectors at LAX and Van Nuys Airport, capped at $750,000.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    },
+    {
+      "text": "Van Nuys Airport, Van Nuys, CA"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$750,000"
+  }
 }

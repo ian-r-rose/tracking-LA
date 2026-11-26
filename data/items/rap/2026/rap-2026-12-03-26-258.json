@@ -8,5 +8,21 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-258.pdf"
-  ]
+  ],
+  "summary": "The commission will give final acceptance to the outdoor park improvements at South Park Recreation Center and reallocate zone change fees to that project.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "South Park Recreation Center",
+      "lat": 33.997519,
+      "lon": -118.267435,
+      "neighborhood": "South Park"
+    }
+  ],
+  "details": {
+    "action": "final acceptance and reallocation of zone change fees"
+  }
 }

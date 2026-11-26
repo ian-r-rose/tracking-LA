@@ -8,5 +8,19 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81575"
-  ]
+  ],
+  "summary": "Airport police will receive a $963,000 federal Justice Department grant to buy patrol vehicles, equipment and upgrades for the LAX police division.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "acceptance of grant award",
+    "amount": "$963,000"
+  }
 }

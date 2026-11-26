@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1626"
-  ]
+  ],
+  "summary": "Motion to approve a use agreement for City-owned Parking Lot No. 7 in Little Tokyo, formalizing the Little Tokyo Service Center's and nearby businesses' long-standing use of the lot.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "140 Judge John Aiso Street, Los Angeles, CA",
+      "lat": 34.050741,
+      "lon": -118.240498,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "council_file": "26-1626",
+    "council_district": 14,
+    "action": "use agreement"
+  },
+  "flag": {
+    "reason": "City parking lot in Little Tokyo, in Downtown, a watched neighborhood."
+  }
 }

@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-transportation-v1.pdf",
     "https://lms.lacity.gov/files/26-0600-S106"
-  ]
+  ],
+  "summary": "LADOT reports on how revenue from the Speed Safety System Pilot Program should be reinvested.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0600-S106",
+    "action": "report on revenue reinvestment"
+  }
 }

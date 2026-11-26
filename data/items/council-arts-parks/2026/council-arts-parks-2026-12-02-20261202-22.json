@@ -8,5 +8,29 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1326"
-  ]
+  ],
+  "summary": "Directs negotiation of a lease with CIM Group for a City-owned retail/office suite at 1710 North Cherokee Avenue, Suite C.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1710 North Cherokee Avenue, Los Angeles, CA",
+      "lat": 34.102039,
+      "lon": -118.334706,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "case_numbers": [
+      "26-1326"
+    ],
+    "applicant": "CIM Group",
+    "action": "negotiate lease agreement",
+    "council_file": "26-1326"
+  },
+  "flag": {
+    "reason": "City-owned property in Hollywood, a watched neighborhood."
+  }
 }

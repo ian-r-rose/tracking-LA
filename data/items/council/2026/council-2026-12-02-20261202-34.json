@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/25-1474"
-  ]
+  ],
+  "summary": "Council is receiving, without action, Finance Department reports on what raising the small business exemption thresholds in the city's business tax would cost.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "action": "note and file fiscal impact reports",
+    "council_file": "25-1474"
+  }
 }

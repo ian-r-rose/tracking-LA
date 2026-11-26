@@ -8,5 +8,36 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1529"
-  ]
+  ],
+  "summary": "Council is starting proceedings to vacate parts of the north side of College Street between Yale and Hill streets, and directing the Bureau of Engineering to study whether the request is feasible.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "College St & Yale St, Los Angeles, CA",
+      "lat": 34.064883,
+      "lon": -118.239962,
+      "neighborhood": "Chinatown"
+    },
+    {
+      "text": "College St & Hill St, Los Angeles, CA",
+      "lat": 34.064442,
+      "lon": -118.238715,
+      "neighborhood": "Chinatown"
+    }
+  ],
+  "details": {
+    "council_district": 1,
+    "case_numbers": [
+      "VAC-E1401473"
+    ],
+    "action": "initiation of street vacation proceedings",
+    "amount": "$14,980",
+    "bureau": "Bureau of Engineering",
+    "council_file": "26-1529"
+  },
+  "flag": {
+    "reason": "Street vacation in Chinatown, a watched neighborhood."
+  }
 }

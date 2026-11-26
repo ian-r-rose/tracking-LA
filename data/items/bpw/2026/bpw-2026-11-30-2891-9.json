@@ -8,5 +8,19 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=fe323394-343e-45a9-af93-d074feb7bbb0"
-  ]
+  ],
+  "summary": "Gives the Bureau of Sanitation director authority to solicit and shortlist project developers and select one to design, build and operate phase 1A of recycled water infrastructure at the Hyperion Water Reclamation Plant, with the contract award returning to the Board later.",
+  "topics": [
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Hyperion Water Reclamation Plant"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "action": "request for authority to select project developer",
+    "bureau": "Bureau of Sanitation"
+  }
 }

@@ -8,5 +8,30 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/24-1542-S1"
-  ]
+  ],
+  "summary": "Second amendment to the operating agreement with Legends Global Arena Management for the Los Angeles Equestrian Center at 480 Riverside Drive.",
+  "topics": [
+    "parks",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "480 Riverside Drive, Los Angeles, CA",
+      "lat": 34.161291,
+      "lon": -118.309806,
+      "neighborhood": null
+    }
+  ],
+  "details": {
+    "council_district": 4,
+    "case_numbers": [
+      "24-1542-S1"
+    ],
+    "applicant": "Legends Global Arena Management, LLC",
+    "action": "amendment to operating agreement",
+    "council_file": "24-1542-S1"
+  },
+  "flag": {
+    "reason": "Agreement for the Equestrian Center next to Griffith Park, a watched neighborhood."
+  }
 }

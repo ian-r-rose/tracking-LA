@@ -11,5 +11,22 @@
     "https://kentico.portoflosangeles.org/getmedia/11c734a2-ca4c-4c22-aa98-795048adbe01/01_Cargo-Marketing_FTZ-Kansas-Site-45_-Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/b52594db-2983-4136-9f13-e50e8775236e/01_Cargo-Marketing_FTZ-Kansas-Site-45_-Transmittal-2",
     "https://kentico.portoflosangeles.org/getmedia/db81996a-4285-403e-82a9-cf6efb7426b8/01_-Cargo-Marketing_FTZ-Kansas-Site-45_-Transmittal-3"
-  ]
+  ],
+  "summary": "Approves a five-year Foreign-Trade Zone operating agreement letting Kansas Marine run its three-acre warehouse at 625 Kohler Street as a multi-usage zone site, with the Harbor Department receiving $7,750 a year.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "625 Kohler Street, Los Angeles, CA 90021",
+      "lat": 34.038707,
+      "lon": -118.24128,
+      "neighborhood": "Downtown"
+    }
+  ],
+  "details": {
+    "applicant": "Kansas Marine, LLC",
+    "action": "Foreign-Trade Zone operating agreement approval",
+    "amount": "$7,750"
+  }
 }

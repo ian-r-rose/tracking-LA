@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S209"
-  ]
+  ],
+  "summary": "The Housing Department asks council to remove the property at 4081 South Hillcrest Drive from the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "4081 S Hillcrest Dr, Los Angeles, CA",
+      "lat": 34.011989,
+      "lon": -118.348442,
+      "neighborhood": "Baldwin Hills/Crenshaw"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "967829"
+    ],
+    "council_file": "26-0005-S209",
+    "council_district": 10,
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

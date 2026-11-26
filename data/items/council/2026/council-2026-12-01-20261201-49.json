@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/11-1019"
-  ]
+  ],
+  "summary": "Council would revive an expired Council file on creating a regional governance system for Neighborhood Councils, restoring it to the status it had when it lapsed.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "11-1019",
+    "action": "reactivate expired council file"
+  }
 }

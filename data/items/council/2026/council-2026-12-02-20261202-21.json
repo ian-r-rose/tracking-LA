@@ -8,5 +8,20 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1460-S1"
-  ]
+  ],
+  "summary": "Pacific Harbor Line is appealing the Port's environmental (CEQA) exemption for the rail operating agreement with Alameda Belt Line.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Port of Los Angeles, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "applicant": "Pacific Harbor Line, Inc.",
+    "action": "appeal of CEQA exemption",
+    "council_file": "26-1460-S1"
+  }
 }

@@ -15,5 +15,22 @@
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25526",
     "vote": "4-0",
     "recorded": "2026-11-25"
+  },
+  "summary": "Amendment to Geosyntec Consultants' task order for soil sampling and removal ahead of a future Spring Street crosswalk in Council District 1, raising the total budget to $271,300 including contingency.",
+  "topics": [
+    "budget",
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Spring Street, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_district": 1,
+    "applicant": "Geosyntec Consultants Inc.",
+    "action": "amendment to task order solicitation",
+    "amount": "$271,300",
+    "bureau": "Bureau of Sanitation"
   }
 }

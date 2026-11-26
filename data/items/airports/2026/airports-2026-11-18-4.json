@@ -8,5 +8,20 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81581"
-  ]
+  ],
+  "summary": "Approves a one-year lease with UPS for a building at 2825 East Avenue P in Palmdale, with estimated revenue of $772,480 over the term.",
+  "topics": [
+    "land_use",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "2825 East Avenue P, Palmdale, CA"
+    }
+  ],
+  "details": {
+    "action": "one-year lease",
+    "applicant": "United Parcel Service Inc.",
+    "amount": "$772,480"
+  }
 }

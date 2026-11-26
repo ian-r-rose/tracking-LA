@@ -8,5 +8,16 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1679"
-  ]
+  ],
+  "summary": "Council would approve the Del Rey Neighborhood Council's 2027 street banner campaign under the city's non-event banner program, including the banner design.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 11,
+    "council_file": "26-1679",
+    "action": "approve non-event street banner program",
+    "applicant": "Del Rey Neighborhood Council"
+  }
 }

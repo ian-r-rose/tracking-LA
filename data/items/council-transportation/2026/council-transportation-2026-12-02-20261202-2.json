@@ -8,5 +8,18 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-transportation-v1.pdf",
     "https://lms.lacity.gov/files/26-1663"
-  ]
+  ],
+  "summary": "A motion asks for a Class IV separated bikeway on Adams Boulevard as part of the Adams Boulevard Safety Project.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "Adams Blvd, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "council_file": "26-1663",
+    "action": "motion"
+  }
 }

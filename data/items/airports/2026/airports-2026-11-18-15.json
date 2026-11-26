@@ -9,5 +9,20 @@
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81604",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81631"
-  ]
+  ],
+  "summary": "Approves a 10-year non-exclusive luggage cart concession with Smarte Carte at LAX, with three one-year extension options and about $2.5 million in estimated revenue over the initial term.",
+  "topics": [
+    "land_use",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "concession agreement",
+    "applicant": "Smarte Carte Inc.",
+    "amount": "$2,500,000"
+  }
 }

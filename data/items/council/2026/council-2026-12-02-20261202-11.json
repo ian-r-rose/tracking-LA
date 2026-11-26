@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0149"
-  ]
+  ],
+  "summary": "Council would request a written status report from the Port of Los Angeles on the Goods Movement Training Campus, including Long Beach's role, the site, funding and the state grant, and next steps.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0149",
+    "action": "request for written status report from Port of Los Angeles"
+  }
 }

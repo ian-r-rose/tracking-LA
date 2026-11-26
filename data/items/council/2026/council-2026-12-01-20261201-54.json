@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/25-0006-S38"
-  ]
+  ],
+  "summary": "Council would commit up to half of the city's property tax increment for up to 25 years to a proposed Pacific Palisades Disaster Recovery District, pending County participation and a later resolution to form it.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 11,
+    "council_file": "25-0006-S38",
+    "action": "formation of Pacific Palisades Disaster Recovery District"
+  }
 }

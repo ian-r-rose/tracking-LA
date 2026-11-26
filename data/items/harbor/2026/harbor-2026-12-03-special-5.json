@@ -10,5 +10,21 @@
     "https://kentico.portoflosangeles.org/getmedia/4cf700f1-2f4d-4e65-856a-f34542e50f18/05_Cargo-Real-Estate_GSD_board-report",
     "https://kentico.portoflosangeles.org/getmedia/e85bd989-c728-4ed7-95b0-50967172b28c/05_Cargo-Real-Estate_GSD_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/1cbe37a6-e7f6-46ee-a657-7964ed89aa5a/05_Cargo-Real-Estate_GSD_Transmittal-2"
-  ]
+  ],
+  "summary": "Extends by six months the city's revocable permit for a transitional shelter for unhoused people at 826 Eubank Avenue in Wilmington, so restoration work can finish, and shortens the termination notice from 120 to 30 days.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "826 Eubank Ave, Los Angeles, CA",
+      "lat": 33.780719,
+      "lon": -118.254946,
+      "neighborhood": "Wilmington"
+    }
+  ],
+  "details": {
+    "applicant": "City of Los Angeles General Services Department",
+    "action": "first amendment to revocable permit"
+  }
 }

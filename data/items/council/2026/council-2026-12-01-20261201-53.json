@@ -8,5 +8,106 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-4118-S13"
-  ]
+  ],
+  "summary": "Council would designate 15 Council District 5 locations, mostly near schools, daycares and other public-safety sites, where the city can enforce bans on sitting, lying, sleeping or storing belongings in the public right-of-way.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [
+    {
+      "text": "3734 Overland Avenue, Los Angeles, CA",
+      "lat": 34.020361,
+      "lon": -118.408172,
+      "neighborhood": "Palms"
+    },
+    {
+      "text": "10401 Venice Boulevard, Los Angeles, CA",
+      "lat": 34.020558,
+      "lon": -118.404094,
+      "neighborhood": "Palms"
+    },
+    {
+      "text": "8511 Beverly Place, Los Angeles, CA",
+      "lat": 34.076662,
+      "lon": -118.376779,
+      "neighborhood": "Beverly Grove"
+    },
+    {
+      "text": "989 South St. Andrews Place, Los Angeles, CA",
+      "lat": 34.052991,
+      "lon": -118.311219,
+      "neighborhood": "Koreatown"
+    },
+    {
+      "text": "10525 Venice Boulevard, Los Angeles, CA",
+      "lat": 34.019639,
+      "lon": -118.405144,
+      "neighborhood": "Palms"
+    },
+    {
+      "text": "10860 Santa Monica Boulevard, Los Angeles, CA",
+      "lat": 34.049481,
+      "lon": -118.436834,
+      "neighborhood": "West Los Angeles"
+    },
+    {
+      "text": "11043 West Pico Boulevard, Los Angeles, CA",
+      "lat": 34.037714,
+      "lon": -118.433719,
+      "neighborhood": "West Los Angeles"
+    },
+    {
+      "text": "La Cienega Boulevard & Beverly Boulevard, Los Angeles, CA",
+      "lat": 34.076043,
+      "lon": -118.3766,
+      "neighborhood": "Beverly Grove"
+    },
+    {
+      "text": "Orlando Boulevard & Beverly Boulevard, Los Angeles, CA",
+      "lat": 34.076061,
+      "lon": -118.373157,
+      "neighborhood": "Beverly Grove"
+    },
+    {
+      "text": "8700 Beverly Boulevard, Los Angeles, CA"
+    },
+    {
+      "text": "110 North George Burns Road, Los Angeles, CA",
+      "lat": 34.074478,
+      "lon": -118.381596,
+      "neighborhood": "Beverly Grove"
+    },
+    {
+      "text": "8723 West Alden Drive, Los Angeles, CA",
+      "lat": 34.075356,
+      "lon": -118.383095,
+      "neighborhood": "Beverly Grove"
+    },
+    {
+      "text": "8575 West 3rd Street, Los Angeles, CA",
+      "lat": 34.073646,
+      "lon": -118.379012,
+      "neighborhood": "Beverly Grove"
+    },
+    {
+      "text": "444 South San Vicente Boulevard, Los Angeles, CA",
+      "lat": 34.070128,
+      "lon": -118.375511,
+      "neighborhood": "Beverly Grove"
+    },
+    {
+      "text": "350 La Cienega Boulevard, Los Angeles, CA",
+      "lat": 34.077239,
+      "lon": -118.376551,
+      "neighborhood": "Beverly Grove"
+    }
+  ],
+  "details": {
+    "council_district": 5,
+    "council_file": "26-4118-S13",
+    "action": "resolution designating right-of-way enforcement locations"
+  },
+  "flag": {
+    "reason": "Enforcement sites in Koreatown, a watched neighborhood."
+  }
 }

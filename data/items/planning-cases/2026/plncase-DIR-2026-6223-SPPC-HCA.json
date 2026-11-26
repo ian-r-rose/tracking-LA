@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: DIR-2026-6223-SPPC-HCA\nAddress: 3755 N CAZADOR ST\nFiled: 2026-11-25\nCouncil district: 1\nCommunity plan area: Northeast Los Angeles\nDescription: Mt. Washington SPPC approval for new SFD, w/ attached garage and JADU",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-6223-SPPC-HCA"
-  ]
+  ],
+  "summary": "Mt. Washington Specific Plan approval of a new single-family home with an attached garage and junior accessory dwelling unit at 3755 N Cazador St.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "3755 N Cazador St, Los Angeles, CA",
+      "lat": 34.110145,
+      "lon": -118.225852,
+      "neighborhood": "Glassell Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "DIR-2026-6223-SPPC-HCA"
+    ],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "action": "Mt. Washington Specific Plan approval"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
+  }
 }

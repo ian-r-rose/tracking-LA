@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1684"
-  ]
+  ],
+  "summary": "Council would approve the final parcel map for 5500 North Melvin Avenue in Council District 3, along with its subdivision improvement agreement and security documents.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5500 North Melvin Avenue, Los Angeles, CA",
+      "lat": 34.170625,
+      "lon": -118.559273,
+      "neighborhood": "Tarzana"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "council_file": "26-1684",
+    "action": "final parcel map approval",
+    "applicant": "Janet Aslanian (owner)",
+    "amount": "$9,064.00"
+  }
 }

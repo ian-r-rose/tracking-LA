@@ -8,5 +8,14 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-6220-SPPC-HCA",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-6221-EAF"
-  ]
+  ],
+  "summary": "Mt. Washington Specific Plan review of a new single-family home with an attached junior accessory dwelling unit on Lot 96 of Tract 8254.",
+  "topics": ["land_use", "housing"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["DIR-2026-6220-SPPC-HCA", "ENV-2026-6221-EAF"],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "action": "Mt. Washington Specific Plan review"
+  }
 }

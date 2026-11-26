@@ -8,5 +8,23 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1471"
-  ]
+  ],
+  "summary": "Accepts grant money for habitat restoration, beautification and safety work on the Studio City section of the LA River Greenway, and orders signs renaming it the Melanie Winter Studio City LA River Greenway.",
+  "topics": [
+    "parks",
+    "environment",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "LA River Greenway, Studio City, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-1471"
+    ],
+    "action": "grant acceptance and signage for renaming",
+    "council_file": "26-1471"
+  }
 }

@@ -8,5 +8,31 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25550",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9c061bff-44f2-4166-87cd-4d0c710e0e55"
-  ]
+  ],
+  "summary": "Approval of a permit to remove 34 street trees along North Vineland Avenue and West Colorado Boulevard for the North Hollywood to Pasadena bus rapid transit project, with replacement trees required.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "4900 N Vineland Ave, Los Angeles, CA",
+      "lat": 34.159661,
+      "lon": -118.370188,
+      "neighborhood": "North Hollywood"
+    },
+    {
+      "text": "1500 W Colorado Blvd, Los Angeles, CA",
+      "lat": 34.139121,
+      "lon": -118.19823,
+      "neighborhood": "Eagle Rock"
+    }
+  ],
+  "details": {
+    "action": "tree removal permit",
+    "bureau": "Bureau of Street Services"
+  },
+  "flag": {
+    "reason": "Tree removals in Eagle Rock, a watched neighborhood, for a bus rapid transit line."
+  }
 }

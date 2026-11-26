@@ -7,5 +7,28 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: ADM-2026-6207-RBPA\nAddress: 1700 W SUNSET BLVD\nFiled: 2026-11-24\nCouncil district: 13\nCommunity plan area: Silver Lake - Echo Park - Elysian Valley\nDescription: ADMINISTRATIVE CLEARANCE UNDER THE RESTAURANT BEVERAGE PROGRAM (RBP) TO ALLOW THE SALE AND DISPENSING OF ALCOHOLIC BEVERAGES FOR ON-SITE CONSUMPTION IN CONJUNCTION WITH A RESTAURANT",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ADM-2026-6207-RBPA"
-  ]
+  ],
+  "summary": "Request for administrative clearance under the Restaurant Beverage Program so a restaurant at 1700 W Sunset Blvd can sell and serve alcohol for on-site consumption.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1700 W Sunset Blvd, Los Angeles, CA",
+      "lat": 34.077196,
+      "lon": -118.258513,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ADM-2026-6207-RBPA"
+    ],
+    "council_district": 13,
+    "plan_area": "Silver Lake - Echo Park - Elysian Valley",
+    "action": "administrative clearance under Restaurant Beverage Program"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
+  }
 }

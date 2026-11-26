@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S208"
-  ]
+  ],
+  "summary": "The Housing Department asks council to remove the property at 8204 South Harvard Boulevard from the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "8204 S Harvard Blvd, Los Angeles, CA",
+      "lat": 33.964496,
+      "lon": -118.306774,
+      "neighborhood": "Manchester Square"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "795319"
+    ],
+    "council_file": "26-0005-S208",
+    "council_district": 8,
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

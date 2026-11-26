@@ -8,5 +8,25 @@
   "urls": [
     "https://metro.legistar.com/MeetingDetail.aspx?LEGID=3555&GID=557&G=A5FAA737-A54D-4A6C-B1E8-FF70F765FA94",
     "https://metro.legistar.com/LegislationDetail.aspx?ID=12974&GUID=C72834BD-565B-49E3-8ABB-7CAE94376CCA"
-  ]
+  ],
+  "summary": "A motion would have Metro plan first/last-mile access and a transit-oriented development study at the Sun Valley Metrolink Station, check Sylmar Metrolink Station improvements, and coordinate the Brighton to Roxford double-track project with high-speed rail.",
+  "topics": [
+    "transportation",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Sun Valley Metrolink Station"
+    },
+    {
+      "text": "Sylmar Metrolink Station"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "2026-0872"
+    ],
+    "applicant": "Padilla, Bass, Ayala, Horvath, and Barger",
+    "action": "motion directing staff to prepare plans and studies"
+  }
 }

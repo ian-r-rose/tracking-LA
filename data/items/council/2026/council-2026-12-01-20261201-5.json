@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0900-S14"
-  ]
+  ],
+  "summary": "Council would hold the required Proposition 218 protest hearing on the proposed St. George Street and Rowena Avenue lighting district for improvement and maintenance; ballots are tabulated December 2, 2026, and the final ordinance is slated for January 12, 2027.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 4,
+    "council_file": "26-0900-S14",
+    "action": "Proposition 218 protest hearing on street lighting district"
+  }
 }

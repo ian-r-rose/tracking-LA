@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/21-0270"
-  ]
+  ],
+  "summary": "Council approves the recommended operators for ten Los Angeles Business Source Centers and their centralized service providers for January through June 2027, with up to three one-year renewals, and sets a replacement operator list. The system is funded by federal CDBG money with no General Fund impact.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "21-0270",
+    "action": "contract authorization for business center operators"
+  }
 }

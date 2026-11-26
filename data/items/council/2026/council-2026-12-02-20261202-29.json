@@ -8,5 +8,23 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/11-0054-S3"
-  ]
+  ],
+  "summary": "Council is extending the exclusive negotiating agreement with 94B, LLC to develop city-owned land at 9402-9422 South Broadway, to June 1, 2027, with a possible six-month extension after that.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "9402 S Broadway, Los Angeles, CA",
+      "lat": 33.950874,
+      "lon": -118.278114,
+      "neighborhood": "Broadway-Manchester"
+    }
+  ],
+  "details": {
+    "council_district": 8,
+    "applicant": "94B, LLC",
+    "action": "amendment to exclusive negotiating agreement",
+    "council_file": "11-0054-S3"
+  }
 }

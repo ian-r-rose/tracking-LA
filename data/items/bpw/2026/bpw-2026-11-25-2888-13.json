@@ -15,5 +15,29 @@
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25573",
     "vote": "3-0",
     "recorded": "2026-11-26"
+  },
+  "summary": "Removal of 13 tulip trees to rebuild an inaccessible sidewalk on West Lorne Street and North Quakertown Avenue, with a CEQA finding that the project fits the city's existing sidewalk repair environmental review.",
+  "topics": [
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "19910 W Lorne St, Los Angeles, CA",
+      "lat": 34.217094,
+      "lon": -118.566957,
+      "neighborhood": "Winnetka"
+    },
+    {
+      "text": "8120 N Quakertown Ave, Los Angeles, CA",
+      "lat": 34.217212,
+      "lon": -118.569781,
+      "neighborhood": "Winnetka"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "action": "tree removal approval for sidewalk repair",
+    "bureau": "Bureau of Street Services"
   }
 }

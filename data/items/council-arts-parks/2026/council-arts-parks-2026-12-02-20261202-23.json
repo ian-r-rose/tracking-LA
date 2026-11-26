@@ -8,5 +8,46 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1606"
-  ]
+  ],
+  "summary": "Asks staff to evaluate three City-owned sites in Council District 13 for possible high-density mixed-use redevelopment, including a municipal office at 6501 Fountain Avenue, a former LADOT office at 411 North Vermont Avenue, and public parking lots and adjacent land near Sunset Boulevard and Lemoyne Street.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "6501 Fountain Ave, Los Angeles, CA",
+      "lat": 34.094418,
+      "lon": -118.330584,
+      "neighborhood": "Hollywood"
+    },
+    {
+      "text": "411 N Vermont Ave, Los Angeles, CA",
+      "lat": 34.077883,
+      "lon": -118.291761,
+      "neighborhood": "East Hollywood"
+    },
+    {
+      "text": "Sunset Blvd & Lemoyne St, Los Angeles, CA",
+      "lat": 34.077645,
+      "lon": -118.259388,
+      "neighborhood": "Echo Park"
+    },
+    {
+      "text": "1140 North Lemoyne Street, Los Angeles, CA",
+      "lat": 34.076072,
+      "lon": -118.260233,
+      "neighborhood": "Echo Park"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "case_numbers": [
+      "26-1606"
+    ],
+    "action": "evaluation of sites for mixed-use redevelopment",
+    "council_file": "26-1606"
+  },
+  "flag": {
+    "reason": "Would open City-owned sites in East Hollywood, Echo Park and Hollywood, all watched neighborhoods, to mixed-use redevelopment."
+  }
 }

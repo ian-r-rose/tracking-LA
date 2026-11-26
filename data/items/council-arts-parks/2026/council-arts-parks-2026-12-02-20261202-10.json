@@ -8,5 +8,31 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/25-0782"
-  ]
+  ],
+  "summary": "Renews a city franchise letting PS Storage's successor operate an information technology systems facility in the public right-of-way at 1617 Pontius Avenue and 1606 Cotner Avenue.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "1617 Pontius Ave, Los Angeles, CA",
+      "lat": 34.048523,
+      "lon": -118.445956,
+      "neighborhood": "Sawtelle"
+    },
+    {
+      "text": "1606 Cotner Ave, Los Angeles, CA",
+      "lat": 34.048208,
+      "lon": -118.446883,
+      "neighborhood": "Sawtelle"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "25-0782"
+    ],
+    "applicant": "PS Southern California One, LLC, successor to PS Storage REIT",
+    "action": "franchise renewal",
+    "council_file": "25-0782"
+  }
 }

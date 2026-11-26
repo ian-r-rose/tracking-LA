@@ -8,5 +8,23 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-265.pdf"
-  ]
+  ],
+  "summary": "The commission will consider a 2026 ticket price increase for the Griffith Park train ride concession, including the Holiday Lights Train Ride.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Griffith Park",
+      "lat": 34.13199,
+      "lon": -118.296791,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "ticket price increase"
+  },
+  "flag": {
+    "reason": "Griffith Park concession pricing."
+  }
 }

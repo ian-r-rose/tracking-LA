@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S210"
-  ]
+  ],
+  "summary": "The Housing Department asks council to remove the property at 6304 South Vista del Mar from the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "6304 S Vista Del Mar, Los Angeles, CA",
+      "lat": 33.962604,
+      "lon": -118.450793,
+      "neighborhood": "Playa del Rey"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "900305"
+    ],
+    "council_file": "26-0005-S210",
+    "council_district": 11,
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

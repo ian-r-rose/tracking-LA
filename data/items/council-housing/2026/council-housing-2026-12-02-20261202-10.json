@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0782"
-  ]
+  ],
+  "summary": "Housing Department proposed policy framework for a pilot tax incentive program under United to House LA (ULA).",
+  "topics": [
+    "housing",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0782",
+    "action": "policy framework for pilot tax incentive program"
+  }
 }

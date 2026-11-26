@@ -8,5 +8,27 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1676"
-  ]
+  ],
+  "summary": "Council would fund operations and upkeep of three Council District 3 arts venues, the Madrid Theatre, Taxco Theater and Canoga Park Youth Arts Center, by setting up a Canoga Park Arts Hub account and moving $500,000 in redevelopment funds into it.",
+  "topics": [
+    "budget",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Madrid Theatre"
+    },
+    {
+      "text": "Taxco Theater"
+    },
+    {
+      "text": "Canoga Park Youth Arts Center"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "council_file": "26-1676",
+    "action": "appropriation for venue operations and maintenance",
+    "amount": "$500,000"
+  }
 }

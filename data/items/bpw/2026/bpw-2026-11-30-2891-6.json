@@ -8,5 +8,23 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=407baefb-55c1-4bdd-a2c5-44db60dc82ea"
-  ]
+  ],
+  "summary": "Approves a permit to remove three protected Southern California walnut trees at 4751 North Via Colina, with replacement trees required.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "4751 N Via Colina, Los Angeles, CA",
+      "lat": 34.100838,
+      "lon": -118.182909,
+      "neighborhood": "Montecito Heights"
+    }
+  ],
+  "details": {
+    "council_district": 14,
+    "action": "tree removal fee permit",
+    "bureau": "Bureau of Street Services"
+  }
 }

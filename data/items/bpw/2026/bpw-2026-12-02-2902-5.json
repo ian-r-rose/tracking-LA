@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25550",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=6474801f-1cf0-4164-8943-fb2b6ad72804"
-  ]
+  ],
+  "summary": "A Bureau of Engineering informational report on the expansion of the Los Angeles Convention Center.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Convention Center, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "action": "informational report",
+    "bureau": "Bureau of Engineering"
+  }
 }

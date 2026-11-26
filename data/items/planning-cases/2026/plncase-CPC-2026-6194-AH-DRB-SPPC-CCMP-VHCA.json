@@ -7,5 +7,29 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: CPC-2026-6194-AH-DRB-SPPC-CCMP-VHCA\nAddress: 675 S CRENSHAW BLVD\nFiled: 2026-11-24\nCouncil district: 5\nCommunity plan area: Wilshire\nDescription: Construction of 2 100% affordable mixed-use bldgs w/ 196 D.U. approx. 99 feet in height, and 1 level of subterranean parking located in the CR(PKM)-1 and R3-1-HPOZ zones. Project is ministerial per AB 2011.",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/CPC-2026-6194-AH-DRB-SPPC-CCMP-VHCA"
-  ]
+  ],
+  "summary": "Proposed 100% affordable development at 675 S Crenshaw Blvd with two mixed-use buildings totaling 196 dwelling units, about 99 feet tall, reviewed as a ministerial project under AB 2011.",
+  "topics": [
+    "land_use",
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "675 S Crenshaw Blvd, Los Angeles, CA",
+      "lat": 34.061265,
+      "lon": -118.319419,
+      "neighborhood": "Mid-Wilshire"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "CPC-2026-6194-AH-DRB-SPPC-CCMP-VHCA"
+    ],
+    "council_district": 5,
+    "plan_area": "Wilshire",
+    "action": "ministerial project review under AB 2011"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
+  }
 }

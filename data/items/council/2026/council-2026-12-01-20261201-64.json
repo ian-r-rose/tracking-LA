@@ -8,5 +8,20 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/14-1174-S89"
-  ]
+  ],
+  "summary": "Council would decline to extend the Reseda Theatre development agreement past its December 31, 2026 close date, end it, return $377,789 in unspent redevelopment funds, and send up to $4.3 million in redevelopment funds to Cultural Affairs for the theatre's restoration.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Reseda Theatre"
+    }
+  ],
+  "details": {
+    "council_district": 3,
+    "council_file": "14-1174-S89",
+    "action": "declining to extend disposition and development agreement",
+    "amount": "$4,300,000"
+  }
 }

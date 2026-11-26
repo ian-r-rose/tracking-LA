@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/24-0005-S156"
-  ]
+  ],
+  "summary": "Housing Department request to remove a rental property at 25507 South Frampton Avenue from the Rent Escrow Account Program.",
+  "topics": [
+    "housing"
+  ],
+  "locations": [
+    {
+      "text": "25507 South Frampton Avenue, Los Angeles, CA",
+      "lat": 33.79238,
+      "lon": -118.299987,
+      "neighborhood": "Harbor City"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "920386"
+    ],
+    "council_file": "24-0005-S156",
+    "council_district": 15,
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

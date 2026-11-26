@@ -8,5 +8,27 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1639"
-  ]
+  ],
+  "summary": "Gives conceptual approval and a proposed lease to Heart of Los Angeles Youth, Inc. for the Green Meadows Pavilion project at 431 East 89th Street.",
+  "topics": [
+    "parks",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "431 East 89th Street, Los Angeles, CA",
+      "lat": 33.955656,
+      "lon": -118.26706,
+      "neighborhood": "Green Meadows"
+    }
+  ],
+  "details": {
+    "council_district": 9,
+    "case_numbers": [
+      "26-1639"
+    ],
+    "applicant": "Heart of Los Angeles Youth, Inc.",
+    "action": "conceptual approval and lease agreement",
+    "council_file": "26-1639"
+  }
 }

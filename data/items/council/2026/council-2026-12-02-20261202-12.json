@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1560"
-  ]
+  ],
+  "summary": "Council would approve five-year on-call construction management agreements with five firms for Port of Los Angeles projects, capped at $5 million each and $25 million combined.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Port of Los Angeles"
+    }
+  ],
+  "details": {
+    "council_file": "26-1560",
+    "council_district": 15,
+    "action": "five-year on-call consultant agreements",
+    "amount": "$25,000,000",
+    "applicant": "Integrated Engineering Management (IEM), CPM Partners, Inc., WSP USA Inc., Psomas, and Arcadis U.S., Inc."
+  }
 }

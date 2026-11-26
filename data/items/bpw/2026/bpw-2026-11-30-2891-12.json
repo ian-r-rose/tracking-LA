@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=8a825583-2e56-47b4-91ca-7bfea0f08694"
-  ]
+  ],
+  "summary": "Authorizes the City Engineer to issue Final Closeout Change Order No. 017 to Spiniello Infrastructure West for the NOS Rehabilitation Unit 10 project from the 101 Freeway to Cardinal Street, adjusting bid and allowance items.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Spiniello Infrastructure West, Inc.",
+    "council_district": 14,
+    "action": "final closeout change order",
+    "bureau": "Bureau of Engineering"
+  }
 }

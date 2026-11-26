@@ -10,5 +10,18 @@
     "https://kentico.portoflosangeles.org/getmedia/c055830a-8ecd-4b62-acb6-26bd3082b5e6/09_Waterfront-Real-Estate_LA_YACHT_CLUB_RP25-22",
     "https://kentico.portoflosangeles.org/getmedia/ec8d1b77-afc4-4089-89d0-0fe95d24dde5/09_Waterfront-Real-Estate_LA_YACHT_CLUB_RP25-22_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/3f60334d-f0ff-4b9f-a17c-297161fe0ebf/09_Waterfront-Real-Estate_LA_YACHT_CLUB_RP25-22_Transmittal-2"
-  ]
+  ],
+  "summary": "Gives the Los Angeles Yacht Club rent-free use of a 2,000 square foot dock called the Long Dock in San Pedro for up to about a year, for regatta berthing, passenger pickup and LA28 sail training.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Long Dock, San Pedro, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "applicant": "Los Angeles Yacht Club",
+    "action": "revocable permit approval"
+  }
 }

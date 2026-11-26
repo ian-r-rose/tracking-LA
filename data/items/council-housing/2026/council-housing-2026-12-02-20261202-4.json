@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S207"
-  ]
+  ],
+  "summary": "The Housing Department asks council to remove the property at 2743 East Boulder Street from the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "2743 E Boulder St, Los Angeles, CA",
+      "lat": 34.047162,
+      "lon": -118.201635,
+      "neighborhood": "Boyle Heights"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "894821"
+    ],
+    "council_file": "26-0005-S207",
+    "council_district": 14,
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

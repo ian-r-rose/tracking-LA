@@ -8,5 +8,25 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S206"
-  ]
+  ],
+  "summary": "The Housing Department asks council to remove the property at 860 West 73rd Street from the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "860 W 73rd St, Los Angeles, CA",
+      "lat": 33.973575,
+      "lon": -118.288668,
+      "neighborhood": "Vermont Knolls"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "759137"
+    ],
+    "council_file": "26-0005-S206",
+    "council_district": 8,
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

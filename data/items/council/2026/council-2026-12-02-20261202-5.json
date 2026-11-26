@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1573"
-  ]
+  ],
+  "summary": "Gives up part of a sanitary sewer easement on the property at 1112 North Chautauqua Boulevard, with the petitioner paying the recording fee.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1112 N Chautauqua Blvd, Los Angeles, CA",
+      "lat": 34.050064,
+      "lon": -118.517526,
+      "neighborhood": "Pacific Palisades"
+    }
+  ],
+  "details": {
+    "council_file": "26-1573",
+    "council_district": 11,
+    "action": "quitclaim of sanitary sewer easement",
+    "amount": "$12,000",
+    "bureau": "Bureau of Engineering"
+  }
 }

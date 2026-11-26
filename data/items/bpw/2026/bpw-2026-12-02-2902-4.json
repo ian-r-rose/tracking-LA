@@ -8,5 +8,13 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25550",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=7527e5c9-821d-41f1-be0d-3a410f47e0ac"
-  ]
+  ],
+  "summary": "An informational update from all city bureaus on community level contracting.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "informational report"
+  }
 }

@@ -8,5 +8,18 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/22-0055-S1"
-  ]
+  ],
+  "summary": "Extends the childcare center operating contract at Los Angeles International Airport with La Petite Academy by one year, to February 2, 2028, with no fiscal impact to the city.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport"
+    }
+  ],
+  "details": {
+    "council_file": "22-0055-S1",
+    "action": "contract amendment"
+  }
 }

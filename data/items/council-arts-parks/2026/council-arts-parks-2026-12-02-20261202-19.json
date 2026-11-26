@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1548"
-  ]
+  ],
+  "summary": "Starts a pilot to replace the Whitnall Dog Park parking lot gate with an automatic timed gate that opens and closes with posted park hours.",
+  "topics": [
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "5801 1/2 Whitnall Highway, Los Angeles, CA",
+      "lat": 34.175791,
+      "lon": -118.362136,
+      "neighborhood": "North Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-1548"
+    ],
+    "action": "pilot program motion",
+    "council_file": "26-1548"
+  }
 }

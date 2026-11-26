@@ -8,5 +8,65 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-4118-S11"
-  ]
+  ],
+  "summary": "Council is designating eight sites in Council District 6, including day cares, a library, a park, schools and a freeway ramp, where enforcement against sitting, lying, sleeping or storing personal property in the public right-of-way will apply after posted notice.",
+  "topics": [
+    "public_safety",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "8800 Woodman Ave, Los Angeles, CA 91331",
+      "lat": 34.229749,
+      "lon": -118.436176,
+      "neighborhood": "Arleta"
+    },
+    {
+      "text": "14030 Nordhoff St, Los Angeles, CA 91331",
+      "lat": 34.235266,
+      "lon": -118.438016,
+      "neighborhood": "Arleta"
+    },
+    {
+      "text": "13645 Roscoe Blvd, Los Angeles, CA 91402",
+      "lat": 34.221732,
+      "lon": -118.430158,
+      "neighborhood": "Panorama City"
+    },
+    {
+      "text": "8321 Lennox Ave, Los Angeles, CA 91402",
+      "lat": 34.221828,
+      "lon": -118.446018,
+      "neighborhood": "Panorama City"
+    },
+    {
+      "text": "8133 Vineland Ave, Los Angeles, CA 91352",
+      "lat": 34.218125,
+      "lon": -118.370406,
+      "neighborhood": "Sun Valley"
+    },
+    {
+      "text": "6952 Van Nuys Blvd, Los Angeles, CA 91405",
+      "lat": 34.196837,
+      "lon": -118.448677,
+      "neighborhood": "Van Nuys"
+    },
+    {
+      "text": "6725 Kester Ave, Los Angeles, CA 91405",
+      "lat": 34.192777,
+      "lon": -118.457522,
+      "neighborhood": "Van Nuys"
+    },
+    {
+      "text": "13906 Van Nuys Blvd, Los Angeles, CA 91331",
+      "lat": 34.256096,
+      "lon": -118.435709,
+      "neighborhood": "Arleta"
+    }
+  ],
+  "details": {
+    "council_district": 6,
+    "action": "designation of enforcement locations under LAMC 41.18",
+    "council_file": "26-4118-S11"
+  }
 }

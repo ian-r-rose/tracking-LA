@@ -8,5 +8,24 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-273.pdf"
-  ]
+  ],
+  "summary": "Transfers Recreation and Parks funds to cover operational needs at the Los Angeles Equestrian Center.",
+  "topics": [
+    "budget",
+    "parks"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles Equestrian Center",
+      "lat": 34.158736,
+      "lon": -118.307983,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "fund transfer"
+  },
+  "flag": {
+    "reason": "Equestrian Center funding next to Griffith Park."
+  }
 }

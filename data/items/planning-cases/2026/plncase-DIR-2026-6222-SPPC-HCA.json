@@ -7,5 +7,14 @@
   "text": "[New City Planning case filing (application, not yet decided)]\nCase numbers: DIR-2026-6222-SPPC-HCA\nAddress: TRACT: TR 8254 BLOCK: LOT: 97 ARB: 2\nFiled: 2026-11-25\nCouncil district: 1\nCommunity plan area: Northeast Los Angeles\nDescription: Mt. Washington SP review and approval for new SFD w/ attached garage and attached JADU",
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/DIR-2026-6222-SPPC-HCA"
-  ]
+  ],
+  "summary": "Mt. Washington Specific Plan review and approval of a new single-family home with an attached garage and junior accessory dwelling unit on Lot 97 of Tract 8254.",
+  "topics": ["land_use", "housing"],
+  "locations": [],
+  "details": {
+    "case_numbers": ["DIR-2026-6222-SPPC-HCA"],
+    "council_district": 1,
+    "plan_area": "Northeast Los Angeles",
+    "action": "Mt. Washington Specific Plan review and approval"
+  }
 }

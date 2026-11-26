@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/19-0468-S1"
-  ]
+  ],
+  "summary": "Extends the Port Optimizer software contract with Wabtec Transportation Systems by three years to November 2029, adding $14.8 million for a total of $56.3 million.",
+  "topics": [
+    "transportation",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Port of Los Angeles"
+    }
+  ],
+  "details": {
+    "council_file": "19-0468-S1",
+    "council_district": 15,
+    "action": "contract amendment",
+    "amount": "$14,781,600"
+  }
 }

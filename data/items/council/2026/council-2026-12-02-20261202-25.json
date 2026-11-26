@@ -8,5 +8,16 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/15-0010-S12"
-  ]
+  ],
+  "summary": "Council is renewing a city reward of up to $50,000 for information on the unsolved murder of Suren \"Chris\" Donoyan, for another six months.",
+  "topics": [
+    "public_safety"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 2,
+    "action": "reaffirmation and reinstatement of reward offer",
+    "amount": "$50,000",
+    "council_file": "15-0010-S12"
+  }
 }

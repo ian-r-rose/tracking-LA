@@ -10,5 +10,21 @@
     "https://kentico.portoflosangeles.org/getmedia/a23ac79f-2841-4d16-9fad-80de66226abf/07_Cargo-Real-Estate_Taylored-Transload-First-Amendment-to-P970-_Board-Report",
     "https://kentico.portoflosangeles.org/getmedia/6258b9b2-ddf3-4df2-b498-36d91ee1812d/07_Cargo-Real-Estate_Taylored-Transload-First-Amendment-to-P970_Transmittal-1",
     "https://kentico.portoflosangeles.org/getmedia/4530fb66-302f-4747-b21b-d9507704242d/07_Cargo-Real-Estate_Taylored-Transload-First-Amendment-to-P970_Transmittal-2"
-  ]
+  ],
+  "summary": "Amends the permit for a transloading facility at 2401 E. Pacific Coast Highway in Wilmington to add a 12-month termination option that either party can use, and sends it to City Council for approval.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "2401 E Pacific Coast Hwy, Los Angeles, CA",
+      "lat": 33.79172,
+      "lon": -118.233989,
+      "neighborhood": "Wilmington"
+    }
+  ],
+  "details": {
+    "applicant": "Taylored Transload LLC and Waterfront Logistics LLC",
+    "action": "first amendment to permit"
+  }
 }

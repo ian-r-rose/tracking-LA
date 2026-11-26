@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1515"
-  ]
+  ],
+  "summary": "Accepts a property owner's offer to dedicate a sidewalk easement at 22822 West Ventura Boulevard to the city.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [
+    {
+      "text": "22822 W Ventura Blvd, Los Angeles, CA",
+      "lat": 34.165743,
+      "lon": -118.624032,
+      "neighborhood": "Woodland Hills"
+    }
+  ],
+  "details": {
+    "council_file": "26-1515",
+    "council_district": 3,
+    "action": "accept offer of sidewalk easement dedication",
+    "amount": "$3,929",
+    "bureau": "Bureau of Engineering"
+  }
 }

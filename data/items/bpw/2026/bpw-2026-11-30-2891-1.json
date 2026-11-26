@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=53416c77-7faf-4e30-b88d-f3ea7c3644fd"
-  ]
+  ],
+  "summary": "Mayor-approved authority for the Bureau of Engineering to sign a Letter of Agreement for phase two of the Madrid Theatre renovation.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Madrid Theatre"
+    }
+  ],
+  "details": {
+    "action": "letter of agreement execution authority",
+    "bureau": "Bureau of Engineering"
+  }
 }

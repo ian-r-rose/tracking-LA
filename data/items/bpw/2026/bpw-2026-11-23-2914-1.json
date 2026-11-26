@@ -15,5 +15,19 @@
     "source": "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25526",
     "vote": "4-0",
     "recorded": "2026-11-25"
+  },
+  "summary": "Authorization to advertise a bid for basement rehabilitation at the Hyperion Water Reclamation Plant in Council District 11, with a $2.43 million estimate and bids due January 6, 2027.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Hyperion Water Reclamation Plant"
+    }
+  ],
+  "details": {
+    "council_district": 11,
+    "action": "authorization to advertise invitation for bids",
+    "amount": "$2,429,000"
   }
 }

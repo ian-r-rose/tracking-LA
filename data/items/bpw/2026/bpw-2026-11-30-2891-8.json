@@ -8,5 +8,18 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=9d14f6ae-8e99-4273-89a2-3a2ad34da8b5"
-  ]
+  ],
+  "summary": "Forwards to the Mayor an Amendment No. 5 to the sanitation bureau's agreement with Discovery Cube Los Angeles, adding $1.8 million for July 2026 through June 2027 for operational support and environmental events and programs.",
+  "topics": [
+    "budget",
+    "environment"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Discovery Cube Los Angeles (DCLA)",
+    "council_district": 7,
+    "action": "memorandum of understanding amendment (Amendment No. 5)",
+    "amount": "$1.8 million",
+    "bureau": "Bureau of Sanitation"
+  }
 }

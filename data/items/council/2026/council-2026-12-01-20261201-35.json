@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-0069"
-  ]
+  ],
+  "summary": "Council reprograms about $2.37 million in federal pandemic-era CDBG-CV funds to continue grants for microenterprises hurt by COVID-19 effects, and approves a $25,000 contract amendment and related budget transfers. The Community Investment Department reports no General Fund impact.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0069",
+    "action": "reprogramming of CDBG-CV funds",
+    "amount": "$2,373,622.24"
+  }
 }

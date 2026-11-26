@@ -8,5 +8,21 @@
   "urls": [
     "https://lawa.granicus.com/AgendaViewer.php?view_id=4&clip_id=1304",
     "https://lawa.granicus.com/MetaViewer.php?view_id=4&clip_id=1304&meta_id=81589"
-  ]
+  ],
+  "summary": "Awards a five-year contract to Downstream Services to clean and inspect sanitary sewer and storm drain lines at LAX and Van Nuys Airport, capped at $4.5 million.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Los Angeles International Airport, Los Angeles, CA"
+    },
+    {
+      "text": "Van Nuys Airport, Van Nuys, CA"
+    }
+  ],
+  "details": {
+    "action": "contract award",
+    "amount": "$4,500,000"
+  }
 }

@@ -8,5 +8,25 @@
   "urls": [
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/rap-meeting-agenda-12-3-2026-2.pdf",
     "https://recreation.parks.lacity.gov/sites/default/files/pdf/commissioner/2026/dec03/26-266.pdf"
-  ]
+  ],
+  "summary": "The commission will consider a grant of right to construct, operate and maintain a bike and pedestrian path with an adjacent equestrian trail as an extension of the Los Angeles River Bike Path in Griffith Park. It will also consider the project's final initial study and mitigated negative declaration.",
+  "topics": [
+    "parks",
+    "transportation",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "Griffith Park",
+      "lat": 34.13199,
+      "lon": -118.296791,
+      "neighborhood": "Griffith Park"
+    }
+  ],
+  "details": {
+    "action": "grant of right and consideration of mitigated negative declaration"
+  },
+  "flag": {
+    "reason": "Extends the LA River bike path into Griffith Park, a watched neighborhood and public park."
+  }
 }

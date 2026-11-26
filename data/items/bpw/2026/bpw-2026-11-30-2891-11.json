@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=52f6c28f-7a81-4f25-b80f-7d0d8c98b9aa"
-  ]
+  ],
+  "summary": "Awards Geronimo Concrete a $1.97 million contract for sidewalk repairs under Package No. 79 (CTIEP), the lowest responsive, responsible bid.",
+  "topics": [
+    "transportation"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "Geronimo Concrete, Inc.",
+    "council_district": 8,
+    "action": "contract award",
+    "amount": "$1,974,591.90",
+    "bureau": "Bureau of Engineering"
+  }
 }

@@ -8,5 +8,29 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2026-6114-CUB",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-6115-EAF"
-  ]
+  ],
+  "summary": "Conditional use permit to allow full-line alcohol sales with an existing restaurant at 5520 W Santa Monica Blvd, open 8 a.m. to 2 a.m.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "5520 W Santa Monica Blvd, Los Angeles, CA",
+      "lat": 34.090707,
+      "lon": -118.309944,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2026-6114-CUB",
+      "ENV-2026-6115-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood",
+    "action": "conditional use permit for alcohol sales"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
+  }
 }

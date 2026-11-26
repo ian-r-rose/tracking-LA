@@ -8,5 +8,24 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1589"
-  ]
+  ],
+  "summary": "Council is approving the quitclaim (release) of an 8-foot sewer and storm drain easement at 3845 Fletcher Drive for a $7,075.91 processing fee, and adopting the ordinance authorizing it.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "3845 Fletcher Dr, Los Angeles, CA",
+      "lat": 34.11951,
+      "lon": -118.233195,
+      "neighborhood": "Glassell Park"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "action": "quitclaim of sewer and storm drain easement",
+    "amount": "$7,075.91",
+    "bureau": "Bureau of Engineering",
+    "council_file": "26-1589"
+  }
 }

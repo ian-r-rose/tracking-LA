@@ -8,5 +8,28 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1535"
-  ]
+  ],
+  "summary": "Amends a license agreement and grant of right letting LADWP develop and access a parking lot beside Northridge Recreation Center, and adds an ordinance granting LADWP a driveway easement across park property.",
+  "topics": [
+    "parks",
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "Northridge Recreation Center, Los Angeles, CA",
+      "lat": 34.253415,
+      "lon": -118.533987,
+      "neighborhood": "Northridge"
+    },
+    {
+      "text": "LADWP West Valley District Yard, Los Angeles, CA"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "26-1535"
+    ],
+    "action": "license agreement amendment, grant of right and driveway easement",
+    "council_file": "26-1535"
+  }
 }

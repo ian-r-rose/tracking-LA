@@ -8,5 +8,28 @@
   "urls": [
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ZA-2016-498-CUB-ZV-PA1",
     "https://planning.lacity.gov/pdiscaseinfo/caseNumber/ENV-2026-6216-EAF"
-  ]
+  ],
+  "summary": "Zoning Administrator case for a property at 1615 N Cahuenga Blvd in Hollywood. The filing text gives no description of the request beyond the case numbers.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "1615 N Cahuenga Blvd, Los Angeles, CA",
+      "lat": 34.100079,
+      "lon": -118.329593,
+      "neighborhood": "Hollywood"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "ZA-2016-498-CUB-ZV-PA1",
+      "ENV-2026-6216-EAF"
+    ],
+    "council_district": 13,
+    "plan_area": "Hollywood"
+  },
+  "flag": {
+    "reason": "Planning case in or near a watched neighborhood."
+  }
 }

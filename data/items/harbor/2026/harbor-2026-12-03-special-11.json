@@ -13,5 +13,21 @@
     "https://kentico.portoflosangeles.org/getmedia/a2aac8a9-d7b9-4333-bdb8-251ba44e592d/11_Cargo-Real-Estate_Wilmington-Surplus-Sale_Transmittal-3",
     "https://kentico.portoflosangeles.org/getmedia/dfb53c8b-cbe5-4972-b384-c7825f1dd7b0/11_Cargo-Real-Estate_Wilmington-Surplus-Sale_Transmittal-4",
     "https://kentico.portoflosangeles.org/getmedia/78a0b360-c4fb-45ce-a878-0cb89585d5f2/11_Cargo-Real-Estate_Wilmington-Surplus-Sale_Transmittal-5"
-  ]
+  ],
+  "summary": "Declares 29 groups of Harbor Department parcels in East Wilmington surplus, 7 more groups exempt surplus, and the Eubank Ave site surplus, clearing them for eventual sale after appraisal.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "826 Eubank Ave, Los Angeles, CA",
+      "lat": 33.780719,
+      "lon": -118.254946,
+      "neighborhood": "Wilmington"
+    }
+  ],
+  "details": {
+    "action": "surplus property declaration and authorization of disposal",
+    "amount": "$296,000"
+  }
 }

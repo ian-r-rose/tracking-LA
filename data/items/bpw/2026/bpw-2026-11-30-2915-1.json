@@ -8,5 +8,17 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25567",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=e000053e-ead4-465b-baa7-065bceafcfe6"
-  ]
+  ],
+  "summary": "Board of Public Works approval of a second amendment to the Western Gage Median Park contract with the Los Angeles Neighborhood Initiative, raising the total budget authority from $420,465 to $494,969.",
+  "topics": [
+    "parks",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_district": 8,
+    "action": "contract amendment",
+    "amount": "$494,969",
+    "bureau": "Bureau of Engineering"
+  }
 }

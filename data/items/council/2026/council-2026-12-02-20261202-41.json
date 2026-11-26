@@ -8,5 +8,15 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-0600-S111"
-  ]
+  ],
+  "summary": "Files the CAO's recommendation against buying 300 more dual-purpose LAPD vehicles for the 2028 Olympics, which would have been financed through MICLA.",
+  "topics": [
+    "public_safety",
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "council_file": "26-0600-S111",
+    "action": "note and file of LAPD vehicle financing request"
+  }
 }

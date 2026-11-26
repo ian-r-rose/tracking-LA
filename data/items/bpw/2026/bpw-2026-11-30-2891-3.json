@@ -8,5 +8,16 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=df35031e-c9c4-497e-9b40-e2565f5eb2b0"
-  ]
+  ],
+  "summary": "Approves paying $107,205 to renew the city's membership in the National Association of Clean Water Agencies for October 2026 through September 2027.",
+  "topics": [
+    "budget"
+  ],
+  "locations": [],
+  "details": {
+    "applicant": "National Association of Clean Water Agencies (NACWA)",
+    "action": "authority for expenditure",
+    "amount": "$107,205",
+    "bureau": "Bureau of Sanitation"
+  }
 }

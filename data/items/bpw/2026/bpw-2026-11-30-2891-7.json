@@ -8,5 +8,23 @@
   "urls": [
     "https://dpwlacity.primegov.com/Portal/Meeting?compiledMeetingDocumentFileId=25541",
     "https://dpwlacity.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=3d2a12c8-0c59-4574-adc9-c8f239463c89"
-  ]
+  ],
+  "summary": "Approves a permit to remove seven street trees at 7556 North Woodlake Avenue and accepts a replacement guarantee fee instead of planting the required replacement trees on site, since the site cannot fit them.",
+  "topics": [
+    "land_use",
+    "environment"
+  ],
+  "locations": [
+    {
+      "text": "7556 N Woodlake Ave, Los Angeles, CA",
+      "lat": 34.207234,
+      "lon": -118.63211,
+      "neighborhood": "West Hills"
+    }
+  ],
+  "details": {
+    "council_district": 12,
+    "action": "tree removal fee permit",
+    "bureau": "Bureau of Street Services"
+  }
 }

@@ -8,5 +8,14 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/24-0579"
-  ]
+  ],
+  "summary": "Council is reviving an expired file on a City Charter amendment about special elections and filling vacancies for elected officials, restoring it to its last status.",
+  "topics": [
+    "other"
+  ],
+  "locations": [],
+  "details": {
+    "action": "reactivation of expired council file",
+    "council_file": "24-0579"
+  }
 }

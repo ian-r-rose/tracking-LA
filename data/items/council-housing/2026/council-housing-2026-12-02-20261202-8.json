@@ -8,5 +8,28 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-housing-committee-v1.pdf",
     "https://lms.lacity.gov/files/26-0005-S211"
-  ]
+  ],
+  "summary": "The Housing Department asks council to remove the property at 585 West 14th Street from the Rent Escrow Account Program.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "585 W 14th St, Los Angeles, CA",
+      "lat": 33.731444,
+      "lon": -118.289806,
+      "neighborhood": "San Pedro"
+    }
+  ],
+  "details": {
+    "case_numbers": [
+      "600523",
+      "715352",
+      "783345",
+      "888999"
+    ],
+    "council_file": "26-0005-S211",
+    "council_district": 15,
+    "action": "removal from Rent Escrow Account Program"
+  }
 }

@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-arts-parks-and-city-facilities-committee-v2.pdf",
     "https://lms.lacity.gov/files/26-1579"
-  ]
+  ],
+  "summary": "Authorization for General Services to sign a license with Southern California Marine Institute for docking space at Fish Harbor on Terminal Island for a Bureau of Sanitation monitoring vessel.",
+  "topics": [
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Berth 260/261, Fish Harbor, Terminal Island"
+    }
+  ],
+  "details": {
+    "council_file": "26-1579",
+    "council_district": 15,
+    "applicant": "Southern California Marine Institute",
+    "action": "license agreement for docking space",
+    "bureau": "Bureau of Sanitation"
+  }
 }

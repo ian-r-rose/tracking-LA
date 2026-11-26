@@ -8,5 +8,21 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1611"
-  ]
+  ],
+  "summary": "Council would ask LAWA for Van Nuys Airport plans on jobs and workforce, a Good Neighbor plan covering flights, complaints and air monitoring, an updated federal noise study, streetscape improvements, and a lease policy scoring community, workforce and environmental criteria. The City Attorney would also report on the legal limits of those lease terms.",
+  "topics": [
+    "environment",
+    "transportation",
+    "other"
+  ],
+  "locations": [
+    {
+      "text": "Van Nuys Airport"
+    }
+  ],
+  "details": {
+    "council_file": "26-1611",
+    "council_district": 6,
+    "action": "requests for LAWA and City Attorney reports on Van Nuys Airport"
+  }
 }

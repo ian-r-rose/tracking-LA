@@ -8,5 +8,27 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-01-council-v1.pdf",
     "https://lms.lacity.gov/files/26-1660"
-  ]
+  ],
+  "summary": "Council would approve the final parcel map for 329 North Kenmore Avenue in Council District 13, along with its subdivision improvement agreement and security documents.",
+  "topics": [
+    "land_use"
+  ],
+  "locations": [
+    {
+      "text": "329 North Kenmore Avenue, Los Angeles, CA",
+      "lat": 34.076726,
+      "lon": -118.297025,
+      "neighborhood": "East Hollywood"
+    }
+  ],
+  "details": {
+    "council_district": 13,
+    "council_file": "26-1660",
+    "action": "final parcel map approval",
+    "applicant": "Nikhil Kamat (owner)",
+    "amount": "$9,064.00"
+  },
+  "flag": {
+    "reason": "Parcel map in East Hollywood, a watched neighborhood."
+  }
 }

@@ -8,5 +8,22 @@
   "urls": [
     "https://d22tgksh1zpp6f.cloudfront.net/OnlineDocs/agendas/2026/2026-12-02-council-v2.pdf",
     "https://lms.lacity.gov/files/26-1583"
-  ]
+  ],
+  "summary": "Council would approve a memorandum of understanding lending an original Port of Los Angeles Waterfront Red Car to the Southern California Railway Museum for public display, for 20 years with two five-year extensions. The Harbor Department would cover an estimated $592,218 in relocation costs.",
+  "topics": [
+    "other",
+    "budget"
+  ],
+  "locations": [
+    {
+      "text": "Southern California Railway Museum"
+    }
+  ],
+  "details": {
+    "council_file": "26-1583",
+    "council_district": 15,
+    "action": "memorandum of understanding for loan and public display",
+    "amount": "$592,218",
+    "applicant": "Southern California Railway Museum"
+  }
 }
